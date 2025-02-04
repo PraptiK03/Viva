@@ -112,7 +112,7 @@ You can choose to either disable the profile card and keep the feature set, or t
 
 2. To create new learning paths, go to the Viva Learning admin, and then select **Learning paths**.
 
-3. Select **Create New** to generate a new learning path. Learning more about [creating learning paths](#creating-learning-paths.md)
+3. Select **Create New** to generate a new learning path. Learning more about [creating learning paths](creating-learning-paths.md)
 
 4. Publish the learning path. 
 
