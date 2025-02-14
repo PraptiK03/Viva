@@ -193,6 +193,8 @@ items:
         items:
             - name: Question mapping
               href: setup/question-mapping.md
+            - name: Link custom questions to benchmarks
+              href: setup/custom-question-benchmark.md
             - name: Change item IDs
               href: setup/change-item-id.md
       - name: Nudges
@@ -313,7 +315,7 @@ items:
              href: setup/360-design-templates.md
            - name: Set up a 360 program
              items:
-           - name: General Settings and User Roles  
+           - name: General Settings and User Roles
              href: setup/360-general-settings.md
            - name: Create a new 360 program or cycle
              href: setup/360-create-new-360-cycle.md

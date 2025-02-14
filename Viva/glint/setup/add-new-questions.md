@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/30/2025
+ms.date: 02/13/2025
 ---
 
 # Add survey items, sections, and section breaks to a Viva Glint program
@@ -59,10 +59,10 @@ The Viva Glint Question Library has over 400 validated survey items for you to c
 
 When creating new custom questions, keep in mind that:
 
-- There are no preloaded translations
-- There are no external benchmarks
-- Custom questions aren't included in the [Attrition Risk Index](/viva/glint/reports/alerts-report-attrition-risk#attrition-risk-index)
-- Custom questions aren't mapped to standard [Action Plan Templates](/viva/glint/setup/customize-action-plans#understand-terminology-associated-with-content-resources-and-action-plans) or recommended [Focus Areas](/viva/glint/people-science/people-science-explains-focus-areas)
+- There are no preloaded translations.
+- There are no external benchmarks. [Learn more about mapping custom questions to benchmarks](custom-question-benchmark.md).
+- Custom questions aren't included in the [Attrition Risk Index](/viva/glint/reports/alerts-report-attrition-risk#attrition-risk-index).
+- Custom questions aren't mapped to standard [Action Plan Templates](/viva/glint/setup/customize-action-plans#understand-terminology-associated-with-content-resources-and-action-plans) or recommended [Focus Areas](/viva/glint/people-science/people-science-explains-focus-areas).
 
 ### Add a new custom question
 
@@ -76,7 +76,8 @@ For your new item, complete the following fields:
 1. Select a **Language** from languages prepopulated in the dropdown menu
 1. Select the **Question Type** - rating, multiple choice, open-ended
 1. Assign a **Reporting Label** for easy identification of your item
-1. Insert your **Question Text**  The **+ button** allows you to edit the question. 
+1. Insert your **Question Text**  The **+ button** allows you to edit the question.
+1. Consider mapping the custom quesiton to an external benchmark suite, if appropriate. [Learn more](custom-question-benchmark.md).
 1. Consider providing **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item
 1. Consider providing **Comment Placeholder Text** - "Leave your comments here" appears by default, but this text can be customized
 1. Choose the **Rating Scale** for the item - 5 or 7 points
