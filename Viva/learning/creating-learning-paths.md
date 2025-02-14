@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/27/2024
+ms.date: 02/14/2025
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -62,10 +62,8 @@ You also need **admin** or **knowledge manager** permissions to create a learnin
 
     ![Image of a completed section of a learning path with additional sections added](../media/learning/learning-path-final-view.png)
 
-Your learning path is saved in drafts. You can edit, preview, or publish the learning path now to make it available to employees in your organizations. 
+Your learning path is saved in drafts. You can discard saved changes, edit, preview, or publish the learning path now to make it available to employees in your organizations. 
 
->[!NOTE]
->You can't add or remove content from a learning path once it's published. You can only edit the title, description and thumbnail of a published learning path. 
 
 ### View and manage Learning path options
 
@@ -73,17 +71,14 @@ You can always view and manage your existing learning paths under the **Learning
 
 ![Image of options used to edit learning paths in Viva Learning.](../media/learning/learning-path-edit-options.png)
 
-- **Publish** to publish the learning path and make it available for the organization employees. You can't add or remove content from a learning path once published. You can only edit the title, description, and thumbnail of a published learning path.
-- **Edit** to update the learning path details. You can also edit the content for a draft learning path. Editing the learning path doesn't change its copy URL.
+- **Publish** to publish the learning path and make it available for the organization employees. You can also make a note while publishing a learning path.
+- **Edit** to update the learning path details. You can also edit the content and metadata for both draft and published learning paths. Editing the learning path doesn't change its copy URL. Editing a published learning path can change the progress and experience of learners. You can also make a note while editing a learning path.
 - **Preview** to display a preview of how the learning path appears to the learner once published.
 - **Duplicate** to create a copy of an existing learning path, which you can further modify and publish.
 - **Delete** to delete the learning path. Once deleted, the learning path is no longer discoverable to employees in your organization. Deleting the learning path would remove any references like bookmarks or recommendation for that learning path.
 
-Once a learning path is published, it shows up on the **Home page** in the **Browse courses** by the provider section under your tenant name carousel.
+Once a learning path is published, it shows up on the **Home page** in the **Browse courses** by the provider section under your tenant's name carousel.
 
 Employees can discover and play the course by clicking on the learning path card, navigating to the **details** page, and selecting the course thumbnail.
 
->[!NOTE]
->Nested Learning paths are not yet supported.
-
-
+You can find details of users' learning path completion for each version or edit by going to **Manage Content Metadata** and exporting the content metadata for learners.
