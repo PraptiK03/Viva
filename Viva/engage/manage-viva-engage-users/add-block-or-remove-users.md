@@ -75,8 +75,6 @@ Invite external contacts with email addresses outside of your domain (for exampl
   
 As with other users, guest names and profiles remain blank until they accept their invitations and complete registration. Guest accounts can be deleted anytime, but their contributions to the network remain.
   
-For more information about guests, see [External Messaging FAQ](../work-with-external-users/external-messaging-faq.md).
-  
 <a name="RemoveUsers"> </a>
 ## Remove users
 

@@ -63,11 +63,6 @@ The Viva Connections dashboard can be edited right from Microsoft Teams. You nee
 
 If your organization has a [SharePoint home site](home-site-plan.md), you can set up and edit the dashboard from the SharePoint home site or in Microsoft Teams. You need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) for the SharePoint home site to make changes.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE53Joj]
-
-<br>
-<br>
-
 > [!NOTE]
 > Images are an important aspect to making your cards rich and inviting. If you're a SharePoint admin, we recommend enabling a Content Delivery Network (CDN) to improve performance for getting images. Consider when storing images that /siteassets is by default a CDN source when Private CDN is enabled while /style library is the default source when the Public CDN is enabled. [Learn more about CDNs](/office365/enterprise/content-delivery-networks).
 

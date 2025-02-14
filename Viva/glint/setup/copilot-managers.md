@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/13/2025
+ms.date: 1/29/2025
 ---
 
 # How managers use Microsoft 365 Copilot in Viva Glint 
@@ -64,7 +64,7 @@ Use these tips to understand and act on employee feedback quickly:
 |Browse ready-to-use prompts| Prompt guide proactively suggests questions to get you started on data exploration.|
 |Experiment writing your own prompts|Try writing your own prompts on different topics, items, and demographic groups. If a prompt doesn’t work right away, rephrase it.
 |Bundle requests into a single prompt|Follow-up questions aren’t currently supported. Instead, ask multi-step prompts, including your anticipated follow-up question. 
-|Keep queries to Viva Glint data|Copilot in Viva Glint doesn’t access data beyond what is in your dashboard.
+|Keep queries to Glint data|Copilot in Viva Glint doesn’t access data beyond what is in your dashboard.
 |Be specific on your prompt wording|The more detailed your prompt, the more likely Copilot in Viva Glint accurately interprets the intent. 
 
 > [!IMPORTANT]
@@ -97,7 +97,7 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
 1. Copilot in Viva Glint populates with the summary. In this example, the first prompt is chosen. Copilot summarizes 7,747 comments.
 
-   :::image type="content" source="../../media/glint/reports/copilot-up-to-8000.png" alt-text="Screenshot of a Copilot in Viva Glint summary." lightbox="../../media/glint/reports/copilot-up-to-8000.png":::
+   :::image type="content" source="../../media/glint/reports/copilot-up-to-8000.png" alt-text="Screenshot of a Copilot in Viva Glint summary.":::
 
 2. Use the **View Prompt Guide** menu to display more prompts, or key in your own question in the box provided.
 
@@ -186,7 +186,7 @@ Copilot in Viva Glint is only preserved within a user session. Once you log out,
 
 Our evaluation process incorporates feedback from early adopters and customers. This ongoing process helps us continuously enhance the Copilot in Viva Glint performance. 
 
-Allow your leaders to give feedback by enabling feedback. **The feedback feature must be set for your organization by the Microsoft 365 Global Administrator.** Enablement occurs within Policy Management in the Microsoft 365 Apps Admin Center. Without this feature enabled, leaders don’t have access to provide feedback.
+Allow your leaders to give feedback by enabling feedback. **The feedback feature must be set for your organization by the Microsoft 365 Global Administrator.** Enablement occurs within Policy Management in the Microsoft 365 Apps Admin Center. Without this feature enabled, leaders don't have access to provide feedback.
 
 We suggest enabling:
 
@@ -194,13 +194,15 @@ We suggest enabling:
   - Allow users to include screenshots and attachments when they submit feedback to Microsoft.
   - Allow users to include log file and relevant content samples when feedback is submitted to Microsoft.
 
-Users see this:
+   Users see this:
 
- :::image type="content" source="../../media/glint/reports/copilot-give-feedback.png" alt-text="Screenshot of how to share Copilot feedback with Microsoft.":::
+   :::image type="content" source="../../media/glint/reports/copilot-give-feedback.png" alt-text="Screenshot of how to share Copilot feedback with Microsoft.":::
 
 ## More feedback resources
 
 [Submit product feedback to Microsoft](https://go.microsoft.com/fwlink/?linkid=2276920)
+
 [Overview of Cloud Policy](https://go.microsoft.com/fwlink/?linkid=2276730)
+
 [Manage Microsoft feedback](https://go.microsoft.com/fwlink/?linkid=2276731)
 

@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 03/07/2024
+ms.date: 02/10/2025
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -13,22 +13,22 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
 ms.localizationpriority: medium
-description: This topic describes the settings for the Microsoft Learn provider.
+description: This article describes the settings for the Microsoft Learn provider when using Viva Learning.
 ---
 
 # Microsoft Learn
 
-[Microsoft Learn](/teamblog/introducing-ms-learn) content is available for all users of Viva Learning. This is enabled by default and can be managed in the **Manage Providers** section of Viva [Learning Admin tab](https://learning.cloud.microsoft/admin).
+Microsoft Learn content is available for all users of Viva Learning and enabled by default. Microsoft Learn settings can be managed in the **Manage Providers** section of the Viva [Learning Admin tab](https://learning.cloud.microsoft/admin).
 
 ## Features
 
-All Microsoft Learn content have Single-Sign On (SSO) enabled for all Viva Learning users by default. Now, users are automatically signed in to their Learn profile and can continue their learning from their last visited page of content.
+All Microsoft Learn content has Single-Sign On (SSO) enabled for all Viva Learning users by default. Now, users are automatically signed in to their Learn profile and can continue their learning from their last visited page of content.
 
-If users have more than one account logged in or no existing account, the Learn website prompts the user to choose or create their profile. Admins can't switch off Microsoft Learn SSO.
+If users have more than one account logged in or no existing account, the Learn website asks the user to choose or create their profile. Admins can't switch off Microsoft Learn SSO.
 
 ## Update Cycle 
 
-Microsoft Learn content gets updated daily. It may take 1-2 days for updates to reflect in Viva Learning App.
+Microsoft Learn content gets updated daily. It can take 1-2 days for updates to reflect in Viva Learning App.
 
 ## Supported Languages  
 

@@ -46,7 +46,7 @@ Viva Connections gives different roles in your organization a personalized landi
 
 > [!NOTE]
 >
-> Updates to the Viva Connections mobile app are planned for Q2 2024.
+> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
 
 :::image type="content" source="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png" alt-text="Screenshot of the Viva Connections app on desktop and mobile." lightbox="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png":::
 
@@ -70,7 +70,7 @@ Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get 
 
 > [!NOTE]
 >
-> - A home site is not a requirement for setting up Viva Connections, but some organizations may choose to use a home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. [Learn more about home sites and how they complement Viva Connections](#how-sharepoint-home-sites-and-viva-connections-work-together).
+> - A home site isn't a requirement for setting up Viva Connections, but some organizations might choose to use a home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. [Learn more about home sites and how they complement Viva Connections](#how-sharepoint-home-sites-and-viva-connections-work-together).
 
 ## Components to Viva Connections
 
@@ -166,7 +166,7 @@ Discover [more card options from partner services](https://cloudpartners.transfo
 
 ### Viva Connections resources
 
-Resources are navigational links that can be set up and customized both from the Teams app and web experience for Viva Connections. Once set up, theses resources are displayed on the desktop, web, and mobile experiences of Viva Connections. They include customized links from any URL, whether it's external to your organization or internal to organization. Links can be further customized by applying audience targeting to each link.
+Resources are navigational links that can be set up and customized both from the Teams app and web experience for Viva Connections. Once set up, these resources are displayed on the desktop, web, and mobile experiences of Viva Connections. They include customized links from any URL, whether it's external to your organization or internal to organization. Links can be further customized by applying audience targeting to each link.
 
 Organizations with a [SharePoint home site](home-site-plan.md) that created a [global navigation bar](sharepoint-app-bar.md) can also provide users with links to resources. The global navigation bar can only be accessed outside SharePoint by users through the Viva Connections app on Microsoft Teams by selecting the organizations logo on the Teams app rail. Links from the Global Navigation bar can also be [imported into the Resources section](edit-viva-home.md#import-sharepoint-links) of Viva Connections.
 
@@ -184,13 +184,9 @@ The desktop and mobile experiences are centered around the three main components
 
 Accessing Viva Connections from a tablet or mobile device features a more compact experience for the three components and uses tabs to make it easier to scroll through content.
 
-> [!NOTE]
->
-> The spotlight will not display in the mobile experience at this time. A future update is planned to bring this feature to mobile.
-
 ### The Viva Connections desktop experience
 
-Accessing Viva Connections via Teams, SharePoint home page, or [Viva Suite home website](https://viva.cloud.microsoft/) provides a consistent experience through multiple entry points.
+Users can access Viva Connections via Teams, their organization's SharePoint home page, or the [Viva Suite home website](https://viva.cloud.microsoft/), thus providing a consistent experience through multiple entry points.
 
 :::image type="content" source="../media/connections/viva-connections-overview/vc3-at-a-glance-desktop.png" alt-text="Screenshot of the Viva Connections desktop experience." lightbox="../media/connections/viva-connections-overview/vc3-at-a-glance-desktop.png":::
 
@@ -229,10 +225,10 @@ Accessing Viva Connections via Teams, SharePoint home page, or [Viva Suite home 
 ### The Viva Connections mobile experience
 
 The experience in the Viva Connections mobile app is anchored around three key concepts: the dashboard, the feed, and resources.
-<br>
-<br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TpyN title="Viva Connections on any device"]
+:::image type="content" source="../media/connections/viva-connections-overview/mobile-dashboard.png" alt-text="Screenshot showing the dashboard tab on the Viva Connections mobile app." lightbox="../media/connections/viva-connections-overview/mobile-dashboard.png":::
+
+For more detailed information, see the article on [Viva Connections on mobile devices](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2).
 
 ## Curated and tailored experiences
 
@@ -246,9 +242,7 @@ A tailored experience is one in which content is automatically displayed accordi
 
 - **Dashboard (curated)**: A dashboard author controls the curation of the dashboard and can target each card on the dashboard to specific audiences using existing Microsoft Entra ID groups. This allows dashboard authors to create different experiences for each group. And because Viva Connection uses Microsoft Entra ID groups, authors benefit from dynamic group memberships to reduce administrative overhead. Authors can easily preview what the dashboard looks like across devices and audiences.
 
-- **Resources (curated)**: The list of sites on the resources experience in mobile is controlled by a resource author who generates links for the organization and enables audience targeting so that users in different groups see relevant navigation items. Links from the Global Navigation bar can also be [imported into the Resources section](edit-viva-home.md#import-sharepoint-links) of Viva Connections.
-
-<br>
+- **Resources (curated)**: The list of sites on the resources experience in mobile is controlled by a resource author who generates links for the organization and enables audience targeting so that users in different groups see relevant navigation items.
 
 |Capability name |Curated vs. tailored  |Details  |
 |---------|---------|---------|
@@ -302,7 +296,7 @@ Depending on the size of your organization and the information to communicate, y
 
 > [!NOTE]
 >
-> - SharePoint home sites are now set in the Microsoft admin center and can be setup when you create a Viva Connections experience that builds off an intranet portal.
+> - SharePoint home sites are now set in the Microsoft admin center and can be set up when you create a Viva Connections experience that builds off an intranet portal.
 > - You must have an Enterprise (E), Frontline (F), or Academic (A) license type to create a Viva Connections experience.
 > - Users with a Microsoft 365 subscription (E, F, or A license) are limited to creating and using one experience. If you want to create or use two or more experiences (up to 50), then every user in your tenant must have a Microsoft Viva Suite or Viva Communications and Communities license. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 

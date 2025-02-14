@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 09/02/2024
+ms.date: 01/31/2025
 title: Skills landscape report
 description: Navigate the skills landscape report in Viva Insights
 author: zachminers
@@ -16,6 +16,9 @@ audience: Admin
 
 >[!Important]
 >This feature is in private preview. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
+
+>[!Note]
+>We've launched a new version of this report. If you're an existing customer using the previous version of this template, run a new query to load the new results.
 
 The Skills landscape report helps you explore top skills people in your company may be using and identify potential skill gaps. These insights are powered by Skills in Viva.
 With this report, you can:
@@ -108,8 +111,7 @@ The report provides insights about the skills landscape in your organization to 
 ### About skill distribution and related concepts
 This is the total number or percentage of people in your organization who have either confirmed they have a skill or are presumed to have a skill based on AI reasoning and analysis. Distribution can be filtered to include only confirmed skills in **Report settings**. Additionally, people with related skills can be included in the distribution, which is configurable on each report page. 
 * **Skill confirmed by user**: A skill that a person confirmed they have in Skills in Viva.
-* **Skill inferred by AI**: A skill that an AI system predicts a person has but hasn’t been confirmed by the person. AI inferences are based on job titles and recent Microsoft 365 activities. 
-* **Related skills**: If two skills are related, it's more likely they share a common knowledge foundation or can be used to accomplish similar tasks. 
+* **Skill inferred by AI**: A skill that an AI system predicts a person has but hasn’t been confirmed by the person. AI inferences are based on job titles and recent Microsoft 365 activities.
 
 
 ### Skills in Viva data coverage 
@@ -126,11 +128,7 @@ This page provides a summary of your organization’s skills data. This page can
 
 This page provides insights on how skills are distributed between groups (determined by organizational attributes). You can use these insights to understand the skill profile for a group, compare differences across groups, and identify potential skill gaps.
 
-When people with related skills are included in the distribution, the following insights become available:
-
-* Additional population, by breakdown groups, that may have been using at least a skill that’s related to the selected skill 
-
-* Top skills that are related to the selected skill, based on the distribution in the organization
+You can locate a group of highly relevant skills, including subskills and adjacent skills, once you select a primary skill. You can group these skills directly for distribution insights or make further adjustments to your selection to fit your analysis needs.
 
 ### Skills landscape (beta)
 

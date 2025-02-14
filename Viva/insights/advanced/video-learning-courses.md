@@ -24,13 +24,15 @@ Use the video resources below to help you get started. Each link points to a ded
 
 [Customize privacy settings](../advanced/setup-maint/privacy-settings.md)
 
+[Import business data with Azure](./admin/import-business-data-azure.md#video-tutorial)
+
 ## Courses for analysts - Power BI templates
 
 [Introduction to Power BI templates](../advanced/analyst/templates/introduction-to-templates.md)
 
 ## Courses for analysts - Overview and queries
 
-[Introduction to advanced insights and the analyst workbench](../advanced/introduction-to-advanced-insights.md#navigation)
+[Introduction to advanced insights and the analyst workbench](../advanced/introduction-to-advanced-insights.md#analyst-features)
 
 [Create a custom meeting query](../advanced/analyst/meeting-query.md)
 

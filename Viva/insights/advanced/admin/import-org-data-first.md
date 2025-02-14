@@ -1,5 +1,5 @@
 ---
-ms.date: 11/18/2024
+ms.date: 02/04/2025
 title: Import organizational data using API-based import (first import)
 description: Learn how to set up a connection and import your data to the Viva Insights advanced insights app
 author: zachminers
@@ -42,8 +42,8 @@ However, before you can run your app and start transferring data to Viva Insight
     1. Using the security certificate, the Microsoft 365 admin [registers a new app in Azure](#register-a-new-app-in-azure).
     1. Using IDs from the app registration, the Insights admin [sets up the import](#set-up-the-import-in-viva-insights).
     1. The data source admin prepares their data and either:
-        1.	Exports it from their source system using a custom app based on our API, then, using the same app, imports the data to Viva Insights.
-        2.	Exports it from their source system using a custom app based on our API, then, using our C# solution or PowerShell script, imports the data to Viva Insights.
+        1.	Exports it from their source system using a custom app based on our API, then using the same app, imports the data to Viva Insights.
+        2.	Exports it from their source system using a custom app based on our API, then using our C# solution or PowerShell script, imports the data to Viva Insights.
 
     :::image type="content" source="../images/admin-data-import-flow.png" alt-text=" Diagram of the workflow above."lightbox="../images/admin-data-import-flow-expanded.png":::
 
@@ -98,8 +98,8 @@ That’s it for now. If you want to get a head start on your next steps, follow 
          :::image type="content" source="../images/admin-di-app-id.png" alt-text="Screenshot that shows the ID and certificate/secret pane in Azure.":::
 
 
-    >[!Important]
-    >Keep these IDs handy. You'll need to provide them later.
+        >[!Important]
+        >Keep these IDs handy. You'll need to provide them later.
 1. Add a certificate:
     1.  Select **Add a certificate or secret**.
 
@@ -116,7 +116,7 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
 5. Remove API permissions:
     1. Select **API permissions** from the left rail.
-    2. For each listed **API / Permissions** name, select the ellipses (**...**) to the right of the API—for example, **Microsoft Graph**.
+    2. For each listed **API / Permissions** name, select the ellipsis (**...**) to the right of the API—for example, **Microsoft Graph**.
     3. Select **Remove permission**.
 
         :::image type="content" source="../images/admin-di-upload-remove-perms-1.png" alt-text="Screenshot that shows selecting Remove permissions in Azure. "lightbox="../images/admin-di-upload-remove-perms-1.png":::
@@ -236,7 +236,7 @@ View the following commands:
 These two request headers are required for all the APIs mentioned below  
  
 
-`x-nova-scale unit: <ScaleUnit obtained from your VI contact>`
+`x-nova-scaleunit: <ScaleUnit obtained from Insights setup connection page>`
 
 `Authentication: Bearer <Oauth token from AAD>` 
  
@@ -252,7 +252,7 @@ These two request headers are required for all the APIs mentioned below
 
 ##### Get connector/ping to check if connector is set for a tenant
  
-`[GET] https://api.orginsights.viva.office.com/v1.0/scopes/<tenantId>/ingress/connectors/ status?connectorType=Hr`
+`[GET] https://api.orginsights.viva.office.com/v1.0/scopes/<tenantId>/ingress/connectors/HR`
 
 [ResponseBody]  
 
@@ -418,7 +418,7 @@ Your app can take any form—for example, a PowerShell script—but it needs to 
 
 ##### Option 2: Import data through our C# solution after exporting data through your custom app 
 
-After you’ve exported your source data as a zip folder at the frequency you pick, and stored that folder in your files, you can run the DescriptiveDataUploadApp C# solution on the console. The DescriptiveDataUploadApp C# solution then brings your locally stored data into Viva Insights. 
+After you’ve exported your source data as a zip folder at the frequency you pick, and stored that folder in your files, you can run the DescriptiveDataUploadApp C# solution on the console. The DescriptiveDataUploadApp C# solution then brings your locally stored data into Viva Insights. [Learn more on GitHub](https://github.com/microsoft/vivainsights_ingressupload).
 
 To run the solution: 
 
@@ -434,7 +434,7 @@ To run the solution:
 
 ##### Option 3: Run the DescriptiveDataUpload PowerShell solution after exporting data through your custom app 
 
-Similar to option 2, after you’ve exported your source data as a zip folder at the frequency you pick, and stored that folder in your files, you can run the DescriptiveDataUpload PowerShell solution on the console. The DescriptiveDataUpload PowerShell solution then brings your locally stored data into Viva Insights. 
+Similar to option 2, after you’ve exported your source data as a zip folder at the frequency you pick, and stored that folder in your files, you can run the DescriptiveDataUpload PowerShell solution on the console. The DescriptiveDataUpload PowerShell solution then brings your locally stored data into Viva Insights. [Learn more on GitHub](https://github.com/microsoft/vivainsights_ingressupload).
 
 1. Clone the source code to your machine by running this command on the command line: 
 

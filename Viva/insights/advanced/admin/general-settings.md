@@ -1,5 +1,5 @@
 ---
-ms.date: 01/29/2024
+ms.date: 01/29/2025
 title: View and customize your general settings
 description: This article gives an overview of the general settings page in the advanced insights app for admins and analysts.
 author: zachminers

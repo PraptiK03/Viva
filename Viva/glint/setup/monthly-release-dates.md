@@ -1,5 +1,5 @@
 ---
-title: Plan for Viva Glint platform deployment dates
+title: Viva Glint platform deployment dates
 description: Viva Glint deployment dates are available to customers and provide details about what's upcoming for the Viva Glint platform. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,44 +14,28 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/13/2024
+ms.date: 2/06/2025
 ---
 
-# Plan for Viva Glint platform deployment dates
+# Viva Glint platform deployment dates
 
-Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Recurring updates to all customers and providing details about what's upcoming to the Viva Glint platform. This update includes scheduled downtime for the regular maintenance. The release schedule is subject to change and is updated as appropriate. 
+Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Updates are communicated to all customers via monthly email newsletters. [Find the current and past newsletters here.](https://techcommunity.microsoft.com/category/viva-glint/blog/viva_glint_blog)
 
-Beginning in April, 2025, deployment days move from Saturdays to Thursdays.
+> [!NOTE]
+> Beginning in April 2025, Viva Glint deployment days move from Saturdays to Thursdays.
 
->[!TIP]
->Inform survey takers if this short instance of downtime occurs during a survey-taking window. In most cases, platform downtime will be less than twelve hours.
+|Planned deployment dates for 2025|
+|--------------|
+|Saturday, January 18, 2025|
+|Saturday February 15, 2025|
+|Saturday, March 15, 2025|
+|Thursday, April 10, 2025|
+|Thursday, May 15, 2025|
+|Thursday, June 12, 2025|
 
-|Planned release date|Read the blog|
-|--------------|-------------------------------------------------------|
-|March 9, 2024|[Volume 1, Edition 3](https://techcommunity.microsoft.com/t5/viva-glint-blog/march-2024-viva-glint-newsletter/ba-p/4072981)|
-|April 6, 2024|[Volume 1, Edition 4](https://techcommunity.microsoft.com/t5/viva-glint-blog/april-2024-viva-glint-newsletter/ba-p/4100871)|
-|May 4, 2024|[Volume 1, Edition 5](https://techcommunity.microsoft.com/t5/viva-glint-blog/may-4-2024-viva-glint-release-update/ba-p/4127426)|
-|June 1 2024|[Volume 1, Edition 6](https://techcommunity.microsoft.com/t5/viva-glint-blog/june-2024-viva-glint-release-update/ba-p/4157334)|
-|June 29, 2024|[Volume 1, Edition 7](https://techcommunity.microsoft.com/t5/viva-glint-blog/july-2024-viva-glint-release-updates/ba-p/4180459)|
-|July 27, 2024|[Volume 1, Edition 8](https://techcommunity.microsoft.com/t5/viva-glint-blog/updates-for-the-july-27-2024-release/ba-p/4206526)|
-|August 24, 2024|[Volume 1, Edition 9](https://techcommunity.microsoft.com/t5/viva-glint-blog/news-to-know-volume-1-edition-9/ba-p/4229968)|
-|September 21, 2024|[Volume 1, Edition 10](https://techcommunity.microsoft.com/t5/viva-glint-blog/news-to-know-volume-1-edition-10/ba-p/4255096)|
-|October 19, 2024|[Volume 1, Edition 11](https://techcommunity.microsoft.com/blog/viva_glint_blog/news-to-know-volume-1-edition-11/4276675)
-|November 16, 2024|[Volume 1, Edition 12](https://techcommunity.microsoft.com/blog/viva_glint_blog/news-to-know---volume-1-edition-12/4310600)
-|December 7, 2024|[Volume 1, Edition 13](https://techcommunity.microsoft.com/blog/viva_glint_blog/news-to-know---volume-1-edition-13/4355941)
-|January 18, 2025|
-|February 15, 2025|
-|March 15, 2025|
-|April 10, 2025*|
-|May 15, 2025*|
-|June 10, 2025*|
 
-> [!IMPORTANT]
-> Be mindful of scheduled dates when your Viva Glint platform will be down for maintenance and feature enhancements. Any time a person logs into a Viva Glint program and a scheduled maintenance instance is impending within two-three days, a message alerting the user to the scheduled shutdown appears.
->
->*Viva Glint is committed to consistently improving the customer experience. The cloud-based platform maintains an agile production cycle with fixes, enhancements, and new features. Planned program release dates are provided with the best intentions of releasing on these dates, but dates may change due to unforeseen circumstances. Scheduled updates are provided as appropriate*
+Viva Glint is committed to consistently improving the customer experience. The cloud-based platform maintains an agile production cycle with fixes, enhancements, and new features. Planned program release dates are provided with the best intentions of releasing on these dates, but dates may change due to unforeseen circumstances. Updates are provided as appropriate.
 
-***Deployment days move to Thursday, with no downtime or disruption anticipated.**
 
 
 

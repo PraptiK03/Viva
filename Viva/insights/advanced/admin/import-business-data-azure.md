@@ -43,6 +43,10 @@ With an Azure blob import, your Azure subscription’s **Owner** or **Storage Ac
 
    After the data successfully validates and processes, the overall data-import task is complete.
 
+## Video tutorial
+
+> [!VIDEO 7f1b8691-ed65-4f68-a4de-576d77bc3b27]
+
 ## Setup
 
 ### 1. Create a secure blob container

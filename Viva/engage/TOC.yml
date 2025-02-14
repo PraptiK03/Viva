@@ -52,8 +52,6 @@
           href: /viva/engage/configure-your-viva-engage-network/nonnative-hybrid 
         - name: Configure email for the network
           href: /viva/engage/configure-your-viva-engage-network/configure-email-and-viva-engage
-        - name: Customize the look of your network
-          href: /viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage
         - name: Files in Native Mode
           href: /viva/engage/configure-your-viva-engage-network/files-in-native-mode
         - name: File storage for Viva Engage
@@ -64,8 +62,6 @@
           href: engage-microsoft-365-groups.md
         - name: Create a dynamic group
           href: /viva/engage/manage-viva-engage-groups/create-a-dynamic-group
-        - name: Customize your community
-          href: /viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage
         - name: Work with Microsoft Entra B2B guests
           href: /viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage
         - name: All Company communities

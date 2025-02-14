@@ -16,7 +16,8 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/13/2025
+ms.custom: CELA-approved
+ms.date: 02/14/2025
 ---
 
 # Data, privacy, and security compliance for Microsoft 365 Copilot in Viva Glint
@@ -51,8 +52,8 @@ Copilot in Viva Glint follows the same privacy practices employed by Viva Glint.
 
 - [Security and privacy for data usage in Viva Glint](/../../viva/glint/setup/gdpr-special-categories)
 - [Microsoft compliance – Viva Glint](/../../viva/viva-compliance)
-- [Learn how managers can use Copilot in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2274072)
-- [Find answers to technical FAQs](https://go.microsoft.com/fwlink/?linkid=2274071)
+- [Learn how managers can use Copilot in Viva Glint](/../../viva/glint/setup/copilot-managers)
+- [Find answers to technical FAQs](/../../viva/glint/setup/copilot-faqs)
 - [Copilot for Microsoft 365](https://adoption.microsoft.com/copilot/)
 
 

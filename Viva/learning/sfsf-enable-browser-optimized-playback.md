@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 03/05/2024
+ms.date: 02/10/2025
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -32,7 +32,7 @@ Browser optimized playback is enhanced for Teams desktop and web. It loads the S
 > [!IMPORTANT]
 > - Only the content classified by SAP SuccessFactors as **online** or **instructor-led with online** are enabled for browser optimized playback from Viva Learning. Content of other classifications loads the SAP SuccessFactors details page.
 > - For this experience to be available for content classified as **online** or **instructor-led with online** in SAP SuccessFactors, ensure that such content is part of a SuccessFactors library. This experience isn't enabled for content that isn't part of a SuccessFactors library.
-> - Content with classification other than **online** or **instructor-led with online** in SAP SuccessFactors will load the SAP SuccessFactors details page and this experience is not applicable for content with such classifications.
+> - Content with classification other than **online** or **instructor-led with online** in SAP SuccessFactors will load the SAP SuccessFactors details page and this experience isn't applicable for content with such classifications.
 
 ## Prerequisite for enabling SSO
 
@@ -45,7 +45,7 @@ Sign in to Teams and Windows with the same user account for consumption of SAP S
 You might encounter a "refused to connect" error or a blank screen the first time you consume SAP SuccessFactors content from Learning. The content plays successfully on subsequent content launches, however. To resolve this issue, refer to the SAP Knowledge Base Article - [2169861](https://userapps.support.sap.com/sap/support/knowledge/en/2169861).
 
 > [!NOTE]
-> If the SSO on both Microsoft Entra and SAP SuccessFactors are already configured in the tenant, as described in the above documentation, then no action is required.
+> If the SSO on both Microsoft Entra and SAP SuccessFactors is already configured in the tenant, as described in the above documentation, then no action is required.
 
 ## Prerequisite for enabling browser optimized playback
 

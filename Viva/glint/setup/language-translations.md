@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/17/2024
+ms.date: 01/24/2025
 ---
 
 # Manage language translations in Viva Glint programs 
@@ -28,8 +28,8 @@ There are four steps for language translations:
 3. Review translations 
 4. Import content back into the Viva Glint program
 
-> [!TIP]
-> Find valid language codes for Viva Glint on the Language Codes tab of the Viva Glint [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533).
+> [!IMPORTANT]
+> See the Language Codes tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) for valid values and changes to supported languages and codes effective April 10, 2025. 
 
 ## Export survey and email text for translation
 
@@ -49,20 +49,20 @@ There are four steps for language translations:
 ## Translate Question Library items
 
 Export the items. 
-<br>From the file that has been generated: 
+<br>From the file that's generated: 
 
 1. **Use a translator** to make exact changes to the items in column C for the approved English text from column B. 
 1. To the right, consider other items which might require translation: reporting labels, multiple choice questions, and ratings labels.  
 1. **Use a translation reviewer** to ensure that translated items match exactly to the approved item from the Question Library.
 
-### Translater tips
+### Translator tips
 
 |Do|Don't|
 |-------|--------|
 |Keep the translated content in the same cell and columns|Don't edit, translate, or delete any bracketed text such as {user first name}, `<COMPANY_NAME>` or {{company name}}. It must stay the same for personalization coding. There's no need to translate anything in brackets. If questions containing brackets are changed, ensure brackets around the text are balanced (one bracket at the start and one at the end, or two at the start and end).| 
 |Ensure that there are no spaces added before or after the updated content|Don't make visual, format, or other stylistic changes unless it improves clarity. Changes shouldn't alter the meaning conveyed in the original English text. Don't add personal comments.|
-|Ensure there is consistent punctuation at the end of sentences (that is, all using a period or none using a period)|Don't add personal comments.|
-|Check for grammatical errors|Don't add new or additional columns or remove columns.| 
+|Ensure punctuation is consistent at the end of sentences (that is, all using a period or none using a period)|Don't add personal comments.|
+|Check for grammatical errors|Don't add new columns or remove columns.| 
 
 ## Translation reviewer tips
 

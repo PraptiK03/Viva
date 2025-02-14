@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 02/14/2024
+ms.date: 02/10/2025
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -27,7 +27,7 @@ Viva Learning supports the following document types, when adding content from Sh
 - [Linked objects](#add-linked-objects)
 
 > [!NOTE]
-> Viva Learning is currently unable to support video (.avi) document type in the standalone web app due to an ongoing issue. Once the issue is fixed, we will continue to support this document type.
+> Viva Learning is currently unable to support video (.avi) document type in the standalone web app due to an ongoing issue. Once the issue is fixed, we continue to support this document type.
 
 > [!NOTE]
 > - You need a Viva Suite or Viva Learning license to add link to content.   
@@ -36,7 +36,7 @@ Viva Learning supports the following document types, when adding content from Sh
 
 1. Create a [learning path](creating-learning-paths.md), [learning collection](creating-learning-collections.md), or [featured set](use-tabs.md#feature-sets)
 
-2. Select **Add content** to add courses to your learning path.
+2. Select **Add content** to add courses to you're learning path.
 
 3. Select **Add link to content**.
 
@@ -81,5 +81,3 @@ To add a SharePoint page or SharePoint site, create a linked object and add the 
     ![Screenshot of the documents library with a new file called Azure.url.](../media/learning/sp-linkinlibrary.png)
 
 The linked object now displays in the Viva Learning app. 
-
- 

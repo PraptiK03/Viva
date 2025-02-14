@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 03/07/2024
+ms.date: 02/10/2025
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -18,11 +18,11 @@ description: A guide to advanced search options that help you search for content
 
 # Advanced Search in Viva Learning
 
-Use the advanced search options in Viva Learning to expand and refine search results when looking for specific content.
+The advanced search options in Viva Learning let you expand and refine search results when looking for specific content.
 
 ## Find an exact match
 
-Find an exact learning content by using double quotes (“ “). Viva Learning matches the query with its exact match across fields like Title, Description and metadata like skills and keywords.
+Find an exact learning content by using double quotes (“ “). Viva Learning matches the query with its exact match across fields like Title, Description, and metadata like skills and keywords.
 
 
 ## Find content using custom queries
@@ -38,7 +38,7 @@ A query consists of two main parts
 
 ### User accessible attributes
 
-The following learning content attributes can be used by both admins and learners in queries:
+Admins and learners can use these attributes to form precise queries:
 
 |Attributes | Description|
 |-----------|-----------|
@@ -55,7 +55,7 @@ The following learning content attributes can be used by both admins and learner
 
 ### Admin accessible attributes 
 
-The following attributes are available to Viva Learning knowledge admins. These aren't visible to learners. Learners still can search using these attributes, if they know the values for the attributes.
+The following attributes are available to Viva Learning knowledge admins. They aren't visible to learners. Learners can search using these attributes, if they know the values for the attributes.
 
 |Attributes | Description|
 |-----------|-----------|
@@ -75,11 +75,11 @@ Operators are identified only if written in capital letters
 
 
 >[!NOTE]
-> The **NOT** operator is currently not supported. We are working on this capability for future releases.
+> The **NOT** operator is currently not supported. We're working on this capability for future releases.
 
 ## Creating Queries 
 
-When creating queries, some attributes require precise values while others support approximate values.
+ Some attributes require precise values while others support approximate values.
 
 >[!IMPORTANT]
 > 
@@ -97,9 +97,10 @@ The following attributes require you to input precise values matching all charac
 - Source
 
 >[!NOTE]
-> The Id field can be used only for content from Microsoft Learn, M365 trainings, LinkedIn Learning, Coursera, Infosec, JBA, Pluralsight and edX. Support for other providers is in progress.
+> You can use Id field only for content from Microsoft Learn, Microsoft 365 trainings, LinkedIn Learning, Coursera, Infosec, JBA, Pluralsight, and edX. 
+Support for other providers is in progress.
 
-Some fields support approximate matching of queries. The [exact match](#find-an-exact-match) feature mentioned above can be used with these fields using double quotes.
+Some fields support approximate matching of queries. The [exact match](#find-an-exact-match) feature mentioned before can be used with these fields using double quotes.
 Using quotes in these fields result in exact match in that field:
 
 - Title
@@ -122,8 +123,8 @@ Single attribute-multiple values using OR| `<attribute>`:`(<value1> OR <value2>)
 Note the following considerations: 
 
 - Parentheses or round brackets are needed to understand that there are multiple queries for a single attribute.
-- Nested parentheses (parentheses inside parentheses) aren't supported currently. Using this construction may give unexpected results.
-- Using **AND** in some attributes may give empty results as the field may not support multiple values.
+- Nested parentheses (parentheses inside parentheses) aren't supported currently. Using this construction can give unexpected results.
+- Using **AND** in some attributes can give empty results as the field may not support multiple values.
 - There's no limit to the number of stacking queries. The only limit applied is the size of text box.
 
 #### Single attribute query examples
@@ -152,7 +153,7 @@ Use the following format to search using attributes for advanced filtering:
 
 |Query type| Format | Example|
 |------|-----|------|
-Multiple attribute - multiple value| `<attribute>`:`(<value> OR <value2>...)` AND/OR `<attribute>`:`(<value> OR <value2>...)`| `Title`: `(React)` AND `Type`:`(Course)`|
+Multiple attributes - multiple value| `<attribute>`:`(<value> OR <value2>...)` AND/OR `<attribute>`:`(<value> OR <value2>...)`| `Title`: `(React)` AND `Type`:`(Course)`|
 
 #### Multiple attribute query examples:
 
@@ -160,7 +161,7 @@ Multiple attribute - multiple value| `<attribute>`:`(<value> OR <value2>...)` AN
 |Case| Sample Query |
 |------|-----|
 |Find specific content by a particular provider | `Provider: (Microsoft Learn) AND Title: (“React”)` |
-|Find non-premium content in LinkedIn Learning| `Premium:(False) AND Provider:(LinkedIn Learning)`|
+|Find nonpremium content in LinkedIn Learning| `Premium:(False) AND Provider:(LinkedIn Learning)`|
 |Find courses that are either 10 or 15 minutes long| `Duration: (600 OR 900) AND Type: (Course)`|
 |Find content by a specific author within a particular provider| `Author:(Lori Mullen) AND Provider:(LinkedIn Learning)` |
 

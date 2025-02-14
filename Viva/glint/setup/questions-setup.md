@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/11/2024
+ms.date: 02/13/2025
 ---
 
 # Questions set up in Program Summary
@@ -28,7 +28,7 @@ Admins can add or modify survey items on the Questions page.
 
  Refer to the [Learn about Viva Glint program design](/training/modules/viva-glint-learn-about-viva-glint-program-design) module to learn how to implement your organization's listening strategy in your survey program question setup.
 
-## Use Glint's survey templates
+## Use Viva Glint's survey templates
 
 Standard templates provide prepopulated survey items, along with customizable introductory and concluding text. The Viva Glint People Science Team researches and substantiates prepopulated survey items.
 
@@ -37,29 +37,40 @@ Standard templates provide prepopulated survey items, along with customizable in
 Customize the introduction message for the survey by hovering over the box with the **Hello** message and select it. In the **Edit Survey Intro** slider panel:
 
 1. Select languages from the **Language** dropdown menu. Languages selected in General Settings are available.
-2.  Edit **Greeting** - "Hello" is prepopulated, but can be customized for your organization.
+2. Edit **Greeting** - "Hello" is prepopulated, but can be customized for your organization.
 3. Edit **Text** - You see default text in the **Text** box. All default text can be edited. Delete macros or add macros by selecting the **blue plus sign (+)** in the Text box.
 4. Select **Save Changes**.
 
    :::image type="content" source="../../media/glint/setup/questions-hello-text.png" alt-text="Screenshot of where to customize introductory text." lightbox="../../media/glint/setup/questions-hello-text.png":::
 
-### Add a logo to the survey intro
+### Add a hyperlink to the survey introduction
+
+To add a link to an employee resource or other information in your survey introduction:
+
+1. Select the **Questions** section of your survey program and select the survey introduction section.
+2. In the **Text** field, add `[Display text](link)`, replacing "Display text" with the text that should become a link. Replace "link" with the URL.
+   1. Example: `[Contoso handbook](http://www.contoso.com)`
+3. If your survey has multiple languages, select each language from the **Language** dropdown menu to add the hyperlink to the **Text** field in all languages.
+4. Select **Save Changes**.
+5. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that the hyperlink works as expected.
+
+### Add a logo to the survey introduction
 
 > [!TIP]
-> Ensure that logos are horizontally oriented, have a transparent background, and 16MB or smaller in file size.
+> Ensure that logos are horizontally oriented, have a transparent background, and 16 MB or smaller in file size.
 
 1. From the admin dashboard, select **Configuration**. In the **Action Taking** section, select **Content Resources**.
 1. Select **+ New** to add a new resource and **OK** in the languages message that appears.
 1. Add a new title in the **Untitled Resource** and **Title** fields. Survey intro logos can be unique to each survey program. Include the survey name in the title if needed.
-1. In the **Type** field, select **Image**.
-1. Optionally, add a **Description**.
+1. In the **Type** field, select **Image**. Optionally, add a **Description**.
 1. In the **File** field, select **Choose File**. Choose the image file on your device. A preview of the image appears. If the image is as you'd like, select **Save**.
 1. Select **Publish** and then select **Publish** again in the **Publish Resource** dialog box that appears.
 1. On the **Resources** page, filter to **Image** and copy the text of the recently added image from the **Name** column.
 1. Replace "logo-name" in this text with the name of your uploaded logo: `![logo-name](logo-name "logo-name")`
 1. Copy and paste the `![logo-name](logo-name "logo-name")` text (with your logo name added) and paste into the end of the Text field in the survey introduction message.
+1. If your survey has multiple languages, select each language from the **Language** dropdown menu to add the logo to the **Text** field in all languages.
 1. Select **Save Changes**.
-1. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that this process is successful.
+1. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that the logo appears as expected.
 
 ## Edit survey items
 
@@ -67,7 +78,7 @@ Customize the introduction message for the survey by hovering over the box with 
 > Survey items can be edited during the initial survey configuration *and* sometimes during a live survey. [Read about editing live survey items](/viva/glint/setup/question-edit).
 
 There are three entry points where survey items can be edited:
--	In the **Question Library** on your admin dashboard. This entry point doesn't require that the survey is changed to an unapproved state.
+-	In the **Question Library** in Admin Configuration. This entry point doesn't require that the survey is changed to an unapproved state.
 -	In **Survey Programs, Live** 
 -	In **Upcoming Surveys**
 
@@ -118,8 +129,11 @@ Customize the **Thank You** concluding message for the survey by hovering over t
 1. Edit **Greeting** - "Thank you!" is prepopulated, but customize the greeting in a way that's comfortable for you. 
 1. Edit **Text** - You see dummy text in the **Text** box.
    - All dummy text can be edited.
-   - The Text field also includes placeholders, called macros, that pull in values based on your employee data or Glint-generated items. Delete macros or add new macros by selecting the blue plus sign (+) in the Text box.
+   - The Text field also includes placeholders, called macros, that pull in values based on your employee data or Viva Glint-generated items. Delete macros or add new macros by selecting the blue plus sign (+) in the Text box.
 1. Select **Save Changes**.
+
+> [!NOTE]
+> To add a hyperlink to the survey Thank You message, follow [these steps](#add-a-hyperlink-to-the-survey-introduction).
 
 ## Edit Question cycles
 
@@ -132,7 +146,7 @@ To add rating questions, multiple choice questions, open-ended questions, or sec
 ## Edit Display Logic
 
 >[!TIP]
-> Wait to add display logic until after you've arranged your sections and items in the order you want.
+> Wait to add display logic until after your sections and items are in the order you want.
 
 1. In the Display Logic window, set the **Overall logic for conditions** and **Conditions** or **Subconditions**. 
 1. Select **+ Add new condition** to add more.

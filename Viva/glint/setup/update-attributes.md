@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/21/2024
+ms.date: 01/30/2025
 ---
 
 # Update attributes in Viva Glint
@@ -74,11 +74,12 @@ From the admin dashboard:
 4. Select **Rename Attribute**.
 5. Enter the new name in the **Attribute Name** field and select **Rename**.
 
-:::image type="content" source="../../media/glint/setup/rename-attribute.png" alt-text="Screenshot of the Rename Attribute window.":::
+   :::image type="content" source="../../media/glint/setup/rename-attribute.png" alt-text="Screenshot of the Rename Attribute window.":::
 
-> [!CAUTION]
-> - Use this method if the underlying data remains the same, but the field name changed in your system. Don't repurpose attribute name labels, as this can create issues in reporting. Instead, create a new attribute. 
-> - For example, if Department changes to Team and the values in that column change too, add a new Team attribute and don't rename Department to Team.
+   > [!CAUTION]
+   > Use this method if the underlying data remains the same, but the field name changed in your system. Repurposing attribute name labels can create issues in reporting. Instead, create a new attribute.
+   > 
+   > For example, if Department changes to Team and the values in that column change too, add a new Team attribute and don't rename Department to Team.
 
 ## Manage Derived Attributes
 
@@ -93,15 +94,18 @@ To edit derived fields after your initial setup:
    1. To disable a Derived Attribute: Deselect the checkbox next to the desired field.
    1. To enable a Derived Attribute: Select the checkbox next to the desired field and choose a field from your data in the Calculate From dropdown menu.
    1. To update the field used to create a Derived Attribute: Select the checkbox next to the desired field and choose a new field in the Calculate From dropdown menu. 
+   :::image type="content" source="../../media/glint/setup/new-derived-attribute.png" alt-text="Screenshot of the Derived Attributes section after selecting the Manage Derived Attributes button.":::
 
-:::image type="content" source="../../media/glint/setup/new-derived-attribute.png" alt-text="Screenshot of the Derived Attributes section after selecting the Manage Derived Attributes button.":::
-
-> [!NOTE]
-> Manager Hierarchy isn't editable after initial setup.
+      > [!NOTE]
+      > Manager Hierarchy isn't editable after initial setup.
 
 ## Manage Optional System Attributes
 
 Choose how and when Viva Glint communicates with employees by mapping language, time zone, and personal emails to Viva Glint fields.
+
+> [!IMPORTANT]
+> - Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
+> - See the Language Codes tab of the Employee Attribute Template for changes to supported languages and codes effective April 10, 2025.
 
 To edit optional system attributes after your initial setup:
 
@@ -137,5 +141,5 @@ To edit a custom attribute's visibility:
 
    :::image type="content" source="../../media/glint/setup/attribute-visibility.png" alt-text="Screenshot of the Edit Attribute dialog with the Visibility toggle switched to On.":::
 
-To give a User Role access to newly visible custom attributes, select the **Configuration** symbol and then in the **Employees** section, choose **User Roles**. Select a role and in **Report Attributes**, make selections for the newly visible attribute. [Learn more about User Role setup](set-up-user-roles.md).
+To give a User Role access to newly visible custom attributes, select the **Configuration** symbol and then in the **Employees** section, choose **User Roles**. Select a role's **Report Attributes** and make selections for the newly visible attribute. [Learn more about User Role setup](set-up-user-roles.md).
 

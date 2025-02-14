@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/16/2025
+ms.date: 01/29/2025
 ---
 
 # Use Advanced Configuration Data Apps
@@ -44,11 +44,19 @@ For one or multiple survey cycles, export a snapshot of employee data as they we
 > [!NOTE]
 > To preserve special characters and formatting, always open files by [importing data from .csv](https://go.microsoft.com/fwlink/?linkid=2247414) in Microsoft Excel.
 
+
+
 ## RETROACTIVE_PULSE_UPDATE
 
 When a survey closes, Manager Hierarchy information that displays in reporting isn't updated with usual employee data uploads. To update data in reporting, use the Retroactive Pulse Update Data App to apply new values.
 
 If your update doesn't involve Manager Hierarchy, use the [Retroactive Upload](advanced-config-uploads.md) feature instead.
+
+### Employee Lifecycle and Always-On surveys
+
+Ongoing survey types like Lifecycle and Always-On can have the same user respond multiple times in a survey cycle that may need a retroactive update. Viva Glint retroactive updates don't currently support attribute value updates to multiple records for the same user during a retroactive update. An admin can remove users who have multiple records when preparing a file of corrected user data.
+
+If duplicated users aren't removed, admins see a "Failed to run the data app RETROACTIVE_PULSE_UPDATE" error message.
 
 > [!CAUTION]
 > - Do not perform a retroactive update while a Viva Glint survey is live.

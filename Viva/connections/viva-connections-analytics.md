@@ -31,10 +31,10 @@ Understand how and when users engage with components of the Connections experien
 > [!NOTE]
 >
 > - Member level permissions (or higher) are required to view usage analytics for Connections.
-> - Usage analytics data is aggregated and cannot be tracked to an individual user.
+> - Usage analytics data is aggregated and can't be tracked to an individual user.
 > - You must have an Enterprise (E), Frontline (F), or Academic (A) license type to create a Viva Connections experience.
 > - Users with a Microsoft 365 subscription (E, F, or A license) are limited to creating and using one experience. If you want to create or use two or more experiences (up to 50), then every user in your tenant must have a Microsoft Viva Suite or Viva Communications and Communities license. See [Microsoft Viva plans and pricing]( https://www.microsoft.com/microsoft-viva/pricing) for more info.
-> - For tenants that are setup for more than one region, the option to access analytics will have to be disabled for each region using PowerShell commands. For more information, see [how to disable analytics features](#how-to-to-disable-analytics-features).
+> - For tenants that are set up for more than one region, the option to access analytics will have to be disabled for each region using PowerShell commands. For more information, see [how to disable analytics features](#how-to-to-disable-analytics-features).
 > - The analytics feature is unavailable in GCC, GCC High, and DoD environments. For more information, see the [list of platform features](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#platform-features).
 
 ## How to access the report
@@ -67,7 +67,7 @@ The Analytics page contains charts and graphs providing data on overall traffic,
 > [!NOTE]
 >
 > - A Microsoft Viva suite or Viva Communications and Communities license is required to view data beyond 30 days. For more information, see [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing).
-> - Data filtered to the previous 90 days and 12 months will be available in mid-June 2024. Historical data for these new filters will not be available.
+> - Data filtered to the previous 90 days and 12 months will be available in mid-June 2024. Historical data for these new filters won't be available.
 
 ### Overall traffic
 
@@ -87,6 +87,10 @@ This section provides usage data on unique users, engaged users, total views, an
 ### Usage details
 
 This section breaks down usage data across the types of devices and apps used to access the Connections experience, including activity from the [Dashboard, Feed, and Resources](/viva/connections/viva-connections-overview#components-to-viva-connections).
+
+> [!NOTE]
+>
+> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
 
 - **Total views by apps and devices**: Includes views for desktop, web, and mobile usage.
 - **Engaged users by component**: Includes number of engaged users for the Dashboard, Feed, and Resources web parts.

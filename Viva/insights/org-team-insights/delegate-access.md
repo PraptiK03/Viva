@@ -1,12 +1,14 @@
 ---
-ms.date: 11/11/2024
+ms.date: 01/30/2025
 title: Delegate access to organizational insights and Copilot Dashboard
 description: Learn how to delegate access to organization insights and Copilot Dashboard in Viva Insights.
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: viva-insights-advanced 
+ms.collection:
+ - viva-insights-advanced
+ - magic-ai-copilot
 ms.service: viva-insights
 search.appverid: 
 - MET150 
@@ -25,6 +27,8 @@ There are no changes to the metrics, aggregation, or filtering tools available t
 >To view and delegate access to organizational insights, you need a Viva Insights subscription and must be assigned the Group Manager role. [Learn more about roles and access for organizational insights](org-insights.md#subscriptions-roles-and-access).
 >
 >To view and delegate access to the Copilot Dashboard, you need to have access to the dashboard, but neither the Group Manager role nor a Viva Insights subscription is required. [Learn more about how access to the Copilot Dashboard is determined](copilot-dashboard.md#how-access-to-the-copilot-dashboard-is-determined).
+>
+>Viva Insights admins can also delegate access to organizational insights and the Copilot Dashboard on your behalf using PowerShell.
 
 Here are a few other things to note:
 
@@ -38,9 +42,9 @@ Here are a few other things to note:
 
 * If you assign delegates for organizational insights, and you’re removed as a group manager from Viva Insights, the delegates you assigned are also removed along with their access.
 
-## How to assign a delegate
+## How to assign delegates for organizational insights and the Copilot Dashboard 
 
-### Organizational insights & Copilot Dashboard:   
+### Method 1
 *Applies to: People with access to [organizational insights](../org-team-insights/org-insights.md#organization-insights-in-viva-insights) or [Copilot Dashboard](../org-team-insights/copilot-dashboard-advanced-features.md)*
 
 1. Select the feature you wish to delegate access to, then select the ellipses (…) at the top right.  
@@ -50,13 +54,11 @@ Here are a few other things to note:
 
 :::image type="content" source="images/delegate-access-1.png" alt-text="Screenshot showing delegate access box for Copilot Dashboard." lightbox="images/delegate-access-1.png":::
 
-## Second method for assigning delegates
-
-This method not only allows you to assign delegates but add and remove delegates all on the same screen.
-
-### Organizational insights & Copilot Dashboard:  
+### Method 2
 
 *Applies to: People with access to organizational insights or Copilot Dashboard*
+
+This method not only allows you to assign delegates but add and remove delegates all on the same screen.
 
 1. In the Viva Insights app, select the ellipses (…) at the top right.
 2. Select **Settings.**
@@ -68,6 +70,42 @@ This method not only allows you to assign delegates but add and remove delegates
 :::image type="content" source="images/delegate-access-2.png" alt-text="Screenshot showing alternate method for delegating access." lightbox="images/delegate-access-2.png":::
 
 Whenever a delegate has been added, they'll be notified in Teams Chat of their current access status.
+
+### Assign delegate access using Powershell 
+
+If you're a Viva Insights admin in the destination organization, you can assign delegate access to group managers' colleagues on their behalf using PowerShell cmdlets. 
+
+You'll use these three cmdlets: 
+
+* Add-VivaOrgInsightsDelegatedRole. [Learn more about this cmdlet](/powershell/module/exchange/add-vivaorginsightsdelegatedrole). 
+
+* Get-VivaOrgInsightsDelegatedRole. [Learn more about this cmdlet](/powershell/module/exchange/get-vivaorginsightsdelegatedrole). 
+
+* Remove-VivaOrgInsightsDelegatedRole. [Learn more about this cmdlet](/powershell/module/exchange/remove-vivaorginsightsdelegatedrole). 
+
+## Request and approve delegate access to organizational insights
+
+*Applies to: People without delegate access, and group managers*
+
+Employees who need delegate access can request it for organizational insights (not the Copilot Dashboard) from as many group managers as they'd like. Once the employee is given access by the group manager, they'll have the same view of organizational insights as the group manager who approved their access.
+
+1. To request access, in the Viva Insights app, select the ellipses (…) at the top right. 
+
+2. Select **Settings**. 
+
+3. Select **Delegate access**. 
+
+4. Select **Request delegate access**. 
+
+5. Enter the name of the group manager or group managers from whom you'd like to request access. You can also add an optional note. Select **Send request**.
+
+    :::image type="content" source="images/request-delegate-access-02.png" alt-text="Screenshot showing how to request delegate access.":::
+
+6. If you're the group manager who was selected in the step above, you'll receive a notification in Teams about the request. To approve or deny the request, select **Go to settings**. 
+
+7. Under **Organizational insights**, you'll see a list of employees who have requested delegate access from you. Select **Approve** or **Decline** for each employee's request.
+
+    :::image type="content" source="images/grant-delegate-access-01.png" alt-text="Screenshot showing how to approve or decline delegate access requests.":::
 
 ## Delegate access view
 

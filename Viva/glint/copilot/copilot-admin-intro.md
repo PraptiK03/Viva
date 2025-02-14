@@ -16,13 +16,13 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/13/2025
+ms.date: 1/29/2025
 
 ---
 
 # Introduction to Microsoft 365 Copilot in Viva Glint
 
-HR users and leaders of large organizations spend a lot of valuable time interpreting Glint survey results and comments. Copilot in Viva Glint enables them to understand and act on employee feedback by quickly summarizing large quantities of comments. Copilot in Viva Glint is available for all enabled users whose teams meet the threshold for verbatim comment results.
+Human Resources (HR) users and leaders of large organizations spend a lot of valuable time interpreting Glint survey results and comments. Copilot in Viva Glint enables them to understand and act on employee feedback by quickly summarizing large quantities of comments. Copilot in Viva Glint is available for all enabled users whose teams meet the threshold for verbatim comment results.
 
 ## What is Microsoft 365 Copilot in Viva Glint?
 
@@ -79,7 +79,7 @@ Microsoft 365 Copilot in Viva Glint can be used across roles
 
 ### The Microsoft commitment to responsible AI
 
-Copilot in Viva Glint aligns with our [AI principles](https://www.microsoft.com/ai/principles-and-approach) and undergoes rigorous internal stress testing. We actively identify and address systematic issues, ensuring Copilot in FIFQ tlin5 comment summarization remains free from undesirable content or behavior such as hate speech, incitement to violence, or misinformation. We're vigilant about protecting privacy and preventing the disclosure of sensitive information.
+Copilot in Viva Glint aligns with our [AI principles](https://www.microsoft.com/ai/principles-and-approach) and undergoes rigorous internal stress testing. We actively identify and address systematic issues, ensuring Copilot in Viva Glint comment summarization remains free from undesirable content or behavior such as hate speech, incitement to violence, or misinformation. We're vigilant about protecting privacy and preventing the disclosure of sensitive information.
 
 ## Choose a method to roll out Microsoft 365 Copilot in Viva Glint
 

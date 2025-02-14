@@ -1,6 +1,6 @@
 ---
 ms.date: 09/25/2024
-title: "Use audience targeting in Viva Connections to personalize the experience"
+title: "Target content in Viva Connections to specific audiences"
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
@@ -18,20 +18,24 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to use audience targeting in Viva Connections to personalize the experience"
+description: "Use audience targeting in Viva Connections to help the most relevant content get to the right audiences"
 ---
 
-# Use audience targeting in Viva Connections to personalize the experience
+# Use audience targeting to personalize the Connections experience
 
 Audience targeting can help you target content to specific [Microsoft 365 Groups](/microsoft-365/community/all-about-groups) within your organization so your content is seen by the right people. Audience targeting can be applied to cards on the dashboard, SharePoint news posts in the Feed, and links in the Resource section. For example, if a regional finance department has many specialized dashboard cards needed for their daily tasks, audience targeting ensures that only members of that group see the cards.
+
+> [!NOTE]
+>
+> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
 
 You can also create separate Viva Connections experiences for different audiences. For more information, see the article on the [difference between audience targeting and different experiences](set-up-admin-center.md#when-to-use-a-separate-experience-vs-dashboard-card-level-targeting).
 
 > [!NOTE]
 >
-> - Audience targeting filters content and is not a security measure. It is not meant to manage permissions, access, or secure confidential content.
-> - [Microsoft Entra Groups](/microsoft-365/community/all-about-groups) (including ecurity groups, Microsoft 365 Groups, and Microsoft Entra Dynamic Groups) are supported.
-> - The author will be able to view all content in Edit mode. In read-mode, the content will be filtered based on the audiences selected.
+> - Audience targeting filters content and isn't a security measure. It isn't meant to manage permissions, access, or secure confidential content.
+> - [Microsoft Entra Groups](/microsoft-365/community/all-about-groups) (including security groups, Microsoft 365 Groups, and Microsoft Entra Dynamic Groups) are supported.
+> - The author is able to view all content in Edit mode. In read-mode, the content is filtered based on the audiences selected.
 > - Publish (or republish) to save changes made to existing page content, page metadata, and audience targeting settings for audience targeting features to take effect.
 
 ## Apply audience targeting to cards in the dashboard
@@ -48,14 +52,14 @@ Create a personalized experience by targeting dashboard cards to specific audien
 
 > [!NOTE]
 >
-> - You must be a site owner of the [SharePoint home site](/viva/connections/home-site-plan#what-is-a-sharepoint-home-site) to edit the Viva Connections dashboard.
-> - If you are setting up the Connections dashboard for the first time, [see the article on creating a Viva Connections dashboard and adding cards](/viva/connections/create-dashboard) for more information.
+> - Site owner permissions to the [SharePoint home site](/viva/connections/home-site-plan#what-is-a-sharepoint-home-site) are required to edit the Viva Connections dashboard.
+> - If you're setting up the Connections dashboard for the first time, [see the article on creating a Viva Connections dashboard and adding cards](/viva/connections/create-dashboard) for more information.
 
 To apply audience targeting to a dashboard card:
 
 > [!NOTE]
 >
-> See the article on [how to edit the dashboard from SharePoint](/viva/connections/create-dashboard#how-to-edit-the-dashboard-from-sharepoint-when-you-have-a-home-site) if you are accessing Viva Connections from your SharePoint home site.
+> See the article on [how to edit the dashboard from SharePoint](/viva/connections/create-dashboard#how-to-edit-the-dashboard-from-sharepoint-when-you-have-a-home-site) if you're accessing Viva Connections from your SharePoint home site.
 
 1. From the dashboard, select **Edit**.
 
@@ -71,9 +75,9 @@ To apply audience targeting to a dashboard card:
 
 > [!NOTE]
 >
-> If you've selected an audience group that you recently created or changed, it may take some time to see targeting applied for that group.
+> If you've selected an audience group that you recently created or changed, it might take some time to see targeting applied for that group.
 
-6. While in preview-mode, make sure:
+6. Make sure of the following while in preview-mode:
 
     - No physical gaps appear between cards while previewing different audiences and devices. If you see gaps, rearrange cards so that every audience and device has a high-quality viewing experience.
 

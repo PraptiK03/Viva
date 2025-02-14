@@ -23,6 +23,10 @@ description: "Frequently asked questions about the Feed for Viva Connections"
 
 # Get answers to common questions about the Viva Connections Feed
 
+> [!NOTE]
+>
+> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
+
 ## What can I expect to see in the Feed?
 
 The Feed gives content publishers a reliable means of distributing important news and information that their users need within their organizations. End-users can see engaging content from sites they're a member of, sites they follow, and Viva Engage communities they follow. Get more information about the [content that displays in the Feed](#where-does-content-in-the-feed-come-from) and the [factors that affect the content's ranking in the Feed](#what-are-the-available-controls-to-influence-content-in-the-feed).
@@ -126,7 +130,7 @@ Users can bookmark content that they would like to view later by selecting the *
 
 For [new organization news sites](/sharepoint/organization-news-site), it can take up to 24 hours for boosted news created from those sites to appear in the Top News card in Viva Connections dashboard.
 
-## More resources:
+## More resources
 
 [Overview of Viva Connections](viva-connections-overview.md)
 

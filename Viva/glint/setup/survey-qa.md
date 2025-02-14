@@ -112,7 +112,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 
 
 > [!TIP]
-> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-questions)
+> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-survey-questions-or-statements)
 > - Section break: User scrolls and it disappears as you take the survey. 
 > - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
 
@@ -218,7 +218,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
 
 > [!TIP]
-> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-questions)
+> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-survey-questions-or-statements)
 > - Section break: User scrolls and it disappears as you take the survey. 
 > - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
 
@@ -323,7 +323,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
 
 > [!TIP]
-> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-questions)
+> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-survey-questions-or-statements)
 > - Section break: User scrolls and it disappears as you take the survey. 
 > - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
 
@@ -422,7 +422,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
 
 > [!TIP]
-> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-questions)
+> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-survey-questions-or-statements)
 > - Section break: User scrolls and it disappears as you take the survey. 
 > - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
 

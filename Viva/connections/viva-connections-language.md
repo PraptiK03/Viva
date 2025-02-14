@@ -25,7 +25,7 @@ description: "Set up the Viva Connections experience in a specific language"
 Viva Connections is available in most major languages used in Microsoft 365. Learn more about how to create and deploy the Viva Connections experience in a specific language other than your organization’s default language.
 
 > [!NOTE]
-> Teams and SharePoint may individually support more than the following languages.
+> Teams and SharePoint can individually support more than the following languages.
 
 ## Available languages
 
@@ -69,6 +69,10 @@ Viva Connections is available in most major languages used in Microsoft 365. Lea
 :::row-end:::
 
 Broadly, [Viva Connections](viva-connections-overview.md) has four components that influence the end user’s overall language experience - the Viva Connections dashboard, feed, resources, and spotlight. Viva Connections is also supported across desktop and web, and on mobile and tablet devices through the Teams mobile app.
+
+> [!NOTE]
+> 
+> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
 
 Learn how to set up Viva Connections components to display content in another language other than your organization’s default language. The following steps use English as an example, but the steps apply for any one of the 27 languages specified in the [available languages](#available-languages).
 

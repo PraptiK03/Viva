@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/27/2024
+ms.date: 02/13/2025
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -28,11 +28,11 @@ Admins are required to create a custom RaaS report on the Workday portal. Once y
 > All RaaS reports (catalog, user data, LRS) should be created from same user account or a single user should be given report ownership at Workday portal. This username should be inserted under Reporting URL attribute in Viva Learning Manage Provider. Review this example: `https://wd2-impl-services1.workday.com/ccx/service/customreport2/microsoft_dpt6/username/Viva_Learning_Catalog_Report.`
 
 > [!NOTE]
-> Admins need to create a custom report manually. This is a one time process. We are only supporting the report structure mentioned in this support article, any other changes in reports are not recommended.
+> Admins need to create a custom report manually. This is a one time process. We're only supporting the report structure mentioned in this support article. We don't recommend any other changes in the reports.
 
 1. Ensure that the **Workday to AAD user sync** is in place for your tenant.  
-2. Enable inbound user provisioning with Workday to ensure that all users in Workday are synced to Azure Active Directory (AAD).
-3. If you're already a Microsoft 365 customer, Workday to AAD user sync should be in place for your tenant. 
+2. Enable inbound user provisioning with Workday to ensure that all users in Workday are synced to Microsoft Entra ID.
+3. If you're already a Microsoft 365 customer, Workday to Microsoft Entra user sync should be in place for your tenant. 
 
 Check with your organization admins for details around same. Otherwise, you can refer to the steps mentioned here to enable the provisioning. [Tutorial: Configure Workday for automatic user provisioning with on-premises Active Directory](/entra/identity/saas-apps/workday-inbound-tutorial)
 
@@ -112,7 +112,7 @@ This report should be created from the primary Admin account of Workday to avoid
 7. Go to **Advanced** and select the field **Optimized for Performance**.
 
    > [!NOTE]
-   > After isEffective date changes, it is not possible to turn on optimized for performance. Considering the data volumes in hand, we can advise customers to uncheck this field.
+   > After isEffective date changes, it isn't possible to turn on optimized for performance. Considering the data volumes in hand, we can advise customers to uncheck this field.
 
 8. Share the report with Integrated System User (ISU), which you created while enabling catalog sync. Go to the **Share** section in report, select the option "share with specific authorized groups and users" and add ISU name in the **Authorized users** field.  
 
@@ -376,7 +376,7 @@ This report should be created from the primary Workday admin account to avoid an
 
 1. Go to **Prompts**.
 
-    1. Select **Populate Undefined Prompt Defaults**. This selection adds the start and ending prompt for the Completion date, which is defined in previous step.
+    1. Select **Populate Undefined Prompt Defaults**. This selection quickly adds the start and ending prompt for the completion date, which is defined in previous step. You can also enter the prompts as shown in the image below. Once the prompts are populated, this check box selection is gone.
     
        :::image type="content" alt-text="Screenshot of the Workday self enrollment completion prompts." source="../media/learning/workday-self-enrollment-completion-prompts.png" lightbox="../media/learning/workday-self-enrollment-completion-prompts.png":::
 
@@ -387,7 +387,7 @@ This report should be created from the primary Workday admin account to avoid an
 
 2. Go to **Advanced.** Check the field **Optimized for Performance**. 
 
-   :::image type="content" alt-text="Screenshot of the Workday advanced option self enrollment report window." source="../media/learning/workday-advanced-option-self-enrollment-report.png" lightbox="../media/learning/workday-self-enrollment-completion-prompts.png":::
+   :::image type="content" alt-text="Screenshot of the Workday advanced option self enrollment report window." source="../media/learning/workday-advanced-option-self-enrollment-report.png" lightbox="../media/learning/workday-advanced-option-self-enrollment-report.png":::
 
 
 3. Save the field. Select **OK**.

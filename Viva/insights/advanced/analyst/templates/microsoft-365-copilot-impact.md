@@ -1,5 +1,5 @@
 ---
-ms.date: 09/16/2024
+ms.date: 02/10/2025
 title: Microsoft 365 Copilot impact report
 description: Learn how to use the Microsoft 365 Copilot impact Power BI template to understand the effects of Copilot usage among employees across your organization.
 author: zachminers

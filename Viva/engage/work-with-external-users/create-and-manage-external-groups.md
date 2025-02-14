@@ -2,8 +2,9 @@
 title: "Work with external groups in Viva Engage networks not aligned to Native Mode"
 f1.keywords:
 - NOCSH
+ms.reviewer: auhosford
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
 ms.date: 01/30/2024
 audience: Admin
@@ -26,7 +27,7 @@ You can work with guests in Viva Engage if your network isn’t aligned to Nativ
 This experience differs from working with the Viva Engage guest experience, which is powered by Microsoft Entra B2B and requires native mode. For a comparison of experiences, see [Collaborate with guests in a Viva Engage community](../work-with-external-users/collaborate-guests-external-viva-engage-community.md).
 
 >[!NOTE]
->Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration. For more information, see [Overview of Native Mode](../overview-native-mode.md).
+>Native Mode is recommended for security, compliance, and Microsoft 365 integration. For more information, see [Overview of Native Mode](../overview-native-mode.md).
 
 ## Create and manage external groups in Viva Engage
 
@@ -53,7 +54,7 @@ When you create a group, you can decide if it's an internal or external group. Y
   
 1. In Viva Engage, under the list of groups, select **Create Group**.
     
-    The **Create A New Group** dialog box opens. If your network allows external groups, you'll see options to create an Internal Group or External Group: 
+    The **Create A New Group** dialog box opens. If your network allows external groups, you see options to create an Internal Group or External Group: 
   
 2. Select **External Group**.
     
@@ -68,37 +69,35 @@ When you create a group, you can decide if it's an internal or external group. Y
    - For a private group, select **Only group members**.
     
 6. Select **Create Group**.
-    
-You can find external groups in your network the same way you find external users. For more information, see [Find external messaging participants in a Viva Engage network](find-external-participants.md).
 
 ## Find external messaging participants in a Viva Engage network
 
 When you communicate with outside partners, suppliers, or customers, you want to make sure only authorized personnel have access to the information on your Viva Engage network. Verified admins can use data export to find the names of [external participants](add-external-participants.md) to see which conversations and files in their network are visible to external participants.
 
 >[!NOTE] 
->Viva Engage Enterprise networks in the [EU Geo](../manage-security-and-compliance/data-residency.md) do not have external participants.
+>Viva Engage Enterprise networks in the [EU Geo](../manage-security-and-compliance/data-residency.md) don't support external participants.
 
 1. In the Viva Engage admin center, go to **Content and Security** \> **Export data**.
 
-    You'll only see this option if you're a verified admin in the Viva Engage network.
+    You see this option if you're a verified admin in the Viva Engage network.
 
     For more information, see [Export Viva Engage Enterprise data](../eac-as-manage-data.md).
 
 2. To identify **threads in your network that users from other networks participate in**, locate the export folder on your computer, and open the **MessageThreads.Outbound.csv** export file.
 
     >[!NOTE]
-    >The data export reflects the current view of the network. For example, if a user was added, but then removed before the report was created, that user won't appear in the report.
+    >The data export reflects the current view of the network. For example, if a user was added, but then removed before the report was created, that user doesn't appear in the report.
   
     > [!div class="mx-imgBorder"]
     > :::image type="content" source="../../media/90261f3d-0629-4fb6-bb42-33ed7eb3e99a.png" alt-text="Screenshot of an example data export file.":::
   
     Column **D** (external_participants) lists the users in other networks that participate in threads in your network, along with their name, email address, and the network ID of the Viva Engage network they belong to.
 
-If you want to remove an external participant, you can use the information from the list to go to the conversation they're included in and remove them from the conversation. 
+If you want to remove an external participant, you can use the information from the list to open the conversation they're included in and remove them from the conversation. 
 
 ## Disable external messaging in a Viva Engage network
 
-By default for Viva Engage Enterprise networks in the US Geo, users can add external participants to their Viva Engage conversations and Viva Engage communities and groups, and members of your Viva Engage network can participate in another company's Viva Engage network if invited. If needed, you can turn off this external collaboration.
+For Viva Engage Enterprise networks in the US Geo, users can add external participants to their Viva Engage conversations and to Viva Engage communities and groups. When they're invited, members of your Viva Engage network can participate in another company's Viva Engage network. If necessary, you can turn off this external collaboration.
 
 1. In the Viva Engage admin center, go to **Content and Security** \> **Security Settings**.
     
@@ -124,7 +123,7 @@ By default for Viva Engage Enterprise networks in the US Geo, users can add exte
 
 2. When you disable external access to your groups and conversations:
 
-    - When a user tries to add an external participant in Viva Engage, the user receives an error message stating that they're unable to add external participants because it violates their company's policy. The user won't be allowed to post the message. 
+    - When a user tries to add an external participant in Viva Engage, the user receives an error message stating that they're unable to add external participants because it violates their company's policy. The user isn't allowed to post the message. 
 
     - Any current external participants are blocked from using external conversations or threads that they may have been participating in.
 
@@ -135,7 +134,7 @@ By default for Viva Engage Enterprise networks in the US Geo, users can add exte
 
 ### Q: Why don't I see an option for creating an external group?
 
-A: If your administrator opted out of allowing external messaging, you won't be able to create external groups.
+A: If your administrator opts out of allowing external messaging, you can't create external groups.
   
 ### Q: Can I create an external group on an external network?
 

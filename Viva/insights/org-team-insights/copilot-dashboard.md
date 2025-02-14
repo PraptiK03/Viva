@@ -1,5 +1,5 @@
 ---
-ms.date: 01/23/2025
+ms.date: 02/06/2025
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -209,7 +209,7 @@ At the top of the page, you’ll see tallies for **Copilot licensed employees**,
 
 Now let’s look at the insights provided by this page.
 
-###### **Insight #1: High-level overview of Copilot usage across the organization**
+###### Insight #1: High-level overview of Copilot usage across the organization
 
 Under **Adoption by group**, a graph shows the change in Copilot adoption over the previous six months, aggregated weekly. Select **Metric** to see the adoption trends for a specific group. Metrics include active Copilot users, Copilot licensed employees, percentage of active Copilot users, or percentage of Copilot licensed employees. You can select any data point on the graph to see more details for that point in time. Below the graph you’ll find adoption trends for specific groups. 
 
@@ -221,7 +221,29 @@ You can sort the table by the headers. For example, to sort by the metric value,
 
 :::image type="content" source="images/trendline-adoption-02.png" alt-text="Screenshot that shows the first group of adoption metrics." lightbox="images/trendline-adoption-02.png":::
 
-###### **Insight #2: Breakdown of Copilot usage across different Microsoft 365 apps**
+
+
+###### Insight #2: Usage intensity 
+
+This insight lets you analyze how frequently employees in your organization are using Copilot during the given time period. On the **Usage intensity** card, select **Explore more** to dive deeper into the insight using filters. 
+
+On the **Frequent usage** section of the page, you can see which groups of employees are using Copilot one to five times per time period, six to 10 times per time period, or 11 times or more. Select the Gear icon on the top right to customize the number of actions used to group users. Select **Category** to toggle between the options. 
+
+On the **Consistent usage** section, users are grouped based on the number of weeks they've taken at least one Copilot action, across the four-week time period.
+
+Select **View by** to drill down into different groups, just like you would analyze the first insight category described above.
+
+:::image type="content" source="images/cdb-adoption-frequency.png" alt-text="Screenshot that shows the usage intensity metrics.":::
+
+###### Insight #3: Returning users 
+
+This insight lets you analyze which groups are consistently active users of Copilot compared to the previous month. On the **Returning users** card, select **Explore more** to dive deeper into the insight using filters. 
+
+Then, just like the other insights mentioned above, select **View by** to filter by group. 
+
+Those who take at least one Copilot action in both the current and preceding time periods are deemed to be "Returning users." Select **timeframe** to toggle between monthly and weekly retention periods. 
+
+###### Insight #4: Breakdown of Copilot usage across different Microsoft 365 apps
 
 App totals reflect the total number of adoption metrics in the following Microsoft 365 apps: Microsoft Teams, Outlook, Word, Excel, PowerPoint, Copilot Chat (work), and Copilot Chat (web).
 
@@ -239,7 +261,7 @@ Group totals reflect all users based on the filtered group, including groups tha
 | Percentage of active Copilot users | The percentage of active Copilot users out of the number of Copilot licensed users for the given time period. |
 | Inactive Copilot users | The number of users who have a Copilot license and haven’t been active in Copilot in the last 28 days. |
 | Non-Copilot users | The number of users who don't have a Copilot license in the last 28 days. |
-| Copilot actions taken | The number of actions completed with Copilot by active Copilot users. |
+| Total Copilot actions taken | The total number of actions completed with Copilot by users with Copilot Chat or other in-app Copilot features. With automatically generated Copilot insights such as Intelligent Recap or auto-summarizations in Word, an action is only counted if the user viewed the results from Copilot, such as expanding the document summary. This metric might also include Copilot actions taken using Copilot features that are **not** available in the Copilot Dashboard or analyst workbench as standalone metrics. (Viva Insights' individual Copilot metrics don't provide a comprehensive view of *all* Copilot features and total actions taken.) |
 | Meetings summarized by Copilot | The number of meetings summarized by Copilot. Each meeting summarized represents a meeting where the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. |
 | Meeting hours summarized by Copilot | The number of hours of meetings summarized by Copilot. Each meeting summarized represents a meeting where the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. |
 | Summarize meeting actions taken using Copilot | The number of times users summarized meetings using Copilot. Each action represents a user sending a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. |
@@ -438,7 +460,7 @@ With a Viva Insights subscription, this section of the dashboard also lets you e
 
 *Applies to: Viva Insights admin* 
 
-If you have a Viva Insights subscription and you’re a **Viva Insights admin**, you can upload survey results as a .csv file.
+If you have a Viva Insights subscription and you’re a **Viva Insights admin**, you can upload survey results as a .csv file. The survey results will appear in the Copilot Dashboard within two days after you upload them, and they'll remain accessible until you perform a new upload.
 
 Your survey should include each of the following statements:
 

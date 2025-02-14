@@ -1,5 +1,5 @@
 ---
-ms.date: 12/02/2024
+ms.date: 01/31/2025
 title: Data, privacy, and security for Microsoft 365 Copilot in Viva Insights
 description: Learn about the data used by Copilot in Viva Insights and how it's kept private and secure.
 author: zachminers
@@ -19,9 +19,9 @@ audience: Admin
 
 # Data, privacy, and security for Microsoft 365 Copilot in Viva Insights
 
-Analysts can take advantage of the many features of Microsoft 365 Copilot in Viva Insights including suggestions for metrics, filters, and attributes to use in queries. 
+Analysts and business leaders can take advantage of the many features of Microsoft 365 Copilot in Viva Insights including suggestions for metrics, filters, and attributes to use in queries. 
 
-For example, Copilot can help analysts create queries by suggesting useful metrics that would be relevant to their queries.
+For example, Copilot can help analysts create queries by suggesting useful metrics that would be relevant to their queries. And, Copilot can generate insights to help leaders more easily see employee productivity trends at their company.
 
 ### How does it work on the backend? 
 
@@ -48,6 +48,12 @@ Copilot in Viva Insights follows the same data residency protocols currently in 
 ### How does Copilot in Viva Insights comply with GDPR and other privacy regulations? 
 
 Copilot in Viva Insights follows the same GDPR and privacy regulations as Viva Insights. For details, see the [Viva Insights privacy guide for organization insights](..//insights/advanced/privacy/privacy.md).
+
+### What operational factors and settings allow for effective and responsible use of Copilot in Insights?  
+
+* A disclaimer: "AI-generated content may be incorrect" is shown to the user after every response.  
+
+* An option for the user to give a Thumbs up/down, and leave a comment.
 
 ### What safeguards does Copilot provide to address potentially offensive questions or responses or otherwise sensitive information?  
 

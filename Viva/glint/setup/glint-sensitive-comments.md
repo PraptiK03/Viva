@@ -14,12 +14,13 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localization priority: high
-ms.date: 08/09/2024
+ms.custom: CELA-approved
+ms.date: 02/10/2025
 ---
 
 # Flag Sensitive comments in Viva Glint
 
-Sensitive comment flagging in Microsoft Viva Glint surfaces comments in the admin view of any comments report that contains personally identifiable information (PII), sensitive topics, and profanity. Admins can quarantine and redact flagged comments in when this feature is enabled.
+Sensitive comment flagging in Microsoft Viva Glint surfaces comments in the admin view of any comments report that contains personally identifiable information (PII), sensitive topics, and profanity. Admins can quarantine and redact flagged comments when this feature is enabled.
 
 > [!IMPORTANT]
 > Admins can't customize words or themes classified as sensitive comments by Microsoft. Because the list of sensitive comments is Microsoft intellectual property, it isn't shareable. 
@@ -59,7 +60,7 @@ With sensitive comment flagging enabled, admins see four categories in comments 
 Quarantined comments are hidden from non-admin users. To quarantine a flagged comment:
 
 1. From the admin dashboard, select **Reports**, then **Comments**.
-1. In the **Comments** section, go to the **PII**, **Profanity**, or **Sensitive** sections to view flagged comments. Keywords are highlighted in red.
+1. In the **Comments** section, go to the **PII**, **Profanity**, or **Sensitive** section to view flagged comments. Keywords are highlighted in red.
 1. On each comment, select its ellipsis and choose **Quarantine** to move comments to the Quarantined category.
 1. To remove a comment from the Quarantined category, select its ellipsis and choose **Un-Quarantine**.
 

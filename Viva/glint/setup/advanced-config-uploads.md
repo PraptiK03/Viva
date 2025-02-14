@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/16/2025
+ms.date: 01/29/2025
 ---
 
 # Use Advanced Configuration Uploads
@@ -69,6 +69,14 @@ When several users need customized data access to their Viva Glint Dashboards, u
 ## Perform Retroactive User Updates
 
 When a survey closes, employee attributes that display in reporting don't update with regular employee data uploads. To update data in reporting in a closed survey, use the Retroactive User Updates option to apply new values. This option applies new data to past versions of user data and doesn't touch current employee information.
+
+### Employee Lifecycle and Always-On surveys
+
+Ongoing survey types like Lifecycle and Always-On can have the same user respond multiple times in a survey cycle that may need a retroactive update. Viva Glint retroactive updates don't currently support attribute value updates to multiple records for the same user during a retroactive update. An admin can remove users who have multiple records when preparing a file of corrected user data.
+
+If duplicated users aren't removed, admins see a "FAILED" State for the Retroactive User Updates upload, with the following File error in the Upload Job Details:
+
+- System error: Failed to find user_staging_record with externalUserId=[user@contoso.com], which is not supposed to happen at all because User object with the same ID was previously loaded."
 
 > [!NOTE]
 > To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive User Updates option. [Learn more](glint-data-apps.md).

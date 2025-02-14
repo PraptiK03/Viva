@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft Viva Amplify
 ms.reviewer: smathurin
-ms.date: 01/24/2024
+ms.date: 02/12/2025
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
@@ -43,7 +43,6 @@ Campaigns require an Exchange mailbox. Users therefore need to have Exchange set
 ## Product limitations
 
 - **Vanity URLs**: At launch, Viva Amplify may have limitations when used with vanity URLs. If your company has a vanity URL, reach out to your support contact to discuss the best approach for rolling out our product within your organization.
-- **Localization** At launch, Viva Amplify is available exclusively in English. More languages are planned for future releases.
 
 ### Assign admin roles
 
@@ -56,7 +55,7 @@ First, familiarize yourself with [roles in Viva Amplify.](viva-amplify-roles.md)
 
 1. Under **Featured collections** choose **Microsoft Viva**.
 
-    ![Screenshot of the Microsoft Viva collection](../media/amplify/set-up-mac-collections.png).
+    ![Screenshot of the Microsoft Viva collection](../media/amplify/set-up-mac-collections.png)
 
 1. Select **Viva Amplify**.
 

@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/27/2024
+ms.date: 01/28/2025
 ---
 
 # Viva Glint Activity Audit Log
@@ -56,8 +56,8 @@ Choose an event type based on platform activity that you need to review and the 
 | Company Admin removed | A user was removed from the Company Admin role. |
 | Data app execution logs | Advanced Configuration Data app and Upload activity. |
 | Data DSR Control set | User Data controls for survey data deletion in General Settings update activity. |
-| Data Import | Employee data import activity. |
 | Data export | Employee data export activity. |
+| Data import | Employee data import activity. |
 | Details changes saved | Change activity in General Settings or Advanced Configuration: Details. |
 | Discarding Employee IDs | User Data controls for Employee ID reuse in General Settings update activity. |
 | Export Raw Survey Data | Raw response data export activity. |
@@ -69,30 +69,33 @@ Choose an event type based on platform activity that you need to review and the 
 | User role created | User Role creation activity. |
 | View as user | Admins' "View As" another user activity. |
 
+## Sign-in logs in the Microsoft Entra admin center
+
+For more detailed views of user sign-in activity in Viva Glint, Entra admins have access to sign-in logs in the Microsoft Entra admin center. To access logs for Viva Glint:
+
+1. Review [prerequisites](/entra/identity/monitoring-health/howto-access-activity-logs?tabs=microsoft-entra-activity-logs%2Carchive-activity-logs-to-a-storage-account.md#prerequisites) for Microsoft Entra licensing and user role permissions to access sign-in logs.
+2. Go to the [Microsoft Entra admin center](https://entra.microsoft.com/#home).
+3. In the menu, select **Identity** and search for **Viva Glint** in the **Search your tenant** field.
+4. Select Viva Glint from the search results that appear.
+5. Under **Activity**, choose **Sign-in logs**.
+6. Logs have Viva Glint's app ID applied and, by default, show the last seven days of activity.
+7. Learn more about using [Entra's sign-in logs](/entra/identity/monitoring-health/concept-sign-ins) and [customizing/filtering logs](/entra/identity/monitoring-health/howto-customize-filter-logs?tabs=audit-logs) to view different columns and date ranges.
+
 ## Related resources
 
 ### Data import errors and troubleshooting:
 
+- [Handle data file upload warnings and errors in Viva Glint](/viva/troubleshoot/glint/data-file-upload/data-file-upload-warnings-errors?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 - [Resolve file upload errors related to attributes](/viva/troubleshoot/glint/data-file-upload/fix-upload-attributes-errors?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 - [Resolve upload errors related to derived attributes](/viva/troubleshoot/glint/data-file-upload/fix-upload-derivation-errors?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 - [Resolve upload warnings related to duplicate data](/viva/troubleshoot/glint/data-file-upload/fix-upload-duplicate-data-warnings?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 - [Resolve upload warnings related to invalid or unexpected values](/viva/troubleshoot/glint/data-file-upload/fix-upload-invalid-unexpected-values-warnings?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 - [Resolve upload warnings related to manager hierarchy](/viva/troubleshoot/glint/data-file-upload/fix-upload-manager-hierarchy-warnings?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 
-### User role setup:
-
-- [Set up User Roles](/viva/glint/setup/set-up-user-roles)
-
 ### User data management:
 
-- [Delete user data](/viva/glint/setup/delete-user-data)
-- [Raw response data](/viva/glint/setup/employee-raw-data-export)
-- [Viva Glint People page](/viva/glint/setup/people-page)
-- [People page import](/viva/glint/setup/upload-employee-attributes)
-
-### Advanced Configuration and General Settings
-
-- [Advanced Configuration overview](/viva/glint/setup/understand-advanced-configuration)
-- [Data apps](/viva/glint/setup/glint-data-apps)
-- [Uploads](/viva/glint/setup/advanced-config-uploads)
-- [General Settings](/viva/glint/setup/manage-general-settings)
+- [User data controls](manage-general-settings.md#user-data)
+- [Delete user data](delete-user-data.md)
+- [Raw response data](employee-raw-data-export.md)
+- [Viva Glint People page](people-page.md)
+- [People page import](upload-employee-attributes.md)

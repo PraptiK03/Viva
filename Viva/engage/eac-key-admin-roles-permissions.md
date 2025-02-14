@@ -1,7 +1,7 @@
 ---
 title: "Manage admin roles in Viva Engage"
 description: "Learn about admin roles and permissions in Viva Engage and how to assign them."
-ms.reviewer: ethli
+ms.reviewer: shreyanarla
 ai-usage: ai-assisted
 ms.author: donnabouldin
 author: v-rgrace

@@ -1,5 +1,5 @@
 ---
-title: Managers creating Focus Areas
+title: Create Focus Areas in Viva Glint
 description: Preparing for your team meeting is the best way to solicit insightful and productive Focus Areas to act on. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/19/2024
+ms.date: 02/05/2025
 ---
 
-# Managers creating Focus Areas
+# Create Focus Areas in Viva Glint
 
 Review your [Top Strengths and Top Opportunities](/../../viva/glint/reports/act-strengths-opportunities), suggested action templates, and their resources before meeting with your team. Preparing for your team meeting is the best way to solicit insightful and productive Focus Areas to act on. 
 
@@ -26,12 +26,9 @@ Review your [Top Strengths and Top Opportunities](/../../viva/glint/reports/act-
 
 ## Prep for your team conversation
 
-> [!NOTE]
-> Admins can customize the names of terms such as “Focus Areas.” Your company may, for example, opt for this tab to read “Actions” or "Goals." Be aware that you may not see exactly the same wording on your tabs, section names, and text snippets as described in this guidance.
-
 There are two ways to enter the Focus Areas section:
 
-- From your Glint dashboard - Select the **Focus Areas** tab from the menu bar and then **My Focus Areas** on the page that opens. 
+- From your Viva Glint dashboard - Select the **Focus Areas** tab from the menu bar and then **My Focus Areas** on the page that opens. 
 - From your [Manager Concierge](/../../viva/glint/reports/manager-concierge-dashboard) timeline, if enabled. In Step 4 - Select **Choose a Focus Area**.  ​​​​​​
 
 **Review the [Manager Quick Guide to Results and Conversation](/../../viva/glint/setup/quick-guide-manager-doc-pitfalls)**.
@@ -47,11 +44,11 @@ There are two ways to enter the Focus Areas section:
    1. Customize the kit to get ready for your team meeting.
    1. Make notes on each slide to help your conversation move forward. 
 
-## Commit to a Focus Area - Manager without Team Conversations 
+## Commit to a Focus Area - Managers without Team Conversations 
 
 Once your survey is closed:
 
-1. Share survey results with your team, following your Presentation Kit guidance and using [ACT best practices](https://go.microsoft.com/fwlink/?linkid=2234345) for extra support.
+1. Share survey results with your team, following your Presentation Kit guidance and using [ACT best practices](/viva/glint/reports/take-action-team-conversations) for extra support.
 1. Share your Creating a New Focus Area screen with your team. You can also customize the presentation kit to highlight these possibilities.
 1. Choose as many of Suggested Actions and Suggested Resources as desired. Select **+ Add to Focus Area** for each.
 1. Save to your team's plan by selecting **Create Focus Area**. You now see your new plan on the Focus Areas tab.
@@ -65,7 +62,7 @@ Once your survey is closed, complete this task directly from your **Presentation
 
 ## The *Choose a Focus Area* slide 
 
-Switch from Opportunities, Strengths, and Other to share possibilities for improvement with your team. Use the **Choose** button to cue up Glint Suggested Actions and Resources. 
+Switch from Opportunities, Strengths, and Other to share possibilities for improvement with your team. Use the **Choose** button to cue up Viva Glint Suggested Actions and Resources. 
 
 - Scroll down to see the suggestions.
 - Switch back and forth between drivers before settling on a Focus Area. Select **Remove** next to the item you're viewing, and then **Choose** next to another driver to consider.
@@ -86,8 +83,8 @@ After a Focus Areas is chosen, its status can be seen on the **My Focus Areas** 
 
 Open the **Viewing Your Focus Areas** page in either of these two ways:
 
-- From your Glint dashboard: Select **Focus Areas**  and then **My Focus Areas**.
-- From the Glint [Team Summary dashboard](/./../viva/glint/reports/team-summary-enable-manage), select **View Focus Area** from Step 4.
+- From your Viva Glint dashboard: Select **Focus Areas**  and then **My Focus Areas**.
+- From the Viva Glint [Team Summary dashboard](/./../viva/glint/reports/team-summary-enable-manage), select **View Focus Area** from Step 4.
 
 You can change the status of these items:
 

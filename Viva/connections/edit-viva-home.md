@@ -31,15 +31,19 @@ Elements of the new Viva Connections experience can be customized to fit your or
 
 > [!NOTE]
 >
-> - If you already have Viva Connections set up, the new experience design uses current content and settings (like audience targeting) from your Dashboard and Resources and there will not be any impact to the mobile experience.
+> - If you already have Viva Connections set up, the new experience design uses current content and settings (like audience targeting) from your Dashboard and Resources and the mobile experience won't be affected.
 > - If your organization has a SharePoint home site, you can choose to use it as the default landing destination.
-> - If you haven’t set up Viva Connections yet, the default experience includes cards on the dashboard but otherwise doesn’t impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
+> - If you haven’t set up Viva Connections yet, the default experience includes cards on the dashboard but otherwise doesn’t affect [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 > - The new Viva Connections experience uses a similar permission model to SharePoint and can be managed from Microsoft Teams.
 > - You must have member level permissions or higher to edit the new desktop experience.
 
-## About the updated Viva Connections experience
+> [!NOTE]
+>
+> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
 
-The Connections experience has been redesigned to highlight news across your organization and still provide easy access to the top tasks, tools, and resources that help people in your organization get their jobs done. The updated design prominently features the following key elements to the [Viva Connections experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) - Announcements, Feed & Spotlight, Dashboard, Resources, and Viva suite footer. Content for some of these elements can be filtered [using audience targeting to create a personalized experience](use-audience-targeting-in-viva-connections.md).
+## About the Viva Connections experience
+
+The Connections experience highlights news across your organization and provides easy access to the top tasks, tools, and resources that help people in your organization get their jobs done. The updated design prominently features the following key elements to the [Viva Connections experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) - Announcements, Feed & Spotlight, Dashboard, Resources, and Viva suite footer. Content for some of these elements can be filtered [using audience targeting to create a personalized experience](use-audience-targeting-in-viva-connections.md).
 
 :::image type="content" source="../media/connections/edit-viva-home/vc3-at-a-glance-desktop.png" alt-text="Screenshot of the full page Connections experience." lightbox="../media/connections/edit-viva-home/vc3-at-a-glance-desktop.png":::
 
@@ -86,7 +90,7 @@ If your organization created [multiple Connections experiences](/viva/connection
 
    > [!NOTE]
    >
-   > Only users with edit privileges will be able to see the Switch Experience option in the menu.
+   > Only users with edit privileges are able to see the Switch Experience option in the menu.
 
 4. A list of created experiences display along with their status (enabled or draft). Select an **Experience** to switch to.
 
@@ -192,9 +196,9 @@ Change the banner image in the header and set the focal point for the image. The
 
 > [!NOTE]
 >
-> - The greeting is automatically generated and cannot be customized.
-> - Depending on your organization’s license type, you may see additional dynamic information displayed in the banner.
-> - The banner image and focal point will resize when viewed via the tablet and mobile app.
+> - The greeting is automatically generated and can't be customized.
+> - Depending on your organization’s license type, you might see more dynamic information displayed in the banner.
+> - The banner image and focal point resize when viewed via the tablet and mobile app.
 
 To change the banner image:
 
@@ -274,7 +278,7 @@ SharePoint news sources will display in the spotlight section after any pinned l
 
    > [!NOTE]
    >
-   > If you created your Connections experience without a home site, the **this site** option will still show but will not allow you to save since no home site is detected.
+   > If you created your Connections experience without a home site, the **this site** option will still show but won't allow you to save since no home site is detected.
 
 3. If selecting a source other than your current site, extra sources display from available SharePoint sources:
 
@@ -298,7 +302,7 @@ Further customize your Connections experience and SharePoint home site by applyi
 
 > [!NOTE]
 >
-> If you have never selected a theme for your home site, the default SharePoint theme will be used for the home site and Connections experience.
+> If you have never selected a theme for your home site, the default SharePoint theme is used for the home site and Connections experience.
 
 To apply a SharePoint or custom theme:
 
@@ -317,7 +321,7 @@ To apply a SharePoint or custom theme:
 
    > [!NOTE]
    >
-   > - If an end user has selected dark mode on their mobile or tablet device, the dashboard and other Connections components will render in dark mode with the default color and will not apply the theme colors.
+   > - If an end user has selected dark mode on their mobile or tablet device, the dashboard and other Connections components render in dark mode with the default color and won't apply the theme colors.
    > - Dark themes (has the property `isInverted=True`), won’t be applied to the mobile experience. If the dark theme is selected, mobile will continue showing Connections with the user’s selected mode (light or dark) and the default colors.
 
 4. Select **Save**.
@@ -326,9 +330,9 @@ To apply a SharePoint or custom theme:
 
    > [!NOTE]
    >
-   > Using [accent colors under the app customization feature](/microsoftteams/customize-apps) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
+   > Using [accent colors under the app customization feature](/microsoftteams/customize-apps) will only apply to the app icon outline color on the Teams chrome, and won't apply all colors to the Connections experience. For consistency of theming, it's a best practice to set the accent color same as the theme primary color from SharePoint.
    >
-   > :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply.":::
+   > :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors apply.":::
 
 ## Customize the dashboard
 
@@ -502,7 +506,7 @@ If your organization already has a SharePoint home site and you want to keep it 
 
 > [!NOTE]
 >
-> For customers who already have Viva Connections setup, your end users will be automatically routed to the new Viva Connections home experience in Teams if your organization decides to use the new design as the default experience. If your organization has a SharePoint home site, you can choose to keep it as the default home experience when the new experience is available.
+> For customers who already have Viva Connections setup, your end users are automatically routed to the new Viva Connections home experience in Teams if your organization decides to use the new design as the default experience. If your organization has a SharePoint home site, you can choose to keep it as the default home experience when the new experience is available.
 
 ## Choose the default landing experience for Viva Connections desktop
 
@@ -513,9 +517,9 @@ If your organization already has a SharePoint home site and you want to keep it 
    > [!NOTE]
    > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell".
    > - Run the command as a SharePoint Administrator.
-   > - This command allows you to choose the default experience for the desktop app and doesn't impact the mobile experience.
+   > - This command allows you to choose the default experience for the desktop app and doesn't affect the mobile experience.
 
-2. Connect to SharePoint as a [SharePoint Administrator](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles) in Microsoft 365. Refer to [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) for more information.
+2. Connect to SharePoint as a [SharePoint Administrator](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles) in Microsoft 365. For more information, see the article on[Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run `Set-SPOHomeSite -HomeSiteUrl <homesiteURL> -VivaConnectionsDefaultStart <$true/$false>`.
 
@@ -536,8 +540,8 @@ If your organization already has a SharePoint home site and you want to keep it 
 
 > [!NOTE]
 >
-> - It may take up to 15 minutes to see the updated default landing experience.
-> - If you change the SharePoint home site to a different SharePoint home site, it may take up to a week for users in Viva Connections to be directed to the new site. However, users can log out and log back in to clear the cache to view the new SharePoint home site sooner.
+> - It might take up to 15 minutes to see the updated default landing experience.
+> - If you change the SharePoint home site to a different SharePoint home site, it might take up to a week for users in Viva Connections to be directed to the new site. However, users can sign out and sign back in to clear the cache to view the new SharePoint home site sooner.
 
 ## Make the experience available to the end user
 
@@ -550,5 +554,3 @@ Once finished customizing your Viva Connections experience, follow the steps to 
 [Overview: Viva Connections](viva-connections-overview.md)
 
 [Use audience targeting in Viva Connections to personalize the experience.](use-audience-targeting-in-viva-connections.md)
-
-[Overview of Microsoft Feed](/microsoft-365/ms-feed/m365-feed)

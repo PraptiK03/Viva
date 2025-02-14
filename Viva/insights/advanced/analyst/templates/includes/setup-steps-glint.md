@@ -10,7 +10,8 @@ ms.service: viva-insights
     
     1. Type a **Query name**.
     2. Type a **Description** (optional).   
-    3. Change the metric rule (optional). To set a new metric rule, select **More settings**. Then, pick a new rule from the list. For more information about metric rules, refer to [Metric rules](../../metric-rules.md). 
+    3. Select a survey for analysis. You can download the query results as a .csv file for Viva Glint surveys that had raw data export enabled when the survey was set up. Otherwise, you'll be prompted to contact your Viva Glint administrator for more information, or select a different dataset. [Learn more about raw data export](/viva/glint/setup/employee-raw-data-export).  
+    4. Change the metric rule (optional). To set a new metric rule, select **More settings**. Then, pick a new rule from the list. For more information about metric rules, see [Metric rules](../../metric-rules.md). 
     
     >[!Note]
     >You’re not able to edit the date range or turn on auto-refresh for this report. 

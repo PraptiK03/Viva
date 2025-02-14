@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/13/2025
+ms.date: 01/29/2025
 ---
 
 # Administrator enablement for Microsoft 365 Copilot in Viva Glint
@@ -81,16 +81,18 @@ From your admin dashboard, follow this process:
 1.	Select the **Configuration** symbol.
 2.	Select **User Roles** in the **Employees** section to see the list of all users assigned to a particular role.
 3.	Select any employee in a User Role in which you expect Copilot to be enabled.
-4.	Once you are on that user’s profile, select **View As** to validate the user’s reporting experience.
+4.	Once you are on that user's profile, select **View As** to validate the user's reporting experience.
 
     :::image type="content" source="../../media/glint/setup/copilot-view-as.png" alt-text="Screenshot of the View As button in User Roles.":::
 
-5. Be sure you see the Copilot button on the user's Viva Glint dashboard.
+5. Be sure you see the **Copilot** button on the user's Viva Glint dashboard.
 
    :::image type="content" source="../../media/glint/setup/copilot-access-button.png" alt-text="Screenshot of the Copilot capability on the manager dashboard." lightbox="../../media/glint/setup/copilot-access-button.png":::
 
 ## More Resources
 
 [**Learn how managers can use Copilot in Viva Glint**](https://go.microsoft.com/fwlink/?linkid=2274072)
+
 [**Find answers to technical FAQs**](https://go.microsoft.com/fwlink/?linkid=2274071)
+
 [**Copilot for Microsoft 365**](https://adoption.microsoft.com/copilot/)

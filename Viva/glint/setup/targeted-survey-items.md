@@ -1,12 +1,12 @@
 ---
-title: Targeting and excluding items in a Viva Glint survey 
-description: Viva Glint surveys can target or exclude items based on predefined Distribution Lists. 
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+title: Target or exclude items in a Viva Glint survey
+description: Microsoft Viva Glint Administrators can use Distribution Lists or User Roles to target survey items or exclude items for specific groups of users.
+ms.author: aweixelman
+author: AliciaWeixelman
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: tenant, viva glint tenant
+keywords: target question, exclude question, target survey items
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,31 +14,33 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/25/2024
+ms.date: 02/13/2025
 ---
 
-# Targeting and excluding items in a Viva Glint survey
+# Target or exclude items in a Viva Glint survey
 
-Survey items and questions can be targeted to a specific Distribution List.
+Microsoft Viva Glint Administrators can use Distribution Lists or User Roles to target survey items or exclude items for specific groups of users.
 
-## Target an individual item
+To add roles or lists to target and exclude questions:
 
-From the *Questions* page in Program Summary, follow this procedure:
-
-1. Select the question for targeting and activate the **three vertical ellipses** next to that question.  
-2. Select **Edit Targeting** to reveal the Targeting slider.
+1. Go to **Configuration** and select **Survey Programs** in **Surveys**.
+2. Select and survey and go to the **Questions** section.
+3. Find the question to target or exclude and hover on the far right to select the **ellipsis**.  
+4. In the dropdown menu, select **Edit Targeting** to reveal the Targeting edit pane.
    
-   :::image type="content" source="../../media/glint/setup/edit-targeting.png" alt-text="Screenshot that displays Viva Glint's Questions page." lightbox="../../media/glint/setup/edit-targeting.png":::
+   :::image type="content" source="../../media/glint/setup/edit-targeting2.png" alt-text="Screenshot of the question dropdown menu with the Edit Targeting option.":::
    
-   :::image type="content" source="../../media/glint/setup/targeting-viva.png" alt-text="Screenshot that displays the targeting page of Viva Glint." lightbox="../../media/glint/setup/targeting-viva.png":::
+5. In the **Targeted lists included** section, select the **Search for or select a custom target...** field to view all of your organization's Distribution Lists and User Roles.
+
+   :::image type="content" source="../../media/glint/setup/targeting-edit-pane.png" alt-text="Screenshot of the Targeting edit pane with User Roles and Distribution Lists available to select for targeting.":::
    
-3. In the *Targeted lists included* section, if a Distribution List is set up, it appears in a dropdown menu from the Search bar. Select all the Distribution Lists or manually select those to receive that survey item. More than one Distribution List can be selected. As you select lists, they are added above the Search bar.
-4. Select **Save Changes**.
+6. To target the question to specific users, select one or multiple lists or roles.
+7. In the **Targeted lists excluded** section, select the **Search for or select a custom target...** field and select lists or roles to exclude from this question, if needed.
+8. Select **Save Changes**.
 
-## How do I exclude an individual item?
+## Create a new Distribution List or User Role
 
-Use the method above to exclude groups in the **Targeting** slider window.
+If existing lists and roles don't include the right users, create a new Distribution List or User Role: 
 
-## Create a new Distribution List 
-
-Create a new Distribution List if the one you need doesn't populate in the slider panel. [Follow these instructions to create a new Distribution List](https://go.microsoft.com/fwlink/?linkid=2230917).
+- [Create a new Distribution List](set-up-distribution-lists.md).
+- [Create a new User Role](set-up-user-roles.md).

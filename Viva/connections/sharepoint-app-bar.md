@@ -26,30 +26,35 @@ description: "Use the SharePoint app bar to enhance intranet way finding, and di
 Help users find important content and resources no matter where they are in SharePoint. The SharePoint app bar improves the global way-finding and creation experiences while dynamically displaying personalized sites, news, files, and lists. The app bar is on the left-hand side anywhere in modern sites.
 
 > [!NOTE]
-> Only Viva Connections customers who are using SharePoint home sites need to enable and customize SharePoint global navigation. Learn more about [How Viva Connections and SharePoint home sites work together to create employee experiences](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together).
+> Only Viva Connections customers who are using SharePoint home sites need to enable and customize SharePoint global navigation. Learn more about [How Viva Connections and SharePoint home sites work together to create user experiences](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together).
 
-![Animated GIF of the tabs in the SharePoint app bar.](../media/connections/sharepoint-app-bar/app-bar-gif.gif)
+:::image type="content" source="../media/connections/sharepoint-app-bar/app-bar-png.png" lightbox="../media/connections/sharepoint-app-bar/app-bar-png.png" alt-text="Screenshot of the tabs in the SharePoint app bar.":::
 
 ## The SharePoint app bar experience
 
-The SharePoint app bar brings together intranet resources and personalized content like sites, news, files, and lists. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and the rest of the content will dynamically display and update personalized content for sites, news, and files. Create sites, files, and lists easily from anywhere in SharePoint.
+The SharePoint app bar brings together intranet resources and personalized content like sites, news, files, and lists. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and the rest of the content will dynamically display and update personalized content for sites, news, and files. Access your Viva Connections Dashboard, news, or resources. Create sites, files, and lists easily from anywhere in SharePoint.
 
-![Screenshot of the SharePoint app bar tabs.](../media/connections/sharepoint-app-bar/sp-app-bar-overview.png)
+> [!NOTE]
+>
+> - The Connections icon will only show to customers who have enabled a Viva Connections experience with a configured and published dashboard.
+> - The addition of the Connections icon is currently rolling out and will be fully available by March 2025.   
+
+:::image type="content" source="../media/connections/sharepoint-app-bar/sharepoint-app-bar-overview.png" lightbox="../media/connections/sharepoint-app-bar/sharepoint-app-bar-overview.png" alt-text="Screenshot of the SharePoint app bar tabs.":::
 
 > [!NOTE]
 >
 > - Global navigation is the only app bar tab that can be customized.
-> - When global navigation is disabled or not configured, the home icon links to the SharePoint start page.
-> - Specific SharePoint app bar tabs cannot be disabled.
-> - The SharePoint app bar cannot be disabled on specific sites.
-> - The SharePoint app bar is not available on classic SharePoint sites.
-> - The SharePoint app bar may impact current page customizations, specifically those that appear on the left side.
-> - The SharePoint app bar will not display in SharePoint for external or guest users outside of your organization.
-> - In GCC High and DoD environments users may experience a degraded experience for the My sites panel in the app bar.
-> - Some additional restrictions may apply to tenants within the GCC High and DoD environments when using My News in the SharePoint app bar.
+> - If global navigation is disabled or not configured, the home icon links to the SharePoint start page.
+> - Specific SharePoint app bar tabs can't be disabled.
+> - The SharePoint app bar can't be disabled on specific sites.
+> - The SharePoint app bar isn't available on classic SharePoint sites.
+> - The SharePoint app bar might affect current page customizations, specifically customizations that appear on the left side.
+> - The SharePoint app bar won't display in SharePoint for guests outside of your organization.
+> - In GCC High and DoD environments users might experience a degraded experience for the My sites panel in the app bar.
+> - Extra restrictions might apply to tenants within the GCC High and DoD environments when using My News in the SharePoint app bar.
 > - Global navigation in the SharePoint app bar must be enabled for SharePoint resources to display in the [Microsoft Teams app bar for Viva Connections](viva-connections-overview.md).
 
-The SharePoint app bar is a significant change to the user experience and your organization's [intranet information architecture](/sharepoint/information-architecture-modern-experience). To ensure a seamless experience, Microsoft has created specific guidance on how to design current navigation to compliment the global navigation feature. We have also created [end-user guidance](https://support.microsoft.com/office/use-the-sharepoint-app-bar-b2ab82d5-9af7-445e-ad24-236c5a86b5f8?ui=en-US&rs=en-US&ad=US) to help onboard the rest of your organization.
+The SharePoint app bar is a significant change to the user experience and your organization's [intranet information architecture](/sharepoint/information-architecture-modern-experience). To ensure a seamless experience, Microsoft created specific guidance on how to design current navigation to compliment the global navigation feature. There's also [end-user guidance](https://support.microsoft.com/office/use-the-sharepoint-app-bar-b2ab82d5-9af7-445e-ad24-236c5a86b5f8?ui=en-US&rs=en-US&ad=US) to help onboard the rest of your organization.
 
 ## Customize global navigation in the app bar
 
@@ -63,13 +68,13 @@ If you choose to keep global navigation disabled, the home icon links to the Sha
 > - Users need read access (or higher) to the SharePoint home site to view the global navigation links.
 > - [Audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) can be applied to menu links in global navigation.
 > - If you get an error after editing links to sites, try deleting the link and adding it again.
-> - Implementing global navigation may take up to 24 hours for the changes to take effect for users.
+> - Implementing global navigation might take up to 24 hours for the changes to take effect for users.
 
 ### Get started customizing the global navigation tab
 
 1. Set up a [SharePoint home site](home-site-plan.md) if your organization doesn’t already have one.
 
-2. [Share the SharePoint home site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) with everyone in your tenant to ensure all users can access the global navigation links.
+2. [Share the SharePoint home site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) with everyone in your organization to ensure all users can access the global navigation links.
 
 3. Navigate to your organization’s SharePoint home site.
 
@@ -78,13 +83,13 @@ If you choose to keep global navigation disabled, the home icon links to the Sha
     ![Screenshot of the global navigation option in the settings panel.](../media/connections/sharepoint-app-bar/app-bar-settings.png)
 
     >[!NOTE]
-    > If you do not see **Global navigation** in the **Settings** pane on the SharePoint home site, you may not have site owner permissions (or higher) to the SharePoint home site.
+    > If you don't see **Global navigation** in the **Settings** pane on the SharePoint home site, you might not have site owner permissions (or higher) to the SharePoint home site.
 
 5. Switch the **Enable global navigation** toggle to **On**.
 
     ![Screenshot of where to enable the global navigation option in the settings panel.](../media/connections/sharepoint-app-bar/app-bar-enable.png)
 
-6. Next, add the **Logo** for global navigation that will be recognizable to users to replace the home icon in the app bar. No action is needed if you choose to keep the default home icon.
+6. Next, add the **Logo** to represent global navigation for your organization (organization or custom logo). No action is needed if you choose to keep the default home icon.
 
     Global navigation logo specifications:
 
@@ -92,9 +97,7 @@ If you choose to keep global navigation disabled, the home icon links to the Sha
     - PNG file type
     - Transparent background recommended
 
-7. Then, enter a **Title** that will be displayed at the top of the global navigation pane.
-
-    ![Screenshot of where the logo and title will appear in global navigation.](../media/connections/sharepoint-app-bar/app-logo-label.png)
+7. Then, enter a **Title** that's to be displayed at the top of the global navigation pane.
 
 8. Under **Navigation source** make edits to the selected global navigation source if needed by selecting **Edit global navigation**.
 
@@ -102,12 +105,12 @@ If you choose to keep global navigation disabled, the home icon links to the Sha
 
     ![Screenshot of where to select the global navigation source.](../media/connections/sharepoint-app-bar/app-bar-source.png)
 
-    >[!NOTE]
-    >
-    > - The global navigation source can be edited at any time by site owners or admins of the SharePoint home site.
-    > - The site and global navigation [links and labels](https://support.microsoft.com/office/3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) can be edited at any time by editors of the SharePoint home site.
-    > - Implementing global navigation may take up to 24 hours for the changes to take effect.
-    > - If you get an error after editing links to sites, try deleting the link and adding it again.
+> [!NOTE]
+>
+> - The global navigation source can be edited at any time by site owners or admins of the SharePoint home site.
+> - The site and global navigation [links and labels](https://support.microsoft.com/office/3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) can be edited at any time by editors of the SharePoint home site.
+> - Implementing global navigation might take up to 24 hours for the changes to take effect.
+> - If you get an error after editing links to sites, try deleting the link and adding it again.
 
 ### Determine the global navigation source depending on your SharePoint home site’s configuration
 
@@ -121,7 +124,7 @@ If you haven’t set up your [SharePoint home site](/sharepoint/home-site), do t
 - Select the Hub or global navigation source to display the SharePoint home site’s hub navigation.
 
   > [!NOTE]
-  > When you apply the extended header layout to the site, you will no longer see the site navigation.
+  > When you apply the extended header layout to the site, you'll no longer see the site navigation.
 
 #### For SharePoint home sites that aren't a hub, you have two source options
 
@@ -131,42 +134,37 @@ If you haven’t set up your [SharePoint home site](/sharepoint/home-site), do t
 - Create a secondary set of navigation nodes specifically for the global navigation panel by selecting **Hub or global navigation**. Then, select **Edit global navigation** to create the new global navigation menu. Select **Save** when you're done.
 
   > [!NOTE]
-  > For SharePoint home sites that are not a [hub site](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f) and choose to create a secondary set of navigational nodes for the global navigation pane - if you decide to make your SharePoint home site a hub in the future, the new hub site navigation will inherit the current navigational nodes for global navigation and can be [edited at any time](https://support.microsoft.com/office/3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
+  > For SharePoint home sites that aren't a [hub site](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f) and choose to create a secondary set of navigational nodes for the global navigation pane - if you decide to make your SharePoint home site a hub in the future, the new hub site navigation inherits the current navigational nodes for global navigation and can be [edited at any time](https://support.microsoft.com/office/3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
 
 ## See all the different ways you can set up global navigation
 
 Depending on the content you want to make available in the global navigation, you can configure your SharePoint home site navigation and global navigation in three different ways.
-
-![Screenshot of a SharePoint home site](../media/connections/sharepoint-app-bar/app-bar-home-site.png)
 
 ### Display the SharePoint home site’s navigation in global navigation
 
 Display hub and site navigation on the SharePoint home page, and the home site navigation in the global navigation panel.
 
 1. Navigate to the SharePoint home site’s **Settings** and then **Global navigation**.
-2. **Enable** global navigation, enter a **Title**, and then select **Home site navigation** as the source.
-3. Select **Save**. Changes might take a few minutes to reflect.
 
-![Screenshot of a site navigation in the global navigation tab 1.](../media/connections/sharepoint-app-bar/app-bar-scenario-1.png)
+2. **Enable** global navigation, enter a **Title**, and then select **Home site navigation** as the source.
+
+3. Select **Save**. Changes might take a few minutes to reflect.
 
 ### Display the SharePoint home site’s hub navigation in global navigation
 
 Display hub and site navigation on the SharePoint home page, and the hub navigation in the global navigation panel.
 
 1. Navigate to the SharePoint home site’s **Settings** and then **Global navigation**.
-2. **Enable** global navigation, enter a **Title**, and then select **Hub or global navigation** as the source.
-3. Select **Save**. Changes might take a few minutes to reflect.
 
-![Screenshot of a site navigation in the global navigation tab 2.](../media/connections/sharepoint-app-bar/app-bar-scenario-2.png)
+2. **Enable** global navigation, enter a **Title**, and then select **Hub or global navigation** as the source.
+
+3. Select **Save**. Changes might take a few minutes to reflect.
 
 ### Hide the site navigation and display it in the global navigation
 
 Display just the hub navigation on the SharePoint home page, and the site navigation in the global navigation panel.
 
-1. Start by hiding the site navigation using one of two methods:
-
-    - Go to **Settings**, then **Change the look**, then **Navigation** and toggle the **Display site navigation** to **Hide**.
-    - Go to **Settings**, then **Change the look**, then **Header** and choose **Extended** layout.
+1. Start by hiding the site navigation by going to **Settings**, then **Change the look**, then **Navigation** and toggle the **Site navigation visibility** to **Off**.
 
 2. Then, navigate to the SharePoint home site’s **Settings** and then **Global navigation**.
 
@@ -174,11 +172,9 @@ Display just the hub navigation on the SharePoint home page, and the site naviga
 
 4. Select **Save**. Changes might take a few minutes to reflect.
 
-    ![Screenshot of a site navigation in the global navigation tab 3.](../media/connections/sharepoint-app-bar/app-bar-scenario-3.png)
-
 ## Set up a SharePoint home site for the first time
 
-A [SharePoint home site](home-site-plan.md) is a SharePoint communication site that you create and set as the top landing page for all users in your intranet. The home site brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand.
+A [SharePoint home site](home-site-plan.md) is a SharePoint communication site that you create and set as the top landing page for all users in your intranet. The home site brings together news, events, conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand.
 
 It's recommended that you set up a SharePoint home site for your organization to take full advantage of SharePoint’s communication and collaboration features and is required to enable and customize global navigation in the SharePoint app bar.
 
@@ -210,64 +206,13 @@ For organizations using [page placeholders](/sharepoint/dev/spfx/extensions/get-
 
 ## Modernize classic SharePoint sites to display the SharePoint app bar
 
-The SharePoint app bar will only appear in [modern SharePoint sites](/sharepoint/dev/transform/modernize-classic-sites) and [pages](/sharepoint/dev/transform/modernize-userinterface-site-pages).
+The SharePoint app bar only appears in [modern SharePoint sites](/sharepoint/dev/transform/modernize-classic-sites) and [pages](/sharepoint/dev/transform/modernize-userinterface-site-pages).
 
 We highly recommend modernizing classic sites not only to display the SharePoint app bar but for a more consistent user experience. Learn more about how to modernize classic SharePoint sites and  pages using the open-source [SharePoint PnP Page Transformation solution](/sharepoint/dev/transform/modernize-userinterface-site-pages).
 
 ## Teach end users about this feature
 
 Help end users understand [how the new SharePoint app bar works](https://support.microsoft.com/office/use-the-sharepoint-app-bar-b2ab82d5-9af7-445e-ad24-236c5a86b5f8?ui=en-US&rs=en-US&ad=US).
-
-## Temporarily disable the SharePoint app bar
-
-You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until March 31, 2023. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future Message Center posts.
-
-Temporarily disable the SharePoint app bar:
-
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-
-   > [!NOTE]
-   >
-   > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
-
-2. Connect to SharePoint as a [SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-
-3. Run the following command:
-
-    ```powershell
-    Set-SPOTemporarilyDisableAppBar $true
-    ```
-
-4. If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following command:
-
-    ```powershell
-    Get-SPOTemporarilyDisableAppBar
-    ```
-
-> [!NOTE]
->
-> - It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up.
-> - Running the command without the `$false` or `$true` value will cause it to fail.
-> - You must be using the latest version of [PowerShell](/powershell/scripting/install/installing-powershell-on-windows).
-> - If you are using previous versions, uninstall the previous version and then install the most up to date version. Previous versions of PowerShell can't coexist with the most up-to-date version of PowerShell.
-
-### Enable the SharePoint app bar
-
-1. Once you’re ready to display the SharePoint app bar, run the following command:
-
-    ```powershell
-    Set-SPOTemporarilyDisableAppBar $false
-    ```
-
-   > [!NOTE]  
-   >
-   > It can take up to an hour for the app bar to show up on a tenant where the app bar was disabled previously.
-
-2. If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following command:
-
-    ```powershell
-    Get-SPOTemporarilyDisableAppBar
-    ```
 
 ### Resources
 

@@ -2310,7 +2310,87 @@
     "source_path": "viva/glint/setup/platform-features-settings.md",
     "redirect_url": "/viva/glint/introduction-viva-glint",
     "redirect_document_id":false
-  },  
+  },
+  {
+    "source_path": "viva/glint/start/comms-checklist.md",
+    "redirect_url": "/viva/glint/introduction-viva-glint",
+    "redirect_document_id":false
+  },
+  {  
+    "source_path": "viva/glint/setup/360-report-access-timing.md",
+    "redirect_url": "/viva/glint/360-roles-permissions",
+    "redirect_document_id":false
+  },
+  { 
+    "source_path": "viva/engage/configure-your-viva-engage-network/deprecation-of-basic-freemium-networks.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  { 
+    "source_path": "viva/engage/work-with-external-users/create-and-manage-an-external-network.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  { 
+    "source_path": "viva/engage/work-with-external-users/find-external-participants.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  { 
+    "source_path": "viva/engage/work-with-external-users/disable-external-messaging.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  { 
+    "source_path": "viva/engage/manage-viva-engage-users/aad-account-required.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  { 
+    "source_path": "viva/engage/work-with-external-users/external-messaging-faq.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  { 
+    "source_path": "viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage.md",
+    "redirect_url": "/viva/engage/overview",
+    "redirect_document_id": false
+  },
+  {    
+    "source_path": "viva/glint/communicate/email-templates-survey-expectations.md",
+    "redirect_url": "/viva/glint/start/recommended-rollout-plan",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/people-science/patient-safety.md",
+    "redirect_url": "/viva/glint/setup/patient-safety-survey",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/setup/survey-coach.md",
+    "redirect_url": "/viva/glint/setup/customize-programs",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/setup/360-roles-permissions.md",
+    "redirect_url": "/viva/glint/setup/360-general-settings",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva//360-cycle-settings.md",
+    "redirect_url": "/viva/glint/setup/create-new-360-cycle",
+    "redirect_document_id": false
+  },
+  {
+      "source_path": "viva/glint/people-science/import-external-people-science-pov.md",
+      "redirect_url": "/viva/glint/setup/import-historical-response-data",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "viva/glint/setup/create-new-360-cycle.md",
+      "redirect_url": "/viva/glint/setup/360-create-new-360-cycle",
+      "redirect_document_id": true
+  }
+    
     ]
-
 }

@@ -1,6 +1,6 @@
 ---
 title: "Identify leaders and manage audiences in Viva Engage"
-description: "Leadership identification and audience management enable organizations to designate leaders, configure their audience and connect leaders with the entire organization."
+description: "Leadership identification and audience management enable organizations to designate leaders, define their audience, and connect leaders with the entire organization."
 ms.reviewer: ethli
 ms.author: donnabouldin
 author: v-rgrace
@@ -25,13 +25,13 @@ Leaders naturally want to share visions, updates, and perspectives to build cult
 
 This process begins with identifying leaders and the audiences they want to engage.
 
-The leadership identification and audience management settings enable organizations to designate leaders, configure their audiences, and connect leaders with the organization. These settings are a prerequisite for other leadership features of Viva Engage, which include leadership announcements, campaigns, audience analytics, and leadership corner.
+The leadership identification and audience management settings enable organizations to designate leaders, configure their audiences, and connect leaders to the organization. These settings are a requirement for other leadership features of Viva Engage, which include leadership announcements, campaigns, audience analytics, and leadership corner.
 
 ## Identify leaders
 
 Engage admins, corporate communicators, Viva Engage verified admins, and Viva Engage network admins can identify leaders in Viva Engage. Leaders can be identified individually or by importing groups of leaders.
 
-1. In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the Viva Engage admin center.
+1. In the Viva Engage Teams application, select the ellipses (`...`) button from the top navigation menu to expose the admin option. Select **Admin** to go to the Viva Engage admin center.
 
    [![Screenshot of the entry point into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
@@ -43,12 +43,12 @@ Engage admins, corporate communicators, Viva Engage verified admins, and Viva En
 
    [![Screenshot of the Viva Engage admin center interface for adding leaders.](/viva/media/engage/admin/add-leaders.png)](/viva/media/engage/admin/add-leaders.png#lightbox)
 
-5. Select the user or group from the search results.
+4. Select the user or group from the search results.
 
-6. If you're importing a group, select **Continue** to confirm your choice. The group members and individuals you selected are then added as leaders in the **Manage leaders** list.
+5. If you're importing a group, select **Continue** to confirm your choice. The group members and individuals you selected are then added as leaders in the **Manage leaders** list.
 
     > [!NOTE]
-    > Subsequent changes to group memberships don't automatically update who is identified as a leader in Viva Engage. You can re-add the group to add new members, or add and remove individual leaders.
+    > Subsequent changes to group memberships don't automatically update who is identified as a leader in Viva Engage. You can re-add the group to add new members, or to add and remove individual leaders.
 
 ## Manage a leader's audiences
 
@@ -96,7 +96,7 @@ Delegates can create and manage a leader’s posts, stories, and announcements i
 
 A leader follows these steps to configure delegates:
 
-1. In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the dropdown list of options. (See the image at the beginning of this article for reference.)
+1. In the Viva Engage Teams application, select the ellipses button (`...`) from the top navigation menu to expose the dropdown list of options. (See the image at the beginning of this article for reference.)
 2. Select **Manage delegate settings**.
 
 3. Add the name of the person that you want to assign as delegate or delegate manager.
@@ -119,7 +119,7 @@ Learn more about [delegate managers in Viva Engage](https://support.microsoft.co
 
 Leadership corner provides tools so that employees in your organization can learn about their leaders and build connections with them. From leadership corner, users can catch up on leaders' posts, join their communities, and attend their AMAs.  
 
-By default, Leadership corner is turned on. But an Engage admin can disable it in the [Viva Engage admin center](/Viva/engage/eac-overview). Follow these steps to enable or disable leadership corner:
+By default, leadership corner is turned on. But an Engage admin can disable it in the [Viva Engage admin center](/Viva/engage/eac-overview). Follow these steps to enable or disable leadership corner:
 
 1. Select **Leadership corner** from the **Feature management tab** in the Viva Engage admin center.
 
@@ -148,19 +148,19 @@ Learn more about [analytics for leaders](/Viva/engage/analytics), which empower 
 
 Any user with a license to Viva Engage, Viva Engage Core, or the Viva Engage Communities and Communications service plan can be identified as a leader. Identified leaders with a license to the Viva Engage Communities and Communications service plan have access to storyline announcements, leadership corner, campaigns, and AMAs. Identified leaders who don’t have a license to the Viva Engage Communities and Communications service plan only have access to their storyline and stories.
 
-**Why is leader identification and audience management important?**
+**Why are leader identification and audience management important?**
 
-Identify leaders and audiences to ensure that your leaders' posts reach their intended audiences. Leader identification and audience management are required for other premium features to work successfully, such as storyline announcements, leadership corner, campaigns, and analytics.
+Identify leaders and audiences to ensure that your leaders' posts reach their intended audiences. Leader identification and audience management are required for other premium features to work successfully, including storyline announcements, leadership corner, campaigns, and analytics.
 
 **Who can identify and set leaders?**
 
 Verified admins, Network admins, Engage admins, and corporate communications managers with a license to the Viva Engage Communities and Communication service plan can identify leaders.
 
-**How are leader’s audiences configured?**
+**How do you configure a leader’s audience?**
 
-Identified leaders and their delegate managers can configure leaders' audiences in the **Manage audiences** interface in the Viva Engage admin center. But for a leader to reach the entire organization, the Engage admin, Verified admin, Network admin, or corporate communications manager must configure and enable this audience. Other users aren't involved in audience configuration.  
+Identified leaders and their delegate managers can configure leaders' audiences in the **Manage audiences** interface in the Viva Engage admin center. For a leader to reach the entire organization, the Engage admin, Verified admin, Network admin, or corporate communications manager must configure and enable that audience. Other users aren't involved in audience configuration.  
 
-**Is there a way to disable leadership corner?**
+**Can you disable leadership corner?**
 
 Yes, the Engage admin can turn off leadership corner in the feature management section of the Viva Engage admin center.
 
@@ -170,7 +170,7 @@ Yes. Follow the instructions in [Customize your network](/viva/engage/manage-viv
 
 **What does being in a leader's audience in Viva Engage entail?**
 
-People who are in a leader's audience can see that leader and their content in leadership corner. From the leader's perspective, when they send a storyline announcement, the leader can decide to notify their audience members via Outlook, Teams, or Viva Engage. Leaders also get to see audience analytics.
+People who are in a leader's audience can see that leader and their content in leadership corner. From the leader's perspective, when they send a storyline announcement, the leader can notify their audience members via Outlook, Teams, or Viva Engage. Leaders can also see audience analytics.
 
 **Are audiences restricted in size or number in Viva Engage?**
 
@@ -182,13 +182,13 @@ The leader posting a storyline announcement gets to decide whether to notify aud
 
 **How should leaders be selected within the organization?**
 
-People who frequently send announcements to the entire organization or to large groups of people within the organization make good leaders. To ensure that audience members are up-to-date with communications that matter, leadership corner helps audience members quickly identify which messages from their leaders are important.
+Good leaders consistently send announcements to the entire organization, or, when necessary, to large groups of people within the organization. To ensure audience members are up-to-date with communications that matter, leadership corner helps audience members quickly identify which messages from their leaders are important.
 
 **What privileges do identified leaders have in Viva Engage?**
 
 Identified leaders can define one or more audiences to receive their content in leadership corner. Leaders can also send storyline announcements, sponsor campaigns, and access audience analytics.
 
-**Once leaders are designated, what changes do leaders and audiences members experience?**
+**Once leaders are designated, what changes do leaders and audience members experience?**
 
 In the leader directory, designated leaders appear on the All Leaders tab for the entire network and on the My leaders tab for audience members.
 

@@ -25,7 +25,7 @@ Viva Engage admins can empower network users to report conversations and comment
 
 Admin center configuration options vary based on licensing that includes Microsoft Purview Communication Compliance:
 
-- **Licenses that don't include communication compliance**. When you enable communication compliance, the Viva Engage admin can add an email address to receive reported conversations. As described in this article, the admin can also enter pre-submission instructions and post-submission confirmations for the user. 
+- **Licenses that don't include communication compliance**. When you enable communication compliance, the Viva Engage admin can define an email address to receive reported conversations. As described in this article, the admin can also enter pre-submission instructions and post-submission confirmations for the user. 
 
 - **Licenses that do include communication compliance**. When you enable communication compliance, reported conversations automatically route through communication compliance for investigation and remediation. [Learn more about routing reported conversations through Microsoft Purview Communication Compliance](/purview/communication-compliance-policies).
  
@@ -77,7 +77,7 @@ After successful submission, the user sees the admin's custom message, if any. T
 
 ### Email reports
 
-After a report is submitted, email is sent to the organization email address set for **Report Conversations** in the admin settings. It includes the following information:
+After a report submission, the organization email address receives an email. It includes the following information:
 
 - The name of the person who submitted the report.
 - The title and text of the email indicates whether a conversation starter or comment is being reported.
@@ -90,7 +90,7 @@ After a report is submitted, email is sent to the organization email address set
 > [!NOTE]
 > Viva Engage doesn't support deep links to comments. Report emails always show the conversation starter link for both conversation starters and comments. Reports don't contain deep links to a reported comment. Report reviewers can use the conversation starter link together with the reported comment timestamp to find the actual reported comment in the conversation.
 
-The Viva Engage user also receives a copy of this email.
+The Viva Engage user who submitted the report also receives a copy of this email.
 
 ## FAQ
 
@@ -116,7 +116,7 @@ The Viva Engage user also receives a copy of this email.
 
 **Q:** Can users report messages from private and secret communities?
 
-**A:** Conversations can be reported from all public, private, and secret communities in Viva Engage. The email report includes a link to the original conversation starter where the starter or comment was reported. If the person reviewing the reports doesn't have access to the private or secret community, they can work with the Engage admin to get access to that community for further review. Admins can work with the community administrator to get access to the reported message.
+**A:** Users can report conversations from all public, private, and secret communities in Viva Engage. The email report includes a link to the original conversation starter where the starter or comment was reported. If the person reviewing the reports doesn't have access to the private or secret community, they can work with the Engage admin to get access to that community for further review. Admins can also work with the community administrator to get access to the reported message.
 
 **Q:** Can users report messages from Viva Engage integrations with Teams, Outlook, and SharePoint?
 

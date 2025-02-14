@@ -23,7 +23,7 @@ search.appverid:
 - SPO160
 - MET150
 ROBOTS:
-description: "Learn how to set up Viva Connections in the Microsoft 365 admin center"
+description: "Learn how to set up Viva Connections in the Microsoft 365 admin center and prepare your experience for your organization"
 ---
 
 # Set up Viva Connections in the Microsoft 365 admin center
@@ -44,13 +44,13 @@ Use these step-by-step instructions to help you set up and launch Viva Connectio
 
 Setting up Viva Connections only takes a few steps but there are some considerations to think through with other stakeholders at your organization before getting started:
 
-- **Consider the type of experience(s) that are best for your organization**: You can create a stand-alone Viva Connections experience, or you can create a Connections experience that also builds off an existing intranet portal or SharePoint home site. You can create a single Connections experience for your entire organization with dashboard cards targeted to specific audiences (that is, Centralized HR communication), or you can create multiple experiences to meet the needs of distinct audiences (for example, separate content for front-line workers, subsidiaries needing separate content and branding, etc.). Keep in mind that if you have multiple experiences with overlapping content, each experience needs to be updated separately. Learn more on how to [plan, build, and launch Viva Connections](home-site-plan.md).
+- **Consider the type of experience(s) that are best for your organization**: You can create a stand-alone Viva Connections experience, or you can create a Connections experience that also builds off an existing intranet portal or SharePoint home site. You can create a single Connections experience for your entire organization with dashboard cards targeted to specific audiences (that is, Centralized HR communication), or you can create multiple experiences to meet the needs of distinct audiences (for example, separate content for frontline workers, subsidiaries needing separate content and branding, etc.). Keep in mind that if you have multiple experiences with overlapping content, each experience needs to be updated separately. Learn more on how to [plan, build, and launch Viva Connections](home-site-plan.md).
 
 - **Decide which audiences should be associated with each experience**: You can create more than one Connections experience if your organization has a need for different user experiences for distinct audiences. Decide which experiences should be associated with specific audiences. You want to consider the [order of experiences](set-up-admin-center.md#step-4-decide-the-order) that should be seen for audiences that might belong to more than one experience.
 
 - **Think about who should have owner permissions to each experience**: [Owners have full permissions to edit the experience](edit-viva-home.md) and manage access for others. As a best practice, it’s recommended that each experience has a minimum of two owners assigned to it.
 
-- **Pick an icon and name for your app**: Choose an app icon and name to apply to your entire Connections app. This icon and label will display as an app in the Teams app bar. Consider what the right branding elements are for your organization. You want to pick a name that aligns with your organization’s brand, and that’s also meaningful and recognizable to viewers.
+- **Pick an icon and name for your app**: Choose an app icon and name to apply to your entire Connections app. This icon and label display as an app in the Teams app bar. Consider what the right branding elements are for your organization. You want to pick a name that aligns with your organization’s brand, and that’s also meaningful and recognizable to viewers.
 
 > [!NOTE]
 >
@@ -84,7 +84,6 @@ Create an all-encompassing Connections experience for the entire organization, o
 > - A Microsoft Viva Suite license or Viva Communications and Communities license is required to create more than one Viva Connections experience. Check the [current license for your organization in billing under licenses](https://www.microsoft.com/microsoft-viva/pricing).
 > - Organizations are limited to creating a maximum of 50 Viva Connections experiences overall per tenant.
 > - You must have SharePoint admin permissions to access the MAC.
-> - If this is the first time you're setting up Viva Connections, it's recommended you pin the app in Teams.
 
 ### Step 1: Create a new experience
 
@@ -111,7 +110,7 @@ This option is ideal if your organization doesn't have an existing intranet port
 3. Give the new experience a name, add a description, decide the settings, and then select **Next**.
 
    > [!NOTE]
-   > The name given to the experience in the MAC will also display for owners and members who help manage and edit experiences.
+   > The name given to the experience in the MAC displays for owners and members who help manage and edit experiences.
 
 4. After reviewing your settings, select **Create experience**.
 
@@ -133,7 +132,7 @@ If your organization has an existing intranet portal, then this option allows yo
 3. Paste the URL of your SharePoint communication site in the **URL of the communication site you want to use** field.
 
    > [!NOTE]
-   > The name given to the experience in the MAC will also display for owners and members who help manage and edit experiences.
+   > The name given to the experience in the MAC displays for owners and members who help manage and edit experiences.
 
    :::image type="content" source="../media/connections/set-up-admin-center/set-intranet-portal-pr.png" alt-text="The screenshot of this diagram presents the option to build a Connections experience from an existing intranet portal." lightbox="../media/connections/set-up-admin-center/set-intranet-portal-pr.png":::
 
@@ -151,9 +150,9 @@ PowerShell functionality is limited initially as follows:
 >
 | Command | Result |
 |----|----|
-| **Get-SPOHomeSite** | Returns the single SharePoint home site URL. <br><br> With multiple Viva Connections experiences, a warning message and the first Viva Connection experience from the list will be shown. |
+| **Get-SPOHomeSite** | Returns the single SharePoint home site URL. <br><br> With multiple Viva Connections experiences, a warning message and the first Viva Connection experience from the list is shown. |
 | **Set-SPOHomeSite** | 1. Initially it will continue supporting a single SharePoint home site setup. Setting up more SharePoint home sites can be done in the MAC. Support for setting up multiple SharePoint home sites will be supported at a later stage. <br><br>2. It updates the Viva Connections default landing destination (Viva Connections, SharePoint home site, or draft status for a SharePoint home site). This functionality will continue getting support in multiple Viva Connection experiences. The cmdlet can be run with the SharePoint home site URL to set the landing destination. |
-| **Remove-SPOHomeSite** | This won't be supported initially for multiple SharePoint home sites customers, but the MAC will support this operation. Users attempting to use the cmdlet will receive an error message and be redirected to the MAC. |
+| **Remove-SPOHomeSite** | This command won't be supported initially for multiple SharePoint home sites customers, but the MAC will support this operation. Users attempting to use the cmdlet will receive an error message and be redirected to the MAC. |
 >
 
 #### When to use a separate experience vs dashboard card-level targeting
@@ -196,7 +195,7 @@ Assign two or more owners to each experience so that they have full access to [e
 
 ### Step 3: Designate audiences
 
-Decide which Microsoft Entra security groups or Microsoft 365 groups should be associated with each Viva Connections experience. Adding audiences doesn't grant permissions to the experience but creates associations to scope down who should see the experience by default. Later, owners will assign member- and visitor-level permissions to grant access to the experience, and will further filter the experiences through audience targeting.
+Decide which Microsoft Entra security groups or Microsoft 365 groups should be associated with each Viva Connections experience. Adding audiences doesn't grant permissions to the experience but creates associations to scope down who should see the experience by default. Later, owners assign member and visitor level permissions to grant access to the experience, and will further filter the experiences through audience targeting.
 
 > [!NOTE]
 > Visitors are set to **Everyone in the company except external users** by default.
@@ -238,11 +237,11 @@ Users who have already designated audiences for their experiences can use the fo
 
 ### Step 4: Decide the order
 
-If your organization has multiple experiences, some audiences might belong to more than one. By setting an order for each experience, you can determine the priority in which experiences will be seen first. Experiences should be ordered based on the size of the targeted audiences, from the smallest to the largest. This pattern ensures your smaller audiences see their tailored experience without being flooded with information that larger, more general, audiences might receive.
+If your organization has multiple experiences, some audiences might belong to more than one. By setting an order for each experience, you can determine the priority in which experiences are seen first. Experiences should be ordered based on the size of the targeted audiences, from the smallest to the largest. This pattern ensures your smaller audiences see their tailored experience without being flooded with information that larger, more general, audiences might receive.
 
 #### Example of how ordering works with multiple experiences
 
-In the example screenshot, there are two Connections experiences for an organization. Both experiences have been enabled and can be seen by viewers.
+In the example screenshot, there are two Connections experiences for an organization. Both experiences are enabled and can be seen by viewers.
 
 :::image type="content" source="../media/connections/set-up-admin-center/how-ordering-works-with-multiple-experiences.png" alt-text="Screenshot of the screen that describes how ordering works with multiple experiences." lightbox="../media/connections/set-up-admin-center/how-ordering-works-with-multiple-experiences.png":::
 
@@ -315,7 +314,7 @@ The following settings are available in the Connections experience settings pane
 5. **Experience name**: Edit the name of the selected experience (visible only to administrators in the MAC).
 6. **URL**: Location of the intranet home site (if one has been added) or the special site container (if the experience wasn't created from an existing intranet portal).
 7. **Status**: Indicates if the status of the selected experience is **Draft** or **Enabled**.
-8. **License type**:  Which license type the experience has been scoped for (for example, frontline workers, enterprise, or all).
+8. **License type**:  Which license type the experience has been created for (for example, frontline workers, enterprise, or all).
 9. **Default language**: What default language the experience is set as.
 10. **Experience description**: A brief description of the experience for administrators (not commonly seen by users).
 11. **Creation details**: Information on the creation of the experience.
@@ -336,7 +335,7 @@ The following settings are available in the Connections experience settings pane
 
    :::image type="content" source="../media/connections/set-up-admin-center/deleting-experience.png" alt-text="Screenshot of the screen on which you can delete a Viva Connections experience.":::
 
-3. A confirmation screen will display. Select **Delete** to remove the experience.
+3. A confirmation screen displays. Select **Delete** to remove the experience.
 
 ## Setting a home site after setting up a standalone Connections experience
 
@@ -366,19 +365,19 @@ To set the site that was created when creating your Viva Connections experience 
 
    :::image type="content" source="../media/connections/set-up-admin-center/enable-connections-experience.png" alt-text="Screenshot highlighting the steps to enable the Viva Connections experience and set it as a home site.":::
 
-Once your home site has been set up, it's time to plan the launch of the experience and make sure the rest of the organization can find and use the home site. Learn more about [launching your SharePoint home site](home-site-plan.md#launch-your-sharepoint-home-site).
+Once your home site is set up, it's time to plan the launch of the experience and make sure the rest of the organization can find and use the home site. Learn more about [launching your SharePoint home site](home-site-plan.md#launch-your-sharepoint-home-site).
 
 ### Frequently Asked Questions
 
 **I already have a SharePoint home site but I haven’t set up a Connections dashboard yet. Where do I get started to set up a Connections experience?**
 
-If you already have a SharePoint home site, you'll be able to see it in your Microsoft 365 admin center under **Setup > Viva > Viva Connections > Create and manage Connections experiences**.
+If you already have a SharePoint home site, you can see it in your Microsoft 365 admin center under **Setup > Viva > Viva Connections > Create and manage Connections experiences**.
 
 To manage the dashboard, visit the site as site admin, owner, or member, and select **Edit** above the dashboard.
 
 **Will I be able to customize the Viva Connections app name and icon in Teams for each experience that I create?**
 
-You can only choose one icon and app name regardless of how many experiences you set up, so you'll need to choose an icon and name that make sense to your entire organization. All of your users will see the same name and icon, but when they select the app icon, they'll land on their targeted experience.
+You can only choose one icon and app name regardless of how many experiences you set up, so you need to choose an icon and name that make sense to your entire organization. All of your users see the same name and icon, but when they select the app icon, they'll land on their targeted experience.
 
 **I already have dashboard set up with card-level audience targeting. Will that change?**
 
@@ -390,7 +389,7 @@ Viva Connections and SharePoint home site administration are being combined in t
 
 **I would like my users to access more than one Viva Connections experience in Teams. Is that supported?**
 
-In Teams, users will only be able to see the experience that they're targeted to. If the users are targeted to more than one experience, they'll see the one with the highest rank order. On the web, users will still be able to access more than one SharePoint home site based on the site access permissions.
+In Teams, users will only be able to see the experience that they're targeted to. If the users are targeted to more than one experience, they see the one with the highest rank order. On the web, users will still be able to access more than one SharePoint home site based on the site access permissions.
 
 The multiple experiences feature is designed for subsidiaries and conglomerates who have nonoverlapping content for their users such that users don’t need to access more than one experience.  
 
@@ -398,7 +397,7 @@ The multiple experiences feature is designed for subsidiaries and conglomerates 
 
 Yes, content authors can update intranet-portal-based Viva Connections experiences directly through the web as long as they have the required permissions.
 
-Additionally, if a content author has Owner or Member permissions to the Connections experience in Teams, they'll be able to switch among the different experiences that they have the permission to edit. Select **[Switch Experience](edit-viva-home.md#how-to-switch-between-multiple-viva-connections-experiences)** in the settings menu.
+Additionally, if a content author has Owner or Member permissions to the Connections experience in Teams, they're able to switch among the different experiences that they have the permission to edit. Select **[Switch Experience](edit-viva-home.md#how-to-switch-between-multiple-viva-connections-experiences)** in the settings menu.
 
 **I just changed the status or the rank order of an experience. How soon will the changes take effect for the users?**
 
@@ -407,6 +406,10 @@ It might take up to 24 hours for changes to fully propagate. Consider this timin
 **My current SharePoint home site is set up on the SharePoint root site. Now I want to set up additional SharePoint home sites. How do I ensure that the users targeted to the new SharePoint home site don’t see the news posts from the existing SharePoint home site (root site)?**
 
 If your SharePoint home site is set up on the root site, all your users should have access to the root site for SharePoint access. This means that if some of your users are targeted to a new SharePoint home site, they might still see content in their feed from the existing SharePoint home site (root site). To avoid this, it's recommended to not use root site as a SharePoint home site if you plan to set up multiple SharePoint home sites. Alternatively, you can decide to publish content on the existing SharePoint home site (root site) that is broadly applicable to everyone.
+
+> [!NOTE]
+> 
+> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
 
 **I would like to restore my original setup. How do I get back to my original setup?**
 

@@ -15,21 +15,21 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/13/2025
+ms.date: 1/31/2025
 ---
 
 # Microsoft Copilot Impact Survey template in Viva Glint
 
 AI tools are increasingly integrated into the workplace to enhance workforce productivity and the employee experience. With this transformational shift in how employees work, leaders need to understand their early investments in Microsoft Copilot and the workforce adoption. 
 
-With the Copilot Impact Survey in Viva Glint, organizations can measure the impact of Microsoft Copilot through sentiment data. This information enables IT and business leaders to plan their AI readiness, drive adoption, and measure their ROI. The Microsoft Copilot Impact Survey is also available in Microsoft Viva Pulse.
+With the Copilot Impact Survey in Viva Glint, organizations can measure the impact of Microsoft Copilot through sentiment data. This data enables IT and business leaders to plan their AI readiness, drive adoption, and measure their ROI. The Microsoft Copilot Impact Survey is also available in Microsoft Viva Pulse.
 
 ## Read the Viva People Science blog
 
 Read Viva People Science insights in the Viva Glint Community.
 
 > [!div class="nextstepaction"]
-> [Microsoft Copilot in Viva Glint: Bringing AI to Comment Analysis](https://techcommunity.microsoft.com/t5/viva-glint-blog/microsoft-copilot-in-viva-glint-bringing-ai-to-comment-analysis/ba-p/4003914) 
+> [Microsoft Copilot in Viva Glint: Bringing AI to Comment Analysis](https://techcommunity.microsoft.com/blog/viva_glint_blog/surveying-employees-about-ai-at-work/3951915) 
 
 ## Use cases for the Microsoft Copilot Impact Survey
 
@@ -43,7 +43,7 @@ While this Glint survey template can be used on its own, if you have Viva Insigh
 ### What the Copilot Impact survey uncovers
 
 When leaders seek feedback, organizations can proactively highlight the value of a new tool and address challenges that might otherwise go unnoticed. The Copilot Impact survey can help organizations better understand: 
-- **User insights**: Copilot will likely be used differently across employee roles. Gathering user feedback helps to refine implementations and ensure enablement efforts are aligned with the real-world needs of your workforce.  
+- **User insights**: Copilot is likely be used differently across employee roles. Gathering user feedback helps to refine implementations and ensure enablement efforts are aligned with the real-world needs of your workforce.  
 - **Employee empowerment opportunities**: Surveys help empower employees by giving them a voice to share their experiences. This empowerment fosters a sense of ownership and responsibility, which can lead to more active engagement with - and adoption of – Microsoft Copilot.
 - **Copilot impact**: Items in this survey help establish the overall impact of Copilot usage. The core items show established relationships with Copilot use and general work patterns based on Microsoft research. 
 - **Success stories**: Collecting feedback from employees on their use of Copilot early and often can uncover success stories, best practices, and tips to share across your organization.  
@@ -64,7 +64,7 @@ Glint recommended items fall into two categories:
 |Copilot Effort|Rating|Using Copilot helps me spend less mental effort on mundane or repetitive tasks.|
 |Copilot Quality|Rating|Using Copilot helps improve the quality of my work or output.|
 
-### Additional survey items
+### Other survey items
 |Item name|Item type|Item text|
 |---------|---------|---------|
 |Copilot Questions|Rating|I know where to find answers to my questions about Copilot.|

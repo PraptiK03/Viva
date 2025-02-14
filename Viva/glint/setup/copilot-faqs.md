@@ -17,7 +17,7 @@ ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-aapproved
-ms.date: 1/13/2025
+ms.date: 2/04/2025
 ---
 
 # Microsoft 365 Copilot in Viva Glint-FAQs 
@@ -30,7 +30,7 @@ ms.date: 1/13/2025
 
 <br>**Q: How often is the Large Language Model (LLM) updated for Copilot in Viva Glint?**
 
-**A:** Copilot in Viva Glint uses the latest Open AI LLM model, GPT-4.0, trained with data up to October 2023. While it currently relies solely on customer survey data without external references, prompt engineering is continuously updated to ensure Copilot delivers accurate and relevant responses based on survey inputs.
+**A**: Copilot in Viva Glint uses the latest Open AI LLM model, GPT-4.0, trained with data up to October 2023. We don't use customer data to train the LLM model. While it currently relies solely on customer survey data without external references, engineering is continuously updated to ensure Copilot delivers accurate and relevant responses based on survey input.
 
 <br>**Q: What’s the licensing for Copilot in Viva Glint?** **Is it part of the Copilot or Viva Glint licensing?**
 

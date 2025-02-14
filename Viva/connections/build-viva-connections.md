@@ -1,6 +1,6 @@
 ---
-ms.date: 09/22/2023
-title: "Build Viva Connections for your organization"
+ms.date: 01/30/2025
+title: "Build and test your design for Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
@@ -18,64 +18,72 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Build Viva Connections for your organization"
+description: "Review recommendations to help you build and test your Viva Connections design for your organization"
 ---
 
-# Build Viva Connections
+# Build and test your design for Viva Connections
 
 After deciding which tasks, audiences, and resources to promote using Viva Connections in the [planning phase](plan-viva-connections.md), you're ready to move onto the building phase.
 
-You know you're ready to move onto the building phase if you've met the following requirements and have reviewed best practices:
+You know you're ready to move onto the building phase if you've met the following requirements and reviewed best practices:
 
-- You’ve got a SharePoint home site, global navigation setup, and modernized sites  (optional and only if needed.)
-- The most valuable tasks and processes can be completed using Viva Connections.
-- Considerations have been made for specific audiences.
-- You have an adoption and launch plan along with success metrics.
+- The [most valuable tasks and processes can be completed](plan-viva-connections.md#review-prioritize-and-modernize-content-to-align-with-key-scenarios-and-tasks-optional) using Connections.
+- Considerations have been made for [specific audiences](plan-viva-connections.md#planning-process).
+- You have an [adoption and launch plan](launch-viva-connections.md) along with success metrics.
+- (Optional) You’ve got a modern SharePoint home site.
 
-Start by creating the Viva Connections dashboard. Then, select settings for the mobile app. Next, make sure content that’s on the organization's SharePoint home site, and linked to cards on the dashboard that can be accessed by the right audiences and offers the ideal viewing experience. Lastly, test and refine the experience before launching to the rest of the organization.  
+Start by creating your Connections experience in the [Viva Connections admin center](set-up-admin-center.md#how-to-access-viva-connections-in-the-microsoft-admin-center) with a [standalone Connections](set-up-admin-center.md#create-a-connections-experience), or use an [existing intranet portal](set-up-admin-center.md#build-from-an-existing-intranet-portal). Once your experience has been [created, set-up, and enabled](set-up-admin-center.md#build-from-an-existing-intranet-portal), have your site owners customize the Connections dashboard with tools and resources to help with their daily tasks. Use site traffic and analytics to understand how and when users engage with your site, then continue to build and refine your Connections experience.
 
-## Step 1: Enable the Viva Connections app in the Microsoft Teams admin center and choose settings
+## Step 1: Create your Connections experience in the Connections admin center
 
-[Setting up Viva Connections](set-up-admin-center.md) creates a custom app in Microsoft Teams. Your organization’s custom app appears as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon appears in the Teams app bar in the desktop and mobile Microsoft Teams app. Make sure to [pin the app](set-up-admin-center.md#pin-the-viva-connections-app-in-teams) so your users can find it.
+Access the [Viva Connections admin center](set-up-admin-center.md#how-to-access-viva-connections-in-the-microsoft-admin-center) from the Microsoft Admin Center to begin. Create an all-encompassing Connections experience for the entire organization, or for distinct audiences. You can choose to create a stand-alone Connections experience or use an existing intranet portal for your site.
 
-## Step 2: Customize the Viva Connections dashboard (if needed)
+Once you've created your experience:
 
-The dashboard brings it all together – it provides a personalized landing experience and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks.
+- Assign permissions
+- Decide which Microsoft 365 groups to associate with the new experience
+- Set the order of experiences (if more than one is created)
+- Enable the experience.
 
-   :::image type="content" alt-text="Screenshot of the Viva Connections Dashboard in edit mode." source="../media/connections/new-dashboard-creation.png":::
+For more information, see [setting up Connections in the Microsoft 365 admin center](set-up-admin-center.md).
 
-1. Start by [customizing the dashboard](create-dashboard.md).
-2. Next, [apply audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards) to dashboard cards to give your users an experience tailored to their role and interests.
-3. Once you feel confident in the dashboard design,**Preview** it on all devices, and then **Publish** the dashboard.
+## Step 2: Customize the Connections dashboard
 
-   ![Image of the Viva Connections Dashboard web part highlighted on a site.](../media/connections/vc-dashboard-web-part.png)
-
-4. Once you publish the dashboard, you'll be able to use the [Dashboard web part](/SharePoint/use-dashboard-web-part-on-home-site) on SharePoint home sites.
+The dashboard brings it all together; providing a personalized landing experience for users and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks. Users with site owner and site member permissions are able to customize the dashboard, apply audience targeting to role-specific cards, preview, and publish the dashboard.
 
 ## Step 3: Ensure high-traffic content provides an ideal viewing experience
 
 For a smooth launch, you want to make sure information can be easily accessed and that high-traffic sites and pages are high-performing.
 
-1. As a first step, [test the performance of the SharePoint home site](/sharepoint/portal-health) (for organizations that have one or add one later) to ensure an optimal viewing experience.
-2. Then, check the performance for SharePoint sites that receive a high amount of traffic. For example, sites that relate to human resources, organizational news, and popular services like transportation or café menus.
-3. Then, [share the SharePoint home site with the entire organization](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) (for organizations that have one or add one later) before launching. Next, make sure that the target audiences for the cards in the Viva Connections dashboard are shared with the right audiences.
+1. If your organization used an existing SharePoint home site to create the Connections experience, [test the performance of the home site](/sharepoint/portal-health)  to ensure an optimal viewing experience ([A site can always be added to a Connections experience later](set-up-admin-center.md#setting-a-home-site-after-setting-up-a-standalone-connections-experience)).
+
+2. Check the performance for any SharePoint sites that receive a high amount of traffic.
+
+   For example, sites that relate to human resources, organizational news, and popular services like transportation or café menus.
+
+3. [Share the SharePoint home site with the entire organization](https://support.microsoft.com/office/958771a8-d041-4eb8-b51c-afea2eae3658) (if available) before launching. Make sure that the target audiences for the cards in the Connections dashboard are shared with the right audiences.
+
 4. Consider using the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler) to monitor performance for high-traffic sites that are being shared for the first time.
 
-## Step 4: Test and refine the Viva Connections experience
+## Step 4: Test and refine the Connections experience
 
-Before sharing Viva Connections with the rest of your organization, recruit a small group of users to test and refine popular workflows to ensure end-users have a great experience using Viva Connections for the first time. Consider recruiting specific people from different audiences to complete popular tasks. Make improvements until the experience is ideal for the rest of the organization.
+Before sharing Connections with the rest of your organization, recruit a small group of users to test and refine popular workflows to ensure end-users have a great experience using Connections for the first time. Consider recruiting specific people from different audiences to complete popular tasks.
+
+If your organization has a Viva suite or Viva Communications and Communities license, use [analytics data for that Connections experience](viva-connections-analytics.md) to review data on overall traffic, usage, and engagement. Make improvements until the experience is ideal for the rest of the organization.
 
 **Best practices for testing:**
 
-- Use the approved web browser for your organization
-- Test Viva Connections on a desktop device and mobile device
-- Make sure all the links are active and there aren’t any dead ends
+- Test Connections through Microsoft Teams and the [Viva Suite home site](https://viva.cloud.microsoft/).
+- Test Connections through SharePoint if a home site was used to create the experience.
+- Depending what devices your organization prefers, test Connections on desktop, mobile, and tablet devices.
+- Make sure all links are active and there aren't any dead ends.
 - Pay attention to labels on dashboard cards and buttons – do they make sense to the rest of the organization?
-- Evaluate the quality and effectiveness of icons and images
-- Check for performance issues like slow loading times or missing images
-- Ask testers about the [navigation experience](/sharepoint/information-architecture-modern-experience)
-- Test with [early adopters and champions](https://adoption.microsoft.com/roles/champion/) and capture their feedback
+- Evaluate the quality and effectiveness of icons and images.
+- Check for performance issues like slow loading times or missing images.
+- Ask testers about the [navigation experience](/sharepoint/information-architecture-modern-experience).
+- Test with [early adopters and champions](https://adoption.microsoft.com/roles/champion/) and capture their feedback.
 
-## Next, launch Viva Connections for your organization
+## Next, launch Connections for your organization
 
-After [planning](plan-viva-connections.md), building, and testing Viva Connections, it’s time to let the rest of the organization know that it's available for use. [Learn more about how to launch Viva Connections.](launch-viva-connections.md)
+After you have finished [planning](plan-viva-connections.md), building, and testing Connections, it's time to let the rest of the organization know that it's available for use. [Learn more about how to launch Connections.](launch-viva-connections.md)
+

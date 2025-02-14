@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 02/12/2024
+ms.date: 02/10/2025
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -45,7 +45,7 @@ To enable seamless login, admins can set up the following configurations:
     1. Get the single sign-on WebURL from the LinkedIn Learning Admin page.  
     You can reach this url via the link shown or go to the **LinkedIn Admin configuration** > **Authenticate** > **Set up Viva Learning Authentication**.
     2. Enter the WebURL in Viva Learning.
-    3. On the same LinkedIn Learning configuration page, enter the Entra tenant ID. The Entra ID is shown in the Viva Learning configuration. 
+    3. On the same LinkedIn Learning configuration page, enter the Microsoft Entra tenant ID. The Entra ID is shown in the Viva Learning configuration. 
 
        > [!IMPORTANT]
        > On the LinkedIn configuration page, select **Submit** after entering the tenant ID and copying the Link to ensure that configuration is saved.
@@ -57,4 +57,3 @@ To enable seamless login, admins can set up the following configurations:
 8. Select **Validate** and follow the steps to confirm the configuration works. Users are prompted to use their organization's LinkedIn Learning credentials to sign in.
 
 10. Select **Save** to save the configurations.
-

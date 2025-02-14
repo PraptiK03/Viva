@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 03/07/2024
+ms.date: 02/10/2025
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -13,12 +13,12 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
 ms.localizationpriority: medium
-description: This topic describes the settings for the Microsoft 365 provider.
+description: This article describes the settings for the Microsoft 365 provider when using Viva Learning.
 ---
 
 # Microsoft 365 training
 
-Microsoft 365 training content is available for all users of Viva Learning. This is enabled by default and can be managed in the **Manage Providers** section of Viva [Learning Admin tab](https://learning.cloud.microsoft/admin).
+Microsoft 365 training content is available for all users of Viva Learning and enabled by default. You can manage Microsoft 365 training in the **Manage Providers** section of the Viva [Learning Admin tab](https://learning.cloud.microsoft/admin).
 
 ## Features
 
@@ -26,7 +26,7 @@ Microsoft 365 training content can be played inline in Viva Learning.
 
 ## Update Cycle
 
-Microsoft 365 content gets updated daily. It may take 1-2 days for updates to reflect in Viva Learning App.
+Microsoft 365 content gets updated daily. It can take 1-2 days for updates to reflect in Viva Learning App.
 
 ## Supported Languages  
 

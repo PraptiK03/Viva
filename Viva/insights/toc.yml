@@ -68,6 +68,10 @@ items:
             href: org-team-insights/team-insights.md
           - name: Organization insights
             href: org-team-insights/org-insights.md
+          - name: Discover organization insights quickly with Microsoft 365 Copilot
+            href: org-team-insights/org-insights-copilot.md
+          - name: Copilot deep-dive reports
+            href: org-team-insights/copilot-deep-dive-reports.md
           - name: Leader reports
             href: org-team-insights/leader-reports.md
           - name: Connect to the Copilot Dashboard
@@ -92,10 +96,14 @@ items:
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: Tips for uploading organizational data for Copilot 
+            href: advanced/admin/upload-org-data-copilot.md
           - name: Import organizational data using API (first import)
             href: advanced/admin/import-org-data-first.md
           - name: Import organizational data using API (subsequent import)
             href: advanced/admin/import-org-data-subsequent.md
+          - name: Import organizational data with Azure blob import
+            href: advanced/admin/import-org-data-azure.md
           - name: Import business data with Azure 
             href: advanced/admin/import-business-data-azure.md
           - name: Import business data with a .csv file
@@ -150,10 +158,6 @@ items:
                 href: advanced/analyst/cross-collaboration-g2g.md   
               - name: Collaboration between internal and external individuals
                 href: advanced/analyst/external-collaboration.md               
-            - name: Uncover network collaboration insights
-              href: advanced/analyst/network-collaboration-insights.md 
-            - name: Create change management queries
-              href: advanced/analyst/change-management-queries.md 
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
             - name: Connect your data to Power BI using the Power BI connector
@@ -162,6 +166,10 @@ items:
             items:
             - name: Introduction to templates
               href: advanced/analyst/templates/introduction-to-templates.md
+            - name: Uncover network collaboration insights
+              href: advanced/analyst/network-collaboration-insights.md 
+            - name: Create change management queries
+              href: advanced/analyst/change-management-queries.md 
             - name: Business resilience
               href: advanced/analyst/templates/business-resilience.md
             - name: Glint and organizational insights report
@@ -228,6 +236,12 @@ items:
             href: advanced/reference/supported-languages.md 
       - name: Microsoft 365 Copilot in Viva Insights
         items:
+        - name: Discover organization insights quickly with Microsoft 365 Copilot
+          href: org-team-insights/org-insights-copilot.md
+        - name: Copilot deep-dive reports
+          href: org-team-insights/copilot-deep-dive-reports.md
+        - name: Tips for uploading organizational data for Copilot 
+          href: advanced/admin/upload-org-data-copilot.md
         - name: Connect to the Copilot Dashboard
           href: org-team-insights/copilot-dashboard.md
         - name: Delegate access to the Copilot Dashboard

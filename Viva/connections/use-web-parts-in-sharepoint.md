@@ -27,11 +27,15 @@ Use the News, Viva Engage, File and Media, and Highlighted content web parts and
 
 Each user’s experience will look different because content displayed in the web parts is personalized to the viewer based on the SharePoint sites and Viva Engage communities that they follow. The tools described in this article are a good way to surface content on your SharePoint site like how the Feed in Viva Connections distributes information.
 
+> [!NOTE]
+>
+> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
+
 For more information on how content is displayed, see the section in this article on [where content in the Feed comes from](/viva/connections/faqs-viva-connections-feed#where-does-content-in-the-feed-come-from).
 
 > [!NOTE]
 >
-> You'll need site member permissions (or higher) to add and edit web parts to a SharePoint site.
+> You need site member permissions (or higher) to add and edit web parts to a SharePoint site.
 
 :::image type="content" source="../media/connections/use-web-parts-in-sharepoint/sharepoint-site-overview.png" alt-text="Screenshot of a SharePoint site using multiple web parts.":::
 
@@ -43,7 +47,7 @@ Create eye-catching posts like announcements, organizational news, people news, 
 
 > [!NOTE]
 >
-> Boosted news will display for us to 4 days in the News web part.
+> Boosted news displays for up to four days in the News web part.
 
 :::image type="content" source="../media/connections/use-web-parts-in-sharepoint/news-web-part.png" alt-text="Screenshot of the News web part." lightbox="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png":::
 
