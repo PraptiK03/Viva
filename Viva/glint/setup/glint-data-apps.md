@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/05/2025
+ms.date: 03/11/2025
 ---
 
 # Use Advanced Configuration Data Apps
@@ -102,7 +102,7 @@ Use these steps when manager reporting lines need to be corrected for a closed s
       > If uploads aren't confirmed within 60 minutes, they expire and don't process.
       
 1. After the import completes successfully, use the **Export** option on the **People** page to confirm that Manager Hierarchy levels and teams are updated as expected.
-2. [Create a Distribution List](/viva/glint/setup/set-up-distribution-lists) and [import all users](/viva/glint/setup/import-members-distribution-lists) that are part of the retroactive update.
+2. [Create a Distribution List](/viva/glint/setup/set-up-distribution-lists) and [import all users](/viva/glint/setup/set-up-distribution-lists#import-users) that are part of the retroactive update.
 3. After uploading your corrected data on the **People** page and creating a Distribution List, go to **Advanced Configuration** and select **Data Apps**.
 1. In **Data Apps**, select **RETROACTIVE_PULSE_UPDATE**.
 1. Select parameters to update Manager ID:
@@ -132,7 +132,7 @@ Use these steps when manager reporting lines need to be corrected for a closed s
 1. Confirm Manager Hierarchy changes in your **Dashboard** and **Reports**.
 1. If the user data updates made by the correction file loaded for this update should be reset to current attribute values, load the data exported in Step 1 to the Viva Glint People page.
    1. For example, if Manager corrections apply to survey data in the past, but Manager IDs now different for employees, load data exported in Step 1 to restore current information.
-3. Optionally, [delete the Distribution List](set-up-distribution-lists.md#delete-distribution-lists) created to target users for the update.
+3. Optionally, [delete the Distribution List](set-up-distribution-lists.md#delete-a-list) created to target users for the update.
 
 > [!NOTE]
 > Depending on the number of Manager ID updates and users involved, it may take up to an hour to see changes reflected in reporting.

@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: onboarding, Hire Date, 
+keywords: onboarding, Hire Date, surveys for Hiring Managers, lifecycle feedback, lifecycle surveys
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/21/2025
+ms.date: 3/11/2025
 ---
 
 # Set up a Viva Glint Onboarding survey
 
-**Onboarding surveys** are crucial for gauging new hires’ early experiences and ensuring they have the resources and support needed to succeed. They typically occur within the first few weeks of employment and Microsoft Viva Glint suggests they continue at intervals to track the new employee’s integration into your company. These surveys can cover aspects like the effectiveness of your orientation process, clarity of job expectations, and the supportiveness of the environment. 
+**Onboarding surveys** are crucial for gauging new hires’ early experiences and ensuring they have the resources and support needed to succeed. They typically occur within the first few weeks of employment and Microsoft Viva Glint suggests they continue at intervals to track the new employee’s integration into your company. These surveys can cover aspects like the effectiveness of your orientation process, clarity of job expectations, and the supportiveness of the environment. Onboarding and Exit feedback is helpful to your organization's Hiring Managers. Together, Viva Glint refers to Onboarding and Exit surveys as Employee Lifecycle surveys.
 
 ### Recommended cadence and tips 
 
