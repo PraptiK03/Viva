@@ -2403,18 +2403,28 @@
   },
   {
     "source_path": "viva/glint/people-science/propel-action-taking.md",
-    "redirect_url": "https://learn.microsoft.com/viva/glint/people-science/propelling-action-taking",
+    "redirect_url": "/viva/glint/people-science/propelling-action-taking",
     "redirect_document_id": true
   },
   {
     "source_path": "viva/glint/reports/focus-area-periods.md",
-    "redirect_url": "https://learn.microsoft.com/viva/glint/setup/focus-area-period-feature",
+    "redirect_url": "/viva/glint/setup/focus-area-period-feature",
     "redirect_document_id": true
   },
   {
     "source_path": "viva/glint/reports/coach-managers-small-teams.md",
-    "redirect_url": "https://learn.microsoft.com/viva/glint/reports/post-survey-coaching-small-teams",
+    "redirect_url": "/viva/glint/reports/post-survey-coaching-small-teams",
     "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/setup/import-members-distribution-lists.md",
+    "redirect_url": "/viva/glint/setup/set-up-distribution-lists",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/setup/export-distribution-lists.md",
+    "redirect_url": "/viva/glint/setup/set-up-distribution-lists",
+    "redirect_document_id": false
   }
  ]
 }

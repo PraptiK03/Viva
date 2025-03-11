@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: onboarding, exit surveys
+keywords: onboarding, exit surveys, employee lifecycle surveys, hiring manager surveys
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/04/2025
+ms.date: 03/11/2025
 ---
 
 # Set up a Viva Glint Exit survey
 
-**Exit surveys** help to understand the reason that an employee voluntarily leaves your organization. They uncover the reasons behind their departure, which could range from career advancement opportunities elsewhere to dissatisfaction with the work environment. 
+**Exit surveys** help to understand the reason that an employee voluntarily leaves your organization. They uncover the reasons behind their departure, which could range from career advancement opportunities elsewhere to dissatisfaction with the work environment. Onboarding and Exit feedback is helpful to your organization's Hiring Managers. Together, Viva Glint refers to Onboarding and Exit surveys as Employee Lifecycle surveys.
 
 ### Recommended cadence and tips for Exit surveys
 

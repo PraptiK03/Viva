@@ -136,13 +136,8 @@ items:
                   href: setup/delete-user-data-faq.md
             - name: Update employee IDs 
               href: setup/id-update.md    
-      - name: Manage Distribution Lists 
+      - name: Set up and manage Distribution Lists 
         href: setup/set-up-distribution-lists.md
-        items:
-            - name: Import users
-              href: setup/import-members-distribution-lists.md
-            - name: Export users
-              href: setup/export-distribution-lists.md
       - name: Manage User Roles
         href: setup/set-up-user-roles.md
         items:

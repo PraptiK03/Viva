@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: organizational survey, business unit survey, recurring survey, engagement survey, quarterly engagement, diversity, inclusion and belonging survey, culture survey, manager effectiveness survey, patient safety survey, team effectiveness survey, ad hoc surveys, always on feedback, employee lifecycle, lifecycle surveys, exit survey, onboarding survey, survey frequency, holistic listening, discovery workbook, vision strategy, vision planning, People Success elements, six elements of success
+keywords: organizational survey, business unit survey, recurring survey, engagement survey, quarterly engagement, diversity, inclusion and belonging survey, culture survey, manager effectiveness survey, patient safety survey, team effectiveness survey, ad hoc surveys, always on feedback, employee lifecycle, lifecycle surveys, exit survey, onboarding survey, survey frequency, holistic listening, discovery workbook, vision strategy, vision planning, People Success elements, six elements of success, survey for hiring managers, surveys for managers, surveys for admins
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/28/2025
+ms.date: 3/11/2025
 ---
 
 # Viva Glint programs, survey types, and templates 
@@ -49,12 +49,12 @@ There are two overarching types to consider:
 
 Use Viva Glint programs to create feedback habits and support continuous employee and organizational development. 
 
-|Survey type|Description|
-|---------|---------|
-|[**Recurring or special topic**](/viva/glint/setup/template-research)|Surveys should be *recurring* so that data can be compared between cycles and *trend* can be established. Recurring surveys are set to go live at a scheduled cadence. Special topic templates include culture, manager effectiveness, and more.|
-|[**Employee Lifecycle**](/viva/glint/setup/program-summary-setup-lifecycle)|Measure the employee experience during key moments in the employee journey. These surveys are considered *trigger events* because they automatically send by the hire or end date.|
-|[**Ad Hoc**](/../../viva/glint/setup/ad-hoc-survey)|Measure something out of the ordinary, at an impactful time.|
-|[**Always-On**](/viva/glint/setup/always-on-surveys)|Provide feedback and suggestions anytime it feels relevant. |
+|Survey type|Description|Who should use them?|
+|---------|---------|-----|
+|[**Recurring or special topic**](/viva/glint/setup/template-research)|Surveys should be *recurring* so that data can be compared between cycles and *trend* can be established. Recurring surveys are set to go live at a scheduled cadence. Special topic templates include culture, manager effectiveness, and more.|Any leader|
+|[**Employee Lifecycle**](/viva/glint/setup/program-summary-setup-lifecycle)|Measure the employee experience during key moments in the employee journey. These surveys are considered *trigger events* because they automatically send by the hire or end date.|HR, Hiring Managers|
+|[**Ad Hoc**](/../../viva/glint/setup/ad-hoc-survey)|Measure something out of the ordinary, at an impactful time.|Any leader|
+|[**Always-On**](/viva/glint/setup/always-on-surveys)|Provide feedback and suggestions anytime it feels relevant. |Any leader|
 
 ### Survey frequency 
 
