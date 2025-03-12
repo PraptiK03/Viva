@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/11/2025
+ms.date: 03/12/2025
 ---
 
 # Set up and manage Viva Glint Distribution Lists
@@ -51,7 +51,7 @@ There are multiple ways for Viva Glint Admins to add users to a list, including:
 
 To automatically add users to a list based on their attribute values in data imported to Viva Glint:
 
-1. Select **Configuration** and in the **Employees** section, select **Distribution Lists**.
+1. Select **Configuration** and in the **Employees** section select **Distribution Lists**.
 2. Select the list that should have an attribute rule added.
 3. Select **Add/Edit Employees** and in the **Choose a way to add employees** dialog, select **Attribute Rules.**
 4. In the **Add Attribute Rules** edit pane that appears:
@@ -138,14 +138,14 @@ To set up a date-based list:
 2. [Use attribute rules to add users](#use-attribute-rules-to-add-users)
 3. Select a date attribute, usually exit or hire date
 4. Select a day range related to the date that employees are eligible.
-5. When selecting a number of days before and after a date, consider:
+5. When selecting days before and after a date, consider:
    - How often your organization uploads employee data
    - How quickly new and termed employee data is updated in your HR information system
    - The Response Window in a survey's Program Setup (the number of days a user has to complete a survey, usually 14 days)
 
 For example, to ensure that users have enough time to respond to a 30-day onboarding survey, a Viva Glint Admin can choose to make users eligible 30 days to 50 days after their hire date. This setup allows users to receive invites and respond with enough time based on this organization's bi-monthly import of employee data. 
 
-:::image type="content" source="../../media/glint/setup/dl-day-range-onboard.png" alt-text="Screenshot of a Viva Glint date-based distribution list for a a 30-day onboarding survey.":::
+:::image type="content" source="../../media/glint/setup/dl-day-range-onboard.png" alt-text="Screenshot of a Viva Glint date-based distribution list for a 30-day onboarding survey.":::
 
 ## View how a list is populated
 
@@ -167,7 +167,7 @@ Editing a Distribution List is a global change and affects any program using tha
 
 Viva Glint Admins can delete lists by hovering over the list and selecting the **Delete** option. A **Delete Distribution List** dialog opens with a list of survey programs that use the list. 
 
-:::image type="content" source="../../media/glint/setup/delete-distribution-list.png" alt-text="Screenshot of Delete Distribution List slider window.":::
+:::image type="content" source="../../media/glint/setup/delete-dl-alert.png" alt-text="Screenshot of the Viva Glint distribution list deletion dialog that alerts users to surveys that use the list.":::
 
 To delete the Distribution List, remove it from the Distribution section of the program.
 
@@ -177,9 +177,9 @@ To delete the Distribution List, remove it from the Distribution section of the 
 4. Repeat this process for all survey programs that use the list.
 5. Return to **Distribution Lists** and select the **Delete** option for the list.
 6. In the **Are you sure?** dialog that appears, select **Yes, I'm sure.**
+  
+   :::image type="content" source="../../media/glint/setup/delete-dl-confirm.png" alt-text="Screenshot of the Viva Glint distribution list deletion confirmation dialog.":::
 
-:::image type="content" source="../../media/glint/setup/confirm-delete-distro-list.png" alt-text="Screenshot of Are you sure window to confirm deletion of a Distribution List.":::
-
-> [!NOTE]
-> Deleting a Distribution List is a permanent action. The data of the members of that list isn't deleted.
+   > [!IMPORTANT]
+   > Deleting a Distribution List is a permanent action. The data of the members of that list isn't deleted.
 

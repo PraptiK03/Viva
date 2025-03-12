@@ -1,12 +1,12 @@
 ---
-title: Set up Schedule page in Program Summary
-description: "On the Schedule page, you indicate when and how often your survey program is sent."
+title: Viva Glint survey Schedule setup
+description: Set up the Schedule for your Microsoft Viva Glint survey by choosing a launch date, recurrence, and response window.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: Melissa Barry
 audience: admin
 f1.keywords: NOCSH
-keywords: team conversations window, 
+keywords: schedule, survey date, survey schedule, survey dates, survey cadence, survey recurrence
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,54 +14,39 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/21/2024
+ms.date: 03/11/2025
 ---
 
-# Set up Schedule page in Program Summary
+# Viva Glint survey Schedule setup
 
-Choose the cadence for your program. This determines your launch date(s) and how often your employees receive this survey.   
+Set up the Schedule for your Microsoft Viva Glint survey by choosing a launch date, recurrence, and response window. 
 
-## Procedure for setting up Schedule page
+> [!NOTE]
+> - The Schedule section is only available for Recurring and Ad Hoc surveys.
+> - Ad Hoc surveys don't include options to set a survey recurrence, see a schedule preview, or set a Team Conversation Window.
 
-1. In the **Surveys should go out every** section, set a number, and then select Weeks or Months using the dropdown arrow.
+:::image type="content" source="../../media/glint/survey-schedule.png" alt-text="Screenshot of the Viva Glint survey Schedule page that lets admins choose things like survey launch date.":::
 
-   > [!NOTE]
-   > Survey dates can be edited on a per survey basis, and surveys will have to be manually approved and enabled to be sent out.
+## Set up a survey Schedule
+
+After completing Program Setup and Distribution sections, set up a survey's Schedule using information in the following steps and table as a guide.
+
+1. Select your Recurring or Ad Hoc survey and select **Schedule**.
+
+   | Item   | Description   | How to update | Survey type |
+   |:----------|:-----------|:------------|:------------|
+   | **The surveys go out every** | How often surveys should send to your organization | Enter a number and select Months or Weeks from the dropdown menu.        | Recurring        |
+   | **Send the next survey on** | The next survey launch date   | Use the calendar to select the survey's next launch date | Recurring and Ad Hoc        |
+   | **Schedule Preview** | The few launch dates based on the selected recurrence and launch date   | Update "The surveys go out every" or "Send the next survey on" fields to update the schedule preview | Recurring        |
+   | **Response Window** | The number of days that users have to complete the survey   | Enter up to 56 days for the survey to be open (Viva Glint defaults to 14 for Recurring and seven for Ad Hoc) | Recurring and Ad Hoc        |
+   | **Team Conversation Window** | When [Team Conversations](/viva/glint/reports/team-conversations-administrator-setup) are enabled, the number of days that managers have to complete conversations  | Enter up to 180 days for the Team Conversation to be open (Viva Glint defaults to 28) | Recurring      |
 
    > [!TIP]
-   > Consider other survey programs already in place and business processes that might influence your ability to act on the outcomes of the survey in a timely, meaningful manner.
-
-
-1. Select your target launch date in the **Send the next survey** on section. Dates are displayed in the time zone that your program admin has preselected.
-
-   >[!IMPORTANT]
-   >In order to ensure employees receive survey communications in their unique time zones, your time zone attribute must be appropriately configured. [Communicate with Viva Glint users based on time zone.](/../../viva/glint/setup/time-zones).
-
-1. Once you select the date for your survey to be sent, a tentative schedule, based on the cadence selected, will appear in **Schedule Preview**.
+   > When choosing a recurrence, consider other survey programs already in place and business processes that might influence your ability to act on the outcomes of the survey in a timely, meaningful manner.
 
    > [!NOTE]
-   > Survey dates can be edited on a per survey basis, and surveys will have to be manually approved and enabled to be sent out.
+   > - Viva Glint Admins can edit survey dates on a per survey basis, and surveys must be [approved and enabled](preview-manage-enable-engage-programs.md) to send out.
+   > - When sending surveys in users' time zones, a 24-hour cushion is added to the survey start and close time. [Learn more](time-zones.md).
 
-1. In the **Response Window** section, set the total number of days you're allowing respondents to submit their survey. The survey closes at 11:59 PM on the cycle end date.
-
-   **Best Practices**:
-
-   - For Recurring programs, use a two weeks response window.   
-   - For Ad Hoc programs, use a seven days response window, as these programs typically require faster action.
-  
-   > [!NOTE]
-   > When sending surveys in users' time zones, a 24-hour cushion is added to the survey start and close time. [Learn more](https://go.microsoft.com/fwlink/?linkid=2255796)
- 
-1. The **Team Conversations Window** should remain open for a manager and their team to finish their conversation after the survey closes. Once set, the program indicates the conversation start and end date scheduled, and how many days remain. Visit Team Conversations for a deeper dive.
-
-   **Best Practice**: Use our 28 days default window (about four weeks), although the window can be set for up to 180 days (about six months). 
-
-   > [!NOTE]
-   > Response window refers to the number of days the survey is open to responders and is not related to Team Conversations.
- 
 1. Select the right-facing arrow symbol to **Save & Continue**.  
->
->
-## Next Step
->[!div class="nextstepaction"]
->[Questions setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231415)
+

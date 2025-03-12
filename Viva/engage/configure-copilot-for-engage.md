@@ -7,7 +7,7 @@ author: v-rgrace
 manager: elizapo
 ms.date: 02/19/2025
 audience: Admin
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-engage
 ms.collection: 
 - viva-copilot

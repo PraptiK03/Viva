@@ -228,7 +228,7 @@ items:
            href: setup/distress-survey.md
          - name: Productivity survey
            href: setup/create-productivity-survey.md
-      - name: Set up a Recurring engagement survey
+      - name: Set up a Recurring survey
         href: setup/program-summary-overview.md
         items: 
           - name: Understand programs and cycles
@@ -242,17 +242,17 @@ items:
                  href: reports/team-conversations-content-cusomization.md
                - name: Team Conversations resource guidance
                  href: reports/team-conversations-resource-guidance.md     
-      - name: Set up an Employee Lifecycle feedback survey
+      - name: Set up an Employee Lifecycle survey
         items:
-           - name: Set up an Onboarding feedback survey
+           - name: Set up an Onboarding survey
              href: setup/program-summary-setup-lifecycle.md
            - name: Set up an Exit survey
              href: setup/exit-survey-setup.md
            - name: Preview and filter a Lifecycle survey
              href: setup/preview-filter-lifecycle-programs.md 
-      - name: Set up an Always-On feedback survey
+      - name: Set up an Always-On survey
         href: setup/always-on-surveys.md
-      - name: Set up an Ad Hoc feedback survey
+      - name: Set up an Ad Hoc survey
         href: setup/ad-hoc-survey.md
       - name: Survey setup sections and resources
         items:

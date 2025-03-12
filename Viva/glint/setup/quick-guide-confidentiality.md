@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/23/2024
+ms.date: 03/11/2025
 ---
 
 # Manager Quick Guide - Confidentiality
@@ -52,22 +52,24 @@ The chart tells us that:
 - Michelle’s team has the next smallest number of respondents, and her team met the minimum threshold of five (5) required respondents. However, by displaying Michelle’s team’s score, it may become possible to deduce Dave’s team score using simple math. With calculation, the one respondent on Dave’s team can be discovered, breaching that individual respondent’s confidentiality. In turn, Michelle’s team scores are suppressed and not visible. 
 - If Dave’s team had two (2) respondents it would be difficult to calculate both individual scores, so Michelle’s team’s score would be displayed. 
 > [!NOTE]
-> Dave’s team score, even with two (2) respondents, won't be shown because it still doesn't meet the confidentiality threshold. 
+> Dave’s team score, even with two (2) respondents, isn't shown because it still doesn't meet the confidentiality threshold. 
 
 ## What to do with small team results
 
 Managers of small teams can feel that survey results don’t provide as much value, especially if they regularly connect with their team. But when teams don’t have enough responses to view their results, [Broader Team Insights (BTI)](/viva/glint/reports/broader-team-insights) is helpful in giving a sense for how the larger org is doing.
 
-Managers can have an [ACT Conversation](/viva/glint/reports/take-action-team-conversations) with their team using roll-up (BTI) results. Throughout the Acknowledge part of an ACT conversation, the manager should talk to the team about which results might be pertinent to their smaller team.
+Managers can have an [ACT Conversation](/viva/glint/reports/take-action-team-conversations) with their team using roll-up (BTI) results. In the **Acknowledge** section of an ACT conversation, the manager should talk to the team about which results might be pertinent to their smaller team.
 
 If BTI isn't enabled for managers, leaders of small teams can still hold ACT Conversation. Managers can discuss where the larger organization's results do and don't reflect their smaller group experience and what action the team can commit to to make improvements.
 
 ## More Resources
 
-Refer to the following pages for more guidance:
 >**Microsoft Learn Documentation** 
 - [How Viva Glint helps you protect your data privacy](viva-glint-survey-privacy.md)
 >**Microsoft Learn Training**
 - [What are the basics of how Viva Glint emphasizes confidentiality?](/training/modules/viva-glint-learn-how-setup-viva-glint/4-what-basics-viva-glint-emphasizes-confidentiality)
 - [What is Viva Glint confidentiality and how do I navigate the Viva Glint app?](/training/modules/viva-glint-navigate-share-viva-glint-results/1-describe-confidentiality-navigate-viva-glint)
+
+
+
 
