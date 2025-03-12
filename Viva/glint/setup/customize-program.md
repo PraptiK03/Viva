@@ -1,12 +1,12 @@
 ---
-title: Set up and customize Viva Glint programs
-description: Viva Glint has prepopulated and blank templates for you to customize to create the right feedback program for your organization.
+title: Design an effective Viva Glint survey program
+description: Viva Glint has prepopulated and blank templates for you to customize to design the right feedback program for your organization.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: survey cadence, cycle cadence, program cadence, holistic listeninv vision and strategy discovery workbook, survey design principles
+keywords: survey cadence, program design, holistic listening, vision and strategy, discovery workbook, survey design principles
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 03/10/2025
 ---
 
-# Set up and customize Viva Glint programs
+# Design an effective Viva Glint survey program
 
 Use prepopulated or blank templates to set up your feedback program. Customize as you like. Use our best design principles and guidance to ensure you have the right program for the people targeted in your organization. 
 
@@ -35,7 +35,7 @@ Download and complete the [Holistic Listening Vision and Strategy Discovery Work
 
 > :::image type="content" source="../../media/glint/start/discovery-workbook.png" alt-text="Screenshot of the Holistic Listening Vision and Strategy Discover Workbook.":::
 
-### Viva Glint program and cycle cadence
+### Viva Glint program and survey cadence
 
 Different needs should determine the cadence of your Viva Glint programs and cycles. Consider other survey programs already in place. Too many surveys simultaneously influence whether you can act on feedback in a timely, meaningful manner. Alternately, consider shifting an annual engagement program from annual to semi-annual or even to quarterly. More frequent surveys allow you to make necessary process and leadership mindset changes needed to maximize the benefits of feedback.
 

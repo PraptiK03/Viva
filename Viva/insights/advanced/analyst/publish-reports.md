@@ -1,5 +1,5 @@
 ---
-ms.date: 12/06/2024
+ms.date: 03/11/2025
 title: Publish reports
 description: Provides instructions to Viva Insights analysts and admins on how to publish and view insights reports and customize their settings.
 author: zachminers
@@ -21,7 +21,11 @@ audience: Admin
 
 The Publish reports feature lets you share insights and reports directly with leaders, decision-makers, or even an entire organization in the recipient’s Viva Insights app. This helps to streamline the communication process between analysts and leadership, ensuring that organizational insights and data are delivered effectively alongside other Viva Insights content.
 
-A "report" refers to any analyst-created dashboard that includes Viva Insights metrics, though it might also feature other types of metrics like surveys or Copilot metrics. Typically, this dashboard is a Power BI, but other formats are possible. You might have already shared this report via email, but with this feature you can publish it seamlessly within Viva Insights.
+A "report" can refer to:
+
+* Any Power BI report within Viva Insights. This could be a precomputed report on the home page, or a Power BI report that you access from the **Query results** tab. 
+
+* A custom report stored outside of Viva Insights that includes Viva Insights metrics or other types of metrics like surveys or Microsoft 365 Copilot metrics. This report is typically in Power BI but it doesn't have to be. You might have already shared this report via email, but with this feature you can publish it seamlessly within Viva Insights. 
 
 Here's a few more details about how it works:
 
@@ -62,13 +66,61 @@ When viewing existing publishes, you can see details on the author, publish name
 | Status | The current state of the publish. It can be one of five values:  <br><br /><li> **Publishing**: The state of the report immediately after publishing. This state will generally exist for up to 10 minutes as the system delivers the publish to recipients.  <li>**Published**: The report is currently available for recipients to view in their Viva Insights app. <li>**Ended**: The report reached its scheduled end time, and is no longer available for recipients to view in their Viva Insights app. <li>**Removed**: Before a report reached its scheduled end date, an analyst removed a publish so recipients can no longer view it in their Viva Insights app. <li>**Failed**: The report was unable to be published due to system errors. |
 | Actions | For any publish in the list, there is a set of available actions:   <br><br /><li>**View publish**: This is available for all publishes and lets you see the details of a publish. <li>**Remove publish**: This is only available for actively published reports. This removes a publish so that it’s no longer available for recipients to view in their Viva Insights app. The status changes to **Removed**. <li>**Re-publish**: This is only available for failed reports. This attempts to republish a failed report.|
 
-## How to publish a new report
+
+## How to publish a Viva Insights Power BI report 
+
+Any Power BI report within Viva Insights can be sent to eligible recipients. Those recipients receive the report and can view it just like you do. 
+
+While you're viewing the report that you want to publish, select **Report actions** and then **Publish new report**.
+
+### Create your card 
+
+The card you create is what recipients see on their Viva Insights app home page. Fill out the details for this card and ensure it looks accurate using the card preview before publishing. You're responsible for the content that appears on your published cards.
+
+* **Report**: This is pre-filled with the report name of the report you're  publishing.  
+
+* **Card title**: Choose a concise and descriptive title for your report. This can't be empty and must be fewer than 100 characters. 
+
+* **Publisher name**: Keep your name or update it to reflect the group publishing the report. This can't be empty and must be fewer than 100 characters. 
+
+* **Description**: Write a summary of the report's content and its relevance to the target audience. This can't be empty and must be fewer than 500 characters.
+
+Ensure the content looks accurate by reviewing the preview on the right side of the page.
+
+### Example scenario 
+
+Let's say you've set up the Microsoft 365 Copilot adoption analysis. In the query's results, you viewed the Power BI report, and now you want to share it with others in your organization. Since the report is embedded, the recipient can't access any row-level data. You can create the card like the one below to show that the publish is coming from you. You can use the preview to see how this card looks when it's published to your recipients.
+
+:::image type="content" source="../images/publish-reports-create-card-example.png" alt-text="Screenshot that shows the page to create your card.":::
+
+#### Select target audience 
+ 
+>[!IMPORTANT]
+> Recipients need to have the Viva Insights app enabled, but recipients *don't* need a Viva Insights license. The recipient doesn't need to be within your partition, and can be anyone in your organization who fits the above criteria.
+
+You can use the feature's targeting options to publish to senior leaders in your organization. Senior leaders are designated based on their role and organization structure, typically including executives and managers with a minimum number of reports. They can see insights about the entire organization. [Learn more about  how senior leaders are assigned](..//..//org-team-insights/copilot-dashboard.md#how-automatic-access-to-the-copilot-dashboard-is-determined).
+
+#### Choose how long the card should be active 
+
+Set a date when the published report card will no longer be available for recipients to view. You can select a date up to 90 days out.
+
+#### Choose a name for the publish 
+
+Assign a unique name to your report's publish. This name will help you and other analysts identify the report within the Advanced Insights app. This is only visible within the Advanced Insights app and is not visible to recipients.
+
+#### Publish 
+
+Once you've filled out the details, select **Publish** to publish your report. 
+
+Upon publishing, the card is available immediately on recipients' Viva Insights app home page. A Teams notification is sent to recipients during their working hours displaying the card, if the recipient hasn't already seen the card. Recipients can only receive up to one Teams notification a day, so keep that in mind if you publish multiple reports in a single day. If recipients haven't accessed the card after about 24 hours, they'll receive a reminder notification.
+
+## How to publish a custom report
 
 Under the **Analysis** tab in the advanced insights app, select **Publish reports**. Then, at the top right, select **Publish new**.
 
 ### Create your card
 
-The card you create is what recipients see on their Viva Insights app homepage.  Fill out the details for this card and ensure it looks accurate via the card preview before publishing. You’re responsible for the content that appears on your published cards.
+The card you create is what recipients see on their Viva Insights app home page. Fill out the details for this card and ensure it looks accurate using the card preview before publishing. You're responsible for the content that appears on your published cards. 
 
 * **Report Link**: Provide the URL where the report can be accessed.
 
@@ -88,9 +140,9 @@ The card you create is what recipients see on their Viva Insights app homepage. 
 
 * **Description**: Write a summary of the report's content and its relevance to the target audience. This can’t be empty and must be fewer than 500 characters.
 
-Ensure this content looks accurate by reviewing the preview on the right side of the page. 
+Ensure the content looks accurate by reviewing the preview on the right side of the page.
 
-Here's an example:
+### Example scenario
 
 Let's say you want to publish your Hybrid workplace dashboard. This dashboard is saved to your Power BI workspace and has already been shared with your desired audience. It doesn't have row-level security implemented, so recipients see all the data in the report. You can create your card like the one below and publish it under your team name, HR Analytics, rather than using your own name as publisher. You can see how this card looks when it’s published to  your recipients with the Preview.
 
@@ -99,7 +151,7 @@ Let's say you want to publish your Hybrid workplace dashboard. This dashboard is
 #### Select target audience
 
 >[!IMPORTANT]
-> Recipients need to have the Insights app enabled but don’t need a Viva Insights license. The recipient does not need to be within your partition and can be anyone in your organization who fits the above criteria.
+> Recipients need to have the Viva Insights app enabled, but recipients *don't* need a Viva Insights license. The recipient doesn't need to be within your partition, and can be anyone in your organization who fits the above criteria.
 
 You can use the feature's targeting options to publish to specific users or to an audience based on organizational attributes.
 
@@ -107,15 +159,15 @@ You can use the feature's targeting options to publish to specific users or to a
 
 * **Publish to an audience based on organizational attributes**: Define a population based on Required and Reserved attributes to receive your published content. You must add at least one condition to publish. These people can only be from within your partition. 
 
-#### Choose how long this card should be active 
+#### Choose how long the card should be active 
 
-Set a date when the published report card will no longer be available for recipients to view. You can select a date up to 90 days out.
+Set a date when the published report card will no longer be available for recipients to view. You can select a date up to 90 days out. 
 
-#### Choose a name for this publish 
+#### Choose a name for the publish 
 
-Assign a unique name to your report's publication instance. This name will help you and other analysts identify the report within the Advanced Insights app. This is only visible within the Advanced Insights app and is not visible to recipients.
+Assign a unique name to your report's publish. This name will help you and other analysts identify the report within the Advanced Insights app. This is only visible within the Advanced Insights app and is not visible to recipients. 
 
-Continuing our example: 
+#### Continuing our example
 
 Let’s say you want to publish your Hybrid workplace dashboard to your Engineering function. You can publish to that audience based on your available organizational attributes. You can then select this card to be published for 90 days and provide a publish name you can use to find this publish later on the Publish reports landing page.
 
@@ -123,11 +175,11 @@ Let’s say you want to publish your Hybrid workplace dashboard to your Engineer
 
 #### Publish 
 
-Once these details have been filled out, select **Publish** to publish your report.
+Once you’ve filled out the details, select **Publish** to publish your report. 
 
-Upon publishing, the card is available immediately on recipients’ Viva Insights app homepage.  A Teams notification is sent to recipients during their working hours displaying the card, if the recipient hasn’t seen the card already. Recipients can only receive up to one Teams notification a day, so if you publish multiple reports, notifications might be suppressed. If recipients haven’t accessed the card after some time, they’ll receive a reminder notification.  
+Upon publishing, the card is available immediately on recipients' Viva Insights app home page. A Teams notification is sent to recipients during their working hours displaying the card, if the recipient hasn't already seen the card. Recipients can only receive up to one Teams notification a day, so keep that in mind if you publish multiple reports in a single day. If recipients haven't accessed the card after some time, they'll receive a reminder notification. 
 
-Finishing our example: 
+#### Finishing our example
 
 The published card appears for recipients to view. When the recipient selects **Open**, they'll be taken to the URL you provided.
 

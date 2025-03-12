@@ -1,5 +1,5 @@
 ---
-ms.date: 02/12/2024
+ms.date: 03/12/2025
 title: Power BI tips, FAQ, and troubleshooting
 description: Get answers to frequently asked questions about using Power BI for Viva Insights data
 author: zachminers
@@ -63,7 +63,13 @@ You need to be assigned the role of **Insights Analyst** in the advanced insight
 
 To maintain data privacy, only employees assigned the role of **Insights Analyst** in the advanced insights app should have access to the underlying dataset in the Power BI report.
 
-### Q3. How frequently is data refreshed in the report?
+### Q3. When I change the start and end date filters within a Power BI report, the data range doesn't match the dates I selected. Why? 
+
+The start and end date filters in a Power BI report return all records with a date that falls on or after the start date, and on or before the end date. These filters allow you to select any date for the start and end date. Most Viva Insights data, however, is aggregated weekly, and the weekly data use a record date that reflects the Sunday as the first day of the week, and represent the full week of activity from Sunday to Saturday. 
+
+For example, if you set the start date to Friday, 1/3/2025, and the end date to Monday, 1/27/2025, the data records returned would be dated between Sunday, 1/5/2025, and Sunday, 1/26/2025. These records would represent activity occurring between Sunday, 1/5/2025, and Saturday, 2/1/2025.
+
+### Q4. How frequently is data refreshed in the report?
 
 If you selected the auto-refresh option for your Viva Insights query, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people. 
 
@@ -72,7 +78,7 @@ However, the new results aren't automatically refreshed in Power BI. If you're w
 >[!Important]
 >You need to manually adjust the **Selected time frame** setting in the report's **Settings** page to view the most recently processed data.
 
-### Q4. What languages are the reports available in?
+### Q5. What languages are the reports available in?
 
 Power BI report templates are available in these languages: 
 
@@ -96,7 +102,7 @@ However, there are a few template elements that aren't localized:
 * Column names, including metric names. When you set up the query for your Power BI report, the advanced insights app displays metric names based on your location settings. However, when query results load into the Power BI template, metric names are translated back into English.
 * Currency symbols. Currency only uses the “$” symbol.
 
-### Q5. How do I use Power BI?
+### Q6. How do I use Power BI?
 
 See [Power BI documentation](/power-bi) for details on how to use Power BI.
 

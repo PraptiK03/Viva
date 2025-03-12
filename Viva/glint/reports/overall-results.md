@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/14/2024
+ms.date: 1/15/2025
 ---
 
 # Viva Glint's Overall Results Report
@@ -30,7 +30,7 @@ As the name implies, this report shows the overall results for your survey. Dril
 
 ## Change report settings
 
-Filters depend on the employee data your company sends to Glint, and confidentiality requirements must be met to display data. 
+Filters depend on the employee data your company sends to Viva Glint, and confidentiality requirements must be met to display data. 
 
 ### Use the More dropdown menu
 
