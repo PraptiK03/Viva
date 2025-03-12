@@ -30,13 +30,15 @@ Administration of Answers requires either an Engage admin or Answers admin role.
 
 ### Provide guidance using the Answers info panel
 
-Answers admins and Engage admins use the **Answers info panel** to provide guidance to employees on how to use Answers in the organization. You can edit its title, provide explanatory text, and provide an informational link. By default, the Answers info panel is only visible to administrators. After an admin edits, saves and publishes the info panel, all other employees with access to Answers in Viva Engage can see it.
+Answers admins and Engage admins use the **Answers info panel** to provide guidance to employees on how to use Answers in the organization. You can edit its title, provide explanatory text, and provide an informational link. By default, the Answers info panel is only visible to administrators. It appears as the top right panel on the Answers page for Admins and for users (when published). 
 
-**Admin view**<br/>
-:::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" lightbox="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the information panel with guidelines option.":::
+After an admin edits, saves and publishes the info panel, all other employees with access to Answers in Viva Engage can see it. Ensure that the panel offers clear and useful information to Answers users about what they can expect to find there.
 
-**End user view**<br/>
-:::image type="content" source="../media/engage/admin/ans-info-pan-end-user.png" lightbox="../media/engage/admin/ans-info-pan-end-user.png" alt-text="Screenshot of how the information panel looks to end users.":::
+>[!NOTE]
+> Users can't edit or change the Answers info panel. 
+
+<br/>
+:::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the Answers info panel with guidelines option.":::
 
 ### Edit the Answers info panel
 
@@ -44,20 +46,28 @@ Take the following steps to edit the Answers info panel:
 
 <table>
 <tr><td>1. Select the edit icon from the top right of the Answers info panel.<br>
-2. Enter the content specific to your organization. The <b>Title</b> field is limited to 25 characters. To ensure your changes get saved, make sure to fill out all fields of the <b>Answers info panel</b> dialog, including the hyperlink and its description.<br>
-3. Select <b>Save and publish</b> to allow all Answers users to view the information panel content.<br><br><br><br><br><br><br><br></td>
+2. Enter content that's specific to your organization. The <b>Title</b> field is limited to 25 characters. To ensure your changes get saved, make sure to fill out all fields of the <b>Answers info panel</b> dialog, including the hyperlink and its description.<br>
+3. Select <b>Save and publish</b> to allow all Answers users to view the panel content.<br><br><br><br><br><br><br><br></td>
 
 <td><img src="../media/engage/admin/answers-info-panel.jpg" alt="Screenshot of info panel editing options." width=900px></td></tr>
 </table>
 
-### Reset the iAnswers info panel
+### Reset the Answers info panel
 
 1. Select the edit icon from the top right corner of the Answers info panel.
 1. Select **Reset** in the **Answers info panel** dialog.
-<!-->
+<!--
 :::image type="content" source="../media/engage/admin/ans-info-pan-admin3.png" lightbox="../media/engage/admin/ans-info-pan-admin3.png" alt-text="Screenshot showing the info panel reset option.":::-->
 
-## Remove topics
+## Use topics in the Answers experience
+
+Topics encapsulate important questions asked by users in the Viva Engage network. 
+
+### Understanding topics
+
+### Add topics to the Answers experience
+
+### Remove topics
 
 To remove a topic or multiple topics at once, admins can take the following steps:
 
@@ -69,19 +79,20 @@ To remove a topic or multiple topics at once, admins can take the following step
 
 ## View Global Answers analytics
 
-As an Answers admin, you can open and view Global Answers analytics:
-1. Select the analytics icon from the top navigation bar of Viva Engage.
-1. Go to the **Global Answers analytics** tab. The analytics dashboard shows an overview and relevant insights about knowledge sharing activity across Answers in Viva.
+As an Answers admin, you can open and view *Global Answers analytics*. They provide information about engagement and success rates for which Answers in your community assist your user base.
+
+1. Go to the **Explore** > **Analytics** page of Viva Engage.
+1. Select the **Global Answers analytics** tab. The analytics dashboard shows an overview and relevant insights about knowledge sharing activity across Answers in Viva.
 
 For more information about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics).
 
 :::image type="content" alt-text="Screenshot of the Global Answers analytics dashboard in Viva Engage." source="/viva/media/engage/admin/global-answers-analytics.png" lightbox="/viva/media/engage/admin/global-answers-analytics.png":::
 
-The following metrics are available for Global Answers analytics:
+The following metrics aappear for Global Answers analytics:
 
 | Metric | Description |
 |---|---------|
-|**Total time saved for your organization**| The time the organization saves, based on question-and-answer usage. |
+|**Time saved by Answers**| The time the organization saves, based on question-and-answer usage. |
 |**Total questions**| The total number of questions asked by users.|
 |**Question views**| The total number of views across all questions.|
 |**Total answers**| The total number of answers provided by users.|
@@ -96,10 +107,11 @@ The following metrics are available for Global Answers analytics:
 |**Median best answers per user**| The median number of best answers provided by each user.|
 |**Top questions across your organization**| A table of the top questions with the most views, votes, reactions, and answers across your org.|
 |**User engagement distribution**| A distribution of all users split by active engagements (ask, answer, vote, reactions, comments) and passive engagements (question views).|
-|**Global time saved** | Time saved across the organization. Based on Viva Engage research, the total shows that each question-and-answer pair saves people an average of 15 minutes. As more people discover existing answers to their questions, the organization saves more time.|
+|**Question views**| 
+<!--|**Global time saved** | Time saved across the organization. Based on Viva Engage research, the total shows that each question-and-answer pair saves people an average of 15 minutes. As more people discover existing answers to their questions, the organization saves more time.|-->
 
 >[!NOTE]
-> Analytics aren't live. They're updated every 24 hours.
+> Analytics aren't live. They update every 24 hours.
 
 ## See also
 
