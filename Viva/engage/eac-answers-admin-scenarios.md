@@ -38,7 +38,7 @@ After an admin edits, saves and publishes the info panel, all other employees wi
 > Users can't edit or change the Answers info panel. 
 
 <br/>
-:::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the Answers info panel with guidelines option.":::
+:::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" lightbox="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the Answers info panel with guidelines option.":::
 
 ### Edit the Answers info panel
 
@@ -79,16 +79,16 @@ To remove a topic or multiple topics at once, admins can take the following step
 
 ## View Global Answers analytics
 
-As an Answers admin, you can open and view *Global Answers analytics*. They provide information about engagement and success rates for which Answers in your community assist your user base.
+As an Answers admin, you can open and view *Global Answers analytics*. The page provides information about engagement and the success rates for Answers in your community to assist the user base.
 
 1. Go to the **Explore** > **Analytics** page of Viva Engage.
 1. Select the **Global Answers analytics** tab. The analytics dashboard shows an overview and relevant insights about knowledge sharing activity across Answers in Viva.
 
-For more information about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics).
+For more information about analytics management in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics).
 
 :::image type="content" alt-text="Screenshot of the Global Answers analytics dashboard in Viva Engage." source="/viva/media/engage/admin/global-answers-analytics.png" lightbox="/viva/media/engage/admin/global-answers-analytics.png":::
 
-The following metrics aappear for Global Answers analytics:
+The following metrics appear for Global Answers analytics:
 
 | Metric | Description |
 |---|---------|
@@ -105,7 +105,7 @@ The following metrics aappear for Global Answers analytics:
 |**Median questions viewed per user**| The median number of questions viewed by each user.|
 |**Median answers per user**| The median number of answers provided by each user.|
 |**Median best answers per user**| The median number of best answers provided by each user.|
-|**Top questions across your organization**| A table of the top questions with the most views, votes, reactions, and answers across your org.|
+|**Top questions across your org**| A table of the top questions with the most views, votes, reactions, and answers across your org.|
 |**User engagement distribution**| A distribution of all users split by active engagements (ask, answer, vote, reactions, comments) and passive engagements (question views).|
 |**Question views**| 
 <!--|**Global time saved** | Time saved across the organization. Based on Viva Engage research, the total shows that each question-and-answer pair saves people an average of 15 minutes. As more people discover existing answers to their questions, the organization saves more time.|-->
