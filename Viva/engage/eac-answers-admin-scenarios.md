@@ -47,7 +47,7 @@ Take the following steps to edit the Answers info panel:
 <table>
 <tr><td>1. Select the edit icon from the top right of the Answers info panel.<br>
 2. Enter content that's specific to your organization. The <b>Title</b> field is limited to 25 characters. To ensure your changes get saved, make sure to fill out all fields of the <b>Answers info panel</b> dialog, including the hyperlink and its description.<br>
-3. Select <b>Save and publish</b> to allow all Answers users to view the panel content.<br><br><br><br><br><br><br><br></td>
+3. Select <b>Save and publish</b> to allow all Answers users to view the panel content.<br><br></td>
 
 <td><img src="../media/engage/admin/answers-info-panel.jpg" alt="Screenshot of info panel editing options." width=900px></td></tr>
 </table>
