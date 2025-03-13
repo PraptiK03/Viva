@@ -5,11 +5,11 @@ ms.reviewer: davidchang
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
-ms.date: 02/04/2025
+ms.date: 03/14/2025
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: how-to
+ms.topic: article
 ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  
@@ -56,7 +56,7 @@ Use this method to export data from a specific time period.
    - **Include attachments:**  Leave unselected to get a list of file names. Select to get both a list and a Files folder of all the attachments in their native format.
    - **Include external networks:**  Leave unselected to get data from your home network only. Select to get data for each network in a separate folder (folder name is the network ID). Full network names are listed in **Networks.csv**.
 
-3. Select **Download CSV**. The file is saved as a compressed file with a .zip file name extension.
+3. Select **Download CSV file**. The file is saved as a compressed file with a .zip file name extension.
 4. Go to the location where you saved the compressed file and expand it.
 The data export contains the following files:
 
@@ -100,7 +100,7 @@ Use this method to export tenant data by a specified date range for the Viva Eng
    - **Include attachments:**  If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format.
    - **Include external networks:**  If unselected, only data from your home network is exported. If selected, a separate folder of data from each network is exported. Each network is identified by its ID, and the full network names are listed in **Networks.csv**.
 
-3. Select **Download CSV**.
+3. Select **Download CSV file**.
 Data is exported into a .zip file.
 4. Go to the location where you saved the compressed file and expand it.
 
@@ -129,7 +129,7 @@ The data export contains the following files:
 |**VivaTopicApplications.csv** | For any topic applied to a post, lists information about each application for the date range specified (if any). |
 |**VivaTopicCurationStateLogs.csv** | Applies to only Answers in Viva. <br><br/>Contains the curation state logs for featured topics.<br><br/>cortex_topic_id can be used with the content of VivaTopics.csv to retrieve other information relevant to the topic. |
 |**VivaTopics.csv** | Any topic created or updated is displayed for the date range specified (if any).<br><br/>The ID refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.|
-| **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. <br> <br>Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
+| **Files** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. <br> <br>Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
 This data export doesn't include:
 
@@ -148,9 +148,10 @@ This data export doesn't include:
 
 If the user is a member of multiple networks, you must export their data from each network separately.  
 
-1. On the Data export page, choose **Export data for a single** **user**
+1. On the Data export page, select **Export data for a single user**.
 
-2. Enter the user's name, select the user, and select **Export**. <br>     User data is exported into a .zip file that contains these files. <br>
+2. Enter the user's name, select the user, and select **Eownload CSV file**. User data is exported into a .zip file that contains these files.
+
 When the user's account activity data is ready, a message with a link to the data appears in your Viva Engage inbox.
 
 3. Select the link to open.
