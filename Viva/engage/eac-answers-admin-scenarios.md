@@ -1,5 +1,5 @@
 ---
-title: "Administrator scenarios for Answers in Viva Engage"
+title: "Admin tasks for Answers in Viva Engage"
 description: "Describes administration of Answers in Viva Engage for the Microsoft 365 Global admin, Engage admin, and Answers admin."
 ms.reviewer: vfurlong
 ms.author: donnabouldin
@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 ---
 
-# Administrator scenarios for Answers in Viva Engage
+# Admin tasks for Answers in Viva Engage
 
 Administration of Answers requires either an Engage admin or Answers admin role.
 
@@ -61,11 +61,13 @@ Take the following steps to edit the Answers info panel:
 
 ## Use topics in the Answers experience
 
-Topics encapsulate important questions asked by users in the Viva Engage network. 
+Topics encapsulate important questions asked by users in the Viva Engage network. Users can add ongoing topics to their Viva Engage feed by selecting them in the **Topics to follow** panel.
 
 ### Understanding topics
 
 ### Add topics to the Answers experience
+
+When an admin adds a topic to **Topics to follow**, the users see those entries in Viva engages in their Topics to follow panel.
 
 ### Remove topics
 
@@ -74,7 +76,7 @@ To remove a topic or multiple topics at once, admins can take the following step
 1. Select **Answers**, go to **Topics to follow** and select **Discover more topics**. The main Topics page appears.
 2. Search by topic name, or filter by "All" to browse topics.
 3. To edit and remove any single topic, select the ellipsis icon (`...`) on any topic.
-4. To select and delete more than one topic, use the check box on each, and select the trashcan. 
+4. To select and delete more than one topic from Topics to follow, use the check box on each, and select the trashcan. 
     Removing a topic also removes all applications of the topic. You can't undo this action.
 
 ## View Global Answers analytics
