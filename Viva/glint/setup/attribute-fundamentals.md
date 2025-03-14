@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/10/2025
+ms.date: 03/14/2025
 ---
 
 # Viva Glint employee attribute fundamentals
@@ -71,8 +71,8 @@ Optional system attributes are values that indicate how and when communications 
 
 |Optional System Attribute  |Description  |
 |----------|-----------|
-|Survey Language     |The language in which employees receive surveys and emails.      |
-|Dashboard Language|The language in which users view dashboards.  |
+|Survey Language     |The language for employee surveys and emails.      |
+|Dashboard Language|The language for users' dashboards.  |
 |User Timezone|The time zone in which survey communications are sent.  |
 |Personal Email|Users' personal email addresses that can be used to survey exiting employees. Select Company and Personal Email in the Communications section of your survey program.  |
 
@@ -81,7 +81,7 @@ Optional system attributes are values that indicate how and when communications 
 
 ### Time zones
 
-Global companies often include a time zone attribute column in their Employee Attribute Template to trigger emails in employees’ time zones. Use the Time Zone tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) to find valid time zone values. Before a survey launches, ensure that all employees have a valid value attached to their records.
+Global companies often include a time zone attribute column in their Employee Attribute Template to trigger emails in employees’ time zones. To find valid time zone values, use the Time Zone tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Before a survey launches, ensure that all employees have a valid value attached to their records.
 
 ### Languages
 
@@ -90,48 +90,24 @@ Use the Language Codes tab on the [Employee Attribute Template](https://www.micr
 If you also supply language values to indicate users’ dashboard languages (for users who view reports), include a separate column (example: Dashboard Language).
 
 > [!NOTE]
-> Dashboards do not support languages that are read from right to left.
+> Dashboards don't support languages that are read from right to left.
 
 ### Upcoming language changes
 
-In April 2025, some supported languages and codes for Viva Glint change. For more information, see the following tables.
+In April 2025, some supported languages for Viva Glint will change. Some languages will be deprecated, and potential replacements are noted in the following table. These languages receive no updates after April 2025 and are only available in the platform through August 2025. To keep any custom translations, [export translated content](language-translations.md) before the end of August 2025. After August 2025, if deprecated languages are used, users are directed to your organization's default language.
 
-#### Changes - no action needed 
-
-Languages whose codes and display language in platform dropdown menus change, but **Viva Glint Admins don't need to take any action**. Custom translations remain in Viva Glint and any old versions of codes in imported data automatically map to new codes.
-
-| Current language  | Language as of April 2025 | Current language code | Language code as of April 2025 | Localized version | Localized version as of April 2025 |
-|:----------|:-----------|:------------|:------------|:------------|:------------|
-| Arabic             | Arabic                  | ar_EG | ar-SA       | عربي                   | العربية (المملكة العربية السعودية)        |
-| Azerbaijani        | Azerbaijani (Latin)     | az_AZ | az-Latn-AZ  | Azərbaycanca           | azərbaycan (Azərbaycan)      |
-| Bosnian            | Bosnian (Latin)         | bs_BA | bs-Latn-BA  | Bosanski               | bosanski (Bosna i Hercegovina)       |
-| Spanish (Americas) | Spanish (North America) | es_US | es-MX       | Español Latinoamericano | español (México)       |
-| Norwegian          | Norwegian (Bokmål)      | no_NO | nb-NO       | Norsk                  | norsk bokmål (Norge)      |
-| Serbian            | Serbian (Latin)         | sr_RS | sr-Latn-RS  | Srpski                 | srpski (Srbija)       |
-| Tagalog            | Filipino                | tl_PH | fil-PH      | Tagalog                | Filipino (Pilipinas)       |
-
-#### Changes - export custom translations
-
-Languages whose codes and display language in platform dropdown menus change, and **Viva Glint Admins may need to take action**. Custom translations **don't remain** in Viva Glint but any old versions of codes in imported data automatically map to new codes. Export custom translations for these languages by August 2025 at the latest.
-
-| Current language  | Language as of April 2025 | Current language code | Language code as of April 2025 | Localized version | Localized version as of April 2025 |
-|:----------|:-----------|:------------|:------------|:------------|:------------|
-| Austrian (German)   | German                 | de_AT  | de-DE  | Österreichisches Deutsch  | Deutsch (Deutschland)       |
-| Chinese (Hong Kong) | Chinese (Traditional)  | zh_HK  | zh_TW  | 廣東話                     | 中文(台灣)       |
-| Bengali             | Bangla                 | bn_BD  | bn-IN  | বাংলা                      | বাংলা (ভারত)      |
-
-#### Changes - export custom translations and choose a new supported language
-
-Languages that aren't supported in Viva Glint after April 2025. If Viva Glint Admins make no updates, users are directed to an organization's default language. Export custom translations for these languages by August 2025 at the latest.
-
-| Current language  | Language as of April 2025 | Current language code | Language code as of April 2025 | Localized version | Localized version as of April 2025 |
-|:----------|:-----------|:------------|:------------|:------------|:------------|
-| Armenian       | None  | hy_AM  | None  | Հայերեն          | None  |
-| Haitian Creole | None  | fr_HT  | None  | Kreyòl Ayisyen   | None  |
-| Northern Sotho | None  | ns_ZA  | None  | Sesotho sa Leboa | None  |
-| Swahili        | None  | sw_KE  | None  | Kiswahili        | None  |
-| Welsh          | None  | cy_GB  | None  | Cymraeg          | None  |
-| Xhosa          | None  | xh_ZA  | None  | isiXhosa         | None  |
+| Current language  | Current language code | Potential alternative language | Potential alternative code |
+|:----------|:-----------|:------------|:------------|
+| Austrian (German)   | de_AT                 | German  | de_DE  | 
+| Chinese (Hong Kong) | zh_HK  | Chinese (Traditional | zh_TW or zh_CN  |
+| Bengali             | bn_BD                | Bangla  | bn-IN  | 
+| Armenian            | hy_AM   | None  | None  | 
+| Haitian Creole      | fr_HT  | None  | None  | 
+| Northern Sotho      | ns_ZA   | None | None  | 
+| Sinhala             | si_LK   | None | None  | 
+| Swahili             | sw_KE   | None | None  | 
+| Welsh               | cy_GB  | None  | None  | 
+| Xhosa               | xh_ZA  | None  | None  |
 
 ## Next step
 Learn about Viva Glint organizational hierarchy fundamentals, including a Glint calculated Manager Hierarchy and other hierarchy groups.
