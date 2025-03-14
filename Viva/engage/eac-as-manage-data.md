@@ -114,7 +114,8 @@ The data export contains the following files:
 | **request.txt** | The parameters of the export |
 | **Admins.csv** | A list of admins for each selected network, including the name, email, and admin type |
 <!--|**EngageTopicMigrationLog.csv**|A list of topics migrated or not imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_ID, migrated_at, migrated_action|
-|**EngageTopicApplicationMigrationLog.csv**|A list of topic applications not imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_id, target_id, target_type, migrated_at, migration_action|-->
+|**EngageTopicApplicationMigrationLog.csv**|A list of topic applications not imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_id, target_id, target_type, migrated_at, migration_action|
+-->
 | **Groups.csv** | All groups created or modified during the specified date range. **Properties include:** account ID, name, description, privacy status, whether the group is internal or external, link to the group, who created the group, creation date, and updated date. |
 | **LikedMessagesHistory.csv** | Lists all reactions activities on messages from users. Properties included for reactions activity, including history: <br>- Reaction selected (such as like, love, or thank) <br>- Reaction action (add, remove) <br>- Reaction timestamp <br>- User ID of the user who reacted. |
 | **MutedThreads.csv** | Lists all messages that are muted for all users in the network. **Properties include:** network ID, thread ID, updated by user ID, is muted, created at, updated at. |
