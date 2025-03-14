@@ -5,11 +5,11 @@ ms.reviewer: davidchang
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
-ms.date: 03/14/2025
+ms.date: 03/12/2025
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  
@@ -56,7 +56,7 @@ Use this method to export data from a specific time period.
    - **Include attachments:**  Leave unselected to get a list of file names. Select to get both a list and a Files folder of all the attachments in their native format.
    - **Include external networks:**  Leave unselected to get data from your home network only. Select to get data for each network in a separate folder (folder name is the network ID). Full network names are listed in **Networks.csv**.
 
-3. Select **Download CSV file**. The file is saved as a compressed file with a .zip file name extension.
+3. Select **Download CSV**. The file is saved as a compressed file with a .zip file name extension.
 4. Go to the location where you saved the compressed file and expand it.
 The data export contains the following files:
 
@@ -100,7 +100,7 @@ Use this method to export tenant data by a specified date range for the Viva Eng
    - **Include attachments:**  If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format.
    - **Include external networks:**  If unselected, only data from your home network is exported. If selected, a separate folder of data from each network is exported. Each network is identified by its ID, and the full network names are listed in **Networks.csv**.
 
-3. Select **Download CSV file**.
+3. Select **Download CSV**.
 Data is exported into a .zip file.
 4. Go to the location where you saved the compressed file and expand it.
 
@@ -113,8 +113,8 @@ The data export contains the following files:
 | **log.txt** | Summary of the export |
 | **request.txt** | The parameters of the export |
 | **Admins.csv** | A list of admins for each selected network, including the name, email, and admin type |
-|**EngageTopicMigrationLog.csv**|A list of topics migrated or not imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_ID, migrated_at, migrated_action|
-|**EngageTopicApplicationMigrationLog.csv**|A list of topic applications not imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_id, target_id, target_type, migrated_at, migration_action|
+<!--|**EngageTopicMigrationLog.csv**|A list of topics migrated or not imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_ID, migrated_at, migrated_action|
+|**EngageTopicApplicationMigrationLog.csv**|A list of topic applications not imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_id, target_id, target_type, migrated_at, migration_action|-->
 | **Groups.csv** | All groups created or modified during the specified date range. **Properties include:** account ID, name, description, privacy status, whether the group is internal or external, link to the group, who created the group, creation date, and updated date. |
 | **LikedMessagesHistory.csv** | Lists all reactions activities on messages from users. Properties included for reactions activity, including history: <br>- Reaction selected (such as like, love, or thank) <br>- Reaction action (add, remove) <br>- Reaction timestamp <br>- User ID of the user who reacted. |
 | **MutedThreads.csv** | Lists all messages that are muted for all users in the network. **Properties include:** network ID, thread ID, updated by user ID, is muted, created at, updated at. |
@@ -123,13 +123,13 @@ The data export contains the following files:
 | **MessageVersions.csv** | Includes IDs and modification information for previously edited messages. |
 | **MessageThreadExtension.csv** | Lists all messages marked as best reply or verified reply. Properties include:<br> - Message ID<br>- Thread ID<br>- Group ID<br>- Network ID<br>- Operation<br>- Operation performed by<br>- Operation performed at.<br> |
 | **Networks.csv** | Lists your home network and all external networks included in the export. |
-| **Pages.csv** | Lists IDs, dates, and page owners for any page created or modified during the specified date range. |
+| **Pages.csv** | Lists IDs, dates, and page owners for any page created or modified during the specified date range. Includes admin-created topics.|
 | **Topics.csv** | Lists creation information and a link for any article created during the specified date range. |
-| **Users.csv** | Lists data for all users who joined, or were deleted or suspended during the specified date range. **Properties include:** email address, job-title, location, department, a link to the user, and information about the user’s current state (active or soft_delete). <br>A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value.<br> <br>Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see [the REST API](/rest/api/yammer/rest-api-rate-limits). |
+| **Users.csv** | Lists data for all users who joined, or were deleted or suspended during the specified date range. **Properties include:** email address, job-title, location, department, a link to the user, and information about the user’s current state (active or soft_delete). <br>A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value.<br><br>Identify Guests by an email address that doesn't match the home network domain.<br><br>The **api_url** provides user metadata. For more information about using the data in this field, see [the REST API](/rest/api/yammer/rest-api-rate-limits). |
 |**VivaTopicApplications.csv** | For any topic applied to a post, lists information about each application for the date range specified (if any). |
 |**VivaTopicCurationStateLogs.csv** | Applies to only Answers in Viva. <br><br/>Contains the curation state logs for featured topics.<br><br/>cortex_topic_id can be used with the content of VivaTopics.csv to retrieve other information relevant to the topic. |
 |**VivaTopics.csv** | Any topic created or updated is displayed for the date range specified (if any).<br><br/>The ID refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.|
-| **Files** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. <br> <br>Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
+| **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period.<br><br>Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
 This data export doesn't include:
 
@@ -148,10 +148,9 @@ This data export doesn't include:
 
 If the user is a member of multiple networks, you must export their data from each network separately.  
 
-1. On the Data export page, select **Export data for a single user**.
+1. On the Data export page, choose **Export data for a single user**
 
-2. Enter the user's name, select the user, and select **Eownload CSV file**. User data is exported into a .zip file that contains these files.
-
+2. Enter the user's name, select the user, and select **Export**. User data is exported into a .zip file that contains these files. <br>
 When the user's account activity data is ready, a message with a link to the data appears in your Viva Engage inbox.
 
 3. Select the link to open.
@@ -173,7 +172,7 @@ The data export contains the following files:
 | **Topics.csv** | Lists all topics created by the user during the specified date range, including creation information and a link to each topic. |
 |**VivaTopicApplications.csv** | For any topic applied to a post, lists information about each application for the date range specified (if any). |
 |**VivaTopicCurationStateLogs.csv** | Applies to only Answers in Viva. <br><br/>Contains the curation state logs for featured topics.<br><br/>cortex_topic_id can be used with the content of VivaTopics.csv to retrieve other information that's relevant to the topic. |
-|**VivaTopics.csv** | Any topic created or updated is displayed for the date range specified (if any).<br><br/>The ID refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.|
+<!--|**VivaTopics.csv** | Any topic created or updated is displayed for the date range specified (if any).<br><br/>The ID refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.|-->
 | **Files folder** | Contains files stored in Viva Engage created or modified by the user during the specified time period. Engage files stored in SharePoint are excluded. <br> <br>Files are in native format and named with their account ID. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
 This data export doesn't include:
@@ -186,10 +185,6 @@ This data export doesn't include:
 
 > [!NOTE]
 > Data for the user’s skin tone selection is excluded from exported data. However, you can access the skin tone selection on any post in Viva Engage that includes a reaction by the user. Open the grouped modal dialog box for that specific post or comment, and view the user's skin-tone preference in the list.
-
-## Export topics created in Viva Engage with PowerShell
-
-Using PowerShell, you can export topics created by a user in Viva Engage (also known as Lite Topics) to a .csv file. Topics include ones created before integration with Viva Engage. For more information, see [Export topics created in Viva Engage with PowerShell](/viva/topics/export-topics-powershell).
 
 ## Troubleshoot data export
 
