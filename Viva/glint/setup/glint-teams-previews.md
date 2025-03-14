@@ -1,6 +1,6 @@
 ---
-title: Microsoft Teams Communications and Nudges previews in Viva Glint (preview)
-description: 
+title: Microsoft Teams Communications and Nudges previews in Viva Glint
+description: When Viva Glint admins enable Microsoft Teams in General Settings, admins can enable, disable, and preview Microsoft Teams as a communication channel in survey programs and Nudges.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -14,20 +14,17 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/10/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 03/14/2025
 ---
 
-# Microsoft Teams Communications and Nudges previews in Viva Glint (preview)
-
-> [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+# Preview Microsoft Teams Communications and Nudges in Viva Glint
 
 Preview Microsoft Teams survey notifications (invites, reminders, results notifications) and Nudges in the Microsoft Viva Glint app. When Viva Glint admins enable Microsoft Teams in General Settings, admins can enable, disable, and preview Microsoft Teams as a communication channel in survey programs and Nudges. To enable Microsoft Teams for Viva Glint, see: [Use Microsoft Teams for Viva Glint](glint-teams.md)
 
 > [!NOTE]
 > - Always-On surveys don’t include a Communications section or any notifications. Emails and Microsoft Teams messages aren’t available for this survey type.
 > - Glint users who have Microsoft Teams licenses can add Viva Glint in the Microsoft Teams app.
+> - Edits to Teams notification content aren't currently supported.
 
 ## Preview survey notifications 
 

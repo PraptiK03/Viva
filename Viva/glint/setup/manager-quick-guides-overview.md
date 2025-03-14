@@ -5,7 +5,7 @@ ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
-f1.keywords: insufficient responses, insufficient data, confidentiality
+f1.keywords: insufficient responses, insufficient data, confidentiality, manager reports resources, manager conversation resources, manager feedback resources
 keywords: Microsoft Privacy Statement 
 ms.collection: 
  - m365initiative-viva
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/11/2025
+ms.date: 03/14/2025
 ---
 
 # Viva Glint Manager Quick Guides

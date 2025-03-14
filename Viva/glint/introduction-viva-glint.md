@@ -17,7 +17,7 @@ search-appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/06/2025
+ms.date: 03/14/2025
 ---
 
 # Introduction to Microsoft Viva Glint
@@ -43,18 +43,7 @@ Use the Viva Glint deployment guide to complete one-time setup tasks and launch 
 > [!div class="nextstepaction"]
 > [Download the Viva Glint deployment guide](https://go.microsoft.com/fwlink/?linkid=2301488)
 
-## Ongoing measurement
-
-After initial tenant and platform setup, complete these regular tasks to gather employee feedback and embed action-taking into your organization as a Viva Glint Administrator.
-
-| :::image type="icon" source="/office/media/icons/trend-graph-blue.png" ::: |Phase | Tasks and resources|
-|:---|:---|:---|
-|:::image type="icon" source="/office/media/icons/administrator.png" ::: | **Set up and adjust surveys** | <ul><li>[Confirm current data uploaded](/viva/glint/setup/people-page)</li> <li>[Select a survey population](/viva/glint/setup/set-up-distribution-lists)</li> <li>[Revisit your Discovery Workbook to adjust organizational priorities](https://www.microsoft.com/download/details.aspx?id=106205)</li><li>[Set up or adjust a survey](/viva/glint/setup/program-summary-overview)</li> <li>[Select new survey items](/viva/glint/setup/add-new-questions)</li> <li>[Consider updates to survey communications](/viva/glint/setup/email-content-customization)</li> <li>[Define feedback goals](/viva/glint/people-science/people-science-explains-focus-areas)</li></ul>|
-|:::image type="icon" source="/office/media/icons/success-blue.png" ::: | **Launch** | <ul><li>[Review settings and survey before launch](/viva/glint/setup/survey-qa?tabs=recurring)</li> <li> [Preview and enable a survey](/viva/glint/setup/preview-manage-enable-engage-programs)</li></ul>|
-|:::image type="icon" source="/office/media/icons/health-blue.png" ::: | **Monitor live survey progress** | <ul><li>[Track response rates during a live survey](/viva/glint/reports/response-rate-report)</li> <li>[Support participants during a live survey](/viva/glint/communicate/support-survey-participants)</li></ul>|
-|:::image type="icon" source="/office/media/icons/users-people.png" ::: | **Results rollout and action taking** | <ul><li>[Prepare results for senior leadership](/viva/glint/communicate/diy-presentation-template)</li> <li>[Communicate a results rollout plan](/viva/glint/communicate/results-rollout-templates)</li> <li>[Propel action-taking through conversations](/viva/glint/people-science/propelling-action-taking)</li> <li>[Track managers' Focus Area progress](/viva/glint/reports/focus-area-overview-report)</li></ul>|
-
-## Training
+## Learn
 
 Use Viva Glint learning paths and modules to gain badges and deepen your understanding of the Viva Glint platform.
 
@@ -62,6 +51,15 @@ Use Viva Glint learning paths and modules to gain badges and deepen your underst
 |:---|:---|:---|
 |:::image type="icon" source="/office/media/icons/notebook-blue.png" ::: | **Learning paths and modules** | <ul><li>[Courses for admins](https://go.microsoft.com/fwlink/?linkid=2275357)</li> <li>[Courses for Managers](https://go.microsoft.com/fwlink/?linkid=2275358)</li></ul>|
 |:::image type="icon" source="/office/media/icons/certificate-blue.png" ::: | **Badge certifications** | <ul><li>[Viva Glint Foundations badge](https://go.microsoft.com/fwlink/?linkid=2275359)</li> <li>[Viva Glint Manager badge](https://go.microsoft.com/fwlink/?linkid=2275437)</li></ul>|
+
+## Connect
+
+Stay connected with Viva Glint and your peers with blogs, the Viva Glint Community, and programs like Learning Circles and Cohorts.
+
+| :::image type="icon" source="/office/media/icons/meeting.png" ::: | Item | Resources|
+|:---|:---|:---|
+|:::image type="icon" source="/office/media/icons/blog-site-blue.png" ::: | **Explore Viva blogs** | <ul><li>[Viva Glint research and updates](https://techcommunity.microsoft.com/category/viva-glint/blog/viva_glint_blog)</li> <li>[Viva Suite of products](https://techcommunity.microsoft.com/category/microsoft-viva/blog/microsoftvivablog)</li></ul>|
+|:::image type="icon" source="/office/media/icons/users-people.png" ::: | **Connect with Viva Glint and others** | <ul><li>[Join the product council](https://techcommunity.microsoft.com/blog/viva_glint_blog/shape-the-future-of-viva-glint-by-joining-our-product-council/4063627)</li> <li> [Join a Learning Circle](https://techcommunity.microsoft.com/blog/viva_glint_blog/viva-glint-learning-circles-are-back/4303411)</li><li>[Join a Customer Cohort](https://techcommunity.microsoft.com/blog/viva_glint_blog/join-our-customer-cohorts/4124682)</li><li>[Engage with peers in the Viva Glint Community](https://techcommunity.microsoft.com/category/Viva-Glint)</li><li>[Attend Viva Glint Ask the Experts sessions](https://adoption.microsoft.com/viva/glint/ask-the-experts-resources/)</li></ul>|
 
 ## Get support
 

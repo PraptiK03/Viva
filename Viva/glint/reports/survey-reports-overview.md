@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, overall results, manager reports, response rate, team summary, report access level
+keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, overall results, manager reports, response rate, team summary, report access level, manager feedback resource
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/17/2024
+ms.date: 3/14/2025
 ---
 
 # Viva Glint's feedback reports for managers and admins
