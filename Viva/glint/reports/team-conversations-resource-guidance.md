@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Team Conversations,top strengths, top opportunities, manager coaching content
+keywords: Team Conversations,top strengths, top opportunities, manager coaching content, manager feedback resource
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/13/2024
+ms.date: 3/14/2025
 ---
 
 # Add resource guidance for managers using Team Conversations

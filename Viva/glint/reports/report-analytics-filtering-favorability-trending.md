@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: key outcome, mean score, favorability, filter, impact, key driver
+keywords: key outcome, mean score, favorability, filter, impact, key driver, manager feedback resource
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/30/2025
+ms.date: 03/14/2025
 ---
 
 # Understand Viva Glint reporting features

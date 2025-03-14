@@ -116,6 +116,8 @@ items:
         href: copilot/admin-enable.md
       - name: Copilot in Viva Glint data, privacy, and security
         href: setup/copilot-privacy.md
+      - name: Incorporate Copilot into the Viva Glint Comments report
+        href: reports/incorporate-copilot.md
       - name: Managers using Copilot in Viva Glint 
         href: setup/copilot-managers.md
       - name: FAQs-Copilot in Viva Glint 
@@ -228,7 +230,7 @@ items:
            href: setup/distress-survey.md
          - name: Productivity survey
            href: setup/create-productivity-survey.md
-      - name: Set up recurring surveys
+      - name: Set up a Recurring survey
         href: setup/program-summary-overview.md
         items: 
           - name: Understand programs and cycles
@@ -471,11 +473,15 @@ items:
                - name: Analyst setup of Partitions in Viva Insights
                  href: ../insights/advanced/admin/partitions.md
                - name: Glint and Insights analyst report
-                 href: ../insights/advanced/analyst/templates/glint.md             
+                 href: ../insights/advanced/analyst/templates/glint.md
+      - name: Viva Glint and Microsoft Teams
+        items:
+          - name: Use Teams for Viva Glint notifications
+            href: setup/glint-teams.md
+          - name: Preview Viva Glint Teams notifications
+            href: setup/glint-teams-previews.md
   - name: Connect and learn
     items:   
-      - name: Viva Glint resources
-        href: start/brochure-summary.md
       - name: Learning paths and modules
         href: start/viva-glint-learning-paths-and-modules.md
       - name: Badge certifications
