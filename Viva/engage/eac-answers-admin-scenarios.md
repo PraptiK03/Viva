@@ -26,18 +26,15 @@ Administration of Answers requires either an Engage admin or Answers admin role.
 >[!NOTE]
 >The Microsoft 365 Global administrator can designate an Answers admin by [adding a Knowledge manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). Knowledge managers are Answers admins and have elevated permissions over end users. For more information, see [Manage admin roles in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions).
 
-## Update the Answers info panel
+## Provide guidance using the Answers info panel
 
-### Provide guidance using the Answers info panel
-
-Answers admins and Engage admins use the **Answers info panel** to provide guidance to employees on how to use Answers in the organization. You can edit its title, provide explanatory text, and provide an informational link. By default, the Answers info panel is only visible to administrators. It appears as the top right panel on the Answers page for Admins and for users (when published). 
+Answers admins and Engage admins use the **Answers info panel** to provide guidance to employees on how to use Answers in the organization. You can edit its title, provide explanatory text, and provide an informational link. By default, the Answers info panel is only visible to administrators. It appears as the top right panel on the Answers page for Admins and for users (when published).
 
 After an admin edits, saves and publishes the info panel, all other employees with access to Answers in Viva Engage can see it. Ensure that the panel offers clear and useful information to Answers users about what they can expect to find there.
 
 >[!NOTE]
-> Users can't edit or change the Answers info panel. 
+> Users can't edit or change the Answers info panel.
 
-<br/>
 :::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" lightbox="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the Answers info panel with guidelines option.":::
 
 ### Edit the Answers info panel
@@ -54,6 +51,8 @@ Take the following steps to edit the Answers info panel:
 
 ### Reset the Answers info panel
 
+At another point, you might want to reset the information in the Answers info panel.
+
 1. Select the edit icon from the top right corner of the Answers info panel.
 1. Select **Reset** in the **Answers info panel** dialog.
 <!--
@@ -65,11 +64,24 @@ Topics encapsulate important questions asked by users in the Viva Engage network
 
 ### Understanding topics
 
+Topics work on a completely local level for both admins and for end uses of Viva Engage. If an admin wants to create new topics, they fall into two categories:
+
+| **Topic type** | **Use Case** |
+| Followed Topics to follow | ...appear in the **Topics to follow** panel. |
+| Subscribed Topics         | These topics don't appear in the **Topics to follow** panel. |
+
 ### Add topics to the Answers experience
 
-When an admin adds a topic to **Topics to follow**, the users see those entries in Viva engages in their Topics to follow panel.
+When an admin adds a topic to **Topics to follow**, the users see... WHAT?
 
-### Remove topics
+Do the following to create a new topic:
+
+1. Select **Answers**, go to **Topics to follow** and select **Discover more topics**. The main Topics page appears.
+2. Select **Create Topic.
+3. Enter the **Topic name**.
+4. Enter a **Description**.
+
+### Remove topics from Answers
 
 To remove a topic or multiple topics at once, admins can take the following steps:
 
