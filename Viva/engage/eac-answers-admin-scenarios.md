@@ -51,35 +51,45 @@ Take the following steps to edit the Answers info panel:
 
 ### Reset the Answers info panel
 
-At another point, you might want to reset the information in the Answers info panel.
+Take the following steps to reset the information in the Answers info panel.
 
-1. Select the edit icon from the top right corner of the Answers info panel.
+1. Select the edit icon from the top right corner of the panel.
 1. Select **Reset** in the **Answers info panel** dialog.
-<!--
+<!-->
 :::image type="content" source="../media/engage/admin/ans-info-pan-admin3.png" lightbox="../media/engage/admin/ans-info-pan-admin3.png" alt-text="Screenshot showing the info panel reset option.":::-->
 
 ## Use topics in the Answers experience
 
-Topics encapsulate important questions asked by users in the Viva Engage network. Users can add ongoing topics to their Viva Engage feed by selecting them in the **Topics to follow** panel.
+Topics encapsulate important questions asked by users in the Viva Engage network. Users can add ongoing topics to their Viva Engage feed by selecting them in the **Topics to follow** panel. Topics can help surface the information that's most important to users. Just like end users, admins can select any topic to read it directly in the Topics page.
 
 ### Understanding topics
 
-Topics work on a completely local level for both admins and for end uses of Viva Engage. If an admin wants to create new topics, they fall into two categories:
+Topics work locally for both admins and for end users. However, when admins create new topics, they appear for all users in their network. End users can't define their own topics.
 
 | **Topic type** | **Use Case** |
-| Followed Topics to follow | ...appear in the **Topics to follow** panel. |
-| Subscribed Topics         | These topics don't appear in the **Topics to follow** panel. |
+| Followed topics | When a user follows a topic by selecting the Bell icon, changes to that topic appear in their Viva Engage feed, but they don't receive notifications about them. |
+| Topic subscriptions | When a user subscribes by selecting the plus (+) sign, they receive notifications *in Engage* when a post in Viva Engage is tagged with the topic, or if the topic is added to a post in Engage. |
 
-### Add topics to the Answers experience
+### Add and edit topics in the Answers experience
 
-When an admin adds a topic to **Topics to follow**, the users see... WHAT?
+When an admin creates a new topic, all network users with correct licensing see it and can use it in Viva Engage.
 
 Do the following to create a new topic:
 
 1. Select **Answers**, go to **Topics to follow** and select **Discover more topics**. The main Topics page appears.
-2. Select **Create Topic.
+2. Select **Create Topic**.
 3. Enter the **Topic name**.
 4. Enter a **Description**.
+
+By default, when the new topic gets created, the admin automatically follows the topic. Users can post new questions in topics.
+
+If users ask questions in the Answers page, AI-suggested topic tags can appear based on the subject matter. If an admin selects a tag, the action creates a new topic for Answers. The new topic appears in the Answers page without an automatic admin follow.
+
+Admins can edit existing topics. To edit a topic, take the following steps:
+
+1. On the Answers page, go to **Topics to follow** and select **Discover more topics**.
+1. Select the desired topic.
+1. in the topic banner, select the **Edit topic** icon.
 
 ### Remove topics from Answers
 
@@ -93,10 +103,10 @@ To remove a topic or multiple topics at once, admins can take the following step
 
 ## View Global Answers analytics
 
-As an Answers admin, you can open and view *Global Answers analytics*. The page provides information about engagement and the success rates for Answers in your community to assist the user base.
+As an Answers admin, you can open and view *Global Answers analytics*. The page provides metrics about engagement and success rates for Answers in your community to assist the user base.
 
-1. Go to the **Explore** > **Analytics** page of Viva Engage.
-1. Select the **Global Answers analytics** tab. The analytics dashboard shows an overview and relevant insights about knowledge sharing activity across Answers in Viva.
+1. Go to Viva Engage's **Explore** > **Analytics** page.
+1. Select the **Global Answers** tab. The analytics dashboard shows an overview and relevant insights about knowledge sharing activity across Answers in Viva.
 
 For more information about analytics management in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics).
 
@@ -121,11 +131,11 @@ The following metrics appear for Global Answers analytics:
 |**Median best answers per user**| The median number of best answers provided by each user.|
 |**Top questions across your org**| A table of the top questions with the most views, votes, reactions, and answers across your org.|
 |**User engagement distribution**| A distribution of all users split by active engagements (ask, answer, vote, reactions, comments) and passive engagements (question views).|
-|**Question views**| 
+|**Question views**| Total question views in the network. |
 <!--|**Global time saved** | Time saved across the organization. Based on Viva Engage research, the total shows that each question-and-answer pair saves people an average of 15 minutes. As more people discover existing answers to their questions, the organization saves more time.|-->
 
 >[!NOTE]
-> Analytics aren't live. They update every 24 hours.
+> Analytics statistics aren't live. They update every 24 hours.
 
 ## See also
 
