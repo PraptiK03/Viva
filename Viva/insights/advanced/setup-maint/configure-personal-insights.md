@@ -4,7 +4,7 @@ title: Configure personal insights defaults
 description: Configuration options that Microsoft 365 administrators can make for personal insights in Microsoft Viva Insights
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.service: viva-insights 
 ms.collection: 

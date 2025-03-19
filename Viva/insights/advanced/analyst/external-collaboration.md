@@ -4,7 +4,7 @@ title: Collaboration between internal and external individuals
 description: Learn how to run an external collaborator query, to understand how groups at your company collaborate with others outside your company.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

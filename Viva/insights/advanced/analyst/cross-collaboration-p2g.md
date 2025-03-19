@@ -4,7 +4,7 @@ title: "Cross-collaboration: person-to-group query"
 description: Learn how to run a custom cross-collaboration query for collaboration between individuals and groups in your organization
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

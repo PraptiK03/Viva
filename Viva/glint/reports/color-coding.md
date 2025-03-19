@@ -6,15 +6,15 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: strengths, opportunities, team summary, executive summary
+keywords: strengths, opportunities, team summary, executive report, Driver Impact Report, Heat Map report, favorability scale
 ms.collection:  
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/04/2025
+ms.date: 03/18/2025
 ---
 
 # Color coding in Viva Glint reports
@@ -42,7 +42,7 @@ Items with High or Very High Impact on the outcome (for example, Engagement) are
 > To decrease confusion, there is an account setting called **Exclude Negative Strengths & Positive Weaknesses** which can be enabled at the account level. 
 
 > [!NOTE]
-> If the respondent size of the report is too small, impact is calculated based on the overall company level. [See this guidance to learn more](/../../viva/glint/reports/driver-impact-report#small-teams-can-use-the-driver-impact-report). 
+> If the respondent size of the report is too small, impact is calculated based on the overall company level. [Learn more](/../../viva/glint/reports/driver-impact-report#small-teams-can-use-the-driver-impact-report). 
 
 
 ## Color coding for Strengths & Opportunities sections in Executive Summary reports

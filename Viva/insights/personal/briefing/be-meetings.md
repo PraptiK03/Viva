@@ -5,7 +5,7 @@ title: Prepare for meetings with the Briefing email
 description: Learn how to use the Briefing email to prepare for upcoming meetings
 author: madehmer
 ms.author: helayne
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

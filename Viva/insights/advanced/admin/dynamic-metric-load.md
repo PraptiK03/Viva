@@ -4,7 +4,7 @@ title: Export Viva Insights data using MGDC
 description: Use Microsoft Graph Data Connect (MGDC) to transfer backend Viva Insights data to Azure
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

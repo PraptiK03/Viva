@@ -10,7 +10,7 @@ keywords: benchmark mapping, benchmark linking, custom benchmark, question bench
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 02/21/2025

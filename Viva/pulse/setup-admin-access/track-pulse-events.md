@@ -8,7 +8,7 @@ author: hasrivas
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH 
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-pulse
 ms.localizationpriority: medium
 ms.collection: m365initiative-viva-pulse

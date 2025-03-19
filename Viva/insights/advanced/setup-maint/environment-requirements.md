@@ -1,5 +1,5 @@
 ---
-ms.date: 03/06/2025
+ms.date: 03/18/2025
 title: Environment requirements for Viva Insights
 description: Describes the environment requirements for using Microsoft Viva Insights
 author: zachminers
@@ -32,7 +32,9 @@ Microsoft Viva Insights provides personal insights in the [Viva Insights app in 
 
 ### Microsoft 365 plans
 
-The following Personal insights service plans are generally available with a subscription to the Microsoft 365 plans listed for each. Also see [Supported](#supported-microsoft-365-environments) and [Not supported](#not-supported-microsoft-365-environments) Microsoft 365 environments to confirm your type of environment is supported.
+The following personal insights service plans are generally available with a subscription to the Microsoft 365 plans listed for each. Also see [Supported](#supported-microsoft-365-environments) and [Not supported](#not-supported-microsoft-365-environments) Microsoft 365 environments to confirm your type of environment is supported.
+
+* Microsoft 365 Copilot plans include a Viva Insights service plan with personal insights as well as manager, leader, and advanced insights for all employees with a Copilot license. 
 
 * With the following Microsoft 365 plans, a [**Viva Insights subscription**](https://www.microsoft.com/microsoft-viva/buy-insights) is available for purchase:
 
@@ -85,7 +87,6 @@ After users get assigned licenses with an applicable service plan, they get acce
 | Welcome email | Sent to existing Microsoft 365 users a few days (up to four weeks) after license assignment; sent to new users approximately four weeks after license assignment |
 | [Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d) and [Inline suggestions](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) | Available about one day after license assignment |
 |[Viva Insights in Teams and on the web](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) | Available a few days after license assignment |
-| [Digest emails](https://support.microsoft.com/topic/digest-email-0e8b9a77-d1ce-4139-82bc-e91a3cb909c3) | Sent two to three weeks after the welcome email |
 
 >[!Note]  
 >
@@ -151,6 +152,8 @@ See [Briefing languages](../../personal/briefing/be-languages.md) to see what's 
 With the applicable [Viva Insights licensing](#viva-insights-licenses), your company can get manager and leader insights in Teams, and advanced insights features as an add-on to the licensing agreement.
 
 Microsoft Exchange Online provides much of the collaboration data that Viva Insights uses. For this reason, we recommend you have a Microsoft 365 or an Office 365 product that contains Exchange Online Plan 1 and Plan 2.
+
+Microsoft 365 Copilot plans also include manager, leader, and advanced insights for all employees who have an assigned Copilot license.
 
 ## Channel support
 

@@ -4,7 +4,7 @@ title: Assign roles
 description: Learn how to assign Insights Administrator, Insights Analyst, and Insights Business Leader roles to users in your organization
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

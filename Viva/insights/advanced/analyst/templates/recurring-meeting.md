@@ -4,7 +4,7 @@ title: Recurring meeting audit Power BI report
 description: Understand whether expensive large and long recurring meetings in your organization are worth their cost
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

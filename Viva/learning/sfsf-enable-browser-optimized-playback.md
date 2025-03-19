@@ -6,7 +6,7 @@ manager: pamgreen
 ms.reviewer: chrisarnoldmsft
 ms.date: 02/10/2025
 audience: admin
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:

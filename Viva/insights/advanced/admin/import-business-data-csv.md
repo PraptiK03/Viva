@@ -4,7 +4,7 @@ title: Import business data via .csv upload
 description: Learn how to import business data into Viva Insights through a .csv file upload.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights

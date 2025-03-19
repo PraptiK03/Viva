@@ -4,7 +4,7 @@ title: Growth, inclusion and engagement Power BI report
 description: Learn how to support, engage, and retain employees with the report. 
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

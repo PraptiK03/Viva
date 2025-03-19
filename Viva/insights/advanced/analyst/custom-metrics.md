@@ -4,7 +4,7 @@ title: Custom metrics in Viva Insights
 description: Learn about building and using custom metrics in Microsoft Viva Insights 
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 manager: anirudhbajaj
 audience: Analyst

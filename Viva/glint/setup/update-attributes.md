@@ -6,15 +6,15 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: edit attribute, edit derived attribute, edit optional system attribute, rename attribute
+keywords: edit attribute, edit derived attribute, edit optional system attribute, rename attribute, update attributes
 ms.collection: 
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/10/2025
+ms.date: 03/18/2025
 ---
 
 # Update attributes in Viva Glint
@@ -22,7 +22,10 @@ ms.date: 03/10/2025
 After initial attribute setup in Microsoft Viva Glint, use this guidance to add new attributes, rename attributes, manage derived and optional system attributes, and to update attribute visibility in the platform. New attributes and their values apply to future survey results only.
 
 > [!CAUTION]
-> The Viva Glint Admin that sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the Language dropdown menu in Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
+> The Viva Glint Admin that sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the Language dropdown menu in Viva Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
+
+> [!IMPORTANT]
+> Coordinate the timing of new or updated attributes with your HR information system team. Edits to your attribute setup need to be in place before files with changes can successfully import to Viva Glint.
 
 ## Add new attributes to Viva Glint
 

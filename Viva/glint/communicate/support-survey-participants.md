@@ -6,15 +6,15 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: survey taker, survey participant, live survey, support
+keywords: survey taker, survey participant, live survey, support, resend survey, survey eligibility
 ms.collection:  
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/06/2025
+ms.date: 03/18/2025
 ---
 
 # Support survey participants during a live Viva Glint survey
@@ -87,7 +87,11 @@ If a user is eligible for a survey but wasn’t included at the time of launch, 
 Any user in your organization can use these links to resend invites for all of a user’s active surveys. Replace the **‘companyID’ with your own in the URL** (as an admin, go to General Settings and confirm the Client UUID value as your company ID). Enter a user’s email address and select **Email Survey Invite** to resend emails. The **Provide Feedback** button in the new emails uses the same [access method](/viva/glint/setup/understand-survey-access-methods) as the original invites (authentication with Microsoft Entra ID or a personalized link).
 
 - US server: https://app.us1.glint.cloud.microsoft/companyID/q2/resend-pulse
-- EU server: https://app.eu1.glint.cloud.microsoft/companyID/q2/resend-pulse 
+- EU server: https://app.eu1.glint.cloud.microsoft/companyID/q2/resend-pulse
+
+For example, if Contoso (whose tenant is US-based) wants to update the link for their organization, it looks like this:
+
+> [https://app.us1.glint.cloud.microsoft/**contoso**/q2/resend-pulse](https://app.us1.glint.cloud.microsoft/contoso/q2/resend-pulse)
 
 :::image type="content" source="../../media/glint/setup/vg-resend-url-page.png" alt-text="Screenshot of the Viva Glint resend survey landing page.":::
 

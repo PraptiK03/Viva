@@ -4,7 +4,7 @@ title: Filters in advanced insights queries
 description: Learn more about filters in queries
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

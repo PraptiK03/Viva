@@ -5,7 +5,7 @@ title: Follow up on tasks with the Briefing email
 description: Learn how to use the Briefing email to get today's tasks done
 author: madehmer
 ms.author: helayne
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

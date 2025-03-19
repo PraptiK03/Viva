@@ -4,7 +4,7 @@ title: Use the Admin Center and dashboard
 description: Provides information to admins about the Admin Center in Viva Insights and how to use its metrics.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights

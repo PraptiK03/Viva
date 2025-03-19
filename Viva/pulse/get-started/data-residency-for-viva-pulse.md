@@ -7,7 +7,7 @@ author: michellehu-msft
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 07/12/2023
+ms.date: 03/13/2025
 ms.topic: concept-article
 ms.service: viva-pulse
 ms.localizationpriority: medium
@@ -54,4 +54,4 @@ Viva Pulse research-backed templates and customized templates are stored in Azur
 
 ## How long is my Viva Pulse data stored for?
  
-Viva Pulse research-backed templates and customized templates are stored in Azure Cosmos DB in West US or EU depending on the tenant’s hosting location. This data will be retained for a period of up to 3 (three) years. Pulse instances authored in Viva Pulse are stored in Microsoft Forms, along with all the responses to the Pulse. Data in Microsoft Forms is deleted immediately if the Pulse request closes with less than minimum response threshold for report generation. If the Pulse request closed with the report being succesfully generated, we retain the Microsoft Forms data for a period of up to 3 (three) years.
+Viva Pulse research-backed templates and customized templates are stored in Azure Cosmos DB in West US or EU depending on the tenant’s hosting location. This data will be retained for a period of up to 3 (three) years. Pulse instances authored in Viva Pulse are stored in Microsoft Forms, along with all the responses to the Pulse. Data in Microsoft Forms is deleted immediately if the Pulse request closes with less than minimum response threshold for report generation. If the Pulse request closed with the report being successfully generated, we retain the Microsoft Forms data for a period of up to 3 (three) years.

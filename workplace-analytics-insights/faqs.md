@@ -6,7 +6,7 @@ title: Insights FAQ
 description: Answers to the most frequently asked questions about Insights
 author: madehmer
 ms.author: helayne
-ms.topic: article
+ms.topic: faq
 ms.localizationpriority: Low
 ms.service: viva-insights
 manager: scott.ruble

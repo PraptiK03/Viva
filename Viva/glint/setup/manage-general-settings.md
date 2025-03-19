@@ -6,17 +6,17 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: focus area privacy, confidentiality setup, communications setup, localization
+keywords: focus area privacy, confidentiality setup, communications setup, localization, general settings
 ms.collection:  
 - m365initiative-viva
 - selfserve
 - essentials-manage
 search.appverid: MET150 
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 01/10/2025
+ms.date: 03/14/2025
 ---
 
 # Manage General Settings in Viva Glint 
@@ -43,8 +43,8 @@ Also, set up what your employees see when they open an email sharing information
 |**Client Name**    | The organization name that appears in macro references throughout the product.  | 
 |**Client Time Zone**    | Survey and reminder emails are sent out in this time zone unless **Send surveys in users’ time zones** is checked. [More information on sending in user time zones.](time-zones.md)   | 
 |**Top-Level Manager**    | This employee is used to build managerial hierarchy and is the only person in your organization that doesn't report to anyone at a higher level.| 
-|**Company Privacy Policy** | Add a link to your organization's privacy policy. The privacy policy is displayed at the beginning of Glint surveys and in the Glint navigation bar.|
-|**Company Message to Survey Participants**|Enter guidance specific to your organization to be displayed at the beginning of Glint surveys and applied to new programs and scheduled surveys. <li>Avoid potential conflicts between your organization's message and Viva Glint's privacy statements. The application of a privacy statement is dependent upon admin configuration. [**Learn more**](/../../viva/glint/setup/viva-glint-survey-privacy).</li><li>The company message displayed alongside standard privacy statements should refrain from stating anything that conflicts with the privacy statement applied to the survey. *Microsoft reserves the right to delete company messages if such conflicts come to our attention.*</li><li>No hyperlinks can be used in this company message</li><li>Character limit: 1024</li><li>**Best practice:** link to your organization's privacy policy **or** to customized message. Using *both* may incur conflicts.</li>
+|**Company Privacy Policy** | Add a link to your organization's privacy policy. The privacy policy is displayed at the beginning of Viva Glint surveys and in the Viva Glint navigation bar.|
+|**Company Message to Survey Participants**|Enter guidance specific to your organization to be displayed at the beginning of Viva Glint surveys and applied to new programs and scheduled surveys. <li>Avoid potential conflicts between your organization's message and Viva Glint's privacy statements. The application of a privacy statement is dependent upon admin configuration. [**Learn more**](/../../viva/glint/setup/viva-glint-survey-privacy).</li><li>The company message displayed alongside standard privacy statements should refrain from stating anything that conflicts with the privacy statement applied to the survey. *Microsoft reserves the right to delete company messages if such conflicts come to our attention.*</li><li>No hyperlinks can be used in this company message</li><li>Character limit: 1024</li><li>**Best practice:** link to your organization's privacy policy **or** to customized message. Using *both* may incur conflicts.</li>
 
 :::image type="content" source="../../media/glint/setup/customized-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when a customized message around privacy is included.":::
 
@@ -57,6 +57,7 @@ Also, set up what your employees see when they open an email sharing information
 |**Enable Email Notifications for Focus Area Comments**    | Enable for comments and user tagging.  | 
 |**Hide Focus Area/Comment Text in Focus Area Emails**    | Managers may receive an email notification when someone comments on their Focus Area (goal) or a new one is cascaded to them. Enable to hide these details from these emails. Disable to allow goal title and comment text to display.    | 
 |**Send Survey in Users’ Time Zones**    | Send invitations in user’s time zones on the survey start date. [Learn more](time-zones.md). | 
+|**Microsoft Teams** | Enable your company to receive survey notifications and all Nudges via Teams. Overview and [installation process here](glint-teams.md). | 
 
 ## Reporting  
 
@@ -78,11 +79,11 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 |**Insight Minimum Group Size**   | Minimum number of responses before insights and alerts can be shown.    |  
 |**Insight Minimum Score Difference**   | Minimum number of responses before showing differences in insights and alerts.     | 
 |**Minimum Sample Survey Stats**   | Response rate isn't displayed for groups smaller than this set number. This rate is based on group size, not on number of responses and it must match the confidentiality threshold.      | 
-|**PowerPoint Template for Reports**   | Customer chosen default template. If unset, it defaults to the Glint template. [Learn more](custom-ppt-upload.md).  |  
+|**PowerPoint Template for Reports**   | Customer chosen default template. If unset, it defaults to the Viva Glint template. [Learn more](custom-ppt-upload.md).  |  
 |**Primary Hierarchy**   | The hierarchy your company identified as the first level for reporting, typically Manager. |  
 |**Secondary Hierarchy**   | The hierarchy your company identified as its second level for reporting, typically Location. | 
 |**Rating Questions Scale**   | The defaults survey rating questions use. Viva Glint's best practice is to use a 5-point scale. | 
-|**Suppression Threshold**   | Suppression occurs if there aren't enough respondents to meet confidentiality requirements. The Glint Suppression Threshold default is two (2) but is dependent upon the confidentiality threshold.  |  
+|**Suppression Threshold**   | Suppression occurs if there aren't enough respondents to meet confidentiality requirements. The Viva Glint Suppression Threshold default is two (2) but is dependent upon the confidentiality threshold.  |  
 |**Cross-Program Filtering**   | Turns on cross-program filtering within reports. Enables user roles to compare employee groups across different survey programs and cycles.   |   
 
 ## Engage Survey Details 
@@ -103,7 +104,7 @@ In this section:
 | Field | Definition and notes |
 |:-----------|:-----------|
 |**Available Survey Questions and Program Templates**   |Deselect program types you won’t use to delete them from your platform. You can edit this functionality at any time.    |  
-|**Community Enabled**   |Enable to permission access to the Glint community forum for this client, regardless of role-based permissions.  |  
+|**Community Enabled**   |Enable to permission access to the Viva Glint community forum for this client, regardless of role-based permissions.  |  
 |**Employee Post-Survey Action Taking**   |Enables employees to view free LinkedIn Learning videos upon completing a survey. A LinkedIn Learning license is not required. [Learn more](post-survey-learnings.md). | 
 |**Team Conversation Enabled**   |Enables Team Conversations for recurring surveys.   |  
 |**Default Focus Area Privacy**   |Choose the visibility/privacy setting for users creating a new Focus Area. More instructions around focus area privacy follow this table.  |
@@ -130,7 +131,7 @@ Make selections for your Viva Glint technical setup.
 | Field | Definition and notes |
 |:-----------|:-----------|
 |**Attribute for SSO Authentication** |View only. The email is set as the default employee ID. |
-|**SFTP Setup** |Streamline your data upload process by automatically adding your company data into the Glint platform. [Learn more](set-up-sftp.md). |
+|**SFTP Setup** |Streamline your data upload process by automatically adding your company data into the Viva Glint platform. [Learn more](set-up-sftp.md). |
 
 ## Localization 
 

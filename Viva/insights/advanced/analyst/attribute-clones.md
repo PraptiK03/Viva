@@ -4,7 +4,7 @@ title: Create and manage attribute clones
 description: Educates analysts on how to edit and customize attributes uploaded by admins to create better tailored analyses.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

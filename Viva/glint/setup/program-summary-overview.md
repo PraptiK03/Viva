@@ -1,27 +1,27 @@
 ---
 title: Set up a Viva Glint Recurring survey
-description: Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topics that you want regular feedback on over time.
+description: Set up a Viva Glint Recurring survey to measure employee sentiment on topics that you want regular feedback on over time.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: survey setup, set up a Viva Glint program, Viva Glint program setup, create Viva Glint survey, recurring survey, Viva Glint engagement survey, Viva Glint Ad Hoc survey, Recurring survey, Viva Glint quarterly engagement survey, Viva Glint Program Summary setup
+keywords: survey setup, set up a Viva Glint program, Viva Glint program setup, create Viva Glint survey, recurring survey, Viva Glint engagement survey, Recurring survey, Viva Glint quarterly engagement survey
 ms.collection: 
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/10/2025
+ms.date: 03/13/2025
 ---
 
 # Set up a Viva Glint Recurring survey
 
-Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topics that you want regular feedback on over time. Recurring surveys help organizations track important themes like engagement, manager effectiveness, or culture at regular intervals. [Learn about survey types](/viva/glint/start/program-types-templates#types-of-surveys).
+Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topics that you want regular feedback on over time. Recurring surveys help track important themes like engagement, productivity, manager effectiveness, or culture at regular intervals. [Learn about survey types](/viva/glint/start/program-types-templates#types-of-surveys).
 
-## How to set up a Recurring survey
+## Set up a Recurring survey
 
 1. From your admin dashboard, select **Configuration**.
 2. In the **Surveys** section, choose **Survey Programs**.
@@ -46,7 +46,7 @@ Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topi
    | :::image type="icon" source="/office/media/icons/whats-new-megaphone-blue.png" ::: |[Communications](program-summary-communications.md)       |  Set a schedule and customize content for survey invites, reminders, survey results notification, and conversation emails (when Team Conversations are enabled).     |
    | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content that helps users interpret results on their dashboards and use Team Conversations (when enabled).       |
 
-   As you set up each section a checkmark indicates that the section is set up completely and allows you to move to the next setup section. 
+   As you set up each section, a checkmark indicates that the section is set up completely and allows you to move to the next setup section. 
 
    :::image type="content" source="../../media/glint/setup/program-summary-checkmarks.png" alt-text="Screenshot of a completed Program Summary. A checkmark appears on the right of each row.":::
 

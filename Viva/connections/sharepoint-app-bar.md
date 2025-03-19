@@ -9,7 +9,7 @@ recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-connections
 ms.localizationpriority: high
 ms.collection:
@@ -37,7 +37,6 @@ The SharePoint app bar brings together intranet resources and personalized conte
 > [!NOTE]
 >
 > - The Connections icon will only show to customers who have enabled a Viva Connections experience with a configured and published dashboard.
-> - The addition of the Connections icon is currently rolling out and will be fully available by March 2025.   
 
 :::image type="content" source="../media/connections/sharepoint-app-bar/sharepoint-app-bar-overview.png" lightbox="../media/connections/sharepoint-app-bar/sharepoint-app-bar-overview.png" alt-text="Screenshot of the SharePoint app bar tabs.":::
 

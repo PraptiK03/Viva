@@ -5,7 +5,7 @@ title: Microsoft Viva Insights API
 description: Learn how to use the Microsoft Viva Insights API to secure moving data for more advanced analysis
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

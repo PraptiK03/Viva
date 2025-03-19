@@ -7,7 +7,7 @@ author: v-rgrace
 manager: elizapo
 ms.date: 01/02/2025
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-engage
 ms.localizationpriority: medium
 ms.collection: essentials-compliance
