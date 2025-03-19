@@ -67,6 +67,7 @@ Topics encapsulate important questions asked by users in the Viva Engage network
 Topics work locally for both admins and for end users. However, when admins create new topics, they appear for all users in their network. End users can't define their own topics.
 
 | **Topic type** | **Use Case** |
+| -------------- | ------------ |
 | Followed topics | When a user follows a topic by selecting the Bell icon, changes to that topic appear in their Viva Engage feed, but they don't receive notifications about them. |
 | Topic subscriptions | When a user subscribes by selecting the plus (+) sign, they receive notifications *in Engage* when a post in Viva Engage is tagged with the topic, or if the topic is added to a post in Engage. |
 
