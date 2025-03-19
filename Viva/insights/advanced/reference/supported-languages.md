@@ -5,7 +5,7 @@ title: Language support and guidelines for advanced insights in Viva Insights
 description: Describes the languages supported by Advanced insights within Microsoft Viva Insights
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.collection: 
 - viva-insights-advanced
 - viva-insights-leader

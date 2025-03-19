@@ -5,7 +5,7 @@ title: Personal insights service description
 description: Microsoft Viva Insights features, distributions, privacy, and prerequisites
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

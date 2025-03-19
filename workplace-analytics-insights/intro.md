@@ -5,7 +5,7 @@ title: Introducing Viva insights
 description: About Viva Insights in Microsoft Teams to learn how your organization gets work done
 author: madehmer
 ms.author: helayne
-ms.topic: conceptual
+ms.topic: overview
 ms.localizationpriority: Low 
 ms.service: viva-insights
 manager: scott.ruble

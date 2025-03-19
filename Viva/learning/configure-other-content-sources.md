@@ -1,6 +1,6 @@
 ---
 title: Add other content providers for Microsoft Viva Learning
-ms.author: chucked
+ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft

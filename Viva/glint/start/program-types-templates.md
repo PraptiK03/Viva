@@ -6,15 +6,15 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: organizational survey, business unit survey, recurring survey, engagement survey, quarterly engagement, diversity, inclusion and belonging survey, culture survey, manager effectiveness survey, patient safety survey, team effectiveness survey, ad hoc surveys, always on feedback, employee lifecycle, lifecycle surveys, exit survey, onboarding survey, survey frequency, holistic listening, discovery workbook, vision strategy, vision planning, People Success elements, six elements of success, survey for hiring managers, surveys for managers, surveys for admins
+keywords: organizational survey, business unit survey, recurring survey, engagement survey, quarterly engagement, diversity, inclusion and belonging survey, culture survey, manager effectiveness survey, patient safety survey, team effectiveness survey, ad hoc surveys, always on feedback, employee lifecycle surveys, exit survey, onboarding survey, survey frequency, discovery workbook, vision strategy, People Success elements, surveys for hiring managers, surveys for managers, surveys for admins, surveys for Uwer Roles
 ms.collection: 
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 3/11/2025
+ms.date: 3/19/2025
 ---
 
 # Viva Glint programs, survey types, and templates 

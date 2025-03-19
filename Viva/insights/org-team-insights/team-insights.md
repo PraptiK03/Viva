@@ -71,7 +71,7 @@ To turn on or off team insights:
 
 1. Select the ellipsis (...) icon > **Settings** at the top right.
 
-1. Select **Team insights** on the left pane.
+1. Select **Direct reports** on the left pane.
 
 1. To:
     * Turn off team insights, select **Opt out**.

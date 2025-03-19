@@ -7,7 +7,7 @@ author: Starshine89
 manager: elizapo
 ms.date: 08/07/2024
 audience: Admin
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.localizationpriority: medium
 ms.service: viva-engage
 ms.custom: Adm_Yammer

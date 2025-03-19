@@ -7,7 +7,7 @@ author: Starshine89
 manager: elizapo
 ms.date: 09/24/2024
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-engage
 ms.localizationpriority: medium
 ms.custom:

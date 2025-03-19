@@ -8,7 +8,7 @@ manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: integration
 ms.service: viva-suite
 ms.localizationpriority: medium
 ms.collection:

@@ -1,23 +1,23 @@
 ---
-title: Make changes to a live Viva Glint survey
+title: Admins editing a live Viva Glint survey
 description: Viva Glint suggests changing a live survey only when necessary.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Edit live survey, edit program summary
+keywords: Edit live survey items, edit live survey questions, edit program summary
 ms.collection: 
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 3/05/2025
+ms.date: 3/18/2025
 ---
 
-# Make changes to a live Viva Glint survey
+# Admins editing a live Viva Glint survey
 
 Some elements of a Live recurring or Ad Hoc survey can be adjusted, but only make Live edits when necessary.
 

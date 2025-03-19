@@ -13,7 +13,7 @@ ms.collection:
 - viva-copilot
 - magic-ai-copilot
 search.appverid: MET150 
-ms.topic: article
+ms.topic: faq
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-aapproved

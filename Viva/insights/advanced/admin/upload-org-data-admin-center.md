@@ -4,7 +4,7 @@ title: Upload and maintain data through the Microsoft 365 admin center
 description: Learn how to upload organizational data using the Microsoft 365 Admin Center instead of Viva Insights.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights

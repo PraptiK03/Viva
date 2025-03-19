@@ -4,7 +4,7 @@ title: Impact explorer Power BI report
 description: Estimate the impact Viva Insights can make in your organization
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

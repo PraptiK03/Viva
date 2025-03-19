@@ -116,6 +116,8 @@ items:
         href: copilot/admin-enable.md
       - name: Copilot in Viva Glint data, privacy, and security
         href: setup/copilot-privacy.md
+      - name: Incorporate Copilot into the Viva Glint Comments report
+        href: reports/incorporate-copilot.md
       - name: Managers using Copilot in Viva Glint 
         href: setup/copilot-managers.md
       - name: FAQs-Copilot in Viva Glint 
@@ -236,12 +238,8 @@ items:
           - name: Set up Team Conversations
             href: reports/team-conversations-administrator-setup.md
             items:
-               - name: Team Conversations presentation kit
-                 href: reports/coaching-team-conversations.md
                - name: Customize Team Conversations email content
                  href: reports/team-conversations-content-cusomization.md
-               - name: Team Conversations resource guidance
-                 href: reports/team-conversations-resource-guidance.md     
       - name: Set up an Employee Lifecycle survey
         items:
            - name: Set up an Onboarding survey
@@ -254,46 +252,46 @@ items:
         href: setup/always-on-surveys.md
       - name: Set up an Ad Hoc survey
         href: setup/ad-hoc-survey.md
-      - name: Survey setup sections and resources
+      - name: Survey sections and resources
         items:
-          - name: Program setup 
-            href: setup/program-set-up.md
-          - name: Distribution setup 
-            href: setup/distribution-program-summary.md
-          - name: Schedule setup
-            href: setup/schedule-setup.md
-          - name: Questions setup 
-            href: setup/questions-setup.md
-            items:
+           - name: Program setup 
+             href: setup/program-set-up.md
+           - name: Distribution setup 
+             href: setup/distribution-program-summary.md
+           - name: Schedule setup
+             href: setup/schedule-setup.md
+           - name: Questions setup 
+             href: setup/questions-setup.md
+             items:
                - name: Add items and sections
                  href: setup/add-new-questions.md
                - name: Target survey items
                  href: setup/targeted-survey-items.md
                - name: Add item Display Logic
                  href: setup/viva-glint-display-logic.md
-          - name: Reporting setup
-            href: setup/reporting-setup.md
-            items:
+           - name: Reporting setup
+             href: setup/reporting-setup.md
+             items:
                - name: Release results to roles in phased access
                  href: setup/live-versus-phased-access.md
-          - name: Communications setup 
-            href: setup/program-summary-communications.md
-            items:
-              - name: Customize survey email content
-                href: setup/email-content-customization.md
-              - name: Multi-language emails
-                href: setup/multi-lang-emails.md                        
-          - name: Coaching setup 
-            href: setup/program-summary-coaching.md
-          - name: Manage translations for survey content
-            href: setup/language-translations.md  
-          - name: Review character limits
-            href: setup/survey-character-limits.md
-      - name: Review surveys before launch
+           - name: Communications setup 
+             href: setup/program-summary-communications.md
+             items:
+               - name: Customize survey email content
+                 href: setup/email-content-customization.md
+               - name: Multi-language emails
+                 href: setup/multi-lang-emails.md                        
+           - name: Coaching setup 
+             href: setup/program-summary-coaching.md
+           - name: Manage translations for survey content
+             href: setup/language-translations.md  
+           - name: Review character limits
+             href: setup/survey-character-limits.md
+      - name: Review and test surveys before launch
         items:
-          - name: Check admin survey setup before launch
+          - name: Review and set up a test survey
             href: setup/survey-qa.md
-          - name: Review a test survey before launch
+          - name: Check a survey as a tester
             href: setup/survey-testing.md
           - name: Preview data in reports
             href: setup/preview-demo-reporting.md
@@ -354,9 +352,9 @@ items:
         href: setup/reopen-survey.md
       - name: Make changes to a live survey
         href: setup/change-live-survey.md   
-  - name: View survey results
+  - name: View feedback results
     items:
-      - name: Survey reports guide
+      - name: Feedback reports guide
         href: reports/survey-reports-overview.md
       - name: Report functionality
         items:
@@ -378,7 +376,7 @@ items:
             href: reports/report-customization.md
           - name: Confidentiality and suppression
             href: reports/confidentiality-suppression-reports.md     
-      - name: Standard reports for managers and admins
+      - name: Feedback reports for managers and admins
         items:
          - name: Executive Summary Report
            href: reports/executive-summary-report.md
@@ -471,11 +469,15 @@ items:
                - name: Analyst setup of Partitions in Viva Insights
                  href: ../insights/advanced/admin/partitions.md
                - name: Glint and Insights analyst report
-                 href: ../insights/advanced/analyst/templates/glint.md             
+                 href: ../insights/advanced/analyst/templates/glint.md
+      - name: Viva Glint and Microsoft Teams
+        items:
+          - name: Use Teams for Viva Glint notifications
+            href: setup/glint-teams.md
+          - name: Preview Viva Glint Teams notifications
+            href: setup/glint-teams-previews.md
   - name: Connect and learn
     items:   
-      - name: Viva Glint resources
-        href: start/brochure-summary.md
       - name: Learning paths and modules
         href: start/viva-glint-learning-paths-and-modules.md
       - name: Badge certifications

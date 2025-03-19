@@ -11,10 +11,10 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 2/26/2025
+ms.date: 3/14/2025
 ---
 
 # Use Viva Glint’s Comments report 
@@ -60,6 +60,12 @@ Topics are a high-level summary of comments, which generate deeper insight. This
 - The *size* of a topic bubble reflects the volume of related comments.
   
 Hover over a topic bubble for more information about sentiment or favorability. Select it to reveal a slider window with all related comments. 
+
+## Incorporate Copilot into your Comments report
+
+Copilot in Viva Glint allows users to explore employee comments with natural language queries or suggested prompts. Copilot in Viva Glint brings the AI revolution into your employee engagement programs. [Read about using Copilot in the Comments report](/../../viva/glint/reports/incorporate-copilot).
+
+
 
 ## Add sections to the Comments report
 In the **Comments** section, you can view all comments or see them by category. 
@@ -120,6 +126,6 @@ Selecting this dropdown menu allows you to perform multiple functions: Export re
 - Review keywords
 - Explore Representative Comments: Viva Glint isolates a short list of comments that are representative of overall themes. Read just a few to get a sense of the whole.
 
-[Read about Viva Glint's Narrative Intelligence](https://techcommunity.microsoft.com/discussions/results_and_action_taking_on_viva_glint/what-is-viva-glints-narrative-intelligence/3884799)
+
 
  

@@ -5,7 +5,7 @@ title: Import organizational data from Workday
 description: Learn how to set up a connection and import your data from Workday to the Viva Insights advanced insights app
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights

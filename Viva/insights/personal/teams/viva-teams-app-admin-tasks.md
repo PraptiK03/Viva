@@ -4,7 +4,7 @@ title: Admin tasks for the Viva Insights app
 description: Admin tasks for the Microsoft Viva Insights app available for Microsoft Teams
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.collection: 
 - viva-insights-manager
 - viva-insights-leader

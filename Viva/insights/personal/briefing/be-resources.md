@@ -5,7 +5,7 @@ title: Downloadable resources
 description: Downloadable resources available for admins who are rolling out the Briefing email to new users
 author: madehmer
 ms.author: helayne
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

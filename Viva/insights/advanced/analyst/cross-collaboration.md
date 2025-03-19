@@ -4,7 +4,7 @@ title: Cross-collaboration
 description: Learn about cross-collaboration queries
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

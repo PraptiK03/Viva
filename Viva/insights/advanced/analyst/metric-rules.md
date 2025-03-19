@@ -4,7 +4,7 @@ title: Metric rules in Viva Insights
 description: Learn about metric rules in Microsoft Viva Insights 
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 manager: anirudh-bajaj
 audience: Admin

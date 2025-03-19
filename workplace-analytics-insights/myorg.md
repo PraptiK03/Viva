@@ -5,7 +5,7 @@ title: The My organization page in Viva Insights
 description: About Microsoft Viva Insights to learn how your organization gets work done
 author: madehmer
 ms.author: helayne
-ms.topic: conceptual
+ms.topic: article
 ms.localizationpriority: Low 
 ms.service: viva-insights
 manager: scott.ruble

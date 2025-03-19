@@ -1,5 +1,5 @@
 ---
-title: Use Microsoft Teams for Viva Glint (preview)
+title: Use Microsoft Teams for Viva Glint notifications
 description: Bring survey notifications (invites, reminders, results notifications) and Nudges into the flow of work by integrating Microsoft Viva Glint and Microsoft Teams.
 ms.author: aweixelman
 author: AliciaWeixelman
@@ -11,17 +11,13 @@ ms.collection:
 - Microsoft 365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/02/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 03/14/2025
 ---
 
-# Use Microsoft Teams for Viva Glint (preview)
-
-> [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+# Use Microsoft Teams for Viva Glint notifications
 
 Bring survey notifications (invites, reminders, results notifications) and Nudges into the flow of work by integrating Microsoft Viva Glint and Microsoft Teams. Use the information in this article to have a Microsoft 365 admin install Viva Glint for Teams users in your organization and to enable Teams in the Viva Glint application.
 
@@ -29,6 +25,7 @@ Bring survey notifications (invites, reminders, results notifications) and Nudge
 > Glint survey notifications and Nudges in Teams don't currently support:
 > - Notifications across multiple tenants for organizations that use Microsoft 365's [multitenant organization feature](glint-mto.md).
 > - Notifications that use [multiple languages in a single email](multi-lang-emails.md).
+> - Edits to Teams notification content.
 
 ## Install Microsoft Viva Glint for your organization in Teams
 

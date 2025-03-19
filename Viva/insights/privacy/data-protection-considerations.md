@@ -5,7 +5,7 @@ title: Data-protection considerations for manager, leader, and advanced insights
 description: Data-protection considerations when using Microsoft Viva Insights
 author: zachminers
 ms.author: v-zachminers
-ms.topic: conceptual
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.collection: 
 - viva-insights-advanced

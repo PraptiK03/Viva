@@ -5,7 +5,7 @@ title: Admin preview
 description: Initial admin trial of the Briefing email
 author: madehmer
 ms.author: helayne
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 search.appverid:
 - MET150

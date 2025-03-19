@@ -5,7 +5,7 @@ title: Start wellbeing plans through the Briefing email
 description: Learn how to use the Briefing email to join a wellbeing plan
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

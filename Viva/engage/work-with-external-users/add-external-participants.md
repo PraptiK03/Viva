@@ -10,7 +10,7 @@ ms.date: 01/03/2025
 last.reviewed.by: v-rgrace
 last.reviewed.date: 01/03/2025
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer

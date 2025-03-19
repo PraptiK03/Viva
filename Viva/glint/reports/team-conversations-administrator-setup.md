@@ -11,10 +11,10 @@ ms.collection:
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/05/2025
+ms.date: 03/18/2025
 ---
 
 # Set up Viva Glint Team Conversations
@@ -112,6 +112,6 @@ Reminders schedule for users in a role when the User Role gets live access to a 
 
 ## Coaching setup
 
-When Team Conversations are enabled, admins can set up the Team Conversations presentation kit for your manager to share with their teams. See [Coaching Setup for Admins](team-conversations-resource-guidance.md). 
+When Team Conversations are enabled, admins can set up the Team Conversations presentation kit for your manager to share with their teams. See [Coaching Setup for Admins](/viva/glint/setup/program-summary-coaching#manage-team-conversations-content). 
 
  

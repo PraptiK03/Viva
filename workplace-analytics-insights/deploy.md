@@ -5,7 +5,7 @@ title: Deploy steps for Viva insights
 description: Deploy steps for Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.localizationpriority: Low 
 ms.service: viva-insights
 manager: scott.ruble

@@ -11,7 +11,7 @@ ms.collection:
 - Microsoft 365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 02/25/2025

@@ -8,7 +8,7 @@ manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: reference
 ms.service: viva-amplify
 search.appverid: MET150
 ms.collection:

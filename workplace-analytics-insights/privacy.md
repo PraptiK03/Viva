@@ -5,7 +5,7 @@ title: Data privacy with Insights
 description: About how personal data is kept private in Insights
 author: madehmer
 ms.author: helayne
-ms.topic: conceptual
+ms.topic: concept-article
 ms.localizationpriority: Low 
 ms.service: viva-insights
 manager: scott.ruble

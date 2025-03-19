@@ -7,10 +7,6 @@ items:
       href: get-started/licensing-requirements.md
     - name: Start a trial with Viva Pulse
       href: get-started/start-a-trial-with-viva-pulse.md      
-    - name: Privacy and data protection
-      href: get-started/privacy-and-data-protection.md
-    - name: Data residency for Viva Pulse
-      href: get-started/data-residency-for-viva-pulse.md
     - name: Supported languages
       href: get-started/supported-languages.md
 - name: Setup and administration
@@ -33,12 +29,22 @@ items:
       href: setup-admin-access/manage-available-surveys-and-questions.md  
     - name: How users access Viva Pulse in Microsoft Teams or web
       href: setup-admin-access/access-pulse-via-teams-or-web.md
+    - name: View usage metrics with the Tenant Admin Dashboard
+      href: setup-admin-access/tenant-admin-dashboard.md
+- name: Privacy, secutiy and data management
+  items:
+    - name: Privacy and data protection
+      href: get-started/privacy-and-data-protection.md
+    - name: Data residency for Viva Pulse
+      href: get-started/data-residency-for-viva-pulse.md
     - name: Track Viva Pulse events in the Microsoft 365 Audit Log
       href: setup-admin-access/track-pulse-events.md
     - name: Search Pulse content with eDiscovery
       href: setup-admin-access/ediscovery-pulse.md
-    - name: View usage metrics with the Tenant Admin Dashboard
-      href: setup-admin-access/tenant-admin-dashboard.md
+- name: Copilot in Viva Pulse
+  items:
+    - name: Set up Copilot in Viva Pulse
+      href: copilot-in-pulse/configure-copilot-in-pulse.md
 - name: Viva integrations
   items:
     - name: Measure Microsoft 365 Copilot impact in your organization

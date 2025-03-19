@@ -4,7 +4,7 @@ title: Access query results and modify existing queries
 description: Learn how to access query results in the advanced insights app
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

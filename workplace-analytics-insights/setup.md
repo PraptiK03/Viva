@@ -5,7 +5,7 @@ title: Set up Advanced insights
 description: Steps to set up Advanced insights with Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.localizationpriority: Low
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

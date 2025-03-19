@@ -4,7 +4,7 @@ title: Create change management queries
 description: Learn how to use organizational network analysis or ONA to measure the impact on collaboration after a large-scale company change.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

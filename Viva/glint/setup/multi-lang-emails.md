@@ -11,7 +11,7 @@ ms.collection:
 - Microsoft 365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 09/26/2024

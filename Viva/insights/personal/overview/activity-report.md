@@ -5,7 +5,7 @@ title: Microsoft Viva Insights activity report
 description: Learn what the Microsoft Viva Insights activity report is and how to access it
 author: madehmer
 ms.author: helayne
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

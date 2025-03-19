@@ -1,22 +1,23 @@
 ---
-title: Review Viva Glint settings and survey programs before launch
-description: To prepare for a smooth survey launch for your Microsoft Viva Glint programs, use the guidance and checklists available here to confirm that all of your platform and survey settings are correct.
+title: Review and test Viva Glint surveys before launch
+description: To prepare for a smooth launch for your Microsoft Viva Glint survey programs, use the guidance and checklists available here to confirm that all of your platform and survey settings are correct.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
 keywords: QA, quality assurance, quality check, QC, UAT, user acceptance testing
+ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/25/2025
+ms.date: 03/13/2025
 ---
 
-# Review Viva Glint settings and survey programs before launch
+# Review and test Viva Glint surveys before launch
 
 To prepare for a smooth launch for your Microsoft Viva Glint survey programs, use the guidance and checklists available here to confirm that all of your platform and survey settings are correct.
 
@@ -27,439 +28,143 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 > [!NOTE]
 > Not all General Settings fields are included here, but settings that have the biggest impact to survey takers are included.
 
-
 |Section  |Item  |Confirm that...|
 |:----------|:-----------|:------------|
 |Company Information     |Client Name       |The organization name is correct; it appears in surveys and email invites and reminders.        |
 |      |Client Time Zone       |The correct default time zone that Viva Glint uses to send communications is selected.        |
 |      |Company Privacy Policy (optional)        |If configured, the correct link to your company policy is included. [Learn more](add-privacy-policy.md)        |
 |      |Company Message to Survey Participants (optional)      |If configured, the message and translations here are accurate. To customize for each survey, add in Program Setup.        |
-|Communications     |Send Surveys in Users' Time Zones       |This is switched to Yes or No to enable or disable [sending communications in user's time zones](time-zones.md).         |
+|Communications     |Send Surveys in Users' Time Zones       |This setting is switched to Yes or No to enable or disable [sending communications in user's time zones](time-zones.md).         |
 |Reporting     |Attributes for Alerts       |Attributes are selected to use for populations in the [Alerts Report](/viva/glint/reports/alerts-report-attrition-risk). **When blank, no alerts are generated**.        |
 |      |Primary Hierarchy      |The correct primary hierarchy is selected for default reporting views and sections (usually Manager Hierarchy).        |
 |      |Secondary Hierarchy       |The correct secondary hierarchy is selected for default reporting views and sections.        |
 |Engage Survey Details     |Require Azure AD for links in survey emails       |This setting is switched to:<br><br> Yes to require survey participants to authenticate with Entra ID to access surveys. <br> No to allow survey participants to access surveys with personalized links.<br>[Learn more](understand-survey-access-methods.md).        |
 |      |Attribute-based Survey Access       |If needed, attributes are selected for an alternate survey access method for deskless workers. [Learn more](attribute-based-survey-access.md)        |
-|Features     |Employee Post-Survey Action Taking       |This is set to Yes or No to determine if survey participants see recommended LinkedIn Learning videos on their survey Thank you page. This applies to all surveys.        |
+|Features     |Employee Post-Survey Action Taking       |This setting is set to Yes or No to determine if survey participants see recommended LinkedIn Learning videos on their survey Thank you page. This setting applies to all surveys.        |
 |Technical Configuration     |SFTP Setup       |Secure File Transfer Protocol (SFTP) setup is complete if your organization imports employee data with this method. [Learn more](set-up-sftp.md).        |
 |Localization     |Comments Analytics Languages       |Languages that should be translated to English for comment analysis are selected. **Languages must be selected before a survey launches to successfully analyze non-English comments.**       |
 |      |Default Survey Language       |The correct default language is selected for survey participants.        |
-|      |Supported Survey Languages       |Correct additional languages for survey participants are selected.        |
+|      |Supported Survey Languages       |Correct languages for survey participants are selected.        |
 |      |Default Dashboard Language       |The correct default language is selected for dashboard users.        |
-|      |Supported Dashboard Languages       |Correct additional languages for dashboard users are selected.         |
+|      |Supported Dashboard Languages       |Correct languages for dashboard users are selected.         |
 
-## Review survey programs
+## Review survey setup
 
-Choose a tab based on your survey type (for example: Recurring for an Engagement survey) and use checklists to review each section of your survey program's setup.
+Review each section of your survey program setup before launching a test survey to an internal team. For information on settings that Viva Glint Admins can edit while a survey is live, see: [Make changes to a live Viva Glint survey](change-live-survey.md).
 
-# [Recurring](#tab/recurring)
+> [!IMPORTANT]
+> Not all fields and survey setup sections are available for all survey types. For more information, see the **Survey types** column.
 
 ### Program Setup
 
-|Item   |Confirm that...  |Impact|Editable during live survey|
+|Item   | Confirm that...  | Impact| Survey type |
 |:----------|:-----------|:------------|:------------|
-|Program Name    |The correct value is entered and there are no spelling errors.       |Low        |Yes        |
-|Administrators|The correct User Roles are selected as program admins.   |Low|Yes|
-|Default Language|The correct default language is selected.  |Medium|Yes|
-|Additional Languages|Correct additional survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium|Yes*|
-|Admin Notifications To|The correct user is selected for admin notification emails for this program.    |Medium|Yes|
-|Suggested Actions Available|This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High|Yes|
-|Eligible for Nudges|This setting is set to Yes or No correctly to enable or disable Nudges for managers to act on survey results.   |High|Yes|
-|Allow Survey Resubmission|This setting is set to Yes or No correctly to allow or disallow users to reset their own surveys and resubmit during live surveys.   |High|No|
-|Enable Team Conversations|This setting is set to Yes or No correctly to enable or disable Team Conversations for managers to act on results with a guided, in-platform experience.  |High|Yes|
-|Auto-expand comments input   |This setting is set to Yes to automatically expand comment boxes after a response is entered or No to let users select "+ comment."  |Medium        |Yes        |
-|Confidential Responses|This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
-|Enable Export of Raw Survey Responses|This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
-|Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
-
-> [!TIP]
-> *Viva Glint standard translations become available immediately for newly added languages.
+|Program Name    |The correct value is entered and there are no spelling errors.       |Low        | All |
+|Administrators|The correct User Roles are selected as program admins.   |Low| All |
+|Default Language|The correct default language is selected.  |Medium| All |
+|Additional Languages|Correct survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium| All |
+|Admin Notifications To|The correct user is selected for admin notification emails for this program.    |Medium| Recurring and Ad Hoc |
+|Suggested Actions Available|This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High| All |
+|Response Window | The number of days the survey is open for responses is correct.  | High  | Lifecycle and Always-On |
+|Waiting Period Between Surveys or Next Survey Available | The number of days a survey taker waits to submit a survey again is correct.  | Medium | Lifecycle and Always-On |
+|Eligible for Nudges|This setting is set to Yes or No correctly to enable or disable Nudges for managers to act on survey results.   |High| Recurring and Ad Hoc  |
+|Allow Survey Resubmission|This setting is set to Yes or No correctly to allow or disallow users to reset their own surveys and resubmit during live surveys.   |High| Recurring, Ad Hoc, and Lifecycle |
+|Enable Team Conversations|This setting is set to Yes or No correctly to enable or disable Team Conversations for managers to act on results with a guided, in-platform experience.  |High| Recurring |
+|Auto-expand comments input   |This setting is set to Yes to automatically expand comment boxes after a response is entered or No to let users select "+ comment."  |Medium      | All |
+|Enable Team Conversations Sharing | This setting is set to Yes or No correctly to enable or disable Team Conversations sharing by managers.  | Medium | Recurring |
+|Confidential Responses|This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High| All |
+|Enable Export of Raw Survey Responses|This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High| All |
+|Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High| All |
 
 ### Distribution
 
-|Item   |Confirm that...  |Impact|Editable during live survey|
+|Item   |Confirm that...  | Impact| Survey type|
 |:----------|:-----------|:------------|:------------|
-|Distribution For This Program    |The correct Distribution Lists are selected to include users.       |High        |No*        |
-|Exclude Groups|The correct Distribution lists are selected to exclude users.   |High|No|
+|Distribution For This Program    |The correct Distribution Lists are selected to include users.       |High        |All      |
+|Exclude Groups|The correct Distribution lists are selected to exclude users.   |High|All|
 
-> [!TIP]
-> *Use the Send Survey option from a user’s profile to add individual users to live surveys
+> [!NOTE]
+> For Lifecycle surveys, the **Download Recipients** option isn't available. To get a list of recipients for a Lifecycle survey, follow [these steps](/viva/glint/communicate/support-survey-participants#lifecycle-and-always-on-surveys).
 
 ### Schedule
 
-|Item   |Confirm that...  |Impact|Editable during live survey|
+|Item   |Confirm that...  | Impact | Survey type|
 |:----------|:-----------|:------------|:------------|
-|The surveys go out every    |The survey frequency is correct (for example, every 4 months).       |Low        |Yes        |
-|Send the next survey on|The survey start date is accurate.   |High|Yes|
-|Schedule Preview|Upcoming survey dates are accurate based on frequency and survey start date.   |Low|Yes|
-|Response Window|The number of days the survey is open for responses is correct.   |High|Yes*|
+|The surveys go out every    |The survey frequency is correct (for example, every three months).       |Low        | Recurring        |
+|Send the next survey on|The survey start date is accurate.   | High| Recurring and Ad Hoc|
+|Schedule Preview|Upcoming survey dates are accurate based on frequency and survey start date.   |Low| Recurring|
+|Response Window|The number of days the survey is open for responses is correct.   |High| Recurring and Ad Hoc|
+|Team Conversation Window| The number of days the conversation is open is correct.  |High| Recurring |
 
-> [!TIP]
-> *Use the ellipses menu on the live survey cycle and choose Manage Schedule & Invites to make changes during a live survey.
 
 ### Questions
 
-|Item   |Confirm that...  |Impact|Editable during live survey|
+|Item   |Confirm that...  |Impact| Survey type|
 |:----------|:-----------|:------------|:------------|
-|Welcome text and translations    |Welcome text and translations are accurate.       |High        |Yes        |
-|Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|Yes*|
-|Questions: Order|Questions are in the correct order.   |High|Yes|
-|Questions: Text and translations|Customized question text and translations are accurate.   |High|Yes*|
-|Questions: Targeting|Distribution lists selected to target questions are accurate.   |High|No|
-|Questions: Display Logic|Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
-|Sections and translations|Section break/header text and translations are correct.   |Medium|No|
-|Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
+|Welcome text and translations    |Welcome text and translations are accurate.       |High        |All        |
+|Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|All|
+|Questions: Order|Questions are in the correct order.   |High|All|
+|Questions: Text and translations|Customized question text and translations are accurate.   |High|All|
+|Questions: Targeting|Distribution lists selected to target questions are accurate.   |High|All|
+|Questions: Display Logic|Questions that should only appear based on certain responses to other questions are set up correctly.   |High|All|
+|Sections and translations|Section break/header text and translations are correct.   |Medium|All|
+|Thank you text and translations|Thank you text and translations are accurate.    |High|All|
 
-
-
-> [!TIP]
-> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-survey-questions-or-statements)
+> [!NOTE]
 > - Section break: User scrolls and it disappears as you take the survey. 
 > - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
 
 ### Reporting
 
-|Item   |Confirm that...  |Impact|Editable during live survey|
+|Item   |Confirm that...  |Impact| Survey type|
 |:----------|:-----------|:------------|:------------|
-|Program Roles    |Roles who should be added to the program are present and that they're granted live or phased access correctly.      |High        |Yes        |
-|Reporting View |Live View or Phased Access is selected appropriately, depending on whether the role should have access to live survey data.   |Medium|Yes|
-|Concierge Visibility |This setting is set to On or Off correctly to give managers a concierge experience in dashboards.   |Medium|Yes|
-|Broader Team Insights |This setting is set to On or Off to allow direct reports visibility to a summary report of users' scores in this role.   |Medium|Yes|
-|Copilot in Viva Glint |This setting is set to On or Off to allow users to access Copilot comment summarization.   |Medium|Yes|
-|Team Conversations |This setting is set to On or Off correctly to allow managers to use in-platform Team Conversations.   |Medium|Yes|
-|Dashboard Default |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|Yes|
-|Report Template Access |Report templates are selected correctly to grant users access to specific reports.  |High|Yes|
-|Question Reporting Access |Users in the role have access to the correct questions.   |Medium|Yes|
-|Aggregate Indices|Question aggregates are set up and labeled correctly.   |Medium|Yes|
-|Key Outcome|The correct item or aggregate is selected.   |Medium|Yes|
-|Driver Impact Outcomes|The correct items or aggregates are selected.  |Medium|Yes|
-|Manager Report Defaults|The correct items are selected to appear on the Manager report.   |Medium|Yes|
-|PowerPoint Export Template|The correct template is selected.   |Low|Yes|
-|Broader Team Insights PowerPoint Export Template|The correct template is selected.   |Low|Yes|
+|Program Roles    |Roles who should be added to the program are present and that they're granted live or phased access correctly.      |High        |All        |
+|Reporting View |Live View or Phased Access is selected appropriately, depending on whether the role should have access to live survey data.   |Medium|Recurring and Ad Hoc|
+|Concierge Visibility |This setting is set to On or Off correctly to give managers a concierge experience in dashboards.   |Medium|Recurring and Ad Hoc|
+|Broader Team Insights |This setting is set to On or Off to allow direct reports visibility to a summary report of users' scores in this role.   |Medium|Recurring and Ad Hoc|
+|Copilot in Viva Glint |This setting is set to On or Off to allow users to access Copilot comment summarization.   |Medium|Recurring and Ad Hoc|
+|Team Conversations |This setting is set to On or Off correctly to allow managers to use in-platform Team Conversations.   |Medium|Recurring|
+|Dashboard Default |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|All|
+|Report Template Access |Report templates are selected correctly to grant users access to specific reports.  |High|All|
+|Question Reporting Access |Users in the role have access to the correct questions.   |Medium|All|
+|Aggregate Indices|Question aggregates are set up and labeled correctly.   |Medium|All|
+|Key Outcome|The correct item or aggregate is selected.   |Medium|All|
+|Driver Impact Outcomes|The correct items or aggregates are selected.  |Medium|All|
+|Manager Report Defaults|The correct items are selected to appear on the Manager report.   |Medium|All|
+|PowerPoint Export Template|The correct template is selected.   |Low|All|
+|Broader Team Insights PowerPoint Export Template|The correct template is selected.   |Low|All|
 
 > [!NOTE]
-> - The Team Conversations setting only appears in a Program Role when Team Conversations have been enabled in Program Setup.
+> - The Team Conversations setting only appears in a Program Role when Team Conversations are enabled in Program Setup.
 > - Aggregate Indices can't be deleted after they're set up.
 
 ### Communications
 
-|Item   |Confirm that...  |Impact|Editable during live survey|
+|Item   |Confirm that...  |Impact|Survey type|
 |:----------|:-----------|:------------|:------------|
-|Notification Timing    |The correct timeframe is selected to deliver emails.       |High        |Yes        |
-|Email Settings*|The correct email types are selected to deliver emails.   |Medium|Yes|
-|Configure Notifications|Survey start, reminder, and results emails follow the correct schedule.   |High|Yes**|
-|Translations|Survey start, reminder, and results emails have accurate translations.   |High|Yes**|
+|Notification Timing    |The correct timeframe is selected to deliver emails.       |High        |Recurring, Ad Hoc, and Lifecycle        |
+|Email Settings*|The correct email types are selected to deliver emails.   |Medium|Recurring, Ad Hoc, and Lifecycle |
+|Configure Notifications|Survey start, reminder, and results emails follow the correct schedule.   |High|Recurring, Ad Hoc, and Lifecycle |
+|Team Conversations** notification schedule | The conversation start, reminder, and overdue emails follow the correct schedule.  |High|Recurring |
+|Translations|Survey, conversation (if enabled), and results emails have accurate translations.   |High|Recurring, Ad Hoc, and Lifecycle |
 
 > [!NOTE]
 > - *This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.
-> - **Reminder emails can be added/edited at the survey cycle level if the added reminders aren't scheduled to send for at least 24 hours. New reminders can't be added to send the same day.
+> - **Team Conversations emails only appear when Team Conversations are enabled in Program Setup.
 
-### Coaching
 
-|Item   |Confirm that...  |Impact|Editable during live survey|
+### Coaching 
+
+|Item   |Confirm that...  |Impact|Survey type|
 |:----------|:-----------|:------------|:------------|
-|Interpretation    |The correct content is selected for the Interpretation Guide.       |Medium        |Yes        |
-|Top Strengths|The correct content is selected for Top Strengths.    |Medium        |Yes        |
-|Top Opportunities|The correct content is selected for Top Opportunities   |Medium        |Yes        |
-
-> [!TIP]
-> Save and continue without edits to keep default selections for Coaching content.
-
-
-
-
-
-
-# [Lifecycle](#tab/lifecycle)
-
-### Program Setup
-
-|Item   |Confirm that...  |Impact|Editable during live survey
-|:----------|:-----------|:------------|:------------|
-|Program Name    |The correct value is entered and there are no spelling errors.       |Low        |Yes        |
-|Administrators|The correct User Roles are selected as program admins.   |Low|Yes|
-|Default Language|The correct default language is selected.  |Medium|Yes|
-|Additional Languages|Correct additional survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium|Yes*|
-|Suggested Actions Available|This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High|Yes|
-|Response Window|The correct number of days is selected.   |High|Yes**|
-|Waiting Period Between Surveys|The correct number of days is selected.   |High|Yes**|
-|Allow Survey Resubmission|This setting is set to Yes or No correctly to allow or disallow users to reset their own surveys and resubmit during live surveys.   |High|No|
-|Auto-expand comments input   |This setting is set to Yes to automatically expand comment boxes after a response is entered or No to let users select "+ comment."  |Medium        |Yes        |
-|Confidential Responses|This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
-|Enable Export of Raw Survey Responses|This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
-|Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
-
-> [!TIP]
-> *Viva Glint standard translations become available immediately for newly added languages.
+|Interpretation    |The correct content is selected for the Interpretation Guide.       |Medium        |All        |
+|Top Strengths|The correct content is selected for Top Strengths.    |Medium        |All        |
+|Top Opportunities|The correct content is selected for Top Opportunities.   |Medium        |All        |
+|Team Conversation Presentation Guidance| The correct content is selected for the conversation presentation. |Medium        |Recurring        |
+|Team Conversation Resource Guidance| The correct content is selected for the conversation resources.  |Medium        |Recurring        |
 
 > [!NOTE]
-> **Updating the Response Window and Waiting Period Between Surveys affects future surveys only.
-
-### Distribution
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Employee Attribute    |The correct date (hire or exit) is selected as a trigger date for surveys.       |High        |No        |
-|Distribution For This Program    |The correct Distribution Lists are selected to include users.       |High        |No*        |
-|Exclude Groups|The correct Distribution lists are selected to exclude users.   |High|No|
-
-> [!TIP]
-> *Use the Send Survey option from a user’s profile to add individual users to live surveys.
-
-### Questions
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Welcome text and translations    |Welcome text and translations are accurate.       |High        |Yes        |
-|Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
-|Questions: Order|Questions are in the correct order.   |High|Yes|
-|Questions: Text and translations|Customized question text and translations are accurate.   |High|Yes*|
-|Questions: Targeting|Distribution lists selected to target questions are accurate.   |High|No|
-|Questions: Display Logic|Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
-|Sections and translations|Section break/header text and translations are correct.   |Medium|No|
-|Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
-
-> [!TIP]
-> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-survey-questions-or-statements)
-> - Section break: User scrolls and it disappears as you take the survey. 
-> - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
-
-### Reporting
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Program Roles    |Roles who should be added to the program are present and that they're granted live or phased access correctly.      |High        |Yes        |
-|Dashboard Default |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|Yes|
-|Report Template Access |Report templates are selected correctly to grant users access to specific reports.  |High|Yes|
-|Question Reporting Access |Users in the role have access to the correct questions.   |Medium|Yes|
-|Aggregate Indices|Question aggregates are set up and labeled correctly.   |Medium|Yes|
-|Key Outcome|The correct item or aggregate is selected.   |Medium|Yes|
-|Driver Impact Outcomes|The correct items or aggregates are selected.  |Medium|Yes|
-|Manager Report Defaults|The correct items are selected to appear on the Manager report.   |Medium|Yes|
-|PowerPoint Export Template|The correct template is selected.   |Low|Yes|
-|Broader Team Insights PowerPoint Export Template|The correct template is selected.   |Low|Yes|
-
-> [!NOTE]
-> Aggregate Indices can't be deleted after they're set up.
-
-### Communications
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Notification Timing    |The correct timeframe is selected to deliver emails.       |High        |Yes        |
-|Email Settings*|The correct email types are selected to deliver emails.   |Medium|Yes|
-|Configure Notifications|Survey start, reminder, and results emails follow the correct schedule.   |High|Yes**|
-|Translations|Survey start, reminder, and results emails have accurate translations.   |High|Yes**|
-
-> [!NOTE]
-> - *This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.
-> - **Reminder emails can be added/edited at the survey cycle level if the added reminders aren't scheduled to send for at least 24 hours. New reminders can't be added to send the same day.
-
-### Coaching
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Interpretation    |The correct content is selected for the Interpretation Guide.       |Medium        |Yes        |
-|Top Strengths|The correct content is selected for Top Strengths.    |Medium        |Yes        |
-|Top Opportunities|The correct content is selected for Top Opportunities   |Medium        |Yes        |
-
-> [!TIP]
-> Save and continue without edits to keep default selections for Coaching content.
-
-
-
-
-
-# [Ad-Hoc](#tab/adhoc)
-
-### Program Setup
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Program Name    |The correct value is entered and there are no spelling errors.       |Low        |Yes        |
-|Administrators|The correct User Roles are selected as program admins.   |Low|Yes|
-|Default Language|The correct default language is selected.  |Medium|Yes|
-|Additional Languages|Correct additional survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium|Yes*|
-|Admin Notifications To|The correct user is selected for admin notification emails for this program.    |Medium|Yes|
-|Suggested Actions Available|This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High|Yes|
-|Eligible for Nudges|This setting is set to Yes or No correctly to enable or disable Nudges for managers to act on survey results.   |High|Yes|
-|Allow Survey Resubmission|This setting is set to Yes or No correctly to allow or disallow users to reset their own surveys and resubmit during live surveys.   |High|No|
-|Auto-expand comments input   |This setting is set to Yes to automatically expand comment boxes after a response is entered or No to let users select "+ comment."  |Medium        |Yes        |
-|Confidential Responses|This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
-|Enable Export of Raw Survey Responses|This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
-|Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
-
-> [!TIP]
-> *Viva Glint standard translations become available immediately for newly added languages.
-
-### Distribution
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Distribution For This Program    |The correct Distribution Lists are selected to include users.       |High        |No*        |
-|Exclude Groups|The correct Distribution lists are selected to exclude users.   |High|No|
-
-> [!TIP]
-> *Use the Send Survey option from a user’s profile to add individual users to live surveys
-
-### Schedule
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Send the next survey on|The survey start date is accurate.   |High|Yes|
-|Response Window|The number of days the survey is open for responses is correct.   |High|Yes*|
-
-> [!TIP]
-> *Use the ellipses menu on the live survey cycle and choose Manage Schedule & Invites to make changes during a live survey.
-
-### Questions
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Welcome text and translations    |Welcome text and translations are accurate.       |High        |Yes        |
-|Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
-|Questions: Order|Questions are in the correct order.   |High|Yes|
-|Questions: Text and translations|Customized question text and translations are accurate.   |High|Yes*|
-|Questions: Targeting|Distribution lists selected to target questions are accurate.   |High|No|
-|Questions: Display Logic|Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
-|Sections and translations|Section break/header text and translations are correct.   |Medium|No|
-|Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
-
-> [!TIP]
-> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-survey-questions-or-statements)
-> - Section break: User scrolls and it disappears as you take the survey. 
-> - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
-
-### Reporting
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Program Roles    |Roles who should be added to the program are present and that they're granted live or phased access correctly.      |High        |Yes        |
-|Reporting View |Live View or Phased Access is selected appropriately, depending on whether the role should have access to live survey data.   |Medium|Yes|
-|Concierge Visibility |This setting is set to On or Off correctly to give managers a concierge experience in dashboards.   |Medium|Yes|
-|Broader Team Insights |This setting is set to On or Off to allow direct reports visibility to a summary report of users' scores in this role.   |Medium|Yes|
-|Copilot in Viva Glint |This setting is set to On or Off to allow users to access Copilot comment summarization.   |Medium|Yes|
-|Dashboard Default |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|Yes|
-|Report Template Access |Report templates are selected correctly to grant users access to specific reports.  |High|Yes|
-|Question Reporting Access |Users in the role have access to the correct questions.   |Medium|Yes|
-|Aggregate Indices|Question aggregates are set up and labeled correctly.   |Medium|Yes|
-|Key Outcome|The correct item or aggregate is selected.   |Medium|Yes|
-|Driver Impact Outcomes|The correct items or aggregates are selected.  |Medium|Yes|
-|Manager Report Defaults|The correct items are selected to appear on the Manager report.   |Medium|Yes|
-|PowerPoint Export Template|The correct template is selected.   |Low|Yes|
-|Broader Team Insights PowerPoint Export Template|The correct template is selected.   |Low|Yes|
-
-> [!NOTE]
-> Aggregate Indices can't be deleted after they're set up.
-
-### Communications
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Notification Timing    |The correct timeframe is selected to deliver emails.       |High        |Yes        |
-|Email Settings*|The correct email types are selected to deliver emails.   |Medium|Yes|
-|Configure Notifications|Survey start, reminder, and results emails follow the correct schedule.   |High|Yes**|
-|Translations|Survey start, reminder, and results emails have accurate translations.   |High|Yes**|
-
-> [!NOTE]
-> - *This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.
-> - **Reminder emails can be added/edited at the survey cycle level if the added reminders aren't scheduled to send for at least 24 hours. New reminders can't be added to send the same day.
-
-### Coaching
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Interpretation    |The correct content is selected for the Interpretation Guide.       |Medium        |Yes        |
-|Top Strengths|The correct content is selected for Top Strengths.    |Medium        |Yes        |
-|Top Opportunities|The correct content is selected for Top Opportunities   |Medium        |Yes        |
-
-> [!TIP]
-> Save and continue without edits to keep default selections for Coaching content.
-
-
-
-
-
-
-# [Always-On](#tab/alwayson)
-
-### Program Setup
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Program Name    |The correct value is entered and there are no spelling errors.       |Low        |Yes        |
-|Administrators|The correct User Roles are selected as program admins.   |Low|Yes|
-|Default Language|The correct default language is selected.  |Medium|Yes|
-|Additional Languages|Correct additional survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium|Yes*|
-|Suggested Actions Available|This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High|Yes|
-|Response Window|The correct number of days is selected.   |High|Yes**|
-|Next Survey Available|The correct number of days is selected.   |High|Yes**|
-|Auto-expand comments input   |This setting is set to Yes to automatically expand comment boxes after a response is entered or No to let users select "+ comment."  |Medium        |Yes        |
-|Confidential Responses|This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
-|Enable Export of Raw Survey Responses|This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
-|Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
-
-> [!TIP]
-> *Viva Glint standard translations become available immediately for newly added languages.
-
-> [!NOTE]
-> **Updating the Response Window and Waiting Period Between Surveys affects future surveys only.
-
-### Distribution
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Distribution For This Program    |The correct Distribution Lists are selected to include users.       |High        |No        |
-|Exclude Groups|The correct Distribution lists are selected to exclude users.   |High|No|
-
-### Questions
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Welcome text and translations    |Welcome text and translations are accurate.       |High        |Yes        |
-|Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
-|Questions: Order|Questions are in the correct order.   |High|Yes|
-|Questions: Text and translations|Customized question text and translations are accurate.   |High|Yes*|
-|Questions: Targeting|Distribution lists selected to target questions are accurate.   |High|No|
-|Questions: Display Logic|Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
-|Sections and translations|Section break/header text and translations are correct.   |Medium|No|
-|Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
-
-> [!TIP]
-> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-survey-questions-or-statements)
-> - Section break: User scrolls and it disappears as you take the survey. 
-> - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
-
-### Reporting
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Program Roles    |Roles who should be added to the program are present and that they're granted live or phased access correctly.      |High        |Yes        |
-|Dashboard Default |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|Yes|
-|Report Template Access |Report templates are selected correctly to grant users access to specific reports.  |High|Yes|
-|Question Reporting Access |Users in the role have access to the correct questions.   |Medium|Yes|
-|Aggregate Indices|Question aggregates are set up and labeled correctly.   |Medium|Yes|
-|Key Outcome|The correct item or aggregate is selected.   |Medium|Yes|
-|Driver Impact Outcomes|The correct items or aggregates are selected.  |Medium|Yes|
-|Manager Report Defaults|The correct items are selected to appear on the Manager report.   |Medium|Yes|
-|PowerPoint Export Template|The correct template is selected.   |Low|Yes|
-|Broader Team Insights PowerPoint Export Template|The correct template is selected.   |Low|Yes|
-
-> [!NOTE]
-> Aggregate Indices can't be deleted after they're set up.
-
-### Coaching
-
-|Item   |Confirm that...  |Impact|Editable during live survey|
-|:----------|:-----------|:------------|:------------|
-|Interpretation    |The correct content is selected for the Interpretation Guide.       |Medium        |Yes        |
-|Top Strengths|The correct content is selected for Top Strengths.    |Medium        |Yes        |
-|Top Opportunities|The correct content is selected for Top Opportunities   |Medium        |Yes        |
-
-> [!TIP]
-> Save and continue without edits to keep default selections for Coaching content.
-
----
+> - Team Conversations items only appear when Team Conversations are enabled in Program Setup.
 
 ## Preview data in reporting
 
@@ -470,7 +175,7 @@ After reviewing your survey setup and confirming that employee data is imported 
 
 ## Launch a test survey
 
-To verify that your Viva Glint survey setup works as expected, launch a test survey to a group of test users, collect feedback, make updates, and delete the test survey after testing is complete. 
+To verify that your Viva Glint survey setup, launch a test survey to a group of users, collect feedback, make updates, and delete the test survey after testing is complete. 
 
 ### Select a group of survey testers
 
@@ -491,7 +196,7 @@ Provide instructions for users on items that you want them to focus on, includin
 Launch a test survey to your project team to confirm that emails arrive and the survey-taking experience appears as expected. To set up a test survey:
 
 > [!IMPORTANT]
-> Always create a copy of your survey program to launch a test survey. Test survey programs can be deleted, but test cycles in a survey program can't be deleted.
+> To launch a test survey, always create a copy of your survey program. Viva Glint Admins can delete test survey programs, but not test survey cycles in a survey program.
 
 1. From the admin dashboard, select **Configuration** and then choose **Survey Programs**.
 1. On the far right of your completed survey program, select the ellipses and choose **Duplicate** from the menu that appears.

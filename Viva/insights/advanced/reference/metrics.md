@@ -4,7 +4,7 @@ title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 manager: helayne
 audience: Admin

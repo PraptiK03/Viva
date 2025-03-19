@@ -5,7 +5,7 @@ title: How Viva Insights automatically books your time
 description: Learn how Viva Insights automatically books time on your calendar
 author: zachminers
 ms.author: v-zachminers
-ms.topic: conceptual
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 
