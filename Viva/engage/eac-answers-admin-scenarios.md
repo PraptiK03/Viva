@@ -55,7 +55,7 @@ Take the following steps to reset the information in the Answers info panel.
 
 1. Select the edit icon from the top right corner of the panel.
 1. Select **Reset** in the **Answers info panel** dialog.
-<!-->
+<!--
 :::image type="content" source="../media/engage/admin/ans-info-pan-admin3.png" lightbox="../media/engage/admin/ans-info-pan-admin3.png" alt-text="Screenshot showing the info panel reset option.":::-->
 
 ## Use topics in the Answers experience
