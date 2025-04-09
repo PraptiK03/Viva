@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author: loreenl
 author: lizap
 manager: elizapo
-ms.date: 03/06/2025
+ms.date: 03/26/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -69,6 +69,8 @@ You can use feature access management to manage access to the following features
 ||[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Insights admin|VivaInsights|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)|No|Viva Pulse admin|VivaPulse|
 ||[Team conversations in Pulse reports](/viva/pulse/setup-admin-access/granular-access-controls#conversations-in-pulse-reports)|No|Viva Pulse admin|VivaPulse|
+||[Copilot in Viva Pulse](/viva/pulse/setup-admin-access/granular-access-controls)|No|Viva Pulse admin|VivaPulse|
+||[Viva Pulse experience with Microsoft 365 Copilot](/viva/pulse/setup-admin-access/granular-access-controls)|No|Viva Pulse admin|VivaPulse|
 |Skills|[Default Skills visibility](/viva/skills/skills-overview)*|Yes|Knowledge admin|VivaSkills|
 ||[Skill suggestions](/viva/skills/skills-overview)*|Yes|Knowledge admin|VivaSkills|
 

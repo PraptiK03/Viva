@@ -1,11 +1,11 @@
 ---
 title: "Use Answers Intelligent Importer to populate Engage communities with questions and answers"
 description: "Repurpose your organization's content assets by importing them as question-and-answer pairs in Viva Engage."
-ms.reviewer: ethli
+ms.reviewer: iakande
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
-ms.date: 04/04/2024
+ms.date: 03/27/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -23,33 +23,33 @@ search.appverid:
 
 Community admins can generate question-and-answer pairs by uploading informational documents in Viva Engage. The **Answers Intelligent Importer** uses AI to transform your static documents into dynamic interactive conversations, ensuring that your organization's valuable content is easy to retrieve and reuse.
 
-Generated question-and-answer pairs follow the same rules of visibility as other content in that community. Your uploaded source files are stored on [Microsoft SharePoint](/viva/engage/get-started-with-viva-engage/file-storage) with other files in that community and are viewable by all members of that community.
+Generated question-and-answer pairs follow the same rules of visibility as other content in the community. [Microsoft SharePoint](/viva/engage/get-started-with-viva-engage/file-storage) stores your uploaded source files with other files in that community. All files are viewable by all members of the community.
 
 >[!NOTE]
->Currently this premium feature is only available for communities, but will soon be accessible to Engage admins on the Answers page. Viva Engage premium is included with a _Viva Suite_ or _Employee Communities and Communications_ license.
+>The premium Answers feature appears for communities and for Engage admins on the Answers page. Viva Engage premium is included with a _Viva Suite_ or _Employee Communities and Communications_ license.
 
 ## Import documents using Answers Intelligent Importer
 
-Community admins can populate their communities with useful information by importing informational documents. The Answers Intelligent Importer is enabled by default.
+The Answers Intelligent Importer is enabled by default.
 
 :::image type="content" source="../media/engage/admin/import-access-points.png" alt-text="Screenshot shows the location on the community page that lets you import a file to generate questions and answers.":::
 
 1. Review the [file requirements](#file-requirements) to ensure a successful import.
 1. Go to your community landing page, and select the Answers Intelligent Importer access point.
 1. When prompted, select and upload a file from your device.
-    If the import was successful, Answers Intelligent Importer generates a list of question-and-answer pairs from the content.
+    If the import is successful, Answers Intelligent Importer generates a list of question-and-answer pairs from the content.
 
     :::image type="content" source="../media/engage/admin/select-answer-pairs.png" alt-text="Screenshot shows the AI generated list of questions and answers that you can choose to edit and then import.":::
 
 1. Edit or delete items in the list, as needed. You can improve future import results by using the thumbs up and thumbs down icons to provide feedback.
 
-1. Select the pairs you want to import (up to 20) and select **Post**.
-If the post is successful, it returns a confirmation message and the question-and-answer pairs appear on the community landing page. 
+1. Select the Q&A pairs you want to import (up to 20) and select **Post**.
+When the post is successful, it returns a confirmation message and the question-and-answer pairs appear on the community landing page. 
 Content posted through this feature follows the same rules of visibility as other knowledge content posted within that community.
 
 ## File requirements
 
-Because the importer uses AI to generate the question-and-answer pairs, no advanced structuring is required. In fact, files that _aren't_ structured as FAQs generally yield the best results. 
+Because the importer uses AI to generate the question-and-answer pairs, no advanced structuring is required. In fact, files that _aren't_ structured as FAQs generally produce the best results. 
 
 Imported files must meet these requirements:
 
@@ -71,4 +71,4 @@ Engage admins can control the Answers Intelligent Importer in their Viva Engage 
 1. On the **Feature management** tab, select the **Answers** button  to open the Answers configuration options.
 1. Under **Intelligent Importer availability**, turn on **Premium Communities**.
 
-When this setting is enabled, community admins with access to premium functionalities on Engage can access and use the Intelligent Importer feature in their communities.  
+When you enable the setting, community admins with access to premium functionalities on Engage can use the Intelligent Importer feature for their communities.  

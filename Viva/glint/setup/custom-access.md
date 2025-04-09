@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/13/2025
+ms.date: 03/24/2025
 ---
 
 # Custom data access in Viva Glint
@@ -25,7 +25,7 @@ Microsoft Viva Glint offers custom data access for users who support unique grou
 
 Use the custom access export as a Viva Glint Admin to audit users' data access.
 
-1. From the Glint Admin dashboard, select the **Configuration** symbol and then in **Employees** choose **User Roles**.
+1. From the Viva Glint Admin dashboard, select the **Configuration** symbol and then in **Employees** choose **User Roles**.
 2. In the top right corner of the **User Roles** page, select **Export**.
 3. In **Export data** dialog that appears, make selections in the following fields.
    1. **Programs:** Select one survey program or choose **Select All**.
@@ -59,14 +59,14 @@ To prepare your exported custom access file for import to Advanced Configuration
 
    |Column  |Change to...   |
    |:----------|:-----------|
-   |user email     | manager reference   |
+   |user email     | `manager reference`   |
    |population     | `no change to column label` |
-   |add or remove     | `insert this as a new column` populate with "ADD" or "REMOVE" |
-   |access type   | survey uuid values or "GOAL" already included in export, depending on Focus Areas selection |
-   |other attributes    | `no change` To grant new access, add new columns and values based on employee data imported to Glint. |
+   |add or remove     | `insert this as a new column` Populate with "ADD" or "REMOVE" |
+   |access type   | `survey uuid` Add survey uuid values or "GOAL" already included in export, depending on Focus Areas selection. |
+   |other attributes    | `no change` To grant new access, add new columns and values based on employee data imported to Viva Glint. |
 
    > [!NOTE]
-   > To prevent upload errors, for attributes based on data uploaded to Glint make sure that column labels match your attribute setup exactly.
+   > To prevent upload errors, for attributes based on data uploaded to Viva Glint make sure that column labels match your attribute setup exactly.
    
    > [!TIP]
    > To confirm which survey program a survey uuid is connected to, go to **Configuration** and select **Survey Programs**. Choose a survey and note the ID at the end of the URL in your web browser. This value is the survey uuid that appears in the **access type** column in the custom access export.
@@ -115,7 +115,7 @@ To apply the same custom access for creating Focus Areas, update the access type
 
 After exporting and preparing a file, go to **Advanced Configuration** to upload users' custom data access.
 
-1. From the Glint Admin dashboard, select the **Configuration** symbol and then in **Service Configuration**, choose **Advanced Configuration**.
+1. From the Viva Glint Admin dashboard, select the **Configuration** symbol and then in **Service Configuration**, choose **Advanced Configuration**.
 2. In the **Advanced Configuration** menu, select **Uploads**.
 3. In the **Upload type** dropdown menu, select **MANAGERS_UPLOAD**.
 4. **Apply to**: Ignore, this setting is for retroactive uploads only.

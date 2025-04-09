@@ -1,12 +1,12 @@
 ---
-title: Assign Viva Glint admins
-description: Take care of assigning Viva Glint admins before you begin your first Viva Glint program journey.
+title: Assign Viva Glint Tenant and Service Administrators
+description: After setting up a Microsoft Viva Glint tenant as a Microsoft 365 Global Administrator, assign Viva Glint Tenant Administrators.
 ms.author: judithweiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Add administrators to Viva Glint, Viva Glint sites, Viva Glint learning paths and modules, training
+keywords: assign viva glint admins, viva glint tenant admin, viva glint admin, microsoft 365 global admin
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,34 +14,33 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/13/2024
+ms.date: 03/28/2025
 ---
 
-# Assign Viva Glint admins
+# Assign Viva Glint Tenant and Service Administrators
 
-Welcome to Microsoft Viva Glint! If you have landed on this page, you should already have your tenant provisioned.
+After setting up a [Microsoft Viva Glint tenant](viva-glint-tenant-provision.md) as a Microsoft 365 Global Administrator, assign Viva Glint Tenant Administrators. Tenant admins manage Viva Glint settings in the Microsoft 365 admin center and assign Viva Glint Administrators who manage the Viva Glint app. [Learn more about key Viva Glint roles](/viva/glint/start/role-definitions).
 
-- If you haven't already completed tenant provisioning, [set up a Microsoft Viva tenant](viva-glint-tenant-provision.md).
-- If you have completed tenant provisioning, follow these next steps to continue Viva Glint deployment:
+## Assign Viva Glint Tenant Admins
+
+To assign Viva Glint Tenant Admins as the Microsoft 365 Global Admin:
+
+1. Log in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2264234) with your admin credentials. 
+2. Go to the **Users** section and select **Roles** in the menu on the left.
+3. Search for "Viva Glint Tenant Administrator" in the list of available roles. 
+4. Select the role and choose **Assign.** Choose the users or groups you want to assign the role to and confirm your selection. 
+
+## Assign Viva Glint Service Admins
+
+To assign Viva Glint Service Admins as the Viva Glint Tenant Admin:
+
+> [!IMPORTANT]
+> If your organization migrates from LinkedIn Glint, your Viva Glint Tenant admin doesn’t need to assign Viva Glint service admins in the admin center. Admin users are migrated as part of your technical migration to Microsoft Viva Glint.
+
+1. Ensure that all Viva Glint Service Admin users have their First Name, Last Name, Employee ID, and Email populated in Microsoft Entra. [Manage Entra user profile information](/entra/fundamentals/how-to-manage-user-profile-info).
 
    > [!IMPORTANT]
-   > If you’re migrating from LinkedIn Glint, your M365 admin doesn’t need to assign Glint admins in the admin center. Admin users are migrated to the Company Admin role as part of your technical migration to Microsoft Viva Glint.
-
-## Assign Viva Glint admins in the Microsoft 365 admin center
-
-As the tenant Global Admin, you're the default Microsoft Viva Glint Service Admin. This means you have ultimate control over the subscriptions in your Viva Glint product and you can access all data. Additionally - **and importantly** - you can assign Viva Glint Service admin roles to other users.
-
-:::image type="content" source="../../media/glint/setup/glint-admins-mac.png" alt-text="Screenshot of Viva Glint in the Microsoft 365 admin center.":::
-
-> [!CAUTION]
-> Don't assign support or partner users to the Comapny Admin role in the Microsoft 365 admin center. [Add external users in the Viva Glint platform](add-external-user.md).
-
-To assign admins:
-
-1. Ensure that all Glint service admin users have their First Name, Last Name, Employee ID, and Email populated in Microsoft Entra. [Manage Entra user profile information](/entra/fundamentals/how-to-manage-user-profile-info).
-
-   > [!IMPORTANT]
-   > To prevent duplication errors with future file uploads, ensure that the Employee ID values for these users match the Employee ID from the HR Information System (HRIS) that will be used to transfer data to Viva Glint.
+   > To prevent duplication errors with future file uploads, ensure that the Employee ID values for these users match the Employee ID from the HR Information System (HRIS) that's used to transfer data to Viva Glint.
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2264234). 
 1. Go to **Settings** and select **Viva**.
@@ -51,12 +50,12 @@ To assign admins:
 5. Select **Add** to assign users.
 6. Newly assigned users appear in the Viva Glint application in the Company Admin role within minutes.
 
-> [!NOTE]
-> To add external users, like Partners or Viva Glint team members, use [Manage external users guidance](add-external-user.md).
+> [!CAUTION]
+> Don't assign Support users to the Company Admin role in the Microsoft 365 admin center. To add Support users, see: [Manage Support users in Viva Glint](add-external-user.md).
 
-## Ongoing Viva Glint admin additions
+## Manage Viva Glint service admins in the Viva Glint app
 
-After initial admins are assigned in the Microsoft 365 admin center, Viva Glint admins can assign and unassign users to the Company Admin role in the Viva Glint application. 
+Viva Glint service admins can assign and unassign users to the Company Admin role in the Viva Glint application. 
 
 In the Viva Glint app:
 
@@ -66,12 +65,8 @@ In the Viva Glint app:
 4. Select or deselect **Company Admin** to add or remove a user from the role.
 5. Select **Save**.
 
-> [!NOTE]
-> As a Viva Glint admin, use these steps to remove the M365 global admin from the Viva Glint Company Admin role if this user shouldn't have access to survey results.
-
 ## What do I do if I need help?
 
-[Get support from Microsoft 365](/microsoft-365/admin/get-help-support?view=o365-worldwide&preserve-view=true)
-
+[Get support from Microsoft 365](/viva/troubleshoot/glint/contact-support/get-support-viva-glint?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 
 

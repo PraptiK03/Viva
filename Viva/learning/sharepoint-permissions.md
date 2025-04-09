@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/25/2024
+ms.date: 03/14/2025
 audience: admin
 ms.topic: how-to
 ms.service: viva-learning
@@ -26,7 +26,7 @@ Viva Learning follows all existing content permissions. Therefore, only content 
 > The admin tab is only available for admins with a Viva Suite or Viva Learning license.
 
 > [!NOTE]
-> Only the Microsoft 365 and Mail enabled security group (MESG) group type is supported. Viva Learning doesn't support user-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or MESG permissions.
+> Viva Learning doesn't support user-based permissions. Only the Microsoft 365 and Mail enabled security group (MESG) group types are supported. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or MESG permissions.
 
 1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) or [Create mail-enabled security groups](/exchange/recipients/mail-enabled-security-groups).
 

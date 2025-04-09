@@ -1,12 +1,12 @@
 ---
-title: Preview and filter Viva Glint Employee Lifecycle programs 
-description: "Once your Viva Glint Employee Lifecycle program is set up, take these steps to set it live or edit it."
+title: Preview Viva Glint Employee Lifecycle programs 
+description: Once your Viva Glint Employee Lifecycle program is set up, take these steps to set it live or edit it.
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: elizapo
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: lifecycle preview, preview exit surveys, preview onboarding surveys, enable lifecycle surveys
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/06/2025
+ms.date: 03/24/2025
 ---
 
-# Preview and filter Viva Glint Employee Lifecycle programs 
+# Preview Viva Glint Employee Lifecycle programs 
 
 ## Approve your program 
 
@@ -70,11 +70,9 @@ Lifecycle surveys move to Live status shortly after they're enabled. Surveys gen
 > [!IMPORTANT]
 > After a Lifecycle survey is enabled for the first time, Viva Glint Admins can make edits by switching the Approved toggle off. When an admin re-approves the survey in the future, the survey **auto-enables**.
 
-## Employee Lifecycle reports are unique 
-
-Employee Lifecycle reporting behaves differently than recurring program reporting. [Learn more about using the trend graph in Employee Lifecycle reports](/viva/glint/reports/trend-graph-lifecycle-survey).
-
 ## Other resources
 
-[Set up Program Summary for Viva Glint Employee Lifecycle Programs](https://www.microsoft.com/).
+- Set up an [Onboarding](program-summary-setup-lifecycle.md) or [Exit](exit-survey-setup.md) survey.
+- [Learn how Employee Lifecycle reports trend differently](/viva/glint/reports/trend-graph-lifecycle-survey).
+
  

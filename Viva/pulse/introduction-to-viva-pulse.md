@@ -23,7 +23,7 @@ search.appverid: MET150
 
 Viva Pulse enables team leads to send brief surveys using research-backed templates to get a snapshot of team sentiment and act on feedback. Additionally, Viva Pulse reporting enables analysis of results and trends so leads can pinpoint what's working well and which areas to focus on over time.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fCHC]
+> [!VIDEO 4e6b62dd-4083-40a6-88ab-79861a8b602c]
 
 Users can:
 

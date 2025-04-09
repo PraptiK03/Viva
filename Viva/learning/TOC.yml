@@ -3,8 +3,6 @@
       items:    
         - name: Overview of Viva Learning
           href: overview-viva-learning.md
-        - name: What's New 
-          href: whats-new.md
         - name: Set up Viva Learning
           href: set-up-viva-learning.md
         - name: Customize Viva Learning

@@ -17,17 +17,17 @@ search-appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/14/2025
+ms.date: 03/31/2025
 ---
 
 # Introduction to Microsoft Viva Glint
 
 Microsoft Viva Glint is a people-driven platform that provides visibility into the health of your organization. Create a people-science based measurement strategy to assess employee engagement and translate insights into action. [Learn more here](https://www.microsoft.com/microsoft-viva/glint) and watch this video:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
+> [!VIDEO 10444fc8-ee23-4947-b76f-2bb1a9198ff0]
 
 > [!TIP]
-> To stay informed about Viva Glint and other Microsoft Employee Experience solutions, [register for the Viva Glint newsletter](https://adoption.microsoft.com/viva/glint/newsletter/).
+> To stay informed about Viva Glint and other Microsoft Employee Experience solutions, [register for the Viva Glint newsletter](https://go.microsoft.com/fwlink/?linkid=2264411).
 
 ## Set up a tenant
 Coordinate with your Microsoft 365 Global Administrator to set up your tenant. 
@@ -59,7 +59,7 @@ Stay connected with Viva Glint and your peers with blogs, the Viva Glint Communi
 | :::image type="icon" source="/office/media/icons/meeting.png" ::: | Item | Resources|
 |:---|:---|:---|
 |:::image type="icon" source="/office/media/icons/blog-site-blue.png" ::: | **Explore Viva blogs** | <ul><li>[Viva Glint research and updates](https://techcommunity.microsoft.com/category/viva-glint/blog/viva_glint_blog)</li> <li>[Viva Suite of products](https://techcommunity.microsoft.com/category/microsoft-viva/blog/microsoftvivablog)</li></ul>|
-|:::image type="icon" source="/office/media/icons/users-people.png" ::: | **Connect with Viva Glint and others** | <ul><li>[Join the product council](https://techcommunity.microsoft.com/blog/viva_glint_blog/shape-the-future-of-viva-glint-by-joining-our-product-council/4063627)</li> <li> [Join a Learning Circle](https://techcommunity.microsoft.com/blog/viva_glint_blog/viva-glint-learning-circles-are-back/4303411)</li><li>[Join a Customer Cohort](https://techcommunity.microsoft.com/blog/viva_glint_blog/join-our-customer-cohorts/4124682)</li><li>[Engage with peers in the Viva Glint Community](https://techcommunity.microsoft.com/category/Viva-Glint)</li><li>[Attend Viva Glint Ask the Experts sessions](https://adoption.microsoft.com/viva/glint/ask-the-experts-resources/)</li></ul>|
+|:::image type="icon" source="/office/media/icons/users-people.png" ::: | **Connect with Viva Glint and others** | <ul><li>[Join the product council](https://techcommunity.microsoft.com/blog/viva_glint_blog/shape-the-future-of-viva-glint-by-joining-our-product-council/4063627)</li> <li>[Join a Learning Circle](https://techcommunity.microsoft.com/blog/microsoftvivablog/connect-and-collaborate-in-our-viva-and-copilot-customer-cohorts/4394118)</li><li>[Join a Customer Cohort](https://techcommunity.microsoft.com/blog/viva_glint_blog/join-our-customer-cohorts/4124682)</li><li>[Engage with peers in the Viva Glint Community](https://techcommunity.microsoft.com/category/Viva-Glint)</li><li>[Attend Viva Glint Ask the Experts sessions](https://adoption.microsoft.com/viva/glint/ask-the-experts-resources/)</li></ul>|
 
 ## Get support
 

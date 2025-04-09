@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Viva Overview"
 ms.reviewer:
-ms.date: 05/30/2024
+ms.date: 03/17/2025
 ms.author: loreenl
 author: LoreenLa
 manager: elizapo
@@ -22,7 +22,7 @@ description: "An overview of the Microsoft Viva suite"
 ---
 # Microsoft Viva overview
 
-Microsoft Viva is an integrated employee experience platform built within Microsoft 365 and Microsoft Teams that gives you the ability to support connection, insight, purpose, and growth in your organization using your existing infrastructure.
+Microsoft Viva is an integrated employee experience platform built within Microsoft 365 and Microsoft Teams that gives you the ability to support connection, insight, purpose, and growth using your existing infrastructure.
 
 Viva is easily customizable and extensible, accessible from anywhere you work, and supports several partner integrations to give you access to industry-leading apps in the natural flow of work.
 
@@ -44,17 +44,17 @@ Learn which Microsoft Viva features are available across Microsoft 365 plans in 
 |**Goal setting and management**|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](#viva-goals) <br> Align teams and employees with your organization’s strategic goals and priorities.||
 
 #### Viva Amplify
-Viva Amplify centralizes campaign management, publishing, and reporting so corporate communicators can reach and engage all employees meaningfully. By using multi-channel publishing, communicators can reach employees across channels such as Outlook, Teams, and SharePoint. Users can create and manage organization-wide campaigns to help inform organizations, create alignment, and inspire action – all from one place. Employees continue to see relevant messages in their existing preferred channels.
+Centralize campaign management, publishing, and reporting so corporate communicators can reach and engage all employees meaningfully. By using multi-channel publishing, communicators can reach employees across channels such as Outlook, Teams, and SharePoint. Users can create and manage organization-wide campaigns to help inform organizations, create alignment, and inspire action – all from one place. Employees continue to see relevant messages in their existing preferred channels.
 
 [Get more information on Viva Amplify](/viva/amplify/overview-viva-amplify)
 
 #### Viva Connections
-Connect employees with tools, news, and resources in Microsoft Teams. Content is displayed on a dashboard and can be tailored to each individual based on their role, region, and interests.
+Connect employees with tools, news, and resources in Microsoft Teams and on the web. Content is displayed on a dashboard and can be tailored to each individual based on their role, region, and interests.
 
 [Get more information on Viva Connections](/viva/connections/viva-connections-overview)
 
 #### Viva Engage
-Brings people together across the organization to connect with leaders, coworkers, and communities. It can also help people crowdsource answers and ideas, share their work and experience, and find belonging at work. The Viva Engage app integrates these experiences into Microsoft Teams and introduces new features including storyline and stories. These new features will also appear in the Viva Engage web, desktop and mobile apps, so no matter where an employee visits, they’ll see the same content and feature set.
+Connect employees with leaders, colleagues, and communities across the organization to facilitate knowledge sharing, collaboration, and workplace belonging. The Viva Engage app integrates seamlessly into Microsoft Teams with features like storylines and stories that are consistent across web, desktop, and mobile platforms to ensure a unified experience regardless of access point.
 
 [Get more information on Viva Engage](/viva/engage/overview)
 
@@ -80,13 +80,15 @@ Bring enterprise learning into the flow of work by connecting content from your 
 [Get more information on Viva Learning](/viva/learning/overview-viva-learning)
 
 #### Viva Pulse
-
-Empower leaders and managers to seek and act on feedback when it matters. Using research-backed templates, teams can quickly share their experience and suggestions, and reporting helps managers pinpoint what's working well and which areas to focus on over time.
+Empower leaders and managers to seek and act on feedback when it matters by creating quick and effective surveys starting with research-backed templates. Teams can quickly share their experience and suggestions. The resulting reports help managers pinpoint what's working well and which areas to focus on over time.
 
 [Get more information on Viva Pulse](/viva/pulse/introduction-to-viva-pulse)
 
+## Microsoft 365 Copilot
+Microsoft 365 Copilot is an AI assistant that uses the power of large language models to help you streamline work, amplify creativity, and boost productivity. Microsoft 365 Copilot in each Viva app has unique AI-powered features and capabilities tailored for that app. For example, Copilot in Viva Insights can help you choose a template and set up queries for analysis based on your questions. [Learn more about Microsoft 365 Copilot in each Viva app](/viva/copilot/viva-copilot-overview)
+
 ## Partner integrations
-Microsoft Viva supports several partner integrations to give you access to industry-leading apps in the natural flow of work. Here are the current partner integrations. New partners are being added on an ongoing basis, so check back for more.
+Microsoft Viva supports several partner integrations to give you access to industry-leading apps in the natural flow of work. New partners are being added on an ongoing basis, so check back for more.
 
 **Viva Learning**: SAP SuccessFactors, Cornerstone OnDemand, Saba, OpenSesame, Skillsoft, Udemy, Go1, and more
 
@@ -99,3 +101,5 @@ Microsoft Viva supports several partner integrations to give you access to indus
 [Find out more about partner integrations](https://www.microsoft.com/en-us/microsoft-viva/integrations)
 
 [Find more apps for integration with Viva in AppSource](https://appsource.microsoft.com/en-GB/marketplace/apps?exp=ubp8&product=office%3Bviva&page=1)
+
+

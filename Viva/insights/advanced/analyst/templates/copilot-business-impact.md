@@ -1,5 +1,5 @@
 ---
-ms.date: 11/18/2024
+ms.date: 3/14/2025
 title: Copilot Business Impact report
 description: Learn how to use the Microsoft 365 Copilot Business Impact Power BI template to understand how Copilot usage impacts business results at your company.
 author: zachminers
@@ -55,6 +55,8 @@ There are two ways to upload your business outcome data in the Microsoft Viva In
 The [Copilot Scenario Library](https://adoption.microsoft.com/copilot-scenario-library) offers detailed business outcome-focused guidance, use cases, and additional information relevant for each functional area.
 
 ## Report setup
+
+For detailed scenario-based guidance on how to set up an analysis tailored to your organization, refer to our [analyst toolkit playbook](https://aka.ms/CopilotAdvancedAnalytics).
 
 ### Run query
 
@@ -205,6 +207,8 @@ View this report's metric definitions.
 [Learn more about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ](..//..//analyst/templates/power-bi-faq-troubleshoot.md).
 
 ### Related topics  
+
+* [Copilot analytics playbook](https://aka.ms/CopilotAdvancedAnalytics)
 
 * [Access query results and modify existing queries](..//..//analyst/query-results.md)  
 

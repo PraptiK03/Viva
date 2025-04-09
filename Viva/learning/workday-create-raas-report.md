@@ -390,8 +390,8 @@ This report should be created from the primary Workday admin account to avoid an
         
           |     And/Or    |     (    |     Field    |     Operator    |     Comparison   type    |     Comparison   value    |     )    |     Indexed    |
           |---|---|---|---|---|---|---|---|
-          |     And    |          |     Completion Date    |     greater than or   equal to    |     Prompt the user   for the value    |     Starting Prompt    |          |          |
-          |     And    |          |     Completion Date    |     less than or   equal to    |     Prompt the user   for the value    |     Ending Prompt    |          |          |
+          |     And    |          |     Completion Date    |     greater than or   equal to    |     Prompt the user   for the value    |     Starting Prompt    |          |      Yes     |
+          |     And    |          |     Completion Date    |     less than or   equal to    |     Prompt the user   for the value    |     Ending Prompt    |          |     Yes     |
           |     And    |          |     Learning   Assignment    |     is empty    |          |          |          |          |
           |     And    |          |     Completion   Status    |     in the selection   list    |     Value specified   in this filter    |     Completed    |          |     Yes    |
         

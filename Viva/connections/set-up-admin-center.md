@@ -408,8 +408,8 @@ It might take up to 24 hours for changes to fully propagate. Consider this timin
 If your SharePoint home site is set up on the root site, all your users should have access to the root site for SharePoint access. This means that if some of your users are targeted to a new SharePoint home site, they might still see content in their feed from the existing SharePoint home site (root site). To avoid this, it's recommended to not use root site as a SharePoint home site if you plan to set up multiple SharePoint home sites. Alternatively, you can decide to publish content on the existing SharePoint home site (root site) that is broadly applicable to everyone.
 
 > [!NOTE]
-> 
-> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
+>
+> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
 
 **I would like to restore my original setup. How do I get back to my original setup?**
 

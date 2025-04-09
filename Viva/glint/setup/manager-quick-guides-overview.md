@@ -1,11 +1,11 @@
 ---
-title: Viva Glint Manager Quick Guides
-description: Viva Glint Manager Quick Guides share high level information in easy-to-understand chunks.
+title: Viva Glint Manager Quick Guides 
+description: Viva Glint Manager Quick Guides share high level information about interpreting feedback in easy-to-understand chunks.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
-f1.keywords: insufficient responses, insufficient data, confidentiality, manager reports resources, manager conversation resources, manager feedback resources
+f1.keywords: manager reports resources, manager conversation resources, manager feedback resources
 keywords: Microsoft Privacy Statement 
 ms.collection: 
  - m365initiative-viva
@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/14/2025
+ms.date: 03/18/2025
 ---
 
-# Viva Glint Manager Quick Guides
+# Viva Glint Manager Quick Guides 
 
-Manager Quick Guides are easy to share with your teams and provide managers and leaders with a high-level understanding of important Microsoft Viva Glint features.
+Manager Quick Guides provide managers and leaders with a high-level understanding of important Microsoft Viva Glint survey and feedback features.
 
 ## [**Manager Quick Guide to Confidentiality**](/../../Viva/glint/setup/quick-guide-confidentiality)
 > Use this guide to learn about how Viva Glint confidentiality and suppression rules provide an added layer of protection for respondents' privacy.

@@ -31,10 +31,14 @@ items:
         items:
           - name: Set up a tenant
             href: setup/viva-glint-tenant-provision.md
-          - name: Set up a multitenant organization
-            href: setup/glint-mto.md
-          - name: Multitenant organization FAQ
-            href: setup/mto-faq.md           
+          - name: Multitenant organizations
+            items: 
+               - name: Set up a multitenant organization
+                 href: setup/glint-mto.md          
+               - name: Multitenant organization FAQ
+                 href: setup/mto-faq.md
+          - name: Invite Government cloud guest users
+            href: setup/glint-gcch-b2b-guest.md
           - name: Assign Glint admins
             href: setup/post-provisioning-next-steps.md
           - name: Role definitions
@@ -61,13 +65,9 @@ items:
                  href: setup/understand-survey-access-methods.md  
           - name: Prepare internal messages and resources
             items:
-               - name: Communications rollout plan
-                 href: start/recommended-rollout-plan.md
-               - name: Introduce Glint survey taking
-                 href: communicate/survey-taking-for-employees.md
-               - name: Promote Glint surveys before and after launch
-                 href: communicate/prelaunch-live-email-templates.md
-               - name: Communicate results, next steps, and progress
+               - name: Introduce Glint programs with email templates
+                 href: start/introductory-emails.md
+               - name: Communicate results and actions with email templates
                  href: communicate/results-rollout-templates.md
                - name: Create FAQs for dashboard users
                  href: start/faqs-dashboard-users.md
@@ -120,6 +120,8 @@ items:
         href: reports/incorporate-copilot.md
       - name: Managers using Copilot in Viva Glint 
         href: setup/copilot-managers.md
+      - name: Manager Guide - Copilot in Viva Glint
+        href: setup/copilot-manager-quick-guide.md
       - name: FAQs-Copilot in Viva Glint 
         href: setup/copilot-faqs.md 
   - name: Manage settings, features, and data
@@ -235,62 +237,56 @@ items:
         items: 
           - name: Understand programs and cycles
             href: setup/program-cycle-edits.md
-          - name: Set up survey sections 
-            items:
-              - name: Program setup 
-                href: setup/program-set-up.md
-              - name: Distribution setup 
-                href: setup/distribution-program-summary.md
-              - name: Schedule setup
-                href: setup/schedule-setup.md
-              - name: Questions setup 
-                href: setup/questions-setup.md
-                items:
-                   - name: Add items and sections
-                     href: setup/add-new-questions.md
-                   - name: Target survey items
-                     href: setup/targeted-survey-items.md
-                   - name: Add item Display Logic
-                     href: setup/viva-glint-display-logic.md
-              - name: Reporting setup
-                href: setup/reporting-setup.md
-                items:
-                   - name: Release results to roles in phased access
-                     href: setup/live-versus-phased-access.md
-              - name: Communications setup 
-                href: setup/program-summary-communications.md
-                items:
-                  - name: Customize survey email content
-                    href: setup/email-content-customization.md
-                  - name: Multi-language emails
-                    href: setup/multi-lang-emails.md                        
-              - name: Coaching setup 
-                href: setup/program-summary-coaching.md
-              - name: Manage translations for survey content
-                href: setup/language-translations.md  
-              - name: Review character limits
-                href: setup/survey-character-limits.md
           - name: Set up Team Conversations
             href: reports/team-conversations-administrator-setup.md
             items:
-               - name: Team Conversations presentation kit
-                 href: reports/coaching-team-conversations.md
                - name: Customize Team Conversations email content
                  href: reports/team-conversations-content-cusomization.md
-               - name: Team Conversations resource guidance
-                 href: reports/team-conversations-resource-guidance.md     
       - name: Set up an Employee Lifecycle survey
         items:
            - name: Set up an Onboarding survey
              href: setup/program-summary-setup-lifecycle.md
            - name: Set up an Exit survey
              href: setup/exit-survey-setup.md
-           - name: Preview and filter a Lifecycle survey
+           - name: Preview a Lifecycle survey
              href: setup/preview-filter-lifecycle-programs.md 
       - name: Set up an Always-On survey
         href: setup/always-on-surveys.md
       - name: Set up an Ad Hoc survey
         href: setup/ad-hoc-survey.md
+      - name: Survey setup elements and resources
+        items:
+           - name: Program setup 
+             href: setup/program-set-up.md
+           - name: Distribution setup 
+             href: setup/distribution-program-summary.md
+           - name: Schedule setup
+             href: setup/schedule-setup.md
+           - name: Questions setup 
+             href: setup/questions-setup.md
+             items:
+               - name: Target survey items
+                 href: setup/targeted-survey-items.md
+               - name: Add item Display Logic
+                 href: setup/viva-glint-display-logic.md
+           - name: Reporting setup
+             href: setup/reporting-setup.md
+             items:
+               - name: Release results to roles in phased access
+                 href: setup/live-versus-phased-access.md
+           - name: Communications setup 
+             href: setup/program-summary-communications.md
+             items:
+               - name: Customize survey email content
+                 href: setup/email-content-customization.md
+               - name: Multi-language emails
+                 href: setup/multi-lang-emails.md                        
+           - name: Coaching setup 
+             href: setup/program-summary-coaching.md
+           - name: Manage translations for survey content
+             href: setup/language-translations.md  
+           - name: Review character limits
+             href: setup/survey-character-limits.md
       - name: Review and test surveys before launch
         items:
           - name: Review and set up a test survey
@@ -356,9 +352,9 @@ items:
         href: setup/reopen-survey.md
       - name: Make changes to a live survey
         href: setup/change-live-survey.md   
-  - name: View survey results
+  - name: View feedback results
     items:
-      - name: Survey reports guide
+      - name: Feedback reports guide
         href: reports/survey-reports-overview.md
       - name: Report functionality
         items:
@@ -380,13 +376,12 @@ items:
             href: reports/report-customization.md
           - name: Confidentiality and suppression
             href: reports/confidentiality-suppression-reports.md     
-      - name: Standard reports for managers and admins
+      - name: Feedback reports 
         items:
          - name: Executive Summary Report
            href: reports/executive-summary-report.md
-           items:
-             - name: Employee Lifecycle trend graph
-               href: reports/trend-graph-lifecycle-survey.md
+         - name: Employee Lifecycle trend
+           href: reports/trend-graph-lifecycle-survey.md
          - name: Driver Impact Report
            href: reports/driver-impact-report.md
            items:
@@ -419,6 +414,8 @@ items:
                href: setup/quick-guide-confidentiality.md
              - name: Manager Quick Guide - Results & Conversations 
                href: setup/quick-guide-manager-doc-pitfalls.md
+             - name: Manager Guide - Copilot in Viva Glint
+               href: setup/copilot-manager-quick-guide.md 
       - name: Reports for admins
         items:
          - name: Response Rates & Access report 
@@ -451,6 +448,8 @@ items:
                 href: reports/managers-use-team-summary-dashboard.md
   - name: Take action as a manager
     items:
+      - name: Manager Guide - Copilot in Viva Glint
+        href: setup/copilot-manager-quick-guide.md
       - name: Managers using Team Conversations
         href: reports/managers-sharing-team-conversations.md
         items:

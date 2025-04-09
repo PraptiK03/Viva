@@ -1,5 +1,5 @@
 ---
-ms.date: 03/11/2025
+ms.date: 03/14/2025
 title: Publish reports
 description: Provides instructions to Viva Insights analysts and admins on how to publish and view insights reports and customize their settings.
 author: zachminers
@@ -146,7 +146,7 @@ Ensure the content looks accurate by reviewing the preview on the right side of 
 
 Let's say you want to publish your Hybrid workplace dashboard. This dashboard is saved to your Power BI workspace and has already been shared with your desired audience. It doesn't have row-level security implemented, so recipients see all the data in the report. You can create your card like the one below and publish it under your team name, HR Analytics, rather than using your own name as publisher. You can see how this card looks when it’s published to  your recipients with the Preview.
 
-:::image type="content" source="../images/publish-reports-create-card.png" alt-text="Screenshot that shows the create card page." lightbox="../images/publish-reports-create-card.png":::
+:::image type="content" source="../images/publish-reports-create-your-card-02.png" alt-text="Screenshot that shows the create card page.":::
 
 #### Select target audience
 
@@ -155,7 +155,11 @@ Let's say you want to publish your Hybrid workplace dashboard. This dashboard is
 
 You can use the feature's targeting options to publish to specific users or to an audience based on organizational attributes.
 
-* **Publish to specific people**: Select people to publish to directly. These people can be inside or outside your partition. 
+* **Publish to specific people and groups**: Select people and groups to publish to directly. These people can be inside or outside your partition. 
+
+    * Supported groups include distribution groups, Microsoft 365 groups, and security groups that contain less than 5,000 people. Recipients are determined by the group membership when you publish.
+
+    * If you try to publish to a universal security group or groups over 5,000 people, the publish might seem like it succeeds, but it will fail.
 
 * **Publish to an audience based on organizational attributes**: Define a population based on Required and Reserved attributes to receive your published content. You must add at least one condition to publish. These people can only be from within your partition. 
 
@@ -169,9 +173,7 @@ Assign a unique name to your report's publish. This name will help you and other
 
 #### Continuing our example
 
-Let’s say you want to publish your Hybrid workplace dashboard to your Engineering function. You can publish to that audience based on your available organizational attributes. You can then select this card to be published for 90 days and provide a publish name you can use to find this publish later on the Publish reports landing page.
-
-:::image type="content" source="../images/publish-reports-target-audience.png" alt-text="Screenshot that shows the page to select a target audience." lightbox="../images/publish-reports-target-audience.png":::
+Let's say you want to publish your Hybrid workplace dashboard to your Engineering function. You can publish to that audience based on your available organizational attributes. You can then select this card to be published for 90 days and provide a publish name you can use to find this publish later on the Publish reports landing page.
 
 #### Publish 
 
@@ -188,6 +190,9 @@ The published card appears for recipients to view. When the recipient selects **
 ## Manage your published report 
 
 Once you publish a report, it’s available for all recipients to view. If you decide the details of a published report are incorrect, you can remove the publish via the Publish reports page and create a new publish. You can’t edit a published report.
+
+>[!IMPORTANT]
+> If you've published a report from the **Query results** tab, don't delete the query. If you delete the query, publish recipients can still see the published card, but they can't load the report.
 
 ### Track engagement 
 

@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/30/2024
+ms.date: 03/31/2025
 audience: admin
 ms.topic: concept-article
 ms.service: viva-learning
@@ -13,12 +13,12 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
 ms.localizationpriority: medium
-description: Learn how Viva Learning handles language so you can customize the application.
+description: Learn how Viva Learning handles language so you can customize the application for the needs of your organization and users.
 ---
 
 # Overview of Language in Viva Learning
 
-Learn how Viva Learning handles language so you can customize the application.
+Learn how Viva Learning handles language so you can customize the application for your organization's needs.
 
 ## Introduction
 
@@ -40,7 +40,7 @@ For more information, review the list of Viva Learning [supported languages](/vi
 
 ## Display language
 
-Display language refers to the language in which Viva Learning is accessed. It refers to the language that the navigation names display. This includes **Home**, **My Learning**, and **Manage**, as well as actions like **Share**, **Add to calendar**, and **Rate it**. Notifications in Teams also display in the same language. 
+Display language refers to the language in which Viva Learning is accessed. It refers to the language that the navigation names display. This navigation includes **Home**, **My Learning**, and **Manage**, as well as actions like **Share**, **Add to calendar**, and **Rate it**. Notifications in Teams also display in the same language. 
 
 ### In the Teams app or web app
 
@@ -49,8 +49,9 @@ When using Viva Learning in Microsoft Teams or in the Browser. Viva Learning dis
 Open Viva Learning app > Select the three dots on the top right in header. Then go to **Settings** > **Language** > **Select a Language > Save & Refresh**. 
 
 > [!NOTE]
-> User language is currently in private preview. Languages shown in Language setting in Viva Learning are as per the [Available language setting](/viva/learning/language-preferences/#available-languages). To add or modify the language options, use the available language setting. 
-> If you're not participating in the User language private preview, the display language defaults to the Microsoft Teams or browser language.
+> User language is currently in preview. Languages shown in Language setting in Viva Learning are as per the [Available language setting](/viva/learning/language-preferences/#available-languages). To add or modify the language options, use the available language setting. 
+> If you're not participating in the User language preview, the display language defaults to the Microsoft Teams or browser language.
+
 ## Content language
 
 Content language refers to the language of the learning content in Viva Learning.
@@ -99,16 +100,16 @@ The following spaces display content only based on user action or preference. Th
     
  - **Viva Learning is loading in a different language in PC and mobile device. Is it expected?**
  
-    Viva Learning in mobile will open as per language of the mobile device. User Language setting will be implemented for mobile in the upcoming releases.
+    Viva Learning in mobile opens in the language of the mobile device. User Language setting is implemented for mobile in the upcoming releases.
 
  - **We are not able to see a specific language content of a provider or LMS.**
     
-    Check the documentation of each provider integration to know the supported languages or reach out to the support executive to know the supported languages in each provider or LMS.
+    Check the documentation of each provider integration to know the supported languages. You can also reach out to the support executive to know the supported languages in each provider or learning management system (LMS).
 
 - **In which language are assignments shown to users in Viva Learning?**
 
     The language of assignments is set as follows: **Display language** > **English (US)**
 
-    The assignment is loaded in the display language of the User. If the assignment isn't available in display language, then it's loaded in English (US).  We are working on including Default language in this fallback process. 
+    The assignment is loaded in the display language of the User. If the assignment isn't available in display language, then it's loaded in English (US). We're working on including Default language in this fallback process. 
 
 

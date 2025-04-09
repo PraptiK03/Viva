@@ -1,5 +1,5 @@
 ---
-ms.date: 01/13/2025
+ms.date: 03/18/2025
 title: Manage settings for the Microsoft Copilot Dashboard
 description: This article provides instructions to Viva Insights admins on how to configure several settings for the Microsoft Copilot Dashboard.
 author: zachminers
@@ -21,7 +21,7 @@ audience: Admin
 >[!Note]
 >This feature is rolling out gradually to all customers with more than 50 Copilot assigned licenses.
 
-As an admin, you can configure several features of the Microsoft Copilot Dashboard. These settings, for example, control who can access the dashboard, upload organizational data, manage a list of non-Copilot users, create an exclusion list, upload aggregated survey data, and the minimum group size for generating insights. Let’s review them.
+As an admin, you can configure several features of the Microsoft Copilot Dashboard. With these settings, for example, you can control who can access the dashboard, upload organizational data, create an exclusion list, upload aggregated survey data, and set the minimum group size for generating insights. Let's review them.
 
 ## Manage access for individual users and groups
 
@@ -196,60 +196,6 @@ If your tenant does *not* have a Viva Insights license and you're a global admin
     :::image type="content" source="../images/min-group-size-admin.png" alt-text="Screenshot that shows admins how to set the minimum group size.":::
 
     Or, if your tenant has a Viva Insights license and you're a Viva Insights admin, [use these steps to change the minimum group size](../../advanced/setup-maint/privacy-settings.md).  
-
-## Manage and upload non-Copilot users 
-
-These steps apply to Microsoft 365 global admins.
-
->[!Note]
->When you upload a list of non-Copilot users for cohort analysis, the process could take up to five days. This will be used for the metric comparison between groups in the Copilot Dashboard.
-
-This feature lets you upload a list of non-Copilot users for cohort analysis in the dashboard. Cohort analysis enables leaders to compare the various metrics of two groups of users: Copilot users and non-Copilot users.
-
-The maximum number of users you can add for cohort upload is equal to the number of your available Copilot licenses. Any additional users you add are not processed in the cohort list.
-
-You can upload a list of users for cohort analysis in the [Microsoft 365 Admin Center](https://admin.microsoft.com). To do so, follow these steps: 
-
-1. Go to the **Settings** tab and select **Microsoft Viva**, then **Microsoft Viva Insights**.  
-
-2. Under **Microsoft Copilot Dashboard**, select **Manage non-Copilot users**.
-
-    :::image type="content" source="../images/cohort-upload-03.png" alt-text="Screenshot that shows where to access the cohort upload feature.":::
-
-3. Select **Import users**. Then choose the upload mode: **Add to existing users** or **Replace all existing with new users**. **Add to existing users** adds the new users to the existing list, while **Replace all existing with new users** overwrites the existing list with the new users.
-
-    :::image type="content" source="../images/cohort-upload-01.png" alt-text="Screenshot that shows how import new Copilot users.":::
-
-    >[!Note]
-    >You’ll be able to upload non-Copilot users with Entra ID in the coming weeks. 
-
-4. To upload a list of users, upload a .csv file that contains the “PersonId” of the users you want to include in the cohort analysis. The “PersonId” is a unique identifier for the employee record. It can be an employee's primary SMTP address or email alias. For example, person.name@xyz.com. For guidance, you can download a template for the .csv file from the admin center.
-
-    :::image type="content" source="../images/cohort-upload-02.png" alt-text="Screenshot that shows how to import new users from a csv file.":::
-
-5. Validate the list of users: Before you upload the list, you can validate the data to ensure that it's accurate and compliant with the formatting rules. The validation checks for errors such as missing or invalid attributes, duplicate or conflicting records, or unsupported characters. The validation results show the number of errors, warnings, and successful records, and the results allow you to download a detailed report or fix the errors in the file. 
-
-6. Confirm the list of users: After you upload the list, you can confirm the data and view a summary of the upload status, such as the number of users added, removed, or updated, the upload mode, and the upload date and time. The confirmation also shows a sample of the uploaded data and allows you to download the full list or undo the upload.
-
-### Cohort upload scenarios based on Viva Insights licenses
-
-Due to recent updates to the Copilot Dashboard, there are several scenarios to be aware of related to the number of Viva Insights licenses in the tenant during certain time periods. 
-
-**Scenario 1: Tenant has Viva Insights licenses on June 30, 2024, and continues to have licenses going forward**
-
-All the non-Copilot users who have Viva Insights licenses appear as non-Copilot users in the cohort. If you upload additional users for cohort analysis, they’re appended to the list of non-Copilot users. If you upload a list of cohort users with **Replace** mode, they're included as non-Copilot users.
-
-**Scenario 2: Tenant has Viva Insights licenses on June 30, 2024, but does not have them going forward**
-
-Starting July 1, 2024, the non-Copilot user cohort is 0. Use cohort upload to generate the user list for cohort analysis. No history is saved for non-Copilot users who previously had Viva Insights licenses. 
-
-**Scenario 3: Tenant doesn’t have any Viva Insights licenses on June 30, 2024, and doesn't have any going forward**
-
-You can only upload non-Copilot users in the Microsoft 365 admin center. The list of non-Copilot users is the same list of cohort users uploaded. 
-
-**Scenario 4: Tenant doesn’t have any Viva Insights licenses on June 30, 2024, but purchases licenses at any time in the future**
-
-When the tenant purchases Viva Insights licenses that are allocated to non-Copilot users, that group is part of the cohort analysis, together with additional uploaded non-Copilot users in Microsoft 365 Admin Center.
 
 ## Create an exclusion list (hide users from aggregates)
 

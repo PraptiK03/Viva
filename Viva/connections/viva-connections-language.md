@@ -71,8 +71,8 @@ Viva Connections is available in most major languages used in Microsoft 365. Lea
 Broadly, [Viva Connections](viva-connections-overview.md) has four components that influence the end user’s overall language experience - the Viva Connections dashboard, feed, resources, and spotlight. Viva Connections is also supported across desktop and web, and on mobile and tablet devices through the Teams mobile app.
 
 > [!NOTE]
-> 
-> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
+>
+> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
 
 Learn how to set up Viva Connections components to display content in another language other than your organization’s default language. The following steps use English as an example, but the steps apply for any one of the 27 languages specified in the [available languages](#available-languages).
 

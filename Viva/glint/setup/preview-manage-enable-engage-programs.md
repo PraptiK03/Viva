@@ -1,8 +1,8 @@
 ---
 title: Preview, enable, and prepare to launch Viva Glint surveys
 description: After all the sections in Program Summary are set up, use the following guidance to approve, preview, edit, and launch your Microsoft Viva Glint program.
-ms.author: SarahBerg
-author: SarahAnneBerg
+ms.author: aweixelman
+author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/05/2024
+ms.date: 04/02/2025
 ---
 
 # Preview, enable, and prepare to launch Viva Glint surveys
@@ -28,33 +28,22 @@ When each section of a survey is set up successfully, a blue checkmark displays 
 After a Viva Glint Administrator approves a program, all programs except for Employee Lifecycle and Always-On surveys must also be enabled to go Live on the scheduled date. Surveys go into Live status at midnight on the day they're scheduled to go out, in your default time zone. 
 
    > [!NOTE]
-   > When Employee Lifecycle and Always-On surveys are updated, admins are prompted to re-approve them. This automatically re-enables the cycle. This helps admins ensure live surveys are always active.
+   > When Employee Lifecycle and Always-On surveys are updated, admins are prompted to reapprove them. Reapproval automatically re-enables the cycle. This feature helps admins ensure ongoing, live surveys are always active.
 
 ### Procedure 
 
-To approve a program, change Approved to **YES**. 
+To approve a program, change Approved to **Yes**. 
 
    > [!NOTE]
-   > After it has been approved, a program must be enabled for the survey to go live.
+   > After Viva Glint Admins approve a survey, they also need to enable a survey to make it live.
 
 ## Preview the survey
 
-When your survey is approved, you can preview how the survey and email invites appear to end users. 
+When your survey is approved, you can preview how survey invites and reminder emails appear to end users. 
 
 ### Procedure
 
-1. Select the **vertical ellipses** next to the cycle to be previewed.  
-2. Select **Preview**. 
-3. Select a user to generate a survey preview and email invite.  
-4. To preview the survey invitation email, check **Send a sample survey invite to**.
-   
-    > [!NOTE]
-   > The user you select will not receive a preview survey invitation email. 
-
-   > [!TIP]
-   > Use the preview survey email to ensure your surveys are received by your employees and do not end up in a spam or junk folder. 
-
-5. Select **Preview Questionnaire**. 
+1. [Send preview emails](email-content-customization.md#preview-emails).
 6. Review the email content and then select **Provide Feedback**.  
 
    > [!TIP]
@@ -65,7 +54,7 @@ When your survey is approved, you can preview how the survey and email invites a
    When reviewing the introduction and summary for each item, ensure that: 
 
    - Rating scale is as expected 
-   - Rating scale labels are written as expected (Strongly Disagree/Strongly Agree) 
+   - Rating scale labels are written as expected (Strongly Disagree - Strongly Agree) 
    - Comments are available 
    - Items aren't skippable unless intended
    - Macros appear as values 
@@ -73,9 +62,9 @@ When your survey is approved, you can preview how the survey and email invites a
 
 ## Edit a cycle schedule 
 
-After previewing your questionnaire, if you notice changes need to be made: 
+To make edits to a survey after seeing a preview:
 
-1. Select the **vertical ellipses** next to the cycle to be previewed.  
+1. Select the **ellipsis** next to the cycle to be previewed.  
 2. Select **Edit**. Once a survey is live, the edit option isn't available. 
 3. Make the necessary changes. 
 
@@ -83,7 +72,7 @@ After previewing your questionnaire, if you notice changes need to be made:
 
 To reschedule the survey: 
 
-1. Select the **vertical ellipses** next to the cycle you want to edit.  
+1. Select the **ellipsis** next to the cycle you want to edit.  
 2. Select **Manage Schedule**. 
 3. In the **Reschedule Survey** dialog box, make the necessary changes. If the survey is Live, the **Schedule** section is disabled.  
 4. Select **Save Changes**. 
@@ -92,7 +81,7 @@ To reschedule the survey:
 
 Once enabled, surveys go live at midnight on the day they're scheduled to go out, in your company’s default time zone. Survey invitations are sent according to your delivery window set up on the Communications page.  
 
-1. Select the **vertical ellipses** next to the cycle to be enabled.  
+1. Select the **ellipsis** next to the cycle to be enabled.  
 2. Select **Enable Survey**.  
 3. The **Status indicator** changes to blue. If the survey is Live, the Status indicator shows green. 
 
@@ -111,4 +100,7 @@ Check your email and the email of at least one other survey recipient when your 
 
 ## Monitor email activity
 
-Microsoft 365 Global Administrators and Exchange Administrators can use [email activity reports in the Microsoft 365 admin center](/microsoft-365/admin/activity-reports/email-activity-ww) and the [Exchange admin center](/exchange/exchange-admin-center) to monitor email activity and address delivery issues after a Viva Glint survey launches.
+Microsoft 365 Global Administrators and Exchange Administrators can use email activity reports to monitor  activity and address delivery issues after a Viva Glint survey launches. For more information, see:
+
+- [Microsoft 365 admin center](/microsoft-365/admin/activity-reports/email-activity-ww)
+- [Exchange admin center](/exchange/exchange-admin-center)

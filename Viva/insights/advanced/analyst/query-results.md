@@ -35,7 +35,7 @@ To view, download, rename, edit, delete, favorite, or clone query results, you n
 
 ## To use the query results page
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda3]
+> [!VIDEO 1e8cde4f-f314-44e7-95ec-120eed5764f1]
 
 ### Results statuses
 

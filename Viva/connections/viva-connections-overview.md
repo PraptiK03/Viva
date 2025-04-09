@@ -38,15 +38,9 @@ Viva Connections gives different roles in your organization a personalized landi
 - [Resources in the form of links provided by the organization](#viva-connections-resources); and
 - Other Viva apps your organization is licensed for.
 
-<br>
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4THB8 title="Stay empowered"]
-
-<br>
-
 > [!NOTE]
 >
-> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
+> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
 
 :::image type="content" source="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png" alt-text="Screenshot of the Viva Connections app on desktop and mobile." lightbox="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png":::
 

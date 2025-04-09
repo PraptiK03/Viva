@@ -39,7 +39,7 @@ Elements of the new Viva Connections experience can be customized to fit your or
 
 > [!NOTE]
 >
-> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
+> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
 
 ## About the Viva Connections experience
 
@@ -164,17 +164,17 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 :::image type="content" source="../media/connections/edit-viva-home/vc3-non-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be further edited." lightbox="../media/connections/edit-viva-home/vc3-non-customizable-elements.png":::
 
-8. **Shared Viva navigation:** Helps viewers navigate between Viva experiences. Viva apps will automatically display in this menu when Viva licenses are detected.
+1. **Shared Viva navigation:** Helps viewers navigate between Viva experiences. Viva apps will automatically display in this menu when Viva licenses are detected.
 
-9. **Feed tab:** Content in the Feed is dynamically generated based on user interests, organizational news, and industry news. [Learn more about how content in the Feed is sourced](/microsoft-365/ms-feed/m365-feed).
+1. **Feed tab:** Content in the Feed is dynamically generated based on user interests, organizational news, and industry news. [Learn more about how content in the Feed is sourced](/microsoft-365/ms-feed/m365-feed).
 
-10. **Scoped Search**: Users can search within Viva Connections when using the search bar while in the Connections experience. As users type, the option to search for results within Connections (or Teams) displays.
+1. **Scoped Search**: Users can search within Viva Connections when using the search bar while in the Connections experience. As users type, the option to search for results within Connections (or Teams) displays.
 
-11. **Ellipses menu:** Access more information about the Connections experience depending on your level of permissions.
+1. **Ellipses menu:** Access more information about the Connections experience depending on your level of permissions.
 
-12. **Spotlight:** The banner dynamically displays content from the home site, news from SharePoint sites, or links to articles or sites. The spotlight can be customized to display up to 11 items.
+1. **Spotlight:** The banner dynamically displays content from the home site, news from SharePoint sites, or links to articles or sites. The spotlight can be customized to display up to 11 items.
 
-13. **Viva navigational bar:** The Viva navigational bar provides an opportunity to discover [more Viva experiences](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) and gets automatically generated when Viva licenses are detected.
+1. **Viva navigational bar:** The Viva navigational bar provides an opportunity to discover [more Viva experiences](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) and gets automatically generated when Viva licenses are detected.
 
 ## Customize the app icon and label in the Teams app bar
 
@@ -197,7 +197,7 @@ Change the banner image in the header and set the focal point for the image. The
 > [!NOTE]
 >
 > - The greeting is automatically generated and can't be customized.
-> - Depending on your organization’s license type, you might see more dynamic information displayed in the banner.
+> - Depending on your organization's license type, you might see more dynamic information displayed in the banner.
 > - The banner image and focal point resize when viewed via the tablet and mobile app.
 
 To change the banner image:
@@ -336,7 +336,7 @@ To apply a SharePoint or custom theme:
 
 ## Customize the dashboard
 
-The [Viva Connections dashboard](create-dashboard.md#edit-the-dashboard-from-microsoft-teams) provides fast and easy access to information and job-related tasks. Add and edit cards that help users quickly access the tools and resources they use in their day-to-day role. Cards on the dashboard can be targeted to users based on specific roles, regions, and interests. Edits (including audience targeting settings) made to cards on the dashboard are also automatically applied to the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
+The [Viva Connections dashboard](create-dashboard.md#edit-a-viva-connections-dashboard) provides fast and easy access to information and job-related tasks. Add and edit cards that help users quickly access the tools and resources they use in their day-to-day role. Cards on the dashboard can be targeted to users based on specific roles, regions, and interests. Edits (including audience targeting settings) made to cards on the dashboard are also automatically applied to the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 
 > [!NOTE]
 >
@@ -368,17 +368,17 @@ Resources provide links to the most popular portals and destinations at your org
 
 3. In the Add a Link window that opens, paste the link to the site in the **URL** field.
 
-    - Only modern SharePoint sites and certain Microsoft 365 experiences display in Teams. All other types of content open in a separate browser window.
+   - Only modern SharePoint sites and certain Microsoft 365 experiences display in Teams. All other types of content open in a separate browser window.
 
 4. Enter a **Display name**.
 
 5. Under Thumbnail, select a choice to represent your resource link.
 
-    - **Auto-selected**: the icon is generated based on the URL, if applicable (a link icon displays by default if one can't be autogenerated).
+   - **Auto-selected**: The icon is generated based on the URL, if applicable (a link icon displays by default if one can't be autogenerated).
 
-    - **Custom**: upload your own image as an icon by selecting **Change** and uploading your image (the image will resize to fit the icons dimensions).
+   - **Custom**: Upload your own image as an icon by selecting **Change** and uploading your image (the image will resize to fit the icons dimensions).
 
-    - **Icon**: choose an icon from a preexisting list by selecting **edit icon**.
+   - **Icon**: Choose an icon from a preexisting list by selecting **edit icon**.
 
 6. To apply audience targeting to this resource, enter one or more Microsoft 365 groups in the **Audiences to target** field (up to 10 audiences can be targeted). Learn more about [audience targeting for resources](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources).
 
@@ -515,7 +515,7 @@ If your organization already has a SharePoint home site and you want to keep it 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
    > [!NOTE]
-   > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell".
+   > - If you installed a previous version of SharePoint Online Management Shell, go to Add or Remove programs and uninstall "SharePoint Online Management Shell".
    > - Run the command as a SharePoint Administrator.
    > - This command allows you to choose the default experience for the desktop app and doesn't affect the mobile experience.
 

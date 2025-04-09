@@ -90,7 +90,7 @@ This section breaks down usage data across the types of devices and apps used to
 
 > [!NOTE]
 >
-> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
+> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
 
 - **Total views by apps and devices**: Includes views for desktop, web, and mobile usage.
 - **Engaged users by component**: Includes number of engaged users for the Dashboard, Feed, and Resources web parts.

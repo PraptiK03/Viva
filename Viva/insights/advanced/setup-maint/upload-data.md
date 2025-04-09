@@ -1,5 +1,5 @@
 ---
-ms.date: 06/16/2023
+ms.date: 03/25/2025
 title: Upload organizational data during setup
 description: Get a quick overview of how to upload organizational data as part of setup
 author: zachminers

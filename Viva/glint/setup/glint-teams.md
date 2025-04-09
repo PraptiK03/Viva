@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/14/2025
+ms.date: 03/24/2025
 ---
 
 # Use Microsoft Teams for Viva Glint notifications
@@ -22,24 +22,28 @@ ms.date: 03/14/2025
 Bring survey notifications (invites, reminders, results notifications) and Nudges into the flow of work by integrating Microsoft Viva Glint and Microsoft Teams. Use the information in this article to have a Microsoft 365 admin install Viva Glint for Teams users in your organization and to enable Teams in the Viva Glint application.
 
 > [!IMPORTANT]
-> Glint survey notifications and Nudges in Teams don't currently support:
+> Viva Glint survey notifications and Nudges in Teams don't currently support:
 > - Notifications across multiple tenants for organizations that use Microsoft 365's [multitenant organization feature](glint-mto.md).
 > - Notifications that use [multiple languages in a single email](multi-lang-emails.md).
 > - Edits to Teams notification content.
+> - 360 feedback notifications.
+
+> [!NOTE]
+> Viva Glint [doesn't require individual license assignment](glint-order-teams.md), but users need to have individual Microsoft Teams licenses to receive Viva Glint notifications there.
 
 ## Install Microsoft Viva Glint for your organization in Teams
 
-In the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), your Microsoft 365 admin can install the Glint application for users in your organization. To install Glint for your organization: 
+In the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), your Microsoft 365 admin can install the Viva Glint application for users in your organization. To install Viva Glint for your organization: 
 
 1. Go to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) and select **Teams Apps** and then **Setup Policies**.
 1. Set up a policy (or modify an existing policy) to include the Viva Glint app for all users in your organization or a select group of users: [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
-1. When the Glint app is installed for users, they receive a welcome message in Microsoft Teams.
+1. When the Viva Glint app is installed for users, they receive a welcome message in Microsoft Teams.
    
    :::image type="content" source="../../media/glint/setup/new-welcome-ui-teams.png" alt-text="Screenshot of the Teams message that users receive when Viva Glint is installed to Microsoft Teams.":::
 
 ### Install Microsoft Viva Glint in Teams as an individual
 
-Users who have Microsoft Teams licenses can access Viva Glint in Teams. To install the Glint app as a nonadmin user for your own instance of Microsoft Teams:
+Users who have Microsoft Teams licenses can access Viva Glint in Teams. To install the Viva Glint app as a nonadmin user for your own instance of Microsoft Teams:
 
 1. Go to **+ Apps** and search for Viva Glint. 
 1. In the search results, select **Add** next to the Viva Glint app. 
@@ -83,6 +87,9 @@ To enable Microsoft Teams at the survey program level:
    
    :::image type="content" source="../../media/glint/setup/enable-teams-surveys.png" alt-text="Screenshot of the Microsoft Teams toggle switched to On in the Communications section of a Glint survey.":::
 
+   > [!IMPORTANT]
+   > Enable Teams before a survey launches. Enabling this feature after a survey is live doesn't send survey notifications in Teams.
+
 ### Nudges
 
 To enable Microsoft Teams for Nudges:
@@ -93,3 +100,6 @@ To enable Microsoft Teams for Nudges:
 1. Select **Save Changes** in the top left of the **Recipient Group Setup** page.
    
    :::image type="content" source="../../media/glint/setup/enable-teams-nudges.png" alt-text="Screenshot of the Microsoft Teams toggle switched to On in the Recipient Group Setup section for a Nudges recipient group.":::
+
+   > [!IMPORTANT]
+   > If enabled while a survey is live, Nudges send in Teams to User Roles with Nudges enabled who have live access.

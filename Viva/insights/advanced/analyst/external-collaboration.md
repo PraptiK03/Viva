@@ -40,7 +40,7 @@ The query includes:
 
 ### Add metrics, filters, and employee attributes
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda0]
+> [!VIDEO 99ddedd4-ee46-4f08-8fc0-228101a74e9b]
 
 1.	Under **Add metrics**, select the **Add metrics button**, then pick metrics from the **Select metrics** pane. For person-to-person queries, you’ll choose from network person-to-person metrics, which are:
     * Call Hours with External Collaborators

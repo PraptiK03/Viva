@@ -1,12 +1,12 @@
 ---
-title: Set up a Viva Glint Recurring Engagement or Productivity survey
-description: Set up a Viva Glint Recurring Engagement or Productivity survey to measure employee sentiment on topics that you want regular feedback on over time.
+title: Set up a Viva Glint Recurring survey
+description: Set up a Viva Glint Recurring survey to measure employee sentiment on topics that you want regular feedback on over time.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: survey setup, set up a Viva Glint program, Viva Glint program setup, create Viva Glint survey, recurring survey, Viva Glint engagement survey, Viva Glint Ad Hoc survey, Recurring survey, Viva Glint quarterly engagement survey, Viva Glint Program Summary setup
+keywords: survey setup, set up a Viva Glint program, Viva Glint program setup, create Viva Glint survey, recurring survey, Viva Glint engagement survey, Recurring survey, Viva Glint quarterly engagement survey
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 03/13/2025
 ---
 
-# Set up a Viva Glint Recurring Engagement or Productivity survey
+# Set up a Viva Glint Recurring survey
 
 Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topics that you want regular feedback on over time. Recurring surveys help track important themes like engagement, productivity, manager effectiveness, or culture at regular intervals. [Learn about survey types](/viva/glint/start/program-types-templates#types-of-surveys).
 

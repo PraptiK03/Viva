@@ -20,7 +20,7 @@ audience: Admin
 
 To get the most out of the Viva Insights experience, you might want to set up a few optional controls in the **Privacy settings** page.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lhYU]
+> [!VIDEO 34102e25-f316-432c-974b-b20d7f8f7ff0]
 
 ## Partitions
 

@@ -1,6 +1,6 @@
 ---
 
-ms.date: 05/13/2020
+ms.date: 04/2/2025
 title: Downloadable resources
 description: Downloadable resources available for admins who are rolling out the Briefing email to new users
 author: madehmer

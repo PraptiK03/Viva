@@ -1,12 +1,12 @@
 ---
 title: The Viva Glint Manager Report
-description: "The Manager Report displays a Directs or Roll-up Hierarchy view for two preselected survey items within a specific hierarchy."
+description: "The Manager Report displays a Directs or Roll-up Hierarchy view for survey items within a specific organizational hierarchy. It is intended for use by senior leaders to see how their managers are doing"
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: senior leader report,
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,12 +14,14 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/20/2025
+ms.date: 03/17/2025
 ---
 
 # The Viva Glint Manager report in Viva Glint
 
-The Microsoft Viva Glint Manager Report displays a **Directs** or **Roll-up Hierarchy** view of comparisons for two different survey items. These preset items are assigned during survey setup and are the default settings. The manager or Human Resource Business Partners (HRBP) can change which items are displayed by using the **question label** at the top of the column. Similar to other reports, column headers are static and can be used as a sorting feature. 
+The Microsoft Viva Glint Manager Report displays a **Directs** or **Roll-up Hierarchy** view of comparisons for two different survey items. These preset items are assigned during survey setup and are the default settings. To change the items, select the **question label**. Similar to other reports, column headers are static and can be used as a sorting feature. 
+
+This report is for admins and senior leaders so they can evaluate manager engagement.
 
 :::image type="content" source="../../media/glint/reports/manager-report.png" alt-text="Screenshot of the Manager Report access card in the admin Reports tab.":::
 

@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/06/2025
+ms.date: 04/08/2025
 ---
 
 # Viva Glint survey Communications setup
@@ -26,9 +26,10 @@ Notifying employees about a survey's start and sending reminders throughout the 
 > [!NOTE]
 > Always-On programs don't include a Communications section. Skip this step.
 
-There are three sections to set up:
+There are four sections to set up, depending on your Viva Glint configuration:
 
 - Notification Timing
+- Channels
 - Email Settings
 - Configure Notifications
 
@@ -41,9 +42,13 @@ Send survey invites and reminders between the times that you select. Your organi
 > [!IMPORTANT]
 > Viva Glint can successfully process 10,000 - 15,000 surveys and email invites per hour. Factor in these processing limitations and the number of employees in your distribution list when selecting a delivery window. 
 >
-> For example, if your organization plans to send invites to 100,000 employees, extend your delivery window to ten hours to allow all emails to deliver on the survey start day.
+> For example, if your organization plans to send invites to 100,000 employees, extend your delivery window to 10 hours to allow all emails to deliver on the survey start day.
 >
-> For very large organizations and distribution lists (more than 250,000 employees), some emails may be pushed to the following day.
+> For large organizations and distribution lists (more than 250,000 employees), some emails may be pushed to the following day.
+
+## Channels
+
+When Microsoft Teams is enabled for Viva Glint notifications, choose to send survey invites and reminders in emails or also in Teams. [Learn more](glint-teams.md).
 
 ## Email Settings
 
@@ -69,11 +74,11 @@ The following sections display as setup actions and each field can be edited by 
 
 Select **Survey Start** to activate the **Survey Invitation** slider window.
 
-Check **Send notification** to ensure that the send date is correct.
+Check **Send notification** to ensure that the date is correct.
 
 ### Disabling the survey invitation
 
-If you want to include content that the Viva Glint platform doesn't support - like URLs, HTML, images, or  videos - toggle the **Send Notifications** setting to **Off** and use your own email service for survey notifications.
+If you want to include content that Viva Glint emails don't support - like links, HTML, images, or videos - toggle the **Send Notifications** setting to **Off** and use your own email service for survey notifications.
 
 > [!TIP]
 > Always send your organization a survey invite! Participation is essential for uncovering useful feedback.
@@ -85,7 +90,7 @@ If you want to include content that the Viva Glint platform doesn't support - li
 To encourage users to participate, use the first, second, third, and final reminder email templates during the survey window.
 
 > [!NOTE]
-> Survey takers only receive reminders if they haven't completed their survey. 
+> Survey takers only receive reminders when their surveys aren't completed. 
 
 Use the **Pencil** symbol to open the window and then:
 
@@ -118,7 +123,7 @@ To set up the results notification email:
 1. Select the **Edit & Preview** option on the **Survey End** email.
    - This email is turned off by default.
 1. In the edit pane that appears, switch **Send notification** to **On**.
-2. In the **Send** field, enter a number of days after survey end date to send the email.
+2. In the **Send** field, enter days after the survey end date to send the email.
    - The default is three (3) and the maximum is 30 days.
 2. Select **Save Changes** in the top right of the edit pane.
 

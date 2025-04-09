@@ -186,9 +186,9 @@ items:
               href: advanced/analyst/templates/manager-effectiveness.md
             - name: Meeting effectiveness
               href: advanced/analyst/templates/meeting-effectiveness.md
-            - name: Microsoft 365 Copilot adoption report
+            - name: Copilot adoption report
               href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
-            - name: Microsoft 365 Copilot impact report
+            - name: Copilot impact report
               href: advanced/analyst/templates/microsoft-365-copilot-impact.md
             - name: Copilot for Sales adoption report
               href: advanced/analyst/templates/copilot-for-sales-adoption.md   
@@ -252,9 +252,9 @@ items:
           href: advanced/admin/manage-settings-copilot-dashboard.md
         - name: Set up analyst queries using Microsoft 365 Copilot in Viva Insights 
           href: advanced/analyst/copilot-query.md
-        - name: Microsoft 365 Copilot adoption report
+        - name: Copilot adoption report
           href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
-        - name: Microsoft 365 Copilot impact report
+        - name: Copilot impact report
           href: advanced/analyst/templates/microsoft-365-copilot-impact.md
         - name: Copilot for Sales adoption report
           href: advanced/analyst/templates/copilot-for-sales-adoption.md   

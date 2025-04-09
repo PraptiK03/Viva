@@ -42,7 +42,7 @@ Connections is composed of three main components – the [dashboard, the feed, a
 
 > [!NOTE]
 >
-> An update is planned for Q1 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
+> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
 
 - **Feed**: Found on its own tab, the feed gives users a constant stream of organizational and industry news, information from colleagues they frequently collaborate with, insights from their meetings and other information.
 

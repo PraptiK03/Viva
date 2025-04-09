@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 10/29/2024
+ms.date: 4/7/2025
 title: Import organizational data from Workday
 description: Learn how to set up a connection and import your data from Workday to the Viva Insights advanced insights app
 author: zachminers
@@ -31,8 +31,8 @@ This article talks about the fourth option: importing data through a Workday con
 
 Before you can set up a connection between Workday and Viva Insights, you'll need the following information about your Workday environment from your Workday admin:
 
-* Tenant name
-* Subdomain
+* Workday web services URL
+* Token URL
 * Username
 * ClientID
 * Complete steps within Workday described in later section
@@ -53,7 +53,7 @@ If this isn’t the first time you’re importing data from Workday, jump to [Fo
     2. The Authorization type is pre-selected to be **OAuth with client credential**.
     3. Contact your Workday admin to complete the steps in Workday described below.
     4. Under **Import organizational data from Workday**, select **Download certificate**. A x509 certificate file will download called "publicKey.pem." Open the file in a text editor and copy its contents. Share this with the Workday admin.
-    5. Enter the Workday **Tenant name**, **subdomain**, and **ClientID** provided by the Workday admin.
+    5. Enter the Workday **Web services URL**, **Token URL**, and **ClientID** provided by the Workday admin.
     6. For **username**, enter the name of the ISU created by the Workday admin.
     7. Select how frequently you want Workday to send data to Viva Insights: weekly or monthly.
     8. Read the acknowledgment note and select **Accept**.
@@ -92,7 +92,7 @@ If this isn’t the first time you’re importing data from Workday, jump to [Fo
     3. For **Domain Security Policy**:  
         1. Add **Worker Data: Public Worker Reports**
         2. Add **Worker Data: Organization Information**
-        3. Add **Worker Data: Private Work Email Integration**
+        3. Add **Person Data: Private Work Email Integration**
         4. Add **Worker Data: Current Staffing Information**
 
         :::image type="content" source="../images/org-data-workday-06.png" alt-text="Screenshot of the page to add domain security policies.":::
@@ -130,8 +130,8 @@ If this isn’t the first time you’re importing data from Workday, jump to [Fo
 
 4. A few new fields should populate below **Restricted to IP Ranges**. Save the following information and share them with the Insights admin to enter in Viva Insights:
     1. "ClientID"
-    2. The first segment of the Workday REST API Endpoint, between "https://" and "workday.com." This is your Workday subdomain name.
-    3. The last segment of the Workday REST API Endpoint. This is your Workday Tenant Name.
+    2. Your Workday Token URL, such as “https://wd3-impl-services1.workday.com/ccx/oauth2/contoso4/token.”
+    3. Your Workday web services URL, such as “https://wd3-impl-services1.workday.com/ccx/service/contoso4.”
 
 
 ## For subsequent imports
@@ -146,7 +146,7 @@ In the advanced insights app's admin experience, go to either the **Data hub** o
 
 You’ll arrive at the **Edit Workday connection** page.
 
-1. Enter your workday credentials: tenant name; subdomain; username; and ClientID.
+1. Enter your workday credentials: web services URL; Token URL; username; and ClientID.
 
 2. If you want to turn on or off Workday’s ability to send data to Viva Insights, select or clear the **Enabled** checkbox.
 
@@ -175,8 +175,8 @@ The following table shows how Workday fields correspond to Viva Insights fields.
 | Date of upload | EffectiveDate |
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`| LevelDesignation
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.jobFamilyReference.ID`|FunctionType
-|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|Layer
-|[No mapping from Workday]	| HourlyRate
+| [No mapping from Workday]	|Layer
+| [No mapping from Workday]	| HourlyRate
 `responseData.worker.workerData.employmentData.workerStatusData.hireDate`|	HireDate
 |[No mapping from Workday]	|SupervisorIndicator
 |[No mapping from Workday]	| OnsiteDays

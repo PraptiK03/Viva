@@ -29,7 +29,7 @@ Each user’s experience will look different because content displayed in the we
 
 > [!NOTE]
 >
-> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
+> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
 
 For more information on how content is displayed, see the section in this article on [where content in the Feed comes from](/viva/connections/faqs-viva-connections-feed#where-does-content-in-the-feed-come-from).
 

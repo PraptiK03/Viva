@@ -1,5 +1,5 @@
 ---
-ms.date: 08/07/2023
+ms.date: 04/02/2025
 title: "Cross-collaboration: Group-to-group query"
 description: Learn how to run a custom cross-collaboration query for collaboration between two groups in your organization
 author: zachminers
@@ -59,7 +59,7 @@ Select **Collaboration between two groups in your organization** to create a gro
 
 ### Add metrics, filters, and employee attributes
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda0]
+> [!VIDEO 99ddedd4-ee46-4f08-8fc0-228101a74e9b]
 
 1. Under **Add metrics**, select the **Add metrics** button, then pick metrics from the **Select metrics** pane. 
 1. When you're done picking metrics, select **Add to query**.

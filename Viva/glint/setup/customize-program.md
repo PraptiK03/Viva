@@ -23,7 +23,7 @@ Use prepopulated or blank templates to set up your feedback program. Customize a
 
 ## Watch this 5-minute video on Best Practice Survey Design Principles
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17rE8]
+> [!VIDEO 63483b8b-6189-49dc-bf1e-835f9e2e85dc]
 
 A well-designed survey asks questions that are relevant to the employee experience, aligns with your company's strategic priorities, and elicits candid and actionable feedback. Learn what the Microsoft Viva People Science research has to share about creating a great survey. [Read this eBook about Viva Glint survey design principles](https://adoption.microsoft.com/files/viva/glint/Survey-design-principles-with-Microsoft-Viva-Glint.pdf).
 

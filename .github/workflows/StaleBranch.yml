@@ -5,21 +5,22 @@ permissions:
       
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 9 1 * *"
 
-  workflow_dispatch:
+  # workflow_dispatch:
   
 
 jobs:
 
   stale-branch:
-    uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-StaleBranch.yml@workflows-test
+    if: github.repository_owner == 'MicrosoftDocs'
+    uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-StaleBranch.yml@workflows-prod
     with:
         PayloadJson: ${{ toJSON(github) }}
         RepoBranchSkipList: '[
                               "ExampleBranch1",
                               "ExampleBranch2"
                              ]'
-        ReportOnly: true
+        ReportOnly: false
     secrets:
         AccessToken: ${{ secrets.GITHUB_TOKEN }}

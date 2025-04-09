@@ -29,7 +29,7 @@ Viva Insights includes the [advanced insights app](https://go.microsoft.com/fwli
 
 As an analyst, the **Analysis** page is your jumping-off point to view recent queries and templates, find documentation and other help, run a custom query, or run a predefined Power BI query.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l9e5]
+> [!VIDEO 1ecc3fb9-aad1-48f3-bb8c-7ab93524219b]
 
 Copilot can also help you choose a Power BI report or query type, and simplify the report building process by suggesting the best metrics and filters. [Learn more](./analyst/copilot-query.md).
 

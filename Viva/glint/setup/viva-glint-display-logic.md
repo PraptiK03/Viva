@@ -37,7 +37,7 @@ Display Logic can be applied based on:
 From the admin dashboard, go to the survey you want to edit. Set up Display Logic in the **Questions** section in **Program Summary**.
 
 Learn more about how to set up Display Logic with this video and the guidance in this article:
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1jZyp]
+> [!VIDEO 87f89633-4e82-4f25-bd57-d372966e0ae5]
 
 1. Arrange your survey items in the order you want them before adding Display Logic.
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 02/10/2025
+ms.date: 03/14/2025
 title: Microsoft 365 Copilot adoption report
 description: Learn how to use the Microsoft 365 Copilot adoption Power BI template to understand Copilot employee usage across an organization.
 author: zachminers
@@ -48,6 +48,8 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 * Have Microsoft 365 Copilot licenses and Microsoft Viva Insights licenses assigned to the employees you would like to include as part of your measured population.
 
 ## Report setup
+
+For detailed scenario-based guidance on how to set up an analysis tailored to your organization, refer to our [analyst toolkit playbook](https://aka.ms/CopilotAdvancedAnalytics).
 
 ### Run query
 
@@ -182,5 +184,6 @@ View this report's metric definitions.
 
 ### Related topics
 
-- [Access query results and modify existing queries](../query-results.md)
-- [Filters](../filters.md)
+* [Copilot analytics playbook](https://aka.ms/CopilotAdvancedAnalytics)
+* [Access query results and modify existing queries](../query-results.md)
+* [Filters](../filters.md)

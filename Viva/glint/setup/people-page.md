@@ -1,12 +1,12 @@
 ---
-title: Use Viva Glint's People page to view employee information
-description: "The People page on the dashboard allows Viva Glint admins to view employee attributes, manage permissions and roles, and deactivate employees."
+title: Use Viva Glint's People feature 
+description: The People page on the dashboard allows admins to view employee attributes, manage permissions, roles, and status."
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: Employee Attribute File, data file, derived attributes, optional attributes, hierarchy groups, All People functionality, User Roles functionality
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,115 +14,124 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/16/2025
+ms.date: 03/25/2025
 ---
 
-# Use Viva Glint's People page to view employee information
+# Use Viva Glint's People feature 
 
 The People page functionality allows admins to view employee attributes, manage permissions and roles, and deactivate employees. 
 
-The  **People** section is accessed from the  **Employees** section on the admin dashboard and allows admins to: 
+The  **People** section is accessed from the **Employees** section on the admin dashboard and allows admins to: 
 
 - View individual employee data  
 - Manage positions by assigning User Roles 
 - Manage employment status 
 - Import an employee file 
-- Export a file of active employees 
+- Export a file of active employees
 
-## Use the filter feature   
+ :::image type="content" source="../../media/glint/setup/people-tile.png" alt-text="Screenshot of the People tile on the admin dashboard.":::
 
-Employees are filtered according to active or inactive status and User Role. 
-
-### All People  
+## Use the All People functionality
 
 A count of present and past employees, listed by: 
 
-- Active: Working within your organization presently 
-- Inactive: No longer work within your organization or are currently on leave
-- Support Users: External users added by your organization to provide assistance
-- Advanced Configuration Access: Company Admin users with access to Advanced Configuration
+- **Active:** People working within your organization presently. 
+- **Inactive:** People no longer in your organization. They may also be on leave.
+- **Support Users:** Outside users added by your organization to provide assistance.
+- **Advanced Configuration Access:** Company Admin users with access to Advanced Configuration
 
-### User Roles 
+## Use the User Roles functionality
 
-A count of company admins, managers, Human Resource Business Partners (HRBPs), and HR business partners listed by User Roles. 
+A count of company admins, managers, Human Resource Business Partners (HRBPs), and HR business partners listed by User Roles. Select the role to view only employees in that position.
 
-## Find information on a specific person 
+:::image type="content" source="../../media/glint/setup/people-functionality.png" alt-text="Screenshot of the All People and User Roles column on the People feature.":::
 
-Use one of the two following methods: 
+## Other functionality
 
-- Begin to type the name of the employee in the search bar. When the name appears, select the name.   
-- Scroll down the alphabetized list of names. With hundreds or thousands of employees, this method isn't as efficient! 
+:::image type="content" source="../../media/glint/setup/people-additional-functionality.png" alt-text="Screenshot of the import, export, and actions buttons on the People feature.":::
 
-For each employee, the following information is visible: 
+### Use the Import feature
 
-- **Employee Name**: Editable by admin by selecting the pencil symbol. 
-- **Email**: Editable by admin by selecting the pencil symbol. 
-- **Employee ID**: Not editable. 
-- **Manager Hierarchy**: The organization’s highest-ranking employee (generally the CEO) is listed first. The hierarchy progresses downward, following the organizational chart flow, ending with the employee’s immediate manager. Not editable. 
-- **User Role**: Determines what data and people for whom this user has visibility. Editable by selecting the **pencil** symbol. 
-- **Attributes and hierarchies** (aside from the primary hierarchy, usually Manager): As defined in your organization’s latest Employee Data File. The Attributes section of an individual’s People page always includes required attributes (like Employee ID) and then customized attributes, as defined in your Employee Data File. 
+To import into Glint, choose the attribute dataset. Follow the in-platform guidance for one of these three options to complete your report:
+- Attribute update
+- Edit employee list and details
+- Employee ID updates
 
-For employees with User Roles in addition to Active Employees, this editable information shows: 
+:::image type="content" source="../../media/glint/setup/people-import.png" alt-text="Screenshot of the import functionality on the People feature.":::
 
-- **Focus Area Access**: Defines which people's data this user sees in Focus Area reports. Editable by selecting the **pencil** symbol.  
-- **Survey Acces**s: Defines which people's data this user can see in selected survey programs. Editable by selecting the **pencil** symbol.
+#### Attribute updates
 
->[!CAUTION]
-> Viewing and exporting raw data are governed by Microsoft rules protecting employee confidentiality. Review the guidance on [raw data exports](https://go.microsoft.com/fwlink/?linkid=2239587) within our Security and Privacy documents.
+Choose the **Attribute update** tile to update your existing schema with new attributes. Follow the in-platform 5-step guidance.
 
-## Use the View As function 
+:::image type="content" source="../../media/glint/setup/people-5-step-import.png" alt-text="Screenshot of the 5-step data import process.":::
 
-The **View As** functionality allows you to open your Glint program as if you were another employee. You can view another user’s dashboard based on their User Role and data access.
+#### Edit employee list and details
 
-**To view as another person**: 
+To add new users or to modify employee records in bulk, upload full or incremental employee data files. Use CSV or XLSX format. Employee information isn't altered during a live survey.
 
-1. Locate the person you want to view as and open their page by hovering over and selecting their name. 
+:::image type="content" source="../../media/glint/setup/people-import-bulk.png" alt-text="Screenshot of the Import employee list and details dialog box.":::
 
-1. Select  **View As**. 
+#### Import employee ID updates
 
-1. The dashboard indicates **You are seeing `<other person name>` Viva Glint experience.** 
+Upload your data file in a CSV or XLSx format. Follow the guidelines for column headers.
 
-To return to your own account, select  **Return to your account**. 
+:::image type="content" source="../../media/glint/setup/people-id-updates.png" alt-text="Screenshot of the Import employee ID updates dialog box.":::
 
-## Use the Actions function 
+### Use the Export feature
 
-The Actions button dropdown menu allows you to send surveys, send user data, and delete users.
+Select the employee list to export from the **All People** or **User Roles** column. In this example, we chose **Company Admin.** A dialog box opens, allowing you to chose how you would like your export formatted. Toggle as desired and then select **Export.**
 
-### Send Survey 
+:::image type="content" source="../../media/glint/setup/people-export.png" alt-text="Screenshot of the Export Company Admin dialog box.":::
 
-You can send a survey to one employee (manually) from the People page. Use the Actions button and then  **Send Survey**. 
+### Use the Actions menu
 
->[!IMPORTANT]
->You'll need to send a survey manually when an employee wasn't part of the Distribution List for that survey during the initial send but should now receive the survey.
->
->A Distribution List is a snapshot in time, so any employee who becomes eligible for a survey after its initial send requires a manual invite. Add them to the Distribution List thereafter, and upload the new Employee Attribute File to Viva Glint.
+The dropdown menu makes these two features available:
 
-- Enabled and live surveys are displayed. Select the survey to send.  
+- Manager user attributes
+- Add a support user
 
-   > [!NOTE]
-   >A survey won't appear if it's not enabled or live. Go back into the program to re-enable or change the date of the survey, noting that it takes a few minutes for a survey to become live.
+#### Manage user attributes
 
-- Select **Send**.
+Your **Employee data file** opens, showing the current attributes that Glint expects in your Employee Attribute File. Rename as needed. You can also view derived attributes, optional system attributes, and hierarchy groups.
 
-### Send User Data
+To add new attributes, upload a new data file by navigating to **Settings** > **People** > **Import** > **Attribute updates**
 
-Send a user's survey response and attributes directly to a user, without viewing data. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230875).
+:::image type="content" source="../../media/glint/setup/people-data-file.png" alt-text="Screenshot of the Employee Data File window.":::
 
-### Delete User
+##### Manage Active Attributes
 
-Delete a user from Viva Glint. [Learn more](https://go.microsoft.com/fwlink/?linkid=2236554).
+Derived attributes are fields calculated from specific attributes shared with Glint. They appear as available filters in your reports.
 
-## Import your Employee Data File 
+Use the ellipses in the **User Attribute** row to select **Edit attribute**. In the **Edit Attribute** dialog box, update the attribute name and manage who can see reporting for this attribute. Select **Save.**
 
-Use the **Import** button on the People page to import a *.csv* (UTF-8 or UTF-8 with BOM encoded) or an *xlsx* (single tab) file to update employee details.
+:::image type="content" source="../../media/glint/setup/people-edit-attribute.png" alt-text="Screenshot of the Edit Attribute dialog box.":::
 
-Follow the on-screen guidance for uploading the file and then select  **Import File**. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230742).
+##### Manage Derived Attributes
 
-   > [!NOTE]
-   >If you upload a user file during a live survey, employee information won't be altered for that survey. 
+Select the **Manage derived attributes** button to select which derived attributes are available as filters in your reports. **Save changes.**
 
-## Export an Active Employees report 
+:::image type="content" source="../../media/glint/setup/people-derived-attributes.png" alt-text="Screenshot of the live Derived Attributes window.":::
 
-To make changes to an employee file, it's often easier to start with what's in the system first. Exporting from within the system, making changes, and then reimporting begins in the Export feature. 
+##### Manage Optional System Attributes
 
-Select **Export** and then follow the on-screen guidance.
+Optional system attributes are fields which can be mapped to a time zone, language, or personal email shared with Glint.
+
+Select the **Manage optional system attributes** button to select which optional attributes are available as filters in your reports. **Save changes.**
+
+###### Manage Hierarchy Groups
+
+A hierarchy filters an employee's attributes into levels from highest to lowest, or largest to smallest. The filter provides precise insights into a survey. Define a location hierarchy, such as Region > Country > City, or a department hierarchy, such as Business unit > Department > Team. You can also create a custom hierarchy. 
+
+**Hierarchy groups can only be created during initial schema setup.**
+
+## Other resource
+
+[Find information on a specific person using the People feature](/viva/glint/setup/viewing-employee-info).
+
+
+
+
+
+
+
+

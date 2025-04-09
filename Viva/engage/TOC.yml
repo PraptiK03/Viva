@@ -22,6 +22,8 @@
        href: /viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage
    - name: Setup and administration
      items:
+     - name: Access admin center for any Viva Engage deployment
+       href: admin-howto-access-admin-center-in-ve.md
      - name: Viva Engage admin center overview 
        href: eac-overview.md
      - name: Key concepts for Engage admins

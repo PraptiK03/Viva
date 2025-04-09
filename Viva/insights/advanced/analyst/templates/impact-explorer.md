@@ -1,5 +1,5 @@
 ---
-ms.date: 05/12/2023
+ms.date: 04/1/2025
 title: Impact explorer Power BI report
 description: Estimate the impact Viva Insights can make in your organization
 author: zachminers

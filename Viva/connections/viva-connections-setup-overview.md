@@ -44,8 +44,8 @@ Use [Connections](viva-connections-overview.md) to create experiences that engag
 - Get guidance for change management, adoption, and end-user training.
 
 > [!NOTE]
-> 
-> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
+>
+> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
 
 ## Step-by-step guidance to provision Viva Connections
 

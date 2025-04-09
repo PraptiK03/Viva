@@ -1,5 +1,5 @@
 ---
-ms.date: 06/30/2023
+ms.date: 04/1/2025
 title: Cross-collaboration
 description: Learn about cross-collaboration queries
 author: zachminers
@@ -24,4 +24,4 @@ Or, to analyze how individuals collaborate with groups, refer to [person-to-grou
 
 You can also analyze how groups invest their time and collaborate with other groups, through [group-to-group queries](./cross-collaboration-g2g.md).
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lkwJ]
+> [!VIDEO 51fa3d5a-60c6-4caf-93da-ac2d42c2ebb0]

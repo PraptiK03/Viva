@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Copilot in Viva Glint chatbot, Copilot in Viva Glint manager tips, comment summarization for specific topics
+keywords: Viva Glint manager feedback, comment summarization for specific topics, manager resources, manager feedback report training
 ms.collection:  
 - m365initiative-viva
 - selfserve
@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/29/2025
+ms.date: 4/09/2025
 ---
 
 # How managers use Microsoft 365 Copilot in Viva Glint 
@@ -24,11 +24,12 @@ ms.date: 1/29/2025
 Managers with Microsoft 365 Copilot in Viva Glint have access to comment summarization. Managers see comments bundled by common subject matter, easily identifying themes and guidance to explore in [ACT conversations](/viva/glint/reports/take-action-team-conversations).
 Copilot in Viva Glint suggests items that are relevant to your data set and helps you explore and dig deeper. In-platform prompts provide multiple options for generating data summaries.
 
-Share this guidance with your managers:
+>[!TIP]
+>To help your managers analyze feedback comments, we created this [Manager Guide for Copilot in Viva Glint](/viva/glint/setup/copilot-manager-quick-guide). It's formatted to print vertically as a PDF on 8.5 x 11 paper. Click anywhere on the page and select **Print**. From your printer window, in the dropdown menu, select **Save as PDF**. Select **Save**. Now share the resource within your organization.
 
 ## Look at the big picture before using Copilot in Viva Glint
 
-Use your Glint [Team Summary dashboard](/viva/glint/reports/managers-use-team-summary-dashboard) to review the data collected from your most recent survey. Look at the [Top Strengths and Top Opportunities](/viva/glint/reports/managers-use-team-summary-dashboard) for your team, as well as the other summaries on your dashboard. 
+Use your Glint [Team Summary dashboard](/viva/glint/reports/managers-use-team-summary-dashboard) to review the data collected from your most recent survey. Look at the [Top Strengths and Top Opportunities](/viva/glint/reports/managers-use-team-summary-dashboard) for your team and the other summaries on your dashboard. 
 
 There are two different experiences:
 
@@ -67,17 +68,16 @@ Use these tips to understand and act on employee feedback quickly:
 |Keep queries to Glint data|Copilot in Viva Glint doesn’t access data beyond what is in your dashboard.
 |Be specific on your prompt wording|The more detailed your prompt, the more likely Copilot in Viva Glint accurately interprets the intent. 
 
-> [!IMPORTANT]
-> For the most relevant summary results, include specific question titles, demographic attributes, prescriptive comments, or any other available Glint report filters in your Copilot in Viva Glint prompt.
+> [!TIP]
+> For the most relevant summary results, include specific question/item titles, demographic attributes, prescriptive comments, or any other available Glint report filters in your Copilot in Viva Glint prompt.
 
 ## Examples of using Copilot in Viva Glint after the initial use
 
-There are two overarching ways to use Copilot in Viva Glint:
+There are two different ways to use Copilot in Viva Glint:
 
-- **Copilot in Viva Glint functions as a chatbot**. This instance opens a Copilot in Viva Glint pane to the right of the window currently open and slides the open window to the left.
-- **Copilot in Viva Glint is embedded within the existing reporting flow**. Within a report, a new window opens, partially covering the current window.
+### Enable Copilot in Viva Glint to work as a chatbot
 
-## Enable Copilot in Viva Glint to work as a chatbot
+This instance opens a Copilot in Viva Glint pane to the right of the window currently open and slides the open window to the left.
 
 **The Copilot button opens a pane on the right side of your screen, which functions as a chatbot.** Use prescribed prompts or key in your own prompt.
 
@@ -99,9 +99,9 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
    :::image type="content" source="../../media/glint/reports/copilot-up-to-8000.png" alt-text="Screenshot of a Copilot in Viva Glint summary.":::
 
-2. Use the **View Prompt Guide** menu to display more prompts, or key in your own question in the box provided.
+2. Use the **View Prompt Guide** menu to display more prompts, or key in your own question in the box provided. Choose from *Summarize comments,* *Prompt writing tip,* and *Explore more with Copilot.*
 
-   :::image type="content" source="../../media/glint/reports/copilot-prompt-guide.png" alt-text="Screenshot of the question box in Copilot." lightbox="../../media/glint/reports/copilot-prompt-guide.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-enable-1.jpg" alt-text="Screenshot of the question box in Copilot.":::
 
    > [!NOTE]
    > Use the **Send us feedback** link to request more Copilot capabilities.
@@ -119,11 +119,11 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
    :::image type="content" source="../../media/glint/setup/copilot-filters.png" alt-text="Screenshot of how to access comment filters." lightbox="../../media/glint/setup/copilot-filters.png":::
 
-## Use Copilot in Viva Glint to view specific comments 
+### Use Copilot in Viva Glint within the existing reporting flow
 
-In many reports, you have the option to see comments and drill down into them with Copilot in Viva Glint. **In this instance, Copilot in Viva Glint is embedded within the existing reporting flow.**  
+In reports with comments, you can drill down into them with Copilot in Viva Glint. In this instance, Copilot in Viva Glint is embedded within the existing reporting flow and opens a new window over the current report.
 
-Follow this procedure to view a specific set of comments and summarize them using Copilot in Viva Glint. This procedure works for any option to see comments when Copilot is enabled:
+Follow this procedure to view a specific set of comments and summarize them. This procedure works for any option to see comments, provided Copilot is enabled:
 
 1. From the Glint dashboard, select **Reports**.
    
@@ -154,7 +154,7 @@ Follow this procedure to view a specific set of comments and summarize them usin
 
 1. Review your summary and select the **Copy** symbol to save it.
 
-	 :::image type="content" source="../../media/glint/reports/copilot-copy-image.png" alt-text="Screenshot of the Copilot copy symbol.":::
+    :::image type="content" source="../../media/glint/reports/copilot-copy-image.png" alt-text="Screenshot of the Copilot copy symbol.":::
 
 ## Copilot in Viva Glint use in other Glint reports
 
@@ -169,7 +169,7 @@ Here are a few ideas of how to use Copilot in Viva Glint in reports:
 - In Team Summary:
   - Summarize by Top Strengths or Top Opportunities
   - Summarize by Key Outcome
-  -Summarize by team or demographic
+  - Summarize by team or demographic
 
 - In the Heat Map Report:
   - Summarize your data by managerial or organizational hierarchy.
@@ -188,15 +188,13 @@ Our evaluation process incorporates feedback from early adopters and customers. 
 
 Allow your leaders to give feedback by enabling feedback. **The feedback feature must be set for your organization by the Microsoft 365 Global Administrator.** Enablement occurs within Policy Management in the Microsoft 365 Apps Admin Center. Without this feature enabled, leaders don't have access to provide feedback.
 
-We suggest enabling:
+We suggest enabling **Allow users to submit feedback to Microsoft**:
+- Allow users to include screenshots and attachments when they submit feedback to Microsoft.
+- Allow users to include log file and relevant content samples when feedback is submitted to Microsoft.
 
-- **Allow users to submit feedback to Microsoft**:
-  - Allow users to include screenshots and attachments when they submit feedback to Microsoft.
-  - Allow users to include log file and relevant content samples when feedback is submitted to Microsoft.
+Users see this image:
 
-   Users see this:
-
-   :::image type="content" source="../../media/glint/reports/copilot-give-feedback.png" alt-text="Screenshot of how to share Copilot feedback with Microsoft.":::
+:::image type="content" source="../../media/glint/reports/copilot-give-feedback.png" alt-text="Screenshot of how to share Copilot feedback with Microsoft.":::
 
 ## More feedback resources
 

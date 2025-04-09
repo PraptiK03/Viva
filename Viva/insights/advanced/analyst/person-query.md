@@ -41,7 +41,7 @@ To run a person query, you'll follow five basic steps:
 
 In this article, we talk about how to complete each of these steps, and also give some important background information about how metrics, conditions, and attributes work.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lhYM]
+> [!VIDEO c85598e6-46f2-4833-b713-76f2e07a0c8c]
 
 ## Set up your query
 
@@ -74,7 +74,7 @@ Under **Query setup**:
 
 *Section: **Select metrics for what you want to know about your employees***
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda0]
+> [!VIDEO 99ddedd4-ee46-4f08-8fc0-228101a74e9b]
 
 1. Under **Select metrics for what you want to know about your employees**, select the **Add metrics** button.
 
