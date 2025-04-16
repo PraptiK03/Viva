@@ -1,11 +1,11 @@
 ---
 title: "Manage data in the Viva Engage admin center"
 description: "Describes where and how admins can manage data in the Viva Engage admin center."
-ms.reviewer: davidchang
+ms.reviewer: cferancik
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
-ms.date: 03/12/2025
+ms.date: 04/15/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -65,6 +65,8 @@ The data export contains the following files:
    | **log.txt** | Summary of the export |
    | **request.txt** | Parameters of the export |
    | **Admins.csv** | Lists current admins, their email addresses, and corresponding roles <br>For more information on the types of admins in Viva Engage, see [Manage admin roles in Viva Engage.](/viva/engage/eac-key-admin-roles-permissions) |
+   |**EngageTopicMigrationLog.csv**|A list of topics migrated or not imported from Viva Topics or from lightweight topics to Viva Engage. **Properties include:** Cortex_topic_ID, migrated_at, migrated_action|
+   |**EngageTopicApplicationMigrationLog.csv**|A list of topic applications not imported from Viva Topics or from lightweight topics to Viva Engage. **Properties include:** Cortex_topic_id, target_id, target_type, migrated_at, migration_action|
    | **Answers.csv** | Lists the ID, messageId, networkId, threadId, voterID, and the updatedAt timestamp of Answer Votes |
    | **Campaigns.csv**| Provides data for campaigns including hashtag, creation date, state, and so on. The scope_type attribute distinguishes official (network) campaigns versus community (group) campaigns. The scope_id attribute identifies the network or community that hosted the community campaign. Find more campaign details about the network or community in the networks.csv file or the groups.csv file. |
    | **Networks.csv** | Information about your home network and any external networks:<br>- Name<br>- URL<br>- Creation date<br>- Number of users<br>- Whether it’s moderated or has a usage policy. |
