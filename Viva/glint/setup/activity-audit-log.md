@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/15/2025
+ms.date: 04/16/2025
 ---
 
 # Viva Glint Activity Audit Log
@@ -86,7 +86,7 @@ For more detailed views of user sign-in activity in Viva Glint, Entra admins hav
 Use [Microsoft Purview](/purview/purview) to view and audit additional Viva Glint platform activity. Check with your Microsoft 365 Global Admin to confirm which admin users in your organization [have access to view logs](/purview/purview-permissions). For information specific to Viva Glint schema and audit log activities, see:
 
 - [Viva Glint schema](/office/office-365-management-api/office-365-management-activity-api-schema#viva-glint-schema)
-- [Viva Glint Audit log activities](/purview/audit-log-activities)
+- [Viva Glint Audit log activities](/purview/audit-log-activities#viva-glint-activities)
 
 ## Related resources
 

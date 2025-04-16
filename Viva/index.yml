@@ -12,7 +12,7 @@ metadata:
   ms.topic: hub-page # Required
   author: loreenl #Required; your GitHub user alias, with correct capitalization.
   ms.author: loreenl #Required; microsoft alias of author; optional team alias.
-  ms.date: 08/08/2024 #Required; mm/dd/yyyy format.
+  ms.date: 04/16/2025 #Required; mm/dd/yyyy format.
   ms.custom: intro-hub-or-landing
   ms.collection:
     - essentials-navigation
@@ -23,20 +23,21 @@ highlightedContent:
   items:
     # Card
     - title: Learn how to use the Microsoft Viva suite
-      itemType: get-started
+      itemType: overview
       url: microsoft-viva-overview.md
+    # Card
+    - title: Microsoft 365 Copilot in Microsoft Viva
+      itemType: overview
+      url: /viva/copilot/viva-copilot-overview
     # Card
     - title: Microsoft Viva community
       itemType: whats-new
       url: https://techcommunity.microsoft.com/t5/welcome-to-the-microsoft-viva/ct-p/Microsoft-Viva
     # Card
-    - title: Introducing Microsoft Viva
+    - title: Microsoft Viva adoption
       itemType: overview
-      url: https://www.microsoft.com/microsoft-viva/overview
-    # Card
-    - title: Copilot in Microsoft Viva
-      itemType: whats-new
-      url: /viva/copilot/viva-copilot-overview
+      url: https://adoption.microsoft.com/en-us/viva/
+
 
 # tools section (optional)
 tools:
@@ -91,24 +92,18 @@ additionalContent:
     - title: Create an engaged and productive workforce # < 60 chars (optional)
       items:
         # Card
-        - title: Copilot in Viva
-          summary: Empower people to be smarter, more productive, more creative, and connected to the people and things around them.
-          url: /viva/copilot/viva-copilot-overview
-
         - title: Employee communications and communities
           summary: Modernize how you communicate and engage with employees with Viva Connections, Viva Engage, and Viva Amplify. 
           url: /viva/experience-connection
+        # Card
         - title: Microsoft Viva workplace analytics and employee feedback
           summary: Transform employee feedback and insights into impact with Viva Insights, Viva Glint, and Viva Pulse.
           url: /viva/experience-insight
         # Card
-        - title: Goal setting and management
-          summary: Align people’s work to team and organizational goals with Viva Goals.
-          url: /viva/experience-purpose
-        # Card
         - title: Learning and knowledge management
           summary: Help your workforce learn, grow, and succeed with Viva Learning.
-          url: /viva/experience-growth
+          url: /viva/learning/overview-viva-learning
+
     - title: Key resources  # < 60 chars (optional)
       items:
 
@@ -133,30 +128,17 @@ additionalContent:
             url: https://support.microsoft.com/topic/introducing-viva-pulse-34c94efe-185d-480e-94a2-27e013a5204b
 
         # Card
-        - title: Learning paths
-          links:
-            - text: Get started with Microsoft Viva Connections
-              url: /training/paths/viva-connections-get-started/
-            - text: Introduction to Viva Insights
-              url: /training/paths/m365-workplace-analytics-start/
-            - text: Introduction to Viva Glint
-              url: /viva/glint/introduction-viva-glint
-            - text: Get started with Viva Goals
-              url: /training/paths/viva-goals-get-started
-            - text: Become an OKR Champion with Viva Goals
-              url: /training/paths/okr-leadership/
-            - text: Introduction to Viva Learning
-              url: /training/modules/viva-learning-introduction/
-
-        # Card
         - title: Copilot in Viva
           links:
-            - text: Set up Copilot in Viva Engage
-              url: /viva/engage/configure-copilot-for-engage
-            - text: Enable Copilot in Viva Goals
-              url: /viva/goals/copilot-intro
+
+            - text: Overview of Copilot in Microsoft Viva
+              url: /viva/copilot/viva-copilot-overview
+            - text: Control access to Copilot in Microsoft Viva
+              url: /viva/copilot/copilot-access-management
             - text: Connect to the Microsoft 365 Copilot Dashboard in Viva Insights
-              url: /viva/insights/org-team-insights/copilot-dashboard       
+              url: /viva/insights/org-team-insights/copilot-dashboard
+            - text: Set up Copilot Academy
+              url: /viva/learning/academy-copilot       
 
         # Card
         - title: Adoption
@@ -165,15 +147,17 @@ additionalContent:
               url: https://adoption.microsoft.com/viva/
             - text: End user resources
               url: https://support.microsoft.com/viva
-            - text: Tech community
-              url: https://techcommunity.microsoft.com/t5/microsoft-viva/ct-p/MicrosoftViva
- 
+             
         # Card
         - title: Extensibility
           links:
-            - text: Viva Connections
+            - text: Build apps for Microsoft Viva
+              url: https://developer.microsoft.com/en-us/viva
+            - text: Extend Viva Connections
               url: /sharepoint/dev/spfx/viva/overview-viva-connections
-        
+            - text: Integrate with Viva Learning
+              url: /graph/api/resources/viva-learning-api-overview?view=graph-rest-1.0
+                     
         # Card
         - title: Troubleshooting
           links:

@@ -90,15 +90,12 @@ This section breaks down usage data across the types of devices and apps used to
 
 > [!NOTE]
 >
-> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
+> The news reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers across all devices by the end of April 2025.
 
 - **Total views by apps and devices**: Includes views for desktop, web, and mobile usage.
-- **Engaged users by component**: Includes number of engaged users for the Dashboard, Feed, and Resources web parts.
+- **Engaged users by component**: Includes number of engaged users for the Dashboard and Resources web parts.
   - **Dashboard**: Includes usage from the Dashboard.
-  - **Feed**: Includes usage from the Feed.
   - **Resources**: Includes usage from the tab in the mobile app and the desktop app (The global navigation bar in SharePoint isn't included).
-
-    :::image type="content" source="../media/connections/viva-connections-analytics/analytics-usage-details.png" alt-text="Screenshot showing data covering usage details." lightbox="../media/connections/viva-connections-analytics/analytics-usage-details.png":::
 
 ### Engagement details
 
