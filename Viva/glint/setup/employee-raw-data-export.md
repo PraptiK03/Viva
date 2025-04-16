@@ -129,8 +129,8 @@ The fields included in Viva Glint raw survey response exports vary. Variation is
 |Survey Creation Date   |The date and time that surveys were generated for users.       |YYYY-MM-DD hh:mm:ss|
 |Survey Cycle Completion Date|The date and time a unique user completed the survey.    |YYYY-MM-DD hh:mm:ss|
 |Survey Cycle Title|The name of the survey cycle.  |\<Month> \<Year> \<Program name> Survey|
-|Survey Cycle ID|  The last 12 digits of this ID are exported. As product IDs are considered metadata, the beginning numbers show as XXX.                   |  
-|Survey sent date|
+|Survey Cycle ID|  The unique number to identify the survey cycle|Metadata can contain sensitive data about the system, its users, and operations. Only the last 12 digits of this ID are exported. As product IDs are considered metadata, the beginning numbers show as XXX. |
+|Survey sent date|The date and time that surveys were generated for users.       |YYYY-MM-DD hh:mm:ss|
 |ItemText1  |Full text of survey item or question UUID. |Numeric response value.|
 |ItemText2  |Full text of survey item or question UUID. |Numeric response value.|
 |ItemText3  |Full text of survey item or question UUID. |Numeric response value.|
