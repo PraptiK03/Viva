@@ -23,7 +23,7 @@ search.appverid:
 
 To monitor security and compliance-related Viva Engage events for your organization, turn on audit logging. You can monitor changes to users, groups, files, admins, and network settings. The audit logs are available in the Microsoft 365 Security compliance portal or by using the Microsoft 365 Management Activity API.
   
-To audit events, you must have be assigned the Audit Logs role in Microsoft Exchange Online. You can view Viva Engage events from your home network but not from external networks. You can track the following event categories:
+To audit events, you must have been assigned the Audit Logs role in Microsoft Exchange Online. You can view Viva Engage events from your home network but not from external networks. You can track the following event categories:
   
 - **Users**—includes activate, suspend, and delete a user.
 
