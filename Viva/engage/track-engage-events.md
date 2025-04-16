@@ -23,7 +23,7 @@ search.appverid:
 
 To monitor security and compliance-related Viva Engage events for your organization, turn on audit logging. You can monitor changes to users, groups, files, admins, and network settings. The audit logs are available in the Microsoft 365 Security compliance portal or by using the Microsoft 365 Management Activity API.
   
-To audit events, you must have be assigned the Audit Logs role in Microsoft Exchange Online. You can view Viva Engage events from your home network but not from external networks. You can track the following event categories:
+To audit events, you must have been assigned the Audit Logs role in Microsoft Exchange Online. You can view Viva Engage events from your home network but not from external networks. You can track the following event categories:
   
 - **Users**—includes activate, suspend, and delete a user.
 
@@ -34,6 +34,10 @@ To audit events, you must have be assigned the Audit Logs role in Microsoft Exch
 - **Admins**—includes export data, trigger private content mode, and force all users to sign out.
 
 - **Network settings**—includes changes to the data export interval and data retention policy.
+
+For a complete list of Viva Engage activities, refer to the [Viva Engage activities](/purview/audit-log-activities#viva-engage-activities).
+
+The audit logs are created using both the Common and Viva Engage schemas. Comprehensive property details are available within the [Common schema](/office/office-365-management-api/office-365-management-activity-api-schema#common-schema), while additional information specific to Viva Engage can be found in the [Yammer schema](/office/office-365-management-api/office-365-management-activity-api-schema#yammer-schema).
 
 ## View the audit sign-in the Microsoft 365 Security &amp; compliance portal
 
