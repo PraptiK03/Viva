@@ -14,15 +14,15 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/25/2025
+ms.date: 03/10/2025
 ---
 
 # Allowlist information for Viva Glint
 
-Microsoft Viva Glint operates in two distinct geographical regions: the United States (US) and in the European Union (EU). Add approved domains, IP addresses, and ports, which can be different depending on your account's region, to your organization's allowlist. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from no-reply@glint.mail.microsoft, add **glint.mail.microsoft** to your allowed list.
+Microsoft Viva Glint operates in two distinct geographical regions: the United States (US) and in the European Union (EU). Add approved domains, IP addresses, and ports, which can be different depending on your account's region, to your organization's allowlist. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from no-reply@glint.mail.microsoft, add **glint.mail.microsoft** to your allowlist.
 
 > [!NOTE]
-> For [multitenant organizations](glint-mto.md), allowlist updates only need to be made for tenants where the Viva Glint app is installed.
+> For [multitenant organizations](glint-mto.md), admins only need to update allowlists for tenants where the Viva Glint app is installed.
 
 ## Add email sender domains
 
@@ -50,41 +50,39 @@ Some email providers have **special inboxes that automatically filter** certain 
 
 ## Allow application hosts and ports
 
-Your organization may require domains or URLs to be opened to access Viva Glint's application. The following hosts and ports need to be allowed, depending on which region your account resides in.
+Your organization may require hosts or ports to be opened to access Viva Glint's application. The following hosts and ports need to be allowed, depending on which region your account resides in.
 
 ### United States:
 
 | Host | TCP port | Description |
 | :--- | :--- | :--- |
-| sftp2.us1.glint.cloud.microsoft | 22 | Secure File Transfer Protocol |
-| sftp.us1.glint.cloud.microsoft | 1122 | Secure File Transfer Protocol |
-| www.microsoft.com | 443 | Viva Glint Website (US and EU) |
+| sftp2.us1.glint.cloud.microsoft | 22 | Secure file transfer protocol |
+| sftp.us1.glint.cloud.microsoft | 1122 | Secure file transfer protocol |
+| www.microsoft.com | 443 | Viva Glint website (US and EU) |
 | techcommunity.microsoft.com | 443 | Viva Glint Community |
-| app.us1.glint.cloud.microsoft | 443 | Viva Glint website and Unified Login |
-| api.us1.glint.cloud.microsoft | 443 | Viva Glint unified login |
+| app.us1.glint.cloud.microsoft | 443 | Viva Glint application |
 | feedback.us1.glint.cloud.microsoft | 443 | Viva Glint survey landing page |
 
 ### European Union:
 
 | Host | TCP port | Description |
 | :--- | :--- | :--- |
-| sftp2.eu1.glint.cloud.microsoft | 22 | Secure File Transfer Protocol |
-| sftp.eu1.glint.cloud.microsoft | 1122 | Secure File Transfer Protocol |
-| www.microsoft.com | 443 | Viva Glint Website (US and EU) |
+| sftp2.eu1.glint.cloud.microsoft | 22 | Secure file transfer protocol |
+| sftp.eu1.glint.cloud.microsoft | 1122 | Secure file transfer protocol |
+| www.microsoft.com | 443 | Viva Glint website (US and EU) |
 | techcommunity.microsoft.com | 443 | Viva Glint Community |
-| app.eu1.glint.cloud.microsoft | 443 | Viva Glint website and Unified Login |
-| api.eu1.glint.cloud.microsoft | 443 | Viva Glint unified login |
+| app.eu1.glint.cloud.microsoft | 443 | Viva Glint application |
 | feedback.eu1.glint.cloud.microsoft | 443 | Viva Glint survey landing page |
 
 ## Admin consent for the Viva Glint Community
 
-Your organization may need to take steps to allow users to post and reply to questions in user groups in the Viva Glint Community (techcommunity.microsoft.com). If users see a "Need admin approval" message when signing in, an IT administrator needs to grant the application access. [Learn more about admin consent](https://go.microsoft.com/fwlink/?linkid=2282450).
+Your organization may need to take steps to allow users to post and reply to questions in user groups in the Viva Glint Community (techcommunity.microsoft.com). If users see a "Need admin approval" message when signing in, an IT administrator needs to grant the application access. [Learn more about admin consent](/entra/identity/enterprise-apps/user-admin-consent-overview#admin-consent).
 
 ## Third-party cookies
 
-Some Viva Glint applications require the use of **third-party cookies**, like hosted learning content. Should you receive an error saying that your browser is missing an authentication cookie, take appropriate steps to allow this third-party cookie.
+Some Viva Glint applications require the use of **third-party cookies**, like hosted learning content. If you receive an error saying that your browser is missing an authentication cookie, take appropriate steps to allow this third-party cookie.
 
-## SFTP IP exceptions
+## Secure file transfer protocol IP exceptions
 
 If your organization requires an **IP exception** for Viva Glint's SFTP server, use the IP address based on your Viva Glint region (US or EU) and selected SFTP port (22 or 1122):
 

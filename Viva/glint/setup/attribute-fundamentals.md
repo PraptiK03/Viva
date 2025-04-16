@@ -14,16 +14,14 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/24/2025
+ms.date: 04/08/2025
 ---
 
 # Viva Glint employee attribute fundamentals
 
-## Understand attribute types
-
 Attributes are data about the people in your organization. Attributes are used to convert feedback into insightful and action-oriented intelligence to improve employee engagement and achieve business goals.
 
-Attribute column headers (labels) are unique to your organization. For example, your HR information system (HRIS) may include "Employee ID," while another company has "Work ID." The labels in Viva Glint guidance are examples only. Choose name labels that match your organization's HRIS.
+Attribute column headers (labels) are unique to your organization. For example, your HR information system (HRIS) may include "Employee ID," while another company has "Work ID." The labels in Microsoft Viva Glint guidance are examples only. Choose name labels that match your organization's HRIS.
 
 ## Standard attribute types
 
@@ -92,9 +90,9 @@ If you also supply language values to indicate users’ dashboard languages (for
 > [!NOTE]
 > Dashboards don't support languages that are read from right to left.
 
-### Upcoming language changes
+### Recent language changes
 
-In April 2025, some supported languages for Viva Glint will change. Some languages will be deprecated, and potential replacements are noted in the following table. These languages receive no updates after April 2025 and are only available in the platform through August 2025. To keep any custom translations, [export translated content](language-translations.md) before the end of August 2025. After August 2025, if deprecated languages are used, users are directed to your organization's default language.
+On April 10 2025, some supported languages for Viva Glint changed. Some languages are deprecated, and potential replacements are noted in the following table. These languages receive no updates after April 10, 2025 and are only available in the platform through August 2025. To keep any custom translations, [export translated content](language-translations.md) before the end of August 2025. After August 2025, if deprecated languages are used, users are directed to your organization's default language.
 
 | Current language  | Current language code | Potential alternative language | Potential alternative code |
 |:----------|:-----------|:------------|:------------|
@@ -110,7 +108,7 @@ In April 2025, some supported languages for Viva Glint will change. Some languag
 | Xhosa               | xh_ZA  | None  | None  |
 
 ## Next step
-Learn about Viva Glint organizational hierarchy fundamentals, including a Glint calculated Manager Hierarchy and other hierarchy groups.
+Learn about Viva Glint organizational hierarchy fundamentals, including a Viva Glint calculated Manager Hierarchy and other hierarchy groups.
 
 > [!div class="nextstepaction"]
 > [Viva Glint organizational hierarchy fundamentals](hierarchy-fundamentals.md)

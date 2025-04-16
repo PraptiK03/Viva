@@ -2586,6 +2586,12 @@
     "source_path": "Viva/glint/start/recommended-rollout-plan.md",
     "redirect_url": "/viva/glint/start/introductory-emails",
     "redirect_document_id": true  
-  }
+  },
+  {
+    "source_path": "Viva/glint/reports/mean-score.md",
+    "redirect_url": "/viva/glint/reports/report-analytics-filtering-favorability-trending",
+    "redirect_document_id": true
+  },
+    
  ]
 }

@@ -1,5 +1,5 @@
 ---
-ms.date: 04/1/2025
+ms.date: 04/11/2025
 title: Business resilience report
 description: Learn how to use the Microsoft Viva Insights Power BI template to compare employee behavior before and after a business transition
 author: zachminers
@@ -38,7 +38,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 [!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
 1. In the Viva Insights analyst experience, select **Analysis**.
-2. Under **Power BI templates**, navigate to **Business resilience** and select **Start analysis**. For more information about the Business resilience template before running your analysis, select **Learn more**.
+2. Under **Power BI templates**, navigate to **Business resilience** and select **Set up analysis**. For more information about the Business resilience template before running your analysis, select **Learn more**.
  3. Under **Query setup**:
     
     1. Type a **Query name**.

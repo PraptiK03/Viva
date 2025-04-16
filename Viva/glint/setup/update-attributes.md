@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/18/2025
+ms.date: 04/08/2025
 ---
 
 # Update attributes in Viva Glint
@@ -108,7 +108,7 @@ Choose how and when Viva Glint communicates with employees by mapping language, 
 
 > [!IMPORTANT]
 > - Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
-> - See [Upcoming language changes](attribute-fundamentals.md#upcoming-language-changes) for changes to supported languages and codes effective April 10, 2025.
+> - See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 To edit optional system attributes after your initial setup:
 

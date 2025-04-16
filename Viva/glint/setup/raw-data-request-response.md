@@ -17,7 +17,7 @@ ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 02/03/2025
+ms.date: 03/11/2025
 ---
 
 # Responding to Data Subject Requests (DSRs) in Viva Glint
@@ -25,6 +25,10 @@ ms.date: 02/03/2025
 Viva Glint Administrators, designated by your Microsoft 365 Global Admin, can use in-product admin functionality to respond to DSRs from Viva Glint survey takers. [Read more about DSRs](/viva/glint/setup/gdpr-special-categories).
 
 For information on how to support a request to delete data, visit [Delete user data from Viva Glint](delete-user-data.md). For information on how to export user data, visit the section [Use the People feature to export responses](#use-the-people-feature-to-export-responses).
+
+>[!IMPORTANT]
+> You may have multiple Viva Glint experiences in your tenant. As each experience operates independently, users' personal data may be distributed across multiple experiences. For this reason, users must request data deletion (DSRs) for each instance they're part of.
+
 
 ## Delete user data
 

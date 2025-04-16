@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/21/2025
+ms.date: 04/14/2025
 ---
 
 # Viva Glint Questions setup
@@ -59,10 +59,17 @@ To add a link to an employee resource or other information in your survey introd
 1. In **Type**, select **Image**.
 1. Optionally, add a **Description**.
 1. In **File**, select **Choose File**. Choose the image file from your device. If the image is as you'd like, select **Save**.
+   
+   :::image type="content" source="../../media/glint/setup/logo-content-resource.png" alt-text="Screenshot of fields completed to add a logo as a Viva Glint Content Resource.":::
+   
 1. Select **Publish** and then select **Publish** again in the **Publish Resource** dialog box.
 1. On the **Resources** page, filter to **Image** and copy the text of the recently added image from the **Name** column.
 1. Replace "logo-name" in this text with the name of your uploaded logo: `![logo-name](logo-name "logo-name")`
-1. Copy the `![logo-name](logo-name "logo-name")` text (with your logo name added) and paste it into the end of the Text field.
+1. Go to **Configuration,** choose **Survey Programs,** and select a survey whose introduction should have a logo.
+2. Go to the **Questions** section, select the introduction, and copy the `![logo-name](logo-name "logo-name")` text (with your logo name added) and paste it into the end of the Text field.
+
+   :::image type="content" source="../../media/glint/setup/logo-text-intro.png" alt-text="Screenshot of logo text copied into a Viva Glint survey introduction text field.":::
+   
 1. If your survey uses multiple languages, select each language from the **Language** dropdown menu to add the logo to the **Text** field in all languages. Changes autosave when a new language is selected from the dropdown menu.
 1. Select **Save Changes**.
 1. Preview your survey to confirm that the logo appears as expected.

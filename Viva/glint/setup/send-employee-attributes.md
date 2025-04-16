@@ -119,7 +119,7 @@ Map attributes in your employee data to Viva Glint language, time zone, and pers
 
 > [!IMPORTANT]
 > - Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
-> - See [Upcoming language changes](attribute-fundamentals.md#upcoming-language-changes) for changes to supported languages and codes effective April 10, 2025.
+> - See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 ### Hierarchy groups
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 1/29/2025
+ms.date: 4/11/2025
 title: Growth, inclusion and engagement Power BI report
 description: Learn how to support, engage, and retain employees with the report. 
 author: zachminers
@@ -43,7 +43,7 @@ To populate the report in Power BI, you'll need to set up and successfully run t
 ### Run query
 
 1. In the Viva Insights analyst experience, select **Analysis**.
-2. Under **Power BI templates**, navigate to **Growth, inclusion and engagement** and select **Start analysis**. To get more information about the Growth, inclusion and engagement template before running your analysis, select **Learn more**.
+2. Under **Power BI templates**, navigate to **Growth, inclusion and engagement** and select **Set up analysis**. To get more information about the Growth, inclusion and engagement template before running your analysis, select **Learn more**.
 
  3. Under **Query setup**:
     

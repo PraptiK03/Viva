@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 01/31/2025
+ms.date: 04/11/2025
 title: Skills landscape report
 description: Navigate the skills landscape report in Viva Insights
 author: zachminers
@@ -51,7 +51,7 @@ Before you can run the queries and populate the report in Power BI, you need to:
 ## Report setup
 ### Run query
 1.	In the Viva Insights analyst experience, select **Analysis.**
-2.	Under Power BI templates, navigate to **Skills landscape** and select **Start analysis.**
+2.	Under Power BI templates, navigate to **Skills landscape** and select **Set up analysis.**
 3.	Under **Query setup**:
 
     1. Type a **Query name.**

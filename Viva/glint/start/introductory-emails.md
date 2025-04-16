@@ -15,7 +15,7 @@ ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom:  CELA-approved
-ms.date: 04/08/2025
+ms.date: 04/10/2025
 ---
 
 # Introduce Microsoft Viva Glint programs to your organization: email templates
@@ -32,11 +32,6 @@ Consider using [Viva Glint Frequently Asked Questions (FAQs) for survey takers] 
 - Adapt messages based on your organization's familiarity with surveying. Organizations new to engagement surveys may want to include more context in messages than organizations who survey regularly. 
 - Condense the communication cascade as much as possible. Be cautious of information overload.  
 - Consider the timing of other company-wide initiatives. Look for opportunities to align communication and streamline employee touch points. 
-
->[!IMPORTANT]
->**This text should appear at the bottom of each email sent to your organization about Microsoft Viva Glint programs:**
->
->Security, Privacy, and Compliance are core principles at Microsoft. Microsoft values, protects, and defends data privacy. Microsoft empowers and defends the data privacy choices of every person who uses its products and services. Viva Glint service adheres to all [Microsoft Product Terms](https://www.microsoft.com/licensing/terms) and the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement) standards. 
 
 ## Email templates  
 

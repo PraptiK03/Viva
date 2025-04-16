@@ -236,6 +236,8 @@ items:
             href: advanced/reference/metrics.md
           - name: Supported languages
             href: advanced/reference/supported-languages.md 
+          - name: Allowlist URLs
+            href: advanced/reference/allowlist-urls.md 
       - name: Microsoft 365 Copilot in Viva Insights
         items:
         - name: Discover organization insights quickly with Microsoft 365 Copilot

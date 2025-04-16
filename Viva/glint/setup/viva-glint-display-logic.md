@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/12/2024
+ms.date: 04/14/2025
 ---
 
 # Tailor users' survey experience with Viva Glint Display Logic
@@ -30,7 +30,8 @@ Display Logic can be applied based on:
 - Whether a user skipped an optional question
 
 > [!IMPORTANT]
-> A question always displays unless it has display logic set up, which causes the question to show only when display logic rules are met.
+> - A question always displays unless it has display logic set up, which causes the question to show only when display logic rules are met.
+> - When questions have display logic added, survey takers don't see a question count in the "Survey progress" bar at the top of a survey. When display logic is in place, the number of questions a user responds to varies depending on how they respond.
 
 ## Set up Display Logic
 

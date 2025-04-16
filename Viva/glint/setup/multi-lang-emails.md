@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/26/2024
+ms.date: 04/08/2024
 ---
 
 # Use multiple languages in Viva Glint survey emails
@@ -32,7 +32,7 @@ To ensure that your global employee population receives communications that they
 
 ## How multiple language emails work
 
-Standard Viva Glint survey emails include a single language that can be triggered based on a language code on the employee data you upload to Glint. Multiple language emails (dual and triple) allow your organization to include sections in multiple languages in one survey email.  
+Standard Viva Glint survey emails include a single language that can be triggered based on a language code on the employee data you upload to Viva Glint. Multiple language emails (dual and triple) allow your organization to include sections in multiple languages in one survey email.  
 
 ### Dual language emails
 
@@ -89,12 +89,12 @@ After enabling multiple languages and selecting **Dual Language Survey/Reminder*
 
    :::image type="content" source="../../media/glint/setup/edit-dual-lang.png" alt-text="Screenshot of a dual language email edit pane with English and Spanish content added.":::
 
-   1. For users to receive this email, they need to be coded for Spanish (Latin America) (es_US) in employee data uploaded to Glint.
+   1. For users to receive this email, they need to be coded for Spanish (Latin America) (es_US) in employee data uploaded to Viva Glint.
    1. Users with blank or invalid language values receive the email that’s configured in your organization’s default language (often English).
 2. After adding all content in each language, select **Save Changes**.
 
 > [!TIP]
-> (Local Language) sections aren’t auto populated with translations in dual language emails. For customized text, add customized translations. For Glint standard text, export translations from another survey program without multiple language emails to use as a reference.
+> (Local Language) sections aren’t auto populated with translations in dual language emails. For customized text, add customized translations. For Viva Glint standard text, export translations from another survey program without multiple language emails to use as a reference.
 
 ## Configure triple language emails
    
@@ -107,16 +107,16 @@ After enabling multiple languages and selecting **Triple Language Survey/Reminde
 
    :::image type="content" source="../../media/glint/setup/three-lang-edit.png" alt-text="Screenshot of a triple language email edit pane with English, Spanish, and French content added.":::
 
-   1. For users to receive this email, they need to be coded for English (en_US) in employee data uploaded to Glint.
+   1. For users to receive this email, they need to be coded for English (en_US) in employee data uploaded to Viva Glint.
    1. Users with blank or invalid language values receive the email that’s configured in your organization’s default language (often English).
 7. After adding all content in each language, select Save Changes.
 
 > [!TIP]
-> Language 2 and Language 3 sections aren’t auto populated with translations in triple language emails. For customized text, add customized translations. For Glint standard text, export translations from another survey program without multiple language emails to use as a reference.
+> Language 2 and Language 3 sections aren’t auto populated with translations in triple language emails. For customized text, add customized translations. For Viva Glint standard text, export translations from another survey program without multiple language emails to use as a reference.
 
-## Preview survey invites
+## Preview survey emails
 
-Use Viva Glint’s preview option to send yourself a sample survey invite: [Learn more](https://go.microsoft.com/fwlink/?linkid=2276910).
+Use Viva Glint’s [preview option](email-content-customization.md#preview-emails) to send yourself email previews.
 
 > [!TIP]
-> To preview multi-language email invites connected to each language that you added content for, select a 'preview as' user that's assigned the language code that you want to see a preview for. For example, to preview a Spanish (Latin America) email that contains English and Spanish sections, select a user assigned the Spanish (Latin America) language code: es_US.
+> To preview multi-language email invites connected to each language that you added content for, select a 'preview as' user that's assigned the language code that you want to see a preview for. For example, to preview a French (Canadian) email that contains English and French sections, select a user assigned the French (Canadian) language code: fr_CA.

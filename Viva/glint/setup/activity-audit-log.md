@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/28/2025
+ms.date: 04/16/2025
 ---
 
 # Viva Glint Activity Audit Log
@@ -39,8 +39,8 @@ To use the Activity Audit Log as a Viva Glint admin:
 2. Select an event type from the **All Events** dropdown menu (example: "Data import").
 3. If needed, filter results further by selecting an option from the **All Types** dropdown menu (example: "SFTP" to focus on data sent via secure file transfer protocol).
 4. If needed, use the **All Statuses** dropdown menu to filter to successful or failed events.
-   
-   :::image type="content" source="../../media/glint/setup/glint-activity-audit-log.png" alt-text="Screenshot of the Activity Audit Log filtered to Data import activity for SFTP imports.":::
+  
+   :::image type="content" source="../../media/glint/setup/glint-activity-audit-log.png" alt-text="Screenshot of the Viva Glint Activity Audit Log filtered to Data import activity for SFTP imports." lightbox="../../media/glint/setup/glint-activity-audit-log.png":::
 
 ## Event descriptions
 
@@ -80,6 +80,13 @@ For more detailed views of user sign-in activity in Viva Glint, Entra admins hav
 5. Under **Activity**, choose **Sign-in logs**.
 6. Logs have Viva Glint's app ID applied and, by default, show the last seven days of activity.
 7. Learn more about using [Entra's sign-in logs](/entra/identity/monitoring-health/concept-sign-ins) and [customizing/filtering logs](/entra/identity/monitoring-health/howto-customize-filter-logs?tabs=audit-logs) to view different columns and date ranges.
+
+## More Viva Glint logs in Microsoft Purview
+
+Use [Microsoft Purview](/purview/purview) to view and audit additional Viva Glint platform activity. Check with your Microsoft 365 Global Admin to confirm which admin users in your organization [have access to view logs](/purview/purview-permissions). For information specific to Viva Glint schema and audit log activities, see:
+
+- [Viva Glint schema](/office/office-365-management-api/office-365-management-activity-api-schema#viva-glint-schema)
+- [Viva Glint Audit log activities](/purview/audit-log-activities#viva-glint-activities)
 
 ## Related resources
 
