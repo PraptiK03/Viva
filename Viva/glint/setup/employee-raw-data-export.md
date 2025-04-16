@@ -17,7 +17,7 @@ ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 4/11/2025
+ms.date: 4/16/2025
 
 ---
 
@@ -99,9 +99,9 @@ If export is enabled for a survey program, you can export raw survey responses f
 1.	Go to the **Configuration** page and select **Survey Programs.**
 2.	Select your survey program and go to the **Completed cycles** tab.
 3.	On the row with the appropriate cycle, select the ellipses (three dots) and then **Export Raw Survey Responses.**
-1. In the export panel that appears:
-   1. Select attributes to include in the Export Options section. Choose from: Survey Cycle ID, Survey Sent Date, Comments, Comment Topics, Sensitive Comment Flag, and Use question's description instead of UUID.
-   1. Select attributes from your organization in the Attributes section.
+1. In the Export Raw Survey Responses panel that opens:
+   1. Select your **Export Options**. Choose from: Survey Cycle ID, Survey Sent Date, Comments, Comment Topics, Sensitive Comment Flag, and Use question's description instead of UUID.
+   1. Select **Attributes** from your organization in the Attributes section.
    2. After making all selections, select **Export.**
 5.	Your CSV file downloads to your device. Larger files take more time to generate. You receive an email when your file is ready to download.
 
@@ -126,9 +126,11 @@ The fields included in Viva Glint raw survey response exports vary. Variation is
 
 |Field Label  |Description   |Value Format|
 |----------|-----------|------------|
-|Survey Cycle Creation Date   |The date and time that surveys were generated for users.       |YYYY-MM-DD hh:mm:ss|
+|Survey Creation Date   |The date and time that surveys were generated for users.       |YYYY-MM-DD hh:mm:ss|
 |Survey Cycle Completion Date|The date and time a unique user completed the survey.    |YYYY-MM-DD hh:mm:ss|
 |Survey Cycle Title|The name of the survey cycle.  |\<Month> \<Year> \<Program name> Survey|
+|Survey Cycle ID|  The last 12 digits of this ID are exported. As product IDs are considered metadata, the beginning numbers show as XXX.                   |  
+|Survey sent date|
 |ItemText1  |Full text of survey item or question UUID. |Numeric response value.|
 |ItemText2  |Full text of survey item or question UUID. |Numeric response value.|
 |ItemText3  |Full text of survey item or question UUID. |Numeric response value.|
