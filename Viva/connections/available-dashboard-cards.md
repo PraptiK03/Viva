@@ -42,6 +42,7 @@ Select a dashboard icon for more information.
 | [![Screenshot of the Assignments card icon with a link to more information.](../media/connections/create-dashboard/assignments-card-icon-no-border.png)](#add-the-assignments-card) | Display a summary of upcoming and past due assignments for students. |
 | [![Screenshot of the Courses card icon with a link to more information.](../media/connections/create-dashboard/courses-card-icon-no-border.png)](#add-the-courses-card) | Display a summary of courses a student is enrolled in. |
 | [![Screenshot of the Events card icon with a link to more information.](../media/connections/events-card-icon-no-border.png)](#add-the-events-card) |   View and join upcoming events within your organization. |
+| [![Screenshots of the Folder card icon with a link to more information.](../media/connections//available-dashboard-cards/folder-card-icon-no-border.png)](#add-the-folder-card) | Provide easy access for users to an existing SharePoint document library in your Connections experience.|
 | [![Screenshots of the My Sites card icon with a link to more information.](../media/connections//available-dashboard-cards/my-sites-card-icon-no-border.png)](#add-the-my-sites-card) |   Provide users links to frequently accessed SharePoint sites.|
 | [![Screenshots of the News card icon with a link to more information.](../media/connections/news-card-icon-no-border.png)](#add-the-news-card) |   Promote news from various sources that you wish to prominently display, including [boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
 | [![Screenshot of the OneDrive card icon with a link to more information.](../media/connections/create-dashboard/onedrive-card-icon-no-border.png)](#add-the-onedrive-card) |   View and access recent, shared, and favorite files from your OneDrive account. |
@@ -197,9 +198,48 @@ The Events card is tied to the SharePoint Events web part. Site owners and membe
 
 10. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), **enable audience targeting**. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
 
-    :::image type="content" source="../media/connections/events-card-audience-targeting.png" alt-text="Screenshot of the audience targeting section in the Events card properties pane.":::
-
 11. When finished with your selection, you can close the panel. Your settings will autosave.
+
+### Add the Folder card
+
+Provide easy access for users to an existing SharePoint document library in your Connections experience by using the Folder card. For more information, see the article on [document libraries](https://support.microsoft.com/office/3b5976dd-65cf-4c9e-bf5a-713c10ca2872).
+
+   :::image type="content" source="../media/connections/available-dashboard-cards/folder-card-demo.png" alt-text="Screenshot of the folder card.":::
+
+1. While in edit mode, select **+ Add a card** from the dashboard.
+
+2. Select **Folder** from the dashboard toolbox.
+
+    :::image type="content" source="../media/connections/available-dashboard-cards/folder-card-icon-border.png" alt-text="Screenshot of the Folder card icon.":::
+
+3. Select the **edit pencil** to the left of the card to open the properties pane for the Folder card.
+
+4. In the property pane on the right, enter a **Title** for the Folder card.
+
+5. Choose your card size from the **Card size** drop-down list.
+
+6. Under Card icon, select one of the following options that enable the icon to be displayed on the left side of the card title:
+    - **Auto-selected**: This option when chosen automatically displays a built-in icon associated with the page.
+    - **Custom image**: This option when chosen enables the Change button. You can select this button to choose an image you want to use as an icon.
+    - **Library**: Select from a list of Microsoft provided icons.
+
+    :::image type="content" source="../media/connections/available-dashboard-cards/folder-card-title-size.png" alt-text="Screenshot of the Folder card properties pane showing title, card size, and card icon options.":::
+
+7. In the **Select site for this folder** field, enter a **title** or **URL** of a SharePoint site that has an existing document library.
+    - You can also select a SharePoint site from a list of **frequent sites**.
+
+    :::image type="content" source="../media/connections/available-dashboard-cards/folder-card-source.png" alt-text="Screenshot of the Folder card properties pane showing source options.":::
+
+8. The document library in the selected SharePoint site will show in the **Folder** field.
+    - If the chosen SharePoint site has more than one document library, select **change** to choose a different library.
+
+9. Enter a **description** for your card.
+
+10. Under **sort**, select to order documents by date modified, A-Z, or Z-A.
+
+    :::image type="content" source="../media/connections/available-dashboard-cards/folder-card-folder-selection.png" alt-text="Screenshot of the Folder card properties pane showing Folder management options.":::
+
+11. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), enter one or more M365 group into the Audience targeting field. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
 
 ### Add the My Sites card
 
@@ -221,9 +261,9 @@ Add the My Sites card to provide users links to their frequently visited or foll
 
 6. To change the card image, select **Change**, then select an image or upload your own.
 
-7. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
-
    :::image type="content" source="../media/connections/available-dashboard-cards/my-sites-card-properties.png" alt-text="Screenshot of the My Sites card properties panel." lightbox="../media/connections/available-dashboard-cards/my-sites-card-properties.png":::
+
+7. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
 
 ### Add the News card
 
@@ -286,9 +326,9 @@ The OneDrive card (previously known as Files) connects individuals to their own 
     - **Shared**: Files that shared with the user display.
     - **Favorites**: Files that the user marked as "favorite" display.
 
-7. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), enter one or more Microsoft 365 groups into the **Audience targeting** field. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
-
     :::image type="content" source="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png" alt-text="Screenshot showing file source and audience targeting options in the OneDrive card properties panel.":::
+
+7. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), enter one or more Microsoft 365 groups into the **Audience targeting** field. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
 
 ### Add the People card
 
@@ -307,8 +347,6 @@ The People Search card automatically retrieves contact information from members 
 4. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
 5. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
-
-   :::image type="content" source="../media/connections/people-card-properties.png" alt-text="Screenshot of the People card properties pane.":::
 
 ### Add the Power Apps card
 
@@ -358,9 +396,9 @@ You can create a dashboard card using Power Apps for use in Viva Connections. De
 
 13. The **Button** can be toggled on and off. If enabled, enter a name in the **Label** field.
 
-14. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
-
     :::image type="content" source="../media/connections/available-dashboard-cards/powerapp-card-properties-2.png" alt-text="Screenshot showing the lower-half of the Power Apps properties pane.":::
+
+14. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
 
 For more information, see the documentation on using [Power Apps](/power-apps/cards/tutorials/hello-world-card).
 
@@ -394,9 +432,9 @@ Use the Quick links card to provide a list of relevant links or files selected b
     - **Delete** – Select the trashcan to delete the selected link.
     - **Edit** – Select the arrow to edit the link URL, title, and thumbnail image.
 
-9. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
+   :::image type="content" source="../media/connections/create-dashboard/quick-links-properties-links-at.png" alt-text="Screenshot of the Quick links properties pane showing where you can manage links.":::
 
-   :::image type="content" source="../media/connections/create-dashboard/quick-links-properties-links-at.png" alt-text="Screenshot of the Quick links properties pane showing where you can manage links and audience targeting.":::
+9. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
 
 ### Add the Shifts card
 
@@ -447,9 +485,9 @@ The Stream playlist card displays a list of videos to users that can be viewed i
     - **Auto-selected**: Displays an image for your playlist that comes from your selected SharePoint page.
     - **Custom image**: Select custom image then Change to upload your own image or select an existing image from your site or from an online source (for example, web search, OneDrive, Site).
 
-10. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
-
     :::image type="content" source="../media/connections/create-dashboard/stream-playlist-properties-2.png" alt-text="Screenshot of the Stream playlist properties pane showing playlist customization options.":::
+
+10. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
 
 ### Add the Teams app card
 
@@ -559,8 +597,6 @@ Content in the cards is dynamic and changes according to settings in Viva Learni
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
-   ![Screenshot of the Viva Learning property pane.](../media/connections/create-dashboard/viva-learning-card-settings.png)
-
 4. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
 
 ### Add the Viva Pulse card
@@ -599,8 +635,6 @@ To add the Viva Pulse card to your dashboard:
 
 4. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
 
-      :::image type="content" source="../media/connections/create-dashboard/pulse-card-properties.png" alt-text="Screenshot of the Viva Pulse card properties.":::
-
 For more information on using Viva Pulse as a feedback author or feedback recipient, see [the Viva Pulse documentation here](https://support.microsoft.com/topic/34c94efe-185d-480e-94a2-27e013a5204b).
 
 ### Add the Web link card
@@ -617,10 +651,10 @@ Add a web link card when you want your users to go to an internal or external li
 
 3. In the property pane on the right side of the page, select your options.
 
-   ![Screenshot showing how to choose options.](../media/connections/choosing-options.png)
-
 4. Select a size for the card from the **Card size** drop-down list.
+
 5. Enter the URL for your link in the **Link** text box.
+
 6. Set the card-display options:
 
    - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it's the title that is displayed on the top of the card.)
@@ -636,6 +670,8 @@ Add a web link card when you want your users to go to an internal or external li
    - **Auto-selected**: This option when chosen automatically displays a built-in icon associated with the page.
    - **Custom image**: This option when chosen enables the **Change** button. You can select this button to choose an image you want to use.
    - **Icon**: This option when chosen enables the **Change** button. You can select this button to choose from a set of stock icons.
+
+   ![Screenshot showing how to choose options.](../media/connections/available-dashboard-cards/web-link-card-properties.png)
 
 9. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
 
