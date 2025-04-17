@@ -25,7 +25,7 @@ The Program Setup page is the first section in Program Summary for a Microsoft V
    
 ## Define the basics for your Viva Glint program
 
-Use the information in the table to help you set up each field. Not all fields are available for every survey type. For that information, see the **Survey types** column. Use the **question mark symbol** for additional guidance.
+Use the information in the table to help you set up each field. Not all fields are available for every survey type. For that information, see the **Survey types** column. Use the **question mark symbol** for more guidance.
 
 ## Define the basics
 
@@ -49,7 +49,7 @@ In the first section on the **Program setup** page, define, enable, or disable e
 
 ## Set up the Confidentiality section
 
-In this second section, define what information survey takers will see to explain how you protect their privacy.
+In this second section, define what information survey takers will see to explain how you protect their privacy. Use the **question mark symbol** and **Learn more** for further guidance.
 
 |Field|Description|Examples/Tips|
 |-------|------------|-----------|
