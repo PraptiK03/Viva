@@ -1,5 +1,5 @@
 ---
-ms.date: 04/03/2024
+ms.date: 04/16/2025
 title: "Customize and edit the Viva Connections home experience"
 ms.reviewer: 
 ms.author: evanatkin
