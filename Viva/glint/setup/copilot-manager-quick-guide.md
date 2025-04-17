@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 4/01/2025
+ms.date: 4/17/2025
 ---
 
 # Manager Guide - Microsoft 365 Copilot in Viva Glint
@@ -26,14 +26,14 @@ ms.date: 4/01/2025
 > 
 >Click anywhere on the page and select **Print.** From your printer window, in the dropdown menu, select **Save as PDF**. Select **Save.** Now share the resource within your organization.
 
-<br>
-
-## Copilot in Viva Glint can:
+## Copilot in Viva Glint uses prompts to:
 - Identify key themes by summarizing comments 
 - Summarize comments by demographics 
 - Summarize comments by survey items  
 - Identify what actions your employees are asking for  
-- Summarize non-English comments  
+- Summarize non-English comments
+
+**What is a Copilot prompt?** A Copilot prompt is a specific instruction or query provided by the user to guide Copilot in generating relevant responses, summaries, or content based on the given input. Essentially, it helps Copilot understand what you need and tailor its output accordingly.
 
 ### Manager process for reviewing feedback results 
 
