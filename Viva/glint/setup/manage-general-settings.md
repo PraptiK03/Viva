@@ -80,7 +80,7 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 |**Primary Hierarchy**   | The hierarchy your company identified as the first level for reporting, typically Manager. |  
 |**Secondary Hierarchy**   | The hierarchy your company identified as its second level for reporting, typically Location. | 
 |**Rating Questions Scale**   | The defaults survey rating questions use. Viva Glint's best practice is to use a 5-point scale. | 
-|**Calculation method for rating question scores**   | Choose the calculation method for rating question and aggregate index scores. If you choose average as the calculation method, scores are converted to a 0–100 scale for easier comparison. If you choose percent favorable, scores show the percentage of favorable responses. **Important: Selecting the percent favorable option disables external benchmarks.** You see this confirmation window: <br><br> :::image type="content" source="../../media/glint/reports/percent-favorable.png" alt-text="Screenshot of the Switch to percent favorable pop-up window.":::<br><br> This setting only affects Viva Glint engagement and lifecycle survey reports. Viva Glint 360 feedback reports use their own calculation method and aren’t affected by this setting.  | 
+|**Calculation method for rating question scores**   | Choose the calculation method for rating question and aggregate index scores. If you choose average as the calculation method, scores are converted to a 0–100 scale for easier comparison. If you choose percent favorable, scores show the percentage of favorable responses. **Important: Selecting the percent favorable option disables external benchmarks.** If external benchmarks are enabled (above), you see this confirmation window: <br><br> :::image type="content" source="../../media/glint/reports/percent-favorable.png" alt-text="Screenshot of the Switch to percent favorable pop-up window.":::<br><br> This setting only affects Viva Glint engagement and lifecycle survey reports. Viva Glint 360 feedback reports use their own calculation method.  | 
 |**Suppression Threshold**   | Suppression occurs if there aren't enough respondents to meet confidentiality requirements. The Viva Glint Suppression Threshold default is two (2) but is dependent upon the confidentiality threshold.  |  
 |**Cross-Program Filtering**   | Turns on cross-program filtering within reports. Enables user roles to compare employee groups across different survey programs and cycles.   |   
 
@@ -101,9 +101,9 @@ In this section:
 
 | Field | Definition and notes |
 |:-----------|:-----------|
-|**Available Survey Questions and Program Templates**   |Deselect program types you won’t use to delete them from your platform. You can edit this functionality at any time.    |  
+|**Available Survey Questions and Program Templates**   |Deselect program types to delete them from being available on your platform. You can edit this functionality at any time.    |  
 |**Community Enabled**   |Enable to permission access to the Viva Glint community forum for this client, regardless of role-based permissions.  |  
-|**Employee Post-Survey Action Taking**   |Enables employees to view free LinkedIn Learning videos upon completing a survey. A LinkedIn Learning license is not required. [Learn more](post-survey-learnings.md). | 
+|**Employee Post-Survey Action Taking**   |Enables employees to view free LinkedIn Learning videos upon completing a survey. A LinkedIn Learning license isn't required. [Learn more](post-survey-learnings.md). | 
 |**Team Conversation Enabled**   |Enables Team Conversations for recurring surveys.   |  
 |**Default Focus Area Privacy**   |Choose the visibility/privacy setting for users creating a new Focus Area. More instructions around focus area privacy follow this table.  |
 |**Maximum Number of Survey Cycles for Trend**   |Default is five (5) cycles. Applies only to recurring and ad-hoc surveys. This controls the number of cycles that show on the dashboard and in reporting.    |
@@ -170,7 +170,7 @@ When this setting is switched to On, records for deleted users can cause a [RECO
 > [!IMPORTANT]
 > - When Glint receives the delete signal from a Data Subject Request (DSR) or Microsoft Entra ID for a user, they're not immediately deleted. A user's employee record is in a soft-deleted state for 30 days. During this period, the employee record can be modified from its soft-deleted state and updated to the status provided in the HRIS file.
 > - After the 30-day period, all data related to the employee is permanently deleted in accordance with User Data controls.
-> - Should a deleted user be reinstated, their data needs to be uploaded as if they are a new employee.
+> - Should a deleted user be reinstated, their data needs to be uploaded as if they're a new employee.
 
 
 
