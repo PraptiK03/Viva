@@ -71,8 +71,8 @@ You can use feature access management to manage access to the following features
 ||[Team conversations in Pulse reports](/viva/pulse/setup-admin-access/granular-access-controls#conversations-in-pulse-reports)|No|Viva Pulse admin|VivaPulse|
 ||[Copilot in Viva Pulse](/viva/pulse/setup-admin-access/granular-access-controls)|No|Viva Pulse admin|VivaPulse|
 ||[Viva Pulse experience with Microsoft 365 Copilot](/viva/pulse/setup-admin-access/granular-access-controls)|No|Viva Pulse admin|VivaPulse|
-|Skills|[Default Skills visibility](/viva/skills/skills-overview)*|Yes|Knowledge admin|VivaSkills|
-||[Skill suggestions](/viva/skills/skills-overview)*|Yes|Knowledge admin|VivaSkills|
+|Skills|Default Skills visibility*|Yes|Knowledge admin|VivaSkills|
+||Skill suggestions*|Yes|Knowledge admin|VivaSkills|
 
 \* The feature or feature control might not yet be available for all tenants. Support will be added soon.
 

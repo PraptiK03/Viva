@@ -23,6 +23,8 @@ The Viva Engage guest feature allows organizations to call in experts such as ve
 
 Any Microsoft 365 user who isn't part of your organization can be added as a guest to a Viva Engage community by a Community admin. Microsoft Entra B2B guests in Viva Engage communities are covered by the same compliance and auditing protection as the rest of Microsoft 365 and can be managed within Microsoft Entra ID. Guest access is subject to Microsoft Entra ID and Microsoft 365 service limits.
 
+Viva Engage has now added support for allowing Guests in Viva Engage Communities using their personal email or non-Microsoft 365 business email. 
+This release supports users with email domains like Gmail, Yahoo, or Outlook.
 ## Prerequisites for adding an external user as a Microsoft Entra B2B guest to a Viva Engage community
 
 Align your Viva Engage network to native mode before inviting an external user as a Microsoft Entra B2B guest to a Viva Engage community. Inviting a guest requires that you configure settings in Viva Engage and other Microsoft 365 services, including settings in Microsoft Entra ID, Microsoft 365 Groups, and SharePoint.
@@ -101,8 +103,7 @@ Guest access is included with all Microsoft 365 Business Standard, Microsoft 365
 ## What features aren't supported for Guests?
 
 We're working hard to bring all Viva Engage functionality to the new B2B guests in Viva Engage. Here's a list of features that are in progress:
-
-- **Personal email, non-Microsoft 365 business email, and phone number-based legacy accounts** – Users with Microsoft 365 Business email accounts can be added as guests. Email domains like Gmail and Yahoo mail aren't supported in this release.
+- **Phone number-based legacy accounts** – Users cannot be invited as B2B guests in Viva Engage using their phone numbers.
 - **Private messages** – Private messages are disabled for B2B guests in Viva Engage.
 - **Live events** – Guests can't attend live events.
 - **Adding guests during community creation** – Community owners can invite guest users by using edit membership flow for any community. In the current release, community owners aren't able to add guest emails at the time of community creation.
@@ -140,8 +141,20 @@ You can prevent guests from being added to Viva Engage communities while allowin
 
 A: Yes. Microsoft Entra B2B guests from another Geo can be invited to a Viva Engage network in Native mode. However, if a tenant migrates to another geo, the existing guest access doesn't automatically change to cross-geo guest access. All guest access must be renewed (that is, the host must issue new invites and guests must accept them) after a cross-geo tenant migration.
 
+## For more information on how to configure Consumer Guests in Microsoft Entra, refer to the resources below
+
+[Cross-tenant access settings](/entra/external-id/cross-tenant-access-settings-b2b-collaboration).
+
+[Use Microsoft Accounts](/entra/external-id/microsoft-account).
+
+[Google identity provider](/entra/external-id/google-federation).
+
+[Add Facebook as an identity provider](/entra/external-id/facebook-federation).
+
 ## Related articles
 
 [Viva Engage admin Help](./admin-key-concepts.md)
 
 [Native Mode for Microsoft 365 for Viva Engage](../overview-native-mode.md)
+
+

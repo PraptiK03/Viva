@@ -1,5 +1,5 @@
 ---
-ms.date: 04/1/2025
+ms.date: 04/11/2025
 title: Recurring meeting audit Power BI report
 description: Understand whether expensive large and long recurring meetings in your organization are worth their cost
 author: zachminers
@@ -41,7 +41,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 [!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
 1. In the Viva Insights analyst experience, select **Analysis**.
-2. Under **Power BI templates**, navigate to **Recurring meeting audit** and select **Start analysis**. 
+2. Under **Power BI templates**, navigate to **Recurring meeting audit** and select **Set up analysis**. 
 
 [!INCLUDE [Setup steps](includes/setup-steps-meetingquery.md)]
 

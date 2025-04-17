@@ -1,5 +1,5 @@
 ---
-ms.date: 04/1/2025
+ms.date: 04/11/2025
 title: "Cross-collaboration: person-to-person query"
 description: Learn how to run a custom cross-collaboration query for collaboration between two individuals in your organization
 author: lrolason
@@ -33,7 +33,7 @@ If two people have had a reciprocal interaction in the last four weeks, and also
 
 ### Set up your query
 
-1.	In the advanced insights app’s **Analysis** page, go to the **Custom queries** section, find **Cross-collaboration query**, and select **Start analysis**.
+1.	In the advanced insights app’s **Analysis** page, go to the **Custom queries** section, find **Cross-collaboration query**, and select **Set up analysis**.
 1.	Name your query (optional). Queries are assigned a default name, which follows this format: "CrossCollaborationQuery," user ID, date, and time. Make sure the name is unique.
 3.	Select a **Time period** (optional). This field defaults to Last 3 months, but you can select another. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom date range**. If you choose a Custom date range, use the date picker to select the range.  
 4.	Optional: Set the query to automatically update by selecting the **auto-refresh** box. When you turn on the auto-refresh option, your query automatically runs and computes a new result every month. This option is turned off by default, but you can use it on any query where the **Time period** isn’t customized. 

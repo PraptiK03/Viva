@@ -1,5 +1,5 @@
 ---
-ms.date: 02/25/2025
+ms.date: 04/11/2025
 title: Glint and organizational insights report 
 description: Connect Glint and Viva Insights data to explore behaviors and take action
 author: zachminers
@@ -46,7 +46,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 ### Run query
 
 1.	In the Viva Insights analyst experience, select **Analysis**.
-2.	Under Power BI templates, navigate to **Glint and organizational insights** and select **Start analysis**. 
+2.	Under Power BI templates, navigate to **Glint and organizational insights** and select **Set up analysis**. 
 [!INCLUDE [Setup steps](includes/setup-steps-glint.md)]
 
 ## Report settings

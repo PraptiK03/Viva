@@ -1,5 +1,5 @@
 ---
-ms.date: 04/9/2025
+ms.date: 04/15/2025
 title: Environment requirements for Viva Insights
 description: Describes the environment requirements for using Microsoft Viva Insights
 author: zachminers
@@ -159,6 +159,13 @@ With the applicable [Viva Insights licensing](#viva-insights-licenses), your com
 Microsoft Exchange Online provides much of the collaboration data that Viva Insights uses. For this reason, we recommend you have a Microsoft 365 or an Office 365 product that contains Exchange Online Plan 1 and Plan 2.
 
 Microsoft 365 Copilot plans also include manager, leader, and advanced insights for all employees who have an assigned Copilot license.
+
+>[!Important]
+>For customers who aren't already using Viva Insights, at least 50 assigned Viva Insights licenses are required to access advanced insights, organizational insights, and the Microsoft Copilot Dashboard. This minimum threshold can be achieved through a combination of licenses.
+>
+>For example, 30 assigned Microsoft 365 Copilot licenses (which include the Viva Insights service plan) + 20 assigned Viva Insights licenses = 50 assigned Viva Insights licenses.
+>
+>For existing customers who already have access to advanced insights, organizational Insights, and the Copilot Dashboard, there's no minimum license requirement.
 
 ## Channel support
 

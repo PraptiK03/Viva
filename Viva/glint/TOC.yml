@@ -37,6 +37,14 @@ items:
                  href: setup/glint-mto.md          
                - name: Multitenant organization FAQ
                  href: setup/mto-faq.md
+          - name: Use multiple Viva Glint experiences
+            items: 
+               - name: Multiple Glint experiences overview
+                 href: setup/multi-glint-exp-overview.md         
+               - name: Manage experiences in the Microsoft 365 admin center
+                 href: setup/manage-exp-in-mac.md
+               - name: Switch between experiences
+                 href: setup/glint-switch-exp.md              
           - name: Invite Government cloud guest users
             href: setup/glint-gcch-b2b-guest.md
           - name: Assign Glint admins
@@ -145,7 +153,7 @@ items:
       - name: Manage User Roles
         href: setup/set-up-user-roles.md
         items:
-            - name: Custom User Roles
+            - name: User Roles with custom access
               href: setup/custom-user-role.md
             - name: Custom data access export
               href: setup/custom-access.md       
@@ -183,6 +191,8 @@ items:
               href: setup/opting-into-external-benchmarks.md
             - name: Customize a PowerPoint template for reports
               href: setup/custom-ppt-upload.md
+            - name: Add custom branding
+              href: setup/custom-branding.md
       - name: Monitor events in Activity Audit Log
         href: setup/activity-audit-log.md   
       - name: Manage Advanced Configuration settings
@@ -366,8 +376,6 @@ items:
             href: reports/cross-program-intelligence.md
           - name: Color coding
             href: reports/color-coding.md
-          - name: Mean and favorability scoring
-            href: reports/mean-score.md
           - name: Export reports as PDF
             href: reports/export-report-pdf.md
           - name: Manager reporting trend

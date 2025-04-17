@@ -97,7 +97,7 @@ In Step 1 of 2, decide which behavioral attributes to import into Glint. Attribu
 > Glint respects Viva Insights confidentiality thresholds on Glint reports and dashboards.
 
 >[!NOTE]
-> When a **new** survey cycle ends, it takes 24-48 hours to receive data from Viva Inights. Expect some delay in the data reflecting in the platform.
+> When a **new** survey cycle ends, it takes 24-48 hours to receive data from Viva Insights. Expect some delay in the data reflecting in the platform.
 
 ## Viva Insights metrics
 

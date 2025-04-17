@@ -1,5 +1,5 @@
 ---
-ms.date: 3/14/2025
+ms.date: 4/11/2025
 title: Copilot Business Impact report
 description: Learn how to use the Microsoft 365 Copilot Business Impact Power BI template to understand how Copilot usage impacts business results at your company.
 author: zachminers
@@ -62,7 +62,7 @@ For detailed scenario-based guidance on how to set up an analysis tailored to yo
 
 1. In the [Viva Insights analyst experience](https://analysis.insights.viva.office.com/), select **Create analysis**.
 
-2. Under **Templates**, navigate to **Copilot Business Outcome report** and select **Setup analysis**. The template can also be found under the **Copilot** section.
+2. Under **Templates**, navigate to **Copilot Business Outcome report** and select **Set up analysis**. The template can also be found under the **Copilot** section.
 
 3. Under **Query setup**:
     
