@@ -29,7 +29,7 @@ Sometimes survey takers may need extra time to complete a survey or your respons
 > [!IMPORTANT]
 > Survey close notifications aren't automatically regenerated once the original closing notification is sent. 
 
-When a survey cycle is closed **and** the survey end notification email has sent, no further survey end notification email is sent.
+When a survey cycle is closed **and** the survey end notification email is sent, no further survey end notification email is sent.
 
 Also consider:
 
@@ -37,7 +37,7 @@ Also consider:
 - The **Phased Access** user role can't access the results of this survey until the role is regranted access. 
 - Review and reschedule any Nudges already set. They also aren't rescheduled automatically. 
 
-## Extend a survey cycle that hasn't closed
+## Extend a live survey cycle
 
 When a survey cycle is extended *before* its original close date, the notification generation automatically updates to reflect the new close date. The default for the survey end notification email is three days post survey cycle close.
 >
@@ -53,6 +53,9 @@ When a survey cycle is extended *before* its original close date, the notificati
 3. In the **Survey Cycles** section, select the **Completed** tab and select the cycle to reopen or extend.
 4. From the **Actions dropdown menu**, select **Reopen Survey**.
 5. A **Reopen Survey Cycle** window opens.
+
+   :::image type="content" source="../../media/glint/setup/reopen-survey-cycle.png" alt-text="Screenshot of the Reopen survey cycle window.":::
+   
 
 To reopen this survey cycle, select a new close date. To avoid duplicating work for managers, reopen the cycle within one day of the previous cycle end date. Consider this guidance, then review and adjust as needed:
 
