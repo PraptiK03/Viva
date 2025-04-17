@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/23/2024
+ms.date: 04/17/2025
 ---
 
 # Reopen or extend a Viva Glint survey cycle
@@ -50,8 +50,8 @@ When a survey cycle is extended *before* its original close date, the notificati
 
 1. Select the **Configuration** symbol on your admin dashboard (landing page).
 2. Select **Survey Programs**.
-3. In the **Survey Cycles** section, toggle to the **Completed** tab.
-4. From the horizontal ellipses in the program bar, select **Reopen Survey**.
+3. In the **Survey Cycles** section, select the **Completed** tab and select the cycle to reopen or extend.
+4. From the **Actions dropdown menu**, select **Reopen Survey**.
 5. A **Reopen Survey Cycle** window opens.
 
 To reopen this survey cycle, select a new close date. To avoid duplicating work for managers, reopen the cycle within one day of the previous cycle end date. Consider this guidance, then review and adjust as needed:
