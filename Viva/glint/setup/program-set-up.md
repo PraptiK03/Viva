@@ -21,7 +21,7 @@ ms.date: 04/17/2025
 
 The Program Setup page is the first section in Program Summary for a Microsoft Viva Glint survey. The Viva Glint admin role is to define the basic settings and confidentiality for all cycles within this survey program. 
 
-:::image type="content" source="../../media/glint/setup/program-setup.png" alt-text="Screenshot of how to access Program Setup from Program Summary.":::
+:::image type="content" source="../../media/glint/setup/program-setup-2.png" alt-text="Screenshot of how to access Program Setup from Program Summary.":::
    
 ## Define the basics for your Viva Glint program
 
