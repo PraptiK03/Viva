@@ -1,5 +1,5 @@
 ---
-ms.date: 01/06/2025
+ms.date: 04/17/2025
 title: Advanced insights privacy
 description: Learn more about privacy in advanced insights
 author: zachminers
@@ -302,5 +302,16 @@ Privacy and legal subject matter experts can help you stay ahead of potential da
 Consult with your organization’s HR, privacy, and legal subject matter experts in the countries where you'd  like to use Viva Insights. Analyses that might be acceptable in one country might be subject to more requirements (for example, notice and consent obligations) or even illegal in other countries. Due diligence is particularly important in highly regulated jurisdictions like the European Union. 
 
 >[!Note]
->Some countries require employers to consult with employee representatives or seek approval from a works council before deploying certain information technology in the workplace, while others restrict when and how employers can process certain employee data. For example, if your company has employees in Germany or Netherlands, then you should consider if works council engagement or approval is required. Moreover, Viva Insights processes data from employee communications, which could be considered “communications data” (including “traffic data”) in Finland. So, if your company has employees in Finland, then you should understand how Finnish laws apply to the processing of employee personal data and communications or traffic data to determine if use of Viva Insights is permissible.  
+>Some countries require employers to consult with employee representatives or seek approval from a works council before deploying certain information technology in the workplace, while others restrict when and how employers can process certain employee data. For example, if your company has employees in Germany or Netherlands, then you should consider if works council engagement or approval is required. Moreover, Viva Insights processes data from employee communications, which could be considered “communications data” (including “traffic data”) in Finland. So, if your company has employees in Finland, then you should understand how Finnish laws apply to the processing of employee personal data and communications or traffic data to determine if use of Viva Insights is permissible.
 
+### Remove employees from the measured population
+
+All employees with Microsoft 365 Copilot licenses are automatically assigned a Viva Insights service plan, which makes them part of the measured population for the Microsoft Copilot Dashboard, advanced insights, and organizational insights.  
+
+To remove employees and their collaboration data from processing for advanced insights, you must remove their Viva Insights service plan in the Microsoft 365 admin center using [these steps](/viva/control-access-admin-center). This does **not** remove employees from the measured population for the Copilot Dashboard. 
+
+To remove employees from the measured population for the Copilot Dashboard, you can [create an exclusion list](../admin/manage-settings-copilot-dashboard.md#create-an-exclusion-list-hide-users-from-aggregates) for those users. 
+
+### Turn off advanced insights or the Copilot Dashboard 
+
+To enable or disable access to all advanced insights features at the tenant level, you can [use PowerShell cmdlets](../../advanced/setup-maint/control-advanced-insights-powershell.md) or create a policy in the Microsoft 365 admin center using [these steps](/viva/control-access-admin-center). You can also [use PowerShell cmdlets](../admin/manage-settings-copilot-dashboard.md#turn-off-dashboard-auto-enablement-with-powershell) or create a policy in the Microsoft 365 admin center to turn off tenant-level access to the Copilot Dashboard. This feature-level control doesn't affect whether users are included or excluded from analysis.
