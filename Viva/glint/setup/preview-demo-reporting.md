@@ -19,10 +19,10 @@ ms.date: 04/17/2025
 
 # Preview reporting data in Viva Glint before launch
 
-Use Microsoft Viva Glint's Report Preview option to confirm that your employee attributes and survey questions appear as expected in reporting before launching a survey. Viva Glint Administrators can familiarize themselves with the Viva Glint dashboard and preview how data file attributes display scores and work as report filters. If employee data or questions don't appear as expected, make data or survey setup adjustments to finetune before survey launch.
+Use Microsoft Viva Glint's Report Preview option to confirm that your employee attributes and survey questions appear as expected in reporting before launching a survey. Viva Glint Administrators can familiarize themselves with the Viva Glint dashboard and preview how data file attributes display scores and work as report filters. If employee data or questions don't appear as expected, make data or survey setup adjustments to fine-tune before survey launch.
 
 > [!NOTE]
-> Demo surveys are only available for Recurring and Ad-Hoc surveys and only visible to users in the Company Admin User Role.
+> Demo surveys are only available for Recurring and Ad Hoc surveys and only visible to users in the Company Admin User Role.
 
 ## Generate a Report preview
 
@@ -49,14 +49,14 @@ Use the following steps to generate a preview based on your employee data, surve
 
 6. When report generation is complete, you receive an email; the report may take up to 24 hours to generate.
 
-   > [!CAUTION]]
+   > [!CAUTION]
    > Until you receive an email, ensure that your survey program remains in an **Approved** status. Preview data doesn't generate successfully if the survey program isn't **Approved**.
    
 7. To replace the reporting preview with newly uploaded employee data or survey questions during the seven-day window, return to the survey's **Survey Preview** dialog and select **Generate Report Preview** again.
 
-## How do I see my preview data after it's generated?
+## How do I see my preview data after it generates?
 
-Your demo data is viewable from the program listing on your admin dashboard. It shows in the list of your programs with the name of the program preceded by "Demo Data." To leave that program - and remove the demo banner from the top of your screen - use **Switch Program.**
+Your demo data is viewable from the program listing on your admin dashboard. It shows in the list of your programs with the name of the program preceded by "Demo Data." To leave the program and remove the demo banner from the top of your dashboard, use the **Switch Program** dropdown menu.
 
 :::image type="content" source="../../media/glint/setup/switch-programs.png" alt-text="Screenshot of how the Demo Data for Engagement program shows on the admin dashboard.":::
 
