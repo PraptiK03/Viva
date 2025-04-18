@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/14/2025
+ms.date: 04/18/2025
 ---
 
 # Understand Viva Glint reporting features
@@ -81,4 +81,12 @@ When a score increases or decreases, it’s useful to know where the increase or
 |**9**|7,8,9| 4,5,6 |1,2,3|
 |**10**| 8,9,10 |4,5,6,7|1,2,3|
 |**11**|10,11|8,9  |1,2,3,4,5,6,7|
+
+### Percent Favorable comparisons disables external benchmarks
+
+In the **Reporting** section of **General Settings**, if you switch from the default **Average** setting to **Percent Favorable**, this switch disables external benchmarks. You can only switch to Percent Favorable if external benchmarks are enabled. Then you see this confirmation window: 
+
+:::image type="content" source="../../media/glint/reports/percent-favorable.png" alt-text="Screenshot of the Switch to percent favorable pop-up window.":::<br><br> 
+This setting only affects Viva Glint Engagement and Employee Lifecycle survey reports. Viva Glint 360 feedback reports use their own calculation method.   
+
 
