@@ -67,6 +67,20 @@ When a score increases or decreases, it’s useful to know where the increase or
 - Percent favorability only shows respondents who agree with the statement. Neutral or unfavorable scores aren’t provided.
 - Percent favorability doesn't reflect changes in scores over time.
 
+### Switch to percent favorable calculation
+
+1. Go to **Configuration** and select **General settings** in **Service configuration.**
+2. In **Reporting**, go to **Calculation method for rating question scores.**
+3. Select **Percent favorable** in the dropdown menu.
+4. When External benchmarks are enabled, a confirmation dialog appears:
+
+   :::image type="content" source="../../media/glint/reports/percent-favorable.png" alt-text="Screenshot of the Switch to percent favorable pop-up window.":::
+
+   > [!CAUTION]
+   > Switching to percent favorable as a calculation method disables external benchmarks, which use average score calculation. Users lose external benchmark comparisons in dashboards and reports.
+
+6. Select **Yes, switch to percent favorable**.
+
 ### Favorability rating scale point interpretation guide
 
 |Rating scale points|Favorable|Neutral|Unfavorable|
@@ -81,12 +95,5 @@ When a score increases or decreases, it’s useful to know where the increase or
 |**9**|7,8,9| 4,5,6 |1,2,3|
 |**10**| 8,9,10 |4,5,6,7|1,2,3|
 |**11**|10,11|8,9  |1,2,3,4,5,6,7|
-
-### Percent Favorable comparisons disables external benchmarks
-
-In the **Reporting** section of **General Settings**, if you switch from the default **Average** setting to **Percent Favorable**, this switch disables external benchmarks. You can only switch to Percent Favorable if external benchmarks are enabled. Then you see this confirmation window: 
-
-:::image type="content" source="../../media/glint/reports/percent-favorable.png" alt-text="Screenshot of the Switch to percent favorable pop-up window.":::<br><br> 
-This setting only affects Viva Glint Engagement and Employee Lifecycle survey reports. Viva Glint 360 feedback reports use their own calculation method.   
 
 
