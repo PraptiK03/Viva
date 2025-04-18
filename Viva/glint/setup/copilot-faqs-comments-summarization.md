@@ -135,9 +135,9 @@ Copilot uses filters applied to the report—for example: item labels, topics, p
 
 ## Other resources for Copilot in Viva Glint
 
-All customer-facing documentation is found on Microsoft Viva Glint Learn. [Start here](https://learn.microsoft.com/en-us/viva/glint/copilot/copilot-admin-intro)
+All customer-facing documentation is found on Microsoft Viva Glint Learn. [Start here](/viva/glint/copilot/copilot-admin-intro)
 
-[General Copilot in Viva Glint FAQs](https://learn.microsoft.com/en-us/viva/glint/setup/copilot-faqs) 
+[General Copilot in Viva Glint FAQs](/viva/glint/setup/copilot-faqs) 
 
-[Manager Guide](https://learn.microsoft.com/en-us/viva/glint/setup/copilot-manager-quick-guide)
+[Manager Guide](/viva/glint/setup/copilot-manager-quick-guide)
 
