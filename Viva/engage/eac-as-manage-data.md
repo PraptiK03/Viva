@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 ---
 
-# Export and manage Viva Engage data 
+# Export and manage Viva Engage data
 
 Engage administrators often need to export data to manage users and content in the network. This article explains the different options available to help you manage usage, compliance, and discovery.
 
@@ -65,8 +65,6 @@ The data export contains the following files:
    | **log.txt** | Summary of the export |
    | **request.txt** | Parameters of the export |
    | **Admins.csv** | Lists current admins, their email addresses, and corresponding roles <br>For more information on the types of admins in Viva Engage, see [Manage admin roles in Viva Engage.](/viva/engage/eac-key-admin-roles-permissions) |
-   |**EngageTopicMigrationLog.csv**|A list of topics migrated or not imported from Viva Topics or from lightweight topics to Viva Engage. **Properties include:** Cortex_topic_ID, migrated_at, migrated_action|
-   |**EngageTopicApplicationMigrationLog.csv**|A list of topic applications not imported from Viva Topics or from lightweight topics to Viva Engage. **Properties include:** Cortex_topic_id, target_id, target_type, migrated_at, migration_action|
    | **Answers.csv** | Lists the ID, messageId, networkId, threadId, voterID, and the updatedAt timestamp of Answer Votes |
    | **Campaigns.csv**| Provides data for campaigns including hashtag, creation date, state, and so on. The scope_type attribute distinguishes official (network) campaigns versus community (group) campaigns. The scope_id attribute identifies the network or community that hosted the community campaign. Find more campaign details about the network or community in the networks.csv file or the groups.csv file. |
    | **Networks.csv** | Information about your home network and any external networks:<br>- Name<br>- URL<br>- Creation date<br>- Number of users<br>- Whether it’s moderated or has a usage policy. |
@@ -75,7 +73,7 @@ The data export contains the following files:
 
 This data export doesn't include:
 
-- Data available in the user's settings, including:
+- Data available in users` settings, including:
   - user profile
   - tenants (networks) of which the user is a member
   - user account activity, applications, notifications, and language preference
@@ -115,10 +113,13 @@ The data export contains the following files:
 | **log.txt** | Summary of the export |
 | **request.txt** | The parameters of the export |
 | **Admins.csv** | A list of admins for each selected network, including the name, email, and admin type |
+|**EngageTopicMigrationLog.csv**|A list of topics migrated or not imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_ID, migrated_at, migrated_action|
+|**EngageTopicApplicationMigrationLog.csv**|A list of topic applications not imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_id, target_id, target_type, migrated_at, migration_action|
+| The **Files** folder | This contains files that are stored in Viva Engage and are created or modified during the specified time period.<br><br>Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 | **Groups.csv** | All groups created or modified during the specified date range. **Properties include:** account ID, name, description, privacy status, whether the group is internal or external, link to the group, who created the group, creation date, and updated date. |
 | **LikedMessagesHistory.csv** | Lists all reactions activities on messages from users. Properties included for reactions activity, including history: <br>- Reaction selected (such as like, love, or thank) <br>- Reaction action (add, remove) <br>- Reaction timestamp <br>- User ID of the user who reacted. |
 | **MutedThreads.csv** | Lists all messages that are muted for all users in the network. **Properties include:** network ID, thread ID, updated by user ID, is muted, created at, updated at. |
-| **Messages.csv** | All messages sent or modified during the specified date range, including messages created from files (using Intelligent Importer). **Properties include:** message ID, thread ID, group ID, group name, GDPR deletion URL (**gdpr_delete_url**), privacy status, sender ID, name and email, the full body of the message, attachments, creation and deletion information, and draft state. |
+| **Messages.csv** | All messages sent or modified during the specified date range, including messages created from files (using Intelligent Importer). **Properties include:** message ID, thread ID, group ID, group name, GDPR deletion URL (`gdpr_delete_url`), privacy status, sender ID, name and email, the full body of the message, attachments, creation and deletion information, and draft state. |
 | **MessageThreadsOutbound.csv** | Includes IDs of external participants in outbound messages. |
 | **MessageVersions.csv** | Includes IDs and modification information for previously edited messages. |
 | **MessageThreadExtension.csv** | Lists all messages marked as best reply or verified reply. Properties include:<br> - Message ID<br>- Thread ID<br>- Group ID<br>- Network ID<br>- Operation<br>- Operation performed by<br>- Operation performed at.<br> |
@@ -126,9 +127,6 @@ The data export contains the following files:
 | **Pages.csv** | Lists IDs, dates, and page owners for any page created or modified during the specified date range. Includes admin-created topics.|
 | **Topics.csv** | Lists creation information and a link for any article created during the specified date range. |
 | **Users.csv** | Lists data for all users who joined, or were deleted or suspended during the specified date range. **Properties include:** email address, job-title, location, department, a link to the user, and information about the user’s current state (active or soft_delete). <br>A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value.<br><br>Identify Guests by an email address that doesn't match the home network domain.<br><br>The **api_url** provides user metadata. For more information about using the data in this field, see [the REST API](/rest/api/yammer/rest-api-rate-limits). |
-| **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period.<br><br>Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
-|**EngageTopicMigrationLog.csv**|A list of topics migrated or not imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_ID, migrated_at, migrated_action|
-|**EngageTopicApplicationMigrationLog.csv**|A list of topic applications not imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_id, target_id, target_type, migrated_at, migration_action|
 |**VivaTopicApplications.csv** | For any topic applied to a post, lists information about each application for the date range specified (if any). |
 |**VivaTopicCurationStateLogs.csv** | Applies to only Answers in Viva. <br><br/>Contains the curation state logs for featured topics.<br><br/>cortex_topic_id can be used with the content of VivaTopics.csv to retrieve other information relevant to the topic. |
 |**VivaTopics.csv** | Any topic created or updated is displayed for the date range specified (if any).<br><br/>The ID refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.|
@@ -163,18 +161,18 @@ The data export contains the following files:
 |---|---|
 | **log.txt** | Summarizes the number of entries in each .csv file and lists any errors that occur during the export. |
 | **request.txt** | Parameters used for the export |
+| The **Files** folder | This contains files stored in Viva Engage that are created or modified by the user during the specified time period. Engage files stored in SharePoint are excluded. <br> <br>Files are in native format and named with their account ID. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
+| **BestReplyMessages.csv** | Lists all messages marked as best reply by the user. **Properties include:**<br>- Message ID<br>- Thread ID<br>- Group ID<br>- Group name<br>- Privacy status<br>- Sender ID<br>- Name and email address<br>- The full body of the message<br>- IDs for attachments, creation, and deletion information |
 | **Broadcast.csv** | Included if the user posted a live event video. Lists the network ID, group ID and name, title, description, links to the video, and additional information about the video. <br>Video content is excluded from the export. The video is saved in the OneDrive of the user who started the recording. To edit metadata or delete the video, you can open the video in Microsoft Stream admin mode. For more information, see [Admin capabilities in Microsoft Stream](/stream/manage-content-permissions) and [Microsoft 365 Data Subject Requests for the GDPR](/microsoft-365/compliance/gdpr-dsr-office365). |
 | **Files.csv** | Lists all files added or modified by the user from Viva Engage. **Properties include:** account ID, type of file, name, description, and path to the file, along with metadata including the group it was posted in. The storage_path column shows whether the file is stored in Viva Engage or SharePoint. <br> Files that are stored in Viva Engage are exported in their native format to the **Files** folder of the zip file. Files that are stored in SharePoint aren't exported. <br> To identify files in the **Files** folder, use the file_ID and path columns. <br> <br>To download files stored in SharePoint, use the download_url column. If SharePoint files have no Microsoft Entra tokens, [you must create a Microsoft Entra app](https://go.microsoft.com/fwlink/?linkid=2143320). Alternatively, find files stored in SharePoint for a specific date range with a [Content Search in Microsoft 365](/office365/securitycompliance/content-search). <br>Always delete stored files from Viva Engage to erase the file and metadata in both SharePoint and Viva Engage. Deleting a file from SharePoint retains the metadata in Viva Engage. |
 | **Groups.csv** | Lists all groups created or modified by the user. **Properties include:**  group ID, name, description, privacy status, internal or external status, creation date, updated date, and a link to the group. <br>Additional information includes the aggregated total number of polls the user voted on, and the polls the user created. |
 | **LikedMessagesHistory.csv** | Lists all reactions activities on messages from users. Properties included for reactions activity, including history: <br>- Reaction selected (such as like, love, or thank) <br>- Reaction action (add, remove) <br>- Reaction timestamp <br>- User ID of the user who reacted. |
 | **MutedThreads.csv** | Lists all messages the user muted for the network. **Properties include:** network ID, thread ID, updated by user ID, is muted, created at, updated at. |
 | **Messages.csv** | Lists all messages sent or modified by the user, including messages generated from files (using Intelligent Importer). **Properties include:**<br>- Message ID<br>- Thread ID<br>- Group ID<br>- Group name<br>- Privacy status<br>- Sender ID<br>- Name and email<br>- The full body of the message<br>- Attachments<br>- Creation and deletion information<br>- Draft state<br>Also provides a list of polls the user created and titles of any posted announcements. <br>Along with attachments, this Open Graph Object (OGO) information is exported: ID, URL, title, and description. |
-| **BestReplyMessages.csv** | Lists all messages marked as best reply by the user. **Properties include:**<br>- Message ID<br>- Thread ID<br>- Group ID<br>- Group name<br>- Privacy status<br>- Sender ID<br>- Name and email address<br>- The full body of the message<br>- IDs for attachments, creation, and deletion information |
 | **MessageThreadExtension.csv** | Lists all messages marked as best reply or verified reply. **Properties include:**<br> - Message ID<br>- Thread ID<br>- Group ID<br>- Network ID<br>- Operation<br>- Operation performed by<br>- Operation performed at.<br>*Information is restricted to the selected user.* |
 | **Topics.csv** | Lists all topics created by the user during the specified date range, including creation information and a link to each topic. |
 |**VivaTopicApplications.csv** | For any topic applied to a post, lists information about each application for the date range specified (if any). |
 |**VivaTopicCurationStateLogs.csv** | Applies to only Answers in Viva. <br><br/>Contains the curation state logs for featured topics.<br><br/>cortex_topic_id can be used with the content of VivaTopics.csv to retrieve other information that's relevant to the topic. |
-| **Files folder** | Contains files stored in Viva Engage created or modified by the user during the specified time period. Engage files stored in SharePoint are excluded. <br> <br>Files are in native format and named with their account ID. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 |**VivaTopics.csv** | Any topic created or updated is displayed for the date range specified (if any).<br><br/>The ID refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.|
 
 This data export doesn't include:
