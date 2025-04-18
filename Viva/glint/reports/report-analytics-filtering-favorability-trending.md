@@ -14,14 +14,14 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/14/2025
+ms.date: 04/18/2025
 ---
 
 # Understand Viva Glint reporting features
 
 Use these definitions to get the most useful information from your Microsoft Viva Glint reports. 
 
-|**Features**| **Definition**|
+| Features  | Definition |
 |-----------|-----------|
 |Key Outcome|The main result of the survey. It can be the score from a single item or an aggregate index. This number is the most prominently displayed score in most reports.| 
 |Engagement score | The key outcome for an Engagement survey. The Engagement Score is calculated by computing the average score, typically for eSat (Employee Satisfaction) - or eSat and Recommend. The Engagement Score has the highest correlation with engagement drivers, along with outcomes like productivity and retention. The overall Engagement score helps managers understand how happy their team is at work.  |
@@ -67,6 +67,20 @@ When a score increases or decreases, it’s useful to know where the increase or
 - Percent favorability only shows respondents who agree with the statement. Neutral or unfavorable scores aren’t provided.
 - Percent favorability doesn't reflect changes in scores over time.
 
+### Switch to percent favorable calculation
+
+1. Go to **Configuration** and select **General settings** in **Service configuration.**
+2. In **Reporting**, go to **Calculation method for rating question scores.**
+3. Select **Percent favorable** in the dropdown menu.
+4. When External benchmarks are enabled, a confirmation dialog appears:
+
+   :::image type="content" source="../../media/glint/reports/percent-favorable.png" alt-text="Screenshot of the Switch to percent favorable pop-up window.":::
+
+   > [!CAUTION]
+   > Switching to percent favorable as a calculation method disables external benchmarks, which use average score calculation. Users lose external benchmark comparisons in dashboards and reports.
+
+6. Select **Yes, switch to percent favorable**.
+
 ### Favorability rating scale point interpretation guide
 
 |Rating scale points|Favorable|Neutral|Unfavorable|
@@ -81,4 +95,5 @@ When a score increases or decreases, it’s useful to know where the increase or
 |**9**|7,8,9| 4,5,6 |1,2,3|
 |**10**| 8,9,10 |4,5,6,7|1,2,3|
 |**11**|10,11|8,9  |1,2,3,4,5,6,7|
+
 

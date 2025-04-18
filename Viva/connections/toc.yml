@@ -48,12 +48,20 @@ Items:
         href: available-dashboard-cards.md
       - name: Create a dashboard in more than one language
         href: create-multilingual-dashboard.md
-    - name: Feed
+    - name: News
       items:
+      - name: The News reader in Viva Connections
+        href: news-reader.md
+      - name: Manage the Viva Connections spotlight
+        href: manage-spotlight.md
       - name: Viva Connections News notifications
         href: viva-connections-news-notifications.md
       - name: Frequently asked questions about the feed
         href: faqs-viva-connections-feed.md
+    - name: Resources
+      items:
+      - name: Edit Viva Connections Resources
+        href: edit-resources.md
   - name: Viva Connections and home sites
     items:
     - name: Plan, build, and launch a home site

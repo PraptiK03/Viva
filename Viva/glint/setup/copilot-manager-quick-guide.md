@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 4/01/2025
+ms.date: 4/17/2025
 ---
 
 # Manager Guide - Microsoft 365 Copilot in Viva Glint
@@ -26,14 +26,14 @@ ms.date: 4/01/2025
 > 
 >Click anywhere on the page and select **Print.** From your printer window, in the dropdown menu, select **Save as PDF**. Select **Save.** Now share the resource within your organization.
 
-<br>
-
-## Copilot in Viva Glint can:
+## Copilot in Viva Glint uses prompts to:
 - Identify key themes by summarizing comments 
 - Summarize comments by demographics 
 - Summarize comments by survey items  
 - Identify what actions your employees are asking for  
-- Summarize non-English comments  
+- Summarize non-English comments
+
+**What is a Copilot prompt?** A Copilot prompt is a specific instruction or query provided by the user to guide Copilot in generating relevant responses, summaries, or content based on the given input. Essentially, it helps Copilot understand what you need and tailor its output accordingly.
 
 ### Manager process for reviewing feedback results 
 
@@ -41,7 +41,6 @@ ms.date: 4/01/2025
 |:-----------|:-----------|
 | **Review your scores on the Viva Glint Team Summary dashboard before jumping directly into Copilot.** <br><br>Consider:<ul><li>Where are your high and low scores?<br></li><li>What items have high comment counts? <br></li><li>Are there teams or subgroups scoring higher or lower than others?</ul>|**Manager Team Summary dashboard** <br><br>:::image type="content" source="../../media/glint/setup/copilot-team-summary-1.png" alt-text="Screenshot of the Manager Team Summary dashboard.":::|
 
-<br>
 
 | Task 2| Where to find it|
 |:-----------|:-----------|

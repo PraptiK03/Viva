@@ -23,11 +23,11 @@ description: "Use audience targeting in Viva Connections to help the most releva
 
 # Use audience targeting to personalize the Connections experience
 
-Audience targeting can help you target content to specific [Microsoft 365 Groups](/microsoft-365/community/all-about-groups) within your organization so your content is seen by the right people. Audience targeting can be applied to cards on the dashboard, SharePoint news posts in the Feed, and links in the Resource section. For example, if a regional finance department has many specialized dashboard cards needed for their daily tasks, audience targeting ensures that only members of that group see the cards.
+Audience targeting can help you target content to specific [Microsoft 365 Groups](/microsoft-365/community/all-about-groups) within your organization so your content is seen by the right people. Audience targeting can be applied to cards on the dashboard, SharePoint news posts that appear in the news reader, and links in the Resource section. For example, if a regional finance department has many specialized dashboard cards needed for their daily tasks, audience targeting ensures that only members of that group see the cards.
 
 > [!NOTE]
 >
-> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
+> The news reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers across all devices by the end of April 2025.
 
 You can also create separate Viva Connections experiences for different audiences. For more information, see the article on the [difference between audience targeting and different experiences](set-up-admin-center.md#when-to-use-a-separate-experience-vs-dashboard-card-level-targeting).
 
@@ -121,13 +121,13 @@ In the following example, the preview is set for mobile devices and highlights t
 | :------------------- | :------------------- |
 | :::image type="content" source="../media/connections/use-audience-targeting-in-viva-connections/mobile-view-1.png" alt-text="Screenshot of a mobile preview showing audience targeting for general users."::: | :::image type="content" source="../media/connections/use-audience-targeting-in-viva-connections/mobile-view-2.png" alt-text="Screenshot of a mobile preview showing audience targeting for users in sales."::: |
 
-## Apply audience targeting to news posts that display in the feed  
+## Apply audience targeting to news posts that display in the news reader  
 
 Audience targeting is useful when you want to present information that is relevant only to a particular group of people. For example, you can target news stories about a specific project to only team members and stakeholders of the project.
 
 To use audience targeting, you must first enable audience targeting for each pages library that contains the news stories you wish to target. For more information, see the article on [enabling audience targeting for your pages library](https://support.microsoft.com/office/c2dcee50-f5d7-434b-8cb9-a7feefd9f165#bkmk_audiencetarget).
 
-### Apply Audience Targeting to news posts from SharePoint
+### Apply audience targeting to news posts from SharePoint
 
 To apply audience targeting to news posts (site pages) from your SharePoint site:
 
@@ -141,9 +141,9 @@ To apply audience targeting to news posts (site pages) from your SharePoint site
 
     :::image type="content" source="..//media/connections/use-audience-targeting/at-apply-to-news-sharepoint.png" alt-text="Screenshot showing which audience the news post is targeting":::
 
-### Apply Audience Targeting to news posts from Viva Connections
+### Apply audience targeting to news posts from Connections
 
-To apply audience targeting to news posts from Viva Connections:
+To apply audience targeting to news posts from Connections:
 
 1. Navigate to the news post you want to apply audiences to and select **Edit**.
 
@@ -155,7 +155,7 @@ To apply audience targeting to news posts from Viva Connections:
 
 4. Select **Update news** for the audience targeting to take effect.
 
-## Apply audience targeting to links in resources  
+## Apply audience targeting to links in resources
 
 Resources are the navigation links that display beneath the dashboard. You can provide another level of customization to your Resource links by applying audience targeting. Resource links that have audience targeting applied only appear to users who are part of the selected audience.
 
@@ -179,15 +179,13 @@ For example, an organization could use audience targeting to provide a set of re
 
     :::image type="content" source="../media/connections/edit-viva-home/atr-audience-targeting-icon.png" alt-text="Screenshot of the audience targeting icon shown in the upper left of the resource link.":::
 
-For more information, see the article on [customizing resources](edit-viva-home.md#customize-resources).
+For more information, see the article on [customizing resources](edit-resources.md).
 
 ### More resources
 
 [Overview: Viva Connections](viva-connections-overview.md)
 
 [Create the Viva Connections dashboard](create-dashboard.md)  
-
-[Frequently asked questions about the Feed for Viva Connections](faqs-viva-connections-feed.md)
 
 [Using web parts to display content on your SharePoint site](use-web-parts-in-sharepoint.md)
 
