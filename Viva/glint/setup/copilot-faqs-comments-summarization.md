@@ -1,6 +1,6 @@
 ---
 title:  Microsoft 365 Copilot in Viva Glint-FAQs for comments summarization
-description: Scan commonly asked questions about the comments summarization tool in Microsoft Viva Glint.
+description: Find answers to your specific inquiries about comments summarization and prompts for Copilot in Viva Glint.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
