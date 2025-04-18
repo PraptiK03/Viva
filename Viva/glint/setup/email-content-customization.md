@@ -34,7 +34,7 @@ Your Microsoft 365 global admin can configure a custom sending domain for your o
   - In the Viva Glint app: Go to **General settings** to manage [Custom branding](custom-branding.md).
 
 > [!NOTE]
-> - Custom sending domains configured in the Microsoft 365 admin center can impact other M365 products. See [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products) for a full list.
+> - Custom sending domains configured in the Microsoft 365 admin center can impact other Microsoft 365 products. See [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products) for a full list.
 > - Viva Glint teams have access to limited email delivery metrics. Using a custom sender domain gives your organization direct access to your email delivery data.
 > - [Send an email preview](#preview-emails) to see your organization's customized logo. The preview in the email setup pane in the platform always displays the Viva Glint logo. 
 
