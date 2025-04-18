@@ -25,7 +25,7 @@ items:
             - name: Introduction to templates
               href: advanced/analyst/templates/introduction-to-templates.md   
             - name: Copilot Analytics PBI reports
-              href: copilot-analytics-introduction.md#copilot-analytics-pbi-reports
+              href: copilot-analytics-introduction#copilot-analytics-pbi-reports
             - name: Set up queries using Copilot
               href: advanced/analyst/copilot-query.md
             - name: Copilot metrics
