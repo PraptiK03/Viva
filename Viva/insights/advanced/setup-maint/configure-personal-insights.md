@@ -251,7 +251,7 @@ You can use PowerShell to configure Viva Insights access for individual users in
 
 ### User configuration settings
 
-#### About managing access and opt out
+#### About managing access and opt-out
 
 Viva Insights has core features and premium features. Access to features and types of data processing depends on a user's assigned service plan.
 
