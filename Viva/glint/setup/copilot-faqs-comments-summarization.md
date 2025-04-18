@@ -20,7 +20,7 @@ ms.custom: CELA-aapproved
 ms.date: 04/18/2025
 ---
 
-Microsoft 365 Copilot in Viva Glint-FAQs for comments summarization
+# Microsoft 365 Copilot in Viva Glint-FAQs for comments summarization
 
 > [!NOTE]
 > Not all items in the Microsoft Viva Glint Question Library are posed in question format. Question Library items can be statements for the survey taker to rate on a given scale. For this reason, the term "item" is often used to refer to the all contents of the Question Library, regardless of whether it's a question or statement.
