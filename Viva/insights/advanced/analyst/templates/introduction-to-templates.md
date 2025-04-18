@@ -28,6 +28,6 @@ Before analysts can get to work, they’ll need to be assigned the **Insights An
 
 * The predefined templates available in the Analysis page require the use of the Power BI Desktop, December 2022 version or newer. You don’t need a license for Power BI Desktop; you can download it for free by going to [Getting started with Power BI](https://powerbi.microsoft.com/getting-started-with-power-bi/). If you have an earlier version of Power BI desktop installed, uninstall it before reinstalling the new version.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lhYT]
+> [!VIDEO 7623c86c-43e1-4684-995d-1cf22f15399d]
 
 To learn more about the individual reports, refer to our articles here on Microsoft Learn.

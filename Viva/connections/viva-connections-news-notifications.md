@@ -25,6 +25,10 @@ description: "Learn how notifications are presented in Viva Connections across t
 
 The Viva Connections app delivers News notifications via Microsoft Teams and links users to the Viva Connections app through the notification. This document describes when notifications are sent, and the conditions that need to be met for receiving notifications.
 
+> [!NOTE]
+>
+> The news reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers across all devices by the end of April 2025.
+
 ## When notifications are sent via Microsoft Teams
 
 News notifications are delivered via Microsoft Teams in the desktop, mobile, and web environments in the following scenarios:
@@ -74,7 +78,7 @@ After an author receives a notification of either of these type, Viva Connection
 
 Viva Connections notifications follow the Microsoft Teams notification settings, including Quiet Hours settings, and are only sent if users have the Viva Connections app installed
 
->[!NOTE]
+> [!NOTE]
 >
 > There is no organization-wide method for an administrator to control Viva Connections notifications.
 
@@ -101,3 +105,7 @@ If the user selects a notification from their home screen within Microsoft Teams
 **Will Viva Connections users be notified every time a user reacts to a news post?**
 
 No. Only authors who created the news post receive notifications when someone likes or comments on a post.
+
+**Why isn’t boosted news displaying in the Top News Card?**
+
+For [new organization news sites](/sharepoint/organization-news-site), it can take up to 24 hours for boosted news created from those sites to appear in the Top News card in Viva Connections dashboard.

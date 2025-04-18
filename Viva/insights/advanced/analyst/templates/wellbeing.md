@@ -1,5 +1,5 @@
 ---
-ms.date: 08/25/2023
+ms.date: 04/11/2025
 title: Wellbeing - balance and flexibility report
 description: Learn how the Wellbeing - balance and flexibility PowerBI template from Microsoft Viva Insights helps you discover whether your employees maintain work-life balance and flexibility at work
 author: lrolason
@@ -47,7 +47,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 ### Run query
 
 1.	In the Viva Insights analyst experience, select **Analysis**.
-2.	Under Power BI templates, navigate to **Wellbeing – balance and flexibility report** and select **Start analysis**. 
+2.	Under Power BI templates, navigate to **Wellbeing – balance and flexibility report** and select **Set up analysis**. 
 
  3. Under **Query setup**:
     

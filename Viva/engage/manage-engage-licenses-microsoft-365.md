@@ -84,15 +84,18 @@ Use the following example Windows PowerShell script snippets to develop a comple
 
 ## Block users who don't have Viva Engage Core licenses
 
-The Viva Engage Core license provides access to core Viva Engage services. In any scenario where you're blocking a user or your entire company from accessing Viva Engage, you need to remove the Viva Engage Core license.
+>[!NOTE]
+>Taking this action can accidentally disrupt users' access to Viva Engage.
 
-A few steps are required to block Microsoft 365 users who don't have Viva Engage Core licenses. Taking this action can accidentally disrupt users' access to Viva Engage. Before you begin, do the following to make sure your Viva Engage users can continue working smoothly:
+The Viva Engage Core license provides access to core Viva Engage services. When you need to block a user or an entire department from accessing Viva Engage, you first need to remove their Viva Engage Core license. Some users might not possess this license; you'll need to remediate those users before taking the step to block access to Viva Engage.
+
+To do so, you'll need to take a few preparatory steps. Do the following to make sure your Viva Engage users can continue working smoothly:
   
-- **Make sure to enable Microsoft 365 identity enforcement for Viva Engage users.** You can assign or unassign Viva Engage licenses only to Viva Engage users who are managed in Microsoft 365. To block Microsoft 365 users without Viva Engage Core licenses, *all Viva Engage users must be managed in Microsoft 365*. You can enable the **Block Microsoft 365 users without Viva Engage licenses** setting only when the [Enforce Office 365 identity for Viva Engage users](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity) setting is turned on.
+- **Enable Microsoft 365 identity enforcement for Viva Engage users.** You can assign or unassign Viva Engage licenses only to Viva Engage users who are managed in Microsoft 365. To block Microsoft 365 users without Viva Engage Core licenses, *you must manage all Viva Engage users in Microsoft 365*. You can enable the **Block Microsoft 365 users without Viva Engage licenses** setting only when the [Enforce Office 365 identity for Viva Engage users](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity) setting is turned on.
 
-- **Make sure that all current Viva Engage users have a Viva Engage Core license.** When you start blocking Microsoft 365 users without Viva Engage core licenses, those users can't access Viva Engage. Before you begin, make sure that all our current Viva Engage users have Viva Engage Core licenses. To check, go to the **Export Users** page in Viva Engage and export all users. Then compare that list to the list of users in Microsoft 365, and make any necessary changes. For more information, see [How to audit Viva Engage users in networks connected to Microsoft 365](/viva/engage/manage-viva-engage-users/audit-users-connected-to-office-365).
+- **Enable the Viva Engage Core license for all current Viva Engage users.** When you start blocking Microsoft 365 users without Viva Engage core licenses, those users can't access Viva Engage. Before you begin, make sure that all our current Viva Engage users have Viva Engage Core licenses. To check, go to the **Export Users** page in Viva Engage and export all users. Then compare that list to the list of users in Microsoft 365, and make any necessary changes. For more information, see [How to audit Viva Engage users in networks connected to Microsoft 365](/viva/engage/manage-viva-engage-users/audit-users-connected-to-office-365).
 
-- **Tell your users about this change.** Let your users know that you're starting to block Microsoft 365 users without Viva Engage Core licenses. The blocking action can disrupt their day-to-day usage of Viva Engage.
+- **Tell your users about this change.** Let your users know that you're starting to block Microsoft 365 users that don't have Viva Engage Core licenses. The blocking action can disrupt their day-to-day usage of Viva Engage.
 
 Use the following steps to block users who don't have Viva Engage Core licenses.
 
@@ -107,7 +110,7 @@ Use the following steps to block users who don't have Viva Engage Core licenses.
 
 3. Select the **Block Office 365 users without Viva Engage licenses** checkbox, and then choose **Save**.
   
-4. A confirmation message appears that asks if you're ready to start blocking Office 365 users without Viva Engage Core licenses.
+4. A message appears that asks if you're ready to start blocking Office 365 users without Viva Engage Core licenses.
 
     ![Screenshot of confirmation dialog box to start blocking users without a Viva Engage core license.](../media/engage-office-365-block-users.png)
   
@@ -122,22 +125,22 @@ Use the following steps to block users who don't have Viva Engage Core licenses.
 >[!NOTE]
 >Always ensure that network users sign in with their full Microsoft 365 identity.
 
-### Workplace Searches and public content
+## Viva Engage content in Workplace Search and Copilot 365
 
-Users who don't have Viva Engage user licenses can see search results that originate from Viva Engage. This includes results from Workplace search and from Copilot 365. Users without appropriate licensing can't select or otherwise interact with Engage post links, or access Engage in any fashion.
+Users without Viva Engage user licenses can see search results from Viva Engage, including results from Workplace Search and from Copilot 365. Without correct licensing, users can't select or otherwise interact with Viva Engage post links, or access Engage in any fashion.
 
-Engage content that's available to Workplace search and to Copilot 365 is currently limited to Question posts from public communities, [Engage's Answers feature](eac-answers-overview-set-up.md), and [Storylines](eac-storyline.md). Users without separate Answers licenses can view Question posts, but can't interact with them, or post new questions.
+Viva Engage content that appears in Workplace Search and in Copilot 365 is currently limited to Question posts from public communities, [Engage's Answers feature](eac-answers-overview-set-up.md), and [Storylines](eac-storyline.md). Users without Answers licenses can view Question posts, but can't interact with them, or post new questions.
 
 ## FAQ
 
-### Why are Viva Engage Core licenses "per user"?
+**Q: Why are Viva Engage Core licenses "per user"?**
 
 Per-user licenses let you assign Viva Engage to a subset of users in your company, typically for a geographical or team-by-team rollout. Only users who have a Viva Engage Core license can see the Viva Engage tile in the Microsoft 365 Copilot and the Viva Engage application in Teams.
   
-### What if I don't want anyone in my company to use a legacy Yammer identity?
+**Q: What if I don't want anyone in my company to use a legacy Yammer identity?**
 
 You can [Enforce Office 365 identity](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity) for your legacy Yammer users. They must each have a Viva Engage Core license to continue using Viva Engage.
   
-### How can I tell if all of my Viva Engage users have accounts in Microsoft 365?
+**Q: How can I tell if all of my Viva Engage users have accounts in Microsoft 365?**
 
 [Export your list of users](/viva/engage/eac-as-manage-data) from Viva Engage, and then check for users who aren't in Microsoft 365. For more information, see [Audit Viva Engage users in networks connected to Microsoft 365](/viva/engage/manage-viva-engage-users/audit-users-connected-to-office-365).

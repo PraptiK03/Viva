@@ -36,7 +36,7 @@ Quick view is a powerful tool that enables the card designer to create cards tha
 
 ## Edit the dashboard
 
-You need member or owner level permissions to access the card designer from the dashboard card toolbox. See the article on [creating a Viva Connections dashboard and adding cards](create-dashboard.md#edit-the-dashboard-from-microsoft-teams) for information on getting started.
+You need member or owner level permissions to access the card designer from the dashboard card toolbox. See the article on [creating a Viva Connections dashboard and adding cards](create-dashboard.md#edit-a-viva-connections-dashboard) for information on getting started.
 
 ## Use a card template
 

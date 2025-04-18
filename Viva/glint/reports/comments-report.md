@@ -14,13 +14,15 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 3/14/2025
+ms.date: 4/10/2025
 ---
 
 # Use Viva Glint’s Comments report 
 
 The Comments report is your window into Microsoft Viva Glint's Narrative Intelligence technology, which helps managers interpret comment data by highlighting important topic areas, sentiment analysis, and keywords. 
 Reviewing comments allows managers to gain further insights into their results. Comments provide helpful context around scores you're exploring. When a comment count is present, select it to view it and interact with Viva Glint’s full Narrative Intelligence experience. Comments are available by demographic group or survey item. 
+
+Read [*Narrative Intelligence:  Enable true understanding of employee feedback*](https://techcommunity.microsoft.com/discussions/results_and_action_taking_on_viva_glint/what-is-viva-glints-narrative-intelligence/3884799) to learn how individual comments are surfaced and calculated.
 
 ## Access the Comments dashboard
 

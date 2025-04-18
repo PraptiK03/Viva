@@ -31,6 +31,8 @@ items:
       href: setup-admin-access/access-pulse-via-teams-or-web.md
     - name: View usage metrics with the Tenant Admin Dashboard
       href: setup-admin-access/tenant-admin-dashboard.md
+    - name: Export pulse data
+      href: setup-admin-access/export-pulse-data.md
 - name: Privacy, secutiy and data management
   items:
     - name: Privacy and data protection

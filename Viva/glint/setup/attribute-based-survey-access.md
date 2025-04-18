@@ -3,10 +3,10 @@ title: Set up attribute-based survey access in Viva Glint
 description: Microsoft Viva Glint's attribute-based survey access allows users without a corporate email account to complete confidential surveys. 
 ms.author: JudithWeiner
 author: JudyWeiner
-manager: elizapo
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: variables & product text, attribute-based URL, survey access 
+keywords: attribute-based access, survey access, variables & product text
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,23 +14,21 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/10/2025
+ms.date: 04/08/2025
 ---
 
 # Set up attribute-based survey access in Viva Glint
 
-Microsoft Viva Glint's Attribute-based Survey Access allows users without a corporate email account to complete confidential surveys using attribute-based survey access, which is designed for mobile or public devices including desktops, laptops, tablets, or mobile phones. Users access surveys using key identifiers. These identifiers ensure a user's responses are tied to their survey and allow for full reporting on demographics in survey results.
+Microsoft Viva Glint's attribute-based survey access allows users without a corporate email account to complete surveys using mobile or public devices like laptops, tablets, or mobile phones. Users access surveys using key identifiers. These identifiers ensure a user's responses are tied to their survey and allow for full reporting on demographics in survey results.
 
 ## Understand key identifiers
 
-Viva Glint uses key identifiers to uniquely identify each user. Because these users may not have email addresses, attribute-based survey access requires the use of two attributes - the combination known only to the specific user. The system is flexible enough to support any two attributes that are a part of your employee data file:
+Viva Glint uses key identifiers to uniquely identify each user. Because these users may not have email addresses, attribute-based survey access requires the use of at least two attributes - the combination known only to the specific user. The system is flexible enough to support any two attributes that are a part of your employee data file:
 
 - One of these attributes is always a unique identifier
 - The other attribute should be something not commonly known, like the employee ID number or birth year.
 
-## Set up attribute-based survey access
-
-### Configuration in General Settings
+## Set up attribute-based survey access in General Settings
 
 1. From the admin dashboard, select the **Configuration** symbol, then in **Client Settings**, choose **General Settings**.
 2. In the **All Settings** menu, select **Engage Survey Details**.
@@ -39,32 +37,32 @@ Viva Glint uses key identifiers to uniquely identify each user. Because these us
 5. If desired, edit the **Welcome text** or **Instruction text** fields by entering new text.
 6. Select **+ Add an attribute** and select attributes from the dropdown menu.
    > [!NOTE]
-   > Complete attribute setup and employee data upload prior to selection for attributes to be available.
+   > Complete attribute setup and employee data upload to make your attributes available in this list.
 7. Edit the **Placeholder text** that displays under each selected attribute.
 
    :::image type="content" source="../../media/glint/setup/attribute-based-access-setup.png" alt-text="Screenshot of the attribute-based survey access setup pane in General Settings.":::
    
 9. Confirm your edits in the **Preview** at the bottom of the pane.
 10. At the top of the pane, select **Save**.
-11. Select the **Configuration** symbol, then in **Service Configuration**, choose **Advanced Configuration**.
+11. Select the **Configuration** symbol and in **Service Configuration**, choose **Advanced Configuration**.
 12. In the **Details** section, confirm that the **Enable Kiosk Page** checkbox is selected. If not, select this checkbox.
 13. Select **Save Changes** at the bottom of the **Details** page.
 
-### Manage translations
+## Manage translations
 
 To add translations for your organization's survey languages, use the dropdown menu in the **Attribute-based Survey Access** setup section or import translations using the **Variables & Product Text** feature.
 
 > [!IMPORTANT]
-> - The language selection dropdown menu on the Attribute-based Survey Access survey landing page includes all languages in that your organization selects in General Settings as Supported Survey Languages. The languages available aren't limited by what's selected in the survey program.
-> - See [Upcoming language changes](attribute-fundamentals.md#upcoming-language-changes) for changes to supported languages and codes effective April 10, 2025.
+> - The language selection dropdown menu on the attribute-based survey access landing page includes all languages that your organization selects in General Settings as Supported Survey Languages. Language options aren't limited to selections in the survey program.
+> - See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
-#### Use the language dropdown menu
+### Use the language dropdown menu
 
 1. In the Attribute-based Survey Access setup pane, select a language from the **Language:** dropdown menu.
 2. Add translations to the Welcome Text, Instruction Text, and the Placeholder text fields.
 3. Select **Save** and repeat for each language.
 
-#### Use the Variables & Product Text
+### Use Variables & Product Text
 
 1. Go to **Configuration** and in the **Service Configuration** section, select **Variables & Product Text**.
 2. In the dialog that appears, select **Export Product Text** and in the next dialog, select languages in the **Languages to Include** field.
@@ -97,14 +95,14 @@ To add translations for your organization's survey languages, use the dropdown m
     
 17. Return to the Attribute-based Survey Access setup section and select languages from the dropdown menu to confirm that updates applied.
 
-### Get the attribute-based survey access URL
+## Get the attribute-based survey access link
 
-1. From the admin dashboard, select the **Configuration** symbol, then in **Surveys**, choose **Survey Programs.**
+1. From the admin dashboard, select the **Configuration** symbol.  Then in **Surveys**, choose **Survey Programs.**
 2. Select the survey program that should have attribute-based survey access.
 3. At the top of the page, select **Copy survey link,** and then **Copy** in the dialog.
 4. Optionally, use online tools to convert this link into a QR code or shortened link for easy participation on mobile devices.
 
-:::image type="content" source="../../media/glint/setup/attribute-link.png" alt-text="Screenshot of the attribute-based access survey link dialog in a survey program.":::
+   :::image type="content" source="../../media/glint/setup/attribute-link.png" alt-text="Screenshot of the attribute-based access survey link dialog in a survey program.":::
 
 > [!NOTE]
 > If users become INACTIVE during a survey, they're still able to access surveys with attribute-based access.

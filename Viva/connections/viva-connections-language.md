@@ -68,11 +68,11 @@ Viva Connections is available in most major languages used in Microsoft 365. Lea
    :::column-end:::
 :::row-end:::
 
-Broadly, [Viva Connections](viva-connections-overview.md) has four components that influence the end user’s overall language experience - the Viva Connections dashboard, feed, resources, and spotlight. Viva Connections is also supported across desktop and web, and on mobile and tablet devices through the Teams mobile app.
+Broadly, [Viva Connections](viva-connections-overview.md) has four components that influence the end user’s overall language experience - the Viva Connections dashboard, news reader, resources, and spotlight. Viva Connections is also supported across desktop and web, and on mobile and tablet devices through the Teams mobile app.
 
 > [!NOTE]
-> 
-> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
+>
+> The news reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers across all devices by the end of April 2025.
 
 Learn how to set up Viva Connections components to display content in another language other than your organization’s default language. The following steps use English as an example, but the steps apply for any one of the 27 languages specified in the [available languages](#available-languages).
 
@@ -113,19 +113,19 @@ The dashboard is intended to provide quick access to content and tasks from vari
 5. Copy the link to the dashboard under **Properties > Name**.
 6. Paste the link in a browser. Then go to **Settings > Advanced site settings > Language preferences**.
 
-## Viva Connections Feed
+## Viva Connections news reader
 
-The Feed experience displays SharePoint news posted from:
+The news reader displays SharePoint news posted from:
 
+- Organizational Home sites,
 - [Organizational news sites](/sharepoint/organization-news-site),
-- Sites you frequent and follow,
-- Viva Engage posts in the [All-company group](/viva/engage/manage-viva-engage-groups/all-company-community),
-- Viva Engage posts in communities you follow, and
-- [Boosted SharePoint news](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
+- SharePoint sites users frequent and follow,
+- [Boosted SharePoint news](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83), and
+- Trending sites and news published by people the user works with.
 
 ### Organizational news
 
-Make sure that authoritative news sites (there can be more than one organization news site) are created with English as the default language and that authors of news post are creating the news posts in English language – even if their own [preferred language setting in Microsoft 365](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) isn't English. In order for content in the feed to display in a language other than your organization’s default language, [SharePoint news posts need to be available in more than one language](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
+Make sure that authoritative news sites (there can be more than one organization news site) are created with English as the default language and that authors of news post are creating the news posts in English language – even if their own [preferred language setting in Microsoft 365](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) isn't English. In order for content in the news reader to display in a language other than your organization’s default language, [SharePoint news posts need to be available in more than one language](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
 
 #### All company Viva Engage
 
@@ -141,7 +141,7 @@ Refer to [customizing and editing the Viva Connections experience](/viva/connect
 
 In the Teams mobile app, Viva Connections is displayed as another tab in the Teams app bar. The language experience of the mobile app is determined by the device language set by the user. Make sure to inform your users to set it to English for a cohesive experience – although it isn't required.
 
-If a user has a device set to the French language, the Teams mobile app "system" strings (placeholder text Microsoft provides out-of-the-box) will be in French while the dashboard cards and feed will appear in English if the French version of the Connections experience isn't published. Resources content will also be in English.
+If a user has a device set to the French language, the Teams mobile app "system" strings (placeholder text Microsoft provides out-of-the-box) will be in French while the dashboard cards and news reader will appear in English if the French version of the Connections experience isn't published. Resources content will also be in English.
 
 ![Image of where to specify the language for the mobile app.](../media/connections/vc-language-mobile-app.png)
 

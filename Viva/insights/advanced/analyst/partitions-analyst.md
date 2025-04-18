@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 05/17/2023
+ms.date: 04/2/2025
 title: Partitions in Viva Insights
 description: Learn how to use analyst workspaces in the advanced insights app.
 author: zachminers

@@ -34,7 +34,7 @@ Before you can run the ONA query and populate the report in the advanced insight
 
 ## Set up a Network Analysis
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1nze8]
+> [!VIDEO 1843f987-8e68-4952-92b9-5c3b8721b216]
 
 1. In the advanced insights app’s **Analysis** page, in the **Network analysis** section, under “Change management,” select **Set up analysis**.
 
@@ -118,11 +118,11 @@ Let's now discuss the insights provided by each category, and how you can naviga
 
 ## Insight category #1 - Significant change in collaboration
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1k3fg]
+> [!VIDEO a04b9b9f-8270-4a29-a1b1-343a9286ee02]
 
 ### Summary page
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1nyKk]
+> [!VIDEO de3da5b4-46b4-47d7-85a5-e087f8a1bab6]
 
 **Significant change in collaboration** highlights significant changes in collaboration patterns following the event. You can use this insight category to analyze how collaboration increased or decreased between specific groups, as well as between smaller groups of people or subgroups within the larger groups. For example, with this card, you could analyze the changes in collaboration between the Product and Marketing groups following a reorganization.
 
@@ -438,11 +438,11 @@ Therefore, for a given group, we average all the group size values that we have 
 
 ## Insight category #2 - Showing signs of insularity
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1k3fj]
+> [!VIDEO 9898f011-31a0-441f-b29d-fb13f3985b57]
 
 ### Summary page
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1nyKk]
+> [!VIDEO de3da5b4-46b4-47d7-85a5-e087f8a1bab6]
 
 The **Showing signs of insularity** insight category details which groups are connecting more within their own group than expected, in comparison to connecting with other groups outside their own group. This tendency toward within-group collaboration is referred to as “insularity.”
 
@@ -654,7 +654,7 @@ The top highlights section encompasses group(s) that exhibit either:
 
 1. A significant increase in insular collaboration behavior in the after period, the EI Index of the group(s) has become more negative (i.e., the EI Index is getting close to -1).
 
-2. Group(s) that continue to showcase insular collaboration tendencies (i.e. have a negative EI Index in the before/after periods). In the case where group(s) continue to display insular collaboration tendences in the before/after period, up to five groups with the lowest negative score (i.e. closer to -1) are surfaced in the top highlights section.
+2. Group(s) that continue to showcase insular collaboration tendencies (i.e. have a negative EI Index in the before/after periods). In the case where group(s) continue to display insular collaboration tendencies in the before/after period, up to five groups with the lowest negative score (i.e. closer to -1) are surfaced in the top highlights section.
 
 Let’s look at two different scenarios to see how this plays out.
 

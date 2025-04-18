@@ -48,10 +48,10 @@ Within the strengths section, you may see **realized** or **unrealized** labels.
 Share these videos with your managers.
 
 - **Lean into your strengths with Microsoft Viva Glint** (2:30)
-    > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW132G0]
+    > [!VIDEO 630992e5-c95f-4918-9b98-6cbd202c99ed]
 
 - **How to think about your opportunities with Microsoft Viva Glint** (3:00)
-    > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW12ULW]
+    > [!VIDEO 266103d3-d29a-4730-bfaa-b47e882d6e9d]
 
 Knowing which drivers have a high impact allows managers to focus on improving the scores of drivers that matter most. A driver's impact is classified as high when: 
 - Employees who rate a driver high, also rate engagement high 

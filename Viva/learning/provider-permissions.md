@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 01/09/2025
+ms.date: 04/03/2025
 audience: admin
 ms.topic: concept-article
 ms.service: viva-learning
@@ -13,8 +13,9 @@ ms.collection:
     - enabler-strategic
     - m365initiative-viva-learning
     - essentials-manage
+    - essentials-privacy
+    - essentials-security
 ms.localizationpriority: medium
-
 description: Control access to content from a provider so only certain users can discover them.
 ---
 

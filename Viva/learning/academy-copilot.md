@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 02/05/2025
+ms.date: 03/28/2025
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: viva-learning
@@ -17,7 +17,7 @@ ms.localizationpriority: medium
 description: Learn how to create and maintain Microsoft Copilot Academy to help users in your organization learn more about Copilot.
 ---
 
-# Microsoft Copilot Academy 
+# Microsoft Copilot Academy
 
 Microsoft Copilot Academy helps learners develop skills associated with Microsoft 365 Copilot. This experience provides structured educational content within Viva Learning to help users learn about, discover, and use Copilot effectively.  
 
@@ -74,7 +74,7 @@ You can duplicate and customize Copilot Academy to fit your organization’s uni
 Copilot Academy remains enabled by default unless explicitly disabled.  
 
 
-Duplicate academies include Microsoft-curated Learning paths and Featured set unless an admin replaces them with tenant-created Learning paths and Featured set.  
+Duplicate academies include Microsoft-curated learning paths and featured sets unless an admin replaces them with tenant-created learning paths and featured sets.  
 
 As an admin, you can edit a duplicated academy by:
 
@@ -83,7 +83,7 @@ As an admin, you can edit a duplicated academy by:
 - Updating the duplicated academy's title and description  
 - Publishing the duplicated academy to the users (or a group of users) in the organization  
 
-You can duplicate Copilot Academy, Microsoft-curated learning paths and featured sets in eight languages and use them in a duplicated Copilot Academy or in existing academies.
+You can duplicate Copilot Academy and featured sets in eight languages and use them in a duplicated Copilot Academy or in existing academies.
 
 Learning paths in Copilot Academy are powered by the new AI and Copilot Resources provider.
 

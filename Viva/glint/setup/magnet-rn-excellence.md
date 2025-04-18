@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/05/2025
+ms.date: 03/28/2025
 ---
 
 # Set up a Microsoft Viva Glint RN Excellence (Magnet®️) survey
@@ -29,7 +29,10 @@ Magnet©️ status is a prestigious honor which certifies that the RNs at a hosp
 
 ## Build the survey 
 
-Choose a **blank recurring** survey template and customize it to create the RN Excellence/Magnet®️ survey. Search our Question Library for the core survey items in this table: 
+Choose any prepopulated Recurring survey template and customize it to create the RN Excellence/Magnet®️ survey. Search our Question Library for the core survey items in this table.
+
+> [!CAUTION]
+> Don't use the Blank Recurring survey template to set up an RN Excellence/Magnet®️ survey. This template doesn't support multiple survey cycles.
 
 ### RN Excellence survey items
 

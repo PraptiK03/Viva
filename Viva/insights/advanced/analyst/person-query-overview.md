@@ -1,5 +1,5 @@
 ---
-ms.date: 07/14/2022
+ms.date: 03/25/2025
 title: Person query overview
 description: Learn about custom person queries in the Microsoft Viva Insights advanced insights app
 author: zachminers

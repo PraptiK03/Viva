@@ -1,11 +1,11 @@
 ---
 title: "Use Answers Intelligent Importer to populate Engage communities with questions and answers"
 description: "Repurpose your organization's content assets by importing them as question-and-answer pairs in Viva Engage."
-ms.reviewer: ethli
+ms.reviewer: iakande
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
-ms.date: 04/04/2024
+ms.date: 03/27/2025
 audience: Admin
 f1.keywords:
 - NOCSH

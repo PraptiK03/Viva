@@ -19,7 +19,7 @@ search.appverid: MET150
 
 The Viva Pulse in-app experience can be managed by users with the Viva Pulse admin role. If you're the Viva Pulse admin, you see a Manage tab next to the Home tab in the Viva Pulse header. You can manage all settings for the in-app Viva Pulse experience in the Manage tab. <br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fCHB]
+> [!VIDEO a751e1ff-e348-4f06-896e-87e0a4271ffe]
 
 ## Privacy settings
 

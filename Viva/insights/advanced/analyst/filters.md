@@ -1,5 +1,5 @@
 ---
-ms.date: 02/28/2023
+ms.date: 04/1/2025
 title: Filters in advanced insights queries
 description: Learn more about filters in queries
 author: zachminers
@@ -16,7 +16,7 @@ audience: Admin
 
 # Filters in advanced insights queries
 
-You'll encounter filters across the advanced insights app: while you're building a query, while you're customizing metrics, and while you're setting up metric rules. In a nutshell, by only picking out values that match certain conditions, filters focus your queries on the data you want to analyze.
+You encounter filters across the advanced insights app: while you're building a query, while you're customizing metrics, and while you're setting up metric rules. In a nutshell, by only picking out values that match certain conditions, filters focus your queries on the data you want to analyze.
 
 >[!Note]
 >If you're creating a meeting query, you can only set certain kinds of filters. Read our meeting query documentation for more information on predefined filters.
@@ -25,18 +25,18 @@ You'll encounter filters across the advanced insights app: while you're building
 
 ### Accessing filters
 
-In each process we described above—queries, metric customization, and metric rules—you'll notice an option to **Add condition** or **Add condition group**. Select these options to start setting up a filter. We describe the difference between conditions and condition groups a little later in this article.
+In each process we described above—queries, metric customization, and metric rules—there's an option to **Add condition** or **Add condition group**. Select these options to start setting up a filter. We describe the difference between conditions and condition groups a little later in this article.
 
 ### Filter data
 
 Filters work with two types of data:
 
-* Organizational data your admin uploads or syncs with the advanced insights app - You'll set these kinds of filters up when you run custom person queries and Power BI queries.
-* Meeting data - You'll set these kinds of filters up when you run meeting queries.
+* Organizational data your admin uploads or syncs with the advanced insights app - You set these kinds of filters up when you run custom person queries and Power BI queries.
+* Meeting data - You set these kinds of filters up when you run meeting queries.
 
 #### Organizational data
 
-Organizational data is arranged into columns and rows. Columns each contain a different *organizational attribute*, which are categories of non-personal employee information, like **TimeZone**. Rows each contain a specific employee's data related to that attribute. Here's an excerpted example of organizational data: 
+Organizational data is arranged into columns and rows. Columns each contain a different *organizational attribute*, which are categories of nonpersonal employee information, like **TimeZone**. Rows each contain a specific employee's data related to that attribute. Here's an excerpted example of organizational data: 
 
 |Employee ID       |Organization|TimeZone|Layer|
 |------------------|---------|--------|------|
@@ -73,7 +73,7 @@ When you set a filter, your query looks at your organizational or meeting data, 
 
 Viva Insights evaluates filters in the order you add them, so you can use several filters to further narrow down the data your query analyzes. Here's a quick example of multiple filters. In this case, the analyst is running a meeting query, and they've set three ["and" condition statements](#using-the-and-conjunction). As Viva Insights processes each of these "and" statements, the number of analyzed meetings reduces:
 
-1. *Recurring = true*. Viva Insights checks whether meetings recur. If they do, the query will use those meetings.
+1. *Recurring = true*. Viva Insights checks whether meetings recur. If they do, the query uses those meetings.
 1. *Attendees Timezone = New York*. From those recurring meetings, the query will only use meetings where the attendees are in the New York timezone.
 1. *Subject Contains Design*. From those recurring meetings in the New York timezone, the query will only analyze meetings where the meeting title contains the word "Design." 
 
@@ -99,7 +99,7 @@ A *condition group* is a combination of conditions connected with a conjunction 
 
 ### The employees counter
 
-Below your condition statements and condition groups, you'll notice a counter that shows two numbers:
+Below your condition statements and condition groups, there's a counter that shows two numbers:
 
 * **Total employees** – The number of employees in the whole company who are assigned Viva Insights licenses and *could* be analyzed by a query
 * **Measured employees** – Based on the conditions you set, the total number of employees that your query *will* analyze
@@ -111,7 +111,7 @@ Use **Measured employees** to find out whether your conditions are narrowing dow
 
 #### Using the "and" conjunction
 
-If you're *only* adding "and" statements, there isn't a big distinction between individual condition statements and condition groups. For example, the number of people a query analyzes will be the same in both of these scenarios:
+If you're *only* adding "and" statements, there isn't a large distinction between individual condition statements and condition groups. For example, the number of people a query analyzes will be the same in both of these scenarios:
 
 ##### Scenario 1 – separate conditions with "and"
 
@@ -229,7 +229,7 @@ This filter first checks whether employees are Layer 4s. Then, it checks whether
 
 #### Using conditions and condition groups in meeting queries
 
-The same ideas apply when you're using filters in a meeting query. However, as we mentioned earlier in this article, the attributes you'll work with will be from meeting rather than organizational data. If you run a filter based on the meeting attendees or organizer, you'll also select organizational data for them.
+The same ideas apply when you're using filters in a meeting query. However, as we mentioned earlier in this article, the attributes will be from meeting rather than organizational data. If you run a filter based on the meeting attendees or organizer, you'll also select organizational data for them.
 
 Here's an example. Let's say you wanted to know how many recurring meetings are organized by marketing or sales departments.
 

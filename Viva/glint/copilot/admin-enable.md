@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/29/2025
+ms.date: 04/08/2025
 ---
 
 # Administrator enablement for Microsoft 365 Copilot in Viva Glint
@@ -72,7 +72,7 @@ From your admin dashboard, follow this process:
 
 6. Toggle **Copilot in Viva Glint** to **On** and then **Save Changes**.
 
-    :::image type="content" source="../../media/glint/setup/copilot-enabled.png" alt-text="Screenshot of the Role Permissions sections within the Reporting section." lightbox="../../media/glint/setup/copilot-enabled.png":::
+    :::image type="content" source="../../media/glint/setup/admin-enable.jpg" alt-text="Screenshot of the Role Permissions sections within the Reporting section." lightbox="../../media/glint/setup/admin-enable.jpg":::
 
 ## Ensure Copilot in Viva Glint is enabled
 

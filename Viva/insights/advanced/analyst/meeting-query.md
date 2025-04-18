@@ -64,7 +64,7 @@ In this article, we talk about how to complete each of these steps, and also giv
 
 *Section: **Select metrics for what you want to know about your meetings***
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda0]
+> [!VIDEO 99ddedd4-ee46-4f08-8fc0-228101a74e9b]
 
 :::image type="content" source="../images/meeting-query-section-1.png" alt-text="Screenshot that shows the Select metrics field, with an Add metrics button." lightbox="../images/meeting-query-section-1.png":::
 

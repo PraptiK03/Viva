@@ -17,7 +17,7 @@ ms.topic: faq
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-aapproved
-ms.date: 2/19/2025
+ms.date: 04/10/2025
 ---
 
 # Microsoft 365 Copilot in Viva Glint-FAQs 
@@ -133,6 +133,12 @@ For the best feedback, encourage your employees to leave comments in their nativ
 <br>**Q: Is there a given bank of emotions that Copilot in Viva Glint uses to describe sentiment?**
 
 **A:** No.
+
+## Understanding feedback
+
+<br>**Q: How is feedback data calculated?**
+
+**A:** Learn about [Microsoft Viva Glint's Narrative Intelligence](https://techcommunity.microsoft.com/discussions/results_and_action_taking_on_viva_glint/what-is-viva-glints-narrative-intelligence/3884799) and download the PDF to share with your leaders.
 
 ## Copilot roadmap
 

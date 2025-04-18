@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/10/2025
+ms.date: 04/08/2025
 ---
 
 # Manage language translations in Viva Glint programs 
 
-English is the default language for all Microsoft Viva Glint programs, but admins can send surveys and email communications to employees in their preferred language. Glint provides customers with about 70 language translations for standard program content. Language translations are set during the initial survey configuration or added later as needed. Use Viva Glint's export/import option to review, add, or edit translations for survey emails and content (items, responses, survey text). 
+English is the default language for all Microsoft Viva Glint programs, but admins can send surveys and email communications to employees in their preferred language. Viva Glint provides customers with about 70 language translations for standard program content. Language translations are set during the initial survey configuration or added later as needed. Use Viva Glint's export/import option to review, add, or edit translations for survey emails and content (items, responses, survey text). 
 
 There are four steps for language translations: 
 
@@ -29,12 +29,12 @@ There are four steps for language translations:
 4. Import content back into the Viva Glint program
 
 > [!IMPORTANT]
-> See [Upcoming language changes](attribute-fundamentals.md#upcoming-language-changes) for changes to supported languages and codes effective April 10, 2025.
+> See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 ## Export survey and email text for translation
 
->[!IMPORTANT]
-> The Glint system requires that one language document is initially exported and then imported back into the program before the process can be repeated for other languages.
+> [!IMPORTANT]
+> Viva Glint requires that one language document is initially exported and then imported back into the program before the process can be repeated for other languages.
 
 1. Navigate to the survey program. 
 2. From the **Actions** dropdown menu, select **Export Program Content**. 
@@ -43,7 +43,7 @@ There are four steps for language translations:
 5. Select **Generate CSV**. 
 6. From the file generated, make manual translations to import back into Viva Glint. 
 
->[!NOTE]
+> [!NOTE]
 > Email content is downloaded as its own document. Survey content downloads as a zip file, with one file containing survey questions and text snippets.
 
 ## Translate Question Library items
@@ -72,7 +72,7 @@ Export the items.
 |Confirm that the original meaning of the question remains intact|Don't move translated content to different cells or columns|
 Keep translated content in the same cell and columns|Don't add personal comments|
 
-## Import translated items back into the Glint platform
+## Import translated items back into Viva Glint
 
 From the **Question Library** page, select **Import Questions** from the dropdown **Actions** menu. 
 

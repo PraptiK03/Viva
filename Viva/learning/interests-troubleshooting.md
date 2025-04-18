@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 09/30/2024
+ms.date: 03/31/2025
 audience: admin
 ms.topic: how-to
 ms.service: viva-learning
@@ -13,7 +13,7 @@ ms.collection:
     - enabler-strategic
     - m365initiative-viva-learning
 ms.localizationpriority: medium
-description: Learn how to open and edit an exported interest file. 
+description: Learn how to open and edit an exported interest file in Viva Learning.
 ---
 
 # Manage exported interest files

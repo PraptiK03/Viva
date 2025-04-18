@@ -1,5 +1,5 @@
 ---
-ms.date: 04/30/2024
+ms.date: 04/11/2025
 title: Ways of working report
 description: Learn how the Ways of working PowerBI template from Microsoft Viva Insights helps you explore collaboration, meeting, wellbeing, and coaching patterns.
 author: zachminers
@@ -42,7 +42,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 [!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
 1. In the Viva Insights analyst experience, select **Analysis**.
-2. Under **Power BI templates**, navigate to **Ways of working** and select **Start analysis**. To get more information about the Ways of working template before running your analysis, select **Learn more**.
+2. Under **Power BI templates**, navigate to **Ways of working** and select **Set up analysis**. To get more information about the Ways of working template before running your analysis, select **Learn more**.
 
 [!INCLUDE [Setup steps](includes/setup-steps.md)]
 

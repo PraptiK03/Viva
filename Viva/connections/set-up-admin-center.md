@@ -73,7 +73,7 @@ Setting up Viva Connections only takes a few steps but there are some considerat
 
 5. The Viva Connections admin center opens. If you already have a SharePoint home site (intranet portal), Viva Connections displays it as an experience automatically.
 
-## Create a new Viva Connections experience
+## Create a new Connections experience
 
 Create an all-encompassing Connections experience for the entire organization, or for distinct audiences. Optionally, when you create a new experience, you can choose to create a stand-alone Connections experience, or to create a Connections experience and [build off an existing intranet portal (SharePoint home site)](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together).
 
@@ -345,7 +345,7 @@ The following settings are available in the Connections experience settings pane
 >
 > - Organizations that aren't Viva Suite or Viva Communications and Communities subscribers are limited to creating one Viva Connections experience.
 
-Viva Connections experiences and SharePoint home sites (also referred to as intranet portals) are two complementary methods to creating powerful user experiences that can be viewed on the web (via SharePoint) and in Teams. Users can choose to create a Viva Connections experience with or without selecting to build from an existing SharePoint communication site. [Learn more about how Connections and homes sites work together](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together).
+Viva Connections experiences and SharePoint home sites (also referred to as intranet portals) are two complementary methods to creating powerful user experiences that can be viewed on the web (via SharePoint) and in Teams. Users can choose to create a Viva Connections experience with or without selecting to build from an existing SharePoint communication site. [Learn more about how Connections and homes sites work together](viva-connections-overview.md#how-sharepoint-home-sites-and-connections-work-together).
 
 If you chose to create a Viva Connections experience without using your own SharePoint communication site as an intranet portal, you can set the special site container that was created to house your content as the home site. Doing so ensures you get the home site features on the existing site, without losing any of the previously configured Connections experience.
 
@@ -397,7 +397,7 @@ The multiple experiences feature is designed for subsidiaries and conglomerates 
 
 Yes, content authors can update intranet-portal-based Viva Connections experiences directly through the web as long as they have the required permissions.
 
-Additionally, if a content author has Owner or Member permissions to the Connections experience in Teams, they're able to switch among the different experiences that they have the permission to edit. Select **[Switch Experience](edit-viva-home.md#how-to-switch-between-multiple-viva-connections-experiences)** in the settings menu.
+Additionally, if a content author has Owner or Member permissions to the Connections experience in Teams, they're able to switch among the different experiences that they have the permission to edit. Select **[Switch Experience](edit-viva-home.md#how-to-switch-between-multiple-connections-experiences)** in the settings menu.
 
 **I just changed the status or the rank order of an experience. How soon will the changes take effect for the users?**
 
@@ -405,11 +405,13 @@ It might take up to 24 hours for changes to fully propagate. Consider this timin
 
 **My current SharePoint home site is set up on the SharePoint root site. Now I want to set up additional SharePoint home sites. How do I ensure that the users targeted to the new SharePoint home site don’t see the news posts from the existing SharePoint home site (root site)?**
 
-If your SharePoint home site is set up on the root site, all your users should have access to the root site for SharePoint access. This means that if some of your users are targeted to a new SharePoint home site, they might still see content in their feed from the existing SharePoint home site (root site). To avoid this, it's recommended to not use root site as a SharePoint home site if you plan to set up multiple SharePoint home sites. Alternatively, you can decide to publish content on the existing SharePoint home site (root site) that is broadly applicable to everyone.
+If your SharePoint home site is set up on the root site, all your users should have access to the root site for SharePoint access. This means that if some of your users are targeted to a new SharePoint home site, they might still see content in the news reader from the existing SharePoint home site (root site).
+
+To avoid this, it's recommended to not use a root site as a SharePoint home site if you plan to set up multiple SharePoint home sites. Alternatively, you can decide to publish content on the existing SharePoint home site (root site) that is broadly applicable to everyone.
 
 > [!NOTE]
-> 
-> An update is planned for Q2 2025 that will replace the Feed experience with an Enterprise News Reader that will present news that's recommended for you from your organization.
+>
+> The news reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers across all devices by the end of April 2025.
 
 **I would like to restore my original setup. How do I get back to my original setup?**
 

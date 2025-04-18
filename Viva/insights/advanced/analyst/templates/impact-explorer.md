@@ -1,5 +1,5 @@
 ---
-ms.date: 05/12/2023
+ms.date: 04/11/2025
 title: Impact explorer Power BI report
 description: Estimate the impact Viva Insights can make in your organization
 author: zachminers
@@ -41,7 +41,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 [!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
 1. In the Viva Insights analyst experience, select **Analysis**.
-2. Under **Power BI templates**, navigate to **Impact explorer** and select **Start analysis**. 
+2. Under **Power BI templates**, navigate to **Impact explorer** and select **Set up analysis**. 
 
 [!INCLUDE [Setup steps - impact](includes/setup-steps-impact.md)]
 

@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/03/2025
+ms.date: 04/08/2025
 ---
 
 # Use the Viva Glint Multiple Choice Question Report
@@ -63,7 +63,7 @@ To delete a section:
 
 ## Percentage breakdowns in the Multiple Choice Question Report
 
-The Multiple Choice Question Report shows a table for each question, listing the response options from the question vertically. Horizontally, each response shows a percentage broken down by the attribute selected for the section. When questions allow users to make multiple selections, the total percentage for each attribute for a multi-select question is greater than 100%. To full the full response option text for an option, hover over the partial response in the table.
+The Multiple Choice Question Report shows a table for each question, listing the response options from the question vertically. Horizontally, each response shows a percentage broken down by the attribute selected for the section. When questions allow users to make multiple selections, the total percentage for each attribute for a multi-select question is greater than 100%. To view the full response option text for an option, hover over the partial response in the table.
 
 ### Color-coding
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 08/07/2024
+ms.date: 04/11/2025
 title: Hybrid Workforce Experience Power BI report
 description: Learn how to use the Microsoft Viva Insights Power BI template to know about your organization's hybrid workforce experience
 author: zachminers
@@ -50,7 +50,7 @@ You can add new attributes to your organizational data at any time. For more det
 [!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
 1. In the analyst experience in Viva Insights, select **Analysis**.
-1. Under **Power BI templates**, navigate to **Hybrid workforce experience** and select **Start analysis**. For more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
+1. Under **Power BI templates**, navigate to **Hybrid workforce experience** and select **Set up analysis**. For more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
 
  3. Under **Query setup**:
     

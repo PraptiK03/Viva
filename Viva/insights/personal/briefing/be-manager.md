@@ -1,6 +1,6 @@
 ---
 
-ms.date: 10/15/2020
+ms.date: 4/2/2025
 title: Catch up with your team through the Briefing email
 description: Learn how to use the Briefing email to catch up with your team
 author: madehmer

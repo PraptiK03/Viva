@@ -24,11 +24,11 @@ External collaboration is a key ingredient for the success of any organization. 
  > [!NOTE]
  > Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration. For more information, see [Overview of Native Mode](../overview-native-mode.md).
  
-There are two methods for working with external users. The structure of your Viva Engage network determines which method you use. If your Viva Engage network is [aligned to Native Mode](../overview-native-mode.md), you can use the Microsoft Entra Business-to-business (B2B) framework. If your Viva Engage network is not aligned to native mode, you can use the Viva Engage-specific guest framework.
+There are two methods for working with external users. The structure of your Viva Engage network determines which method you use. If your Viva Engage network is [aligned to Native Mode](../overview-native-mode.md), you can use the Microsoft Entra Business-to-business (B2B) framework. If your Viva Engage network isn't aligned to native mode, you can use the Viva Engage-specific guest framework.
 
 ## Comparison of guest experiences
 
-| Viva Engage community aligned to Native Mode <br/> | Viva Engage community NOT not aligned to Native Mode <br/> |
+| Viva Engage community aligned to Native Mode | Viva Engage community NOT aligned to Native Mode |
 |:-----|:-----|
 |Guests are powered by the B2B guest framework |Guests are powered by the Viva Engage guest framework|
 | External users can be added as guests to any Viva Engage community |External users can be added as guests only in external communities |

@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/04/2024
+ms.date: 04/01/2025
 audience: admin
 ms.topic: integration
 ms.service: viva-learning
@@ -35,6 +35,10 @@ Additionally, the following conditions need to be met:
 - Learning content is part of one or more catalogs.
 - The learning content is active in SuccessFactors. 
 - The catalog is in an active state. 
+
+### Limitations
+
+The search function doesn't support using `Curricula ID` from SAP SuccessFactors.
 
 ## Workflow 
 

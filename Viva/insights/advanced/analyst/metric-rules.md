@@ -1,5 +1,5 @@
 ---
-ms.date: 02/03/2023
+ms.date: 03/25/2025
 title: Metric rules in Viva Insights
 description: Learn about metric rules in Microsoft Viva Insights 
 author: zachminers
@@ -27,7 +27,7 @@ Here are a few things to keep in mind about metric rules:
 * Metric rules apply to your query's metric calculations and also to data shown within the Viva Insights app in Teams and web.
 * When you set a rule as default, it applies to all future queries and the Viva Insights app in Teams and web. Refer to [About default rules](#about-default-rules) for more information.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lfDh]
+> [!VIDEO f2175d96-997c-4daa-9705-82e51170f3f3]
 
 ## About the metric rules page
 

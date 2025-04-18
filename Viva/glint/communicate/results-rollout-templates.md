@@ -1,12 +1,12 @@
 ---
-title: Communicate results rollout plans for Viva Glint programs using email templates  
-description: "Use Viva Glint email templates to communicate feedback results and train your company stakeholders to take action."
+title: Communicate Microsoft Viva Glint feedback results - email templates  
+description: "Use Viva Glint email templates to communicate feedback results and train your people to take action."
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: 
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,321 +14,215 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/29/2024
+ms.custom: CELA approved
+ms.date: 04/10/2025
 ---
 
-# Communicate results rollout plans for Viva Glint programs using email templates  
+# Communicate Microsoft Viva Glint feedback results: email templates  
 
-Communicating survey expectations and results is an essential part of a strong engagement program strategy. 
-
-To act on feedback from your Microsoft Viva Glint programs, use the results rollout templates to customize and send to your people. The templates are for guidance only and assume a six-week launch, which may be longer than your timeline. Align your communications as appropriate.  
-
-Sample communications aren't generated in the Glint platform. 
+Communicating survey results is an essential part of a strong engagement program strategy. Use our results rollout templates to customize and send to your organization to act on feedback from your Microsoft Viva Glint programs. The templates are for guidance only. 
 
 ## Tips for using Viva Glint templates 
 
-- Customize the content in your voice. Look for placeholders, like [company name], and insert applicable information. 
-- Adapt messages based on your organization’s familiarity with the feedback and reporting process.  
+- Copy and paste the template to your email or business letterhead.
+- Customize the content to your voice, brand, and goals.
+- Look for placeholders, like [Company name], and insert your information. 
+- Adapt messages based on your organization's familiarity with surveying. Organizations new to engagement surveys may want to include more context in messages than organizations who survey regularly. 
 - Condense the communication cascade as much as possible. Be cautious of information overload.  
-- Consider the timing of other company-wide initiatives and communication plans. Look for opportunities to align communication and streamline employee touch points.  
+- Consider the timing of other company-wide initiatives. Look for opportunities to align communication and streamline employee touch points. 
 
-Security, Privacy, and Compliance are core principles at Microsoft. We value, protect, and defend data privacy. We empower and defend the data privacy choices of every person who uses our products and service. The Viva Glint service is governed by the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms), and the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). 
+## Email template hyperlinks for your entire organization
 
-## Email templates for your entire organization
-
-Use these hyperlinks to access post-survey close email templates:
-
-|**Template subject**| **Suggested timeline for sending**|
-|-----------|-----------|
-|[Survey results and next steps](#survey-results-and-next-steps-for-managers)  | One day post survey close  |
-|[Survey results and next steps](#survey-results-and-next-steps-for-managers)   | 3 - 4 days post survey close  |
-|[Company-wide progress update](#company-wide-progress-update)    | Week four and week eight after survey closes   |
-|[Company-wide progress update and next survey communication](#company-wide-progress-update-and-next-survey-communication)   | 10 weeks post-survey or 2 weeks prior to the next survey    |
+|Suggested email send timing|Email subject/link to template| Description
+|-----------|-----------|------------|
+|1 day after survey close |[Template 1 - Survey close and what's next](#email-template-1-survey-close-and-whats-next-for-all-employees) |The survey is closed |
+|3 - 4 days after survey close  | [Template 2 - Survey results and next steps](#email-template-2---survey-results-and-next-steps-for-all-employees)| What to expect from your feedback |
+|Week 4 and week 8, after survey closes |[Template 3 - Company-wide progress update](#email-template-3---company-wide-progress-update-for-all-employees)| Overall results and how feedback becomes actionable |
+|10 weeks after survey closes or 2 weeks before the next survey  |[Template 4 - Progress update and next survey communication](#email-template-4---progress-update-and-next-survey-communication-for-all-employees)  | Progress report and next survey info  |
 
 ## Email templates for managers 
 
-|**Template subject**| **Suggested timeline for sending**|
-|-----------|-----------|
-|[Survey results and next steps](#survey-results-and-next-steps-for-managers) | One day post survey close |
-|[Results rollout progress update](#results-rollout-progress-update)   | Week four and Week eight after survey closes  |
-|[Survey results and conversations](#survey-results-and-conversations-for-managers-and-hrbps)    | 5 - 7 days after survey closes   |
+|Suggested email send timing|Email subject/link to template| Description|
+|-----------|-----------|---------|
+|1 day after survey close|[Template 5 - Survey results and confidentiality standards](#email-template-6---how-to-have-effective-conversations-managers-and-hrbps) |How feedback is shared and confidentiality standards  |
+|5 - 7 days after survey closes |[Template 6 - How to have effective conversations](#email-template-6---how-to-have-effective-conversations-managers-and-hrbps)| Conversation starters and resources |
+|Week 4 and Week 8, after survey close  |[Template 7 - Feedback action reminder](#email-template-7---feedback-action-reminder-for-managers)| [Survey name] action reminder​ |
 
-## Email templates for Human Resources Business Partners (HRBPs) 
+***
 
-|**Template subject**| **Suggested timeline for sending**|
-|-----------|-----------|
-|[Survey results and conversations](#survey-results-and-conversations-for-managers-and-hrbps)   | 5 - 7 days after survey closes   |
-|[Survey support and next steps](#hr-survey-support-and-next-steps)   | 3 - 12 weeks after survey closes   |
+### Email template 1: Survey close and what's next for all employees
 
-## Survey results and next steps for all employees – 1 day post survey close
+**To**: All employees <br>
+**From**: [First and Last name], [Title]<br>
+**Subject**: [Survey name] close <br>
+**Date**: [1 day after survey close] 
 
-**To**: All employees 
+Dear [First name], 
 
-**From**: **[First and Last name]**, CEO
+Thank you for making the [Survey name] survey a success. This survey is now closed. At [Company name], we believe that acting on feedback from our people is essential to work toward continuously improving ourselves and achieving our mission of [insert mission]. 
+
+Approximately [#/%] of all [Company name] employees provided valuable input through the survey. Results are coming soon! Then work with your team to plans and acting in response to your team's feedback. Be prepared to share your ideas about solutions that can fuel progress over time. 
+
+Thank you for your commitment to making [Company name] a place where people can thrive and do their best work. 
+
+[Salutation],
  
-**Subject**: **[Name]** Survey results and next steps 
+[Name, Title] 
 
-**Date**: **[Day 1 post-survey close]** 
+***
 
-Dear **[First name]**, 
+### Email template 2 - Survey results and next steps for all employees  
 
-Thank you for making the **[Name]** Survey a success. At **[Company name]**, we believe that feedback from our people is essential to work toward continuously improving ourselves and achieving our mission of **[insert mission]**. 
-
-We're excited to announce that approximately **[##%]** of all employees provided valuable input through the **[Name]** survey. In the upcoming weeks, we'll share company-level results and plans for acting in response to your feedback . 
-
-Within the next few weeks, your manager will help your team choose your own focus area to prioritize. Be prepared to share your ideas about solutions that will fuel progress over time. 
-
-Thank you for your commitment to making **[Company name]** a place where people can thrive and do their best work. 
-
-Contact your manager or your HR business partner if you have any questions. 
-
-**[Salutation]**,
- 
-**[Name]** 
-
-## Survey results and next steps for all employees – 3-4 days post survey close 
-
-**To**: All Employees​ 
-
-**From**: **[First and Last name]**, CEO​ 
-
-**Subject**: Survey results and next steps​ 
-
-**Date**: [3-4 days post survey close]​ 
+**To**: All Employees​ <br>
+**From**: [First and Last name], [Title] <br>
+**Subject**: [Survey name] results and next steps​ <br>
+**Date**: [3-4 days after survey close]​ 
 
 Dear [First name],​ 
-Thank you again to the over [#] employees who provided input through the **[Name]** Survey. Today I would like to share our company-level results and the steps we will take to respond to your feedback. Hearing directly from you makes us a stronger organization and helps us ensure that our actions and decisions align with the success of our people, the power of our business. ​ 
+
+Thank you again to the over [# or %] of our employees who provided input through the [Survey name] survey. Here are some company-level results and the steps we plan to take in response to your feedback. Hearing from you makes us a stronger organization and helps us ensure that our actions and decisions align with the success of our people - the power of our business. ​ 
 
 Your feedback *overall*:​ 
 
-- [High-level finding about company #1]​ 
-- [High-level finding about company #2]​ 
+- [High-level finding about Company]​ 
+- [High-level finding about Company]​ 
 
-What you said we do well as an organization:​ 
+As an organization, we plan to work on:​ 
 
-- [Top strength #1]​ 
-- [Top strength #2]​ 
+- [Top strength ]​ 
+- [Top strength ]​ 
 
-What you said we need to do better as an organization:​ 
+What you said we need to do better:​ 
 
-- [Top improvement area  #1]​ 
-- [Top improvement area  #2]​ 
+- [Top improvement area ]​ 
+- [Top improvement area  ]​ 
 
-From your feedback, the senior leadership team has aligned on taking action to improve **[Focus Area]**. [Discuss why chosen - e.g., high impact on engagement, etc., and who will own it, next steps, etc.]
+Over the next week, your managers will share results with you and involve you in choosing Focus Areas for your team. Your voice allows us to celebrate where we excel as a company and challenges us to consider how we can make the best decisions for our employees, our customers, and our business.​ 
 
-Over the next week, leaders in your organization will share results with you and involve you in choosing focus areas for your individual teams. Your voice has allowed us to celebrate where we excel as a company and challenges us to rethink how we can work to make the best decisions for our employees, our customers, and our business.​ 
-
-**[Salutation]**,
+[Salutation],
  
-**[Name]**
+[Name, Title]
 
+***
 
-## Company-wide progress update 
+### Email Template 3 - Company-wide progress update for all employees
 
-**To**: All Employees 
+**To**: All Employees <br>
+**From**: [First and Last name], [Title] <br> 
+**Subject**: [Name] survey results <br> 
+**Date**: [Week 4 and Week 8 after survey close]
 
-**From**: **[First and Last name]**, Chief Executive Officer
+Dear [First name], 
+
+We want to share an update with you on our efforts to improve [Focus Area] based on the feedback we heard from the [Survey name] survey. 
+
+[Outline Focus Area along with the progress made, by whom, and what is the next phase or activity to be expected] 
+
+We view the [Survey name] survey as a foundation for ongoing focused conversations. Continue to share feedback with your leaders and managers on how we are doing to address our company-level Focus Areas and your team’s Focus Areas. 
+
+Expect continuous progress updates from us. Our goal is to achieve tangible changes across our company. With your input, we celebrate where we excel and focus on improving the opportunities that matter most to you.  
+
+[Salutation],
  
-**Subject**: **[Name]** Survey Results Update
- 
-**Date**: **[Week 4 and Week 8 post-survey close]** 
+[Name, Title]
 
-Dear **[First name]**, 
+***
 
-We want to share an update with you on our efforts to improve [Focus Area] based on the feedback we heard from the **[Name]** Survey. 
+### Email template 4 - Progress update and next survey communication for all employees
 
-**[Outline Focus Area along with the progress made, by whom, and what is the next phase or activity to be expected]** 
+**To**: All Employees <br>
+**From**: [First and Last name], [Title]​ <br>
+**Subject**: [Company name] survey results update and our next survey </br> 
+**Date**: [10 weeks after survey close or 2 weeks before the next survey]
 
-We view the **[Name]** Survey as a catalyst to ongoing focused conversations. Please continue to share feedback with leaders and managers in your organization on how we are doing to address our company-level Focus Areas, as well as your team’s Focus Areas. 
+Dear [First name],​
 
-As a company, we will continue to provide progress updates via department, team, and individual meetings to ensure we are achieving tangible changes across our company. With your input, we'll continue to celebrate where we excel and focus on improving the opportunities that matter most to you.  
+[Company name] is proud of all the conversations, ideas, and actions taken because of the [Survey name] survey. It's important to us that we continue to enhance your work experience and engage you in a meaningful way.​ 
 
-**[Salutation]**,
- 
-**[Name]** 
-
-## Company-wide progress update and next survey communication
-
-**To**: All Employees
-
-**From**: **[First and Last name]**, CHRO or Senior HRBP​
-
-**Subject**: **[Company name]** Survey Results Updates </br>
-
-​
-**Date**: [10 weeks post-survey close or 2 weeks prior to the next survey]
-
-Dear **[First name]**,​
-
-**[Company name]** is extremely proud of all the conversations, ideas, and actions we've seen because of the **[Name]** Survey. It's important to us that we continue to enhance your work experience and engage you in a meaningful way.​ 
-
-Our company Focus Area was determined to be **[Focus Area]**.​ 
-
-Here are some of the accomplishments we have achieved:​ 
+Our company Focus Area was determined to be [Focus Area].​ Here are some of the accomplishments we achieved:​ 
 
 - Item 1​ 
 - Item 2​ 
-- Item 3​ 
 
- And this is what’s left to be done:​ 
+ And here are some items left to work on:​ 
 
 - Item 1​ 
 - Item 2​ 
-- Item 3​ 
 
-Let's continue to drive this momentum into our next survey, launching on **[date]**. We encourage you to share your feedback on what we are doing well as a company and what we can do better.​ 
+Let's continue to drive this momentum into our next survey, launching on [date]. We encourage you to share your feedback on what we're doing well as a company and what we can do better.​ Our goal is to have continuous conversations on the things that matter most to you, your manager, and your teams.​ 
 
-Our goal is to have continuous conversations on the things that matter most to you, your manager, and your teams.​ Let’s keep talking about how we can continue living our values and mission at **[Company name]**.​ 
-
-**[Salutation]**,
+[Salutation],
  
-**[Name]** 
+[Name, Title]
 
-## Survey results and next steps for managers
+***
 
-**To**: [Manager]
+### Email template 5 - Survey results and confidentiality standards for managers
 
-**From**: **[First and Last name]**, Human Resources/Direct Manager/Other </br>
+**To**: [Manager first and last name] <br>
+**From**: [First and last name], [Human Resources/Direct Manager/Other] </br>
+**Subject**: [Survey name] survey results and next steps​ <br>
+**Date**: [1 day after survey closes]
 
-​
-**Subject**: **[Name]** Survey results and next steps​
+Dear [Manager first name],​
 
-**Date**: [Day 1 post-survey]
+You're probably eager to see the feedback data from your recent Viva Glint survey and to share these results with your team. Because [Company name] knows response data impacts how safe employees feel in providing feedback, minimum response thresholds were assigned to uphold the confidentiality of your team. If this minimum confidentiality threshold isn't met, some of your results may not include data.​ [Read about protecting your peoples' confidentiality](/viva/glint/setup/quick-guide-confidentiality).
 
-Dear **[Manager First name]**,​
+Additionally, if you had fewer than five employee survey responses, your own team results report won't show on your dashboard. To protect confidentiality, your team’s data rolls up into the next level, so your team is represented in your direct manager’s report. Your manager can share their team's broader survey results with you and you can use these [Broader Team Insights (BTI)](/viva/glint/reports/broader-team-insights) as a starting point for your team’s conversation. Begin your conversation using the rollup results and then steer the conversation toward results pertinent to your group. ​ 
 
-You are probably eager to see the feedback data from your recent Glint survey and to share these results with your team. Because **[Company name]** knows response data is impacted by how safe employees feel in providing feedback, minimum response thresholds were assigned to uphold the confidentiality of your team. If this minimum confidentiality threshold was not met - *the number of responses required so that it is not possible to determine who said what* - some of your results may not include data.​ 
+Survey scores are a starting point for a conversation that involves your team in identifying Focus Areas to improve engagement. Even if you have just a few responses, or limited views of your results, you should still foster a rich conversation with your team. ​ 
 
-Additionally, if you had fewer than five employees participate in the survey, your team won't have a results report. To protect confidentiality, your team’s data rolls up into the next level, so your team is represented in your direct manager’s report. Let your manager know that you didn't receive your own survey results and would like to use the Broader Team Insights (BTI) results as a starting point for your team’s conversation. Your manager can share BTI results with you in a PowerPoint or a PDF download. Proceed with your conversation using the rollup results from the broader team and steer the conversation toward results pertinent to your group. ​ 
-
-Survey scores are a starting point for a conversation that involves your team in identifying focus areas to improve engagement. Even if you have just a few responses, or limited views of your results, you can still foster a rich conversation with your team. ​ 
-
-Please reach out as needed.​ 
-
-**[Salutation]**,
+[Salutation],
  
-**[Name]**
+[Name, Title]
 
-## Results rollout progress update 
+***
 
-**To**: Managers​ 
+### Email template 6 - How to have effective conversations: managers and HRBPs
 
-**From**: **[First and Last name]**, Chief Human Resource Officer or Senior Human Resources Business Partner​ 
+**To**: [First and last name], HRBPs and Managers​ <br>
+**From**: [First and last name], [CHRO/Senior Human Resources Business Partner/Other] <br>
+**Subject**: [Survey name]** How to have effective feedback conversations​ <br>
+**Date**: [5-7 days after survey close]​
 
-**Subject**: **[Company name]** Survey results and next steps​ 
+Dear [Manager first name],​ 
 
-**Date**: [Week 4 and Week 8 post-survey close]​ 
+By now, you've seen your [Survey name] survey results and scheduled your initial conversation with your team. Conversations about feedback can be challenging. -Planning helps you feel prepared and get the most value from your team conversations.​ 
 
-Dear **[First name]**,​ 
-
-Our **[Name]** survey is just the starting point to open a rich dialogue with your team. Use your results as the basis for ongoing conversations that lead to continuous improvement over time.​ 
-
-The ACT conversation tools within Glint help you work together on areas that make a difference in your team’s performance and employee engagement by:​ 
-
-- Giving directions to keep the team on track and avoid going too broad or deep 
-- Providing guidelines for prioritization and decision-making. 
-- Seeking out differing opinions and ensuring all voices are heard.
-- Overcoming organizational constraints, like policies, work structures, or budget constraints 
-- Connecting teams to broader priorities and groups working on similar challenges​  
-
-**Planned Actions Summaries**
-
-|Summary of​ Company-Level Actions|Summary of Business Unit Actions|
-|----|----|
-|High-level finding company #1​|High-level finding about BU #1|
-|High-level finding company #2|High-level finding about BU #2|
-
-  
-**Take Action** ​ 
-
-Acting is the largest scale missed opportunity most organizations face. Employees who don't believe action will be taken are more likely to report being disengaged compared to those who believe action will be taken. Acting in a focused way can ensure long-term success.  
-
-We don’t have to fix everything that comes out of feedback right away. Instead, let's use this opportunity to have meaningful conversations, commit to one simple change, share lessons learned, and then repeat the process.​ 
-
-**Resources and Training**​ 
-
-Leverage the resources on the [Viva Glint adoption page](https://adoption.microsoft.com/viva/glint/) or [Viva Glint community page](https://techcommunity.microsoft.com/t5/viva-glint/ct-p/Viva-Glint).​ 
-​ 
-Feel free to reach out with any questions or for additional support.​ 
-
-**[Salutation]**,​
-
-**[Name]**
-
-## Survey results and conversations for managers and HRBPs
-
-**To**: **[First and Last name]**, HRBPs and Managers​
-
-**From**: **[First and Last name]**, CHRO or Senior Human Resources Business Partner
-
-**Subject**: **[Name]** Survey Results and Conversations​
-
-**Date**: [5-7 days post-survey close]​
-
-Dear **[First name]**,​ 
-By now, you should have accessed your **[Name]** Survey results and scheduled your initial conversation with your team. Conversations about feedback can be challenging - planning is the best solution to help you feel prepared and get the most value from the exercise.​ 
-
-**ACT framework**​ 
-How do you effectively share **[Name]** Survey results and involve your team to prioritize Focus Areas and identify solutions? Use Viva Glint’s ACT Conversation Guide to help you prepare and facilitate your discussion:​ 
+How do you effectively share survey results and involve your team to prioritize Focus Areas and identify solutions? To help you prepare and facilitate your discussion, use [Viva Glint’s ACT Conversation Guide](/viva/glint/setup/quick-guide-manager-doc-pitfalls):
 
 - **Acknowledge** where we are​ 
 - **Collaborate** on where we want to go​ 
 - **Take** one step forward​ 
 
-Following the meeting, you should have chosen one to two focus areas for action taking (we recommend just one). Use the Glint platform for suggested action plans and involve your team in developing solutions.​ 
+Following the meeting, choose one Focus Area (or two small ones) for action taking. Use the Viva Glint platform for suggested action plans and involve your team in developing solutions.​ 
 
-**Company and business unit actions**​ 
+**Acting on feedback** is the largest scale missed opportunity most organizations face. Employees who don't believe action is taken are likely to report being disengaged. ​Know that you don’t have to address everything that comes out of the feedback right away. Instead, use this opportunity to have meaningful conversations, commit to one to two simple changes and share lessons learned.​ 
 
-Keep in mind the company and business unit commitments and align as appropriate.​ ​
+[Salutation],
 
-|Summary of​ Company-Level Actions|Summary of Business Unit Actions|
-|----|----|
-|High-level finding company #1​|High-level finding about BU #1|
-|High-level finding company #2|High-level finding about BU #2|
+[Name, Title]
 
-**Action Taking** ​ 
-Acting is the largest scale missed opportunity most organizations face. Employees who don't believe action is taken are more likely to report being disengaged compared to those who believe action will be taken. Acting in a focused way can ensure its long-term success. ​ 
+***
 
-We don’t have to address everything that comes out of the feedback right away. Instead, let’s use this opportunity to have meaningful conversations, commit to one simple change, share lessons learned, and then repeat the process.​ 
+### Email template 7 - Feedback action reminder for managers 
 
-**Resources and Training**​ 
-Leverage the resources on the Viva Glint adoption page or [Viva Glint adoption page or Viva Glint community page](https://adoption.microsoft.com/viva/glint/) to learn more action taking within Viva Glint.​ 
+**To**: Managers​ <br>
+**From**: [First and Last name], [Chief Human Resource Officer/Senior Human Resources Business Partner​/Other] <br>
+**Subject**: [Survey name] feedback progress update​ <br>
+**Date**: [Week 4 **and** Week 8 after survey close]​ 
 
-If you have questions or need support, please reach out.​ 
+Dear [First name],​ 
 
-**[Salutation]**,
+Our [Survey name] survey is just the starting point to open a rich dialogue with your team. Use your results as the basis for ongoing conversations that lead to continuous improvement over time.​ 
 
-**[Name]**
+At this point, you should be familiar with the [Viva Glint ACT conversation tool] (/viva/glint/setup/quick-guide-manager-doc-pitfalls) and have chosen 1-2 Focus Areas to work on with your team. How are you progressing? Be sure to keep your team actions updated on your Focus Areas planning tab on your Viva Glint dashboard.
 
-## HR survey support and next steps 
+[Salutation],​
 
-**To**: **[First and Last name]**, HRBPs
+[Name, Title]
 
-**From**: **[First and Last name]**, Chief Human Resources Officer
+***
 
-**Subject**: HR Support of **[Company name]** Survey results and next steps​ 
 
-**Date**: [3-12 weeks post-survey close]​ 
 
-Dear **[First name]**,​ 
-
-As our teams focus on employee engagement at **[Company name]**, you play a significant role in identifying and sharing best practices, connecting teams with similar needs, and sharing stories of our people success. You're a thought partner for your managers, an advocate for employees, and a enabler of behavioral change.​ 
-
-Take a moment to share two notable actions that best represent our ability to act on employee feedback and drive the culture we need to achieve our business objectives. We'll also discuss successes and opportunities at **[describe HR meetings, etc. to exchange ideas and build common solutions]**.​ 
-
-**Summary of company-level actions**​ 
-
-- [High-level finding about company #1]​ 
-- [High-level finding about company #2]​ 
-
-**Summary of business unit level actions​** 
-
-- [High-level finding about business unit #1]​ 
-- [High-level finding about business unit #2]​ 
-
-**Resources and training**​ 
-Become familiar with the Glint application and jse the resources on the [Viva Glint adoption page or Viva Glint community page](https://adoption.microsoft.com/viva/glint/).​ 
-
-**[Salutation]**,</br>
-
-**[Name]**

@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: faq
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/29/2025
+ms.date: 04/04/2025
 ---
 
 # Viva Glint 360 frequently asked questions 
@@ -81,6 +81,9 @@ Yes, you can delete a 360 cycle in "draft" or "scheduled" status. A 360 cycle ca
 
 ### Are benchmark comparisons available for Glint 360 Feedback programs?
 No. Glint does not offer benchmarks for 360 items.
+
+### Can subjects, admins, coaches, or a subject's manager view a subject's 360 report if the subject's self-assessment isn't complete?
+No. Self-assessment completion is required for 360 report generation. 
 
 ## Coach FAQs
 

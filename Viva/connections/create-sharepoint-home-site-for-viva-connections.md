@@ -27,11 +27,11 @@ Use this guided walkthrough if you're creating a SharePoint home site so your or
 
 Don’t have time to create a SharePoint home site from scratch? Consider using a SharePoint home site template like the [Organization home template](https://support.microsoft.com/office/3e5b98fd-c829-4b26-8367-f94291d9812e) when creating a new site and then add the [Dashboard web part](use-dashboard-web-part-on-home-site.md). [Use web parts like the News, Viva Engage, File and Media, and Highlighted Content web parts](use-web-parts-in-sharepoint.md) to provide users with a steady stream of content from a variety of sources.
 
-[Learn more about how Viva Connections and SharePoint home sites work together to create employee experiences.](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together)
+[Learn more about how Connections and SharePoint home sites work together to create employee experiences.](viva-connections-overview.md#how-sharepoint-home-sites-and-connections-work-together)
 
 > [!NOTE]
 >
-> SharePoint home sites are created and managed in your Microsoft 365 admin center. You'll need to be a SharePoint admin to create a home site. A home site is not required to create a Viva Connections experience. [Learn more about the Viva Connections experience](viva-connections-overview.md#components-to-viva-connections), [how to customize it](edit-viva-home.md), how to choose the [default landing experience](edit-viva-home.md#choose-the-default-landing-experience-for-viva-connections-desktop), and [how to launch Viva Connections for your organization](launch-viva-connections.md).
+> SharePoint home sites are created and managed in your Microsoft 365 admin center. You'll need to be a SharePoint admin to create a home site. A home site is not required to create a Connections experience. [Learn more about the Connections experience](viva-connections-overview.md#components-to-connections), [how to customize it](edit-viva-home.md), how to choose the [default landing experience](edit-viva-home.md#choose-the-default-landing-experience-for-connections-desktop), and [how to launch Connections for your organization](launch-viva-connections.md).
 
 ## How to use this guide
 
@@ -93,7 +93,7 @@ After the site is built, edit site details to create a customized design that al
 
 ## Extensibility
 
-Use the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) (SPFx) to create [customized components like web parts](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts) and [Viva Connections Dashboard cards](/sharepoint/dev/spfx/viva/design/design-intro) that can be surfaced on a SharePoint home site and throughout the Viva Connections experience. The SPFx is the only extensibility and customization option for Viva Connections. [Learn more about Viva Connections extensibility](/sharepoint/dev/spfx/viva/overview-viva-connections).
+Use the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) (SPFx) to create [customized components like web parts](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts) and [Connections Dashboard cards](/sharepoint/dev/spfx/viva/design/design-intro) that can be surfaced on a SharePoint home site and throughout the Connections experience. The SPFx is the only extensibility and customization option for Connections. [Learn more about Connections extensibility](/sharepoint/dev/spfx/viva/overview-viva-connections).
 
 ## Best practices before launching your new SharePoint home site
 
@@ -107,7 +107,7 @@ Use the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overvie
 
 ## Next: Enable and set up global navigation
 
-Once you’ve set a communication site as a SharePoint home site, you'll be able to [enable and set up global navigation in the SharePoint app bar](sharepoint-app-bar.md). Global navigation can be set up while you're designing your SharePoint home site but will only be accessible to visitors using SharePoint or the Viva Connections app in Teams. Links from global navigation can be [imported to the Resources section](edit-viva-home.md#import-sharepoint-links) so they appear across all instances of Viva Connections (desktop, mobile, and web).
+Once you’ve set a communication site as a SharePoint home site, you'll be able to [enable and set up global navigation in the SharePoint app bar](sharepoint-app-bar.md). Global navigation can be set up while you're designing your SharePoint home site but will only be accessible to visitors using SharePoint or the Connections app in Teams. Links from global navigation can be [imported to the Resources section](edit-resources.md#import-sharepoint-links) so they appear across all instances of Connections (desktop, mobile, and web).
 
 ## Learn more
 
@@ -115,4 +115,4 @@ Once you’ve set a communication site as a SharePoint home site, you'll be able
 
 [Creating and launching a healthy SharePoint portal](/sharepoint/portal-health)
 
-[Plan, build, and launch Microsoft Viva Connections for your organization](plan-viva-connections.md)
+[Plan, build, and launch Microsoft Connections for your organization](plan-viva-connections.md)

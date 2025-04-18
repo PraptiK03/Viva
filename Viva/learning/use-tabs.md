@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/21/2024
+ms.date: 03/31/2025
 audience: admin
 ms.topic: how-to
 ms.service: viva-learning
@@ -58,11 +58,11 @@ You can edit or delete an existing configured provider directly from **Manage pr
 
 > [!NOTE]
 > - There are some configuration fields you can't edit once a provider is configured. These fields are unique identifier for each provider connection.
-> - By making them non-editable, we make sure that each provider is uniquely pointed to a single data source to prevent data duplication or loss.
-> - If you are required to edit these fields, reconfigure the provider.
+> - By making them noneditable, we make sure that each provider is uniquely pointed to a single data source to prevent data duplication or loss.
+> - If you're required to edit these fields, reconfigure the provider.
 
 > [!NOTE]
-> If you delete all learning providers, the Viva Learning Teams app will be empty.
+> If you delete all learning providers, the Viva Learning Teams app is empty.
 
 ![Screenshot that shows the Manage Providers options inside Viva Learning.](../media/learning/admin-tab-manage-providers.png) 
 
@@ -70,11 +70,11 @@ You can edit or delete an existing configured provider directly from **Manage pr
 
 2. Go to the **Admin** tab in Viva Learning and select **Manage Providers** on the left menu. 
   
-1. Select **Add Provider**. 
+3. Select **Add Provider**. 
 
-1. Select the provider you want to configure and select **Next**. 
+4. Select the provider you want to configure and select **Next**. 
 
-1. Add provider configurations as applicable and select **Save**. This action adds the provider in the **Configured providers** list. 
+5. Add provider configurations as applicable and select **Save**. This action adds the provider in the **Configured providers** list. 
 
 You can track the following details: current sync status, last successful sync time, next scheduled sync time, ingestion logs, and trigger full sync for each component in the expanded view.
 
@@ -85,7 +85,7 @@ You can track the following details: current sync status, last successful sync t
  - **Export log**: Admins can refer to the export log file for a detail about successful and failed sync cycles. 
 
 > [!NOTE]
-> The sync status, sync time stamp and export logs are only currently available for catalog sync for all providers. 
+> The sync status, sync time stamp, and export logs are only currently available for catalog sync for all providers. 
 >Sync status and sync timestamp for learner records are only available for SAP SuccessFactor. Manual sync trigger is only available for catalog in SharePoint and SAP SuccessFactor.
 
 > [!NOTE]

@@ -1,5 +1,5 @@
 ---
-ms.date: 06/16/2023
+ms.date: 03/25/2025
 title: Install the Viva Insights app in Teams
 description: Install the Microsoft Viva Insights app available for Microsoft Teams
 author: zachminers

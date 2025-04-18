@@ -23,7 +23,7 @@ Managers use a Microsoft Viva Glint Team Conversations Presentation Kit to launc
 
 Watch and share this 3-minute video:
 
-[Propelling Action Through Team Conversations](https://www.microsoft.com/en-us/videoplayer/embed/RE5fHQ2?postJsllMsg=true)
+[Propelling Action Through Team Conversations](https://learn-video.azurefd.net/vod/player?id=6e55bbb2-5135-47ac-ad71-f5ec785a8620)
 
 ## View the Team Conversations guide as a manager sees it
 

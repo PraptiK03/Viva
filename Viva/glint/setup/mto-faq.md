@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: faq
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/05/2025
+ms.date: 04/03/2025
 ---
 
 # Viva Glint for a multitenant organization FAQ
@@ -29,8 +29,8 @@ Customers with B2B Collab or cross-tenant synchronization (CTS) can access Viva 
 
 |Sync method   |Dashboard access and experience   |
 |:----------|:-----------|
-|**(Recommended)** An MTO policy and users synced with CTS or B2B collaboration.     |When logging into Viva Glint with an MTO policy, users have to: <br><br> <ol><li>Enter credentials (Email and password)</li><li>Complete two-factor authentication</li><li>Access Viva Glint</li></ol>       |
-|No MTO policy and users synced with CTS or B2B collaboration.     |When logging into Viva Glint without an MTO policy, Viva Glint can't identify a user's tenant. Users have to:  <br><br> <ol><li>Choose the "Sign in to an organization" sign in option</li><li>Enter the target tenant domain name</li><li>Enter credentials (Email and password)</li><li>Complete two-factor authentication</li><li>Access Viva Glint</li></ol>      |
+|**(Recommended)** An MTO policy and users synced with CTS or B2B collaboration.     |When logging into Viva Glint with an MTO policy, users have to: <br><br> Enter credentials (Email and password)</li><li>Complete two-factor authentication</li><li>Access Viva Glint</li></ol>       |
+|No MTO policy and users synced with CTS or B2B collaboration.     |When logging into Viva Glint without an MTO policy, Viva Glint can't identify a user's tenant.<br><br> **In an Incognito or InPrivate browser**, users have to:  <br><br> Choose the "Sign in to an organization" sign in option</li><li>Enter the target tenant domain name</li><li>Enter credentials (Email and password)</li><li>Complete two-factor authentication</li><li>Access Viva Glint</li></ol>      |
 |No sync method set up.    |**(Recommended)** Enable MTO and sync users with cross-tenant synchronization. [Learn more](glint-mto.md)    |
 
 ## If my organization chooses not to enable MTO, but uses B2B collaboration or CTS, can I send surveys to all users in multiple tenants?

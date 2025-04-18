@@ -1,5 +1,5 @@
 ---
-ms.date: 08/1/2024
+ms.date: 04/11/2025
 title: Collaboration between internal and external individuals
 description: Learn how to run an external collaborator query, to understand how groups at your company collaborate with others outside your company.
 author: zachminers
@@ -31,7 +31,7 @@ The query includes:
 
 ### Set up your query
 
-1.	In the advanced insights app’s **Home** page, select **Custom queries**, find **External collaboration query**, and select **Start analysis**. 
+1.	In the advanced insights app’s **Home** page, select **Custom queries**, find **External collaboration query**, and select **Set up analysis**. 
 1.	Name your query (optional). Queries are assigned a default name, which follows this format: "External Collaboration Query," user ID, date, and time. Make sure the name is unique.
 3.	Select a **Time period** (optional). This field defaults to Last 3 months, but you can select another. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom date range**. If you choose a Custom date range, use the date picker to select the range.  
 4.	Optional: Set the query to automatically update by selecting the **auto-refresh** box. When you turn on the auto-refresh option, your query automatically runs and computes a new result every month. This option is turned off by default, but you can use it on any query where the **Time period** isn’t customized. 
@@ -40,7 +40,7 @@ The query includes:
 
 ### Add metrics, filters, and employee attributes
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda0]
+> [!VIDEO 99ddedd4-ee46-4f08-8fc0-228101a74e9b]
 
 1.	Under **Add metrics**, select the **Add metrics button**, then pick metrics from the **Select metrics** pane. For person-to-person queries, you’ll choose from network person-to-person metrics, which are:
     * Call Hours with External Collaborators

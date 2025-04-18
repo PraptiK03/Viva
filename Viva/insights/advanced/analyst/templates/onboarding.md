@@ -1,5 +1,5 @@
 ---
-ms.date: 04/24/2023
+ms.date: 04/11/2025
 title: Onboarding and development report
 description: Learn how the Onboarding and development PowerBI template from Microsoft Viva Insights helps you support new employees and those transitioning to a new role
 author: zachminers
@@ -49,7 +49,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 
 1. In the Viva Insights analyst experience, select **Analysis**.
-1. Under **Power BI templates**, navigate to **Onboarding and development** and select **Start analysis**. 
+1. Under **Power BI templates**, navigate to **Onboarding and development** and select **Set up analysis**. 
 
 [!INCLUDE [Setup steps](includes/setup-steps-OnDev-report.md)]
 

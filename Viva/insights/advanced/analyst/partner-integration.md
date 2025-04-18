@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 04/01/2022
+ms.date: 04/02/2025
 title: Viva Insights partner integration
 description: Learn how to integrate Microsoft Viva Insights and partner application data for more advanced analysis
 author: zachminers
