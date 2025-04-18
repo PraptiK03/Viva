@@ -101,8 +101,8 @@ Admins can easily send preview communications from an Approved program cycle. An
 2. On the **Survey Programs** page, select the survey program you want to review communications for.
 3. In the **Upcoming and Live** tab on the survey program page, select a cycle and then use the ellipses to display the dropdown menu. Select **Preview**.
 
-> [!IMPORTANT]
-> A survey must be in **Approved** status for it to be listed as Upcoming or Live.
+   > [!IMPORTANT]
+   > A survey must be in **Approved** status for it to be listed as Upcoming or Live.
 
    :::image type="content" source="../../media/glint/setup/preview-email-steps.png" alt-text="Screenshot of how to preview email communications from Upcoming and Live cycles.":::
 
