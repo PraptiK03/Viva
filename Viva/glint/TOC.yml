@@ -130,8 +130,10 @@ items:
         href: setup/copilot-managers.md
       - name: Manager Guide - Copilot in Viva Glint
         href: setup/copilot-manager-quick-guide.md
-      - name: FAQs-Copilot in Viva Glint 
-        href: setup/copilot-faqs.md 
+      - name: General FAQs for Copilot in Viva Glint 
+        href: setup/copilot-faqs.md
+      - name: Comment summarization FAQs for Copilot in Viva Glint
+        href: setup/copilot-faqs-comments-summarization.md
   - name: Manage settings, features, and data
     items: 
       - name: Manage user data with People
