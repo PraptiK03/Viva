@@ -34,7 +34,7 @@ Understand how and when users engage with components of the Connections experien
 > - Usage analytics data is aggregated and can't be tracked to an individual user.
 > - You must have an Enterprise (E), Frontline (F), or Academic (A) license type to create a Viva Connections experience.
 > - Users with a Microsoft 365 subscription (E, F, or A license) are limited to creating and using one experience. If you want to create or use two or more experiences (up to 50), then every user in your tenant must have a Microsoft Viva Suite or Viva Communications and Communities license. See [Microsoft Viva plans and pricing]( https://www.microsoft.com/microsoft-viva/pricing) for more info.
-> - For tenants that are set up for more than one region, the option to access analytics will have to be disabled for each region using PowerShell commands. For more information, see [how to disable analytics features](#how-to-to-disable-analytics-features).
+> - For tenants that are set up for more than one region, the option to access analytics will have to be disabled for each region using PowerShell commands. For more information, see [how to disable analytics features](#how-to-disable-analytics-features).
 > - The analytics feature is unavailable in GCC, GCC High, and DoD environments. For more information, see the [list of platform features](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#platform-features).
 
 ## How to access the report
@@ -90,15 +90,12 @@ This section breaks down usage data across the types of devices and apps used to
 
 > [!NOTE]
 >
-> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
+> The news reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers across all devices by the end of April 2025.
 
 - **Total views by apps and devices**: Includes views for desktop, web, and mobile usage.
-- **Engaged users by component**: Includes number of engaged users for the Dashboard, Feed, and Resources web parts.
+- **Engaged users by component**: Includes number of engaged users for the Dashboard and Resources web parts.
   - **Dashboard**: Includes usage from the Dashboard.
-  - **Feed**: Includes usage from the Feed.
   - **Resources**: Includes usage from the tab in the mobile app and the desktop app (The global navigation bar in SharePoint isn't included).
-
-    :::image type="content" source="../media/connections/viva-connections-analytics/analytics-usage-details.png" alt-text="Screenshot showing data covering usage details." lightbox="../media/connections/viva-connections-analytics/analytics-usage-details.png":::
 
 ### Engagement details
 
@@ -120,7 +117,7 @@ Select **Download report** at the top of the analytics page to download an Excel
 
 :::image type="content" source="../media/connections/viva-connections-analytics/vc-analytics-spreadsheet.png" alt-text="Screenshot showing downloaded analytics report in a spreadsheet." lightbox="../media/connections/viva-connections-analytics/vc-analytics-spreadsheet.png":::
 
-## How to to disable analytics features
+## How to disable analytics features
 
 Your organization might not want to see analytics data due to local data and compliance regulations or other reasons. Use the following steps to disable the Connections analytics feature using PowerShell. For tenants that are set up for more than one region, the option to access analytics needs to be disabled for each region using the PowerShell command.
 

@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/23/2024
+ms.date: 04/17/2025
 ---
 
 # Reopen or extend a Viva Glint survey cycle
@@ -29,7 +29,7 @@ Sometimes survey takers may need extra time to complete a survey or your respons
 > [!IMPORTANT]
 > Survey close notifications aren't automatically regenerated once the original closing notification is sent. 
 
-When a survey cycle is closed **and** the survey end notification email has sent, no further survey end notification email is sent.
+When a survey cycle is closed **and** the survey end notification email is sent, no further survey end notification email is sent.
 
 Also consider:
 
@@ -37,23 +37,24 @@ Also consider:
 - The **Phased Access** user role can't access the results of this survey until the role is regranted access. 
 - Review and reschedule any Nudges already set. They also aren't rescheduled automatically. 
 
-## Extend a survey cycle that hasn't closed
+## Extend a live survey cycle
 
 When a survey cycle is extended *before* its original close date, the notification generation automatically updates to reflect the new close date. The default for the survey end notification email is three days post survey cycle close.
->
-> Example:
->
-> - The survey end date is March 10. The survey end notification email is set to send on March 13.
-> - On March 8, you extend the close date to March 15. The survey close notification automatically moves to March 18.
+
+Example:
+ - The survey end date is March 10. The survey end notification email is set to send on March 13.
+ - On March 8, you extend the close date to March 15. The survey close notification automatically moves to March 18.
 
 ## Procedure for reopening or extending a survey 
 
 1. Select the **Configuration** symbol on your admin dashboard (landing page).
 2. Select **Survey Programs**.
-3. In the **Survey Cycles** section, toggle to the **Completed** tab.
-4. From the horizontal ellipses in the program bar, select **Reopen Survey**.
+3. In the **Survey Cycles** section, select the **Completed** tab and select the cycle to reopen or extend.
+4. From the **Actions dropdown** menu, select **Reopen Survey**.
 5. A **Reopen Survey Cycle** window opens.
 
+   :::image type="content" source="../../media/glint/setup/reopen-survey-cycle.png" alt-text="Screenshot of the Reopen survey cycle window.":::
+   
 To reopen this survey cycle, select a new close date. To avoid duplicating work for managers, reopen the cycle within one day of the previous cycle end date. Consider this guidance, then review and adjust as needed:
 
 - **Team Conversations:** The Team Conversations for this survey are deleted and regenerated after the survey closes on the new end date. Any actions previously taken with this Team Conversations are lost and need to be restarted.
@@ -67,7 +68,7 @@ To reopen this survey cycle, select a new close date. To avoid duplicating work 
 > [!NOTE]
 > A survey extension can't close *past the start date of the next scheduled survey.* If you choose an invalid date, you see a message directing you to choose a different date.
 
-7. Select **Save.** The survey is immediately reopened and closes at midnight (11:59PM) on the selected date in the client's time zone. The survey status is now **Live**.
+7. Select **Save.** The survey is immediately reopened and closes at midnight (11:59 PM) on the selected date in the client's time zone. The survey status is now **Live**.
 
 
    

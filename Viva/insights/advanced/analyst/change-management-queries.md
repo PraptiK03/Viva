@@ -654,7 +654,7 @@ The top highlights section encompasses group(s) that exhibit either:
 
 1. A significant increase in insular collaboration behavior in the after period, the EI Index of the group(s) has become more negative (i.e., the EI Index is getting close to -1).
 
-2. Group(s) that continue to showcase insular collaboration tendencies (i.e. have a negative EI Index in the before/after periods). In the case where group(s) continue to display insular collaboration tendences in the before/after period, up to five groups with the lowest negative score (i.e. closer to -1) are surfaced in the top highlights section.
+2. Group(s) that continue to showcase insular collaboration tendencies (i.e. have a negative EI Index in the before/after periods). In the case where group(s) continue to display insular collaboration tendencies in the before/after period, up to five groups with the lowest negative score (i.e. closer to -1) are surfaced in the top highlights section.
 
 Let’s look at two different scenarios to see how this plays out.
 

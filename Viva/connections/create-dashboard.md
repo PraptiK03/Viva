@@ -30,14 +30,14 @@ The Viva Connections dashboard provides fast and easy access to information and 
 
 The Connections dashboard can be edited from within your Connections experience.  
 
-![Diagram of how to create a Viva Connections Dashboard.](../media/connections/viva-dashboard-step.png)
+![Diagram of how to create a Connections Dashboard.](../media/connections/viva-dashboard-step.png)
 
 > [!NOTE]
 >
 > - You're asked to select your primary audience to generate a set of default dashboard cards for when setting up your experience for the first time.
 > - Operators or members should limit the number of dashboard cards to about 20 for the best viewing experience.
 > - Operator or member permissions are required to edit the Connections dashboard.
-> - Users are able to customize their dashboard in Viva Connections on [desktop](https://support.microsoft.com/office/3da30f39-684a-4bde-bb81-2e1407d59b52#bkmk_desktop_customize_dashboard) and [mobile](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2#bkmk_customize-viva-connections-mobile-dashboard) by reordering, hiding, and showing cards. These changes only affect the experience for the user.
+> - Users are able to customize their dashboard in Connections on [desktop](https://support.microsoft.com/office/3da30f39-684a-4bde-bb81-2e1407d59b52#bkmk_desktop_customize_dashboard) and [mobile](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2#bkmk_customize-viva-connections-mobile-dashboard) by reordering, hiding, and showing cards. These changes only affect the experience for the user.
 
 1. From within your Connections experience, select **Edit** in the dashboard section.
 
@@ -78,13 +78,13 @@ The dashboard details contain settings for your dashboard, page versioning, and 
 
     - Changes users make to their dashboard are only seen by that user. Any updates or changes to the dashboard by an owner or member of the experience will override the user’s personal changes.
 
-> [!NOTE]
->
-> Disabling user customization resets all user dashboard views to what the organization created. This includes removing any dashboard cards the user added to their dashboard.
->
-> For more information how end users can customize their dashboard, see the relevant sections in the [dashboard](https://support.microsoft.com/office/3da30f39-684a-4bde-bb81-2e1407d59b52#bkmk_desktop_customize_dashboard) and [mobile](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2#bkmk_mobile_customize_dashboard) articles.
+    > [!NOTE]
+    >
+    > Disabling user customization resets all user dashboard views to what the organization created. This includes removing any dashboard cards the user added to their dashboard.
+    >
+    > For more information how end users can customize their dashboard, see the relevant sections in the [dashboard](https://support.microsoft.com/office/3da30f39-684a-4bde-bb81-2e1407d59b52#bkmk_desktop_customize_dashboard) and [mobile](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2#bkmk_mobile_customize_dashboard) articles.
 
-   :::image type="content" source="../media/connections/create-dashboard/dashboard-details-pane.png" alt-text="Screenshot of the dashboard details pane with numbered callout corresponding to steps three through five." lightbox="../media/connections/create-dashboard/dashboard-details-pane.png":::
+    :::image type="content" source="../media/connections/create-dashboard/dashboard-details-pane.png" alt-text="Screenshot of the dashboard details pane with numbered callout corresponding to steps three through five." lightbox="../media/connections/create-dashboard/dashboard-details-pane.png":::
 
 6. When finished making your changes, select the **X** to close the Dashboard details pane.
 
@@ -109,7 +109,7 @@ If your organization has a [SharePoint home site](home-site-plan.md), you can se
 
 7. Once you’re satisfied with how the dashboard looks in preview, select **Publish** or **Republish** at the top-right of your dashboard to make it available for use on your home site, in Teams, and in the Teams mobile app.
 
-### Use the Dashboard web part for Viva Connections
+### Use the Dashboard web part for Connections
 
 Once a dashboard is authored and published in your Connections experience, you can use the Dashboard web part to display it on any section of your SharePoint site. If your organization has a SharePoint home site, you can set up and edit the dashboard from the SharePoint home site, Microsoft Teams, or the [Viva home site](https://viva.cloud.microsoft/).
 
@@ -118,7 +118,7 @@ Once a dashboard is authored and published in your Connections experience, you c
 > - After editing content on the dashboard, it might take several minutes until the new content is available in the Dashboard web part.
 > - For best results, we recommend placing the Dashboard web part in a right vertical section.
 
-![Screenshot of the Viva Connections Dashboard web part highlighted in the Connections site.](../media/connections/vc-dashboard-web-part.png)
+![Screenshot of the Connections Dashboard web part highlighted in the Connections site.](../media/connections/vc-dashboard-web-part.png)
 
 When added, the Dashboard web part automatically populates with the cards from the existing dashboard on your site. You can set the maximum number of cards you want to display. [Learn how to use the Dashboard web part](/sharepoint/use-dashboard-web-part-on-home-site).
 
@@ -126,7 +126,7 @@ When added, the Dashboard web part automatically populates with the cards from t
 
 Further customize your dashboard by adding various cards meant to help users perform specific tasks. Add another layer of customization with audience targeting and build a unique dashboard experience with content for specific groups within your organization.
 
-For a list of available dashboard cards, along with a description of the tool and steps for setting up, refer to the article on [Available dashboard cards in Viva Connections](available-dashboard-cards.md).
+For a list of available dashboard cards, along with a description of the tool and steps for setting up, refer to the article on [Available dashboard cards in Connections](available-dashboard-cards.md).
 
 For more information on audience targeting and aspects of your Connections experience it can be applied to, see the article on [applying audience targeting to dashboard cards](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
 
@@ -149,10 +149,10 @@ For some cards, you'll use links to URLs. Depending on the location of the conte
 
 ## More resources
 
-[Step-by-step guide to setting up Viva Connections](set-up-admin-center.md)
+[Step-by-step guide to setting up Connections](set-up-admin-center.md)
 
-[Learn more about how to plan a dashboard](plan-viva-connections.md#step-1-plan-for-viva-connections)
+[Learn more about how to plan a dashboard](plan-viva-connections.md#step-1-plan-for-connections)
 
 [Design your own dashboard card with the card designer](use-card-designer.md)
 
-[Available dashboard cards in Viva Connections](available-dashboard-cards.md)
+[Available dashboard cards in Connections](available-dashboard-cards.md)

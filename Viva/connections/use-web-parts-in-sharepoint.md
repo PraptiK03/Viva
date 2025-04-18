@@ -18,24 +18,20 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Use web parts to keep users informed and engaged with content personalized to the viewer, similar to how the Feed in Viva Connections distributes information."
+description: "Use web parts to keep users informed and engaged with content personalized to the viewer, distributing a steady stream of information within Viva Connections."
 ---
 
 # Using web parts to display content on your SharePoint site
 
 Use the News, Viva Engage, File and Media, and Highlighted content web parts and Video pages to display content, videos, and files from sources across SharePoint, Viva Engage, and Stream (on SharePoint) to keep users informed and engaged with news posts, conversations, and video feeds.
 
-Each user’s experience will look different because content displayed in the web parts is personalized to the viewer based on the SharePoint sites and Viva Engage communities that they follow. The tools described in this article are a good way to surface content on your SharePoint site like how the Feed in Viva Connections distributes information.
+Each user’s experience will look different because content displayed in the web parts is personalized to the viewer based on the SharePoint sites and Viva Engage communities that they follow. The tools described in this article are a good way to surface content on your SharePoint site to provide users with a steady stream of information.
 
 > [!NOTE]
 >
-> A new Enterprise News reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers by the end of April 2025.
-
-For more information on how content is displayed, see the section in this article on [where content in the Feed comes from](/viva/connections/faqs-viva-connections-feed#where-does-content-in-the-feed-come-from).
-
-> [!NOTE]
+> - The news reader experience is being rolled out to users that will replace the current Feed experience across desktop, web, and mobile devices. This update is planned to roll out to all customers across all devices by the end of April 2025.
 >
-> You need site member permissions (or higher) to add and edit web parts to a SharePoint site.
+> - You need site member permissions (or higher) to add and edit web parts to a SharePoint site.
 
 :::image type="content" source="../media/connections/use-web-parts-in-sharepoint/sharepoint-site-overview.png" alt-text="Screenshot of a SharePoint site using multiple web parts.":::
 
@@ -49,7 +45,7 @@ Create eye-catching posts like announcements, organizational news, people news, 
 >
 > Boosted news displays for up to four days in the News web part.
 
-:::image type="content" source="../media/connections/use-web-parts-in-sharepoint/news-web-part.png" alt-text="Screenshot of the News web part." lightbox="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png":::
+:::image type="content" source="../media/connections/use-web-parts-in-sharepoint/news-web-part.png" alt-text="Screenshot of the News web part." lightbox="../media/connections/use-web-parts-in-sharepoint/news-web-part.png":::
 
 For more information, see the articles on [using the news web part on a SharePoint page](https://support.microsoft.com/office/c2dcee50-f5d7-434b-8cb9-a7feefd9f165) and [boosting SharePoint news from organizational news sites](https://support.microsoft.com/office/46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
 
@@ -92,8 +88,6 @@ For more information, see the article on [creating video pages on SharePoint](ht
 ## More Resources
 
 [Plan, build, and launch a SharePoint home site for your organization](home-site-plan.md)
-
-[Where does content displayed come from?](/viva/connections/faqs-viva-connections-feed#where-does-content-in-the-feed-come-from)
 
 [Guide to setting up Viva Connections](/viva/connections/guide-to-setting-up-viva-connections)
 
