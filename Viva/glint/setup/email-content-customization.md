@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/03/2025
+ms.date: 04/18/2025
 ---
 
 # Customize Viva Glint survey email content
@@ -24,37 +24,36 @@ Customize Microsoft Viva Glint email content for survey invites, reminders, and 
 > [!IMPORTANT]
 > Always-On survey programs don't have a Communications section for setup.
 
-## Custom sending domains and themes/logos (optional)
+## Custom sending domains and branding (optional)
 
-In the [Microsoft Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your M365 admin can optionally configure a custom sending domain for your organization. In the [Microsoft Entra admin center](https://entra.microsoft.com/#home), customize your organization's branding to include your logo in survey communications:
+Your Microsoft 365 global admin can configure a custom sending domain for your organization in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2264234). Choose from different survey email branding options in the Microsoft Entra admin center or Viva Glint app. Both are optional steps to further customize communications for your organization.
 
-- [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products)
-- [Customize company branding](/entra/fundamentals/how-to-customize-branding)
-  - To add your organization's logo to Viva Glint survey emails, set up the **Sign-in form** > **Banner logo** in the Microsoft Entra admin center.
-
-Both items are *optional steps* that your organization can take to further customize the survey communication experience for your survey participants.
+- [Set up a custom sending domain in the Microsoft 365 admin center](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products)
+- **Custom branding options:**
+  - In [Microsoft Entra admin center](https://entra.microsoft.com): To [add your organization's logo](/entra/fundamentals/how-to-customize-branding) to Viva Glint survey emails, set up the **Sign-in form** > **Banner logo.** 
+  - In the Viva Glint app: Go to **General settings** to manage [Custom branding](custom-branding.md).
 
 > [!NOTE]
-> - Custom sending domains configured in MAC can impact other M365 products. See [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products) for a full list.
+> - Custom sending domains configured in the Microsoft 365 admin center can impact other Microsoft 365 products. See [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products) for a full list.
 > - Viva Glint teams have access to limited email delivery metrics. Using a custom sender domain gives your organization direct access to your email delivery data.
 > - [Send an email preview](#preview-emails) to see your organization's customized logo. The preview in the email setup pane in the platform always displays the Viva Glint logo. 
 
 ## Email sections
 
-To edit email content, go to the **Communications** section of **Program Summary** in your desired survey program. Select the **pencil icon** to edit a communication. In the edit panel that appears, select the **pencil icon** to edit content. Glint survey invites and reminders contain multiple editable sections:
+To edit email content, go to the **Communications** section of **Program Summary** in your desired survey program. Select the **pencil icon** to edit a communication. In the edit panel that appears, select the **pencil icon** to edit content. Viva Glint survey invites and reminders contain multiple editable sections:
 
 :::image type="content" source="../../media/glint/setup/glint-email-invite-sections.png" alt-text="Screenshot of editable survey email sections in Viva Glint.":::
 
 Add your customizations to each section and select **Save Changes**.
 
 > [!CAUTION]
-> - Hyperlinks and HTML aren't supported content in Glint customized emails. These items can cause email delivery or blocking issues.
-> - Glint Admins can add links as plain text; for example: `www.microsoft.com`.
+> - Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery or blocking issues.
+> - Viva Glint Admins can add links as plain text; for example: `www.microsoft.com`.
 >   - Some versions of Microsoft Outlook automatically convert a plain text link into a clickable link. To prevent creating issues with links, ensure that the plain text URL is less than or equal to 100 characters, or create a shortened link.
 
 ### Email macros
 
-Macros in Viva Glint emails allow your organization to add placeholders that pull in information from your employee data and from Glint. Customize your message by including Departments, Manager Names, or the estimated to complete a survey in email. To add a macro, select the **plus sign icon** in each email sections and choose a macro from the dropdown menu.
+Macros in Viva Glint emails allow your organization to add placeholders that pull in information from your employee data and from Viva Glint. Customize your message by including Departments, Manager Names, or the estimated to complete a survey in email. To add a macro, select the **plus sign icon** in each email sections and choose a macro from the dropdown menu.
 
 :::image type="content" source="../../media/glint/setup/glint-email-macros.png" alt-text="Screenshot of macros available to add to email text.":::
 
@@ -102,8 +101,8 @@ Admins can easily send preview communications from an Approved program cycle. An
 2. On the **Survey Programs** page, select the survey program you want to review communications for.
 3. In the **Upcoming and Live** tab on the survey program page, select a cycle and then use the ellipses to display the dropdown menu. Select **Preview**.
 
-> [!IMPORTANT]
-> A survey must be in **Approved** status for it to be listed as Upcoming or Live.
+   > [!IMPORTANT]
+   > A survey must be in **Approved** status for it to be listed as Upcoming or Live.
 
    :::image type="content" source="../../media/glint/setup/preview-email-steps.png" alt-text="Screenshot of how to preview email communications from Upcoming and Live cycles.":::
 
