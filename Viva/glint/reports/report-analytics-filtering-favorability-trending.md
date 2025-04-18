@@ -21,7 +21,7 @@ ms.date: 04/18/2025
 
 Use these definitions to get the most useful information from your Microsoft Viva Glint reports. 
 
-|**Features**| **Definition**|
+| Features  | Definition |
 |-----------|-----------|
 |Key Outcome|The main result of the survey. It can be the score from a single item or an aggregate index. This number is the most prominently displayed score in most reports.| 
 |Engagement score | The key outcome for an Engagement survey. The Engagement Score is calculated by computing the average score, typically for eSat (Employee Satisfaction) - or eSat and Recommend. The Engagement Score has the highest correlation with engagement drivers, along with outcomes like productivity and retention. The overall Engagement score helps managers understand how happy their team is at work.  |
