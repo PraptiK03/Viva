@@ -130,6 +130,8 @@ As with SharePoint sites, Viva Amplify campaigns can be managed in the **Active 
 
 Viva Amplify approvals are supported by the Approvals app in Teams. You need to set up Approvals in Teams to be able to use approvals in Amplify. [Learn how to set up Approvals in Teams](/microsoftteams/approval-admin).
 
+[Learn how to use approvals in Viva Amplify](https://support.microsoft.com/en-us/topic/request-approvals-for-viva-amplify-publications-a5e16a61-caee-4701-9602-d10ec8ba45e5). 
+
 ## Delete campaigns
 
 As a SharePoint admin, you can delete a Viva Amplify campaign using the same method you would use to delete a SharePoint site. Deleted campaigns are stored for a set amount of time based on your organization's retention policies. [Learn more about how to delete a campaign](/sharepoint/delete-site-collection).
