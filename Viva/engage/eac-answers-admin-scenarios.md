@@ -117,11 +117,6 @@ The following metrics appear for Global Answers analytics:
 
 | Metric | Description |
 |---|---------|
-|**Time saved by Answers**| The time the organization saves, based on question-and-answer usage. |
-|**Total questions**| The total number of questions asked by users.|
-|**Question views**| The total number of views across all questions.|
-|**Total answers**| The total number of answers provided by users.|
-|**Total best answers**| The total number of answers marked as best answer.|
 |**Answer rate**| The ratio of questions that have answers to total questions.|
 |**Best answer rate**| The ratio of questions with best answers to total questions.|
 |**Median time to first answer**| The median time it takes for a question to receive its first answer.|
@@ -130,7 +125,12 @@ The following metrics appear for Global Answers analytics:
 |**Median questions viewed per user**| The median number of questions viewed by each user.|
 |**Median answers per user**| The median number of answers provided by each user.|
 |**Median best answers per user**| The median number of best answers provided by each user.|
+|**Question views**| The total number of views across all questions.|
+|**Time saved by Answers**| The time the organization saves, based on question-and-answer usage. |
 |**Top questions across your org**| A table of the top questions with the most views, votes, reactions, and answers across your org.|
+|**Total answers**| The total number of answers provided by users.|
+|**Total best answers**| The total number of answers marked as best answer.|
+|**Total questions**| The total number of questions asked by users.|
 |**User engagement distribution**| A distribution of all users split by active engagements (ask, answer, vote, reactions, comments) and passive engagements (question views).|
 |**Question views**| Total question views in the network. |
 <!--|**Global time saved** | Time saved across the organization. Based on Viva Engage research, the total shows that each question-and-answer pair saves people an average of 15 minutes. As more people discover existing answers to their questions, the organization saves more time.|-->
