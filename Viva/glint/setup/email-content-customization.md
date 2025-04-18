@@ -29,7 +29,7 @@ Customize Microsoft Viva Glint email content for survey invites, reminders, and 
 Your Microsoft 365 global admin can configure a custom sending domain for your organization in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2264234). Choose from different survey email branding options in the Microsoft Entra admin center or Viva Glint app. Both are optional steps to further customize communications for your organization.
 
 - [Set up a custom sending domain in the Microsoft 365 admin center](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products)
-- **Customize company branding:**
+- **Custom branding options:**
   - In [Microsoft Entra admin center](https://entra.microsoft.com): To [add your organization's logo](/entra/fundamentals/how-to-customize-branding) to Viva Glint survey emails, set up the **Sign-in form** > **Banner logo.** 
   - In the Viva Glint app: Go to **General settings** to manage [Custom branding](custom-branding.md).
 
