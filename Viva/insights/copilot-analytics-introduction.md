@@ -90,3 +90,47 @@ Learn more about how to set up and use each report with the links below.
 * [Copilot impact report](./advanced/analyst/templates/microsoft-365-copilot-impact.md)
 * [Copilot for Sales adoption report](./advanced/analyst/templates/copilot-for-sales-adoption.md)
 * [Copilot business impact report](./advanced/analyst/templates/copilot-business-impact.md)
+
+### How to identify business impact metrics
+
+The [Copilot business impact report](./advanced/analyst/templates/copilot-business-impact.md) mentioned above can help you understand how usage of Copilot relates to and influences various business outcomes within your organization. To run the report, you must upload business outcome data that includes metrics relevant to your analysis. To help you identify the most relevant metrics, the [Copilot Scenario Library](https://adoption.microsoft.com/copilot-scenario-library) offers detailed business-outcome focused guidance.  
+
+In addition, here are some specific example metrics to consider, broken out by functional area.
+
+* **Sales:** Deal size; customer retention; cost per lead; response rate 
+
+* **Marketing:** Leads generated; revenue per lead generated; customer calls booked; customer response rate 
+
+* **Finance:** Forecast accuracy; deal review time; deviation from budget 
+
+* **IT:** IT tickets resolved; IT ticket resolution time; IT ticket resolution rate 
+
+* **Customer Service:** Case resolution rate; case resolution time; customer retention; time to first response 
+
+* **Legal/Procurement:** Compliance rate; contract error rate; number of disputes; dispute win rate 
+
+* **HR:** Employee engagement scores; employee retention; employee onboarding time; first call resolution rate
+
+    > [!VIDEO 99ddedd4-ee46-4f08-8fc0-228101a74e9b]
+
+### How to upload business outcome data
+
+In order to run the [Copilot business impact report](./advanced/analyst/templates/copilot-business-impact.md), you must first upload business outcome data in Viva Insights using one of the two methods described below.
+
+* [Import business data with a .csv file](./advanced/admin/import-business-data-csv.md)
+
+* [Import business data with Azure blob import](./advanced/admin/import-business-data-azure.md)
+
+    > [!VIDEO 7f1b8691-ed65-4f68-a4de-576d77bc3b27]
+
+## Related topics
+
+* [Use Copilot to set up analyst queries](./advanced/analyst/copilot-query.md) 
+
+* [Copilot Analytics playbook](https://aka.ms/CopilotAdvancedAnalytics)
+
+* [Copilot Scenario Library](https://adoption.microsoft.com/copilot-scenario-library)
+
+* [Access query results and modify existing queries](./advanced/analyst/query-results.md)
+
+* [Copilot Dashboard FAQs](./org-team-insights/copilot-dashboard.md#faqs)

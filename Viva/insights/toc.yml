@@ -4,6 +4,42 @@ items:
     - name: Introducing Microsoft Viva Insights
       href: introduction.md
       items: 
+      - name: Microsoft 365 Copilot Analytics
+        items:
+        - name: Copilot Analytics introduction
+          href: copilot-analytics-introduction.md
+        - name: Microsoft 365 admin center reports
+          items:
+            - name: Activity reports
+              href: https://learn.microsoft.com/microsoft-365/admin/activity-reports/activity-reports#which-activity-reports-are-available-in-the-admin-center
+        - name: Microsoft Copilot Dashboard
+          items:
+            - name: How to use the Copilot Dashboard
+              href: org-team-insights/copilot-dashboard.md
+            - name: Manage settings for the Copilot Dashboard
+              href: advanced/admin/manage-settings-copilot-dashboard.md
+            - name: Delegate access to the Copilot Dashboard
+              href: org-team-insights/delegate-access.md     
+        - name: Advanced Reporting
+          items:
+            - name: Introduction to templates
+              href: advanced/analyst/templates/introduction-to-templates.md   
+            - name: Copilot Analytics PBI reports
+              href: copilot-analytics-introduction.md#copilot-analytics-pbi-reports
+            - name: Set up queries using Copilot
+              href: advanced/analyst/copilot-query.md
+            - name: Copilot metrics
+              href: advanced/reference/metrics.md#microsoft-365-copilot-metrics
+        - name: Using Copilot for Viva Insights analysis
+          items:
+            - name: Discover organizational insights with Copilot
+              href: org-team-insights/org-insights-copilot.md   
+            - name: Use deep-dive reports
+              href: org-team-insights/copilot-deep-dive-reports.md
+            - name: Tips for uploading organizational data
+              href: advanced/admin/upload-org-data-copilot.md    
+            - name: Data, privacy, and security for Copilot
+              href: copilot-data-privacy-security.md         
       - name: Privacy and data protection
         items:
         - name: Technical privacy guide for organization insights and advanced insights
