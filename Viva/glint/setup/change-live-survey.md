@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 3/18/2025
+ms.date: 4/21/2025
 ---
 
 # Admins editing a live Viva Glint survey
@@ -103,10 +103,11 @@ The information is broken out across **Program Summary** setup pages.
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **The text at the beginning and end of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately on unopened surveys. |
-| **Add or remove a survey item** | You want to add a new item or remove an item from a Live survey. | An item *can't* be added or removed from a Live survey except in an Always-On or an Employee Lifecycle program. |
+| **Add or remove a survey item** | You want to add a new item or remove an item from a Live survey. | An item *can't* be added or removed from a Live survey except in an Always-On or an Employee Lifecycle program. You can't add, remove, or reorder rating items and multiple-choice questions during a live survey.|
 | **Item order** | The items need to be reordered. | Newly edited item order is featured immediately on opened surveys. |
 |**Survey sections and survey breaks**| You want to change the formatting of the survey.| Survey section and break additions can't occur during a Live cycle. Section and break changes apply to upcoming cycles only.|
-| **Question text** | The phrasing or benchmark status of an item needs to be edited. | <ul><li> Once confirmed and saved, the edited item is pushed to all Live and future surveys that use it.</li><li> All programs with the changed item are automatically set to allow survey resubmission.</li><li> If your organization uses Entra ID or personalized links for survey access, notify participants who started or completed the survey via email. Select the checkbox.</li><li>If your organization uses attribute-based survey access, manual notification of the change is required.</ul>  
+| **Question text** | The phrasing or benchmark status of an item needs to be edited. | <ul><li> Once confirmed and saved, the edited item is pushed to all Live and future surveys that use it.</li><li> All programs with the changed item are automatically set to allow survey resubmission.</li><li> If your organization uses Entra ID or personalized links for survey access, notify participants who started or completed the survey via email. Select the checkbox.</li><li>If your organization uses attribute-based survey access, manual notification of the change is required.</ul> |
+|**Question targeting**| You want to target or exclude specific populations for a survey item | Question targeting is not available once a survey is live. 
 
 ### Question mapping
 
@@ -157,6 +158,7 @@ A list of program names previously used or currently in use that include this su
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **All items in the Reporting section** | Any section in the Reporting section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approved toggle to **Yes**. |
+|**Reporting label**| You want to change the name of the reporting label to identify a survey item.| Reporting labels can't be updated during live cycles.|
 | **Benchmark update** | Your external comparison benchmark was updated. | If changes are made to the benchmark in a Live program, be certain users with Live access are aware so they aren't confused by different results from a past viewing. **Read the section about benchmark status change in the **Items** guidance on this page. |
 | **Aggregate Indices** | You need to edit or add an aggregate index. | If changes are made to indices in a Live program, be certain users with live access are aware so they aren't confused by results that are different from their last viewing. |
 | **Driver Impact Outcomes** | You need to edit or add Driver Impact outcomes. | If changes are made to Driver Impact outcomes, be certain users with Live access are aware and aren't confused by different outcome options shown in the Driver Impact report. |
