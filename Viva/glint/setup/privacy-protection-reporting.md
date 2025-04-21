@@ -80,24 +80,6 @@ By comparing the teamwide score to the North American score, the PM might mathem
  
 For the North American score to be displayed, there must be more than two (2) responses within the overall team score that aren't within the North American group. So, if the overall team earned eight (8) responses where five (5) were from North America and three (3) were from Europe, the PM sees both the overall team score and the North American score. The, suppression threshold was met.
 
-> [!IMPORTANT]
-> The suppression threshold requires two (2) or more responses that separate the smallest attribute group from the next smallest group that meets the minimum response threshold.
-
-**Example - Marketing PM**
-- Five (5) of the six (6) team members are in North America; one (1) is in Europe.
-- The organization configured Glint to allow filtering of responses by survey taker region.
-- The survey's minimum response threshold is five (5).
-- All six (6) team members respond to an item that asks them to rate their manager's communication skills, from 'Very Good' to 'Very Poor.'
-- The North America team members all provide a rating of 'Very Good;' the European team member provide a rating of 'Very Poor.'
-
-In this case, the marketing PM can't see the European score because, with only one (1) response from European employees, the minimum response threshold isn't met. But the PM can view the teamwide score (based on six responses) and North American-only score (based on five responses)—right? **No!** Those results are **suppressed**.
-
-**Why?**
-
-By comparing the teamwide score to the North American score, the PM might mathematically be able to determine the score received from the single European team member. When the PM sees that the North American score is 'Very Good,' but the teamwide score isn't, the user might infer that the European team member brought the average down. With a little math, the PM could calculate the exact score the European team member provided.
-
-For the North American score to be displayed, there must be more than two (2) responses within the overall team score that aren't within the North American group. So, if the overall team earned eight (8) responses where five (5) were from North America and three (3) were from Europe, the PM sees both the overall team score and the North American score. The, suppression threshold was met.
-
 ## More resources
 
 [Understand Glint reporting and confidentiality](/viva/glint/reports/confidentiality-suppression-reports)
