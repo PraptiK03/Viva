@@ -160,6 +160,11 @@ For the best feedback, encourage your employees to leave comments in their nativ
 - Copilot in Viva Glint doesn’t currently support cross-program filters.
 - Copilot in Viva Glint doesn’t currently support plug-ins.
 
+<br>**Q: How often does Copilot in Viva Glint update underlying functionalities? How are we notified of new functionalities?**
+
+**A:** In order to determine whether a new model update would address existing issues or improve response quality and system performance, Viva	Glint continuously monitors Copilot’s reliability. Viva Glint sends out monthly newsletters that include important enhancements to Copilot in Viva Glint. 
+
+
 
 
  
