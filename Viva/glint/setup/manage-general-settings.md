@@ -16,7 +16,7 @@ ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 04/17/2025
+ms.date: 04/18/2025
 ---
 
 # Manage General Settings in Viva Glint 
@@ -45,7 +45,7 @@ Also, set up what your employees see when they open an email sharing information
 |**Top-Level Manager**    | This employee is used to build managerial hierarchy and is the only person in your organization that doesn't report to anyone at a higher level.| 
 |**Company Privacy Policy** | Add a link to your organization's privacy policy. The privacy policy is displayed at the beginning of Viva Glint surveys and in the Viva Glint navigation bar.|
 |**Company Message to Survey Participants**|Enter guidance specific to your organization to be displayed at the beginning of Viva Glint surveys and applied to new programs and scheduled surveys. <li>Avoid potential conflicts between your organization's message and Viva Glint's privacy statements. The application of a privacy statement is dependent upon admin configuration. [**Learn more**](/../../viva/glint/setup/viva-glint-survey-privacy).</li><li>The company message displayed alongside standard privacy statements should refrain from stating anything that conflicts with the privacy statement applied to the survey. *Microsoft reserves the right to delete company messages if such conflicts come to our attention.*</li><li>No hyperlinks can be used in this company message</li><li>Character limit: 1024</li><li>**Best practice:** link to your organization's privacy policy **or** to customized message. Using *both* may incur conflicts.</li> <br> :::image type="content" source="../../media/glint/setup/customized-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when a customized message around privacy isn't included."::: <br> :::image type="content" source="../../media/glint/setup/customized-and-org-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when a custom company message is included."::: |
-|**Custom Branding** | Customize the logo and colors users see in Viva Glint. Custom branding overrides any company branding set up in the Microsoft 365 admin center. |
+|**Custom Branding** | [Customize the logo and colors](custom-branding.md) users see in Viva Glint. Custom branding overrides any company branding set up in the Microsoft 365 admin center. |
 
 ## Communications
 
@@ -80,7 +80,7 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 |**Primary Hierarchy**   | The hierarchy your company identified as the first level for reporting, typically Manager. |  
 |**Secondary Hierarchy**   | The hierarchy your company identified as its second level for reporting, typically Location. | 
 |**Rating Questions Scale**   | The defaults survey rating questions use. Viva Glint's best practice is to use a 5-point scale. | 
-|**Calculation method for rating question scores**   | Choose the calculation method for rating question and aggregate index scores. If you choose average as the calculation method, scores are converted to a 0–100 scale for easier comparison. If you choose percent favorable, scores show the percentage of favorable responses. **Important: Selecting the percent favorable option disables external benchmarks.** If external benchmarks are enabled (above), you see this confirmation window: <br><br> :::image type="content" source="../../media/glint/reports/percent-favorable.png" alt-text="Screenshot of the Switch to percent favorable pop-up window.":::<br><br> This setting only affects Viva Glint engagement and lifecycle survey reports. Viva Glint 360 feedback reports use their own calculation method.  | 
+|**Calculation method for rating question scores**   | Choose the calculation method for rating question and aggregate index scores. If you choose Average as the calculation method, scores are converted to a 0–100 scale for easier comparison. If you choose Percent favorable, scores show the percentage of favorable responses. **Important: Selecting the percent favorable option disables external benchmarks.** This setting only affects Viva Glint engagement and lifecycle survey reports. Viva Glint 360 feedback reports use their own calculation method.  | 
 |**Suppression Threshold**   | Suppression occurs if there aren't enough respondents to meet confidentiality requirements. The Viva Glint Suppression Threshold default is two (2) but is dependent upon the confidentiality threshold.  |  
 |**Cross-Program Filtering**   | Turns on cross-program filtering within reports. Enables user roles to compare employee groups across different survey programs and cycles.   |   
 
