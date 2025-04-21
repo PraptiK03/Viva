@@ -30,16 +30,16 @@ items:
               href: advanced/analyst/copilot-query.md
             - name: Copilot metrics
               href: advanced/reference/metrics.md#microsoft-365-copilot-metrics
-        - name: Using Copilot for Viva Insights analysis
-          items:
-            - name: Discover organizational insights with Copilot
-              href: org-team-insights/org-insights-copilot.md   
-            - name: Use deep-dive reports
-              href: org-team-insights/copilot-deep-dive-reports.md
-            - name: Tips for uploading organizational data
-              href: advanced/admin/upload-org-data-copilot.md    
-            - name: Data, privacy, and security for Copilot
-              href: copilot-data-privacy-security.md         
+      - name: Using Copilot for Viva Insights analysis
+        items:
+          - name: Discover organizational insights with Copilot
+            href: org-team-insights/org-insights-copilot.md   
+          - name: Use deep-dive reports
+            href: org-team-insights/copilot-deep-dive-reports.md
+          - name: Tips for uploading organizational data
+            href: advanced/admin/upload-org-data-copilot.md    
+          - name: Data, privacy, and security for Copilot
+            href: copilot-data-privacy-security.md         
       - name: Privacy and data protection
         items:
         - name: Technical privacy guide for organization insights and advanced insights

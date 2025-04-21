@@ -28,7 +28,7 @@ Copilot Analytics encompasses three areas:
 
 * Microsoft Copilot Dashboard in Teams and the Teams web app for leaders and their selected delegates. [Learn more](./org-team-insights/copilot-dashboard.md).
 
-* Advanced Reporting through the Viva Insight web app and pre-configured Power BI dashboards. [Learn more](./advanced/introduction-to-advanced-insights.md).
+* Advanced Reporting through the Viva Insights web app and pre-configured Power BI dashboards. [Learn more](./advanced/introduction-to-advanced-insights.md).
 
 ## Which tool should I use when?
 
