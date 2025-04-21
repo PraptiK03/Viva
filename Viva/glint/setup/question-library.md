@@ -22,7 +22,7 @@ ms.date: 04/21/2025
 The Microsoft Viva Glint Question Library contains hundreds of questions and statements (called *items*) that can be included in your surveys. If you choose a template for a specific survey type, the questions and statements that best support the survey goal are prepopulated in the template. You can create and edit items from the Question Library, but Viva Glint suggests using our standard questions as most are mapped to benchmarks.
 
 > [!NOTE]
-> Not all items in the Viva Glint Question Library are posed in question format. Many library items are statements to rate on a given scale. For this reason, the term "item" on the Viva Glint platform and in Learn guidance refers to any content in the Question Library. The term "item" includes questions and statements.
+> Not all items in the Viva Glint Question Library are posed in question format. Library items also include statements to rate on a given scale. For this reason, the term "item" on the Viva Glint platform and in Learn training guidance refers to any content in the Question Library. The term "item" includes questions and statements.
 
 ## There are two versions of some Viva Glint standard Question Library items
 
