@@ -78,7 +78,8 @@ There are several preconfigured Power BI templates you can use to analyze the us
 
 To find these templates, in the Viva Insights analyst experience, select **Create analysis**. Under the **Copilot** section, select **Set up analysis** for the template you want to run.
 
-:::image type="content" source="images/analyst-copilot-pbis.jpg" alt-text="Screenshot that shows where to find PBI templates.":::
+:::image type="content" source="images/analyst-copilot-pbis.jpg" alt-text="Screenshot that shows where to find PBI templates."lightbox="images/analyst-copilot-pbis.jpg":::
+
 
 > [!VIDEO 7623c86c-43e1-4684-995d-1cf22f15399d]
 
