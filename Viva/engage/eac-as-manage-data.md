@@ -12,7 +12,7 @@ f1.keywords:
 ms.topic: how-to
 ms.service: viva-engage
 ms.localizationpriority: high
-ms.collection:  
+ms.collection: 
 - M365initiative-viva
 - highpri
 search.appverid:
@@ -30,11 +30,11 @@ Engage administrators often need to export data to manage users and content in t
 
 | Use this data export method | For this purpose |
 |---|---|
-|  [**Export user and admin list**](#export-user-and-admin-list)  |  Identify the status of current admins and users. For each user, you get an email address, title, location, and department. |
-|  [**Export tenant data by date range**](#export-tenant-data-by-date-range) | View and audit tenant data for all users from your home network for a specific date range. Options also let you include attachment files and data from external networks. |
-|  [**Export data for one user**](#export-data-for-one-user) | Pull all data related to a single user. Use this method to identify data that needs to be deleted to comply with a GDPR data subject request.|
-|  [**Automate data exports**](#automate-data-exports) | Automate recurring exports for compliance through the Data Export API. |
-|  [**Export Engage files with the API**](#export-large-volumes-of-files-with-the-api) |  When exporting large volumes of files, use the API. You can specify a date range and include files from external networks. This method is best for archiving data. |
+| [**Export user data and admin list**](#export-user-data-and-admin-list) | Identify the status of current admins and users. For each user, you get an email address, title, location, and department. |
+| [**Export tenant data by date range**](#export-tenant-data-by-date-range) | View and audit tenant data for all users from your home network for a specific date range. Options also let you include attachment files and data from external networks. |
+| [**Export data for one user**](#export-data-for-one-user) | Pull all data related to a single user. Use this method to identify data that needs to be deleted to comply with a GDPR data subject request.|
+| [**Automate data exports**](#automate-data-exports) | Automate recurring exports for compliance through the Data Export API. |
+| [**Export Engage files with the API**](#export-large-volumes-of-files-with-the-api) | When exporting large volumes of files, use the API. You can specify a date range and include files from external networks. This method is best for archiving data. |
 
 ## Export user data and admin lists
 
@@ -48,9 +48,9 @@ Access all export options from the Data export page in the Engage admin portal. 
 3. On the Data export page, choose **Export data for all** **users**.
 4. Specify a date range and other options.
 
-   - **Date range:**  Specify the date range for which you want data. The current date appears as the end date.
-   - **Include attachments:**  Leave unselected to get a list of file names. Select to get both a list and a Files folder of all the attachments in their native format.
-   - **Include external networks:**  Leave unselected to get data from your home network only. Select to get data for each network in a separate folder (folder name is the network ID). Full network names are listed in **Networks.csv**.
+   - **Date range:** Specify the date range for which you want data. The current date appears as the end date.
+   - **Include attachments:** Leave unselected to get a list of file names. Select to get both a list and a Files folder of all the attachments in their native format.
+   - **Include external networks:** Leave unselected to get data from your home network only. Select to get data for each network in a separate folder (folder name is the network ID). Full network names are listed in **Networks.csv**.
 
 5. Select **Download CSV**. The file is saved as a compressed file with a .zip file name extension.
 6. Go to the location that contains the compressed file and expand it.
@@ -93,9 +93,9 @@ Use this method to export tenant data by a specified date range for the Viva Eng
 
    :::image type="content" alt-text="Screenshot of export options including date range and other filters." source="../media/engage/admin/eac-tenant-options.png" lightbox="../media/engage/admin/eac-tenant-options.png":::
 
-   - **Date range:**  Includes only data in the specified date range. Today’s date is automatically prepopulated as the end date.
-   - **Include attachments:**  If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format.
-   - **Include external networks:**  If unselected, only data from your home network is exported. If selected, a separate folder of data from each network is exported. Each network is identified by its ID, and the full network names are listed in **Networks.csv**.
+   - **Date range:** Includes only data in the specified date range. Today’s date is automatically prepopulated as the end date.
+   - **Include attachments:** If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format.
+   - **Include external networks:** If unselected, only data from your home network is exported. If selected, a separate folder of data from each network is exported. Each network is identified by its ID, and the full network names are listed in **Networks.csv**.
 
 3. Select **Download CSV**.
 
