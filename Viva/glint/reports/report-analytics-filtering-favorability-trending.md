@@ -80,6 +80,7 @@ When a score increases or decreases, it’s useful to know where the increase or
    > Switching to percent favorable as a calculation method disables external benchmarks, which use average score calculation. Users lose external benchmark comparisons in dashboards and reports.
 
 6. Select **Yes, switch to percent favorable**.
+7. Select **Save changes** at the top of the **General settings** page.
 
 ### Favorability rating scale point interpretation guide
 
