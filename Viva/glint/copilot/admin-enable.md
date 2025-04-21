@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/08/2025
+ms.date: 04/21/2025
 ---
 
 # Administrator enablement for Microsoft 365 Copilot in Viva Glint
@@ -27,10 +27,10 @@ Prerequisites to enabling Microsoft 365 Copilot in Viva Glint:
 
 Admins enable Copilot in Viva Glint. Microsoft privacy policies prohibit Copilot in Viva Glint from being enabled by default for any User Roles. 
 
-Assign yourself and others using Copilot in Viva Glint to a new User Role. Create the new User Role with access to the Comments Report enabled. Add that User Role to the survey [**Reporting** page](https://go.microsoft.com/fwlink/?linkid=2285645) in **Program Summary**.
+Assign yourself and others using Copilot in Viva Glint to a new User Role. Create the new User Role with access to the Comments Report enabled. Add that User Role to the survey [**Reporting** page](/viva/glint/setup/reporting-setup) in **Program Summary**.
 
 >[!IMPORTANT]
->Users without access to the Comment Report can't access Copilot in Viva Glint.
+>Users without access to the Comment Report can't access Viva Glint in Copilot.
 
 ## Grant Comment Report permission
 
@@ -88,6 +88,19 @@ From your admin dashboard, follow this process:
 5. Be sure you see the **Copilot** button on the user's Viva Glint dashboard.
 
    :::image type="content" source="../../media/glint/setup/copilot-access-button.png" alt-text="Screenshot of the Copilot capability on the manager dashboard." lightbox="../../media/glint/setup/copilot-access-button.png":::
+
+## Steps to take before using Copilot in Viva Glint to look at your report
+
+Follow these steps on the [Manager Guide for reviewing feedback results](/viva/glint/setup/copilot-manager-quick-guide?branch=main#manager-process-for-reviewing-feedback-results): 
+1. Review your scores on the Viva Glint Team Summary dashboard before jumping directly into Copilot.
+   :::image type="content" source="../../media/glint/setup/copilot-team-summary-1.png" alt-text="Screenshot of the Manager Team Summary dashboard.":::
+   
+1. Review the Strengths & Opportunities section on the Viva Glint Team Summary dashboard. This dashboard shows you strengths to celebrate and opportunity areas to improve upon.
+   :::image type="content" source="../../media/glint/setup/copilot-strengths-opps.png" alt-text="Screenshot of Strengths & Opportunities on the Manager Team Summary dashboard.":::
+   
+1. Now, ask Copilot in Viva Glint to dive deeper to uncover insights around your areas of interest.
+   :::image type="content" source="../../media/glint/setup/copilot-button-1.png" alt-text="Screenshot of the Copilot button on the Manager Team Summary dashboard.":::   
+
 
 ## More Resources
 
