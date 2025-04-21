@@ -124,8 +124,9 @@ Copilot in Viva Glint uses HRIS or demographic attributes that are imported to V
 
 ### Use these quick tips
 
-[Use these tips to understand and act on employee feedback quickly](/viva/glint/setup/copilot-managers?branch=main#copilot-in-viva-glint-quick-tips-for-managers).
-[Use these tips to write prompts for Copilot in Viva Glint](/viva/glint/setup/copilot-manager-quick-guide?branch=main#quick-tips-for-copilot-prompts).
+- [Use these tips to understand and act on employee feedback quickly](/viva/glint/setup/copilot-managers?branch=main#copilot-in-viva-glint-quick-tips-for-managers).
+
+- [Use these tips to write prompts for Copilot in Viva Glint](/viva/glint/setup/copilot-manager-quick-guide?branch=main#quick-tips-for-copilot-prompts).
 
 ### Ask open-ended questions
 
@@ -133,7 +134,7 @@ Open-ended survey items are valuable for capturing a wide range of feedback. Ope
 
 ### Use Recurring and Ad Hoc programs
 
-Where it makes sense, use Recurring and Ad Hoc programs.At this time, Copilot in Viva Glint is unable to tap into Always-On and Employee Lifecycle programs. To maximize your ability to use Copilot in Viva Glint, use Recurring program setup for ongoing topics (for example, Engagement) and Ad Hoc for one-off topics (for example, Change Management). 
+Where it makes sense, use Recurring and Ad Hoc programs. At this time, Copilot in Viva Glint is unable to tap into Always-On and Employee Lifecycle programs. To maximize your ability to use Copilot in Viva Glint, use Recurring program setup for ongoing topics (for example, Engagement) and Ad Hoc for one-off topics (for example, Change Management). 
 
 ## More Resources
 
