@@ -24,10 +24,6 @@ audience: Admin
 
 The **Copilot business outcome (Copilot business impact)** report can help you understand how Microsoft 365 Copilot usage relates to the business outcomes that matter the most to your organization. Relevant business outcome measures are defined and uploaded into Viva Insights by you, and can include a wide range of productivity metrics depending on the function or business unit using the report. For example, “average monthly deals closed” might be a relevant outcome measure for your Sales team.  
 
-> [!VIDEO 387985e5-7c88-4238-b926-d7004bdbf2bf]
-
-> [!VIDEO 90905134-b5fc-4c87-b25a-28e6b61c9b5a]
-
  This report has a summary page illustrating how Copilot usage relates to business outcome measures. The report also has three deep dive pages, each helping you answer a different business question:  
 
 * Which Copilot usage behaviors influence specific business outcomes? And what are the groups in my organization with the biggest opportunity to boost Copilot usage?  
