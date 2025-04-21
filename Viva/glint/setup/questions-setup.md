@@ -252,4 +252,6 @@ Customize the **Thank You** message by hovering over and selecting the message a
 > [!div class="nextstepaction"]
 > [Reporting setup in Program Summary](/../../viva/glint/setup/reporting-setup).
 
+## More resources
 
+Many items are prohibited from being edited once a survey is live. [Read what items can't be edited during a live survey](/viva/glint/setup/change-live-survey)
