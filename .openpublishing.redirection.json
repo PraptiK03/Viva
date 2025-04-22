@@ -2592,6 +2592,11 @@
     "redirect_url": "/viva/glint/reports/report-analytics-filtering-favorability-trending",
     "redirect_document_id": true
   },
+  {
+    "source_path": "Viva/glint/setup/embedding-content-resources.md",
+    "redirect_url": "/viva/glint/setup/customize-action-plans",
+    "redirect_document_id": true  
+  },
   { 
     "source_path": "Viva/360-config-cycle-settings.md",
     "redirect_url": "/viva/glint/setup/360-create-new-360-cycle",
