@@ -1,5 +1,5 @@
 ---
-ms.date: 4/11/2025
+ms.date: 4/17/2025
 title: Copilot Business Impact report
 description: Learn how to use the Microsoft 365 Copilot Business Impact Power BI template to understand how Copilot usage impacts business results at your company.
 author: zachminers
@@ -17,12 +17,12 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Copilot Business Outcome (Copilot Business Impact) report (preview)
+# Copilot business impact report (preview)
 
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
-The **Copilot business outcome (Copilot business impact)** report can help you understand how Microsoft 365 Copilot usage relates to the business outcomes that matter the most to your organization. Relevant business outcome measures are defined and uploaded into Viva Insights by you, and can include a wide range of productivity metrics depending on the function or business unit using the report. For example, “average monthly deals closed” might be a relevant outcome measure for your Sales team.  
+The **Copilot business impact** report can help you understand how Microsoft 365 Copilot usage relates to the business outcomes that matter the most to your organization. Relevant business outcome measures are defined and uploaded into Viva Insights by you, and can include a wide range of productivity metrics depending on the function or business unit using the report. For example, “average monthly deals closed” might be a relevant outcome measure for your Sales team.  
 
  This report has a summary page illustrating how Copilot usage relates to business outcome measures. The report also has three deep dive pages, each helping you answer a different business question:  
 
@@ -32,7 +32,13 @@ The **Copilot business outcome (Copilot business impact)** report can help y
 
 * How can I increase potential Copilot assisted hours and value among employees who are not as active with Copilot?
 
-To populate the report in Power BI, you’ll need to **upload business outcome data** into Viva Insights and setup and successfully run the predefined **Copilot business outcome query**.
+To populate the report in Power BI, you’ll need to **upload business outcome data** into Viva Insights and setup and successfully run the predefined **Copilot business impact query**.
+
+## Demonstration
+
+The following demonstration uses sample data that's only representative of this report and might not be exactly what you see in a live report specific to your organization's unique data.<br/><br/>
+
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiNmU2ZmVmZmUtMjZjYi00N2M0LTgwMjEtYjI1Nzg4ZDNlNGJkIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9]
 
 ## Prerequisites  
 
@@ -62,7 +68,7 @@ For detailed scenario-based guidance on how to set up an analysis tailored to yo
 
 1. In the [Viva Insights analyst experience](https://analysis.insights.viva.office.com/), select **Create analysis**.
 
-2. Under **Templates**, navigate to **Copilot Business Outcome report** and select **Set up analysis**. The template can also be found under the **Copilot** section.
+2. Under **Templates**, navigate to **Copilot Business Impact report** and select **Set up analysis**. The template can also be found under the **Copilot** section.
 
 3. Under **Query setup**:
     
@@ -136,7 +142,7 @@ To view the report in the browser, go to the **Query results page** and sele
 
 ### Report-level settings  
 
- View and set the following parameters on the **Settings** page. You will be introduced to the settings when first loading the Copilot business outcome (Copilot business impact) report. You can also adjust the report settings as you go through the report pages through the **Settings** icon on the top-right corner of each page.  
+ View and set the following parameters on the **Settings** page. You will be introduced to the settings when first loading the Copilot business impact report. You can also adjust the report settings as you go through the report pages through the **Settings** icon on the top-right corner of each page.  
 
 * **Business outcome settings** – Define a threshold of favorable business outcomes for each business outcome measure included in the report.
 
@@ -159,9 +165,9 @@ On some of the report pages or cards you will be able to find two additional set
 
 ## About this report  
 
-The **Copilot business outcome (Copilot business impact)** report includes the following report pages to help you better understand the relationship between Copilot usage and your business outcomes.
+The **Copilot business impact** report includes the following report pages to help you better understand the relationship between Copilot usage and your business outcomes.
 
-### Copilot business outcome summary  
+### Copilot business impact summary  
 
 This page provides an initial overview of business outcome scores for employees who use Copilot for Microsoft 365 more or less frequently. [This Microsoft WorkLab article](https://go.microsoft.com/fwlink/?linkid=2297171) shows how the use of Copilot is already affecting business goals across different functions at Microsoft.  
 
