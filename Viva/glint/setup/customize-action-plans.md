@@ -99,12 +99,12 @@ Many LinkedIn Learning videos are already linked to Viva Glint templates. If you
 
 From your Glint admin dashboard, select the **Configure** symbol and then **Content Resources.**
 
-:::image type="content" source="../../media/glint/setup/content-resources.png" alt-text="Screenshot of where to access Content Resources setup from the admin dashboard.":::
+:::image type="content" source="../../media/glint/setup/content-resources.png" alt-text="Screenshot of where to access Content Resources setup from the admin dashboard." lightbox="../../media/glint/setup/content-resources.png":::
 
 1. Select **+ New**.
 1.	Select **Ok** on the *Adding a new item adds it for all languages* window.
 
-    :::image type="content" source="../../media/glint/setup/new-item-languages.png" alt-text="Screenshot of *New item languages* dialog box.":::
+    :::image type="content" source="../../media/glint/setup/new-item-languages.png" alt-text="Screenshot of *New item languages* dialog box." lightbox="../../media/glint/setup/new-item-languages.png":::
 
 1.	Describe and name your new resource.
     1. In the *Untitled Resource* bar, enter the *actual* video title.
