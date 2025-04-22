@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/23/2024
+ms.date: 04/22/2025
 ---
 
 # Convert a public SSH key to OpenSSH format for Viva Glint SFTP
