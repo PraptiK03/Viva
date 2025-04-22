@@ -40,6 +40,7 @@ For non-Microsoft organizations that want to federate with Mircosoft Entra ID:
 
 - [What is federation with Microsoft Entra ID?](/entra/identity/hybrid/connect/whatis-fed)
 - [Microsoft Entra Connect and federation](/entra/identity/hybrid/connect/how-to-connect-fed-whatis)
+- [Prerequisites for Microsoft Entra Connect](/entra/identity/hybrid/connect/how-to-connect-install-prerequisites)
 - [Microsoft Entra federation compatibility list](/entra/identity/hybrid/connect/how-to-connect-fed-compatibility)
 
 ## Import users to Viva Glint
