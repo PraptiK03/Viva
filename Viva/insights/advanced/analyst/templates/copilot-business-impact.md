@@ -38,7 +38,7 @@ To populate the report in Power BI, you’ll need to **upload business outcome d
 
 The following demonstration uses sample data that's only representative of this report and might not be exactly what you see in a live report specific to your organization's unique data.<br/><br/>
 
-> [!VIDEO https://msit.powerbi.com/groups/d7a87d82-b323-4406-bf98-6132a723d804/reports/c49bd910-263c-4ede-b357-ed8cb11349df/ReportSectionbd6d90dfb5d34dcec61e?experience=power-bi]
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiNmU2ZmVmZmUtMjZjYi00N2M0LTgwMjEtYjI1Nzg4ZDNlNGJkIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9]
 
 ## Prerequisites  
 
