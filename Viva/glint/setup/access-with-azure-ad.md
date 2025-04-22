@@ -24,7 +24,7 @@ To access the Microsoft Viva Glint application, a Microsoft 365 Global Administr
 If you don't already have a Microsoft Entra user account, you can [create one for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 
 > [!NOTE]
-> To add a Support or Partner user to Viva Glint, follow this guidance: [Add an external user to Viva Glint.](add-external-user.md)
+> To add a Support or Partner user to Viva Glint, follow this guidance: [Add Support users to Viva Glint.](add-external-user.md)
 
 ## Set up and manage a Viva Glint Microsoft Entra tenant
 
@@ -36,7 +36,7 @@ For information on tenant creation, user and group creation, bulk user maintenan
 - [What authentication and verification methods are available in Microsoft Entra ID?](/azure/active-directory/authentication/concept-authentication-methods)
 - [Enable single sign-on for an enterprise application](/azure/active-directory/manage-apps/add-application-portal-setup-sso)
 
-For non-Microsoft organizations that want to federate with Mircosoft Entra ID:
+For non-Microsoft organizations that want to federate with Microsoft Entra ID:
 
 - [What is federation with Microsoft Entra ID?](/entra/identity/hybrid/connect/whatis-fed)
 - [Microsoft Entra Connect and federation](/entra/identity/hybrid/connect/how-to-connect-fed-whatis)
@@ -45,7 +45,7 @@ For non-Microsoft organizations that want to federate with Mircosoft Entra ID:
 
 ## Import users to Viva Glint
 
-The Viva Glint Tenant Administrator assigns Viva Glint service administrators in the Microsoft 365 admin center initial access. As the Viva Glint service administrator, see information below to add other users (HR, leadership, managers, individual contributors) to Viva Glint.
+The Viva Glint Tenant Administrator assigns Viva Glint service administrators in the Microsoft 365 admin center initial access. As the Viva Glint service administrator, see information the following information to add other users (HR, leadership, managers, individual contributors) to Viva Glint.
 
 > [!NOTE]
 > Email addresses for users in Viva Glint must match email addresses tied to users in Microsoft Entra ID. Coordinate with the administrator for your Viva Glint Microsoft Entra tenant to ensure that these email addresses match.
