@@ -96,7 +96,7 @@ You can change the status of these items:
 - Visibility
 - Action Items - After Suggested Actions are selected and appear in the **Action Items** section, keep track of team progress by activating the checkmark to indicate completion.
 - Comments - As a manager and their team work toward a Focus Area, they can make notes of progress or roadblocks.
-- Tag someone by name to get feedback or input from a specific person around a Focus Area. Tagging also alerts a specific manager to consider using this Focus Area for their own team.
+- Tag someone by name to get feedback or input from a specific person around a Focus Area. Tagging also alerts a specific manager to consider using this same Focus Area for their own team.
 
 ## Reordering Focus Areas
 
@@ -127,10 +127,10 @@ Action planning content is sourced from industry best practices and our experien
 - An easy-to-use interface allows managers to choose, organize, and prioritize actions by adding suggested tasks or creating their own.
 - Prescribed actions include interactive and lightweight self-assessments, team discussion tips, and case studies.
 
-Your organization can add **custom content** to leverage its own learning resources and to reflect company-specific values, initiatives, or strategies. You can add links to current content on internal and external sites to broaden educational opportunities.
+Your organization can add **custom content** to use its own learning resources and to reflect company-specific values, initiatives, or strategies. You can add links to current content on internal and external sites to broaden educational opportunities.
 
 >[!IMPORTANT]
->The biggest risk for an organization is sending out a survey, collecting feedback, and failing to act upon it. Viva Glint offers an array of support resources to ensure effective action planning, communication of progress, and a measureable boost to business outcomes.
+>The biggest risk for an organization is sending out a survey, collecting feedback, and failing to act upon it. Viva Glint offers an array of support resources to ensure effective action planning, communication of progress, and a measurable boost to business outcomes.
 
 ## More resources
 
