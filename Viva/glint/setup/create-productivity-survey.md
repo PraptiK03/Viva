@@ -1,5 +1,5 @@
 ---
-title: Create a Viva Glint productivity survey
+title: Create a Microsoft Viva Glint productivity survey
 description: The Viva People Science team identified the critical opinions and attitudes that best characterize the experience and feeling of high productivity in the workplace. Use these survey items to improve productivity.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,14 +14,14 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/03/2024
+ms.date: 04/22/2025
 ---
 
-# Create a Viva Glint productivity survey
+# Create a Microsoft Viva Glint productivity survey
 
 More of our customers are looking beyond engagement alone to create an employee experience that also helps people be more productive and higher performing. With that in mind, the Microsoft Viva People Science team took a human-centric approach to define and operationalize employee productivity. They identified the critical opinions and attitudes that best characterize the experience and feeling of high productivity in the workplace.
 
-## How can a productivity survey benefit your org?
+## How does productivity survey benefit your org?
 
 A comprehensive listening strategy needs to include every opportunity to gather feedback to help employees be the best they can be and do their best work. Understanding how employees feel about their work conditions and treatment is crucial. A comprehensive view of the total work experience  includes understanding their sense of empowerment to get things done and to help the organization be high performing. This is why a focus on productivity is also important.
 
