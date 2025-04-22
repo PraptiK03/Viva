@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/10/2025
+ms.date: 04/22/2025
 ---
 
 # Design an effective Viva Glint survey program

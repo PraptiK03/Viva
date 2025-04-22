@@ -504,8 +504,6 @@ items:
           items: 
             - name: Managers using ACT conversations
               href: people-science/managers-using-act-conversations.md
-        - name: Focus areas and action planning
-          href: people-science/people-science-explains-focus-areas.md
         - name: Benchmark methodology
           items:
             - name: Use benchmarks effectively
