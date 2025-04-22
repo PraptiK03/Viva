@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/08/2025
+ms.date: 04/22/2025
 ---
 
 # Manage language translations in Viva Glint programs 
@@ -74,12 +74,15 @@ Keep translated content in the same cell and columns|Don't add personal comments
 
 ## Import translated items back into Viva Glint
 
+>[!IMPORTANT]
+> Only one languge can be uploaded at a time, even within a zip file. The platform may indicate that more than one language is being uploaded, but each language must be uploaded individually. An enhancement is in process to correct the notification stating that more than one language is being uploaded. 
+
 From the **Question Library** page, select **Import Questions** from the dropdown **Actions** menu. 
 
 1. Drag and drop or browse to find the translated file and place it in the box indicated. 
 1. Select **Next**. 
 1. If everything looks as expected, select **Make Changes**.
 
-> [!IMPORTANT]
+> [!CAUTION]
 > To prevent import errors, don't change any file name or column label in any exported files.
 
