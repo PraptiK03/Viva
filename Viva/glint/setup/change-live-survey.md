@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 4/21/2025
+ms.date: 4/23/2025
 ---
 
 # Admins editing a live Viva Glint survey
@@ -86,8 +86,8 @@ The information is broken out across **Program Summary** setup pages.
 | --- | --- | --- |
 | **Survey launch date** | You need to postpone the launch date of the survey. | To avoid potential challenges, make this update a minimum of 24 hours before the survey is scheduled to go Live. |
 | **Response window** | You want to decrease or increase the number of days for the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Be sure your *Communications* email send dates align with the updated survey window.<br><br>**Note** that Live schedule edits apply at the cycle level. |
-| **Resend Survey Invites** | You want to resend the survey invite email to users who yet to respond |The email doesn't send to survey takers with completed surveys.  Viva Glint admins can only make this change between the invite send date and the first reminder date.<br><br> This functionality isn't available after the first reminder sends.|
-| **Reschedule Survey Invites** | You want to reschedule the survey invite email due to issues with the first invite. | Viva Glint admins can only make this change between the invite send date and the first reminder date.<br><br> This functionality isn't available after the first reminder sends. |
+| **Resend Survey Invites** | You want to resend the survey invite email to users who yet to respond during a cycle |Can occur at cycle level. The email doesn't send to survey takers with completed surveys. Viva Glint admins can only make this change between the invite send date and the first reminder date.<br><br> This functionality isn't available after the first reminder sends.|
+| **Reschedule Survey Invites** | You want to reschedule the date and/or time for the survey invite email to send. |Can occur at cycle level. Viva Glint admins can only make this change between the invite send date and the first reminder date.<br><br> This functionality isn't available after the first reminder sends. |
 
 #### Manage the schedule for a live survey
 
