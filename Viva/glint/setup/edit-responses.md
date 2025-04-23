@@ -189,6 +189,8 @@ To complete your import of edited responses, access Viva Glint’s Advanced conf
 1. Select **Run Step 4**. 
 1. When new response values successfully load, the Raw Score Import section turns green.
 
+   :::image type="content" source="../../media/glint/setup/response-edit-success.png" alt-text="Screenshot of green success message when editing Viva Glint response edits are successful."lightbox="../../media/glint/setup/response-edit-success.png":::
+
 > [!IMPORTANT]
 > For updates that involve several users (more than 5,000), updates to the Viva Glint dashboard, reports, and comments can take up to 24 hours to complete.
 
