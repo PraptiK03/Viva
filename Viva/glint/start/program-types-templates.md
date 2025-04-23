@@ -23,14 +23,14 @@ Microsoft Viva Glint believes ongoing, frequent communications to collect employ
 
 ## Engagement programs
 
-Viva Glint offers engagement programs as a way for customers to send targeted surveys to their employees to generate rich insights. **Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes.** Engagement correlates with job satisfaction, commitment, motivation, and attrition. Engagement programs are about starting conversations and taking action to improve the work environment and culture in order to increase productivity. When planning an engagement survey, consider the goals, the design of the survey, and how the results can drive change. 
+**Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes.** Viva Glint offers engagement programs as a way for customers to send targeted surveys to their employees to generate rich insights. Engagement correlates with job satisfaction, commitment, motivation, and attrition. Engagement programs are about starting conversations and taking action to improve the work environment and culture in order to increase productivity. When planning an engagement survey, consider the goals, the design of the survey, and how the results can drive change. 
 
 The Viva Glint approach to employee engagement provides a flexible framework using strong benchmark foundations and analyzes robust, real-time experiences. Rather than a one-size-fits-all formula, Viva Glint developed an adaptable framework and technology that suits each organization’s needs. Microsoft People Science research teams continually update survey items and develop templates to provide meaningful insights into the current world of work.
 
 ## Understand the difference between an organizational survey and a business unit survey
 
-**Organizational survey:** Often sent by a global Human Resources (HR) team. <br> Sent to all employees on a recurring cadence|
-**Business unit survey:** Often sent by a business team or leader to an HR team. The goal is to capture specific information for a specific business unit.|
+**Organizational survey:** Often sent by a global Human Resources (HR) team. Sent to all employees on a recurring cadence.<br>
+**Business unit survey:** Often sent by a business team or leader to an HR team. The goal is to capture specific information for a specific business unit.
 
 ## Survey types
 
@@ -47,6 +47,12 @@ organizational development.
 ### Survey frequency 
 
 Admins set the cadence for Viva Glint programs. Surveys can run simultaneously, when appropriate. [Learn about survey fatigue](/../../viva/glint/setup/customize-program#viva-glint-program-and-cycle-cadence).
+
+## Align your organization to your Viva Glint programs
+
+Build your holistic employee listening strategy and design a program that reflects the needs of your organization strategically. Take time to align with your internal stakeholders.
+
+### [Use the Viva Holistic Listening Vision & Strategy Discovery Workbook](/../../viva/solutions/holistic-listening-discovery-workbook)
 
 ## Viva Glint survey templates
 
@@ -68,9 +74,7 @@ Viva Glint offers prescribed survey templates and a blank template option for ea
 |[**Distress**](/../../viva/glint/setup/distress-survey)|Special topic|Measures employee sentiment when societal or global events introduce instability into our work and personal lives|Recurring|All roles|All eligible employees|
 |[**360 Feedback**](/viva/glint/setup/360-overview)|Ad Hoc|Collects insights into a manager's strengths and opportunities|Set regular schedules for roles|All leaders and managers|All eligible employees|
 
-## Align your organization to design your Viva Glint programs
 
-[**Use the Viva Holistic Listening Vision & Strategy Discovery Workbook**](https://go.microsoft.com/fwlink/?linkid=2283226)
 
 ### Send introductory emails
 
