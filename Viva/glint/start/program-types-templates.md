@@ -49,18 +49,24 @@ Build your holistic employee listening strategy and design a program that reflec
 
 ### [Use the Viva Holistic Listening Vision & Strategy Discovery Workbook](/../../viva/solutions/holistic-listening-discovery-workbook)
 
+## Consider the People Success Elements
+
+The experiences that drive engagement look different from one company to another. Microsoft Viva People Science research identified six core elements which capture people's needs and expectations for an exceptional employee experience. These **People Success Elements** help you assess and foster the experiences that matter most to your people. They help build thriving cultures, develop people-centric leaders, and engaged employees. The framework provides a modern, accurate way to measure people’s evolving need for engagement and success in their work. 
+
+:::image type="content" source="../../media/glint/start/six-elements.png" alt-text="Screenshot of the People Success Elements." lightbox="../../media/glint/start/six-elements.png":::
+
 ## Use Viva Glint survey templates
 
 Viva Glint offers prescribed survey templates and a blank template option for each type of program. Template programs can be set to recur (or cycle). Blank templates don't support adding cycles.
 
 |Template name|Survey type|Purpose|Recommended frequency|Target groups for results|Feedback providers|
 |---------|---------|-----|-----------|----------|------------------|
-|[**Engagement**](/../../viva/glint/setup/quarterly-engagement-template)|Recurring|Measures key drivers of engagement from research-based [Microsoft People Success Elements](#microsoft-people-science-people-success-elements).|Recurring: Quarterly cycles create a solid engagement baseline. These surveys are a beneficial first introduction to Viva Glint programs.|Managers and teams|All eligible employees
+|[**Engagement**](/../../viva/glint/setup/quarterly-engagement-template)|Recurring|Measures key drivers of engagement from the research-based Microsoft People Success Elements.|Recurring: Quarterly cycles create a solid engagement baseline. These surveys are a beneficial first introduction to Viva Glint programs.|Managers and teams|All eligible employees
 |[**Onboarding**](/../../viva/glint/setup/create-onboarding-exit-surveys)|Employee Lifecycle|Provides an opportunity to check in with newcomers to understand what is going well and any challenges with their onboarding experience|Automatically triggered. Consider having at least two Onboarding surveys at specific points in time (for example, 30 days, 60 days, and/or 90 days)|Human Resource leaders and managers|New hires|
 |[**Exit**](/../../viva/glint/setup/exit.survey)|Employee Lifecycle|Provides data for why people leave and their perceptions of the organization as they transition|Automatically triggered|Human Resource leaders and managers|Departing employees|
 |[**Microsoft Copilot Impact Survey**](/../../viva/glint/setup/copilot-impact-template)|Special topic|Measures the impact of Microsoft Copilot in Viva Glint through comment summarization data. Enable IT and business leaders to plan AI adoption and measure their Return On Investment (ROI)|Recurring|All roles|All roles|
 |[**Productivity**](/../../viva/glint/setup/create-productivity-survey)|Special topic|Looks beyond engagement to create an employee experience that helps people be more productive and higher performing.|Recurring or Ad Hoc|All roles|All eligible employees|
-|[**Culture**](/../../viva/glint/setup/culture-template)|Special topic|Measures [Microsoft People Success Elements](#microsoft-people-science-people-success-elements) to learn what drives people and organizational success.|Recurring, depending on the rate of change in your organization|Senior leadership|All eligible employees|
+|[**Culture**](/../../viva/glint/setup/culture-template)|Special topic|Measures aspects of the Microsoft People Success Elements to learn what drives people and organizational success.|Recurring, depending on the rate of change in your organization|Senior leadership|All eligible employees|
 |[**Diversity and Inclusion**](/../../viva/glint/setup/diversity-inclusion)|Special topic|Provides an understanding of employee sentiment related to elements necessary for building a sense of belonging among employees|Recurring|Managers and teams|All eligible employees|
 |[**Patient Safety**](/viva/glint/setup/patient-safety-survey)|Special topic|Assesses the culture of patient safety in a valid, reliable, and straightforward way. Leapfrog-approved.|Recurring|Healthcare managers and teams|All eligible employees|
 |[**Manager Effectiveness**](/../../viva/glint/setup/manager-effectiveness-survey)|Special topic|Assesses employee perceptions of how their direct managers demonstrate key behaviors related to their effectiveness|Recurring|Managers and teams|All eligible employees|
@@ -82,11 +88,6 @@ Customize our email templates and share them during your Viva Glint program desi
 |3 weeks before survey launch|[Training for HRBPs](/../../viva/glint/start/introductory-emails#email-template-5---training-for-hrbps)|Support HRBPs for rollout planning |
 |2 weeks before survey launch|[Introduce new survey to all leaders and managers](/../../viva/glint/start/introductory-emails#email-template-6---introduce-new-survey-introduction-to-all-leaders-and-managers)|Introduce upcoming survey name, purpose, and dates|
 
-## Consider the People Success Elements
-
-The experiences that drive engagement look different from one company to another. Microsoft Viva People Science research identified six core elements which capture people's needs and expectations for an exceptional employee experience. These **People Success Elements** help you assess and foster the experiences that matter most to your people. They help build thriving cultures, develop people-centric leaders, and engaged employees. The framework provides a modern, accurate way to measure people’s evolving need for engagement and success in their work. 
-
-:::image type="content" source="../../media/glint/start/six-elements.png" alt-text="Screenshot of the People Success Elements." lightbox="../../media/glint/start/six-elements.png":::
 
 
 
