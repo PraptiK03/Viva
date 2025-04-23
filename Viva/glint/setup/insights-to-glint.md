@@ -68,7 +68,7 @@ For both Viva Insights and Viva Glint, the default confidentiality thresholds ar
 **If you have changed the confidentiality threshold in either application,** we consider the thresholds of both products. The higher of the two thresholds is enforced when showing survey data. This rule includes both workplace pattern data from Viva Insights as well as sentiment data from Viva Glint.
 
 > [!NOTE]
-> Higher Viva Insihts thresholds are only enforced in Viva Glint for User Roles that are granted access to Viva Insights attributes.
+> Higher Viva Insights thresholds are only enforced in Viva Glint for User Roles that are granted access to Viva Insights attributes.
 
 **If you have a program that has a confidentiality threshold of less than five and would like to use this integration, reach out to your account team. This may be possible.**
 
