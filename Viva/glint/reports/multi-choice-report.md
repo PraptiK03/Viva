@@ -69,7 +69,7 @@ Response percentages are color-coded from light gray (0%) to dark blue (100%) ac
 
 The Multiple Choice Question Report shows a table for each question, listing the response options from the question vertically. Horizontally, each response shows a percentage broken down by the attribute selected for the section. When questions allow users to make multiple selections, the total percentage for each attribute for a multi-select question is greater than 100%. To view the full response option text for an option, hover over the partial response in the table.
 
-## Example 1: Recurrring survey with multiple response selection
+## Example 1: Recurring survey with multiple response selections
 
 If a Contoso admin wants to view two manager teams' response breakdowns side by side, they select each manager team to filter to Manager A and Manager B's teams:
    
@@ -79,14 +79,15 @@ For both teams, all users selected "Communicating effectively" as a focus area f
 
 ## Example 2: Always-On survey with single response selection
 
-A Contoso user notices that the total of percentages for responses to a multi-select question (Yes or No) on their Always-On survey is greater than 100%. In this example, the total for Yes and No responses to "Did you participate in the most recent quarterly learning session?" is 109%.
+A Contoso user notices that the total of percentages for responses to a multi-select question (Yes or No) on the Always-On survey is greater than 100%. In this example, the total for Yes and No responses to "Did you participate in the most recent quarterly learning session?" is 109%.
 
-:::image type="content" source="../../media/multi-choice-example.png" alt-text="Screenshot of a Viva Glint Multiple Choice Question Report where a respondents multiple submissions on different teams led to more than 100% for a response option.":::
+:::image type="content" source="../../media/multi-choice-example.png" alt-text="Screenshot of a Viva Glint Multiple Choice Question Report where a respondent's multiple submissions on different teams led to more than 100% for a response option.":::
 
 Each user can only select one response to the question, but the survey is Always-On and the waiting period before a user can submit another survey is only one day. In this case, the same user responded in the 90 day period as a member of the Marketing team and as a member of the Support team.
 
-Filtering to exclude the date that includes the response from the duplicated user, after their Team value changed to Support, shows all percentages totaling 100:
+Filtering to exclude the date that includes the response from the duplicated user (after their Team value changed to Support) shows all percentages totaling 100:
 
+:::image type="content" source="../../media/glint/setup/multi-choice-dupe-excluded.png" alt-text="Screenshot of the Viva Glint Multiple Choice Question report filtered to exclude a survey from a respondent who submitted two surveys.”:::
 
 
 
