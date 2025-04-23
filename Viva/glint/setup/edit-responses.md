@@ -124,7 +124,7 @@ To prepare your raw score file, export raw survey responses for the survey cycle
 
 ##### Edit rated item responses in exported raw data:
 
-Responses to VIVA Glint questions that use the standard 5-point Likert scale need to be recoded so that all negative responses (1) are calculated as positive (5) and vice versa: 
+Responses to Viva Glint questions that use the standard 5-point Likert scale need to be recoded so that all negative responses (1) are calculated as positive (5) and vice versa: 
 
 - 1 becomes 5 
 - 2 becomes 4 
@@ -140,7 +140,10 @@ To recode your survey question's responses in Excel:
    1. Paste the following formula:
       `=SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B2,"1","Five"),"2","Four"),"4","2"),"5","1"),"Four","4"),"Five","5")`
    1. Select Return or Enter to run the formula.
-   1. To copy the formular to all records in the column, place your cursor on the bottom right corner of the cell with the formula and click twice.
+
+      :::image type="content" source="../../media/glint/setup/recode-formula.png" alt-text="Screenshot of the response recode formula for Viva Glint responses in Microsoft Excel."lightbox="../../media/glint/setup/recode-formula.png":::
+      
+   1. To copy the formula to all records in the column, place your cursor on the bottom right corner of the cell with the formula and click twice.
    1. Copy the output of the formula in the new column and **Paste Values** into the survey question column to overwrite the existing values.
    1. After pasting new values into the survey item column, delete the formula column.
 1. Save the edited file as .csv with UTF-8 encoding.
