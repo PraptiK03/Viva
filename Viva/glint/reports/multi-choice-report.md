@@ -87,7 +87,7 @@ Each user can only select one response to the question, but the survey is Always
 
 Filtering to exclude the date that includes the response from the duplicated user (after their Team value changed to Support) shows all percentages totaling 100:
 
-:::image type="content" source="../../media/glint/setup/multi-choice-dupe-excluded.png" alt-text="Screenshot of the Viva Glint Multiple Choice Question report filtered to exclude a survey from a respondent who submitted two surveys.”:::
+:::image type="content" source="../../media/glint/setup/multi-choice-dupe-excluded.png" alt-text="Screenshot of the Viva Glint Multiple Choice Question report filtered to exclude a survey from a respondent who submitted two surveys.":::
 
 
 
