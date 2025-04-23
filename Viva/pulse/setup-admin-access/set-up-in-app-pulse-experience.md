@@ -7,7 +7,7 @@ author: hasrivas
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 12/19/2024
+ms.date: 04/23/2025
 ms.topic: install-set-up-deploy
 ms.service: viva-pulse
 ms.localizationpriority: medium
@@ -43,13 +43,12 @@ All pulses also require a minimum number of responses before authors can view fe
 
 ### Customize your organization’s policy statement
 
-As an admin, you can also set customization options for your organization, which includes an option to add a link to internal guidance and policies governing appropriate survey questions, which are shown to users during survey creation.
+As an admin, you can add a customized organizational message (with an optional link) that will be shown to Pulse authors and responders. You can use this message and link to remind employees of internal policies and guidelines for usign Viva Pulse within your organization. When the feedback author starts a new request or a responder starts a new Pulse response, they are shown this message along with the link. To configure the message and the link, 
 
-You can use this link to remind employees of internal policies and guidelines for writing survey questions within your organization. When the feedback author clicks on the link while customizing a survey, they are taken to your company’s internal policy.
-
-1. In the **Manage** tab, go to the **Customization** tab.
-2. Under the **Customized organizational policy statement** section, in the text box labeled **Link to organization’s policy statement**, type or paste a link to your company’s internal policy statement to be shown in the customization flow in place of the Microsoft policy statement.
-3. The value is autosaved.
+1. In the **Manage** tab, go to the **Privacy** tab.
+2. Under the **Customized organizational message** section, add the text that you would like to show to your Pulse authors and responders. The value is autosaved.
+3. Optionally, select **Add link** in case you would like to include any links as part of this message, link will be added to the end of your customized organizational message. Enter the **Text to display** and the corresponding URL in the **Address** field and select **Save**. 
+4. You can choose to preview how the message will show to the Pulse authors using **Preview author experience** or responders using **Preview recipient experience**.
 
 ### Diagnostic data
 
