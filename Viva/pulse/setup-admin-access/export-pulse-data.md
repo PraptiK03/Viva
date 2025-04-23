@@ -48,8 +48,3 @@ The Question Type column in your exported data shows one of the following values
 - Open-Ended (2): The question allows the user to type in an open-ended response.  
 - Matrix (3): The question is a matrix question.  
 - Ranking (4): The question asks the user to rank options.  
-
-The Category column in your exported data shows one of the following values to indicate the type of question:
-
-- Focus (0)  
-- Resource (1)  
