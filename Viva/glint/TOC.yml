@@ -198,6 +198,8 @@ items:
         items: 
             - name: Import historical data 
               href: setup/import-historical-response-data.md
+            - name: Import corrected responses
+              href: setup/edit-responses.md
             - name: Update data in reports
               href: setup/update-glint-reporting-data.md
             - name: Manage data with Data Apps
