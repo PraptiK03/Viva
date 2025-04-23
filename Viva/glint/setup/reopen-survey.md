@@ -78,11 +78,34 @@ Admins can extend a survey under these conditions:
 
 1. From your admin dashboard, select **Configuration** and then **Survey programs**.
 2. From the **Upcoming and Live** tab, select the **Live survey cycle** and then select the **horizontal ellipses** that display.
-   :::image type="content" source="../../media/glint/setup/reopen-survey-cycle.png" alt-text="Screenshot of the Reopen survey cycle window.":::
+   
+   :::image type="content" source="../../media/glint/setup/extend-live-survey.png" alt-text="Screenshot of starting point to extend a live survey.":::
+   
 1. Select **Manage Schedule & Invites** from the dropdown menu. The **Manage Schedule** panel opens.
-1. Use the up arrows in the **Response window** section to add days onto the survey.
-1. Choose whether to  **Resend Invites Now.**
+1. Use the up arrow in the **Response window** field to add days onto the survey. In this example, the survey date has been extended to 18 days, from the original 14 days.
 1. Select **Save Changes**.
+
+   :::image type="content" source="../../media/glint/setup/extend-manage-schedule.png" alt-text="Screenshot of Manage Schedule panel to extend a live survey.":::
+
+1. Confirm that the new **End date** of your survey is correct. 
+
+  :::image type="content" source="../../media/glint/setup/extend-confirm.png" alt-text="Screenshot of confirmation of survey extension.":::
+
+Now, choose whether to resend your survey invites.
+
+### Resend survey invites 
+
+Select **Resend Invites Now.**
+
+### Reschedule survey invites
+
+You can reschedule all invites to be resent at a new date and time. This time must be after the Survey Start date and before the first Reminder date.
+
+:::image type="content" source="../../media/glint/setup/extend-resend.png" alt-text="Screenshot of resending and rescheduling survey invites.":::
+
+
+
+
 
 
 
