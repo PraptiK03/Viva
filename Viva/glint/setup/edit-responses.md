@@ -145,7 +145,8 @@ To recode your survey question's responses in Excel:
       
    1. To copy the formula to all records in the column, place your cursor on the bottom right corner of the cell with the formula and click twice.
    1. Copy the output of the formula in the new column and **Paste Values** into the survey question column to overwrite the existing values.
-   1. After pasting new values into the survey item column, delete the formula column.
+   2. Highlight the survey question column and **Find & Replace All** ".0" with nothing. This ensures that numeric response values are in the correct format.
+   1. Delete the formula column.
 1. Save the edited file as .csv with UTF-8 encoding.
 
 #### User file 
