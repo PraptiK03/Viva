@@ -28,10 +28,11 @@ Announcements allow you to create, manage, and schedule time-sensitive messages 
 :::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png" alt-text="Screenshot that shows what an announcement in Viva Connections looks like on a mobile device."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png":::
 
 > [!NOTE]
->
 > - Users are required to have a Microsoft Viva suite or Viva Communications and Communities license to utilize the announcements feature. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
-> - You must have edit permissions or higher to your organization’s SharePoint home site or Viva Connections to author and manage announcements.
-> - Announcements are unavailable in GCC, GCC High, and DoD environments. For more information, see the [list of platform features in Viva Connections](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#platform-features).
+Only email-enabled security groups are supported.
+- You must have edit permissions or higher to your organization’s SharePoint home site or Viva Connections to author and manage announcements.
+- Announcements are unavailable in GCC, GCC High, and DoD environments. For more information, see the [list of platform features in Viva Connections](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#platform-features).
+
 
 ## When to use announcements
 
