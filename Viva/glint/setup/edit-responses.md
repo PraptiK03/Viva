@@ -1,12 +1,12 @@
 ---
-title: Edit Viva Glint survey responses
+title: Correct Viva Glint survey responses
 description: Microsoft Viva Glint Administrators can edit survey responses for closed survey cycles if question response data doesn't appear as expected. 
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: edit responses, append cycle, reversed scale
+keywords: edit responses, append cycle, reversed scale, correct responses
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 04/23/2025
 ---
 
-# Edit Viva Glint survey responses
+# Correct Viva Glint survey responses
 
 Microsoft Viva Glint Administrators can edit survey responses for closed survey cycles if question response data doesn't appear as expected. Glint's Advanced configuration: External Import feature includes the option to append survey data after a survey closes for situations where response options were misconfigured. 
 
@@ -86,7 +86,7 @@ To prepare your raw score file, export raw survey responses for the survey cycle
 1. After selecting a survey, go to the **Completed** tab. 
 1. On the desired survey cycle, select the ellipsis on the far right and choose **Export Raw Survey Responses** from the dropdown menu. 
 1. In the **Raw Survey Responses** pane that appears, update **Export Options** and **Attributes**. 
-   1. In the **Export Options** section, deselect **Survey Sent Date**, and **Use question’s description instead of UUID** fields.
+   1. In the **Export Options** section, deselect all options except for **Comments.** Don't select **Comment topics** or **Sensitive comment flag**.
    1. In the **Attributes** section, choose **Clear All** and then select the field for Email Address. The attribute name can vary based on what your organization sends to Viva Glint. 
 1. Select **Export** to download response data to your device. 
 
@@ -176,15 +176,15 @@ To complete your import of edited responses, access Viva Glint’s Advanced conf
 1. From your admin dashboard, select the **Configuration** symbol, then in **Service configuration** choose **Advanced configuration**. 
 1. In the menu on the left, select **External Import**. 
 1. On the **External Import** page, make selections to import your data: 
-   1. **Manual Mode**: Switch this toggle switched to On. 
+   1. **Are you looking to append data to a survey cycle?**: Switch this toggle switched to Yes. 
    1. **Survey Name**: Select your survey from the dropdown list. 
    1. **Exception Date**: Leave blank, your survey already has a start date. 
    1. **Raw Score File**: Select Choose File and browse to select your Raw Score File. 
    1. **New Distribution List Name**: Leave blank. 
    1. **User File**: Select Choose File and browse to select your User File. 
-   1. **Are you looking to append data to a survey cycle?**: Switch this toggle switched to Yes. 
    1. **Survey Cycle**: Select Load Values and choose a survey date from the dropdown menu. 
-   1. **Extra Options menu**: Leave collapsed, not applicable. 
+   1. **Extra Options menu**: Leave collapsed, not applicable.
+   1. **Manual Mode**: Switch this toggle switched to On. 
 1. With **Manual Mode** set to **On**, External Import breaks out into 4 separate sections. Skip sections 1-3 and go to **Step 4: Raw Score Import**. 
 1. Select **Run Step 4**. 
 1. When new response values successfully load, the Raw Score Import section turns green.
