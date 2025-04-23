@@ -192,6 +192,17 @@ To complete your import of edited responses, access Viva Glint’s Advanced conf
 
    :::image type="content" source="../../media/glint/setup/response-edit-success.png" alt-text="Screenshot of green success message when editing Viva Glint response edits are successful."lightbox="../../media/glint/setup/response-edit-success.png":::
 
+1. To start a refresh of reporting data based on new response values, go to **Advanced configuration** and select **Data Apps**.
+1. Select RETROACTIVE_PULSE_UPDATE.
+1. Update selections:
+   1. **Survey name**: Load values and select a survey
+   2. **Cycle name**: Load values and select a survey cycle
+   3. **Role or Distribution list**: Load values and select a role or list.
+   4. **Attribute name**: Load values and select an attribute that isn't a report filter and always contains current data, like Birth year. Select an attribute that has no reporting or Distribution list impact but allows you to begin the analytics reload in the next step to refresh reports.
+   5. **Reload analytics**: Switch to **On**.
+1. Select **Execute and show first 500 log records** to start the reporting refresh. Select **Execute and Save as ZIP** to start the reporting refresh and export a file of update activity.
+1. Select the Running Jobs option in the Advanced Configuration menu to view the status of the RETROACTIVE_PULSE_UPDATE/reporting refresh.
+
 > [!IMPORTANT]
 > For updates that involve several users (more than 5,000), updates to the Viva Glint dashboard, reports, and comments can take up to 24 hours to complete.
 
