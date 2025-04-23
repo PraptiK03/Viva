@@ -35,7 +35,7 @@ This article discusses how to import survey results – employee-level survey re
 
 1. The **Microsoft 365 Global Administrator** consents to share Viva Insights data with Viva Glint. [Learn how to start the process](/viva/insights/advanced/admin/export-insights-data-glint).
 
-2. The **Viva Glint Administrator** sets up the integration and adds the relevant metrics from Viva Insights. [Learn more](/viva/glint/setup/insights-to-glint).
+2. The **Viva Glint Administrator** [sets up the integration](#set-up-the-viva-insights-integration) and [adds the relevant metrics](#add-behavioral-attributes-from-viva-insights) from Viva Insights.
 
 ## To resync the data to pick up the Microsoft Entra ID changes: 
 
@@ -215,5 +215,5 @@ Select **Remove** from the window that opens.
 ## Raw data export
 
 > [!IMPORTANT]
-> Viva insights attributes aren't available in [Raw Data Export](employee-raw-data-export.md). 
+> Viva insights attributes aren't available in Viva Glint [Raw Data Exports](employee-raw-data-export.md). 
 
