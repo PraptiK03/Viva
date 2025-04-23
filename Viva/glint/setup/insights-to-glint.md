@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/18/2024
+ms.date: 04/23/2025
 ---
 
 # Send Viva Insights data into Viva Glint 
 
-Glint customers can import behavioral data from Microsoft Viva Insights to supplement their Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
+Viva Glint customers can import behavioral data from Microsoft Viva Insights to supplement their Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 
 -	Explore employee sentiment relative to behaviors
 -	Filter employee sentiment by ways of working
@@ -39,7 +39,7 @@ This article discusses how to import survey results – employee-level survey re
 
 ## To resync the data to pick up the Microsoft Entra ID changes: 
 
-Use [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) to solve for discrepancies between Glint active users and those seen in your Microsoft Entra IDs in MAC.
+Use [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) to solve for discrepancies between Viva Glint active users and those seen in your Microsoft Entra IDs in MAC.
 - In manage integration: delete all attributes and remove all programs. 
 - Readd the attributes and program to reimport Viva Insights data for all survey cycles. 
 
@@ -50,12 +50,12 @@ In the future, expect this resync to happen automatically.
 On your first visit to the Viva Insights Integrations platform, accessible from your admin configuration dashboard, you see a window requesting you to review and agree to this information:
 
 - Data sharing from Viva Insights to Viva Glint is a feature governed by the Microsoft Viva Preview Agreement. 
--	When Insights-to-Glint data sharing is enabled, Insights advanced insights metrics is shared with Glint and subject to further processing by Glint. Glint stores a copy of the share Insights data, which can be deleted from Glint at any time.
+-	When Insights-to-Glint data sharing is enabled, Insights advanced insights metrics is shared with Glint and subject to further processing by Viva Glint. Viva Glint stores a copy of the share Insights data, which can be deleted from Viva Glint at any time.
 -	By selecting the checkbox, you enable Insights-to-Glint data sharing and agree to the Microsoft Viva Preview Agreement.
 
 ## Set up the Viva Insights integration 
 
-1.	From your Glint admin dashboard, select the **Configuration** symbol and then **Viva Insights** from the **Microsoft Viva Integrations** section.
+1.	From your Viva Glint admin dashboard, select the **Configuration** symbol and then **Viva Insights** from the **Microsoft Viva Integrations** section.
 2.	Select the **Set up integration** button in the **Import Viva Insights** data section.
 3.	Review the window that pops up and then select **Get Started.**
 
@@ -67,11 +67,14 @@ For both Viva Insights and Viva Glint, the default confidentiality thresholds ar
 
 **If you have changed the confidentiality threshold in either application,** we consider the thresholds of both products. The higher of the two thresholds is enforced when showing survey data. This rule includes both workplace pattern data from Viva Insights as well as sentiment data from Viva Glint.
 
+> [!NOTE]
+> Higher Viva Insihts thresholds are only enforced in Viva Glint for User Roles that are granted access to Viva Insights attributes.
+
 **If you have a program that has a confidentiality threshold of less than five and would like to use this integration, reach out to your account team. This may be possible.**
 
 ## Add behavioral attributes from Viva Insights
 
-In Step 1 of 2, decide which behavioral attributes to import into Glint. Attributes are numerically split into four different ranges, defined by Glint. Ranges can be customized after setup. Glint respects Viva Insights confidentiality thresholds on Glint reports and dashboards.
+In Step 1 of 2, decide which behavioral attributes to import into Viva Glint. Attributes are numerically split into four different ranges, defined by Viva Glint. Ranges can be customized after setup. Viva Glint respects Viva Insights confidentiality thresholds on Viva Glint reports and dashboards for User Roles that have access to Viva Insights attributes.
 
 1.	Select **Add** next to an attribute to continue. You must select at least one attribute to continue.
 
@@ -93,8 +96,8 @@ In Step 1 of 2, decide which behavioral attributes to import into Glint. Attribu
 
       :::image type="content" source="../../media/glint/setup/glintsights-select-programs-2.png" alt-text="Screenshot of the Select Programs button."lightbox= "../../media/glint/setup/glintsights-added-2.png":::
 
->[!IMPORTANT]
-> Glint respects Viva Insights confidentiality thresholds on Glint reports and dashboards.
+> [!IMPORTANT]
+> Viva Glint respects Viva Insights confidentiality thresholds on Viva Glint reports and dashboards for User Roles that have access to Viva Insights attributes.
 
 >[!NOTE]
 > When a **new** survey cycle ends, it takes 24-48 hours to receive data from Viva Insights. Expect some delay in the data reflecting in the platform.
@@ -106,9 +109,9 @@ Add a Viva Insights metric as an employee attribute. Assign roles for the attrib
 :::image type="content" source="../../media/glint/setup/glintsights-add-metric.png" alt-text="Screenshot of how to add an Insight metric as an attribute.":::
 
 > [!IMPORTANT]
-> **Viva Insights only runs reports from Sunday to Sunday.  This means Glint receives Viva Insights data (also referred to as *collaboration data*) on the Sunday directly before a survey start date and the last Sunday before the survey's end date. For this reason, your data is *partial,* excluding data past the last Sunday of the survey window.
+> **Viva Insights only runs reports from Sunday to Sunday.  This means Viva Glint receives Viva Insights data (also referred to as *collaboration data*) on the Sunday directly before a survey start date and the last Sunday before the survey's end date. For this reason, your data is *partial,* excluding data past the last Sunday of the survey window.
 >
-> **Example:** A survey starting On October 8, 2024, and ending on October 15, 2024, is actually pushed to Glint on October 6-October 13, 2024. Push dates are inclusive of start dates and exclusive of end dates.
+> **Example:** A survey starting On October 8, 2024, and ending on October 15, 2024, is actually pushed to Viva Glint on October 6-October 13, 2024. Push dates are inclusive of start dates and exclusive of end dates.
 
 ### Make your metric selection from Insights
 
@@ -134,7 +137,7 @@ In the **Select Programs and Cycles** section, import data from previous cycles 
 
 1.	To continue, use the boxes to display a checkmark to select a program. You may select multiple programs.
     1.	Each cycle pulls 12 weeks of Insights data, if available.
-    1.	Glint currently supports importing the selected behavioral data for the last two cycles, up to 24 months.
+    1.	Viva Glint currently supports importing the selected behavioral data for the last two cycles, up to 24 months.
 2.	Select **Import behaviors**.
 
     :::image type="content" source="../../media/glint/setup/glintsights-import-behaviors-2.png" alt-text="Screenshot of the confirmation that behavioral attributes are added."lightbox="../../media/glint/setup/glintsights-import-behaviors-2.png":::
@@ -171,7 +174,7 @@ To add or delete attributes, check or uncheck any roles or filters. Select **Sav
 
 ### Customize attribute ranges
 
-To view numeric data in heatmaps, filters, and more, the data must be placed into ranges. Glint defines default ranges, but you can configure your own ranges. 
+To view numeric data in heatmaps, filters, and more, the data must be placed into ranges. Viva Glint defines default ranges, but you can configure your own ranges. 
 
 All data ranges are the same across the entire company.
 
@@ -181,11 +184,11 @@ All data ranges are the same across the entire company.
     :::image type="content" source="../../media/glint/setup/glintsights-customize-ranges.png" alt-text="Screenshot of the Customize Ranges window.":::
 
 > [!IMPORTANT]
-> Glint respects Viva Insights confidentiality thresholds, in addition to Glint’s threshold. Customizing default ranges may result in ranges with employees less than these thresholds and for this reason, results don’t appear in any reports or filters.
+> Viva Glint respects Viva Insights confidentiality thresholds, in addition to Viva Glint’s threshold, for User Roles that have access to Viva Insights attributes. Customizing default ranges may result in ranges with employees less than these thresholds and for this reason, results don’t appear in any reports or filters.
 
 ## Delete an imported attribute
 
-By deleting an attribute, Glint deletes all previously imported attribute data, and this data isn't included in future Glint program cycles. Changes may take a few hours to show on Glint reports. Select **Delete** in the window that opens.
+By deleting an attribute, Viva Glint deletes all previously imported attribute data, and this data isn't included in future Viva Glint program cycles. Changes may take a few hours to show on Viva Glint reports. Select **Delete** in the window that opens.
 
 :::image type="content" source="../../media/glint/setup/glintsights-delete-attribute.png" alt-text="Screenshot of a Delete Attribute window.":::
 
@@ -195,7 +198,7 @@ Switch to the **Enabled Programs** tab.
 
 ### Add programs 
 
-Glint imports Insights data for previous and future cycles by selecting more programs, which are populated in the **Add Programs** window that opens. Each cycle imports 12 weeks of Insights data. Glint supports importing selected behavioral data for the past two cycles, up to 24 months.
+Viva Glint imports Insights data for previous and future cycles by selecting more programs, which are populated in the **Add Programs** window that opens. Each cycle imports 12 weeks of Insights data. Viva Glint supports importing selected behavioral data for the past two cycles, up to 24 months.
 
 Select the **+ Add Programs** button and then the **Add** button as desired. These programs are now added to the **Enabled Programs** column.
 
@@ -212,5 +215,5 @@ Select **Remove** from the window that opens.
 ## Raw data export
 
 > [!IMPORTANT]
-> Viva insights attributes aren't available in [Raw Data Export](/viva/glint/reports/export-report-pdf). 
+> Viva insights attributes aren't available in [Raw Data Export](employee-raw-data-export.md). 
 
