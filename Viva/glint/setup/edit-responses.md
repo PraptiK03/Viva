@@ -145,7 +145,8 @@ To recode your survey question's responses in Excel:
       
    1. To copy the formula to all records in the column, place your cursor on the bottom right corner of the cell with the formula and click twice.
    1. Copy the output of the formula in the new column and **Paste Values** into the survey question column to overwrite the existing values.
-   1. After pasting new values into the survey item column, delete the formula column.
+   2. Highlight the survey question column and **Find & Replace All** ".0" with nothing. This ensures that numeric response values are in the correct format.
+   1. Delete the formula column.
 1. Save the edited file as .csv with UTF-8 encoding.
 
 #### User file 
@@ -190,6 +191,17 @@ To complete your import of edited responses, access Viva Glint’s Advanced conf
 1. When new response values successfully load, the Raw Score Import section turns green.
 
    :::image type="content" source="../../media/glint/setup/response-edit-success.png" alt-text="Screenshot of green success message when editing Viva Glint response edits are successful."lightbox="../../media/glint/setup/response-edit-success.png":::
+
+1. To start a refresh of reporting data based on new response values, go to **Advanced configuration** and select **Data Apps**.
+1. Select RETROACTIVE_PULSE_UPDATE.
+1. Update selections:
+   1. **Survey name**: Load values and select a survey
+   2. **Cycle name**: Load values and select a survey cycle
+   3. **Role or Distribution list**: Load values and select a role or list.
+   4. **Attribute name**: Load values and select an attribute that isn't a report filter and always contains current data, like Birth year. Select an attribute that has no reporting or Distribution list impact but allows you to begin the analytics reload in the next step to refresh reports.
+   5. **Reload analytics**: Switch to **On**.
+1. Select **Execute and show first 500 log records** to start the reporting refresh. Select **Execute and Save as ZIP** to start the reporting refresh and export a file of update activity.
+1. Select the Running Jobs option in the Advanced Configuration menu to view the status of the RETROACTIVE_PULSE_UPDATE/reporting refresh.
 
 > [!IMPORTANT]
 > For updates that involve several users (more than 5,000), updates to the Viva Glint dashboard, reports, and comments can take up to 24 hours to complete.
