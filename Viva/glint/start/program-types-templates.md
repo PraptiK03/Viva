@@ -23,11 +23,11 @@ Microsoft Viva Glint believes ongoing, frequent communications to collect employ
 
 ## Engagement programs
 
-iva Glint offers engagement programs as a way for customers to send targeted surveys to their employees to generate rich insights. **Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes.** Engagement correlates with job satisfaction, commitment, motivation, and attrition. Engagement programs are about starting conversations and taking action to improve the work environment and culture, thereby increasing productivity. When planning an engagement survey, consider the goals, the design of the survey, and how the results can drive change. 
+Viva Glint offers engagement programs as a way for customers to send targeted surveys to their employees to generate rich insights. **Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes.** Engagement correlates with job satisfaction, commitment, motivation, and attrition. Engagement programs are about starting conversations and taking action to improve the work environment and culture in order to increase productivity. When planning an engagement survey, consider the goals, the design of the survey, and how the results can drive change. 
 
 The Viva Glint approach to employee engagement provides a flexible framework using strong benchmark foundations and analyzes robust, real-time experiences. Rather than a one-size-fits-all formula, Viva Glint developed an adaptable framework and technology that suits each organization’s needs. Microsoft People Science research teams continually update survey items and develop templates to provide meaningful insights into the current world of work.
 
-## Understand the difference between a organizational suvey and a business unit survey
+## Understand the difference between an organizational survey and a business unit survey
 
 **Organizational survey:** Often sent by a global Human Resources (HR) team. <br> Sent to all employees on a recurring cadence|
 **Business unit survey:** Often sent by a business team or leader to an HR team. The goal is to capture specific information for a specific business unit.|
@@ -39,7 +39,7 @@ organizational development.
 
 |Survey type|Description|Who should use them?|
 |---------|---------|-----|
-|[**Recurring or Special topic**](/viva/glint/setup/template-research)|*Recurring* surveys allow data to be compared between cycles and for *trend* to be established. Recurring surveys are set to go live at a scheduled cadence. Recurring sureys are often sent to collect feedback on a special topic. |Any leader|
+|[**Recurring or Special topic**](/viva/glint/setup/template-research)|*Recurring* surveys allow data to be compared between cycles and for *trend* to be established. Recurring surveys are set to go live at a scheduled cadence. Recurring surveys are often sent to collect feedback on a special topic. |Any leader|
 |[**Employee Lifecycle**](/viva/glint/setup/program-summary-setup-lifecycle)|Measure the employee experience during key moments in the employee journey. These surveys are considered *trigger events* because they automatically send by the hire or end date.|HR, Hiring Managers|
 |[**Ad Hoc**](/../../viva/glint/setup/ad-hoc-survey)|Measure something out of the ordinary, at an impactful time.|Any leader|
 |[**Always-On**](/viva/glint/setup/always-on-surveys)|Provide feedback and suggestions anytime it feels relevant. |Any leader|
@@ -59,14 +59,14 @@ Viva Glint offers prescribed survey templates and a blank template option for ea
 |[**Exit**](/../../viva/glint/setup/exit.survey)|Employee Lifecycle|Provides data for why people leave and their perceptions of the organization as they transition|Automatically triggered|Human Resource leaders and managers|Departing employees|
 |[**Microsoft Copilot Impact Survey**](/../../viva/glint/setup/copilot-impact-template)|Special topic|Measures the impact of Microsoft Copilot in Viva Glint through comment summarization data. Enable IT and business leaders to plan AI adoption and measure their Return On Investment (ROI)|Recurring|All roles|All roles|
 |[**Productivity**](/../../viva/glint/setup/create-productivity-survey)|Special topic|Looks beyond engagement to create an employee experience that helps people be more productive and higher performing.|Recurring or Ad Hoc|All roles|All eligible employees|
-|[**Culture**](/../../en-us/viva/glint/setup/culture-template)|Special topic|Measures [Microsoft People Success Elements](#the-people-success-elements) to learn what drives people and organizational success.|Recurring, depending on the rate of change in your organization|Senior leadership|All eligible employees|
-|[**Diversity and Inclusion**](/viva/glint/setup/diversity-inclusion)|Special topic|Provides an understanding of employee sentiment related to elements necessary for building a sense of belonging among employees|Recurring|Managers and teams|All eligible employees|
+|[**Culture**](/../../viva/glint/setup/culture-template)|Special topic|Measures [Microsoft People Success Elements](#the-people-success-elements) to learn what drives people and organizational success.|Recurring, depending on the rate of change in your organization|Senior leadership|All eligible employees|
+|[**Diversity and Inclusion**](/../../viva/glint/setup/diversity-inclusion)|Special topic|Provides an understanding of employee sentiment related to elements necessary for building a sense of belonging among employees|Recurring|Managers and teams|All eligible employees|
 |[**Patient Safety**](/viva/glint/setup/patient-safety-survey)|Special topic|Assesses the culture of patient safety in a valid, reliable, and straightforward way. Leapfrog-approved.|Recurring|Healthcare managers and teams|All eligible employees|
 |[**Manager Effectiveness**](/../../viva/glint/setup/manager-effectiveness-survey)|Special topic|Assesses employee perceptions of how their direct managers demonstrate key behaviors related to their effectiveness|Recurring|Managers and teams|All eligible employees|
 |[**Team Effectiveness**](/../../viva/glint/setup/team-effectiveness-survey)|Special topic|Identifies a team's unique dynamics and opportunities for improvement|Recurring|Managers and teams|All eligible employees|
 |[**Microsoft Viva Glint RN Excellence**](/../../viva/glint/setup/magnet-rn-excellence)|Special topic|Meets the Registered Nurse (RN) Satisfaction requirements for the Magnet® Recognition program.|Recurring|Healthcare teams|All eligible employees| 
 |[**Distress**](/../../viva/glint/setup/distress-survey)|Special topic|Measures employee sentiment when societal or global events introduce instability into our work and personal lives|Recurring|All roles|All eligible employees|
-|[**360 Feedback**](/viva/glint/setup/360-overview)|Ad Hoc|Collects insights into a managers strengths and opportunities|Set regular schedules for roles|All leaders and managers|All eligible employees|
+|[**360 Feedback**](/viva/glint/setup/360-overview)|Ad Hoc|Collects insights into a manager's strengths and opportunities|Set regular schedules for roles|All leaders and managers|All eligible employees|
 
 ## Align your organization to design your Viva Glint programs
 
@@ -78,12 +78,12 @@ Customize our email templates and share them during your Viva Glint program desi
 
 |Suggested email send timing| Email subject/link to template|Description|
 |-----------|-----------|----------------|
-|6 weeks before survey launch|[Introduce Microsoft Viva Glint to all senior leadership](/introductory-emails#email-template-1-introduce-microsoft-viva-glint-to-all-senior-leadership)|Introduce Microsoft Viva Glint, define roles and responsibilities|
-|6 weeks before survey launch|[Invitation for Vision and Strategy planning for all stakeholders](/introductory-emails#email-template-2-invitation-for-vision-and-strategy-planning-for-all-stakeholders)|Involve your stakeholders in your Viva Glint program design|
-|5 weeks before survey launch|[Introduce upcoming survey to all senior leadership](/introductory-emails#email-template-3-introduce-upcoming-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
-|4 weeks before survey launch|[Introduce upcoming survey to HRBPs](/introductory-emails/#email-template-4---upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
-|3 weeks before survey launch|[Training for HRBPs](/introductory-emails#email-template-5---training-for-hrbps)|Support HRBPs for rollout planning |
-|2 weeks before survey launch|[Introduce new survey to all leaders and managers](/introductory-emails#email-template-6---introduce-new-survey-introduction-to-all-leaders-and-managers)|Introduce upcoming survey name, purpose, and dates|
+|6 weeks before survey launch|[Introduce Microsoft Viva Glint to all senior leadership](/../../start/introductory-emails#email-template-1-introduce-microsoft-viva-glint-to-all-senior-leadership)|Introduce Microsoft Viva Glint, define roles and responsibilities|
+|6 weeks before survey launch|[Invitation for Vision and Strategy planning for all stakeholders](/../../start/introductory-emails#email-template-2-invitation-for-vision-and-strategy-planning-for-all-stakeholders)|Involve your stakeholders in your Viva Glint program design|
+|5 weeks before survey launch|[Introduce upcoming survey to all senior leadership](/../../start/introductory-emails#email-template-3-introduce-upcoming-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
+|4 weeks before survey launch|[Introduce upcoming survey to HRBPs](/../../start/introductory-emails/#email-template-4---upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
+|3 weeks before survey launch|[Training for HRBPs](/../../start/introductory-emails#email-template-5---training-for-hrbps)|Support HRBPs for rollout planning |
+|2 weeks before survey launch|[Introduce new survey to all leaders and managers](/../../start/introductory-emails#email-template-6---introduce-new-survey-introduction-to-all-leaders-and-managers)|Introduce upcoming survey name, purpose, and dates|
 
 ## Microsoft People Science: People Success Elements
 
