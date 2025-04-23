@@ -68,13 +68,13 @@ When a survey cycle is extended *before* its original close date, notification g
 
 Admins can extend a survey under these conditions:
 - The survey is live
-- It isn't the last day of the survey. In this case, let the survey close and then follow the process for [reopening a survey](/setup/reopen-survey#reopen-a-closed-survey).
+- It isn't the last day of the survey. In this case, let the survey close and then follow the process to extend a live survey cycle window.
 
 >Example:
 > - The survey end date is March 10. The Survey End notification email is set to send on March 13.
 > - On March 8, you decide to extend the Close Date to March 15. The survey close notification automatically moves to March 18.
 
-### Process to extend a live survey cycle window
+## Process to extend a live survey cycle window
 
 1. From your admin dashboard, select **Configuration** and then **Survey programs**.
 2. From the **Upcoming and Live** tab, select the **Live survey cycle** and then select the **horizontal ellipses** that display.
