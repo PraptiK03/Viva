@@ -95,7 +95,7 @@ To prepare your raw score file, export raw survey responses for the survey cycle
 
 ##### Edit the response data file layout
 
-1. To preserve data in its original format, open the .csv file using the [Text Import Wizard](https://support.microsoft.com/en-us/office/text-import-wizard-c5b02af6-fda1-4440-899f-f78bafe41857) to import data into Excel.
+1. To preserve data in its original format, open the .csv file using the [Text Import Wizard](https://support.microsoft.com/office/text-import-wizard-c5b02af6-fda1-4440-899f-f78bafe41857) to import data into Excel.
 1. Delete these columns:
    1. Survey Cycle Creation Date
    1. Survey Cycle Completion Date
@@ -134,7 +134,7 @@ Responses to Viva Glint questions that use the standard 5-point Likert scale nee
 
 To recode your survey question's responses in Excel:
 
-1. To preserve data in its original format, open the .csv file using the [Text Import Wizard](https://support.microsoft.com/en-us/office/text-import-wizard-c5b02af6-fda1-4440-899f-f78bafe41857) to import data into Excel.
+1. To preserve data in its original format, open the .csv file using the [Text Import Wizard](https://support.microsoft.com/office/text-import-wizard-c5b02af6-fda1-4440-899f-f78bafe41857) to import data into Excel.
 1. Insert a column to the right of the survey question column that contains response values:
    1. Confirm that the cell formatting on the column is General
    1. Paste the following formula:
@@ -155,7 +155,7 @@ To recode your survey question's responses in Excel:
 
 1. Export survey cycle data with the [EXPORT_USERS_FROM_SURVEY_CYCLE Data App](glint-data-apps.md#export_users_from_survey_cycle) for the survey that needs to be updated. 
 1. Prepare an update file with the EXPORT_USERS_FROM_SURVEY_CYCLE file from Step 1. 
-   1. To preserve special characters and formatting, open the .csv file using the [Text Import Wizard](https://support.microsoft.com/en-us/office/text-import-wizard-c5b02af6-fda1-4440-899f-f78bafe41857) to import data into Excel.
+   1. To preserve special characters and formatting, open the .csv file using the [Text Import Wizard](https://support.microsoft.com/office/text-import-wizard-c5b02af6-fda1-4440-899f-f78bafe41857) to import data into Excel.
    1. Delete all columns except for: 
       1. **Email Address**: must be labeled Email Address 
       1. **First Name**: label must match your attribute setup 
