@@ -19,18 +19,13 @@ ms.date: 4/23/2025
 
 # Viva Glint programs, survey types, and templates 
 
-Microsoft Viva Glint believes ongoing, frequent communications to collect employee feedback is crucial to an organization's success. Feedback insights translate into actionable opportunities to improve business. Effective employee listening is critical in order to navigate challenges, adapt to changes, and address uncertainty. Employee feedback provides visibility into knowledge gaps, helps you avoid speculation and make informed decisions. 
+Microsoft Viva Glint believes ongoing, frequent communications to collect employee feedback is crucial to an organization's success. Feedback insights translate into actionable opportunities to improve business. Effective employee listening is critical in order to navigate challenges, adapt to changes, and address uncertainty. Employee feedback provides visibility into knowledge gaps and helps you avoid speculation to make informed decisions. 
 
 ## Engagement programs
 
-**Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes.** Viva Glint offers engagement programs as a way for customers to send targeted surveys to their employees to generate rich insights. Engagement correlates with job satisfaction, commitment, motivation, and attrition. Engagement programs are about starting conversations and taking action to improve the work environment and culture in order to increase productivity. When planning an engagement survey, consider the goals, the design of the survey, and how the results can drive change. 
+**Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes.** Viva  Engagement correlates with job satisfaction, commitment, motivation, and attrition. Engagement surveys are a way for customers to generate rich insights. Engagement programs are about starting conversations and taking action to improve productivity. 
 
-The Viva Glint approach to employee engagement provides a flexible framework using strong benchmark foundations and analyzes robust, real-time experiences. Rather than a one-size-fits-all formula, Viva Glint developed an adaptable framework and technology that suits each organization’s needs. Microsoft People Science research teams continually update survey items and develop templates to provide meaningful insights into the current world of work.
-
-## Understand the difference between an organizational survey and a business unit survey
-
-**Organizational survey:** Often sent by a global Human Resources (HR) team. Sent to all employees on a recurring cadence.<br>
-**Business unit survey:** Often sent by a business team or leader to an HR team. The goal is to capture specific information for a specific business unit.
+The Viva Glint approach to employee engagement provides a flexible framework using benchmark foundations and analyzes robust, real-time experiences. Rather than a one-size-fits-all formula, Viva Glint uses an adaptable technology that suits each organization’s needs. Microsoft People Science research teams continually update survey items and develop templates to provide meaningful insights into the current world of work at your organization.
 
 ## Survey types
 
@@ -54,7 +49,7 @@ Build your holistic employee listening strategy and design a program that reflec
 
 ### [Use the Viva Holistic Listening Vision & Strategy Discovery Workbook](/../../viva/solutions/holistic-listening-discovery-workbook)
 
-## Viva Glint survey templates
+## Use Viva Glint survey templates
 
 Viva Glint offers prescribed survey templates and a blank template option for each type of program. Template programs can be set to recur (or cycle). Blank templates don't support adding cycles.
 
@@ -74,8 +69,6 @@ Viva Glint offers prescribed survey templates and a blank template option for ea
 |[**Distress**](/../../viva/glint/setup/distress-survey)|Special topic|Measures employee sentiment when societal or global events introduce instability into our work and personal lives|Recurring|All roles|All eligible employees|
 |[**360 Feedback**](/viva/glint/setup/360-overview)|Ad Hoc|Collects insights into a manager's strengths and opportunities|Set regular schedules for roles|All leaders and managers|All eligible employees|
 
-
-
 ### Send introductory emails
 
 Customize our email templates and share them during your Viva Glint program design phase. Use these templates and tips to introduce Viva Glint programs and goals to your organization and stakeholders:
@@ -89,9 +82,9 @@ Customize our email templates and share them during your Viva Glint program desi
 |3 weeks before survey launch|[Training for HRBPs](/../../viva/glint/start/introductory-emails#email-template-5---training-for-hrbps)|Support HRBPs for rollout planning |
 |2 weeks before survey launch|[Introduce new survey to all leaders and managers](/../../viva/glint/start/introductory-emails#email-template-6---introduce-new-survey-introduction-to-all-leaders-and-managers)|Introduce upcoming survey name, purpose, and dates|
 
-## Microsoft People Science: People Success Elements
+## Consider the People Success Elements
 
-The experiences that drive engagement look different from one company to another. Microsoft Viva People Science research identified six core elements which capture people's needs and expectations for an exceptional employee experience. These People Success Elements help you assess and foster the experiences that matter most to your people. They help build thriving cultures, develop people-centric leaders, and engaged employees. The framework provides a modern, accurate way to measure people’s evolving need for engagement and success in their work. 
+The experiences that drive engagement look different from one company to another. Microsoft Viva People Science research identified six core elements which capture people's needs and expectations for an exceptional employee experience. These **People Success Elements** help you assess and foster the experiences that matter most to your people. They help build thriving cultures, develop people-centric leaders, and engaged employees. The framework provides a modern, accurate way to measure people’s evolving need for engagement and success in their work. 
 
 :::image type="content" source="../../media/glint/start/six-elements.png" alt-text="Screenshot of the People Success Elements." lightbox="../../media/glint/start/six-elements.png":::
 
