@@ -89,7 +89,7 @@ Admins can extend a survey under these conditions:
 
 1. Confirm that the new **End date** of your survey is correct. 
 
-  :::image type="content" source="../../media/glint/setup/extend-confirm.png" alt-text="Screenshot of confirmation of survey extension.":::
+   :::image type="content" source="../../media/glint/setup/extend-confirm.png" alt-text="Screenshot of confirmation of survey extension.":::
 
 Now, choose whether to resend your survey invites.
 
