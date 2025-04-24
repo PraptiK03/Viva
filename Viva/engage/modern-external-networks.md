@@ -24,7 +24,7 @@ search.appverid:
 >[!IMPORTANT]
 >External network is currently in Preview. It's a redesigned external Viva Engage network type that requires and fully supports Microsoft Entra authentication and identity.
 
-Microsoft designs modern external Viva Engage networks to promote collaboration between organizations. Modern networks allow users and teams from different companies, known as *external participants*, to communicate and share information in an industry-standard secure environment. Enterprise admins allocate these special external networks to partners, consultants and other outside companies to conduct team discussions, share files, and collaborate on projects.
+Microsoft designs modern external Viva Engage networks to promote collaboration between organizations. Modern networks allow users and teams from different companies, known as *external participants*, to communicate and share information in an industry-standard secure environment. Enterprise admins allocate these special external networks to partners, consultants, and other outside companies to conduct team discussions, share files, and collaborate on projects.
 
 All Viva Engage networks support a format called M365 Native Mode, which uses Microsoft Entra identities and policies. Native mode operation is **required** for all Viva Engage networks in the enterprise. It enables users, groups, and content to map directly to their accounts in Microsoft Entra and in Microsoft 365. All parent Engage networks and external Engage networks observe this standard. Native Mode also supports eDiscovery through the [Microsoft Purview portal](https://ms.web.purview.azure.com/) to promote safe and secure collaboration in your Engage networks.
 
@@ -32,19 +32,19 @@ All Viva Engage networks support a format called M365 Native Mode, which uses Mi
 
 **External Participants**: Users can add external participants to public and private Viva Engage communities.
 
-**Create and Connect**: Users can browse existing external networks or create new ones to connect with external collaborators.
+**Create and Connect**: Users can browse existing external networks or create new networks to connect with external collaborators.
 
 **Management**: Administrators can manage external networks, set permissions, monitor activity, and ensure compliance with organizational policies.
 
 > [!NOTE]
-> Viva Engage external networks support the Communities feature, with future expansions to include Campaigns, Events and Knowledge.
+> Viva Engage external networks support the Communities feature, with future expansions to include Campaigns, Events, and Knowledge.
 
 ## Requirements
 
 Modern External Networks must use the following Microsoft 365 requirements:
 
 - Global Administrator privileges
-- Microsoft 365 E5 license for at least 1 user
+- Microsoft 365 E5 license for at least one user
 - Permissions to create new Workforce tenant.
 
 This deployment also uses the following Viva Engage requirements:
@@ -61,13 +61,13 @@ Modern external network configuration requires three phases to complete. Complet
 > [!NOTE]
 > Consult the Microsoft Entra documentation [QuickStart - Access and create new tenant] (/entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization) **for the information and steps** to set up your [new workforce tenant](/entra/external-id/tenant-configurations#workforce-tenants) for the modern external network.
 
-After you create the tenant, take note of the Entra Tenant ID, because it's needed in later steps. (Copy the Entra Tenant ID to a safe location for later use.)
+After you create the tenant, take note of the Entra Tenant ID for use in later steps. (Copy the Entra Tenant ID to a safe location for later use.)
 
 ### Assign the required license to the tenant admin
 
 The new tenant automatically embeds the creating user as a B2B Guest user and assigns them the Global Administrator role and privileges.
 
-You also use the Microsoft Entra Portal to assign the correct license to the B2B Guest user. You assign a Microsoft 365 E5 license to the Global Administrator of the new tenant. Doing so allows the Global Administrator to sign into Viva Engage as the Engage Network Admin.
+You also use the Microsoft Entra admin center to assign the correct license to the B2B Guest user. You assign a Microsoft 365 E5 license to the Global Administrator of the new tenant. Doing so allows the Global Administrator to sign into Viva Engage as the Engage Network Admin.
 
 > [!NOTE]
 > Enable the *Engage Core Service plan* for the user in the assigned Microsoft 365 E5 license.
@@ -104,9 +104,9 @@ This process uses the association token to establish the new Entra tenant with t
 5. Select **Set up external network**.
 6. Select the **Redeem code** tab to redeem the association code. Add the association token and the Entra tenant ID you saved from the prior steps.
 
-After the redemption of the association code, you see the following:
+After the redemption of the association code, you see the following result:
 
-::image type="content" source="../media/engage/admin/external-network-confirmation.png" alt-text="Token redemption in the new network":::
+:::image type="content" source="../media/engage/admin/external-network-confirmation.png" alt-text="Token redemption in the new network":::
 
 The parent network now connects to the new tenant.
 
@@ -155,7 +155,7 @@ In the Microsoft Entra portal, you import the current user accounts CSV from the
 
 After the legacy external network associates with the new external network, you can run the data move/data alignment process. Doing so aligns the legacy network's resources with Microsoft 365 Entra resources.
 
-After you sign in to the external network, when you connect the external network to the parent, the **M365 Native Mode** feature appears in the Viva Engage admin settings. Select this tab and follow its instructions to complete the Native Mode alignment.
+After you successfully connect the external network to the parent, the **M365 Native Mode** feature appears in the Viva Engage admin settings. Select this tab and follow its instructions to complete the Native Mode alignment.
 
 :::image type="content" source="../media/engage/admin/external-network-native-mode-setting.png" alt-text="Setting the external network to M365 Native Mode":::
 
@@ -168,7 +168,7 @@ When Native Mode alignment runs, the Native Mode configuration page shows progre
 >[!IMPORTANT]
 >Update the policies of the Entra tenant that hosts your new external network based on your security posture. Pay particular attention to policies that identify, respond to, and recover from security threats.
 
-After the data move completes, the network administrators can do the following:
+After the data move completes, the network administrators can take the following steps:
 
 - Confirm that the communities are configured as they were in the legacy Network.
 - Notify users of their membership in the new network.
@@ -180,12 +180,12 @@ After the data move completes, the network administrators can do the following:
 
 ### What happens to my users from the legacy external network?
 
-You can export the list of existing users in your legacy external network in a CSV file from the Native Mode setup flow. You can use the CSV file to bulk invite the users to your new external network via the Microsoft Entra portal.
+You can export the list of existing users in your legacy external network in a CSV file from the Native Mode setup flow. You can use the CSV file to bulk invite the users to your new external network via the Microsoft Entra admin center.
 
-### I use external networks for consumer identities, are they still supported in modern external networks?
+### Can I use external networks for consumer identities in modern external networks?
 
-External networks continue full support for the Consumer Identities use case.
+External networks provide full support for the Consumer Identities use case.
 
 ### What's the process for members to join the migrated external network?
 
-The Converted external network continues support for the invitation flow to add members. Additionally, Admins can Cross-Tenant sync users directly into Entra, and those users will have access to the external network.
+The Converted external network continues support for the invitation flow to add members. Additionally, Admins can use Cross-Tenant sync to join users directly into Entra, and those users will have access to the external network.
