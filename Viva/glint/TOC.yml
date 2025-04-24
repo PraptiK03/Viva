@@ -63,7 +63,7 @@ items:
             items:     
                - name: Program types, surveys, and templates
                  href: start/program-types-templates.md
-               - name: People Science surveys and items
+               - name: How Microsoft People Science impacts Glint programs
                  href: setup/template-research.md
                - name: Monthly deployment dates
                  href: setup/monthly-release-dates.md
