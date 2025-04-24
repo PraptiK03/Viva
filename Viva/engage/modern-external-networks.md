@@ -49,8 +49,8 @@ Modern External Networks must use the following Microsoft 365 requirements:
 
 This deployment also uses the following Viva Engage requirements:
 
-- The active [Global Administrator](https://learn.microsoft.com/viva/engage/eac-key-admin-roles-permissions#microsoft-365-global-administrator) account
-- The parent Viva Engage network supports [M365 Native Mode](https://learn.microsoft.com/en-us/viva/engage/overview-native-mode).
+- The active [Global Administrator](/viva/engage/eac-key-admin-roles-permissions#microsoft-365-global-administrator) account
+- The parent Viva Engage network supports [M365 Native Mode](/viva/engage/overview-native-mode).
 
 ## Set up a modern external network
 
@@ -59,7 +59,7 @@ Modern external network configuration requires three phases to complete. Complet
 ### Set up a new Microsoft Entra workforce tenant
 
 > [!NOTE]
-> Consult the Microsoft Entra documentation [QuickStart - Access and create new tenant] (/entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization) **for the information and steps** to set up your [new workforce tenant](https://learn.microsoft.com/entra/external-id/tenant-configurations#workforce-tenants) for the modern external network.
+> Consult the Microsoft Entra documentation [QuickStart - Access and create new tenant] (/entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization) **for the information and steps** to set up your [new workforce tenant](/entra/external-id/tenant-configurations#workforce-tenants) for the modern external network.
 
 After you create the tenant, take note of the Entra Tenant ID, because it's needed in later steps. (Copy the Entra Tenant ID to a safe location for later use.)
 
@@ -89,7 +89,7 @@ Do the following to create the association token:
 2. In Viva Engage, select the settings icon, and go to Admin center.
 3. In the Admin center, on the **Setup and Configuration** tab, select **External Networks**.
 4. Select **Setup External Network**.
-5. Select the **Generate Code** tab to generate a one-time tenant association code, and select **Generate**. You use the code to associate the new Entra tenant with the *parent Engage network*. 
+5. Select the **Generate Code** tab to generate a one-time tenant association code, and select **Generate**. You use the code to associate the new Entra tenant with the *parent Engage network*.
 
 Make a note of the association code, because you use it in later steps.
 
