@@ -63,7 +63,7 @@ The second step to enabling Copilot in Viva Glint for User Roles happens in the 
 Copilot in Viva Glint gives you the flexibility to roll out to one or many user roles. Consider what approach is right for your organization. Viva Glint suggests this best practice for ramping to a full rollout:
 
 1. **Admin release:** By default, Copilot in Viva Glint is available to the Admin User Role. You may decide that for the first deployment you don't want to provide access beyond this group. This initial release can be a way to first test and better understand the functionality. Admins can also use this time to test the Copilot functionality for previously closed surveys before using it for an upcoming cycle. 
-1.  **Selective deployment:** You may decide to deploy to a group beyond the admins but still not your entire eligible population. Consider which groups makes sense for you. Perhaps these groups are your extended HRBP team or senior leaders who have large amounts of comments. As long as the group you want to grant access to is in a set User Role group within Viva Glint, you can provide them access.
+1.  **Selective deployment:** You may decide to deploy to a group beyond the admins but still not your entire eligible population. Consider which groups make sense for you. Perhaps these groups are your extended HRBP team or senior leaders who have large amounts of comments. As long as the group you want to grant access to is part of a set User Role group within Viva Glint, you can provide them with access.
 1.  **Full deployment:** Deploying to all eligible users is the highest level of deployment. This would include all roles who have results access. Even with this deployment, some leaders may not be able to use Copilot if their comments and respondents don't meet your set thresholds. For those teams that have fewer comments, Copilot may be less critical, as often these leaders can read through verbatims quickly.
 
 From your admin dashboard, follow this process for deployment:
@@ -127,7 +127,7 @@ Copilot in Viva Glint uses HRIS or demographic attributes that are imported to V
 
 - [Use these tips to understand and act on employee feedback quickly](/viva/glint/setup/copilot-managers?branch=main#copilot-in-viva-glint-quick-tips-for-managers).
 
-- Need help writing prompts? [Use these tips to get started writing prompts for Copilot in Viva Glint](/viva/glint/setup/copilot-manager-quick-guide?branch=main#quick-tips-for-copilot-prompts).
+- Need help with writing prompts? [Use these tips to get started writing prompts for Copilot in Viva Glint](/viva/glint/setup/copilot-manager-quick-guide?branch=main#quick-tips-for-copilot-prompts).
 
 ### Ask open-ended questions
 
