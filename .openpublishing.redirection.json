@@ -25,6 +25,16 @@
       "redirect_url": "/viva/learning/overview-viva-learning",
       "redirect_document_id": true
     },
+    { 
+      "source_path": "viva/skills/skills-get-started.md",
+      "redirect_url": "/viva/skills/skills-overview",
+      "redirect_document_id": true
+    },
+    { 
+      "source_path": "viva/skills/manage-skills-library.md",
+      "redirect_url": "/viva/skills/skills-overview",
+      "redirect_document_id": true
+    },
     {
       "source_path": "viva/learning/configure-successfactors-content-source.md",
       "redirect_url": "/viva/learning/sfsf-introduction",
