@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 4/21/2025
+ms.date: 4/23/2025
 ---
 
 # Admins editing a live Viva Glint survey
@@ -44,7 +44,7 @@ Sometimes changing a Live survey may be beneficial.
 
 |   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
-| The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text is featured immediately and *only* if a survey taker hasn't begun the survey. |
+| The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text is featured immediately and *only* if the survey hasn't been started. |
 | Item text | The phrasing of an item needs to be edited. | Decide whether to change the item while the survey is live or if it can wait until the next cycle. Follow Live survey edits guideline.|
 | Adding or removing an item | You want to add a new item or remove an item from a Live survey. | An item *can't* be added or removed from a Live survey except in an Always-On or Employee Lifecycle program. |
 | Item order | The survey items need to be reordered. | The newly edited order is featured immediately but *only* on surveys that aren't started. |
@@ -86,8 +86,8 @@ The information is broken out across **Program Summary** setup pages.
 | --- | --- | --- |
 | **Survey launch date** | You need to postpone the launch date of the survey. | To avoid potential challenges, make this update a minimum of 24 hours before the survey is scheduled to go Live. |
 | **Response window** | You want to decrease or increase the number of days for the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Be sure your *Communications* email send dates align with the updated survey window.<br><br>**Note** that Live schedule edits apply at the cycle level. |
-| **Resend Survey Invites** | You want to resend the survey invite email to users who yet to respond |The email doesn't send to survey takers with completed surveys.  Viva Glint admins can only make this change between the invite send date and the first reminder date.<br><br> This functionality isn't available after the first reminder sends.|
-| **Reschedule Survey Invites** | You want to reschedule the survey invite email due to issues with the first invite. | Viva Glint admins can only make this change between the invite send date and the first reminder date.<br><br> This functionality isn't available after the first reminder sends. |
+| **Resend Survey Invites** | You want to resend the survey invite email to users who yet to respond during a cycle |Can occur at cycle level. The email doesn't send to survey takers with completed surveys. Viva Glint admins can only make this change between the invite send date and the first reminder date.<br><br> This functionality isn't available after the first reminder sends.|
+| **Reschedule Survey Invites** | You want to reschedule the date and/or time for the survey invite email to send. |Can occur at cycle level. Viva Glint admins can only make this change between the invite send date and the first reminder date.<br><br> This functionality isn't available after the first reminder sends. |
 
 #### Manage the schedule for a live survey
 

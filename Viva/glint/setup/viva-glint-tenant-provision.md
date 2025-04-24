@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: elizapo
 audience: admin
 f1.keywords: NOCSH
-keywords: tenant, viva glint tenant
+keywords: tenant, viva glint tenant, tenant provisioning
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -15,7 +15,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/23/2024
+ms.date: 04/23/2025
 ---
 
 # Set up a Microsoft Viva Glint tenant
@@ -51,7 +51,8 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 Choose the US or EU URL for Azure login to begin, based on the region of your tenant. The data region for Viva Glint is determined by the default geography of the tenant, not individual users, and is stored in US or EU data centers based on central tenant location. If the central tenant location is outside the US or EU, the data for Viva Glint is stored in the US data center. **[Multi-Geo capabilities](/sharepoint/dev/scenario-guidance/multi-geo-capabilities) aren't currently supported for Viva Glint.**
 
 > [!IMPORTANT]
-> Organizations who use [Privileged Identity Management (PIM)](/entra/id-governance/privileged-identity-management/pim-configure) to manage access to resources must ensure that the PIM enabled account used to provision Glint has Global Admin privileges with [Direct assignment](https://go.microsoft.com/fwlink/?linkid=2281307) access rights.
+> - Organizations who use [Privileged Identity Management (PIM)](/entra/id-governance/privileged-identity-management/pim-configure) to manage access to resources must ensure that the PIM enabled account used to provision Viva Glint has Global Admin privileges with [Direct assignment](/entra/fundamentals/concept-learn-about-groups#assignment-types) access rights.
+> - Global Admins must have access with [Direct assignment and **not** Group assignment](/entra/fundamentals/concept-learn-about-groups#assignment-types) to provision Viva Glint.
 
 - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)

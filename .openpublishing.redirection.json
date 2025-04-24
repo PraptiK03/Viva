@@ -2611,5 +2611,10 @@
     "redirect_url": "/viva/glint/setup/360-create-new-360-cycle",
     "redirect_document_id": false
   },
+  {
+    "source_path": "Viva/glint/people-science/people-science-explains-focus-areas.md",
+    "redirect_url": "/viva/glint/setup/focus-areas-managers-creating",
+    "redirect_document_id": true
+  },
  ]
 }
