@@ -1,6 +1,6 @@
 ---
-title: Use the Viva Glint Culture survey template
-description: Viva Glint supports a cultural survey to help leaders check on the alignment of their intended culture with the actual culture experienced by employees.
+title: Use the Viva Glint Culture Survey template
+description: Viva Glint supports a cultural survey to measure the alignment of their intended culture with the actual culture experienced by employees.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/17/2024
+ms.date: 4/24/2025
 ---
 
 # Use the Viva Glint Culture Survey template
@@ -48,12 +48,12 @@ Companies that proactively manage their culture show:
 
 ## What does the Viva Glint culture survey include?
 
-- Research-validated survey to measure eight key outcomes of culture.
-- Key drivers to understand how cultural behaviors influence engagement and business outcomes. 
-- Access to intuitive and insightful data at the executive level.
-- Narrative Intelligence to synthesize open-ended feedback and surface key themes. 
-- Easy integration of Culture items into existing agile survey programs.
-- Cultural benchmarks.
+- Research-validated survey to measure eight key outcomes of culture
+- Key drivers to understand how cultural behaviors influence engagement and business outcomes
+- Access to intuitive and insightful data at the executive level
+- Narrative Intelligence to synthesize open-ended feedback and surface key themes 
+- Easy integration of culture items into existing agile survey programs
+- Culture benchmarks, which are automatically a part of the global benchmark suite.
 
 ## Viva Glint Culture Survey items
 
@@ -111,25 +111,24 @@ Companies that proactively manage their culture show:
 |Perseverance|People at [Company Name] continue to be productive during times of uncertainty or stress.|
 |Purpose-Better World|People at [Company Name] focus on making the world a better place.|
 
-## Should our Culture Survey be combined with other Glint survey programs?
+## Should a Culture Survey be combined with other Viva Glint survey programs?
 
-​​​Combining culture and engagement surveys isn't recommended. Length and competing core drivers are often hard for participants to manage. There is, however, an opportunity to measure culture in every stage of the employee lifecycle, from recruiting to exit.
+​​​Combining culture and engagement surveys isn't recommended. Length and competing core drivers are often hard for participants to manage. Instead, have an [Onboarding survey program](/../../viva/glint/setup/create-onboarding-exit-surveys) and [Exit survey program](/../../viva/glint/setup/exit.survey) to measure culture during the employee lifecycle.
 
-Within the Culture Survey, other outcomes can be determined if you choose to add more questions, such as:
-- Current culture
+Within the Culture Survey, you can add questions to measure other sentiments:
 - Safety
 - Innovation
 - Trust
 - Inclusiveness
 
-## Best Practice recommendations for cultural transformation
+## Impart cultural transformation
 
 - **Define, state, and role model your organization’s collective culture and values.**
 - **Align your desired culture with all aspects of the employee experience.** Reinforce culture across the employee lifecycle, including hiring, onboarding, development, performance practices, engagement, and exit. Connect the cultural insights.
 - **Ask employees about their cultural experience regularly.** Asking employees about their cultural experience annually to be sure that the desired culture is the one that employees are experiencing.
 - **Build trust by ensuring cultural consistency and alignment.** People learn by observation and repetition. A strong culture is one that is predictable.
 
-## Admins setting up a Viva Glint Culture survey
+## Set up a Viva Glint Culture Survey
 
 From the admin **configuration** dashboard:
 
