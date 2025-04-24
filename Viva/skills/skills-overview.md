@@ -1,10 +1,10 @@
 ---
-title: Overview of Skills
+title: Overview of People Skills
 ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 03/10/2025
+ms.date: 04/24/2025
 audience: admin
 ms.topic: overview
 ms.service: viva-learning
@@ -13,103 +13,109 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
 ms.localizationpriority: medium
-description: An introduction to Skills, an AI-powered service providing skills-based experiences.
+description: An introduction to People Skills, an AI-powered service providing skills-based experiences.
 ---
 
-# Overview of Skills
-
- Skills is an AI-powered service that delivers personalized skills-based experiences throughout supported Microsoft 365 and Viva applications for employees, business leaders, and HR. 
-
-It uses data from Microsoft 365 profiles and the [Microsoft Graph](/graph/overview) combined with skills from the [LinkedIn Skills Graph](https://engineering.linkedin.com/blog/2022/building-linkedin-s-skills-graph-to-power-a-skills-first-world) to predict a user’s skills and offer tailored skill suggestions to users. At the same time, Skills provides you with a better understanding of your organization’s current workforce skills distribution. Learn more about [Skills](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/introducing-ai-powered-skills-in-microsoft-viva-a-new-way-to/ba-p/3947844). 
+# Overview of People Skills
 
 
-If you’d like to learn more or apply for the Skills preview, contact your Microsoft representative. 
+People Skills is an AI-driven service that infers personalized skill profiles for your users mapped to a customizable, built-in taxonomy. This service provides a data layer that fuels the Skills agent, and enhances Microsoft 365 Copilot, Microsoft 365, and Viva services with contextualized information about the people in your organization.  
 
-> [!NOTE]
-> Skills is currently available only for private preview customers. The features described here are subject to change.
+People Skills:
 
-## Prerequisites 
-
-To help ensure a productive preview that enables Skills to meet your company's goals, the following are the requirements for private preview participation: 
-
-- Private preview must be deployed on a production tenant where users are spending at least 80% of their time on emails, documents, and other Microsoft 365 and Viva applications. 
-- More than 100 users who are licensed for either Viva Suite or Viva Learning.  
+- Equips leaders with critical workforce skill insights to prepare and accelerate their AI transformation.
+- Empowers employees with personalized skill profiles to help them connect with others and grow their careers.
 
 > [!NOTE]
-> Private preview is available only in English (en-US). 
+> People Skills starts general availability to Microsoft 365 Copilot and Viva Customers at Microsoft Build in May 2025. We'll update our documentation with steps to set up People Skills. 
 
+## Licensing  
 
-## Admin roles 
+People Skills comes with your Microsoft 365 Copilot or Viva Suite licenses. It doesn't need a separate license. The People Skills inference engine coverage includes all users in your organization company with an assigned Microsoft 365 Copilot or Viva license. Skills inferencing isn't included in the Viva Communications and Communities (C&C) offer.
 
-The following roles and permissions are required to set up Skills. Review the documentation for [assigning roles](/entra/identity/role-based-access-control/manage-roles-portal). 
-
-
-| Roles |  Permissions | 
-| - | - | 
-| Microsoft 365 Global Administrator | Microsoft 365 Global Administrator has global access to most management features and data across Microsoft online services. For Skills, the Microsoft 365 Global Administrator can configure and manage your organization’s skills library related settings from the Microsoft 365 admin center.| 
-| Knowledge Administrator | The Knowledge Administrator is assigned by the Microsoft 365 Global Administrator or the Privileged Role Administrator. The Knowledge Administrator can configure and your organization’s skills library and related settings from the Microsoft 365 admin center. | 
-
-## Sharing and management of skills data
-
-See [Set up Skills](skills-get-started.md) and [Manage your skills library](manage-skills-library.md) for information about how Skills data is shared and managed.
+Users with the Microsoft 365 base licenses also get access to an improved skills experience and can search skills from your taxonomy and manually add them using the Microsoft 365 Profile editor. 
 
 > [!NOTE]
-> When individual users confirm skills in their skills experience available at [Skills](https://skills.cloud.microsoft), those skills will be visible to people in your organization by default. Users can manage which skills will be seen across the various skills-related experiences in Microsoft 365, such as the [profile card](https://support.microsoft.com/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501), other Microsoft Viva products, and other connected applications, by toggling the visibility and learning options for each skill.
+> Customers with the base Skills Microsoft 365 plan don't receive AI-powered skill inferences or suggestions, but can manually curate their own skills. Customers with Microsoft 365 Copilot or Viva licenses get access to the full People Skills experience, including AI-powered skill inferences.
+
+Contact your Microsoft representative if you have questions on licensing or access.  
+
+## Where does People Skills data appear?
+
+People Skills data appears in Microsoft 365 for employees, leaders, and organizations:  
+
+- **Skills in the Microsoft 365 profile card**: Users can view and manage their skills with others directly from the profile card in Microsoft 365 to share their skills and learn more about others.
+- **Skills in Microsoft 365 Copilot**: If you use Microsoft 365 Copilot, shared skills surface in people related queries in Copilot to help form connections and find people with the skills you need.
+- **Skills in Org Explorer and People Companion**:  Tools like Org Explorer and People Companion help users quickly find the right person based on their shared skills data.
+- **Skills in Viva Learning:** Users can now manage skills they want to develop within Viva Learning, and receive personalized course recommendations based on those skills.
+- [**Skills in Copilot Analytics** (Viva Insights)](../viva/insights/org-team-insights/org-insights-copilot): The Skills landscape report allows organizational analysts to discover top skills in their workforce, assess their distribution across groups, identify potential gaps, and explore related skill insights.
+- **Skills for Leaders in Microsoft 365 Copilot**: Copilot enables leaders to ask targeted or broad questions about their team’s skills and receive instant, data-driven answers.  
+- **Skills Agent** (coming soon): The Skills agent helps employees and leaders explore, manage, and use organizational skills for personal growth and strategic planning. 
+
+People Skills AI inferencing and experiences are based on a user's Microsoft 365 Copilot, Microsoft 365, Office 365, and Viva plan. Read more about [licensing in People Skills](#licensing). 
 
 
-### Exporting skills
+## Inference engine 
 
- Users can export the skills displayed on their profile card by selecting the ellipsis that appears at the top of their own card and then **Export data**. This action exports all of the data shown on the profile card to a file on their local computer.
-
-:::image type="content" source="../media/skills/export-data.png" lightbox="../media/skills/export-data.png" alt-text="A screenshot of the Skills query view with a pic of a logged in user.":::
+The People Skills inference engine uses Microsoft 365 profile and activity signals from the Microsoft Graph to create personalized skill profiles for users in your organization. Profile and activity signals include documents, emails, chats, and meetings.
 
 
-## View existing profile skills 
-
-If a user added skills to their Microsoft 365 profile before joining the Skills private preview program, they won't see those skills on their Live Profile card during this current preview. 
-
-Provide this information to users who are accessing these skills. 
-
-1. Go to the profile editing page on your individual work SharePoint site. Replace `[tenant]` with the name of your tenant. 
-
-    `https://[tenant]-my.sharepoint.com/_layouts/15/editprofile.aspx?`
-
-    For example, at Microsoft, the URL for most people would be:  
-    `https://microsoft-my.sharepoint.com/_layouts/15/editprofile.aspx?` 
-
-For more information, see [URL considerations](#url-considerations).
-
-2. Under **Edit Details**, select the **Details** tab. You see your existing skills under the Skills heading. You can copy or delete skills from this location. 
+:::image type="content" source="../media/skills/skills-workflow-graphic.png" alt-text="A graphic showing the People Skills inferencing engine using collaboration, role data, AI, user-confirmed skills in an organizational context." lightbox="../media/skills/skills-workflow-graphic.png":::
 
 
- 
+**[Microsoft Graph](https://learn.microsoft.com/en-us/graph/overview) and AI Graph**: Includes data from user profiles, job titles, collaboration signals, and documents; and key phrases from emails, meetings, and documents.
+
+  - **Microsoft Skills Graph**: Provides a base skills taxonomy and semantic descriptions for skills 
+  - **Microsoft 365 User Profiles**: Offers information on job titles and top contacts. 
+  - **Custom data and Third-party systems**: Organizations can import their own custom skills or import existing skills data from third-party systems.  
+
+The inference engine uses the latest OpenAI LLM models and a proprietary inferencing approach with relevant Microsoft Graph data. The skill inferencing engine associates users with a representative set of skill names based on the sources available to People Skills to keep their profiles fresh and relevant. The inferred skills are based on the context of the source signals and inferencing methodologies. They aren't intended to be a comprehensive reflection of a person’s capabilities.
+
+The skill inferencing engine operates under following constraints: 
+
+- We currently only infer skills from Microsoft 365 sources. We don't use user activity in other line of business applications.  
+- People Skills uses large language models. The skills assigned to users are skills most closely matched in the taxonomy for the user profile and activity. For example, if a user creates a document on front end development, we might tag the user with front end development, web development, React, or Angular based on the closest content match.
+- Inferences are sometimes impacted by the name and description uploaded by customer administrators.
+
+- Read [AI transparency in People Skills](https://support.microsoft.com/en-us/office/ai-transparency-in-skills-c54f3ded-58bf-44dd-9fa1-6cbe49fba106) to learn how we use the inferencing data. 
+
+People Skills also provides a framework for tagging sensitive skills that administrators don't want the inference engine to capture. We continue to share more details on how to tag skills as AI-restricted. 
+
+
+## Manage where skills are shared and skills suggestions  
+
+
+As an admin, you can set privacy and visibility controls for users, groups, or the entire tenant to meet your organization's needs. People Skills provides access controls using Feature Access Management to ensure you comply with user privacy and local regulations.
+
+Skills inferencing controls are enabled by default, but you can let users opt in or out after setting up People Skills in your tenant. 
+
+- Admins can turn skills inferencing auto-on. Individual users can opt out. 
+- Admins can turn skills inferencing auto-off. Individual users can opt in.  
+- Admins can disable skills inferencing for their tenant.  
+
+Skills visibility controls whether users can see their colleagues’ skills on surfaces like the people card or in Copilot. All skills in a user's profile is shared and visible by default once you set up People Skills in your tenant. 
+
+- Admins can turn skills visibility auto-on. Individual users can opt out. 
+- Admins can turn skills visibility auto-off. Individual users can opt in.
+- Admins can disable skills visibility for their tenant.  
+
+:::image type="content" source="../media/skills/skills-user-privacy-settings.png" alt-text="A screenshot of the different ways a user can set privacy options for sharing People Skills." lightbox="../media/skills/skills-user-privacy-settings.png":::
+
+
+
 > [!NOTE]
-> To add skills to your current skills profile,  don’t use this SharePoint experience. Go to [Skills](https://skills.cloud.microsoft). 
+> We'll share instructions on managing skills inferencing and visibility controls before People Skills general availability.  
 
+## User Profile Application (UPA) Skills 
 
+If your organization depends on skills data that appears in About Me on the Microsoft 365 profile card and editor (formerly in Delve), or on the skills field in the UPA API or Graph API, those skills are hidden from the Microsoft 365 profile card and editor when you deploy People Skills, and replaced with this new experience. 
 
-  :::image type="content" source="../media/skills/skills-edit-details-details-tab.png" lightbox="../media/skills/skills-edit-details-details-tab.png" alt-text="A screenshot of the Skills edit details tab with fields where you can fill in information like past projects, skills, schools, birthdays, and interests":::
+People Skills migrates shared UPA user skills data to this new experience at a future date. 
 
+When you deploy People Skills, skills from these other sources continue to be accessible to your users to edit. They can edit using the SharePoint user profile editor and surface in some experiences, such as Microsoft 365 Copilot chat and people search. 
 
-### URL considerations 
+We'll update this article with more information on handing your requirements for existing dependencies. 
 
-If you don't see profile skills that previously appeared on your live profile card, there could be more characters in the URL for your individual work SharePoint site.
- 
-1. Go to your individual SharePoint site, which you can find using first part of the URL. Replace `[tenant]` with your tenant name:
-`https://[tenant]-my.sharepoint.com`
- 
-2. When your individual SharePoint page loads, check if the address contains other characters after the word SharePoint.  
+## Responsible AI 
 
-3. Append the address you get with `/_layouts/15/editprofile.aspx?`  
-
-    This address takes you to the correct editing experience where you see your existing profile skills:
-    `[address that resolved in step 2]/_layouts/15/editprofile.aspx?`
-
-Reach out to your IT admin for more guidance. 
-
-
-### Next steps
-
-[Set up Skills](skills-get-started.md)
-
-[Manage your skills library](manage-skills-library.md)
+Read about [AI transparency in People Skills](https://support.microsoft.com/en-us/office/ai-transparency-in-skills-c54f3ded-58bf-44dd-9fa1-6cbe49fba106).
