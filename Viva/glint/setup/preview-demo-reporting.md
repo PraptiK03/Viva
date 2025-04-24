@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/17/2025
+ms.date: 04/24/2025
 ---
 
 # Preview reporting data in Viva Glint before launch
@@ -57,6 +57,9 @@ Use the following steps to generate a preview based on your employee data, surve
 ## How do I see my preview data after it generates?
 
 Your demo data is viewable from the program listing on your admin dashboard. It shows in the list of your programs with the name of the program preceded by "Demo Data." To leave the program and remove the demo banner from the top of your dashboard, use the **Switch Program** dropdown menu.
+
+> [!NOTE]
+> Demo data dashboards always use [Team Summary](managers-use-team-summary-dashboard.md) to display results, even when admins select a [different report template as the dashboard default](reporting-setup.md#assign-permissions-to-view-feedback).
 
 :::image type="content" source="../../media/glint/setup/switch-programs.png" alt-text="Screenshot of how the Demo Data for Engagement program shows on the admin dashboard.":::
 
