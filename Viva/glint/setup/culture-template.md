@@ -19,13 +19,13 @@ ms.date: 4/24/2025
 
 # Use the Viva Glint Culture Survey template
 
-A Culture Survey program is designed to assess and measure the beliefs, values, norms, and overall work culture of an organization. It helps companies understand the attitudes and perceptions of their employees, identify areas for improvement, and align the culture with the company’s strategic goals. It can foster a positive work environment, enhance employee satisfaction and retention, and ultimately contribute to the organization’s success. Culture is driven by mindsets, values, and shared beliefs. Culture influences how decisions are made and how people behave. It shapes experiences and determines how work gets done.
+A Culture Survey program is designed to assess and measure the beliefs, values, norms, and overall work culture of an organization. It helps companies understand the attitudes and perceptions of their employees, identify areas for improvement, and align the culture with the company’s strategic goals. It can foster a positive work environment, enhance employee satisfaction and retention, and ultimately contribute to the organization’s success. Mindsets, values, and shared beliefs drive culture. Culture influences how decisions are made and how people behave. It shapes experiences and determines how work gets done.
 
 Glint offers a Culture Survey template as part of its library of recurring engagement surveys. The Glint Culture Survey measures the facets of culture Viva People Science knows to be important predictors of business performance and engagement. The Culture Survey is available in all languages supported by Glint.
 
 ## How does Glint measure culture?
 
-Glint focuses on measuring observable group behaviors that impact important performance outcomes. This approach is the most valid way of measuring organizational culture. It's important to measure culture by asking about the group, rather than about an individual. Culture is a group phenomenon which is created and reinforced through the interactions of many. By rating various group behaviors, rather than asking individuals what they think or how they feel, the survey items are more actionable.
+Glint focuses on measuring observable group behaviors that impact important performance outcomes. This approach is the most valid way of measuring organizational culture. It's important to measure culture by asking about the group, rather than about an individual. Culture is a group phenomenon which is created and reinforced through the interactions of many. Rating various group sentiments, rather than asking individuals what they think or how they feel, makes surveys more actionable.
 
 ## Key outcomes and goals of a culture survey program
 
@@ -79,7 +79,7 @@ Companies that proactively manage their culture show:
 |18|Improve| What are some words to describe the aspects of your company's culture that can be improved upon?|
 |19|Strengths|What are some words to describe the aspects of your company's culture that you see as strengths?|
 
-### Additional culture drivers to consider
+### Other culture drivers to consider
 
 |Item name|Item text|
 |----------|---------|
