@@ -63,7 +63,7 @@ items:
             items:     
                - name: Program types, surveys, and templates
                  href: start/program-types-templates.md
-               - name: People Science surveys and items
+               - name: How Microsoft People Science impacts Glint programs
                  href: setup/template-research.md
                - name: Monthly deployment dates
                  href: setup/monthly-release-dates.md
@@ -198,6 +198,8 @@ items:
         items: 
             - name: Import historical data 
               href: setup/import-historical-response-data.md
+            - name: Import corrected responses
+              href: setup/edit-responses.md
             - name: Update data in reports
               href: setup/update-glint-reporting-data.md
             - name: Manage data with Data Apps
