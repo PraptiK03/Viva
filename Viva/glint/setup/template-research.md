@@ -19,7 +19,7 @@ ms.date: 04/24/2025
 
 # How Microsoft People Science drives Viva Glint programs
 
-Microsoft People Science analyzed over 350 million employee survey responses to determine the employee experiences that were most predictive of engagement - happiness at work and willingness to recommend the company. We uncover key driver themes and use these themes to build survey templates. The result of our examination of the focus of engagement is a framework called **People Success Elements. The six elements summarize the fundamental needs and expectations that are most critical to a person’s holistic life experience - not only their work experience - and that best shape an environment for high engagement and productivity.
+Microsoft People Science analyzed over 350 million employee survey responses to determine the employee experiences that were most predictive of engagement - happiness at work and willingness to recommend the company. We uncover key driver themes and use these themes to build survey templates. The result of our examination of the focus of engagement is a framework called **People Success Elements.** The six elements summarize the fundamental needs and expectations that are most critical to a person’s holistic life experience - not only their work experience - and that best shape an environment for high engagement and productivity.
 
 ## People Success Elements
 
