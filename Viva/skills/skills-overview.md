@@ -60,7 +60,7 @@ People Skills AI inferencing and experiences are based on a user's Microsoft 365
 The People Skills inference engine uses Microsoft 365 profile and activity signals from the Microsoft Graph to create personalized skill profiles for users in your organization. Profile and activity signals include documents, emails, chats, and meetings.
 
 
-:::image type="content" source="../media/skills/skills-workflow-graphic.png" alt-text="A graphic showing the People Skills inferencing engine using collaboration, role data, AI, user-confirmed skills in an organizational context." lightbox="../media/skills/skills-workflow-graphic.png":::
+:::image type="content" source="../media/skills/skills-workflow-graphic.png" alt-text="Diagram showing the People Skills inferencing engine using collaboration, role data, AI, user-confirmed skills in an organizational context." lightbox="../media/skills/skills-workflow-graphic.png":::
 
 
 **[Microsoft Graph](/graph/overview) and AI Graph**: Includes data from user profiles, job titles, collaboration signals, and documents; and key phrases from emails, meetings, and documents.
