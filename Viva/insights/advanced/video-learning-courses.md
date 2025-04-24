@@ -1,5 +1,5 @@
 ---
-ms.date: 10/22/2024
+ms.date: 4/21/2025
 title: Viva Insights video learning courses
 description: Get familiar with setting up advanced insights, queries, partitions, and more through these video trainings.
 author: zachminers
@@ -29,6 +29,8 @@ Use the video resources below to help you get started. Each link points to a ded
 ## Courses for analysts - Power BI templates
 
 [Introduction to Power BI templates](../advanced/analyst/templates/introduction-to-templates.md)
+
+[Microsoft 365 Copilot adoption report - Set up analysis](./analyst/templates/microsoft-365-copilot-adoption.md#report-setup)
 
 ## Courses for analysts - Overview and queries
 

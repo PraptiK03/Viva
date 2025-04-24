@@ -15,7 +15,7 @@ ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA approved
-ms.date: 04/10/2025
+ms.date: 04/23/2025
 ---
 
 # Communicate Microsoft Viva Glint feedback results: email templates  
@@ -61,7 +61,7 @@ Dear [First name],
 
 Thank you for making the [Survey name] survey a success. This survey is now closed. At [Company name], we believe that acting on feedback from our people is essential to work toward continuously improving ourselves and achieving our mission of [insert mission]. 
 
-Approximately [#/%] of all [Company name] employees provided valuable input through the survey. Results are coming soon! Then work with your team to plans and acting in response to your team's feedback. Be prepared to share your ideas about solutions that can fuel progress over time. 
+Approximately [#/%] of all [Company name] employees provided valuable input through the survey. Results are coming soon! Then work with your team on plans and action taking in response to your team's feedback. Be prepared to share your ideas about solutions that can fuel progress over time. 
 
 Thank you for your commitment to making [Company name] a place where people can thrive and do their best work. 
 

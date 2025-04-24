@@ -37,7 +37,7 @@ The types of insights and features provided by the dashboard vary depending on t
 ## Feature availability based on licenses
 
 >[!Note]
->A minimum of 10 assigned Viva Insights licenses, or 50 assigned Copilot licenses, is required for data processing to kick off. Data processing takes an estimated three to five days following license assignment.
+>A minimum of 10 assigned Viva Insights licenses, or 50 assigned Copilot licenses, is required for data processing to kick off. Data processing takes up to seven days an following license assignment.
 
 | Total number of Copilot assigned licenses in tenant | Viva Insights assigned license in the tenant (Yes or No) | Availability of features in Microsoft Copilot Dashboard  |
 |---|---|---|
@@ -571,10 +571,10 @@ Any employee who has been assigned a Copilot license, including the following se
 * Intelligent Search
 
 **Q8. After I assign new Viva Insights or Copilot licenses for the first time, how long will it take for the Copilot Dashboard to turn on with the data?**
-To start data processing, you'll need to assign at least 10 Viva Insights licenses or at least 50 Copilot licenses. Once you do that, the process could take up to five days.
+To start data processing, you'll need to assign at least 10 Viva Insights licenses or at least 50 Copilot licenses. Once you do that, the process could take up to seven days.
 
 **Q9. After the dashboard is turned on with the data, if I subsequently assign *new* Copilot licenses, how long will it take for the new data to reflect in the dashboard?**
-Once you assign a new Copilot license to your employees, it will take up to five days to update and include the employees with the new assigned license.
+Once you assign a new Copilot license to your employees, it will take up to seven days to update and include the employees with the new assigned license.
 
 **Q10. If I assign new Copilot licenses to people, when will I see their data in the dashboard?**
 Once you assign a new Copilot license to your employees, it will take up to one week to update and include the employees with the new assigned license.
