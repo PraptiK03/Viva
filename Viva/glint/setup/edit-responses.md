@@ -187,9 +187,18 @@ To complete your import of edited responses, access Viva Glint’s Advanced conf
    1. **User File**: Select Choose File and browse to select your User File, which is your list of exported survey cycle users. 
    1. **Survey Cycle**: Select Load Values and choose a survey date from the dropdown menu. 
    1. **Extra Options menu**: Leave collapsed, not applicable.
-   1. **Manual Mode**: Switch this toggle switched to On. 
-1. With **Manual Mode** set to **On**, External Import breaks out into 4 separate sections. Skip sections 1-3 and go to **Step 4: Raw Score Import**. 
-1. Select **Run Step 4**. 
+  
+      :::image type="content" source="../../media/glint/setup/append-data-initial-selections.png" alt-text="Screenshot of Viva Glint Advanced configuration external import with selections made to append a survey cycle before an admin enables manual mode."lightbox="../../media/glint/setup/append-data-initial-selections.png":::
+      
+  1.  **Manual Mode**: Switch this toggle switched to On. 
+1. With **Manual Mode** set to **On**, External Import breaks out into four separate sections, but all selections made in previous steps are retained.
+
+   :::image type="content" source="../../media/glint/setup/append-data-manual-mode.png" alt-text="Screenshot of Viva Glint Advanced configuration external import with selections made to append a survey cycle manual mode enabled."lightbox="../../media/glint/setup/append-data-manual-mode.png":::
+   
+1. Skip sections 1-3 and go to **Step 4: Raw Score Import** and select **Run Step 4**.
+   
+   :::image type="content" source="../../media/glint/setup/append-cycle-step-4.png" alt-text="Screenshot of Viva Glint Advanced configuration external import in manual mode on step 4 to import raw scores."lightbox="../../media/glint/setup/append-cycle-step-4.png":::
+   
 1. When new response values successfully load, the Raw Score Import section turns green.
 
    :::image type="content" source="../../media/glint/setup/response-edit-success.png" alt-text="Screenshot of green success message when editing Viva Glint response edits are successful."lightbox="../../media/glint/setup/response-edit-success.png":::
@@ -207,6 +216,14 @@ To complete your import of edited responses, access Viva Glint’s Advanced conf
 
 > [!IMPORTANT]
 > For updates that involve several users (more than 5,000), updates to the Viva Glint dashboard, reports, and comments can take up to 24 hours to complete.
+
+### Troubleshoot
+
+Use the following guidance to troubleshoot common errors you may encounter when importing corrected responses:
+
+- [Duplicate entry](/viva/troubleshoot/glint/historical-import/import-error-duplicate-entry?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
+- [Missing required field](/viva/troubleshoot/glint/historical-import/import-error-missing-required-field?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
+-[User isn't in client](/viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 
 ## Confirm updated reports
 
