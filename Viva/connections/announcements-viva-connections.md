@@ -34,7 +34,6 @@ Announcements allow you to create, manage, and schedule time-sensitive messages 
 > - You must have edit permissions or higher to your organization’s SharePoint home site or Viva Connections to author and manage announcements.
 > - Announcements are unavailable in GCC, GCC High, and DoD environments. For more information, see the [list of platform features in Viva Connections](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#platform-features).
 
-
 ## When to use announcements
 
 Announcements are the best way to communicate targeted, time-sensitive information in the Connections app. Some examples include:
