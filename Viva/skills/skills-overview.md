@@ -63,7 +63,7 @@ The People Skills inference engine uses Microsoft 365 profile and activity signa
 :::image type="content" source="../media/skills/skills-workflow-graphic.png" alt-text="A graphic showing the People Skills inferencing engine using collaboration, role data, AI, user-confirmed skills in an organizational context." lightbox="../media/skills/skills-workflow-graphic.png":::
 
 
-**[Microsoft Graph](https://learn.microsoft.com/en-us/graph/overview) and AI Graph**: Includes data from user profiles, job titles, collaboration signals, and documents; and key phrases from emails, meetings, and documents.
+**[Microsoft Graph](https://learn.microsoft.com/graph/overview) and AI Graph**: Includes data from user profiles, job titles, collaboration signals, and documents; and key phrases from emails, meetings, and documents.
 
   - **Microsoft Skills Graph**: Provides a base skills taxonomy and semantic descriptions for skills 
   - **Microsoft 365 User Profiles**: Offers information on job titles and top contacts. 
@@ -77,7 +77,7 @@ The skill inferencing engine operates under following constraints:
 - People Skills uses large language models. The skills assigned to users are skills most closely matched in the taxonomy for the user profile and activity. For example, if a user creates a document on front end development, we might tag the user with front end development, web development, React, or Angular based on the closest content match.
 - Inferences are sometimes impacted by the name and description uploaded by customer administrators.
 
-- Read [AI transparency in People Skills](https://support.microsoft.com/en-us/office/ai-transparency-in-skills-c54f3ded-58bf-44dd-9fa1-6cbe49fba106) to learn how we use the inferencing data. 
+- Read [AI transparency in People Skills](https://support.microsoft.com/office/ai-transparency-in-skills-c54f3ded-58bf-44dd-9fa1-6cbe49fba106) to learn how we use the inferencing data. 
 
 People Skills also provides a framework for tagging sensitive skills that administrators don't want the inference engine to capture. We continue to share more details on how to tag skills as AI-restricted. 
 
@@ -118,4 +118,4 @@ We'll update this article with more information on handing your requirements for
 
 ## Responsible AI 
 
-Read about [AI transparency in People Skills](https://support.microsoft.com/en-us/office/ai-transparency-in-skills-c54f3ded-58bf-44dd-9fa1-6cbe49fba106).
+Read about [AI transparency in People Skills](https://support.microsoft.com/office/ai-transparency-in-skills-c54f3ded-58bf-44dd-9fa1-6cbe49fba106).
