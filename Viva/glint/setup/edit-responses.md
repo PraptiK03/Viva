@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/23/2025
+ms.date: 04/24/2025
 ---
 
 # Correct Viva Glint survey responses
@@ -65,9 +65,11 @@ If your organization finds that responses need to be edited due to survey item s
 
 Export reports with items scores as they are today, with favorability breakdowns for rated items. From the Team Summary dashboard, select the impacted question and choose **Export** from the question details page.
 
+Keep these reports as a record of the original scores and use them after editing responses to [compare scores before and after](#confirm-updated-reports) to confirm the update.
+
 ### Prepare data
 
-The Advanced configuration import to edit responses required two files:
+The Advanced configuration import to edit responses requires two files:
 
 - A raw score file that contains updated response values
 - A user file that includes users invited to give feedback
@@ -208,7 +210,7 @@ To complete your import of edited responses, access Viva Glint’s Advanced conf
 
 ## Confirm updated reports
 
-After successfully importing update question responses, go to your Viva Glint Dashboard and Reports for the survey items that you edited and confirm updates. 
+After successfully importing updated question responses, go to your Viva Glint Dashboard and Reports for the survey items that you edited and confirm updates based on [reports pulled before the response edit](#export-reports-with-current-scores). 
 
 For rated question response updates, review: 
 
