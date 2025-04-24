@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/21/2025
+ms.date: 04/24/2025
 ---
 
 # Administrator enablement for Microsoft 365 Copilot in Viva Glint
@@ -24,6 +24,7 @@ ms.date: 04/21/2025
 Prerequisites to enabling Microsoft 365 Copilot in Viva Glint:
 - You have at least one Recurring or Ad hoc survey administered or closed on the Viva Glint platform
 - Your dashboard default language is set to English
+- View Comments is enabled on the Reporting tab in Program Summary
 
 Admins enable Copilot in Viva Glint. Microsoft privacy policies prohibit Copilot in Viva Glint from being enabled by default for any User Roles. 
 
@@ -126,7 +127,7 @@ Copilot in Viva Glint uses HRIS or demographic attributes that are imported to V
 
 - [Use these tips to understand and act on employee feedback quickly](/viva/glint/setup/copilot-managers?branch=main#copilot-in-viva-glint-quick-tips-for-managers).
 
-- [Use these tips to write prompts for Copilot in Viva Glint](/viva/glint/setup/copilot-manager-quick-guide?branch=main#quick-tips-for-copilot-prompts).
+- Need help writing prompts? [Use these tips to get started writing prompts for Copilot in Viva Glint](/viva/glint/setup/copilot-manager-quick-guide?branch=main#quick-tips-for-copilot-prompts).
 
 ### Ask open-ended questions
 
