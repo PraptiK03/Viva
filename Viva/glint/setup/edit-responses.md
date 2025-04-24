@@ -182,9 +182,9 @@ To complete your import of edited responses, access Viva Glint’s Advanced conf
    1. **Are you looking to append data to a survey cycle?**: Switch this toggle switched to Yes. 
    1. **Survey Name**: Select your survey from the dropdown list. 
    1. **Exception Date**: Leave blank, your survey already has a start date. 
-   1. **Raw Score File**: Select Choose File and browse to select your Raw Score File. 
+   1. **Raw Score File**: Select Choose File and browse to select your Raw Score File, which is your file of edited response values. 
    1. **New Distribution List Name**: Leave blank. 
-   1. **User File**: Select Choose File and browse to select your User File. 
+   1. **User File**: Select Choose File and browse to select your User File, which is your list of exported survey cycle users. 
    1. **Survey Cycle**: Select Load Values and choose a survey date from the dropdown menu. 
    1. **Extra Options menu**: Leave collapsed, not applicable.
    1. **Manual Mode**: Switch this toggle switched to On. 
