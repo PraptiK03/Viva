@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/23/2025
+ms.date: 04/24/2025
 ---
 
 # Correct Viva Glint survey responses
 
-Microsoft Viva Glint Administrators can edit survey responses for closed survey cycles if question response data doesn't appear as expected. Glint's Advanced configuration: External Import feature includes the option to append survey data after a survey closes for situations where response options were misconfigured. 
+Microsoft Viva Glint Administrators can edit survey responses for closed survey cycles if question response data doesn't appear as expected. Viva Glint's Advanced configuration: External Import feature includes the option to append survey data after a survey closes for situations where response options were misconfigured. 
 
 > [!NOTE]
 > Preparing edited response data and importing to Viva Glint is complex. Consider [excluding the question from User Roles' reporting views](reporting-setup.md#set-up-question-reporting-access) and creating a new, correct question for future surveys.
@@ -65,9 +65,11 @@ If your organization finds that responses need to be edited due to survey item s
 
 Export reports with items scores as they are today, with favorability breakdowns for rated items. From the Team Summary dashboard, select the impacted question and choose **Export** from the question details page.
 
+Keep these reports as a record of the original scores and use them after editing responses to [compare scores before and after](#confirm-updated-reports) to confirm the update.
+
 ### Prepare data
 
-The Advanced configuration import to edit responses required two files:
+The Advanced configuration import to edit responses requires two files:
 
 - A raw score file that contains updated response values
 - A user file that includes users invited to give feedback
@@ -172,7 +174,7 @@ To complete your import of edited responses, access Viva Glint’s Advanced conf
 - [Advanced Configuration access is enabled](understand-advanced-configuration.md#grant-user-access-to-advanced-configuration) on your user profile
 
 > [!CAUTION]
-> Your Glint survey program must be in an approved state while you import edited survey data and while reports update. Ensure that your survey is approved before continuing.
+> Your Viva Glint survey program must be in an approved state while you import edited survey data and while reports update. Ensure that your survey is approved before continuing.
 
 1. From your admin dashboard, select the **Configuration** symbol, then in **Service configuration** choose **Advanced configuration**. 
 1. In the menu on the left, select **External Import**. 
@@ -180,14 +182,23 @@ To complete your import of edited responses, access Viva Glint’s Advanced conf
    1. **Are you looking to append data to a survey cycle?**: Switch this toggle switched to Yes. 
    1. **Survey Name**: Select your survey from the dropdown list. 
    1. **Exception Date**: Leave blank, your survey already has a start date. 
-   1. **Raw Score File**: Select Choose File and browse to select your Raw Score File. 
+   1. **Raw Score File**: Select Choose File and browse to select your Raw Score File, which is your file of edited response values. 
    1. **New Distribution List Name**: Leave blank. 
-   1. **User File**: Select Choose File and browse to select your User File. 
+   1. **User File**: Select Choose File and browse to select your User File, which is your list of exported survey cycle users. 
    1. **Survey Cycle**: Select Load Values and choose a survey date from the dropdown menu. 
    1. **Extra Options menu**: Leave collapsed, not applicable.
-   1. **Manual Mode**: Switch this toggle switched to On. 
-1. With **Manual Mode** set to **On**, External Import breaks out into 4 separate sections. Skip sections 1-3 and go to **Step 4: Raw Score Import**. 
-1. Select **Run Step 4**. 
+  
+      :::image type="content" source="../../media/glint/setup/append-data-initial-selections.png" alt-text="Screenshot of Viva Glint Advanced configuration external import with selections made to append a survey cycle before an admin enables manual mode."lightbox="../../media/glint/setup/append-data-initial-selections.png":::
+
+   1.  **Manual Mode**: Switch this toggle switched to On. 
+1. With **Manual Mode** set to **On**, External Import breaks out into four separate sections, but all selections made in previous steps are retained.
+
+   :::image type="content" source="../../media/glint/setup/append-data-manual-mode.png" alt-text="Screenshot of Viva Glint Advanced configuration external import with selections made to append a survey cycle manual mode enabled."lightbox="../../media/glint/setup/append-data-manual-mode.png":::
+   
+1. Skip sections 1-3 and go to **Step 4: Raw Score Import** and select **Run Step 4**.
+   
+   :::image type="content" source="../../media/glint/setup/append-cycle-step-4.png" alt-text="Screenshot of Viva Glint Advanced configuration external import in manual mode on step 4 to import raw scores."lightbox="../../media/glint/setup/append-cycle-step-4.png":::
+   
 1. When new response values successfully load, the Raw Score Import section turns green.
 
    :::image type="content" source="../../media/glint/setup/response-edit-success.png" alt-text="Screenshot of green success message when editing Viva Glint response edits are successful."lightbox="../../media/glint/setup/response-edit-success.png":::
@@ -206,9 +217,17 @@ To complete your import of edited responses, access Viva Glint’s Advanced conf
 > [!IMPORTANT]
 > For updates that involve several users (more than 5,000), updates to the Viva Glint dashboard, reports, and comments can take up to 24 hours to complete.
 
+### Troubleshoot
+
+Use the following guidance to troubleshoot common errors you may encounter when importing corrected responses:
+
+- [Duplicate entry](/viva/troubleshoot/glint/historical-import/import-error-duplicate-entry?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
+- [Missing required field](/viva/troubleshoot/glint/historical-import/import-error-missing-required-field?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
+- [User isn't in client](/viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
+
 ## Confirm updated reports
 
-After successfully importing update question responses, go to your Viva Glint Dashboard and Reports for the survey items that you edited and confirm updates. 
+After successfully importing updated question responses, go to your Viva Glint Dashboard and Reports for the survey items that you edited and confirm updates based on [reports pulled before the response edit](#export-reports-with-current-scores). 
 
 For rated question response updates, review: 
 
