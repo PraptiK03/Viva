@@ -48,7 +48,7 @@ People Skills data appears in Microsoft 365 for employees, leaders, and organiza
 - **Skills in Microsoft 365 Copilot**: If you use Microsoft 365 Copilot, shared skills surface in people related queries in Copilot to help form connections and find people with the skills you need.
 - **Skills in Org Explorer and People Companion**:  Tools like Org Explorer and People Companion help users quickly find the right person based on their shared skills data.
 - **Skills in Viva Learning:** Users can now manage skills they want to develop within Viva Learning, and receive personalized course recommendations based on those skills.
-- [**Skills in Copilot Analytics** (Viva Insights)](../viva/insights/org-team-insights/org-insights-copilot): The Skills landscape report allows organizational analysts to discover top skills in their workforce, assess their distribution across groups, identify potential gaps, and explore related skill insights.
+- [**Skills in Copilot Analytics** (Viva Insights)](../viva/insights/org-team-insights/org-insights-copilot.md): The Skills landscape report allows organizational analysts to discover top skills in their workforce, assess their distribution across groups, identify potential gaps, and explore related skill insights.
 - **Skills for Leaders in Microsoft 365 Copilot**: Copilot enables leaders to ask targeted or broad questions about their team’s skills and receive instant, data-driven answers.  
 - **Skills Agent** (coming soon): The Skills agent helps employees and leaders explore, manage, and use organizational skills for personal growth and strategic planning. 
 
@@ -63,7 +63,7 @@ The People Skills inference engine uses Microsoft 365 profile and activity signa
 :::image type="content" source="../media/skills/skills-workflow-graphic.png" alt-text="A graphic showing the People Skills inferencing engine using collaboration, role data, AI, user-confirmed skills in an organizational context." lightbox="../media/skills/skills-workflow-graphic.png":::
 
 
-**[Microsoft Graph](https://learn.microsoft.com/graph/overview) and AI Graph**: Includes data from user profiles, job titles, collaboration signals, and documents; and key phrases from emails, meetings, and documents.
+**[Microsoft Graph](../graph/overview.md) and AI Graph**: Includes data from user profiles, job titles, collaboration signals, and documents; and key phrases from emails, meetings, and documents.
 
   - **Microsoft Skills Graph**: Provides a base skills taxonomy and semantic descriptions for skills 
   - **Microsoft 365 User Profiles**: Offers information on job titles and top contacts. 
