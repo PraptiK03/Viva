@@ -79,7 +79,7 @@ Viva Glint offers prescribed survey templates and a blank template option for ea
 
 Customize our email templates and share them during your Viva Glint program design phase. Use these templates and tips to introduce Viva Glint programs and goals to your organization and stakeholders:
 
-|Sugges Send time prior to survey launch| Email subject/link to template|Description|
+|Suggested Send time before survey launch| Email subject/link to template|Description|
 |-----------|-----------|----------------|
 |6 weeks |[Introduce Microsoft Viva Glint to all senior leadership](/viva/glint/start/introductory-emails#email-template-1-introduce-microsoft-viva-glint-to-all-senior-leadership)|Introduce Microsoft Viva Glint, define roles and responsibilities|
 |6 weeks |[Invitation for Vision and Strategy planning for all stakeholders](/../../viva/glint/start/introductory-emails#email-template-2-invitation-for-vision-and-strategy-planning-for-all-stakeholders)|Involve your stakeholders in your Viva Glint program design|
