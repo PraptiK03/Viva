@@ -31,7 +31,7 @@ The experiences that drive engagement look different from one company to another
 |:-------------|:-----------|
 |Purpose|Employees feeling a sense of purpose are 120% more likely to recommend their company as a great place to work.|
 |Clarity|54% of employees lacking role clarity reported burnout in 2021, compared with 38% of employees with role clarity.|
-|Growth|Employees who see opportunities to grow are three times more likely to say they'll remain with the company in two years.|
+|Growth|Employees who see opportunities to grow are three times more likely to say they plan to be working at the company in two years.|
 |Empowerment| Employees empowered at work are 2.4 times more likely to be happy at work.|
 |Connection| Employees with a strong sense of belonging are six times more likely to be engaged.|
 |Wellbeing| Employees who feel cared for at work are over three times as likely to be happy at work and recommend working for their organization, an increase of over 35% since 2020. Flexible work arrangements, inclusive workplaces, and work-life balance are the fastest growing priorities for job candidates since the COVID-19 pandemic began.|
