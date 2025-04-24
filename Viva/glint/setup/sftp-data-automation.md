@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/04/2025
+ms.date: 04/22/2025
 ---
 
 # Understand Viva Glint SFTP and data automation
@@ -54,6 +54,7 @@ In your SFTP account, there are two (2) directories that Viva Glint monitors for
 
 > [!NOTE]
 > - Files are automatically deleted from SFTP after 48 hours.
+> - Files uploaded to Viva Glint SFTP have no size limits.
 > - Files that cause warnings and errors can be downloaded from the **Activity Audit Log** in **General Settings** for 28 days after import.
 
 > [!TIP]

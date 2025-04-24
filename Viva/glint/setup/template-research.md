@@ -1,6 +1,6 @@
 ---
-title: Viva People Science survey templates and items
-description: Over 350 million employee survey responses contribute to the research on what is important to the happiness and success of employees at work. 
+title: How Microsoft People Science drives Viva Glint programs
+description: Over 350 million employee survey responses contribute to the Microsoft People Science research on what is important to the happiness and success of employees at work. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -14,33 +14,36 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/06/2025
+ms.date: 04/24/2025
 ---
 
-# Viva People Science survey templates and items
+# How Microsoft People Science drives Viva Glint programs
 
-Microsoft Viva Glint analyzed over 350 million employee survey responses to determine the employee experiences that were most predictive of engagement - happiness at work and willingness to recommend the company. We uncover key driver themes and use these themes to build survey templates. 
-
-The result of our examination of the focus of engagement is a modernized framework (early 2022) called **People Success Elements. These elements are six constructs**: Purpose, Clarity, Growth, Empowerment, Connection, and Wellbeing. The constructs summarize the fundamental needs and expectations that are most critical to a person’s holistic life experience - not only their work experience - and that best shape an environment for high engagement.
+Microsoft People Science analyzed over 350 million employee survey responses to determine the employee experiences that were most predictive of engagement - happiness at work and willingness to recommend the company. We uncover key driver themes and use these themes to build survey templates. The result of our examination of the focus of engagement is a framework called **People Success Elements.** The six elements summarize the fundamental needs and expectations that are most critical to a person’s holistic life experience - not only their work experience - and that best shape an environment for high engagement and productivity.
 
 ## People Success Elements
 
-In addition to evidence of a strong linkage between the People Success Elements and engagement, Viva People Science also finds relationships with other important outcomes that become part of our survey templates. Key findings include:
+The experiences that drive engagement look different from one company to another. Microsoft People Science research identified six core elements which capture people's needs and expectations for an exceptional employee experience. These **People Success Elements** help you assess and foster the experiences that matter most to your people. They help build thriving cultures, develop people-centric leaders, and engaged employees. 
+
+:::image type="content" source="../../media/glint/start/six-elements.png" alt-text="Screenshot of the People Success Elements." lightbox="../../media/glint/start/six-elements.png":::
 
 |People Success Element|Relationship to employee engagement at work|
 |:-------------|:-----------|
 |Purpose|Employees feeling a sense of purpose are 120% more likely to recommend their company as a great place to work.|
 |Clarity|54% of employees lacking role clarity reported burnout in 2021, compared with 38% of employees with role clarity.|
-|Growth|Employees who see opportunities to grow are three times more likely to say they'll remain with the company in two years.|
+|Growth|Employees who see opportunities to grow are three times more likely to say they plan to be working at the company in two years.|
 |Empowerment| Employees empowered at work are 2.4 times more likely to be happy at work.|
 |Connection| Employees with a strong sense of belonging are six times more likely to be engaged.|
 |Wellbeing| Employees who feel cared for at work are over three times as likely to be happy at work and recommend working for their organization, an increase of over 35% since 2020. Flexible work arrangements, inclusive workplaces, and work-life balance are the fastest growing priorities for job candidates since the COVID-19 pandemic began.|
 
-**[Read The Elements of People Success blog](https://techcommunity.microsoft.com/t5/viva-glint-blog/the-elements-of-people-success/ba-p/3791765).** Using Viva Glint solutions, our customers gain powerful insights on what drives employee engagement and can use those insights to build towards their own People Success culture.
+**[Read The Elements of People Success blog](https://techcommunity.microsoft.com/t5/viva-glint-blog/the-elements-of-people-success/ba-p/3791765).** 
+
+>[!IMPORTANT]
+>In addition to a strong linkage between the People Success Elements and engagement and productivity, Microsoft People Science also finds relationships with other important outcomes that become part of our survey templates. 
 
 ## Terminology
 
-This terminology helps you understand the Microsoft Viva People Science methodology for building your survey:
+This terminology helps you understand the Microsoft People Science methodology for building your survey:
 
 |Term |Definition|
 |-----|----------|
