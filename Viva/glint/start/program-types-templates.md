@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 4/23/2025
+ms.date: 4/24/2025
 ---
 
 # Viva Glint programs, survey types, and templates 
@@ -43,15 +43,15 @@ organizational development.
 
 Admins set the cadence for Viva Glint programs. Surveys can run simultaneously, when appropriate. [Learn about survey fatigue](/../../viva/glint/setup/customize-program#viva-glint-program-and-cycle-cadence).
 
-## Align your organization to your Viva Glint programs
+## Align your organizational goals to your Viva Glint programs
 
 Build your holistic employee listening strategy and design a program that reflects the needs of your organization strategically. Take time to align with your internal stakeholders.
 
 ### [Use the Viva Holistic Listening Vision & Strategy Discovery Workbook](/../../viva/solutions/holistic-listening-discovery-workbook)
 
-## Consider the People Success Elements
+## Consider the Microsoft People Success Elements
 
-The experiences that drive engagement look different from one company to another. Microsoft Viva People Science research identified six core elements which capture people's needs and expectations for an exceptional employee experience. These **People Success Elements** help you assess and foster the experiences that matter most to your people. They help build thriving cultures, develop people-centric leaders, and engaged employees. The framework provides a modern, accurate way to measure people’s evolving need for engagement and success in their work. 
+Microsoft People Science research identified six core elements which capture people's needs and expectations for an exceptional employee experience. Learn about our [**People Success Elements**](/../../viva/glint/setup/template-research#people-success-elements).
 
 :::image type="content" source="../../media/glint/start/six-elements.png" alt-text="Screenshot of the People Success Elements." lightbox="../../media/glint/start/six-elements.png":::
 
@@ -79,15 +79,19 @@ Viva Glint offers prescribed survey templates and a blank template option for ea
 
 Customize our email templates and share them during your Viva Glint program design phase. Use these templates and tips to introduce Viva Glint programs and goals to your organization and stakeholders:
 
-|Suggested email send timing| Email subject/link to template|Description|
+|Sugges Send time prior to survey launch| Email subject/link to template|Description|
 |-----------|-----------|----------------|
-|6 weeks before survey launch|[Introduce Microsoft Viva Glint to all senior leadership](/viva/glint/start/introductory-emails#email-template-1-introduce-microsoft-viva-glint-to-all-senior-leadership)|Introduce Microsoft Viva Glint, define roles and responsibilities|
-|6 weeks before survey launch|[Invitation for Vision and Strategy planning for all stakeholders](/../../viva/glint/start/introductory-emails#email-template-2-invitation-for-vision-and-strategy-planning-for-all-stakeholders)|Involve your stakeholders in your Viva Glint program design|
-|5 weeks before survey launch|[Introduce upcoming survey to all senior leadership](/../../viva/glint/start/introductory-emails#email-template-3-introduce-upcoming-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
-|4 weeks before survey launch|[Introduce upcoming survey to HRBPs](/../../viva/glint/start/introductory-emails/#email-template-4---upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
-|3 weeks before survey launch|[Training for HRBPs](/../../viva/glint/start/introductory-emails#email-template-5---training-for-hrbps)|Support HRBPs for rollout planning |
-|2 weeks before survey launch|[Introduce new survey to all leaders and managers](/../../viva/glint/start/introductory-emails#email-template-6---introduce-new-survey-introduction-to-all-leaders-and-managers)|Introduce upcoming survey name, purpose, and dates|
+|6 weeks |[Introduce Microsoft Viva Glint to all senior leadership](/viva/glint/start/introductory-emails#email-template-1-introduce-microsoft-viva-glint-to-all-senior-leadership)|Introduce Microsoft Viva Glint, define roles and responsibilities|
+|6 weeks |[Invitation for Vision and Strategy planning for all stakeholders](/../../viva/glint/start/introductory-emails#email-template-2-invitation-for-vision-and-strategy-planning-for-all-stakeholders)|Involve your stakeholders in your Viva Glint program design|
+|5 weeks |[Introduce upcoming survey to all senior leadership](/../../viva/glint/start/introductory-emails#email-template-3-introduce-upcoming-survey-to-senior-leadership)|Introduce survey, inform about resources, develop communications plan and customize messages|
+|4 weeks |[Introduce upcoming survey to HRBPs](/../../viva/glint/start/introductory-emails/#email-template-4---upcoming-survey-for-hrbps)| Introduce survey, provide role expectations, timing, resources, and training signups|
+|3 weeks |[Training for HRBPs](/../../viva/glint/start/introductory-emails#email-template-5---training-for-hrbps)|Support HRBPs for rollout planning |
+|2 weeks |[Introduce new survey to all leaders and managers](/../../viva/glint/start/introductory-emails#email-template-6---introduce-new-survey-introduction-to-all-leaders-and-managers)|Introduce upcoming survey name, purpose, and dates|
 
+## More resources
+
+[Microsoft People Science: Six Elements of Success](/../../viva/glint/setup/template-research#people-success-elements)<br>
+[Blog: The Elements of People Success ](https://techcommunity.microsoft.com/t5/viva-glint-blog/the-elements-of-people-success/ba-p/3791765) 
 
 
 
