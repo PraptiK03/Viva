@@ -19,7 +19,7 @@ ms.date: 04/24/2025
 
 # Correct Viva Glint survey responses
 
-Microsoft Viva Glint Administrators can edit survey responses for closed survey cycles if question response data doesn't appear as expected. Glint's Advanced configuration: External Import feature includes the option to append survey data after a survey closes for situations where response options were misconfigured. 
+Microsoft Viva Glint Administrators can edit survey responses for closed survey cycles if question response data doesn't appear as expected. Viva Glint's Advanced configuration: External Import feature includes the option to append survey data after a survey closes for situations where response options were misconfigured. 
 
 > [!NOTE]
 > Preparing edited response data and importing to Viva Glint is complex. Consider [excluding the question from User Roles' reporting views](reporting-setup.md#set-up-question-reporting-access) and creating a new, correct question for future surveys.
@@ -174,7 +174,7 @@ To complete your import of edited responses, access Viva Glint’s Advanced conf
 - [Advanced Configuration access is enabled](understand-advanced-configuration.md#grant-user-access-to-advanced-configuration) on your user profile
 
 > [!CAUTION]
-> Your Glint survey program must be in an approved state while you import edited survey data and while reports update. Ensure that your survey is approved before continuing.
+> Your Viva Glint survey program must be in an approved state while you import edited survey data and while reports update. Ensure that your survey is approved before continuing.
 
 1. From your admin dashboard, select the **Configuration** symbol, then in **Service configuration** choose **Advanced configuration**. 
 1. In the menu on the left, select **External Import**. 
@@ -189,8 +189,8 @@ To complete your import of edited responses, access Viva Glint’s Advanced conf
    1. **Extra Options menu**: Leave collapsed, not applicable.
   
       :::image type="content" source="../../media/glint/setup/append-data-initial-selections.png" alt-text="Screenshot of Viva Glint Advanced configuration external import with selections made to append a survey cycle before an admin enables manual mode."lightbox="../../media/glint/setup/append-data-initial-selections.png":::
-      
-  1.  **Manual Mode**: Switch this toggle switched to On. 
+
+   1.  **Manual Mode**: Switch this toggle switched to On. 
 1. With **Manual Mode** set to **On**, External Import breaks out into four separate sections, but all selections made in previous steps are retained.
 
    :::image type="content" source="../../media/glint/setup/append-data-manual-mode.png" alt-text="Screenshot of Viva Glint Advanced configuration external import with selections made to append a survey cycle manual mode enabled."lightbox="../../media/glint/setup/append-data-manual-mode.png":::
@@ -223,7 +223,7 @@ Use the following guidance to troubleshoot common errors you may encounter when 
 
 - [Duplicate entry](/viva/troubleshoot/glint/historical-import/import-error-duplicate-entry?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 - [Missing required field](/viva/troubleshoot/glint/historical-import/import-error-missing-required-field?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
--[User isn't in client](/viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
+- [User isn't in client](/viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 
 ## Confirm updated reports
 
