@@ -51,7 +51,7 @@ This example shows how a manager can view **"direct's"** BTI reports:
 > In the summary view, Terence views customized guidance on how to have a team conversation about the broader results. An abbreviated view of the executive 
 summary report is available. The summary report is also accessible from the Reports tab.
 >
-> :::image type="content" source="../../media/glint/reports/btsummary.png" alt-text="Screenshot of a BTI dashboard summary.":::
+> :::image type="content" source="../../media/glint/reports/bti-summary.png" alt-text="Screenshot of a BTI dashboard summary.":::
 
 
 ### See an example of rollup BTI reporting
@@ -98,7 +98,7 @@ Turnover within roles is inevitable. For this reason, as with action taking, we 
 BTI access can be changed in **Program Summary** for upcoming cycles and during live cycles. All upcoming surveys for that program are changed.  
 
 1. In **Program Summary** switch the **Approved** status from **YES** to **NO**.
-1. [Follow the enablement procedure for BTI.](md#enable-broader-team-insights)
+1. [Follow the enablement procedure for BTI.](#enable-broader-team-insights)
 1. Select **Save Changes**, then switch **Approved** status from **NO** to **YES**.
 
 
