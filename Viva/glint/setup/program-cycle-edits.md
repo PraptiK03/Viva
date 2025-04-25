@@ -37,10 +37,10 @@ Once a survey program is set up, Viva Glint Admins can edit future surveys at th
 
 > [!IMPORTANT]
 > - Edits Viva Glint Admins make at the survey cycle level only apply to the cycle and not any other survey cycles in the program.
-> - Edits made at the cycle level **unlink** the cycle from the overall survey progarm and program updates no longer flow to the unlinked, edited survey cycle.
+> - Edits made at the cycle level **unlink** the cycle from the overall survey program and program updates no longer flow to the unlinked, edited survey cycle.
 > - Viva Glint doesn't currently support relinking survey cycles to their overall survey program.
 
-To edit settings for a specific survey cycle whithout changes affecting other future survey cycles:
+To edit settings for a specific survey cycle whithout affecting other future survey cycles:
 
 1. Go to **Configuration** and select **Survey programs** in **Surveys**.
 2. Select a survey and confirm that it's **Approved**.
@@ -53,12 +53,12 @@ To edit settings for a specific survey cycle whithout changes affecting other fu
    :::image type="content" source="../../media/glint/setup/cycle-edit-view.png" alt-text="Screenshot of the Viva Glint survey cycle details page.":::
 
 5. For this specific survey cycle, edit the [Distribution](distribution-program-summary.md), [Questions](questions-setup.md), or [Communications](program-summary-communications.md) and select **Save Changes**.
-6. After editing the survey cycle, it has an "Unlinked from Program" label in the survey program:
+6. Edited survey cycles have an "Unlinked from Program" label in the survey program:
 
    :::image type="content" source="../../media/glint/setup/unlinked-cycle.png" alt-text="Screenshot of the Viva Glint survey cycle showing as unlinked at the survey program level.":::
 
    > [!NOTE]
-   > Unlinked survey cycles only impact survey setup and have no affect on reporting.
+   > Unlinked survey cycles only impact survey settings and don't affect reporting.
 
 ### Edits that require cycle-level updates
 
