@@ -44,7 +44,7 @@ This example shows how a manager can view **"direct's"** BTI reports:
 > 
 > :::image type="content" source="../../media/glint/reports/direct-without-bti.png" alt-text="Screenshot of a small team's managers reporting viewing without BTI.":::
 > 
-> With BTI, Terence can view the reports of thier **direct leader's team**. Kira's results show, and they include data from Terence's team's responses.
+> With BTI, Terence can view the reports of their **direct leader's team**. Kira's results show, and they include data from Terence's team's responses.
 > 
 > :::image type="content" source="../../media/glint/reports/direct-with-bti.png" alt-text="Screenshot of a small team manager's reporting view with BTI.":::
 > 
