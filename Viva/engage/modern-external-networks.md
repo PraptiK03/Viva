@@ -112,7 +112,7 @@ The parent network now connects to the new tenant.
 
 #### Connect the legacy external network to the parent network
 
-After the new Microsoft Entra tenant associates to the parent network, you can set the *legacy external network* to connect to the parent network.  To do so, you use the same association token that you used in the previous section.
+After the new Microsoft Entra tenant associates to the parent network, you can set the *legacy external network* to connect to the parent network. To do so, you use the same association token that you used in the previous section.
 
 1. From the parent Engage network, network switch to the legacy external network.
 2. Select the **Settings Icon** on the external network and choose **Network Admin** from the menu to open the external network settings.
@@ -126,7 +126,7 @@ You see the message **External network has been successfully set up.** The legac
 > [!NOTE]
 > The system logs out the user from the legacy network to allow immediate sign in with Entra as the identity provider.
 
-## Phase 2: Data Migration from legacy network to new external network
+## Data Migration from legacy network to new external network
 
 The next phase establishes the legacy network's user database in the new external network. For consistency, always use the user accounts database from your legacy external network. You do so with a CSV file that you export from your legacy external network.
 
@@ -143,11 +143,11 @@ Viva Engage uploads the new CSV file in a folder to your designated download loc
 
 ### Add exported user accounts as guest users in the external network
 
-In the Microsoft Entra portal, you import the current user accounts CSV from the legacy external network.
+In the Microsoft Entra admin center, you import the current user accounts CSV from the legacy external network.
 
 :::image type="content" source="../media/engage/admin/external-network-entra-data-import.png" alt-text="Importing the legacy network data to the parent network's tenant":::
 
-1. Sign in to the Entra Portal as the Global Admin for the Entra tenant in your parent deployment.
+1. Sign in to the Entra admin center as the Global Admin for the Entra tenant in your parent deployment.
 
 2. To bulk-add the users from the legacy external network, use the exported users CSV file [to bulk-invite them as guests in the new network](/entra/external-id/tutorial-bulk-invite).
 
@@ -155,7 +155,7 @@ In the Microsoft Entra portal, you import the current user accounts CSV from the
 
 After the legacy external network associates with the new external network, you can run the data move/data alignment process. Doing so aligns the legacy network's resources with Microsoft 365 Entra resources.
 
-After you successfully connect the external network to the parent, the **M365 Native Mode** feature appears in the Viva Engage admin settings. Select this tab and follow its instructions to complete the Native Mode alignment.
+After you successfully connect the external network to the parent, the **M365 Native Mode** feature appears in the Viva Engage admin settings. To complete the Native Mode alignment, select this tab and follow the instructions.
 
 :::image type="content" source="../media/engage/admin/external-network-native-mode-setting.png" alt-text="Setting the external network to M365 Native Mode":::
 
@@ -188,4 +188,4 @@ External networks provide full support for the Consumer Identities use case.
 
 ### What's the process for members to join the migrated external network?
 
-The Converted external network continues support for the invitation flow to add members. Additionally, Admins can use Cross-Tenant sync to join users directly into Entra, and those users will have access to the external network.
+The Converted external network continues support for the invitation flow to add members. Additionally, Admins can use Cross-Tenant sync to join users directly into Entra, and those users have access to the external network.
