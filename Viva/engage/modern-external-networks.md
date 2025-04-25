@@ -37,11 +37,11 @@ All Viva Engage networks support a format called M365 Native Mode, which uses Mi
 **Management**: Administrators can manage external networks, set permissions, monitor activity, and ensure compliance with organizational policies.
 
 > [!NOTE]
-> Viva Engage external networks support the Communities feature, with future expansions to include Campaigns, Events, and Knowledge.
+> Modern Viva Engage external networks support the Communities feature, with future expansions to include Campaigns, Events, and Knowledge.
 
 ## Requirements
 
-Modern External Networks must use the following Microsoft 365 requirements:
+Modern external networks must use the following Microsoft 365 requirements:
 
 - Global Administrator privileges
 - Microsoft 365 E5 license for at least one user
@@ -54,12 +54,12 @@ This deployment also uses the following Viva Engage requirements:
 
 ## Set up a modern external network
 
-Take the following steps to perform a Modern external network configuration. Complete these tasks in the order shown. Since the role requirements vary by each task, they're called out in each section.
+Take the following steps to perform a modern external network configuration. Complete these tasks in the order shown. Since the role requirements vary by each task, they're called out in each section.
 
 ### Set up a new Microsoft Entra workforce tenant
 
 > [!NOTE]
-> Consult the Microsoft Entra documentation [QuickStart - Access and create new tenant](/entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization) **for the information and steps** to set up your [new workforce tenant](/entra/external-id/tenant-configurations#workforce-tenants) for the modern external network.
+> Consult the Microsoft Entra documentation [QuickStart - Access and create new tenant](/entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization) for the information and steps to set up your [new workforce tenant](/entra/external-id/tenant-configurations#workforce-tenants) for the modern external network.
 
 After you create the tenant, take note of the Entra Tenant ID for use in later steps. (Copy the Entra Tenant ID to a safe location for later use.)
 
@@ -95,10 +95,10 @@ Make a note of the association code, because you use it in later steps.
 
 #### Redeem the Token to associate the new external network/tenant with the parent Viva Engage network
 
-This process uses the association token to establish the new Entra tenant with the enterprise parent Viva Engage network. 
+This process uses the association token to establish the new Entra tenant with the enterprise parent Viva Engage network.
 
 1. Sign out of the new Engage external network. (If you use In-Private, or Saved Profiles, you don't need to sign out.)
-2. Sign in to the parent Viva Engage network on engage.cloud.microsoft. (The user must be the same Global Administrator that set up the new Entra tenant.)
+2. Sign in to the parent Viva Engage network on engage.cloud.microsoft. (The user must be the same Global Administrator that sets up the new Entra tenant.)
 3. To access External Networks Setup in the parent network, select the settings icon, and go to the admin center.
 4. In the admin center **Setup and Configuration** tab, select **External Networks**.
 5. Select **Set up external network**.
