@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/13/2025
+ms.date: 04/25/2025
 ---
 
 # Set up a Viva Glint Recurring survey
@@ -22,6 +22,9 @@ ms.date: 03/13/2025
 Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topics that you want regular feedback on over time. Recurring surveys help track important themes like engagement, productivity, manager effectiveness, or culture at regular intervals. [Learn about survey types](/viva/glint/start/program-types-templates#types-of-surveys).
 
 ## Set up a Recurring survey
+
+> [!NOTE]
+> Edits made to survey cycles [unlink cycles from the overall survey program](program-cycle-edits.md). Viva Glint doesn't currently support relinking cycles to their survey programs. 
 
 1. From your admin dashboard, select **Configuration**.
 2. In the **Surveys** section, choose **Survey Programs**.
