@@ -1,12 +1,12 @@
 ---
 title: Understand Viva Glint programs and cycles 
-description: Once a Viva Glint program is set up, future surveys are edited at the individual cycle (survey) level.
+description: Use survey program settings to define basics for all survey cycles, like supported language or survey questions. Editing a specific survey cycle unlinks it from the overall survey program.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: survey program, survey cycle, unlinked cycle, cycle edits
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -19,7 +19,7 @@ ms.date: 04/25/2025
 
 # Understand Viva Glint programs and cycles  
 
-Microsoft Viva Glint Recurring survey programs contain multiple survey cycles that let your organization trend scores over time.
+Microsoft Viva Glint Recurring survey programs contain multiple survey cycles that let your organization trend scores over time. Use survey program settings to define basics for all survey cycles, like supported language or survey questions. Editing a specific survey cycle unlinks it from the overall survey program.
 
 ## Survey terminology 
 
@@ -33,46 +33,35 @@ Microsoft Viva Glint Recurring survey programs contain multiple survey cycles th
 
 ## Edit a program versus a cycle
 
-Once an entire program has been set up, Viva Glint Admins can edit future surveys at the program level. For example, if you want to set up a series and avoid major adjustments to each survey, edit at the program level. If untouched, the same survey emails, text, and questions are repeated with each survey cycle in the program. 
+Once a survey program is set up, Viva Glint Admins can edit future surveys at the program level. Set up a series of surveys and avoid major adjustments to each survey cycle by editing at the overall program level. If untouched, the same survey emails, text, and questions are repeated with each survey cycle in the program. 
 
-However, you might choose to edit a single survey, or cycle, in ways that won't affect future cycles in the program. 
+> [!IMPORTANT]
+> - Edits Viva Glint Admins make at the survey cycle level only apply to the cycle and not any other survey cycles in the program.
+> - Edits made at the cycle level **unlink** the cycle from the overall survey progarm and program updates no longer flow to the unlinked, edited survey cycle.
+> - Viva Glint doesn't currently support relinking survey cycles to their overall survey program.
 
-### The most common single survey editing involves survey emails 
+To edit settings for a specific survey cycle whithout changes affecting other future survey cycles:
 
-- If a survey is live, and you want to adjust the schedule or add email reminders, you need to make edits at the cycle level.  
-- If you want email communications to be unique to one survey and you don’t want it to affect emails programmed for subsequent surveys, edit at the cycle level.  
+1. Go to **Configuration** and select **Survey programs** in **Surveys**.
+2. Select a survey and confirm that it's **Approved**.
+3. In the **Upcoming and Live** section, select the survey cycle to edit. An **Edit Survey** dialog appears letting you know that any edits unlink the survey cycle from the overall survey program:
 
-For other changes needed to a live survey, read [Make changes to a live Viva Glint survey](change-live-survey.md). 
+   :::image type="content" source="../../media/glint/setup/unlink-cycle-warning.png" alt-text="Screenshot of the Viva Glint confirmation dialog for editing a survey cycle and unlinking it from a survey program.":::
 
-> [!TIP]
-> Between surveys, you can continue to edit email communications at the program level. 
+4. Select **Yes, edit the survey** to enter the survey cycle details page:
 
-## Edit a live survey schedule or add an email reminder 
+   :::image type="content" source="../../media/glint/setup/cycle-edit-view.png" alt-text="Screenshot of the Viva Glint survey cycle details page.":::
 
-A live survey is considered “locked.” To make edits to a survey schedule, editing at the individual cycle level is required.
+5. For this specific survey cycle, edit the [Distribution](distribution-program-summary.md), [Questions](questions-setup.md), or [Communications](program-summary-communications.md) and select **Save Changes**.
+6. After editing the survey cycle, it has an "Unlinked from Program" label in the survey program:
 
->[!NOTE]
-> The **Approved** button on that page must be toggled to **YES**.    
+   :::image type="content" source="../../media/glint/setup/unlinked-cycle.png" alt-text="Screenshot of the Viva Glint survey cycle showing as unlinked at the survey program level.":::
 
-1. From your admin dashboard, in **Survey Programs**, navigate to the program name that you want to edit. 
-2. Select the **Upcoming and Live** tab. 
-3. Select the **ellipses** next to the survey you edit. 
-4. Select **Manage Schedule**.
+   > [!NOTE]
+   > Unlinked survey cycles only impact survey setup and have no affect on reporting.
 
-## What does an "unlinked” survey notification mean? 
+### Edits that require cycle-level updates
 
-Before making edits at the cycle level, a message warns that this cycle becomes unlinked. This means that changes made to the survey text, questions, or email and reminders affect only this survey. Future - linked surveys - retain inputs at the program level. 
+If a survey is live, and you want to adjust survey reminder send dates or add reminders, you need to [make edits at the cycle level](change-live-survey.md#communications). For other changes needed to a live survey, read [Make changes to a live Viva Glint survey](change-live-survey.md). 
 
-## Relinking surveys 
 
-If you’ve made edits at the cycle level and your survey is unlinked from the program, several unlinked reminders are tied to the cycle. 
-
->[!NOTE]
-> - If a survey is live, it can't be re-linked. This doesn't affect the results outcomes (for example, reporting trend).
-> - If the survey has ended, it doesn't need to be re-linked. 
-> - Cycle-level edits aren't retained at the program level for future surveys. Edit both accordingly. 
-
->[!TIP]
-> Make future survey changes at the program level, in between cycles. This ensures it's always clear what text, questions and communications schedule are associated with the upcoming survey.
-
- 
