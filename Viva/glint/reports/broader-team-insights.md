@@ -25,14 +25,14 @@ And BTI isn't only limited to managers of small teams. Team leaders at all level
 
 The BTI dashboard shows a high-level summary of a **direct team leader’s** results or **rollup hierarchy results**. BTI provides:
 
-- Visibility into broader team’s strenths and opportunities 
+- Visibility into broader team’s strengths and opportunities 
 - Access to dashboard and action-taking capabilities
 - Starters for ACT and 1:1 conversations
 - Ownership and accountability for their team’s scores
 
 When a role has BTI enabled, cascaded results are based on custom permissions set by the admin. 
 
-When feedback results are ready, the manager receives an email with a link to view their results. The email may indicate that while results are available, there is no access to the manager's own results. However, with BTI enabled, a summary of results of the next team who did meet confidentiality requirements are available for reviewing and sharing. Managers can follow in-platform guidance.
+When feedback results are ready, the manager receives an email with a link to view their results. The email may indicate that while results are available, there's no access to the manager's own results. However, with BTI enabled, a summary of results of the next team who did meet confidentiality requirements are available for reviewing and sharing. Managers can follow in-platform guidance.
 
 ### See an example of direct BTI reporting
 
@@ -56,7 +56,7 @@ summary report is available. The summary report is also accessible from the Repo
 
 ### See an example of rollup BTI reporting
 
-While BTI is essential for supporting managers of small teams, it also benefits managers of large teams.  With Broader Team Insights, managers with their own results also see a summary with the added context of their rollup hierarchy. This functionality increases transparency across the organization. 
+While BTI is essential for supporting managers of small teams, it also benefits managers of large teams. With Broader Team Insights, managers with their own results also see a summary with the added context of their rollup hierarchy. This functionality increases transparency across the organization. 
 
 This example shows how a manager can view **"rollup"** BTI reports:
 
@@ -71,7 +71,7 @@ This example shows how a manager can view **"rollup"** BTI reports:
 ## Enable Broader Team Insights
 
 1. From your admin dashboard, select **Survey Programs**.
-1. In **Program Summary**, navigate to the **Reporting** tab. Choose the downfacing arrow to set up or view permissions for a role. 
+1. In **Program Summary**, navigate to the **Reporting** tab. Choose the down-facing arrow to set up or view permissions for a role. 
 1. In the **Reporting section**, on the **Broader Team Insights** row, **ON** enables sharing of the BTI report. **OFF** disables the role from sharing or viewing reports.
 2. Use the dropdown menu to choose between:
   - **Visible to Direct Reports Only**, or
