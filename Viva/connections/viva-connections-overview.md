@@ -295,7 +295,7 @@ There are several options to learn more about how to get Connections for your or
 
 ## Privacy, Security, and Compliance in Viva Connections
 
-Privacy, security, and compliance are essential aspects of your organization. Viva Connections takes advantage of Microsoft 365 tools and services, which are governed under the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms/welcome/welcomepage) and the (Data Protection Agreement (DPA))[https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA]. For more information, see the [Microsoft Trust Center](https://www.microsoft.com/trustcenter) and the article on [Microsoft Viva Compliance](/viva/viva-compliance.md).
+Privacy, security, and compliance are essential aspects of your organization. Viva Connections takes advantage of Microsoft 365 tools and services, which are governed under the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms/welcome/welcomepage) and the [Data Protection Agreement (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA). For more information, see the [Microsoft Trust Center](https://www.microsoft.com/trustcenter) and the article on [Microsoft Viva Compliance](/viva/viva-compliance.md).
 
 Learn more about how [Microsoft Viva inherits privacy features and settings](/viva/viva-privacy.md) from Microsoft 365, Teams, SharePoint, and Viva Engage (where applicable).
 
