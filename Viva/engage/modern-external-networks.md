@@ -54,12 +54,12 @@ This deployment also uses the following Viva Engage requirements:
 
 ## Set up a modern external network
 
-Modern external network configuration requires three phases to complete. Complete these tasks in the order shown. Since the role requirements vary by each task, they're called out in each section.
+Take the following steps to perform a Modern external network configuration. Complete these tasks in the order shown. Since the role requirements vary by each task, they're called out in each section.
 
 ### Set up a new Microsoft Entra workforce tenant
 
 > [!NOTE]
-> Consult the Microsoft Entra documentation [QuickStart - Access and create new tenant] (/entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization) **for the information and steps** to set up your [new workforce tenant](/entra/external-id/tenant-configurations#workforce-tenants) for the modern external network.
+> Consult the Microsoft Entra documentation [QuickStart - Access and create new tenant](/entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization) **for the information and steps** to set up your [new workforce tenant](/entra/external-id/tenant-configurations#workforce-tenants) for the modern external network.
 
 After you create the tenant, take note of the Entra Tenant ID for use in later steps. (Copy the Entra Tenant ID to a safe location for later use.)
 
