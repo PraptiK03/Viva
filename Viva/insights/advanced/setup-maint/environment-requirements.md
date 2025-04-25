@@ -28,7 +28,7 @@ Microsoft Viva Insights provides personal insights in the [Viva Insights app in 
 >We've paused the Digest email, which is typically sent twice a month. All the content from Digest emails will still be available within the [Viva Insights app in Teams or on the web.](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) You can continue to explore and analyze your data insights seamlessly. To learn more about this change, refer to the [Digest email pause.](/Viva/insights/personal/reference/digest-pause)
 
 >[!Important]
->We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d) or [Viva Insights app in Teams](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../../personal/reference/briefing-pause.md).
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d) or [Viva Insights app in Teams](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) for key functionality until this service resumes. For more information about this change, see [Briefing pause](../../personal/reference/briefing-pause.md).
 
 ### Microsoft 365 plans
 
@@ -66,7 +66,7 @@ The following personal insights service plans are generally available with a sub
 * Department of Defense (DoD)
 
 >[!Note]
->For more information about the features available and unavailable in GCC-High and DoD environments, refer to the [Microsoft Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
+>For more information about the features available and unavailable in GCC-High and DoD environments, see the [Microsoft Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
 
 #### Not supported Microsoft 365 environments
 
