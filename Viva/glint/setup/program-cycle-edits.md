@@ -40,7 +40,7 @@ Once a survey program is set up, Viva Glint Admins can edit future surveys at th
 > - Edits made at the cycle level **unlink** the cycle from the overall survey program and program updates no longer flow to the unlinked, edited survey cycle.
 > - Viva Glint doesn't currently support relinking survey cycles to their overall survey program.
 
-To edit settings for a specific survey cycle whithout affecting other future survey cycles:
+To edit settings for a specific survey cycle without affecting other future survey cycles:
 
 1. Go to **Configuration** and select **Survey programs** in **Surveys**.
 2. Select a survey and confirm that it's **Approved**.
