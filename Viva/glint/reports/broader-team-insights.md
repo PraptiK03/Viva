@@ -51,7 +51,6 @@ This example shows how a manager can view **"direct's"** BTI reports:
 > In the summary view, Terence views customized guidance on how to have a team conversation about the broader results. An abbreviated view of the executive 
 summary report is available. The summary report is also accessible from the Reports tab.
 >
-> :::image type="content" source="../../media/glint/reports/bti-summary.png" alt-text="Screenshot of a BTI dashboard summary.":::
 
 
 ### See an example of rollup BTI reporting
