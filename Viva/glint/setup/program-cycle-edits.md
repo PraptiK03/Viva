@@ -60,7 +60,7 @@ To edit settings for a specific survey cycle whithout affecting other future sur
    > [!NOTE]
    > Unlinked survey cycles only impact survey settings and don't affect reporting.
 
-### Edits that require cycle-level updates
+## Edits that require cycle-level updates
 
 If a survey is live, and you want to adjust survey reminder send dates or add reminders, you need to [make edits at the cycle level](change-live-survey.md#communications). For other changes needed to a live survey, read [Make changes to a live Viva Glint survey](change-live-survey.md). 
 
