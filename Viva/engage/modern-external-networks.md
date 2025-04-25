@@ -124,7 +124,7 @@ After the new Microsoft Entra tenant associates to the parent network, you can s
 You see the message **External network has been successfully set up.** The legacy Viva Engage external network binds to the new external network. This step establishes the legacy network with the Microsoft Entra tenant and to the parent network.
 
 > [!NOTE]
-> The system logs out the user from the legacy network to allow immediate sign in with Entra as the identity provider.
+> The system signs the user out from the legacy network to allow immediate sign in with Entra as the identity provider.
 
 ## Data Migration from legacy network to new external network
 
