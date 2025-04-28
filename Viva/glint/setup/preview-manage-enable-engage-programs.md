@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/02/2025
+ms.date: 04/28/2025
 ---
 
 # Preview, enable, and prepare to launch Viva Glint surveys
@@ -58,7 +58,7 @@ When your survey is approved, you can preview how survey invites and reminder em
    - Comments are available 
    - Items aren't skippable unless intended
    - Macros appear as values 
-   - More language options are available as expected 
+   - More language options are available as expected
 
 ## Edit a cycle schedule 
 
@@ -76,6 +76,20 @@ To reschedule the survey:
 2. Select **Manage Schedule**. 
 3. In the **Reschedule Survey** dialog box, make the necessary changes. If the survey is Live, the **Schedule** section is disabled.  
 4. Select **Save Changes**. 
+
+## Announce the upcoming survey
+
+Now it's time to let survey takers know that the survey is just days away. Customize our email templates and share them with the people on your survey Distribution Lists. 
+
+### Send this email 1-2 days before your survey launches
+
+[Announce survey launch to entire organization](/../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-7---announce-survey-launch-to-entire-organization): Announce the imminent survey release and build excitement!
+
+### Send this email when the survey is live
+
+Set a calendar alert to send this (customized) email to your full distribution list 72 hours before the survey is set to close.
+
+[Reminder to submit survey](/../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-8-reminder-to-submit-survey)
 
 ## Enable a program 
 
