@@ -482,7 +482,7 @@ Similar to option 2, after you’ve exported your source data as a zip folder at
 
 Select your **Copy data** activity, then select **General** to complete each field using the guidance below.
 
-    :::image type="content" source="../images/import-org-data-adf-04.png" alt-text="Screenshot that shows how to copy data activity settings.":::
+:::image type="content" source="../images/import-org-data-adf-04.png" alt-text="Screenshot that shows how to copy data activity settings.":::
 
 * **Name**: Enter a name for your activity. 
 * **Description**: Enter a description for your activity. 
