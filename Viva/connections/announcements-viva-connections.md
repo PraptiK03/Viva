@@ -107,7 +107,7 @@ When creating a new announcement, you can choose up to 10 audiences to send to, 
 
 7. To allow users to dismiss the announcement after viewing, enable the **Allow users to dismiss setting**.
 
-    :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-more-options.png" alt-text="Screenshot of the announcment details pane showing the add a link and allow users to dismiss fields." lightbox="../media/connections/announcements-viva-connections/create-announcement-more-options.png":::
+    :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-more-options.png" alt-text="Screenshot of the announcement details pane showing the add a link and allow users to dismiss fields." lightbox="../media/connections/announcements-viva-connections/create-announcement-more-options.png":::
 
 8. Select **Next** to review the details of your announcement.
 
