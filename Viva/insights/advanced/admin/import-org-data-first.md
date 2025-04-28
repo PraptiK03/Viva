@@ -1,5 +1,5 @@
 ---
-ms.date: 02/04/2025
+ms.date: 04/28/2025
 title: Import organizational data using API-based import (first import)
 description: Learn how to set up a connection and import your data to the Viva Insights advanced insights app
 author: zachminers
@@ -26,7 +26,7 @@ With an import, you bring data from your source system to the Viva Insights HR d
 * Create a custom app to export data from the source system to a zip file. Then, using the same app, import that data using the API information below. 
 * Create a custom app to export data from the source system to a zip file. Then, run a C# console app we created to import data to Viva Insights.
 * Create a custom app to export data from the source system to a zip file. Then, run a PowerShell script we created to import data to Viva Insights. 
-
+* Use our Azure Data Factory (ADF) template to send data to our API-based import.
 
 However, before you can run your app and start transferring data to Viva Insights, you need to coordinate a few tasks between your Microsoft 365 admin and Insights Administrator (Insights admin). See [Workflow](#workflow) for an overview of required steps.
 
@@ -209,11 +209,12 @@ When you upload your data, your `Employee` field becomes `PersonId` in Viva Insi
 
 #### Import your data
 
-To import your data to Viva Insights, you can pick from three options:
+To import your data to Viva Insights, you can pick from four options:
 
-* Use our API to build a custom app that exports and imports your data at the frequency you choose.
-* Run our C# solution on your console, which is based on our API.
-* Run our PowerShell script, which is also based on our API. 
+* Use our API to build a custom app that exports and imports your data at the frequency you choose. [Learn more](#option-1-use-the-viva-insights-hr-data-ingress-api-to-build-a-custom-importexport-app).
+* Run our C# solution on your console, which is based on our API. [Learn more](#option-2-import-data-through-our-c-solution-after-exporting-data-through-your-custom-app).
+* Run our PowerShell script, which is also based on our API. [Learn more](#option-3-run-the-descriptivedataupload-powershell-solution-after-exporting-data-through-your-custom-app). 
+* Use our Azure Data Factory (ADF) template to send data to our API-based import. Learn more.
 
 >[!Note]
 >Our C# and PowerShell solutions only import data to Viva Insights. They don’t export data from your source system.
@@ -457,6 +458,43 @@ Similar to option 2, after you’ve exported your source data as a zip folder at
     * `ingressDataType: HR`  
     * `ClientSecret` or `certificateName` 
  
+
+##### Option 4: Use our Azure Data Factory (ADF) template to send data to our API-based import
+
+###### 1. Create new Azure Data Factory
+
+1. Log in to https://adf.azure.com/en/datafactories.
+2. Create a new data factory or use an existing data factory. Complete the fields, then select **Create**.
+
+    :::image type="content" source="../images/import-org-data-adf-01.png" alt-text="Screenshot that shows how to create a new data factory or use an existing one.":::
+
+###### 2. Create a new pipeline and activity
+
+1. Create a new pipeline and enter a name for the pipeline.
+
+    :::image type="content" source="../images/import-org-data-adf-02.png" alt-text="Screenshot that shows how to create a new pipeline.":::
+
+2. Under **Activities**, add **Copy data**.
+
+    :::image type="content" source="../images/import-org-data-adf-03.png" alt-text="Screenshot that shows how to add copy data.":::
+
+###### 3. Copy data activity settings: General
+
+Select your **Copy data** activity, then select **General** to complete each field using the guidance below.
+
+    :::image type="content" source="../images/import-org-data-adf-04.png" alt-text="Screenshot that shows how to copy data activity settings.":::
+
+* **Name**: Enter a name for your activity. 
+* **Description**: Enter a description for your activity. 
+* **Activity state**: Select **Activated**. Or select **Deactivated** to exclude the activity from the pipeline run and validation. 
+* **Timeout**: This is the maximum amount of time an activity can run. The default is 12 hours, the minimum is 10 minutes, and the maximum amount of time allowed is seven days. The format is in D.HH:MM:SS.
+* **Retry**: The maximum number of retry attempts. This can be left as 0. 
+* **Retry interval (sec)**: The maximum number of retry attempts. This can be left as 30 if the retry attempts is set as 0. 
+* **Secure output**: When selected, the output from the activity isn't captured in logging. You can leave this cleared.
+* **Secure input**: When selected, the input from the activity isn't captured in logging. You can leave this cleared.
+
+
+
 
 ## Validation
 
