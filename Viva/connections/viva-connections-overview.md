@@ -14,6 +14,9 @@ ms.localizationpriority: high
 ms.collection:
   - essentials-navigation
   - essentials-overview
+  - essentials-privacy
+  - essentials-security
+  - essentials-compliance
   - Strat_SP_modern
   - M365-collaboration
   - m365initiative-viva-connections
@@ -289,6 +292,14 @@ There are several options to learn more about how to get Connections for your or
 | [Quick guide](set-up-admin-center.md) | Use the quick guide to get a high-level overview of how to get Connections | 10 minutes |
 | [Plan, build, and launch guidance](viva-connections-setup-overview.md) | Get more detailed guidance that focus on tasks in the plan, build, and launch phases.   | 30 minutes           |
 | [Learning path](/training/paths/viva-connections-get-started/)    | Get in-depth guidance that includes fictitious business stories and examples. Complete knowledge checks to confirm learnings.       | Two hours            |
+
+## Privacy, Security, and Compliance in Viva Connections
+
+Privacy, security, and compliance are essential aspects of your organization. Viva Connections takes advantage of Microsoft 365 tools and services, which are governed under the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms/welcome/welcomepage) and the [Data Protection Agreement (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA). For more information, see the [Microsoft Trust Center](https://www.microsoft.com/trustcenter) and the article on [Microsoft Viva Compliance](/viva/viva-compliance.md).
+
+Learn more about how [Microsoft Viva inherits privacy features and settings](/viva/viva-privacy.md) from Microsoft 365, Teams, SharePoint, and Viva Engage (where applicable).
+
+Security for Viva Connections is largely inherited from Microsoft 365, SharePoint, and Teams. Owners and members setting up a Viva Connections experience should confirm who has [access to certain sites within SharePoint](https://support.microsoft.com/office/958771a8-d041-4eb8-b51c-afea2eae3658) to ensure only authorized users have access to certain data and features. For more information, see the article on [understanding how security works in Microsoft Viva](/viva/viva-security.md)
 
 ## More resources
 
