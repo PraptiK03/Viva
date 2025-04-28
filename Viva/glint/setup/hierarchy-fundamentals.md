@@ -1,12 +1,12 @@
 ---
 title: Viva Glint organizational hierarchy fundamentals
-description: Learn how Viva Glint uses managerial hierarchy as the primary hierarchy ranking and processes the levels automatically, with a capacity of up to 10 levels.
+description: A reporting hierarchy in Microsoft Viva Glint filters data into levels from highest to lowest, or largest to smallest, to provide precise insights into employee feedback.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: managerial hierarchy, locational hierarchy, departmental hierarchy, matrix hierarchies
+keywords: manager hierarchy, locational hierarchy, departmental hierarchy, hierarchy group, reporting hierarchy
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -35,7 +35,7 @@ Manager hierarchy is typically used as the primary reporting hierarchy. Viva Gli
 Viva Glint generates manager hierarchy levels based on the relationship between Employee and Manager IDs in your employee data files.
 
 |Employee|Manager|Manager ID|Viva Glint generated hierarchy level|
-|-----|------|-------|------|
+|:-----|:------|:-------|:------|
 |Leonie| Mario|Mario's ID|Level 4|
 |Mario |Archie|Archie's ID|Level 3|
 |Archie| Angel|Angel's ID|Level 2|
