@@ -59,7 +59,8 @@ To update a CEO in Viva Glint:
    2. Search for the new CEO and on their user profile, update their email address (to their Employee ID, for example).
    1. Return to **General Settings** and search for and select the new CEO.
    1. On the new CEO user's profile, revert their email address to the correct value.
-7. To update this change for a current or past survey, implement a [**retroactive update**](/../../viva/glint/setup/glint-data-apps#retroactive_pulse_update). 
+4. Reload employee data, including the CEO with a blank Manager ID, to recalculate your manager hierarchy.
+5. To update this change for a current or past survey, implement a [**retroactive update**](/../../viva/glint/setup/glint-data-apps#retroactive_pulse_update). 
 
 ### Multiple CEOs
 

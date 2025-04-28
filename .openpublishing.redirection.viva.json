@@ -906,11 +906,6 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "Viva/insights/use/user-roles.md",
-            "redirect_url": "/previous-versions/viva/insights/use/user-roles",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "Viva/insights/use/videos.md",
             "redirect_url": "/previous-versions/viva/insights/use/videos",
             "redirect_document_id": false
