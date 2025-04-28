@@ -569,7 +569,7 @@ Select your **Copy data** activity, then select **General** to complete each fie
 
 2. For the bootstrap upload, make sure to include **PersonId**, **ManagerId**, and **Organization** in the mapping (destination name). For the incremental upload, verify that the destination names are consistent with those in the previous upload, along with **PersonId**. You can't perform incremental uploads with new columns, and **PersonId** is required in all uploads.
 
-:::image type="content" source="../images/import-org-data-adf-15.png" alt-text="Screenshot that shows how to enter activity settings for Mapping.":::
+    :::image type="content" source="../images/import-org-data-adf-15.png" alt-text="Screenshot that shows how to enter activity settings for Mapping.":::
 
 ###### 7. Copy data activity settings: Settings and User Properties
 
