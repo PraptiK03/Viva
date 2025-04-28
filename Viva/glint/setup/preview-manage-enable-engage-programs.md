@@ -28,7 +28,7 @@ When each section of a survey is set up successfully, a blue checkmark displays 
 After a Viva Glint Administrator approves a program, all programs except for Employee Lifecycle and Always-On surveys must also be enabled to go Live on the scheduled date. Surveys go into Live status at midnight on the day they're scheduled to go out, in your default time zone. 
 
    > [!NOTE]
-   > When Employee Lifecycle and Always-On surveys are updated, admins are prompted to reapprove them. Reapproval automatically re-enables the cycle. This feature helps admins ensure ongoing, live surveys are always active.
+   > When Employee Lifecycle and Always-On surveys are updated, admins are prompted to reapprove them. Reapproval automatically re-enables the cycle. This feature helps admins ensure live surveys are always active.
 
 ### Procedure 
 
@@ -79,7 +79,7 @@ To reschedule the survey:
 
 ## Announce the upcoming survey
 
-Now it's time to let survey takers know that the survey is just days away. Customize our email templates and share them with the people on your survey Distribution Lists. 
+Now it's time to let survey takers know that the survey is just days away. Customize our email templates and share them with the people on your survey Distribution Lists. Use the tips for customizing templates found on the page with the template.
 
 ### Send this email 1-2 days before your survey launches
 
@@ -87,7 +87,7 @@ Now it's time to let survey takers know that the survey is just days away. Custo
 
 ### Send this email when the survey is live
 
-Set a calendar alert to send this (customized) email to your full distribution list 72 hours before the survey is set to close.
+Set a calendar alert to send this email (customized) to your full distribution list 72 hours before the survey is set to close.
 
 [Reminder to submit survey](/../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-8-reminder-to-submit-survey)
 
