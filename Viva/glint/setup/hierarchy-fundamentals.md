@@ -36,15 +36,15 @@ Viva Glint generates manager hierarchy levels based on the relationship between 
 
 |Employee|Manager|Manager ID|Viva Glint generated hierarchy level|
 |-----|------|-------|------|
-|Leonie| Marcio|Marcio's ID|Level 4|
-|Marcio |Archie|Archie's ID|Level 3|
+|Leonie| Mario|Mario's ID|Level 4|
+|Mario |Archie|Archie's ID|Level 3|
 |Archie| Angel|Angel's ID|Level 2|
 |Angel|None, Angel is the CEO. Leave the cell blank.|The hierarchy ends with Angel, who doesn't report to anyone.|Level 1|
 
 :::image type="content" source="../../media/glint/setup/mgr-hierarchy-filter.png" alt-text="Screenshot of manager hierarchy filters in Glint reporting, drilling down from level 1 to level 3.":::
 
 > [!CAUTION]
-> Matrix manager hierarchies aren't recommended to be included in employee data. Viva Glint only calculates levels for one manager hierarchy. 
+> Viva Glint only calculates levels for one manager hierarchy and doesn't support other matrix manager hierarchies.
 
 ## Update your CEO
 
@@ -65,7 +65,7 @@ To update a CEO in Viva Glint:
 
 **Viva Glint's best practice is to select a single user in your employee data as the top level/CEO whose Manager ID value is blank.** If your organization has multiple leaders that should sit at the top of your manager hierarchy, your organization can add a placeholder "CEO." All top-level users can then report to this placeholder CEO and appear as level 2 managers in Viva Glint reporting and filters:
 
-:::image type="content" source="../../media/glint/setup/placeholder-ceo-filter.png" alt-text="Screenshot of manager hierarchy filters in Viva Glint reporting, with a placeholder CEO as the top-level user and multiple CEOs as level 2 managers.":::
+:::image type="content" source="../../media/glint/setup/placeholder-ceo-filter.png" alt-text="Screenshot of manager hierarchy filters in Viva Glint reporting with a placeholder CEO as the top-level user.":::
 
 #### Considerations
 
