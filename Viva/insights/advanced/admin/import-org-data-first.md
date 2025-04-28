@@ -493,6 +493,17 @@ Select your **Copy data** activity, then select **General** to complete each fie
 * **Secure output**: When selected, the output from the activity isn't captured in logging. You can leave this cleared.
 * **Secure input**: When selected, the input from the activity isn't captured in logging. You can leave this cleared.
 
+###### 4. Copy data activity settings: Source 
+
+1. Select **Source**.
+2. Select an existing source dataset or select **+New** to create a new source dataset. For example, under **New dataset** select **Azure Blob Storage**, then select the format type of your data.
+
+    :::image type="content" source="../images/import-org-data-adf-05.png" alt-text="Screenshot that shows how to create a new source dataset.":::
+
+3. Set the properties for the .csv file. Enter a **Name** and under **Linked service**, select an existing location or select **+New**.
+
+    :::image type="content" source="../images/import-org-data-adf-06.png" alt-text="Screenshot that shows how to set the properties for the csv file.":::
+
 
 
 
