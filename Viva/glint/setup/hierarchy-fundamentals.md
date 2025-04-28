@@ -54,7 +54,7 @@ To update a CEO in Viva Glint:
 
 1. Upload a file with the new CEO. Leave the Manager cell blank.
 2. Update the CEO -referred to as **Top-Level Manager**- in the [General Settings](/../../viva/glint/setup/manage-general-settings) feature.
-3. If the new CEO doesn't appear as a user to select from the dropdown menu in General Settings:
+3. If the new CEO doesn't appear as a user to select from the dropdown menu in **General Settings**:
    1. Go to **Configuration** and choose **People**.
    2. Search for the new CEO and on their user profile, update their email address (to their Employee ID, for example).
    1. Return to **General Settings** and search for and select the new CEO.
