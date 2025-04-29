@@ -47,10 +47,9 @@ Modern external networks must use the following Microsoft 365 requirements:
 - Microsoft 365 E5 license for at least one user
 - Permissions to create new Workforce tenant.
 
-This deployment also uses the following Viva Engage requirements:
+Viva Engage also has the following requirements:
 
 - The active [Global Administrator](/viva/engage/eac-key-admin-roles-permissions#microsoft-365-global-administrator) account
-- The parent Viva Engage network supports [M365 Native Mode](/viva/engage/overview-native-mode).
 
 ## Set up a modern external network
 
@@ -59,9 +58,9 @@ Take the following steps to perform a modern external network configuration. Com
 ### Set up a new Microsoft Entra workforce tenant
 
 > [!NOTE]
-> Consult the Microsoft Entra documentation [QuickStart - Access and create new tenant](/entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization) for the information and steps to set up your [new workforce tenant](/entra/external-id/tenant-configurations#workforce-tenants) for the modern external network.
+> Consult the Microsoft Entra documentation [QuickStart - Access and create new tenant](./entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization) for the information and steps to set up your [new workforce tenant](./entra/external-id/tenant-configurations#workforce-tenants) for the modern external network.
 
-After you create the tenant, take note of the Entra Tenant ID for use in later steps. (Copy the Entra Tenant ID to a safe location for later use.)
+After you create the tenant, copy the new Entra Tenant ID to a safe location for later use.
 
 ### Assign the required license to the tenant admin
 
@@ -74,7 +73,9 @@ You also use the Microsoft Entra admin center to assign the correct license to t
 
 ### Connect the new Entra tenant to the parent network
 
-Because the legacy external network doesn't yet have a Microsoft Entra tenant that backs it, the legacy network can't communicate with the parent Viva Engage network. The new Entra tenant also needs to connect to the parent network. The next step is to connect the new Microsoft Entra tenant with the parent Viva Engage network so the parent network knows about its existence.
+Because the legacy external network doesn't yet have a Microsoft Entra tenant that backs it, the legacy network can't communicate with the parent Viva Engage network.
+
+The new Entra tenant also needs to connect to the parent network. The next step is to connect the new Microsoft Entra tenant with the parent Viva Engage network so the parent network knows about its existence.
 
 This process requires two steps:
 
@@ -89,7 +90,12 @@ Do the following to create the association token:
 2. In Viva Engage, select the settings icon, and go to Admin center.
 3. In the Admin center, on the **Setup and Configuration** tab, select **External Networks**.
 4. Select **Setup External Network**.
+
+    :::image type="content" source="../media/engage/admin/admin-center-ext-networks-1.png" alt-text="Token redemption in the new network":::
+
 5. Select the **Generate Code** tab to generate a one-time tenant association code, and select **Generate**. You use the code to associate the new Entra tenant with the *parent Engage network*.
+
+    :::image type="content" source="../media/engage/admin/admin-center-ext-networks-2.png" alt-text="Token redemption in the new network":::
 
 Make a note of the association code, because you use it in later steps.
 
@@ -112,16 +118,16 @@ The parent network now connects to the new tenant.
 
 #### Connect the legacy external network to the parent network
 
-After the new Microsoft Entra tenant associates to the parent network, you can set the *legacy external network* to connect to the parent network. To do so, you use the same association token that you used in the previous section.
+After the new Microsoft Entra tenant associates to the parent network, you set the *legacy external network* to connect to the *new external network*. To do so, you use the same association token and Tenant ID that you used in the previous sections.
 
 1. From the parent Engage network, network switch to the legacy external network.
-2. Select the **Settings Icon** on the external network and choose **Network Admin** from the menu to open the external network settings.
-3. To begin the association of the legacy external network to your new external network, select **External Network Upgrade** from the menu.
+2. To open the external network settings, select the **Settings Icon** on the external network and choose **Network Admin**.
+3. To associate the legacy external network to your new external network, select **External Network Upgrade** from the menu.
 4. Use the same tenant ID and tenant association token from the previous steps to enter the information in the appropriate fields and select **Redeem token.**
 
 :::image type="content" source="../media/engage/admin/external-network-upgrade-on-parent.png" alt-text="Token redemption":::
 
-You see the message **External network has been successfully set up.** The legacy Viva Engage external network binds to the new external network. This step establishes the legacy network with the Microsoft Entra tenant and to the parent network.
+You see the message **External network has been successfully set up.** The legacy Viva Engage external network binds to the new external network and is backed by the new Entra tenant.
 
 > [!NOTE]
 > The system signs the user out from the legacy network to allow immediate sign in with Entra as the identity provider.
@@ -174,7 +180,7 @@ After the data move completes, the network administrators can take the following
 - Notify users of their membership in the new network.
 
 > [!NOTE]
-> When you re-add user accounts to the updated external network, it offers a feature to notify users of the new URL/domain.
+> When you re-add user accounts to the updated external network, it offers a feature to notify users of the new URL/domain. We recommend that you include the tenant ID of the new External Network in the invite URL. Format it as `https://engage.cloud.microsoft/main/org/<Tenant ID>`.
 
 ## FAQ
 
