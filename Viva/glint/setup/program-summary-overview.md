@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/13/2025
+ms.date: 04/29/2025
 ---
 
 # Set up a Viva Glint Recurring survey
@@ -23,13 +23,16 @@ Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topi
 
 ## Set up a Recurring survey
 
+> [!NOTE]
+> Edits made to survey cycles [unlink cycles from the overall survey program](program-cycle-edits.md). Viva Glint doesn't currently support relinking cycles to their survey programs. 
+
 1. From your admin dashboard, select **Configuration**.
 2. In the **Surveys** section, choose **Survey Programs**.
 3. Select **+ New Program.**
 4. Choose a survey template or start with a blank template in the **Recurring** section.
 
    > [!IMPORTANT]
-   > The blank recurring survey template doesn't currently support adding multiple cycles. To ensure that new survey cycles are supported, use a preloaded Recurring survey template and remove unneeded questions. 
+   > The blank recurring survey template doesn't support adding multiple cycles. To ensure that new survey cycles are supported, use a preloaded Recurring survey template and remove unneeded questions. 
 
    :::image type="content" source="../../media/glint/setup/recurring-survey-templates.png" alt-text="Screenshot of Viva Glint Recurring survey templates available to admins.":::
    
@@ -51,5 +54,10 @@ Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topi
    :::image type="content" source="../../media/glint/setup/program-summary-checkmarks.png" alt-text="Screenshot of a completed Program Summary. A checkmark appears on the right of each row.":::
 
 8. [Preview your survey](preview-manage-enable-engage-programs.md#preview-the-survey) after completing each setup section.
-9. [Review survey setup](survey-qa.md) before survey launch.
-10. [Enable and launch your survey](preview-manage-enable-engage-programs.md#enable-a-program).
+  
+9. Build excitement and remind your people about the survey.
+   - 1-2 days before your survey launch, [customize this email template and send it to your Distribution Lists.]( /../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-7---announce-survey-launch-to-entire-organization)
+   - [Set a calendar alert to send this survey reminder email to your full Distribution List 72 hours before the survey is set to close](/../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-8-reminder-to-submit-survey)
+
+10. [Review survey setup](survey-qa.md) before survey launch.
+11. [Enable and launch your survey](preview-manage-enable-engage-programs.md#enable-a-program).

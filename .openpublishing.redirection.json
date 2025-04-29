@@ -1736,6 +1736,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "viva/insights/use/user-roles.md",
+      "redirect_url": "/viva/insights/advanced/setup-maint/user-roles",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Viva/engage/configure-your-viva-engage-network/manage-storyline-viva.md",
       "redirect_url": "/viva/engage/eac-storyline",
       "redirect_document_id": false
@@ -2154,6 +2159,11 @@
     {
       "source_path": "Viva/solutions/incorporate-learning.md",
       "redirect_url":"/viva/learning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "previous-versions/viva/insights/use/user-roles.md",
+      "redirect_url": "/viva/insights/advanced/setup-maint/user-roles",
       "redirect_document_id": false
     },
     { 
