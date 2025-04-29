@@ -91,11 +91,11 @@ Do the following to create the association token:
 3. In the Admin center, on the **Setup and Configuration** tab, select **External Networks**.
 4. Select **Setup External Network**.
 
-    :::image type="content" source="../media/engage/admin/admin-center-ext-networks-1.png" alt-text="Obtain the code to associate the new network":::
+    :::image type="content" source="../../media/engage/admin/admin-center-ext-networks-1.png" alt-text="Obtain the code to associate the new network":::
 
 5. Select the **Generate Code** tab to generate a one-time tenant association code, and select **Generate**. You use the code to associate the new Entra tenant with the *parent Engage network*.
 
-    :::image type="content" source="../media/engage/admin/admin-center-ext-networks-2.png" alt-text="Generate the code":::
+    :::image type="content" source="../../media/engage/admin/admin-center-ext-networks-2.png" alt-text="Generate the code":::
 
 Make a note of the association code, because you use it in later steps.
 
@@ -112,7 +112,7 @@ This process uses the association token to establish the new Entra tenant with t
 
 After the redemption of the association code, you see the following result:
 
-:::image type="content" source="../media/engage/admin/external-network-confirmation.png" alt-text="Token redemption in the new network":::
+:::image type="content" source="../../media/engage/admin/external-network-confirmation.png" alt-text="Token redemption in the new network":::
 
 The parent network now connects to the new tenant.
 
@@ -125,7 +125,7 @@ After the new Microsoft Entra tenant associates to the parent network, you set t
 3. To associate the legacy external network to your new external network, select **External Network Upgrade** from the menu.
 4. Use the same tenant ID and tenant association token from the previous steps to enter the information in the appropriate fields and select **Redeem token.**
 
-:::image type="content" source="../media/engage/admin/external-network-upgrade-on-parent.png" alt-text="Token redemption":::
+:::image type="content" source="../../media/engage/admin/external-network-upgrade-on-parent.png" alt-text="Token redemption":::
 
 You see the message **External network has been successfully set up.** The legacy Viva Engage external network binds to the new external network and is backed by the new Entra tenant.
 
@@ -143,7 +143,7 @@ The next phase establishes the legacy network's user database in the new externa
 3. In the Admin center, select the **Governance and Compliance** tab, and select **Data export**.
 4. Under **Export user list**, enter the **Start date* and select the **End date**, then select *Download CSV file**.
 
-:::image type="content" source="../media/engage/admin/external-network-export-from-legacy.png" alt-text="Admin menu for the external network":::
+:::image type="content" source="../../media/engage/admin/external-network-export-from-legacy.png" alt-text="Admin menu for the external network":::
 
 Viva Engage uploads the new CSV file in a folder to your designated download location.
 
@@ -151,7 +151,7 @@ Viva Engage uploads the new CSV file in a folder to your designated download loc
 
 In the Microsoft Entra admin center, you import the current user accounts CSV from the legacy external network.
 
-:::image type="content" source="../media/engage/admin/external-network-entra-data-import.png" alt-text="Importing the legacy network data to the parent network's tenant":::
+:::image type="content" source="../../media/engage/admin/external-network-entra-data-import.png" alt-text="Importing the legacy network data to the parent network's tenant":::
 
 1. Sign in to the Microsoft Entra admin center as the Global Admin for the Entra tenant in your parent deployment.
 
@@ -163,11 +163,11 @@ After the legacy external network associates with the new external network, you 
 
 After you successfully connect the external network to the parent, the **M365 Native Mode** feature appears in the Viva Engage admin settings. To complete the Native Mode alignment, select this tab and follow the instructions.
 
-:::image type="content" source="../media/engage/admin/external-network-native-mode-setting.png" alt-text="Setting the external network to M365 Native Mode":::
+:::image type="content" source="../../media/engage/admin/external-network-native-mode-setting.png" alt-text="Setting the external network to M365 Native Mode":::
 
 When Native Mode alignment runs, the Native Mode configuration page shows progress and identifies failed steps for which you can take action.
 
-:::image type="content" source="../media/engage/admin/external-network-native-mode-screen.png" alt-text="Native Mode admin page for new network":::
+:::image type="content" source="../../media/engage/admin/external-network-native-mode-screen.png" alt-text="Native Mode admin page for new network":::
 
 ## Launch the modern external network
 
