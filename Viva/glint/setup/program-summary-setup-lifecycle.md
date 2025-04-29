@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 3/11/2025
+ms.date: 4/29/2025
 ---
 
 # Set up a Viva Glint Onboarding survey
@@ -58,7 +58,13 @@ Learn more about using [date-based Distribution Lists](set-up-distribution-lists
    > The attribute that your organization includes as a hire date in uploaded data may have a different label, like "Start Date." Select the date that should trigger Onboarding surveys in the Distribution section of your survey.
 
 7. [Preview your survey](preview-filter-lifecycle-programs.md#preview-your-survey) after completing each setup section.
-8. [Review survey setup](survey-qa.md) before survey launch.
-9. [Enable and launch your survey](preview-filter-lifecycle-programs.md#enable-an-employee-lifecycle-program).
+   
+8. Build excitement and remind your people about the survey.
+   - 1-2 days before your survey launch, [customize this email template and send it to your Distribution Lists.]( /../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-7---announce-survey-launch-to-entire-organization)
+   - [Set a calendar alert to send this survey reminder email to your full Distribution List 72 hours before the survey is set to close](/../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-8-reminder-to-submit-survey)
+
+9. [Review survey setup](survey-qa.md) before survey launch.
+  
+10. [Enable and launch your survey](preview-filter-lifecycle-programs.md#enable-an-employee-lifecycle-program).
 
 
