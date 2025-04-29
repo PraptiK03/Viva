@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/22/2025
+ms.date: 04/29/2025
 ---
 
 # Convert a public SSH key to OpenSSH format for Viva Glint SFTP
@@ -31,7 +31,7 @@ An OpenSSH public key (RSA type) should look similar to this example, and always
 `ssh-rsa AAAA.....1ng3pj`
 
 > [!NOTE]
-> PGP keys are designed to encrypt data files and not to access SFTP. PGP keys can't be converted to OpenSSH format. To encrypt data files with Viva Glint's PGP public key, copy your organization's PGP key from SFTP setup in General Settings. [Learn more](set-up-sftp.md).
+> PGP keys are designed to encrypt data files and not to access SFTP. PGP keys can't be converted to OpenSSH format. To encrypt data files with Viva Glint's PGP public key, copy your organization's PGP key from [SFTP setup in General Settings](set-up-sftp.md).
 
 ## Convert to OpenSSH format on Microsoft Windows
 
