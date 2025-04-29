@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 04/24/2025
+ms.date: 04/29/2025
 audience: admin
 ms.topic: overview
 ms.service: viva-learning
@@ -19,6 +19,9 @@ description: An introduction to People Skills, an AI-powered service providing s
 # Overview of People Skills
 
 
+> [!NOTE]
+> This feature is currently in public preview. Preview features or services are in development, may not be available to all customers, and are made available on a "preview" basis so you can get early access and send us feedback.
+
 People Skills is an AI-driven service that infers personalized skill profiles for your users mapped to a customizable, built-in taxonomy. This service provides a data layer that fuels the Skills agent, and enhances Microsoft 365 Copilot, Microsoft 365, and Viva services with contextualized information about the people in your organization.  
 
 People Skills:
@@ -26,8 +29,6 @@ People Skills:
 - Equips leaders with critical workforce skill insights to prepare and accelerate their AI transformation.
 - Empowers employees with personalized skill profiles to help them connect with others and grow their careers.
 
-> [!NOTE]
-> People Skills starts general availability to Microsoft 365 Copilot and Viva Customers at Microsoft Build in May 2025. We'll update our documentation with steps to set up People Skills. 
 
 ## Licensing  
 
