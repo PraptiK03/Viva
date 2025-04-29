@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/22/2025
+ms.date: 04/29/2025
 ---
 
 # Convert a public SSH key to OpenSSH format for Viva Glint SFTP
@@ -31,7 +31,7 @@ An OpenSSH public key (RSA type) should look similar to this example, and always
 `ssh-rsa AAAA.....1ng3pj`
 
 > [!NOTE]
-> PGP keys are designed to encrypt data files and not to access SFTP. PGP keys can't be converted to OpenSSH format. To encrypt data files with Viva Glint's PGP public key, copy your organization's PGP key from SFTP setup in General Settings. [Learn more](set-up-sftp.md).
+> PGP keys are designed to encrypt data files and not to access SFTP. PGP keys can't be converted to OpenSSH format. To encrypt data files with Viva Glint's PGP public key, copy your organization's PGP key from [SFTP setup in General Settings](set-up-sftp.md).
 
 ## Convert to OpenSSH format on Microsoft Windows
 
@@ -58,7 +58,7 @@ To convert to OpenSSH format:
 4. Copy and paste this command into Command Prompt: `ssh-keygen -i -f filename.pub > new-filename.pub`
 5. Replace `filename` with the name of your public key file and select **enter**.
 6. Command Prompt generates a converted, OpenSSH version of the public key in a new file.
-7. Open File Explorer and search for `new-filename`.pub and open the file in a text editor, like Notepad.
+7. Open File Explorer and search for `new-filename.pub` and open the file in a text editor, like Notepad.
 8. Copy and paste the full text of the key from Notepad, including `ssh-rsa`.
 9. Paste the new public key text into the **SSH Public Key** field in Viva Glint **SFTP Setup**.
 
@@ -92,7 +92,7 @@ To convert to OpenSSH format:
 4. Copy and paste this command into Command Prompt: `ssh-keygen -i -f filename.pub > new-filename.pub`
 5. Replace `filename` with the name of your public key file and select **enter**.
 6. Command Prompt generates a converted, OpenSSH version of the public key in a new file.
-7. Open File Explorer and search for `new-filename`.pub and open the file in a text editor, like Notepad.
+7. Open File Explorer and search for `new-filename.pub` and open the file in a text editor, like Notepad.
 8. Copy and paste the full text of the key from Notepad, including `ssh-rsa`.
 9. Paste the new public key text into the **SSH Public Key** field in Viva Glint **SFTP Setup**.
 
@@ -128,7 +128,7 @@ To convert to OpenSSH format:
 6. To convert the separated public key file to OpenSSH format, copy and paste this command into Command Prompt: `ssh-keygen -i -f filename.pub.tmp > filename.pub`
 7. Replace `filename` with the name of your separated public key file and select **enter**.
 8. Command Prompt generates a converted, OpenSSH version of the public key in a new file.
-9. Open File Explorer and search for `filename`.pub and open the file in a text editor, like Notepad.
+9. Open File Explorer and search for `filename.pub` and open the file in a text editor, like Notepad.
 10. Copy and paste the full text of the key from Notepad, including `ssh-rsa`.
 11. Paste the new public key text into the **SSH Public Key** field in Viva Glint **SFTP Setup**.
 
@@ -154,7 +154,7 @@ To convert to OpenSSH format:
 8. To convert the separated public key file to OpenSSH format, copy and paste this command into Command Prompt: `ssh-keygen -i -f filename.pub.tmp > filename.pub`
 9. Replace `filename` with the name of your separated public key file and select **enter**.
 10. Command Prompt generates a converted, OpenSSH version of the public key in a new file.
-11. Open File Explorer and search for `filename`.pub and open the file in a text editor, like Notepad.
+11. Open File Explorer and search for `filename.pub` and open the file in a text editor, like Notepad.
 12. Copy and paste the full text of the key from Notepad, including `ssh-rsa`.
 13. Paste the new public key text into the **SSH Public Key** field in Viva Glint **SFTP Setup**. 
 
@@ -217,7 +217,7 @@ To convert to OpenSSH format:
 4. Copy and paste this command into Terminal: `ssh-keygen -f filename.pem -i -m PKCS8 > filename.pub`
 5. Replace `filename` with the name of your public key file and select **enter**.
 6. Terminal generates a converted, OpenSSH version of the public key. 
-7. Open Finder and search for `filename`.pub to find the converted version of your key file.
+7. Open Finder and search for `filename.pub` to find the converted version of your key file.
 8. Open the .pub file in a text editor, like Sublime. 
 9. Copy and paste the full text of the key, including `ssh-rsa`.
 10. Paste the new public key text into the **SSH Public Key** field in Viva Glint **SFTP Setup**.
@@ -253,7 +253,7 @@ To convert to OpenSSH format:
 5. Replace `filename` with the name of your public key file and select **enter**.
 6. To convert the separated public key file to OpenSSH format, copy and paste this command into Terminal: `ssh-keygen -f filename.pub.tmp -i -m PKCS8 > filename.pub`
 7. Replace `filename` with the name of your separated public key file and select **enter**.
-8. Open Finder and search for `filename`.pub to find the converted version of your key file.
+8. Open Finder and search for `filename.pub` to find the converted version of your key file.
 9. Open the .pub file in a text editor, like Sublime. 
 10. Copy and paste the full text of the key, including `ssh-rsa`.
 11. Paste the new public key text into the **SSH Public Key** field in Viva Glint **SFTP Setup**.
@@ -279,7 +279,7 @@ To convert to OpenSSH format:
 7. Replace `filename` with the name of your public key file and select **enter**.
 8. To convert the separated public key file to OpenSSH format, copy and paste this command into Terminal: `ssh-keygen -f filename.pub.tmp -i -m PKCS8 > filename.pub`
 9. Replace `filename` with the name of your separated public key file and select **enter**.
-10. Open Finder and search for `filename`.pub to find the converted version of your key file.
+10. Open Finder and search for `filename.pub` to find the converted version of your key file.
 11. Open the .pub file in a text editor, like Sublime. 
 12. Copy and paste the full text of the key, including `ssh-rsa`.
 13. Paste the new public key text into the **SSH Public Key** field in Viva Glint **SFTP Setup**.
