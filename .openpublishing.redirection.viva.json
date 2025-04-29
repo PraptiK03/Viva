@@ -1045,11 +1045,6 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "previous-versions/viva/insights/use/user-roles.md",
-            "redirect_url": "/viva/insights/advanced/setup-maint/user-roles",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "viva/glint/setup/retro-trend-updates.md",
             "redirect_url": "/viva/glint/setup/manager-changing-team-role",
             "redirect_document_id": false
