@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2025
+ms.date: 04/29/2025
 ---
 
 # Preview, enable, and prepare to launch Viva Glint surveys
@@ -83,11 +83,11 @@ Now it's time to let survey takers know that the survey is just days away. Custo
 
 ### Send this email 1-2 days before your survey launches
 
-[Announce survey launch to entire organization](/../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-7---announce-survey-launch-to-entire-organization): Announce the imminent survey release and build excitement!
+[Announce survey launch to entire organization](/../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-7---announce-survey-launch-to-entire-organization): Remind your org about the imminent survey release and build excitement!
 
 ### Send this email when the survey is live
 
-Set a calendar alert to send this email (customized) to your full distribution list 72 hours before the survey is set to close.
+Set a calendar alert to send this email (customized) to your full Distribution List. Send it 72 hours before the survey is set to close.
 
 [Reminder to submit survey](/../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-8-reminder-to-submit-survey)
 
