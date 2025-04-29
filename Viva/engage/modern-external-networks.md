@@ -159,6 +159,11 @@ In the Microsoft Entra admin center, you import the current user accounts CSV fr
 
 ### Run the Native Mode data alignment for the external network
 
+|Admin role|Business function|
+|------------|----------------|
+|After the legacy external network associates with the new external network, you can run the data move/data alignment process. Doing so aligns the legacy network's resources with Microsoft 365 Entra resources.<br>
+After you successfully connect the external network to the parent, the **M365 Native Mode** feature appears in the Viva Engage admin settings. To complete the Native Mode alignment, select this tab and follow the instructions.<br>| :::image type="content" source="../media/engage/admin/external-network-native-mode-setting.png" alt-text="Setting the external network to M365 Native Mode"::: |
+
 After the legacy external network associates with the new external network, you can run the data move/data alignment process. Doing so aligns the legacy network's resources with Microsoft 365 Entra resources.
 
 After you successfully connect the external network to the parent, the **M365 Native Mode** feature appears in the Viva Engage admin settings. To complete the Native Mode alignment, select this tab and follow the instructions.
