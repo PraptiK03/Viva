@@ -58,7 +58,7 @@ Take the following steps to perform a modern external network configuration. Com
 ### Set up a new Microsoft Entra workforce tenant
 
 > [!NOTE]
-> Consult the Microsoft Entra documentation [QuickStart - Access and create new tenant](./entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization) for the information and steps to set up your [new workforce tenant](./entra/external-id/tenant-configurations#workforce-tenants) for the modern external network.
+> Consult the Microsoft Entra documentation [QuickStart - Access and create new tenant](/entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization) for the information and steps to set up your [new workforce tenant](/entra/external-id/tenant-configurations#workforce-tenants) for the modern external network.
 
 After you create the tenant, copy the new Entra Tenant ID to a safe location for later use.
 
@@ -91,11 +91,11 @@ Do the following to create the association token:
 3. In the Admin center, on the **Setup and Configuration** tab, select **External Networks**.
 4. Select **Setup External Network**.
 
-    :::image type="content" source="../media/engage/admin/admin-center-ext-networks-1.png" alt-text="Token redemption in the new network":::
+    :::image type="content" source="../media/engage/admin/admin-center-ext-networks-1.png" alt-text="Obtain the code to associate the new network":::
 
 5. Select the **Generate Code** tab to generate a one-time tenant association code, and select **Generate**. You use the code to associate the new Entra tenant with the *parent Engage network*.
 
-    :::image type="content" source="../media/engage/admin/admin-center-ext-networks-2.png" alt-text="Token redemption in the new network":::
+    :::image type="content" source="../media/engage/admin/admin-center-ext-networks-2.png" alt-text="Generate the code":::
 
 Make a note of the association code, because you use it in later steps.
 
