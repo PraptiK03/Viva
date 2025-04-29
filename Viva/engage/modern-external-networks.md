@@ -153,9 +153,9 @@ In the Microsoft Entra admin center, you import the current user accounts CSV fr
 
 :::image type="content" source="../media/engage/admin/external-network-entra-data-import.png" alt-text="Importing the legacy network data to the parent network's tenant":::
 
-1. Sign in to the Entra admin center as the Global Admin for the Entra tenant in your parent deployment.
+1. Sign in to the Microsoft Entra admin center as the Global Admin for the Entra tenant in your parent deployment.
 
-2. To bulk-add the users from the legacy external network, use the exported users CSV file [to bulk-invite them as guests in the new network](/entra/external-id/tutorial-bulk-invite).
+2. Use the exported users CSV file [to bulk-invite the users from the legacy external network as guests in the new network](/entra/external-id/tutorial-bulk-invite).
 
 ### Run the Native Mode data alignment for the external network
 
@@ -180,7 +180,7 @@ After the data move completes, the network administrators can take the following
 - Notify users of their membership in the new network.
 
 > [!NOTE]
-> When you re-add user accounts to the updated external network, it offers a feature to notify users of the new URL/domain. We recommend that you include the tenant ID of the new External Network in the invite URL. Format it as `https://engage.cloud.microsoft/main/org/<Tenant ID>`.
+> When you readd user accounts to the updated external network, it offers a feature to notify users of the new URL/domain. We recommend that you include the tenant ID of the new External Network in the invite URL. Format it as `https://engage.cloud.microsoft/main/org/<Tenant ID>`.
 
 ## FAQ
 
