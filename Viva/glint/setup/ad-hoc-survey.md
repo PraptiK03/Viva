@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/10/2025
+ms.date: 04/29/2025
 ---
 
 # Set up a Viva Glint Ad Hoc survey
@@ -52,8 +52,14 @@ People need these assurances at work:
    | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content that helps users interpret results on their dashboards.       |
 
 7. [Preview your survey](preview-manage-enable-engage-programs.md#preview-the-survey) after completing each setup section.
-8. [Review survey setup](survey-qa.md) before survey launch.
-9. [Enable and launch your survey](preview-manage-enable-engage-programs.md#enable-a-program).
+
+8. Build excitement and remind your people about the survey.
+   - 1-2 days before your survey launch, [customize this email template and send it to your Distribution Lists.]( /../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-7---announce-survey-launch-to-entire-organization)
+   - [Set a calendar alert to send this survey reminder email to your full Distribution List 72 hours before the survey is set to close](/../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-8-reminder-to-submit-survey).
+     
+9. [Review survey setup](survey-qa.md) before survey launch.
+    
+10. [Enable and launch your survey](preview-manage-enable-engage-programs.md#enable-a-program).
 
 
 
