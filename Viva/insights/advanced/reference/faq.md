@@ -1,5 +1,5 @@
 ---
-ms.date: 01/06/2025
+ms.date: 04/25/2025
 title: Advanced insights FAQ
 description: Get answers to frequently asked questions about Microsoft Viva Insights' advanced insights app
 author: zachminers
@@ -99,7 +99,7 @@ Optionally, after you sign in, you can:
 For details about setup, refer to the [Setup checklist](../setup-maint/setup-overview.md).
 
 >[!Important]
-> For the advanced insights app to run, at least 10 people in your organization need Viva Insights licenses. The app requires this number because credible analyses need at least 10 employees. For more information, refer to [Assign licenses overview](../setup-maint/assign-licenses.md).
+> For the advanced insights app to run, at least 50 assigned Viva Insights licenses are required. For more information, refer to [Assign licenses overview](../setup-maint/assign-licenses.md).
 
 #### Q2. Is the number of analyst role assignments limited?
 
@@ -122,7 +122,7 @@ If you're getting an error, you might want to ask the following questions:
 
 * **With my role, can I access this feature?** Only certain roles can access some parts of the app. To learn which features are available for which role, refer to [User roles](../setup-maint/user-roles.md#feature-access).
 
-* **Do enough people have licenses assigned to them?** For analysts to access the advanced insights app, your admin team needs to assign a certain number of licenses to people in your organization. This number needs to be equal to or greater than your [minimum group size](../setup-maint/privacy-settings.md#minimum-group-size). The default minimum group size is 10, so at least 10 people in your organization need a license before analysts can sign in and start using advanced insights.
+* **Do enough people have licenses assigned to them?** For analysts to access advanced insights, your admin team needs to assign a certain number of Viva Insights licenses to people in your organization. For most customers, this number must be at least 50.
 
 ### Organizational data
 
