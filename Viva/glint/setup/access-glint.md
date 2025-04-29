@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/03/2025
+ms.date: 04/29/2025
 ---
 
 # Access the Viva Glint platform
@@ -24,7 +24,7 @@ Active Microsoft Viva Glint admin and dashboard users can access Viva Glint with
 > [!IMPORTANT]
 > To successfully access Viva Glint, users must:
 > - Exist in Microsoft Entra. Learn more about how Microsoft 365 Global Administrators or Entra admins can [set up access to Viva Glint with Microsoft Entra ID](access-with-azure-ad.md).
->     - Users can have a member type of Guest or Member. Invited Guests from other tenants in a [multitenant organization](glint-mto.md) and [Support users](add-external-user.md) need to select a domain when logging in. [Learn more](#sign-in-as-a-guest-or-support-user)
+>     - Users can have a member type of Guest or Member. Invited Guests from other tenants in a [multitenant organization](glint-mto.md) and [Support users](add-external-user.md) need to select a domain when [logging in](#sign-in-as-a-guest-or-support-user).
 > - Exist in the Viva Glint app with an "ACTIVE" employee status and membership to the Active Employees role.
 
 ## Select a supported browser
