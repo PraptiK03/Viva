@@ -134,6 +134,8 @@ items:
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: Use Entra plus .csv files for parallel data uploads
+            href: advanced/admin/entra-plus-csv-upload.md
           - name: Tips for uploading organizational data for Copilot 
             href: advanced/admin/upload-org-data-copilot.md
           - name: Import organizational data using API (first import)
