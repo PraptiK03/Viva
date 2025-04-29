@@ -13,7 +13,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
 ms.localizationpriority: medium
-description: An introduction to People Skills, an AI-powered service providing skills-based experiences.
+description: This article describes how to manage skill suggestions and skill visibility.
 ---
 
 # Manage skills inferencing and visibility 
