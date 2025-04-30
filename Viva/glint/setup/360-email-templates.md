@@ -48,7 +48,7 @@ Date: [Date]<br>
 
 We’re excited to launch a Viva Glint 360 feedback program on [date]. 360 programs help our employees gain self-awareness, identify their strengths and areas for improvement, and take concrete steps to grow. 360 programs designed to support our strategic goals at [Company Name].
 
-The 360 feedback process collects input from direct reports, colleagues, and direct managers. We’ve chosen Microsoft Viva Glint, a third party, to ensure confidentiality and a great experience for all participants. Feedback is easy to give, access, and use to gain actionable insights.
+The 360 feedback process collects input from direct reports, colleagues, and direct managers. We chose Microsoft Viva Glint, a third party, to ensure confidentiality and a great experience for all participants. Feedback is easy to give, access, and use to gain actionable insights.
 
 As senior leaders, you play a critical role in promoting the program and its benefits to your teams. Here are ways you can help:
 - Communicate the importance of participation and providing thoughtful, candid feedback.
@@ -72,9 +72,9 @@ Date: [Date]<br>
 
 A 360 program is a tool to help employees gain insight into their strengths and their areas for improvement. It collects feedback from different sources, such as direct reports, colleagues, and managers. A 360 gives a comprehensive view of an employee's performance and behavior. You may be asked to be a feedback provider for one of your colleagues. As a feedback provider, you fill out a survey about your colleague's work behaviors. To help your colleague grow and develop, your feedback should be honest and constructive.
 
-The survey is administered by Microsoft Viva Glint, a third party. Use of a third party helps to ensure confidentiality, accuracy, and an easy-to-take survey that solicits useful feedback to create a better work environment.
+Microsoft Viva Glint, a third party, administers the survey. Use of a third party helps to ensure confidentiality, accuracy, and an easy-to-take survey that solicits useful feedback to create a better work environment.
 
-Your opinions are important and valuable. They help us build a workplace where everyone feels heard and has the opportunity to learn and grow. Please reach out with any questions.
+Your opinions are important and valuable. They help us build a workplace where everyone feels heard and has the opportunity to learn and grow. Reach out with any questions.
 
 [Salutation],
 
@@ -87,13 +87,13 @@ From: [Name/Title or Team/Company]<br>
 Subject: 360 Feedback Program<br>
 Date: [Date]<br>
 
-Thank you for participating as a subject in the 360 feedback program that starts on [date]. This is a great opportunity to get a comprehensive and honest assessment of your strengths and areas for improvement from different perspectives, such as managers, peers, and direct reports. You also complete a self-assessment.
+Thank you for participating as a subject in the 360 feedback program that starts on [date]. Survey feedback provides a great opportunity to get a comprehensive and honest assessment of your strengths and areas for improvement from different perspectives, such as managers, peers, and direct reports. You also complete a self-assessment.
 
-The survey is conducted by Microsoft Viva Glint, a trusted third party to ensure confidentiality and accuracy. The survey is easy to take and helps you understand how others perceive you in the workplace and learn what you can do to grow and succeed.
+Microsoft Viva Glint, a trusted third party, administers the survey to ensure confidentiality and accuracy. The survey is easy to take and helps you understand how others perceive you in the workplace and learn what you can do to grow and succeed.
 
-As a subject, you need to complete a self-assessment; it’s essential to a meaningful report. Please encourage your feedback providers to complete the survey. We provide you with a ‘thank you’ email template to send to your feedback providers, once they have submitted their survey. 
+As a subject, you need to complete a self-assessment; it’s essential to a meaningful report. Encourage your feedback providers to complete the survey. We provide you with a ‘thank you’ email template to send to your feedback providers, once they have submitted their survey. 
 
-Please reach out with any questions.
+Reach out with any questions.
 
 [Salutation],
 
