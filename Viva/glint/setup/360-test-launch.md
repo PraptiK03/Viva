@@ -14,26 +14,24 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/21/2025
+ms.date: 4/30/2025
 ---
 
 # Test and launch a Glint 360 feedback cycle
 
-Check every detail of a Microsoft Viva Glint 360 feedback cycle before selecting **Schedule Cycle.** Some 360 elements can't be edited once a 360 program is live, including:
+Check every detail of a Microsoft Viva Glint 360 feedback cycle before selecting **Schedule Cycle.** Some elements can't be edited once a 360 program is live. These include:
 
-- The internal cycle name. The external cycle display name can be changed.
+- The internal cycle name. *The external cycle display name can be changed*.
 - Question removals, additions, or edits.
 - Subject additions after the Feedback Provider Selection End Date.
 
+When each section of a 360 cycle is set up successfully, a blue check mark indicates that this part of the program is ready to be scheduled. All sections of a 360 cycle must be set up, reviewed, and saved before the cycle can be launched. Also, at least one subject must be added before the cycle can be launched.
+
 ## Preview a 360 cycle
 
-When each section of a 360 cycle is set up successfully, a blue check mark displays to indicate that an admin can schedule the cycle.  
+From the cycle page, select **Actions** and then **Preview Survey** from the dropdown menu.
 
-All sections of a 360 cycle must be set up, reviewed, and saved and at least one (1) subject must be added before the cycle can be scheduled.
-
-To preview 360 cycles, from the cycle page, select **Actions** and then **Preview Survey** from the dropdown menu.
-
-:::image type="content" source="../../media/glint/setup/360-cycle-actions-menu.png" alt-text="Screenshot of the Actions dropdown menu on a Glint 360 cycle page.":::
+:::image type="content" source="../../media/glint/setup/360-cycle-actions-menu-1.png" alt-text="Screenshot of the Actions dropdown menu on a Glint 360 cycle page.":::
 
 When previewing a survey, confirm that:
 
