@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 360 feedback program email templates
+title: Microsoft Viva Glint 360 feedback email templates
 description: Use these email templates to inform your organization about 360 feedback programs.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/21/2025
+ms.date: 4/30/2025
 ---
 
-# Viva Glint 360 feedback program email templates
+# Microsoft Viva Glint 360 feedback email templates
 
 Use Glint's email templates to introduce 360 feedback program participants to stakeholders.
 
@@ -30,13 +30,13 @@ Use Glint's email templates to introduce 360 feedback program participants to st
 
 |Email template #	|Template name|	Audience|
 |:--------------:|--------------|---------|
-|1	|Email to introduce 360s	|Senior leadership and HR leadership|
-|2	|Intro email – all employees who might be considered as a subject	|All employees|
-|3	|Introductory rater information	|Rater|
-|4	|Introductory feedback provider information	|Feedback provider|
-|5	|360 feedback program introduction|	Customer stakeholders|
-|6	|360 feedback program introduction	|Anyone who might be a subject coach|
-|7	|From subject to feedback provider|	‘Thanks’ from subject|
+|1	|[Email to introduce 360s](#1-introductory-360-email-for-senior-leaders)|Senior leadership and HR leadership|
+|2	|[Intro email – all employees who might be considered as a subject](#2--introductory-email-for-all-employees)	|All employees|
+|3	|[Introductory rater information](#3--introductory-subject-information)	|Rater|
+|4	|[Introductory feedback provider information](#4--introductory-feedback-provider-information)	|Feedback provider|
+|5	|[360 feedback program introduction](#5--360-introductory-email-to-customer-stakeholders)|	Customer stakeholders|
+|6	|[360 feedback program introduction](#6---360-feedback-program-introduction-for-anyone-who-might-be-a-subject-coach)	|Anyone who might be a subject coach|
+|7	|[From subject to feedback provider](#7--thanks-from-subject)|	‘Thanks’ from subject|
 
 ### 1-Introductory 360 email for senior leaders
 
