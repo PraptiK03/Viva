@@ -15,7 +15,7 @@ ms.collection: m365initiative-viva-pulse
 search.appverid: MET150
 ---
 
-# Licensing requirements
+# Viva Pulse licensing requirements
 
 Viva Pulse is available both as a premium experience and a limited experience available with Microsoft 365 Copilot subscription. The following list of capabilities is available to Viva Pulse authors and administrators as part of these experiences. 
 
