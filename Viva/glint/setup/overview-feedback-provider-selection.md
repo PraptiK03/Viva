@@ -33,7 +33,7 @@ Setup what a subject sees as they get ready to select feedback providers. Use th
 
 #### Send an introductory email to the 360 subject
 
-Customize this email template and send it to provide expectations to 360 feedback programs subjects. [Introductory subject information](#3--introductory-subject-information)
+Customize this email template and send it to provide expectations to 360 feedback programs subjects. [Introductory subject information](/../../viva/glint/setup/360-email-templates?branch=main#3--introductory-subject-information)
 
 ### View the feedback the provider selection screen *after* selection
 
