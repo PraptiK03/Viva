@@ -122,8 +122,7 @@ From the copied cycle, up to six feedback provider categories are preset.
 |Custom|1|N/A|Not commonly used, but could be used for a *dotted line manager* or *mentor* feedback|
 |Custom|3*|N/A|Commonly used for *Collaborators*|
 
-> [!IMPORTANT]
-> *At least three feedback providers must respond at the *survey level* to show feedback in a subject's report. This requirement doesn't apply at the *question* level.
+***At least three feedback providers must respond at the *survey* level to show feedback in a subject's report. This requirement doesn't apply at the *question* level.**
 
 ### Confidentiality threshold
 
@@ -143,6 +142,11 @@ This setting can’t be edited once a cycle is live. Choose between:
 :::image type="content" source="../../media/glint/setup/360-provider-response-info-2.png" alt-text="Screenshot of the Feedback Provider Response Information window.":::
 
 Select **Save** when you're done configuring the Setup page.
+
+## Introduce your 360 program or cycle 
+
+[Email to introduce 360s to senior leadership and HR leadership](#1-introductory-360-email-for-senior-leaders)
+[Introductory email to all employees who might be considered as a 360 subject](#2--introductory-email-for-all-employees)
 
 ## Use these guidance pages to complete 360 cycle setup
 
