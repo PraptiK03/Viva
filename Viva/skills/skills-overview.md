@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 04/24/2025
+ms.date: 04/29/2025
 audience: admin
 ms.topic: overview
 ms.service: viva-learning
@@ -19,6 +19,9 @@ description: An introduction to People Skills, an AI-powered service providing s
 # Overview of People Skills
 
 
+> [!NOTE]
+> This feature is currently in preview. Preview features or services are in development, may not be available to all customers, and are made available on a "preview" basis so you can get early access and send us feedback.
+
 People Skills is an AI-driven service that infers personalized skill profiles for your users mapped to a customizable, built-in taxonomy. This service provides a data layer that fuels the Skills agent, and enhances Microsoft 365 Copilot, Microsoft 365, and Viva services with contextualized information about the people in your organization.  
 
 People Skills:
@@ -26,8 +29,6 @@ People Skills:
 - Equips leaders with critical workforce skill insights to prepare and accelerate their AI transformation.
 - Empowers employees with personalized skill profiles to help them connect with others and grow their careers.
 
-> [!NOTE]
-> People Skills starts general availability to Microsoft 365 Copilot and Viva Customers at Microsoft Build in May 2025. We'll update our documentation with steps to set up People Skills. 
 
 ## Licensing  
 
@@ -80,28 +81,6 @@ The skill inferencing engine operates under following constraints:
 - Read [AI transparency in People Skills](https://support.microsoft.com/office/ai-transparency-in-skills-c54f3ded-58bf-44dd-9fa1-6cbe49fba106) to learn how we use the inferencing data. 
 
 People Skills also provides a framework for tagging sensitive skills that administrators don't want the inference engine to capture. We continue to share more details on how to tag skills as AI-restricted. 
-
-
-## Manage where skills are shared and skills suggestions  
-
-
-As an admin, you can set privacy and visibility controls for users, groups, or the entire tenant to meet your organization's needs. People Skills provides access controls using Feature Access Management to ensure you comply with user privacy and local regulations.
-
-Skills inferencing controls are enabled by default, but you can let users opt in or out after setting up People Skills in your tenant. 
-
-- Admins can turn skills inferencing auto-on. Individual users can opt out. 
-- Admins can turn skills inferencing auto-off. Individual users can opt in.  
-- Admins can disable skills inferencing for their tenant.  
-
-Skills visibility controls whether users can see their colleagues’ skills on surfaces like the people card or in Copilot. All skills in a user's profile is shared and visible by default once you set up People Skills in your tenant. 
-
-- Admins can turn skills visibility auto-on. Individual users can opt out. 
-- Admins can turn skills visibility auto-off. Individual users can opt in.
-- Admins can disable skills visibility for their tenant.  
-
-:::image type="content" source="../media/skills/skills-user-privacy-settings.png" alt-text="A screenshot of the different ways a user can set privacy options for sharing People Skills." lightbox="../media/skills/skills-user-privacy-settings.png":::
-
-
 
 > [!NOTE]
 > We'll share instructions on managing skills inferencing and visibility controls before People Skills general availability.  

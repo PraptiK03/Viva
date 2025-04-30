@@ -1,5 +1,5 @@
 ---
-ms.date: 04/29/2025
+ms.date: 04/30/2025
 title: Use Microsoft Entra plus .csv files for parallel data uploads
 description: This article discusses how to upload your organizational data to Viva Insights using both Microsoft Entra and .csv files simultaneously.
 author: zachminers
@@ -40,11 +40,11 @@ For instance, your initial upload might look like this:
 
 | PersonId | ManagerId | Organization | FunctionType |
 |---|---|---|---|
-| a@b.com | Dummy001 | DummyOrg001 | Analyst |
-| b@b.com | Dummy002 | DummyOrg002 | HR |
-| c@b.com | Dummy003 | DummyOrg003 | Finance |
-| d@b.com | Dummy004 | DummyOrg004 | Marketing |
-| e@b.com | Dummy005 | DummyOrg005 | Engineering |
+| a@b.com | Dummy001@dummy.com | DummyOrg001 | Analyst |
+| b@b.com | Dummy002@dummy.com | DummyOrg002 | HR |
+| c@b.com | Dummy003@dummy.com | DummyOrg003 | Finance |
+| d@b.com | Dummy004@dummy.com | DummyOrg004 | Marketing |
+| e@b.com | Dummy005@dummy.com | DummyOrg005 | Engineering |
 
 Then, your subsequent upload might look like this:
 
@@ -62,7 +62,7 @@ Or, your initial upload might look like this:
 
 | PersonId | ManagerId | Organization | FunctionType |
 |----|----|----|----|
-| a@b.com | Dummy001 | DummyOrg001 | Analyst |
+| a@b.com | Dummy001@dummy.com | DummyOrg001 | Analyst |
 
 Then, your subsequent update might look like this:
 
