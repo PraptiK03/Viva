@@ -116,7 +116,7 @@ After the redemption of the association code, you see the following result:
 
 The parent network now connects to the new tenant.
 
-#### Connect the legacy external network to the parent network
+#### Connect the legacy external network to the new external network
 
 After the new Microsoft Entra tenant associates to the parent network, you set the *legacy external network* to connect to the *new external network*. To do so, you use the same association token and Tenant ID that you used in the previous sections.
 
