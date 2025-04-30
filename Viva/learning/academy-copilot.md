@@ -19,9 +19,12 @@ description: Learn how to create and maintain Microsoft Copilot Academy to help 
 
 # Microsoft Copilot Academy
 
-Microsoft Copilot Academy helps learners develop skills associated with Microsoft 365 Copilot. This experience provides structured educational content within Viva Learning to help users learn about, discover, and use Copilot effectively.  
+Microsoft Copilot Academy helps learners develop skills associated with Microsoft 365 Copilot. This experience provides structured educational content within Viva Learning to help users learn about, discover, and use Copilot effectively.
 
-![Screenshot of the Microsoft Copilot Academy home page.](../media/learning/academy-copilot-home-page.png)
+Copilot Academy can be accessed here: [https://aka.ms/copilot-academy](https://aka.ms/copilot-academy)
+
+![Screenshot of Copilot Academy Homepage in Viva Learning.](media/academy-copilot/copilot-academy-latest-home-page.png)
+
 
 ## Prerequisites
 
@@ -51,6 +54,8 @@ Knowledge Administrators can manage access to Copilot Academy by selecting '**Mi
 ## Notifications
 
 Only Users with a Microsoft 365 Copilot license will receive monthly personalized notifications about Copilot Academy in Microsoft Teams.
+
+![CopilotAcademyNewUserNotification](media/academy-copilot/copilotacademynewusernotification.png)   ![CopilotAcademyExistingUserNotification](media/academy-copilot/copilotacademyexistingusernotification.png)
 
 ## Language support 
 
