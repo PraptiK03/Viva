@@ -1,5 +1,5 @@
 ---
-title: Set up a Viva Glint Onboarding survey
+title: Set up a Microsoft Viva Glint Onboarding survey
 description: Viva Glint Employee Onboarding surveys measure the employee experience during key moments based on a person's Hire Date.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 4/29/2025
+ms.date: 4/30/2025
 ---
 
-# Set up a Viva Glint Onboarding survey
+# Set up a Microsoft Viva Glint Onboarding survey
 
-Together, Microsoft Viva Glint refers to Onboarding and Exit surveys as Employee Lifecycle surveys. **Onboarding surveys** are crucial for gauging new hires’ early experiences and ensuring they have the resources and support needed to succeed. Onboarding surveys typically occur in the first few weeks of employment and Viva Glint suggests surveys at intervals to track new employees' experience in your company. These surveys cover aspects like the effectiveness of your orientation process, clarity of job expectations, and the supportiveness of the environment. 
+Microsoft Viva Glint refers to Onboarding and Exit surveys as Employee Lifecycle surveys. **Onboarding surveys** are crucial for gauging new hires’ early experiences and ensuring they have the resources and support needed to succeed. Onboarding surveys typically occur in the first few weeks of employment and Viva Glint suggests surveys at intervals to track new employees' experience in your company. These surveys cover aspects like the effectiveness of your orientation process, clarity of job expectations, and the supportiveness of the environment. 
 
 ## Recommended cadence and tips 
 
@@ -51,7 +51,7 @@ Learn more about using [date-based Distribution Lists](set-up-distribution-lists
    | :::image type="icon" source="/office/media/icons/users-people.png" :::   |[Distribution](distribution-program-summary.md)        |Select Distribution Lists or User Roles to include in or exclude from the survey invite list.        |
    | :::image type="icon" source="/office/media/icons/help.png" :::  |[Questions](questions-setup.md)       | Add survey introduction text, select questions, and add a survey thank you message.      |
    | :::image type="icon" source="/office/media/icons/usage-report-blue.png" :::  |[Reporting](reporting-setup.md)       |  Define which roles have access to this survey's results and determine key reporting views.      |
-   | :::image type="icon" source="/office/media/icons/whats-new-megaphone-blue.png" ::: |[Communications](program-summary-communications.md)       |  Set a schedule and customize content for survey invites, reminders, and survey results notification emails.     |
+   | :::image type="icon" source="/office/media/icons/whats-new-megaphone-blue.png" ::: |[Communications](program-summary-communications.md)       |  Customize and set a schedule to send survey communications.    |
    | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content that helps users interpret results on their dashboards.       |
 
    > [!NOTE]
@@ -61,10 +61,20 @@ Learn more about using [date-based Distribution Lists](set-up-distribution-lists
    
 8. Build excitement and remind your people about the survey.
    - 1-2 days before your survey launch, [customize this email template and send it to your Distribution Lists.]( /../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-7---announce-survey-launch-to-entire-organization)
-   - [Set a calendar alert to send this survey reminder email to your full Distribution List 72 hours before the survey is set to close](/../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-8-reminder-to-submit-survey)
+   - [Set a calendar alert to send this survey reminder email to your full Distribution List 72 hours before the survey is set to close](/../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-8-reminder-to-submit-survey).
 
 9. [Review survey setup](survey-qa.md) before survey launch.
   
 10. [Enable and launch your survey](preview-filter-lifecycle-programs.md#enable-an-employee-lifecycle-program).
+
+11. **Set a calender alert** to customize and send post-survey email communications:
+    - **To your entire organization:**
+       - 1 day after survey close: [Announce that the survey is closed and explain what's next](/../../viva/glint/communicate/results-rollout-templates?branch=main#email-template-1-survey-close-and-whats-next-for-all-employees)
+       - 3-4 days after survey close: [Share survey results and what to expect from feedback](/../../viva/glint/communicate/results-rollout-templates?branch=main#email-template-2---survey-results-and-next-steps-for-all-employees)
+
+    - **To your managers:**
+      - 1 day after survey close: [Survey results and confidentiality standard](/../../viva/glint/communicate/results-rollout-templates?branch=main#email-template-5---survey-results-and-confidentiality-standards-for-managers)
+      - 5-7 days after survey closes: [How to have effective conversations](/../../viva/glint/communicate/results-rollout-templates?branch=main#email-template-6---how-to-have-effective-conversations-managers-and-hrbps)
+
 
 
