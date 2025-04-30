@@ -326,7 +326,7 @@ items:
                  items:
                    - name: Core items
                      href: setup/360-core-questions.md
-               - name: 360 Feedback Provider Selections
+               - name: 360 feedback provider selection
                  href: setup/overview-feedback-provider-selection.md
                - name: 360 Competencies & Reporting
                  href: setup/360-competencies.md
