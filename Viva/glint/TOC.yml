@@ -340,8 +340,8 @@ items:
                  href: setup/360-export-import.md
                - name: Test and launch 360s
                  href: setup/360-test-launch.md
-               - name: 360 email communication templates
-                 href: setup/360-email-templates.md
+           - name: 360 email communication templates
+             href: setup/360-email-templates.md
            - name: 360 role experiences
              items:
                - name: Admin experience during a live 360 program
