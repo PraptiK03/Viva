@@ -326,7 +326,7 @@ items:
                  items:
                    - name: Core items
                      href: setup/360-core-questions.md
-               - name: 360 Feedback Provider Selections
+               - name: 360 feedback provider selection
                  href: setup/overview-feedback-provider-selection.md
                - name: 360 Competencies & Reporting
                  href: setup/360-competencies.md
@@ -340,8 +340,8 @@ items:
                  href: setup/360-export-import.md
                - name: Test and launch 360s
                  href: setup/360-test-launch.md
-               - name: 360 email communication templates
-                 href: setup/360-email-templates.md
+           - name: 360 email communication templates
+             href: setup/360-email-templates.md
            - name: 360 role experiences
              items:
                - name: Admin experience during a live 360 program
