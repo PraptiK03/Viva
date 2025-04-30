@@ -1,5 +1,5 @@
 ---
-title: Create a new Viva Glint 360 program and cycle
+title: Create a Microsoft Viva Glint 360 program and cycle
 description: 360 programs contain cycles that can be cloned to use on a set schedule.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 4/30/2025
 ---
 
-# Create a new Viva Glint 360 program and cycle
+# Create a Microsoft Viva Glint 360 program and cycle
 
 360 programs contain cycles which can be cloned to use for other groups. 
 
@@ -79,10 +79,6 @@ Select the new cycle to configure. All settings from the copied schedule populat
 
 :::image type="content" source="../../media/glint/setup/360-cycle-settings-first.png" alt-text="Screenshot of the five sections to configure in Cycle Settings.":::
 
->Here's an example of the **May 2025** cycle page:
->
->:::image type="content" source="../../media/glint/setup/360-may-cycle-setup.png" alt-text="Screenshot of the setup page for a new cycle." lightbox="../../media/glint/setup/360-may-cycle-setup.png":::
-
 ## Setup page
 
 There are three preconfigured sections to review. 
@@ -141,8 +137,8 @@ Select **Save** when you're done configuring the Setup page.
 
 ## Introduce your 360 program or cycle 
 
-Customize this [email to introduce 360s to senior leadership and HR leadership](/../../viva/glint/setup/360-email-templates?branch=main#1-introductory-360-email-for-senior-leaders)<br>
-Customize this [Introductory email to all employees who might be considered as a 360 subject](/../../viva/glint/setup/360-email-templates?branch=main#2--introductory-email-for-all-employees)
+Customize this [email to introduce 360s to senior leadership and HR leadership](/../../viva/glint/setup/360-email-templates?branch=main#1-introductory-360-email-for-senior-leaders).<br>
+Customize this [Introductory email to all employees who might be considered as a 360 subject](/../../viva/glint/setup/360-email-templates?branch=main#2--introductory-email-for-all-employees).
 
 ## Complete your 360 cycle setup
 
