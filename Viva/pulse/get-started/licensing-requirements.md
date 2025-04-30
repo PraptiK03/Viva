@@ -1,13 +1,13 @@
 ---
-title: Licensing requirements
-description: "Licensing requirements"
+title: Viva Pulse licensing requirements
+description: "Licensing requirements for Viva Pulse"
 ms.reviewer: 
 ms.author: hasrivas
 author: hasrivas
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 11/21/2024
+ms.date: 04/30/2025
 ms.topic: get-started
 ms.service: viva-pulse
 ms.localizationpriority: medium
