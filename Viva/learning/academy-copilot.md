@@ -55,7 +55,7 @@ Knowledge Administrators can manage access to Copilot Academy by selecting '**Mi
 
 Only Users with a Microsoft 365 Copilot license will receive monthly personalized notifications about Copilot Academy in Microsoft Teams.
 
-![CopilotAcademyNewUserNotification](media/academy-copilot/copilotacademynewusernotification.png)   ![CopilotAcademyExistingUserNotification](media/academy-copilot/copilotacademyexistingusernotification.png)
+![Screenshot of Copilot Academy Teams notification for new users.](media/academy-copilot/copilotacademynewusernotification.png)   ![Screenshot of Copilot Academy Teams notification for existing users.](media/academy-copilot/copilotacademyexistingusernotification.png)
 
 ## Language support 
 
