@@ -25,7 +25,7 @@ Customize the experience for 360 subjects in this section of **Cycle Settings**.
 
 Use the **+ symbol** to open the dropdown menu of macros to customize each field. Then select **Preview** to check that everything looks as you expect.
 
-### View the feedback provider selection screen *before* selection
+### View the feedback provider selection screen before selection
 
 Setup what a subject sees as they get ready to select feedback providers. Use this area to help your subject make appropriate selections and explain why some feedback providers may be preselected. 
 
@@ -33,9 +33,9 @@ Setup what a subject sees as they get ready to select feedback providers. Use th
 
 #### Send an introductory email to the 360 subject
 
-Customize this email template and send it to provide expectations to 360 feedback programs subjects. [Introductory subject information](/../../viva/glint/setup/360-email-templates?branch=main#3--introductory-subject-information)
+[Customize this email template and send it to provide expectations to 360 feedback programs subjects](/../../viva/glint/setup/360-email-templates?branch=main#3--introductory-subject-information).
 
-### View the feedback the provider selection screen *after* selection
+### View the feedback the provider selection screen after selection
 
 :::image type="content" source="../../media/glint/setup/360-provider-selection-after.png"alt-text="Screenshot of the text content for subjects after the selection of feedback providers.":::
 
