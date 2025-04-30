@@ -2621,5 +2621,10 @@
     "redirect_url": "/viva/glint/setup/focus-areas-managers-creating",
     "redirect_document_id": true
   },
+  {
+    "source_path": "viva/connections/faqs-viva-connections-feed.md",
+    "redirect_url": "/viva/connections/news-reader",
+    "redirect_document_id": true
+  }
  ]
 }
