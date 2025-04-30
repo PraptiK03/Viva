@@ -19,7 +19,7 @@ ms.date: 4/30/2025
 
 # Microsoft Viva Glint admin experience during a live 360 program
 
-During live cycles, Microsoft Viva Glint admins can track responses and edit items related to feedback providers, items, competencies, schedule, and communications. During a live 360 cycle, the admin dashboard shows:
+During live cycles, Microsoft Viva Glint admins can track responses and edit some items. During a live 360 cycle, the admin dashboard shows:
 
 - The number of subjects yet to invite feedback providers
 - The average number of feedback providers for each subject
