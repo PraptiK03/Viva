@@ -59,8 +59,9 @@ Your first cycle is automatically added to the page. Now select **+ New Cycle.**
 
 1. From the dialog box that opens, use the dropdown menu to select the cycle to copy. Select **Create New Cycle**.
 
->In this example, only the first cycle is available as no others are created.
->:::image type="content" source="../../media/glint/setup/360-february.png" alt-text="Screenshot of the Choose a past cycle to copy from window.":::
+   In this example, only the first cycle is available as no others are created.
+
+   :::image type="content" source="../../media/glint/setup/360-february.png" alt-text="Screenshot of the Choose a past cycle to copy from window.":::
 
 1. Now, on the **Cycle** page you see the **Copy title.** Use the **pencil symbol** to rename your new cycle. Let's rename this cycle **May 2025:**
 
@@ -121,9 +122,9 @@ From the copied cycle, up to six feedback provider categories are preset.
 You can increase the confidentiality threshold for some feedback provider categories, but you can’t decrease the threshold to less than the default values.
 The 360 confidentiality statement users see varies. The statement is dependent on the provider category, provider response information settings, and whether your organization included a privacy policy link in General Settings. [Learn about Viva Glint 360 privacy and confidentiality](/viva/glint/setup/viva-glint-survey-privacy).
 
->Here's an example of the **Edit Manager** slider panel, where the confidentiality statement can be edited:
->
->:::image type="content" source="../../media/glint/setup/360-edit-confidentiality.png" alt-text="Screenshot of the Edit Manager slider panel." 
+Here's an example of the **Edit Manager** slider panel, where the confidentiality statement can be edited:
+
+:::image type="content" source="../../media/glint/setup/360-edit-confidentiality.png" alt-text="Screenshot of the Edit Manager slider panel." 
 
 ### Feedback Provider Response Information
 
@@ -131,7 +132,7 @@ This setting can’t be edited once a cycle is live. Choose between:
 - **On** (default): Subjects see responded feedback providers. In reports, subjects see which feedback providers responded per category, but responses aren't tied to individual names.
 - **Off**: Subjects see feedback providers but no information about their response status. In reports, they see only the number of feedback providers who responded.
 
-:::image type="content" source="../../media/glint/setup/360-provider-response-info-2.png" alt-text="Screenshot of the Feedback Provider Response Information window.":::
+   :::image type="content" source="../../media/glint/setup/360-provider-response-info-2.png" alt-text="Screenshot of the Feedback Provider Response Information window.":::
 
 Select **Save** when you're done configuring the Setup page.
 
