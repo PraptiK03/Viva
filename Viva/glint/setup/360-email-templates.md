@@ -19,12 +19,12 @@ ms.date: 4/30/2025
 
 # Microsoft Viva Glint 360 feedback email templates
 
-Use Glint's email templates to introduce 360 feedback program participants to stakeholders.
+Use our email templates to introduce 360 feedback programs to stakeholders.
 
 - Customize the content in your own voice.
 - Convert macros for your organization.
 - Adapt messages based on your organization’s familiarity with the 360 feedback process. 
-- Be cautious of information overload. Consider timing of company-wide initiatives and other communication plans. Look for opportunities to align communications.
+- Be cautious of information overload. Consider timing of other company-wide initiatives and communications. Look for opportunities to align communications.
 
 ## Email templates available
 
