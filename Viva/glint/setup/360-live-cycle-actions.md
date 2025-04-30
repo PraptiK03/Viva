@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 360 live cycle management 
+title: Microsoft Viva Glint admin experience during a live 360 program
 description: Microsoft Viva Glint 360 admins have access to dashboards and settings during live 360 cycles that allow them to track responses and edit some elements related to feedback providers, survey questions, competencies, schedule, and communications.
 ms.author: aweixelman
 author: AliciaWeixelman
@@ -14,24 +14,18 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/12/2024
+ms.date: 4/30/2025
 ---
 
-# Viva Glint 360 admin live cycle management 
+# Microsoft Viva Glint admin experience during a live 360 program
 
-Microsoft Viva Glint 360 admins have access to dashboards and settings during live 360 cycles. During live cycles, admins can track responses and edit items related to feedback providers, survey questions, competencies, schedule, and communications.
-
-## 360 admin dashboard
-
-During a live 360 cycle, the admin dashboard shows:
+During live cycles, Microsoft Viva Glint admins can track responses and edit items related to feedback providers, items, competencies, schedule, and communications. During a live 360 cycle, the admin dashboard shows:
 
 - The number of subjects yet to invite feedback providers
 - The average number of feedback providers for each subject
 - The number of subjects who need to complete their self-assessment
-- The number and percentage of subjects who aren't eligible for a 360 report yet
-- A list of live subjects
-- A list of completed subjects
-- A list of opted out subjects
+- The number and percentage of subjects who aren't yet eligible for a 360 report
+- A list of live subjects, completed subjects, and opted out subjects
 
 ### Filter to a live subject
 
@@ -69,9 +63,6 @@ When multiple 360 subjects meet the criteria to have their report released - ava
 1. From the **All 360 Programs** page, select **Live Cycles**.
 2. Hover over and select the live cycle under the **Cycle Name** column.
 3. In the **All Cycles** section, select **Live** or **Completed**.
-
-   :::image type="content" source="../../media/glint/setup/360-all-column.png" alt-text="Screenshot of the All Cycles column in a 360 program.":::
-
 4. Choose a cycle.
 5. In the **Completed Subjects** section, select the **Bulk Release Reports** button.
 
@@ -83,7 +74,7 @@ When multiple 360 subjects meet the criteria to have their report released - ava
 
 7. Select **Next.**
 
-## Export Subject information for completed or live cycles
+## Export subject information for completed or live cycles
 
 1. From the **All 360 Programs** page, select **Live Cycles**.
 2. Hover over and select the live cycle under the **Cycle Name** column.
@@ -101,8 +92,6 @@ When multiple 360 subjects meet the criteria to have their report released - ava
 
 ## 360 fields that can be edited during a live cycle
 
-During a live cycle, 360 admins can view and edit feedback providers and edit some 360 setup areas including:
-
 |Section   |Editable   |Not editable|
 |:----------|:-----------|:------------|
 |Setup     |<ul><li>Program, cycle, and display names and descriptions</li><li>Category name and description</li></ul>       |<ul><li>Add categories</li><li>Feedback provider response information</li></ul>        |
@@ -113,7 +102,7 @@ During a live cycle, 360 admins can view and edit feedback providers and edit so
 
 ## View notification history
 
-Notification history is available **only after** a cycle is live but isn’t configurable. To view notification history:
+Notification history is available *only after* a cycle is live. The history isn’t configurable. To view notification history:
 
 1. In **Cycle Settings**, select **Schedule & Communication**.
 2. Select **Notification History**.
@@ -146,7 +135,7 @@ For opted out subjects, the admin can:
 
 ## Reset 360 feedback surveys
 
-While a 360 cycle is **live**, admins can reset surveys for subjects and feedback providers.
+While a 360 cycle is live, admins can reset surveys for subjects and feedback providers.
 
 > [!IMPORTANT]
 > The **Reset Survey** option removes all responses to a 360 feedback cycle for a subject or feedback provider and can't remove responses for only specific questions.
@@ -155,7 +144,7 @@ While a 360 cycle is **live**, admins can reset surveys for subjects and feedbac
 
 To reset a survey for a subject:
 
-1. Go to **Configuration** and select **360 Feedback Programs**.
+1. On the admin dashboard, navigate to **Configuration** and select **360 Feedback Programs**.
 2. Select the 360 program and then choose the live cycle.
 3. Find the subject in the list of **Live Subjects**, select the ellipsis, and choose **Reset Survey** from the dropdown menu.
 
@@ -166,4 +155,4 @@ To reset a survey for a feedback provider:
 1. Go to **Configuration** and select **360 Feedback Programs**.
 2. Select the 360 program and then choose the live cycle.
 3. Find the subject in the list of **Live Subjects**, select the ellipsis, and choose **View/Edit Feedback Providers** from the dropdown menu.
-4. Find the feedback provider, select the ellipsis on the far right of their record, and choose **Reset Survey** from the menu.
+4. Find the feedback provider. select the ellipsis next to their name and choose **Reset Survey**.
