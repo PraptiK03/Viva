@@ -1,5 +1,5 @@
 ---
-title: Set up a Viva Glint Recurring survey
+title: Set up a Microsoft Viva Glint Recurring survey
 description: Set up a Viva Glint Recurring survey to measure employee sentiment on topics that you want regular feedback on over time.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 04/30/2025
 ---
 
-# Set up a Viva Glint Recurring survey
+# Set up a Microsoft Viva Glint Recurring survey
 
 Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topics that you want regular feedback on over time. Recurring surveys help track important themes like engagement, productivity, manager effectiveness, or culture at regular intervals. [Learn about survey types](/viva/glint/start/program-types-templates#types-of-surveys).
 
@@ -46,7 +46,7 @@ Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topi
    | :::image type="icon" source="/office/media/icons/calendar-blue.png" :::  |[Schedule](schedule-setup.md)       |Set the next start date and recurrence for future surveys.        |
    | :::image type="icon" source="/office/media/icons/help.png" :::  |[Questions](questions-setup.md)       | Add survey introduction text, select questions, and add a survey thank you message.      |
    | :::image type="icon" source="/office/media/icons/usage-report-blue.png" :::  |[Reporting](reporting-setup.md)       |  Define which roles have access to this survey's results and determine key reporting views.      |
-   | :::image type="icon" source="/office/media/icons/whats-new-megaphone-blue.png" ::: |[Communications](program-summary-communications.md)       |  Customize and set a schedule to send survey communications..     |
+   | :::image type="icon" source="/office/media/icons/whats-new-megaphone-blue.png" ::: |[Communications](program-summary-communications.md)       |  Customize and set a schedule to send survey communications.    |
    | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content that helps users interpret results on their dashboards and use Team Conversations (when enabled).       |
 
    As you set up each section, a checkmark indicates that the section is set up completely and allows you to move to the next setup section. 
