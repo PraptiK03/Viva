@@ -2161,11 +2161,6 @@
       "redirect_url":"/viva/learning",
       "redirect_document_id": false
     },
-    {
-      "source_path": "previous-versions/viva/insights/use/user-roles.md",
-      "redirect_url": "/viva/insights/advanced/setup-maint/user-roles",
-      "redirect_document_id": false
-    },
     { 
       "source_path": "Viva/solutions/viva-goals-healthy-okr-program/healthy-okr-program-overview.md",
       "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/healthy-okr-program-overview",
