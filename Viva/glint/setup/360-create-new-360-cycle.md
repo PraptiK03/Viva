@@ -145,8 +145,8 @@ Select **Save** when you're done configuring the Setup page.
 
 ## Introduce your 360 program or cycle 
 
-[Email to introduce 360s to senior leadership and HR leadership](#1-introductory-360-email-for-senior-leaders)
-[Introductory email to all employees who might be considered as a 360 subject](#2--introductory-email-for-all-employees)
+[Email to introduce 360s to senior leadership and HR leadership](/../../viva/glint/setup/360-email-templates?branch=main#1-introductory-360-email-for-senior-leaders)
+[Introductory email to all employees who might be considered as a 360 subject](/../../viva/glint/setup/360-email-templates?branch=main#2--introductory-email-for-all-employees)
 
 ## Use these guidance pages to complete 360 cycle setup
 
