@@ -21,7 +21,7 @@ ms.date: 4/30/2025
 
 Feedback providers receive an email invitation to provide feedback. Selecting the button from the email opens a browser window with the survey. After the feedback provider submits their feedback, a Thank You page confirms their task is complete.
 
-During the [*test and launch*](/../../viva/glint/setup/360-test-launch) phase, [this email template is customized and sent to feedback providers from the subject](https://review.learn.microsoft.com/en-us/viva/glint/setup/360-email-templates?branch=main#4--introductory-feedback-provider-information). <br>
+During the [*test and launch*](/../../viva/glint/setup/360-test-launch) phase, [this email template is customized and sent to feedback providers from the subject](/../../viva/glint/setup/360-email-templates?branch=main#4--introductory-feedback-provider-information). <br>
 
 After a feedback provider gives feedback, responses can't be edited.
 
