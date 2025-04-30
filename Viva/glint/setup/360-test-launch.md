@@ -19,7 +19,7 @@ ms.date: 4/30/2025
 
 # Test and launch a Glint 360 feedback cycle
 
-Check every detail of a Microsoft Viva Glint 360 feedback cycle before selecting **Schedule Cycle.** Some elements can't be edited once a 360 program is live. These include:
+Check every detail of a Microsoft Viva Glint 360 feedback cycle before selecting **Schedule Cycle.** Some elements can't be edited once a 360 program is live. These items include:
 
 - The internal cycle name. *The external cycle display name can be changed*.
 - Question removals, additions, or edits.
@@ -36,7 +36,7 @@ From the cycle page, select **Actions** and then **Preview Survey** from the dro
 When previewing a survey, confirm that the following items are as expected:
 
 - Intro and instruction text 
-- Rating scales are as expected (1-5 or 1-7)
+- Rating scales (1-5 or 1-7)
 - Rating scale labels 
 - Comments are available for rated items
 - Rated items are marked as optional (recommended)
