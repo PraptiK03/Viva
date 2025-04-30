@@ -39,22 +39,17 @@ ms.date: 4/30/2025
 
 ### Use the Actions menu
 
-:::image type="content" source="../../media/glint/setup/360-action-menu-2.png" alt-text="Screenshot of the 360 program action menu-2360-action-menu-2.":::
-
 Open the program **Actions** dropdown menu to:
 
 - **Duplicate your program:** Only the most recent cycle settings copy. No program history, schedules, or participants are included. Select **Duplicate Program.** Select **Save Changes**.
+  
 - **Add or edit admin access:** Easily add a group of admins included in a preexisting User Role. These are defined in User Roles on your admin dashboard. Select **Save Changes**.
 
 - **Update language settings:** Set your default language and other languages for this program:
   - **Additional Survey Languages:** Options available to feedback providers
   - **Default Survey Language:** The default survey language
-  - **Dashboard Languages:** Options available to 360 participants when the log in to Viva Glint. Languages are preset in General Setting from your admin dashboard.
-  Select **Save Changes**.
-
-  :::image type="content" source="../../media/glint/setup/360-language-settings.png" alt-text="Screenshot of the 360 *Language Settings* window.":::
-
-- **Delete:** All settings and cycles associated with this program are deleted. This action can't be undone. Select **Delete Program** to confirm.
+  - **Dashboard Languages:** Options available to 360 participants when they log in to Viva Glint. Languages are preset in [**General Settings**](/../../viva/glint/setup/manage-general-settings?branch=pr-en-us-10003) on your admin dashboard. Select **Save changes.**
+  - **Delete:** All settings and cycles associated with this program are deleted. This action can't be undone. Select **Delete Program** to confirm.
 
 ### Create a 360 cycle
 
@@ -62,9 +57,10 @@ Your first cycle is automatically added to the page. Now select **+ New Cycle.**
 
 :::image type="content" source="../../media/glint/setup/360-new-cycle.png" alt-text="Screenshot of the 360 New Cycle button.":::
 
-1. From the dialog box that opens, use the dropdown menu to select the cycle to copy. Select **Create New Cycle**. In this example, only the first cycle is available as no others are created.
+1. From the dialog box that opens, use the dropdown menu to select the cycle to copy. Select **Create New Cycle**.
 
-   :::image type="content" source="../../media/glint/setup/360-february.png" alt-text="Screenshot of the Choose a past cycle to copy from window.":::
+>In this example, only the first cycle is available as no others are created.
+>:::image type="content" source="../../media/glint/setup/360-february.png" alt-text="Screenshot of the Choose a past cycle to copy from window.":::
 
 1. Now, on the **Cycle** page you see the **Copy title.** Use the **pencil symbol** to rename your new cycle. Let's rename this cycle **May 2025:**
 
@@ -89,7 +85,7 @@ Select the new cycle to configure. All settings from the copied schedule populat
 
 ## Setup page
 
-There are three sections to review. The sections are preconfigured for you.
+There are three preconfigured sections to review. 
 
 ### The Basics Setup
 
@@ -145,10 +141,10 @@ Select **Save** when you're done configuring the Setup page.
 
 ## Introduce your 360 program or cycle 
 
-[Email to introduce 360s to senior leadership and HR leadership](/../../viva/glint/setup/360-email-templates?branch=main#1-introductory-360-email-for-senior-leaders)
-[Introductory email to all employees who might be considered as a 360 subject](/../../viva/glint/setup/360-email-templates?branch=main#2--introductory-email-for-all-employees)
+Customize this [email to introduce 360s to senior leadership and HR leadership](/../../viva/glint/setup/360-email-templates?branch=main#1-introductory-360-email-for-senior-leaders)<br>
+Customize this [Introductory email to all employees who might be considered as a 360 subject](/../../viva/glint/setup/360-email-templates?branch=main#2--introductory-email-for-all-employees)
 
-## Use these guidance pages to complete 360 cycle setup
+## Complete your 360 cycle setup
 
 There are four more pages to configure:
 
