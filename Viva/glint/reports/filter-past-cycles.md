@@ -27,7 +27,7 @@ Admins and managers can use the filter panel to view results of a previous cycle
 
 2. In the **Survey programs** column, choose the survey program. In this example, let's choose **Contoso Engagement.**
 
-   :::image type="content" source="../../media/glint/reports/choose-program-report.png" alt-text="Screenshot of where to choose the survey program and report tilechoose.":::
+   :::image type="content" source="../../media/glint/reports/choose-program-report.png" alt-text="Screenshot of where to choose the survey program and report tile.":::
   
 3. Choose a report tile. Let's use **Overall Results**.
    
@@ -51,7 +51,7 @@ Use the **down-facing arrow** next to the current report name. Navigate to and a
 
 ### Edit report settings
 
-From this filter bar, you can change your calculation method for rating items scores.  Select **Report settings** to open the **Report settings** panel.
+From this filter bar, you can change your calculation method for rating items scores. Select **Report settings** to open the **Report settings** panel.
 
 :::image type="content" source="../../media/glint/reports/report-settings-cycles.png" alt-text="Screenshot of the Report setting panel for report filtering.":::
 
