@@ -1,5 +1,5 @@
 ---
-title: Complete Program Setup for a Viva Glint survey
+title: Complete Program Setup for a Microsoft Viva Glint survey
 description: Program Setup page is the first section of a Microsoft Viva Glint survey that lets Viva Glint Administrators define the basic settings for a survey program. Choose items like a survey name and what languages are needed, along with confidentiality directives.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,10 +14,10 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/17/2025
+ms.date: 05/01/2025
 ---
 
-# Complete Program Setup for a Viva Glint survey
+# Complete Program Setup for a Microsoft Viva Glint survey
 
 The Program Setup page is the first section in Program Summary for a Microsoft Viva Glint survey. The Viva Glint admin role is to define the basic settings and confidentiality for all cycles within this survey program. 
 
@@ -33,19 +33,25 @@ In the first section on the **Program setup** page, define, enable, or disable e
 
 |Field|Description|Examples/Tips|Survey types|
 |:-------|:------------|:-----------|:-----------|
-|**Program Name**|Used in survey and email communications, reporting, and is visible to survey respondents|Engagement, Manager Effectiveness, 30-day Onboarding| All |
+|**Program name**|Used in survey and email communications, reporting, and is visible to survey respondents|Engagement, Manager Effectiveness, 30-day Onboarding| All |
 |**Administrators**| This role can set up, manage, edit, and report on all surveys in the entire program|*Manage Programs* must be enabled for the name to appear in the search box.| All | 
 |**Default language**| The default language for survey participants | Dropdown menu selections are based on survey languages set up in General Settings| All |
 |**Additional languages**| Populated with languages set up for your organization in General Settings.| Be sure survey items are available in all languages chosen. To remove languages, select the **X** next to the language name.| All |
-| **Admin Notifications to** |These admins are notified of upcoming surveys and are determined in General Settings.|Each survey should have at least one admin in this role who is notified before the survey goes Live. Use the **Search** add names.| Recurring and Ad Hoc |
+| **Admin notifications to** |These admins are notified of upcoming surveys and are determined in General Settings.|Each survey should have at least one admin in this role who is notified before the survey goes Live. Use the **Search** add names.| Recurring and Ad Hoc |
 |**Suggested actions available** |Enables Users to create goals.|Toggle to enable or disable| All |
-|**Response Window** | The number of days a user has to submit a survey once it generates.| Enter a number of days. Viva Glint defaults to 14.| Lifecycle and Always-On |
-|**Waiting Period Between Surveys** or **Next Survey Available**| The number of days before a user is eligible to take the survey again.| Enter a number of days. Viva Glint defaults to 365 days for Lifecycle and one day for Always-On.| Lifecycle and Always-On|
+|**Response window** | The number of days a user has to submit a survey once it generates.| Enter a number of days. Viva Glint defaults to 14.| Lifecycle and Always-On |
+|**Waiting period between 2urveys** or **Next survey available**| The number of days before a user is eligible to take the survey again. <br>See **Important** callout for Employee Lifecycle and Always-On surveys.*| Enter a number of days. Viva Glint defaults to 365 days for Lifecycle and one day for Always-On.| Lifecycle and Always-On|
 |**Eligible for Nudges** |Timely messages designed to help managers take action| Toggle to enable or disable. | Recurring and Ad Hoc  |
 |**Allow survey resubmission** |Allow survey takers to retake their surveys. All previous responses are deleted|  Toggle to enable or disable.| Recurring, Ad Hoc, and Lifecycle |
 |**Enable [Team Conversations](/../../viva/glint/reports/team-conversations-administrator-setup)**|Helps managers and survey takers feel like their feedback is heard and acted upon.|Managers receive a personalized summary presentation of survey results. Helps your managers share results, pick Focus Areas, and identify next steps through a guided interactive conversation.| Recurring |
 |**Auto-expand comments input**|With this enabled, a comment box shows after each survey item is posed to a survey taker and the survey taker must manually move to the next question if they are ready. Enabling this feature allows the survey taker to see and consider using the comment box. Disabled, the survey automatically moves to the next item.|Disabled by default. Toggle to enable. This feature prompts more detailed and actionable insights by survey takers, increasing survey engagement.| All |
 |**Enable Team Conversations Sharing**|Allows managers to share a read-only version of their feedback summary presentation before or after meetings with their team.| Enabled by default when Team Conversations is enabled. | Recurring |
+
+> [!IMPORTANT]
+> **For [Employee Lifecycle](/viva/glint/setup/program-summary-setup-lifecycle) and [Always-On](/viva/glint/setup/always-on-surveys) surveys**, if the **Waiting period between surveys** field is edited after a survey generates for an employee, the change only impacts new surveys generated for that employee. The original waiting period is enforced for surveys scheduled and generated.
+> 
+> For example:
+> As the admin, I change the waiting period window from 60 days to 30 days for our Onboarding survey. Nina New Employee is scheduled to receive their Onboarding survey according to the original waiting period of 60 days. Nina's schedule remains at 60 days until 60 days pass. After this time, if another Onboarding survey is generated for Nina, the 30 day schedule overrides the original waiting period.
 
 ## Set up the Confidentiality section
 
