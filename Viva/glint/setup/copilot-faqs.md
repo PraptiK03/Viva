@@ -33,7 +33,7 @@ ms.date: 05/01/2025
 **A:** When a manager or a leader doesn't have access to a specific demographic attribute or group results, Copilot can't find that attribute in the User's report filter, so is unable to use that attribute for filtering comments. Copilot is still able to summarize the comments but without filtering by that attribute.
 Examples:
 1. If a User asks to summarize comments from male employees but doesn't have access to the gender attribute or the male attribute value, Copilot summarizes **all** comments and provides a summary. The summary isn't specific to the attribute requested.
-2. If a User requests a summary of comments using multiple filters (e.g., Accounting department, Generation X) but lacks permission for one or more of the filters, Copilot generates a summary based **only** on the filters the User has permission to access. The summary excludes restricted filters.
+2. If a User requests a summary of comments using multiple filters (for example, Accounting department, Generation X) but lacks permission for one or more of the filters, Copilot generates a summary based **only** on the filters the User has permission to access. The summary excludes restricted filters.
 
 <br>**Q: How often is the Large Language Model (LLM) updated for Copilot in Viva Glint?**
 
@@ -67,7 +67,7 @@ Examples:
 
 <br>**Q: What features does enabling Copilot in Viva Glint provide access to?**
 
-**A:** Through an interactive question and response format, users can request comment summarization across survey items, as well as filter attributes. Current functionality includes the ability to summarize, in English:
+**A:** Through an interactive question and response format, users can request comment summarization across survey items, and filter attributes. Current functionality includes the ability to summarize, in English:
 - All Comments
 - Comments by Item
 - Comments by Comment Sentiment
@@ -148,7 +148,7 @@ For the best feedback, encourage your employees to leave comments in their nativ
 
 <br>**Q: Are new features planned for Microsoft 365 Copilot in Viva Glint?**
 
-**A:** Yes! We'll let you know as soon as new features are available. All items mentioned as currently unavailable are on our list for consideration.
+**A:** Yes! We let you know as soon as new features are available. All items mentioned as currently unavailable are on our list for consideration.
 
 <br>**Q: Does Copilot in Viva Glint have any limitations?**
 
