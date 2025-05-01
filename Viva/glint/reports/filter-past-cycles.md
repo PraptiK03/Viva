@@ -33,7 +33,7 @@ Admins and managers can use the filter panel to view results of a previous cycle
    
 4. The top filter bar displays the program name with the current cycle. Select the **grey down-facing arrow** next to the current cycle.
 
-   :::image type="content" source="../../media/glint/reports/grey-arrow.png" alt-text="Screenshot of the window that opens to download recipients." lightbox="../../media/glint/reports/grey-arrow.png":::
+   :::image type="content" source="../../media/glint/reports/grey-arrow.png" alt-text="Screenshot of the filter row in Reporting." lightbox="../../media/glint/reports/grey-arrow.png":::
 
 5. Now, next to the cycle bar that opened, select the **down-facing arrow.** All past cycles with this report for this program display. The current cycle is indicated with a checkmark.
 
@@ -53,5 +53,5 @@ Use the **down-facing arrow** next to the current report name. Navigate to and a
 
 From this filter bar, you can change your calculation method for rating items scores.  Select **Report settings** to open the **Report settings** panel.
 
-:::image type="content" source="../../media/glint/reports/report-settings-cycles.png" alt-text="Screenshot of the window that opens to download recipients.":::
+:::image type="content" source="../../media/glint/reports/report-settings-cycles.png" alt-text="Screenshot of the Report setting panel for report filtering.":::
 
