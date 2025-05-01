@@ -14,9 +14,34 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/30/2025
+ms.date: 05/01/2025
 ---
 
 # Filter for past cycle reports in Recurring surveys
 
-Admins and managers can use the filter panel to view results of a previous cycle in Recurring programs.
+Admins and managers can use the filter panel to view results of a previous cycle for Recurring programs.
+
+## Procedure to view closed reports
+
+1. From the admin dashboard, go to the **Reports** tab. 
+
+2. In the **Survey programs** column, choose the survey program. In this example, let's choose **Contoso Engagement.**
+  
+3. Choose a report tile. Let's use **Overall Results**.
+
+4. The top filter bar displays the program name with the current cycle. Select the **grey down-facing arrow** next to the current cycle.
+
+5. Now, next to the cycle bar that opened, select the **down-facing arrow.** All past cycles with this report for this program display. The current cycle is indicated with a checkmark.
+
+6. Select the cycle to view. Here, we switched from December 2024 to June 2024.
+
+### Switch to a different report
+
+Use the **down-facing arrow** next to the current report name. Navigate to and any other available report.
+
+### Edit report settings
+
+From this filter bar, you can change your calculation method for rating items scores.  Select **Report settings** to open the **Report settings** panel.
+
+
+   
