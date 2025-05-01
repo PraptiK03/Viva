@@ -1,5 +1,5 @@
 ---
-ms.date: 04/30/2025
+ms.date: 05/1/2025
 title: Use Microsoft Entra plus .csv files for parallel data uploads
 description: This article discusses how to upload your organizational data to Viva Insights using both Microsoft Entra and .csv files simultaneously.
 author: zachminers
@@ -40,21 +40,21 @@ For instance, your initial upload might look like this:
 
 | PersonId | ManagerId | Organization | FunctionType |
 |---|---|---|---|
-| a@b.com | Dummy001@dummy.com | DummyOrg001 | Analyst |
-| b@b.com | Dummy002@dummy.com | DummyOrg002 | HR |
-| c@b.com | Dummy003@dummy.com | DummyOrg003 | Finance |
-| d@b.com | Dummy004@dummy.com | DummyOrg004 | Marketing |
-| e@b.com | Dummy005@dummy.com | DummyOrg005 | Engineering |
+| stefan@contoso.com | mitar@contoso.com | Org001 | Analyst |
+| arnab@contoso.com | katarina@contoso.com | Org002 | HR |
+| sanja@contoso.com | ako@contoso.com | Org003 | Finance |
+| nikola@contoso.com | nevena@contoso.com | Org004 | Marketing |
+| pary@contoso.com | eden@contoso.com | Org005 | Engineering |
 
 Then, your subsequent upload might look like this:
 
 | PersonId | FunctionType |
 |---|---|
-| a@b.com | Analyst |
-| b@b.com | HR |
-| c@b.com | Finance |
-| d@b.com | Marketing |
-| e@b.com | Engineering |
+| hiwot@contoso.com | Analyst |
+| petar@contoso.com | HR |
+| zoran@contoso.com | Finance |
+| pradeep@contoso.com | Marketing |
+| vanhi@contoso.com | Engineering |
 
 ### Example 2
 
@@ -62,17 +62,17 @@ Or, your initial upload might look like this:
 
 | PersonId | ManagerId | Organization | FunctionType |
 |----|----|----|----|
-| a@b.com | Dummy001@dummy.com | DummyOrg001 | Analyst |
+| claudia@contoso.com | sophie@contoso.com | Org001 | Analyst |
 
 Then, your subsequent update might look like this:
 
 | PersonId | FunctionType |
 |---|---|
-| a@b.com | Analyst |
-| b@b.com | HR |
-| c@b.com | Finance |
-| d@b.com | Marketing |
-| e@b.com | Engineering |
+| lan@contoso.com | Analyst |
+| nu@contoso.com | HR |
+| nadir@contoso.com | Finance |
+| lisa@contoso.com | Marketing |
+| alina@contoso.com | Engineering |
 
 ## How to enable parallel data uploads
 
