@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 4/30/2025
+ms.date: 5/01/2025
 ---
 
 # Set up a Microsoft Viva Glint Onboarding survey
@@ -47,12 +47,18 @@ Learn more about using [date-based Distribution Lists](set-up-distribution-lists
 
    |:::image type="icon" source="/office/media/icons/administrator.png" :::  |Setup section |Description|
    |:----------|:-----------|:------------|
-   | :::image type="icon" source="/office/media/icons/settings.png" :::  |[Program Setup](program-set-up.md)        |Define basics like languages, optional features, and confidentiality settings.        |
+   | :::image type="icon" source="/office/media/icons/settings.png" :::  |[Program Setup](program-set-up.md)        |Define basics like languages, optional features, and confidentiality settings. <br> ***See Important note below.**      |
    | :::image type="icon" source="/office/media/icons/users-people.png" :::   |[Distribution](distribution-program-summary.md)        |Select Distribution Lists or User Roles to include in or exclude from the survey invite list.        |
    | :::image type="icon" source="/office/media/icons/help.png" :::  |[Questions](questions-setup.md)       | Add survey introduction text, select questions, and add a survey thank you message.      |
    | :::image type="icon" source="/office/media/icons/usage-report-blue.png" :::  |[Reporting](reporting-setup.md)       |  Define which roles have access to this survey's results and determine key reporting views.      |
    | :::image type="icon" source="/office/media/icons/whats-new-megaphone-blue.png" ::: |[Communications](program-summary-communications.md)       |  Customize and set a schedule to send survey communications.    |
    | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content that helps users interpret results on their dashboards.       |
+
+> [!IMPORTANT]
+> **For Employee Lifecycle surveys**, if the **Waiting period between surveys** field is edited after a survey generates for an employee, the change only impacts new surveys generated for that employee. The original waiting period is enforced for surveys scheduled and generated.
+> 
+> For example:
+> As the admin, I change the waiting period window from 60 days to 30 days for our Onboarding survey. Nina New Employee is scheduled to receive their Onboarding survey according to the original waiting period of 60 days. Nina's schedule remains at 60 days until 60 days pass. After this time, if another Onboarding survey is generated for Nina, the 30 day schedule overrides the original waiting period.
 
    > [!NOTE]
    > The attribute that your organization includes as a hire date in uploaded data may have a different label, like "Start Date." Select the date that should trigger Onboarding surveys in the Distribution section of your survey.
