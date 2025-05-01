@@ -23,7 +23,9 @@ Admins and managers can use the filter panel to view results of a previous cycle
 
 ## Procedure to view closed reports
 
-1. From the admin dashboard, go to the **Reports** tab. :::image type="content" source="../../media/glint/reports/reports-tab.png" alt-text="Screenshot of the Reports tab in the admin menu bar.":::
+1. From the admin dashboard, go to the **Reports** tab. 
+ 
+   :::image type="content" source="../../media/glint/reports/reports-tab.png" alt-text="Screenshot of the Reports tab in the admin menu bar.":::
 
 2. In the **Survey programs** column, choose the survey program. In this example, let's choose **Contoso Engagement.**
 
