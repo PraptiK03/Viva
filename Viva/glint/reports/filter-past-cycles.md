@@ -31,7 +31,7 @@ Admins and managers can use the filter panel to view results of a previous cycle
 
 3. Choose a report tile. Let's use **Overall Results**.
 
-   :::image type="content" source="../../media/glint/reports/.png" alt-text="Screenshot of where to choose the survey program and report tile.":::
+   :::image type="content" source="../../media/glint/reports/choose-tile-1.png" alt-text="Screenshot of where to choose the survey program and report tile.":::
    
 4. The top filter bar displays the program name with the current cycle. Select the **grey down-facing arrow** next to the current cycle.
 
