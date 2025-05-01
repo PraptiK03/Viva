@@ -27,7 +27,7 @@ Admins and managers can use the filter panel to view results of a previous cycle
  
    :::image type="content" source="../../media/glint/reports/reports-tab.png" alt-text="Screenshot of the Reports tab in the admin menu bar.":::
 
-2. In the **Survey programs** column, choose the survey program. In this example, let's choose **Contoso Engagement.**
+2. In the **Survey programs** column, choose the survey program. In this example, let's choose **Contoso Engagement**.
 
 3. Choose a report tile. Let's use **Overall Results**.
 
@@ -37,7 +37,7 @@ Admins and managers can use the filter panel to view results of a previous cycle
 
    :::image type="content" source="../../media/glint/reports/grey-arrow.png" alt-text="Screenshot of the filter row in Reporting." lightbox="../../media/glint/reports/grey-arrow.png":::
 
-5. Now, next to the cycle bar that opened, select the **down-facing arrow.** All past cycles with this report for this program display. The current cycle is indicated with a checkmark.
+5. Now, next to the cycle bar that opened, select the **down-facing arrow**. All past cycles with this report for this program display. The current cycle is indicated with a checkmark.
 
    :::image type="content" source="../../media/glint/reports/current-cycle.png" alt-text="Screenshot of the cycle dropdown menu with the current cycle checked.":::
 
