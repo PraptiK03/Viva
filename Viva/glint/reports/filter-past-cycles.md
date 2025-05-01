@@ -27,9 +27,9 @@ Admins and managers can use the filter panel to view results of a previous cycle
 
 2. In the **Survey programs** column, choose the survey program. In this example, let's choose **Contoso Engagement.**
 
+3. 3. Choose a report tile. Let's use **Overall Results**.
+
    :::image type="content" source="../../media/glint/reports/choose-program-report.png" alt-text="Screenshot of where to choose the survey program and report tile.":::
-  
-3. Choose a report tile. Let's use **Overall Results**.
    
 4. The top filter bar displays the program name with the current cycle. Select the **grey down-facing arrow** next to the current cycle.
 
