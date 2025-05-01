@@ -55,5 +55,5 @@ Use the **down-facing arrow** next to the current report name. Navigate to and a
 
 From this filter bar, you can change your calculation method for rating items scores. Select **Report settings** to open the **Report settings** panel.
 
-:::image type="content" source="../../media/glint/reports/report-settings-cycles-1.png" alt-text="Screenshot of the Report setting panel for report filtering.":::
+:::image type="content" source="../../media/glint/reports/report-setting-cycles-1.png" alt-text="Screenshot of the Report setting panel for report filtering.":::
 
