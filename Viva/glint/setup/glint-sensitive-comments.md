@@ -43,7 +43,7 @@ Flagged, sensitive comments fall into three categories:
 
 To enable sensitive comments:
 
-1. From the admin dashboard, select the **Configure** symbol, then in **Service Configuration**, choose **Advanced Configuration**.
+1. From the admin dashboard, select the **Configuration** symbol, then in **Service Configuration**, choose **Advanced Configuration**.
 1. Select **Surveys** and choose a survey.
 1. In the **Sensitive Comments** section, select checkboxes for:
    1. Flag PII
