@@ -21,7 +21,7 @@ search.appverid:
 
 # Export and manage Viva Engage data
 
-Engage administrators often need to export data to manage users and content in the network. This article explains the different options available to help you manage usage, compliance, and discovery.
+Engage administrators often need to export data to manage users and content in the network. This article explains Viva Engage Features to help you manage usage, compliance, and discovery.
 
 ## Export data
 
@@ -45,7 +45,7 @@ Access all export options from the Data export page in the Engage admin portal. 
 
    :::image type="content" source="../media/engage/admin/eac-data-export.png" alt-text="Screenshot shows the Governance and compliance tab where you can find your data export options.":::
 
-3. On the Data export page, choose **Export data for all** **users**.
+3. On the Data export page, choose **Export data for all users**.
 4. Specify a date range and other options.
 
    - **Date range:** Specify the date range for which you want data. The current date appears as the end date.
@@ -64,7 +64,7 @@ The data export contains the following files:
    | **Admins.csv** | Lists current admins, their email addresses, and corresponding roles <br>For more information on the types of admins in Viva Engage, see [Manage admin roles in Viva Engage.](/viva/engage/eac-key-admin-roles-permissions) |
    | **Answers.csv** | Lists the ID, messageId, networkId, threadId, voterID, and the updatedAt timestamp of Answer Votes |
    | **Campaigns.csv**| Provides data for campaigns including hashtag, creation date, state, and so on. The scope_type attribute distinguishes official (network) campaigns versus community (group) campaigns. The scope_id attribute identifies the network or community that hosted the community campaign. Find more campaign details about the network or community in the networks.csv file or the groups.csv file. |
-   | **Networks.csv** | Information about your home network and any external networks:<br>- Name<br>- URL<br>- Creation date<br>- Number of users<br>- Defines if it is moderated or has a usage policy. |
+   | **Networks.csv** | Information about your home network and any external networks:<br>- Name<br>- URL<br>- Creation date<br>- Number of users<br>- Defines if it's moderated or has a usage policy. |
    | **Users.csv** | Lists user data. **Properties include:**<br>- ID<br>- Name<br>- Email<br>- Job title<br>- Location<br>- Department<br>- User ID<br>- Deletion status (date, name, and ID of the person who performed the deletion)<br>- Join date<br>- Suspension status (date, name, and ID of person who performed the deactivation)<br>- The user state (active or soft_delete).<br>A soft_delete attribute shows the following values:<br>- **Pending**, if accompanied by no other values<br>- **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value<br>- **Deleted**, if accompanied by a deleted_at value.<br><br>Identify Guests by an email address that doesn't match the home network domain. <br>The api_url provides user metadata. For more information about using the data in this field, see the [REST API](/rest/api/yammer/rest-api-rate-limits). |
    | **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
@@ -83,19 +83,19 @@ The data export doesn't include the following information:
 
 ## Export tenant data by date range
 
-Use this method to export tenant data by a specified date range for the Viva Engage network.
+Use this method to export tenant data for the Viva Engage network by a specified date range.
 
 >[!IMPORTANT]
->If you're on a large network (10,000 or more users) and experience time-out errors when running a network export job, we recommend that you: choose hours outside of standard operating hours to export, and limit the date range to no more than one month.
+>If you're on a large network (10,000 or more users) and see time-out errors during a network export job, we suggest exporting outside of standard operating hours. Limit the date range to one month.
 
 1. Go to the Admin center's Data export page, and select **Export tenant data**.
 2. Specify a date range and other options.
 
    :::image type="content" alt-text="Screenshot of export options including date range and other filters." source="../media/engage/admin/eac-tenant-options.png" lightbox="../media/engage/admin/eac-tenant-options.png":::
 
-   - **Date range:** Includes only data in the specified date range. Today’s date is automatically prepopulated as the end date.
-   - **Include attachments:** If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format.
-   - **Include external networks:** If unselected, only data from your home network is exported. If selected, a separate folder of data from each network is exported. Each network is identified by its ID, and the full network names are listed in **Networks.csv**.
+   - **Date range:** Includes only data in the specified date range. Today’s date automatically prepopulates as the end date.
+   - **Include attachments:** If unselected, the task exports only a list of files. If selected, the task exports a **Files** folder that contains all files in their native format.
+   - **Include external networks:** If unselected, the task only exports data from your home network. If selected, the task exports a separate folder of data from each network. Each network is identified by its ID, and lists the full network names in **Networks.csv**.
 
 3. Select **Download CSV**.
 
@@ -112,7 +112,7 @@ The data export contains the following files:
 | **log.txt** | Summary of the export |
 | **request.txt** | The parameters of the export |
 | **Admins.csv** | A list of admins for each selected network, including the name, email, and admin type |
-|**EngageTopicMigrationLog.csv**|A list of topics migrated or imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_ID, migrated_at, migrated_action|
+|**EngageTopicMigrationLog.csv**|A list of topics migrated or imported from topics to Viva Engage. **Properties include:** Cortex_topic_ID, migrated_at, migrated_action|
 |**EngageTopicApplicationMigrationLog.csv**|A list of topic applications that are not imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_id, target_id, target_type, migrated_at, migration_action|
 | The **Files** folder | A folder that contains files stored in Viva Engage and that are created or modified during the specified time period.<br><br>Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 | **Groups.csv** | All groups created or modified during the specified date range. **Properties include:** account ID, name, description, privacy status, whether the group is internal or external, link to the group, who created the group, creation date, and updated date. |
@@ -130,7 +130,7 @@ The data export contains the following files:
 |**VivaTopicCurationStateLogs.csv** | Applies to only Answers in Viva. <br><br/>Contains the curation state logs for featured topics.<br><br/>cortex_topic_id can be used with the content of VivaTopics.csv to retrieve other information relevant to the topic. |
 |**VivaTopics.csv** | Any topic created or updated is displayed for the date range specified (if any).<br><br/>The ID refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.|
 
-The data export doesn't include the folllowing information:
+The data export doesn't include the following information:
 
 - Data available in the user's settings, including:
   - user profile
@@ -145,7 +145,7 @@ The data export doesn't include the folllowing information:
 
 ## Export data for one user
 
-If the user is a member of multiple networks, you must export their data from each network separately.  
+If the user is a member of multiple networks, you must separately export their data from each network.  
 
 1. On the Data export page, choose **Export data for a single user**
 
@@ -161,12 +161,12 @@ The data export contains the following files:
 |---|---|
 | **log.txt** | Summarizes the number of entries in each .csv file and lists any errors that occur during the export. |
 | **request.txt** | Parameters used for the export |
-| The **Files** folder | A folder containing files stored in Viva Engage that the user created or modified during the specified time period. Engage files stored in SharePoint are excluded. <br> <br>Files are in native format and named with their account ID. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
+| The **Files** folder | A folder containing files stored in Viva Engage that the user created or modified during the specified time period. It doesn't include Engage files stored in SharePoint. <br> <br>Files are in native format and named with their account ID. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 | **BestReplyMessages.csv** | Lists all messages marked as best reply by the user. **Properties include:**<br>- Message ID<br>- Thread ID<br>- Group ID<br>- Group name<br>- Privacy status<br>- Sender ID<br>- Name and email address<br>- The full body of the message<br>- IDs for attachments, creation, and deletion information |
-| **Broadcast.csv** | Included if the user posted a live event video. Lists the network ID, group ID and name, title, description, links to the video, and additional information about the video. <br>Video content is excluded from the export. The video is saved in the OneDrive of the user who started the recording. To edit metadata or delete the video, you can open the video in Microsoft Stream admin mode. For more information, see [Admin capabilities in Microsoft Stream](/stream/manage-content-permissions) and [Microsoft 365 Data Subject Requests for the GDPR](/microsoft-365/compliance/gdpr-dsr-office365). |
+| **Broadcast.csv** | Included if the user ever posted a live event video. Lists the network ID, group ID and name, title, description, links to the video, and additional information about the video. <br>Video content is excluded from the export. The video is saved in the OneDrive of the user who started the recording. To edit metadata or delete the video, you can open the video in Microsoft Stream admin mode. For more information, see [Admin capabilities in Microsoft Stream](/stream/manage-content-permissions) and [Microsoft 365 Data Subject Requests for the GDPR](/microsoft-365/compliance/gdpr-dsr-office365). |
 | **Files.csv** | Lists all files added or modified by the user from Viva Engage. **Properties include:** account ID, type of file, name, description, and path to the file, along with metadata including the group it was posted in. The storage_path column shows whether the file is stored in Viva Engage or SharePoint. <br> Files that are stored in Viva Engage are exported in their native format to the **Files** folder of the zip file. Files that are stored in SharePoint aren't exported. <br> To identify files in the **Files** folder, use the file_ID and path columns. <br> <br>To download files stored in SharePoint, use the download_url column. If SharePoint files have no Microsoft Entra tokens, [you must create a Microsoft Entra app](https://go.microsoft.com/fwlink/?linkid=2143320). Alternatively, find files stored in SharePoint for a specific date range with a [Content Search in Microsoft 365](/office365/securitycompliance/content-search). <br>Always delete stored files from Viva Engage to erase the file and metadata in both SharePoint and Viva Engage. Deleting a file from SharePoint retains the metadata in Viva Engage. |
 | **Groups.csv** | Lists all groups created or modified by the user. **Properties include:**  group ID, name, description, privacy status, internal or external status, creation date, updated date, and a link to the group. <br>Additional information includes the aggregated total number of polls the user voted on, and the polls the user created. |
-| **LikedMessagesHistory.csv** | Lists all reactions activities on messages from users. Properties included for reactions activity, including history: <br>- Reaction selected (such as like, love, or thank) <br>- Reaction action (add, remove) <br>- Reaction timestamp <br>- User ID of the user who reacted. |
+| **LikedMessagesHistory.csv** | Lists all reactions activities on messages from users. It includes properties for reactions activity, including history: <br>- Reaction selected (such as like, love, or thank) <br>- Reaction action (add, remove) <br>- Reaction timestamp <br>- User ID of the user who reacted. |
 | **MutedThreads.csv** | Lists all messages the user muted for the network. **Properties include:** network ID, thread ID, updated by user ID, is muted, created at, updated at. |
 | **Messages.csv** | Lists all messages sent or modified by the user, including messages generated from files (using Intelligent Importer). **Properties include:**<br>- Message ID<br>- Thread ID<br>- Group ID<br>- Group name<br>- Privacy status<br>- Sender ID<br>- Name and email<br>- The full body of the message<br>- Attachments<br>- Creation and deletion information<br>- Draft state<br>Also provides a list of polls the user created and titles of any posted announcements. <br>Along with attachments, this Open Graph Object (OGO) information is exported: ID, URL, title, and description. |
 | **MessageThreadExtension.csv** | Lists all messages marked as best reply or verified reply. **Properties include:**<br> - Message ID<br>- Thread ID<br>- Group ID<br>- Network ID<br>- Operation<br>- Operation performed by<br>- Operation performed at.<br>*Information is restricted to the selected user.* |
