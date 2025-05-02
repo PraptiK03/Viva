@@ -46,7 +46,7 @@ After completing Program Setup and Distribution sections, set up a survey's Sche
 
    > [!NOTE]
    > - Viva Glint Admins can edit survey dates on a per survey basis, and surveys must be [approved and enabled](preview-manage-enable-engage-programs.md) to send out.
-   > - When sending surveys in users' time zones, a 24-hour cushion is added to the survey start and close time. [Learn more](time-zones.md).
+   > - A 24-hour cushion is added to user time zones - which are not your default time zone - for the survey start and close time. [Learn more](time-zones.md).
 
 1. Select the right-facing arrow symbol to **Save & Continue**.  
 
