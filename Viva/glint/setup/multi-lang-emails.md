@@ -65,7 +65,7 @@ With this setup, Spanish (Latin America) users see this language selection optio
 
 ### Confirm that your organization uses a language attribute
 
-To use Viva Glint survey emails that contain sections in different languages, your organization needs to use a survey language attribute. [Learn more](https://go.microsoft.com/fwlink/?linkid=2275842).
+To use Viva Glint survey emails that contain sections in different languages, your organization needs to use a [survey language attribute](send-employee-attributes.md#optional-system-attributes).
 
 ## Enable multiple languages for emails
 
