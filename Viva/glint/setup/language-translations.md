@@ -75,7 +75,7 @@ Keep translated content in the same cell and columns|Don't add personal comments
 ## Import translated items back into Viva Glint
 
 >[!IMPORTANT]
-> Only one languge can be uploaded at a time, even within a zip file. The platform may indicate that more than one language is being uploaded, but each language must be uploaded individually. An enhancement is in process to correct the notification stating that more than one language is being uploaded. 
+> Only one language can be uploaded at a time, even within a zip file. The platform may indicate that more than one language is being uploaded, but each language must be uploaded individually. An enhancement is in process to correct the notification stating that more than one language is being uploaded. 
 
 From the **Question Library** page, select **Import Questions** from the dropdown **Actions** menu. 
 
