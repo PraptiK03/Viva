@@ -1,5 +1,5 @@
 ---
-title: 
+title: Overall Results report from a Microsoft Viva Glint survey
 description: Viva Glint's Overall Results Report mimics the Glint dashboard but allows data filtering and reviewing of more demographics.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,8 +17,8 @@ ms.localizationpriority: high
 ms.date: 5/02/2025
 ---
 
-# 
-Overall Results report from a Microsoft Viva Glint survey
+# Overall Results report from a Microsoft Viva Glint survey
+
 :::image type="content" source="../../media/glint/reports/overall-results.png" alt-text="Screenshot of the Overall Results Report in the Reports tab.":::
 
 As the name implies, this report shows the overall results for your survey. Drilling down, you can focus on a specific question. You can also go back to the previous survey data or filter by demographic data, hierarchy data, or other attributes to gain insights about a specific group.
