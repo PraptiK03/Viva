@@ -57,7 +57,7 @@ To import into Glint, choose the attribute dataset. Follow the in-platform guida
 
 ### Attribute updates
 
-Choose the **Attribute update** tile to update your existing schema with new attributes. Follow the in-platform 5-step guidance to [update attributes in Viva Glint](update-attributes.md)
+Choose the **Attribute update** tile to update your existing schema with new attributes. Follow the in-platform 5-step guidance to [update attributes in Viva Glint](update-attributes.md).
 
 :::image type="content" source="../../media/glint/setup/people-5-step-import.png" alt-text="Screenshot of the 5-step data import process.":::
 
@@ -99,11 +99,4 @@ View the last **Employee data file** used to make updates and [manage Active, De
 ## Other resource
 
 [Find information on a specific person using the People feature](/viva/glint/setup/viewing-employee-info).
-
-
-
-
-
-
-
 
