@@ -87,7 +87,7 @@ Data stored from Viva Learning includes:
 >[!NOTE]
 >As an admin, you can turn storage of diagnostic data on or off.
 
-For more information, read about [privacy](/viva/viva-privacy) and [security](/viva/viva-security) in Viva.
+For more information, read about [compliance](/viva/viva-compliance), [privacy](/viva/viva-privacy) and [security](/viva/viva-security) in Viva.
 
 ## Get started
 
