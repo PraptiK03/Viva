@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/08/2024
+ms.date: 05/02/2025
 ---
 
 # Use multiple languages in Viva Glint survey emails
@@ -32,7 +32,7 @@ To ensure that your global employee population receives communications that they
 
 ## How multiple language emails work
 
-Standard Viva Glint survey emails include a single language that can be triggered based on a language code on the employee data you upload to Viva Glint. Multiple language emails (dual and triple) allow your organization to include sections in multiple languages in one survey email.  
+Standard Viva Glint survey emails include a single language that can be triggered based on a [language code in the employee data you upload to Viva Glint](attribute-fundamentals.md#languages). Multiple language emails (dual and triple) allow your organization to include sections in multiple languages in one survey email. 
 
 ### Dual language emails
 
