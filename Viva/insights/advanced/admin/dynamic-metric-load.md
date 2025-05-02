@@ -37,7 +37,7 @@ If you want to use and analyze Viva Insights data outside of the Viva Insights a
 | 4. Enable MGDC for tenant  |  Global Administrator   |  |
 | 5. Mark a Viva Insights query for export  |  Insights Analyst   |  |
 | 6. Register MGDC application  |  Azure AD Application Owner, with Insights Analyst role   | Storage account, Azure AD Application  |
-| 7. Consent to application/dataset  |  Global Administrator   |  |
+| 7. Consent to application/dataset  |  Viva Insights Administrator or MGDC Administrator  |  |
 | 8. Deploy ARM template  |  Application Administrator or Application Developer, with Insights Analyst role  | MGDC app, App secret, Container |
 | 9. Execute pipeline  |  Application Administrator or Application Developer   | Data factory |
 | 10. Find the output of your extraction |  Application Administrator or Application Developer   | Container name  |
