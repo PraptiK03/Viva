@@ -133,7 +133,7 @@ Make selections for your Viva Glint technical setup.
 
 ## Localization 
 
-English is the default language for all programs, but surveys and emails may be sent to employees in their preferred language. Viva Glint has 70+ language translations for standard content that can be set during the initial configuration or added later, until the survey is live.  
+English is the default language for all programs, but surveys and emails may be sent to employees in their preferred language. Viva Glint has 60+ language translations for standard content that can be set during the initial configuration or added later, until the survey is live.  
 
 | Field | Definition and notes |
 |:-----------|:-----------|
