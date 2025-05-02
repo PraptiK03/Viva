@@ -1,5 +1,5 @@
 ---
-title: Release feedback results to User Roles
+title: Release Microsoft Viva Glint feedback results to User Roles
 description: Grant live or phased access to determine when managers have access to survey results.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,16 +14,16 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/20/2025
+ms.date: 05/02/2025
 ---
 
-# Release feedback results to User Roles
+# Release Microsoft Viva Glint feedback results to User Roles
 
 To determine when leaders get access to Recurring or Ad Hoc survey results, grant Live or Phased access to User Roles. Access status can't be switched while a survey is live.
 
 - **Live access**: Reporting access is readily available, in real time, as surveys are completed. Admins always have *Live* access and can't be included in *Phased* access rollout.
   
-- **Phased access**:  Recommended for managers and HRBPs (Human Resources Business Partners) for action planning, tracking, and reviewing feedback results for completed surveys.
+- **Phased access**:  Recommended for managers and Human Resources Business Partners (HRBPs) for action planning, tracking, and reviewing feedback results for completed surveys.
   - Excludes this role group from real-time, live survey results
   - Is configured at the program level but occurs at the cycle level
   - Allows users access to historical cycles

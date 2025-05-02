@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/16/2025
+ms.date: 04/22/2025
 ---
 
 # Viva Glint Activity Audit Log
@@ -45,6 +45,9 @@ To use the Activity Audit Log as a Viva Glint admin:
 ## Event descriptions
 
 Choose an event type based on platform activity that you need to review and the following descriptions.
+
+> [!NOTE]
+> [Support user](add-external-user.md) activity doesn't appear in the Activity Audit Log.
 
 | Event  | Description  |
 |:----------|:-----------|

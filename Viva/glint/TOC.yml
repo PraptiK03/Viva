@@ -63,7 +63,7 @@ items:
             items:     
                - name: Program types, surveys, and templates
                  href: start/program-types-templates.md
-               - name: People Science surveys and items
+               - name: How Microsoft People Science impacts Glint programs
                  href: setup/template-research.md
                - name: Monthly deployment dates
                  href: setup/monthly-release-dates.md
@@ -172,8 +172,6 @@ items:
         items:
           - name: Link Content Resources to Suggested Action templates
             href: setup/link-survey-item-action-template.md
-          - name: Embed videos
-            href: setup/embedding-content-resources.md 
       - name: Customize Suggested Action templates
         href: setup/customize-action-plans.md
       - name: Set up Focus Area periods
@@ -200,6 +198,8 @@ items:
         items: 
             - name: Import historical data 
               href: setup/import-historical-response-data.md
+            - name: Import corrected responses
+              href: setup/edit-responses.md
             - name: Update data in reports
               href: setup/update-glint-reporting-data.md
             - name: Manage data with Data Apps
@@ -326,7 +326,7 @@ items:
                  items:
                    - name: Core items
                      href: setup/360-core-questions.md
-               - name: 360 Feedback Provider Selections
+               - name: 360 feedback provider selection
                  href: setup/overview-feedback-provider-selection.md
                - name: 360 Competencies & Reporting
                  href: setup/360-competencies.md
@@ -340,8 +340,8 @@ items:
                  href: setup/360-export-import.md
                - name: Test and launch 360s
                  href: setup/360-test-launch.md
-               - name: 360 email communication templates
-                 href: setup/360-email-templates.md
+           - name: 360 email communication templates
+             href: setup/360-email-templates.md
            - name: 360 role experiences
              items:
                - name: Admin experience during a live 360 program
@@ -506,8 +506,6 @@ items:
           items: 
             - name: Managers using ACT conversations
               href: people-science/managers-using-act-conversations.md
-        - name: Focus areas and action planning
-          href: people-science/people-science-explains-focus-areas.md
         - name: Benchmark methodology
           items:
             - name: Use benchmarks effectively

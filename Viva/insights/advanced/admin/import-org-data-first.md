@@ -1,5 +1,5 @@
 ---
-ms.date: 02/04/2025
+ms.date: 04/28/2025
 title: Import organizational data using API-based import (first import)
 description: Learn how to set up a connection and import your data to the Viva Insights advanced insights app
 author: zachminers
@@ -26,7 +26,7 @@ With an import, you bring data from your source system to the Viva Insights HR d
 * Create a custom app to export data from the source system to a zip file. Then, using the same app, import that data using the API information below. 
 * Create a custom app to export data from the source system to a zip file. Then, run a C# console app we created to import data to Viva Insights.
 * Create a custom app to export data from the source system to a zip file. Then, run a PowerShell script we created to import data to Viva Insights. 
-
+* Use our Azure Data Factory (ADF) template to send data to our API-based import.
 
 However, before you can run your app and start transferring data to Viva Insights, you need to coordinate a few tasks between your Microsoft 365 admin and Insights Administrator (Insights admin). See [Workflow](#workflow) for an overview of required steps.
 
@@ -209,11 +209,12 @@ When you upload your data, your `Employee` field becomes `PersonId` in Viva Insi
 
 #### Import your data
 
-To import your data to Viva Insights, you can pick from three options:
+To import your data to Viva Insights, you can pick from four options:
 
-* Use our API to build a custom app that exports and imports your data at the frequency you choose.
-* Run our C# solution on your console, which is based on our API.
-* Run our PowerShell script, which is also based on our API. 
+* Use our API to build a custom app that exports and imports your data at the frequency you choose. [Learn more](#option-1-use-the-viva-insights-hr-data-ingress-api-to-build-a-custom-importexport-app).
+* Run our C# solution on your console, which is based on our API. [Learn more](#option-2-import-data-through-our-c-solution-after-exporting-data-through-your-custom-app).
+* Run our PowerShell script, which is also based on our API. [Learn more](#option-3-run-the-descriptivedataupload-powershell-solution-after-exporting-data-through-your-custom-app). 
+* Use our Azure Data Factory (ADF) template to send data to our API-based import. [Learn more](#option-4-use-our-azure-data-factory-adf-template-to-send-data-to-our-api-based-import).
 
 >[!Note]
 >Our C# and PowerShell solutions only import data to Viva Insights. They don’t export data from your source system.
@@ -457,6 +458,128 @@ Similar to option 2, after you’ve exported your source data as a zip folder at
     * `ingressDataType: HR`  
     * `ClientSecret` or `certificateName` 
  
+
+##### Option 4: Use our Azure Data Factory (ADF) template to send data to our API-based import
+
+###### 1. Create new Azure Data Factory
+
+1. Log in to https://adf.azure.com/en/datafactories.
+2. Create a new data factory or use an existing data factory. Complete the fields, then select **Create**.
+
+    :::image type="content" source="../images/import-org-data-adf-01.png" alt-text="Screenshot that shows how to create a new data factory or use an existing one.":::
+
+###### 2. Create a new pipeline and activity
+
+1. Create a new pipeline and enter a name for the pipeline.
+
+    :::image type="content" source="../images/import-org-data-adf-02.png" alt-text="Screenshot that shows how to create a new pipeline.":::
+
+2. Under **Activities**, add **Copy data**.
+
+    :::image type="content" source="../images/import-org-data-adf-03.png" alt-text="Screenshot that shows how to add copy data.":::
+
+###### 3. Copy data activity settings: General
+
+Select your **Copy data** activity, then select **General** to complete each field using the guidance below.
+
+:::image type="content" source="../images/import-org-data-adf-04.png" alt-text="Screenshot that shows how to copy data activity settings.":::
+
+* **Name**: Enter a name for your activity. 
+* **Description**: Enter a description for your activity. 
+* **Activity state**: Select **Activated**. Or select **Deactivated** to exclude the activity from the pipeline run and validation. 
+* **Timeout**: This is the maximum amount of time an activity can run. The default is 12 hours, the minimum is 10 minutes, and the maximum amount of time allowed is seven days. The format is in D.HH:MM:SS.
+* **Retry**: The maximum number of retry attempts. This can be left as 0. 
+* **Retry interval (sec)**: The maximum number of retry attempts. This can be left as 30 if the retry attempts is set as 0. 
+* **Secure output**: When selected, the output from the activity isn't captured in logging. You can leave this cleared.
+* **Secure input**: When selected, the input from the activity isn't captured in logging. You can leave this cleared.
+
+###### 4. Copy data activity settings: Source 
+
+1. Select **Source**.
+2. Select an existing source dataset or select **+New** to create a new source dataset. For example, under **New dataset** select **Azure Blob Storage**, then select the format type of your data.
+
+    :::image type="content" source="../images/import-org-data-adf-05.png" alt-text="Screenshot that shows how to create a new source dataset.":::
+
+3. Set the properties for the .csv file. Enter a **Name** and under **Linked service**, select an existing location or select **+New**.
+
+    :::image type="content" source="../images/import-org-data-adf-06.png" alt-text="Screenshot that shows how to set the properties for the csv file.":::
+
+4. If you selected **+New**, enter the details for the new linked service using the guidance below.
+
+    :::image type="content" source="../images/import-org-data-adf-07.png" alt-text="Screenshot that shows how to add details for the new linked service.":::
+
+5. Next to **Source dataset**, select **Open**.
+
+    :::image type="content" source="../images/import-org-data-adf-08.png" alt-text="Screenshot that shows how to open the source dataset.":::
+
+6. Select **First row as header**.
+
+    :::image type="content" source="../images/import-org-data-adf-09.png" alt-text="Screenshot that shows how to select the first row as header.":::
+
+###### 5. Copy data activity settings: Sink
+
+1. Select **Sink**.
+
+2. Select **+New** to configure a new rest resource to connect to the Viva Insights Import API. Search for “Rest” and select **Continue**.
+
+    :::image type="content" source="../images/import-org-data-adf-10.png" alt-text="Screenshot that shows how to configure a new rest resource to connect to the Viva Insights Import API.":::
+
+3. Name the service. Under **Linked service** select **+New**.
+
+    :::image type="content" source="../images/import-org-data-adf-11.png" alt-text="Screenshot that shows how to name the service and add a new linked service.":::
+
+4. Search for "Rest" and select it.
+
+    :::image type="content" source="../images/import-org-data-adf-12.png" alt-text="Screenshot that shows how to search for the Rest dataset.":::
+
+5. Enter the fields using the guidance below.
+
+    :::image type="content" source="../images/import-org-data-adf-13.png" alt-text="Screenshot that shows how to enter the fields for the dataset.":::
+
+* **Name**: Enter a name for your new linked service. 
+* **Description**: Enter a description to your new linked service. 
+* **Connect via integration runtime**: Enter preferred method.  
+* **Base URL**: Use the URL below and replace <**TENANT_ID**> with your tenant ID: https://api.orginsights.viva.office.com/v1.0/scopes/<**TENANT_ID**>/ingress/connectors/HR/ingestions/fileIngestion 
+* **Authentication type**: Select your authentication type as **Service principal** or **Certificate**. Service principal example: 
+    * **Inline**: Select it. 
+    * **Service principle ID**: Enter the ID.
+    * **Service principle key**: Enter the key.
+    * **Tenant**: Enter the tenant ID.  
+    * **Microsoft Entra ID resource**: https://api.orginsights.viva.office.com 
+    * **Azure cloud type**: Select your Azure cloud type.  
+    * **Server certificate validation**: Select **Enabled**.
+
+6. Enter the Sink settings using the guidance below.
+
+    :::image type="content" source="../images/import-org-data-adf-14.png" alt-text="Screenshot that shows how to enter the Sink settings.":::
+
+* **Sink dataset**: Select the existing or newly created dataset. 
+* **Request method**: Select **POST**. 
+* **Request timeout**: Five minutes is the default. 
+* **Request interval (ms)**: 10 is the default. 
+* **Write batch size**: The batch size should be higher than the maximum number of lines in your file.  
+* **Http compression type**: None is the default. Or you can use GZip. 
+* **Additional headers**: Select **+New**.  
+    * **Box 1**: x-nova-scaleunit 
+    * **Value**: The value can be retrieved from Workplace Analytics by navigating to -> **Organization data tab** -> Select **Manage data sources** -> Select **API-based import**.
+
+###### 6. Copy data activity settings: Mapping
+
+1. Select **Mapping**.
+
+2. For the bootstrap upload, make sure to include **PersonId**, **ManagerId**, and **Organization** in the mapping (destination name). For the incremental upload, verify that the destination names are consistent with those in the previous upload, along with **PersonId**. You can't perform incremental uploads with new columns, and **PersonId** is required in all uploads.
+
+    :::image type="content" source="../images/import-org-data-adf-15.png" alt-text="Screenshot that shows how to enter activity settings for Mapping.":::
+
+###### 7. Copy data activity settings: Settings and User Properties
+
+No additional customizations are required for **Settings** or **User Properties**. You can edit these settings on a case-by-case basis if you need to.
+
+###### 8. Copy data activity: Trigger Setup (Automation)
+
+To add a trigger to the automation setup, select **Add trigger**. The recommended automation is weekly, you can also customize the frequency.
+
+:::image type="content" source="../images/import-org-data-adf-16.png" alt-text="Screenshot that shows how to set up the Trigger.":::
 
 ## Validation
 

@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/04/2025
+ms.date: 04/29/2025
 ---
 
 # Understand Viva Glint SFTP and data automation
@@ -27,14 +27,14 @@ Use Microsoft Viva Glint Secure File Transfer Protocol (SFTP) to establish regul
 
 ## Prepare data for import
 
-Before transferring data to Viva Glint with SFTP, ensure that you review information on Viva Glint attribute fundamentals and complete your attribute setup. [Learn more](upload-employee-data.md).
+Before transferring data to Viva Glint with SFTP, ensure that you review information on Viva Glint [attribute fundamentals](attribute-fundamentals.md) and complete your [attribute setup](send-employee-attributes.md).
 
 > [!CAUTION]
 > Ensure that all Company Admin users are included in your first file upload, with Employee IDs that match the IDs in Viva Glint. If not, Company Admin users are deactivated and lose access to the platform.
 
 ## Manage SFTP settings
 
-In Viva Glint general settings, manage Public SSH keys, add public IP addresses, specify notification users, manage encryption settings, and view SFTP credentials. [Learn more](set-up-sftp.md).
+In Viva Glint general settings, manage Public SSH keys, add public IP addresses, specify notification users, manage encryption settings, and view SFTP credentials. [Set up Viva Glint SFTP](set-up-sftp.md).
 
 ## Understand automated data import
 
@@ -54,6 +54,7 @@ In your SFTP account, there are two (2) directories that Viva Glint monitors for
 
 > [!NOTE]
 > - Files are automatically deleted from SFTP after 48 hours.
+> - Files uploaded to Viva Glint SFTP have no size limits.
 > - Files that cause warnings and errors can be downloaded from the **Activity Audit Log** in **General Settings** for 28 days after import.
 
 > [!TIP]
@@ -77,7 +78,7 @@ If there are multiple sources of employee data for your organization, you can se
 
 ## Derived attributes
 
-While your employee data uploads to Viva Glint, derived attributes and values are calculated for Manager Hierarchy, Tenure, and Age Groups based on selections made during your attribute setup. [Learn more](send-employee-attributes.md).
+While your employee data uploads to Viva Glint, [derived attributes and values](send-employee-attributes.md#derived-attributes) are calculated for Manager Hierarchy, Tenure, and Age Groups based on selections made during your attribute setup.
 
 > [!NOTE]
 > - Don’t include derived attributes in your employee data file. Viva Glint creates these fields.
