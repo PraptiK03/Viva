@@ -1,5 +1,5 @@
 ---
-ms.date: 04/25/2025
+ms.date: 05/2/2025
 title: Advanced insights FAQ
 description: Get answers to frequently asked questions about Microsoft Viva Insights' advanced insights app
 author: zachminers
@@ -105,13 +105,9 @@ For details about setup, refer to the [Setup checklist](../setup-maint/setup-ove
 
 A2. No limit is imposed for **Insights Analyst** roles.
 
-#### Q3. Does Viva Insights ignore people who aren't assigned a license?
+ #### Q3. Our admin assigned the required licenses. Why can't Insights Analysts access the advanced insights app?
 
-A3. Viva Insights doesn't ignore people without licenses, but it doesn't measure them or process their data. However, because these people are internal collaborators of measured employees, Viva Insights uses their collaboration data for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or chats.  
-
-#### Q4. Our admin assigned the required licenses. Why can't Insights Analysts access the advanced insights app?
-
-A4. It might take a few days for Viva Insights to process Microsoft 365 collaboration data and for assigned users to get the right permissions. Most customers are able to access the app four to five days after the Insights admin assigns licenses.
+A3. It might take a few days for Viva Insights to process Microsoft 365 collaboration data and for assigned users to get the right permissions. Most customers are able to access the app four to five days after the Insights admin assigns licenses.
 
 If you're getting an error, you might want to ask the following questions:
 
