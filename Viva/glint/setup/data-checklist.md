@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: checklist
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/10/2025
+ms.date: 04/29/2025
 ---
 
 # Review employee data with Viva Glint checklists
@@ -42,9 +42,9 @@ Confirm that your employee data file, attributes, and attribute values align wit
 |Blank columns and rows  | There aren't any columns or rows with data removed that still show in the file (remove).     |
 |Manager hierarchy fields  | There's a Manager ID field (along with Employee ID) to create a manager hierarchy.     |
 |Hierarchy fields  | There are attributes for each reporting hierarchy (for example: Region, Country, and City).     |
-|Derived attributes | Attributes that Viva Glint derives (Age Group and Tenure) aren't included in the file. [Learn more](send-employee-attributes.md#derived-attributes).    |
-|Time zone  | Time zone is included as a column in the file. [Learn more](attribute-fundamentals.md#time-zones).    |
-|Language codes |  Survey and/or dashboard language columns are included as columns in the file. [Learn more](attribute-fundamentals.md#languages).    |
+|Derived attributes | [Attributes that Viva Glint derives](send-employee-attributes.md#derived-attributes) (Age Group and Tenure) aren't included in the file. |
+|Time zone  | [Time zone](attribute-fundamentals.md#time-zones) is included as a column in the file.   |
+|Language codes |  [Survey and/or dashboard language](attribute-fundamentals.md#languages) columns are included as columns in the file.   |
 
 ## Review attribute value level items
 

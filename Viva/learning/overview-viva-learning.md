@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: shirana
-ms.date: 04/03/2025
+ms.date: 05/02/2025
 audience: admin
 ms.topic: overview
 ms.custom: 
@@ -20,6 +20,7 @@ ms.collection:
   - essentials-overview
   - essentials-privacy
   - essentials-security
+  - essentials-compliance
 ms.localizationpriority: medium
 description: Learn about Microsoft Viva Learning in your Microsoft 365 environment.
 ---

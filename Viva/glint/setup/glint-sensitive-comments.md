@@ -15,7 +15,7 @@ ms.topic: how-to
 ms.service: viva-glint
 ms.localization priority: high
 ms.custom: CELA-approved
-ms.date: 02/10/2025
+ms.date: 05/02/2025
 ---
 
 # Flag Sensitive comments in Viva Glint
@@ -38,9 +38,12 @@ Flagged, sensitive comments fall into three categories:
 
 ## Enable sensitive comment flagging
 
+> [!IMPORTANT]
+> Sensitive comment flagging isn’t immediate as participants submit surveys. There is a delay in flagging as comments are processed.
+
 To enable sensitive comments:
 
-1. From the admin dashboard, select the **Configure** symbol, then in **Service Configuration**, choose **Advanced Configuration**.
+1. From the admin dashboard, select the **Configuration** symbol, then in **Service Configuration**, choose **Advanced Configuration**.
 1. Select **Surveys** and choose a survey.
 1. In the **Sensitive Comments** section, select checkboxes for:
    1. Flag PII

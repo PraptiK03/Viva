@@ -19,31 +19,43 @@ description: Learn how to create and maintain Microsoft Copilot Academy to help 
 
 # Microsoft Copilot Academy
 
-Microsoft Copilot Academy helps learners develop skills associated with Microsoft 365 Copilot. This experience provides structured educational content within Viva Learning to help users learn about, discover, and use Copilot effectively.  
+Microsoft Copilot Academy helps learners develop skills associated with Microsoft 365 Copilot. This experience provides structured educational content within Viva Learning to help users learn about, discover, and use Copilot effectively.
 
-![Screenshot of the Microsoft Copilot Academy home page.](../media/learning/academy-copilot-home-page.png)
+Copilot Academy can be accessed here: [https://aka.ms/copilot-academy](https://aka.ms/copilot-academy)
+
+![Screenshot of Copilot Academy Homepage in Viva Learning.](media/academy-copilot/copilot-academy-latest-home-page.png)
+
 
 ## Prerequisites
 
-To access the Copilot Academy in Viva Learning, users must have a **Microsoft 365 Copilot** license.
+All **Microsoft 365 users** can access Copilot Academy through Viva Learning. However, Knowledge administrators have the ability to restrict access to Copilot Academy only to users with a **Microsoft 365 Copilot** license.
 
-To duplicate Copilot Academy, users must have Microsoft 365 Copilot License and either a Viva Suite or Viva Learning license. 
+To duplicate Copilot Academy, users must have a Viva Suite or Viva Learning license. 
+
+> [!Important]
+> Users with **Viva Learning Seeded or Viva Learning** service plan assigned can access Copilot Academy. 
+>- Viva Learning Seeded service plan is available as a part of Microsoft 365, Business and Office 365 products. 
+>- Viva Learning service plan is available as a part of Viva Suite or standalone Viva Learning product.
 
 ## Configure Copilot Academy
 
-Copilot Academy is enabled by default and discoverable on the **Academies** menu for users with a Microsoft 365 Copilot license.
+Copilot Academy is enabled by default and discoverable on the **Academies** menu for all Microsoft 365 users.
 
-Knowledge Administrators of tenants with at least one Microsoft 365 Copilot license can manage Copilot Academy from the **Admin** tab in Viva Learning, under the **Manage academies** section.
+Tenant Knowledge Administrators can manage Copilot Academy from the **Admin** tab in Viva Learning, under the **Manage academies** section.![Screenshot of the Manage academies page in the admin tab.](media/academy-copilot/copilot-academy-admin-manage-permissions.png)
 
+Knowledge Administrators can manage access to Copilot Academy by selecting '**Microsoft 365 Copilot licensed users**' under the 'Manage Permission' options in the Copilot Academy settings. To make Copilot Academy available to all users, administrators can choose the '**Everyone**' option.
 
-![Screenshot of the Manage academies page in the admin tab.](../media/learning/academy-copilot-admin.png)
+![Screenshot of options in Copilot Academy Manage Permission modal.](media/academy-copilot/copilot-academy-admin-manage-permissions-modal.png)
+
+> [!NOTE]
+> 1. Only users with Knowledge Administrator or Knowledge Manager roles, or those with delegated access through [Manage Feature-level access](feature-access-management.md), can update the status of Copilot Academy.
+> 1. Please ensure that users with access to Copilot Academy also have access to 'AI and Copilot Resources', 'Microsoft 365 Training', and 'Microsoft Learn' providers.
 
 ## Notifications
 
-Users with a Microsoft 365 Copilot license receive a monthly personalized notification about Copilot Academy in Microsoft Teams.
+Only Users with a Microsoft 365 Copilot license will receive monthly personalized notifications about Copilot Academy in Microsoft Teams.
 
-
-![Screenshot of Copilot Academy notification in Microsoft Teams.](media/academy-copilot/copilotacademynotifications2.png)
+![Screenshot of Copilot Academy Teams notification for new users.](media/academy-copilot/copilotacademynewusernotification.png)   ![Screenshot of Copilot Academy Teams notification for existing users.](media/academy-copilot/copilotacademyexistingusernotification.png)
 
 ## Language support 
 
@@ -69,7 +81,7 @@ The language you see in Copilot Academy is based on the Viva Learning language. 
 
 ## Create your own custom academy using Copilot Academy 
 
-You can duplicate and customize Copilot Academy to fit your organization’s unique industry, culture, and strategic needs. To use this feature, users must have a license for Microsoft Viva Suite or for Viva Learning. Users also need a Microsoft 365 Copilot license to duplicate a Copilot academy. 
+You can duplicate and customize Copilot Academy to fit your organization’s unique industry, culture, and strategic needs. To use this feature, users must have a license for Microsoft Viva Suite or for Viva Learning.
 
 Copilot Academy remains enabled by default unless explicitly disabled.  
 
@@ -90,11 +102,11 @@ Learning paths in Copilot Academy are powered by the new AI and Copilot Resource
 For more information on managing content permissions, see [AI and Copilot Resources Manage Permissions](provider-permissions.md#ai-and-copilot-resources).
 
 > [!NOTE]
-> When publishing a duplicated academy, ensure that the assigned group has permissions to access AI and Copilot Resources content, which are accessible only to users with Copilot licenses.
+> When publishing a duplicated academy, ensure that the assigned group has permissions to access AI and Copilot Resources content.
 
 ## Upcoming releases
 
-- Access to Microsoft Copilot Academy for users without a Microsoft 365 Copilot license.
+- Access to Microsoft Copilot Academy to specific user groups.
 - Content updates to Microsoft Copilot Academy.
 - Increased Language Support in Microsoft Copilot Academy.
 - Personalized notifications for Microsoft Copilot Academy users to enhance their learning experience.

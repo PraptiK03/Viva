@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/12/2025
+ms.date: 04/24/2025
 ---
 
 # Import historical response data in Viva Glint
@@ -203,7 +203,7 @@ To import historical users and their responses:
    4. **Raw Score File:** Select **Choose File** and browse to select your **Raw Score File**.
    5. **New Distribution List Name:** Enter a name for a Distribution List that is used for historical import only and doesn't appear in your **Distribution List** page. Recommended: External-import-yyyymmdd.
    6. **User File:** Select **Choose File** and browse to select your **Respondent User File**.
-   7. **Are you looking to append data to a survey cycle?:** Leave this toggle switched to **Off**.
+   7. **Are you looking to append data to a survey cycle?:** Leave this toggle switched to **Off**. This setting is for [correcting responses in a Viva Glint survey](edit-responses.md).
    8. **Extra Options menu:** Leave collapsed, not applicable.
 
 1. Select **Preview** and review the **Totals**, **Warnings**, and **Counts per Question** that appear.

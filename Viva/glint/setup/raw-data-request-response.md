@@ -42,7 +42,7 @@ For information on how to support a request to delete data, visit [Delete user d
      1. Data is removed from Glint except for essential account information associated with your organization’s Microsoft subscription.
      2. To include later, the information must be reuploaded into your company’s employee data.
      3. By deleting the user:
-         1. Survey results are deleted, possibly impacting Glint reports, if deletion control is set to **ON**. [Learn more](/../../viva/glint/setup/manage-general-settings#user-data).
+         1. Survey results are deleted, possibly impacting Viva Glint reports, if [deletion control is set to **ON**](/../../viva/glint/setup/manage-general-settings#user-data).
          2. The user’s data is removed from distribution lists and future surveys.
          3. The user’s role definitions and their reporting permissions are removed.
      4. The display indicates whether the user has direct reports and that the admin needs to reassign the reports later or in the next employee data import. Follow these steps to facilitate a [**retroactive user upload update**](/../../viva/glint/setup/update-glint-reporting-data) if past survey data should reflect the new manager.
@@ -69,17 +69,17 @@ As the Viva Glint Admin, you send survey taker's user attributes and raw survey 
 2.	Send the encrypted, compressed file of the user's data that downloads to your device to the requesting employee.
 1.	The employee receives an email with a password to decrypt their compressed folder.
 
-:::image type="content" source="../../media/glint/setup/dsr-email.png" alt-text="Screenshot of the email that a user receives after their data has been exported from Glint, including a password to access their compressed, encrypted file.":::
+:::image type="content" source="../../media/glint/setup/dsr-email.png" alt-text="Screenshot of the email that a user receives after their data has been exported from Viva Glint, including a password to access their compressed, encrypted file.":::
 
 ## Correct user data
 
 > [!CAUTION]
-> - Don't perform a retroactive update while a Glint survey is live.
+> - Don't perform a retroactive update while a Viva Glint survey is live.
 > - Deleted user data can't be retroactively updated.
 
 As a Viva Glint Admin, you can update employees' current data or past data tied to closed survey cycles.
 
-- To update **current employee data**, [choose an approved upload method](choose-upload-method.md) to transfer updated data to Glint.
+- To update **current employee data**, [choose an approved upload method](choose-upload-method.md) to transfer updated data to Viva Glint.
 - To update **past employee data tied to a closed survey cycle**:
   - Use the [Retroactive User Updates upload option](advanced-config-uploads.md#perform-retroactive-user-updates) for non-manager hierarchy information.
   - Use the [RETROACTIVE_PULSE_UPDATE Data App](glint-data-apps.md#retroactive_pulse_update) to correct manager hierarchy information.

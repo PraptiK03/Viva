@@ -1,5 +1,5 @@
 ---
-title: Set up a Viva Glint Always-On feedback survey
+title: Set up a Microsoft Viva Glint Always-On survey
 description: Microsoft Viva Glint Always-On Feedback surveys provide insight on any topic, at any time, from any group of people in your organization.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 03/07/2025
 ---
 
-# Set up a Viva Glint Always-On feedback survey
+# Set up a Microsoft Viva Glint Always-On survey
 
 Microsoft Viva Glint Always-On feedback surveys provide insight on any topic, at any time, from any group of people in your organization. Different than scheduled or recurring programs, Always-On surveys are always open and ready for users to provide insights in real time. Ideally, Always-On surveys are quick and easy to complete in a few minutes. [Learn about survey types](/viva/glint/start/program-types-templates#types-of-surveys).
 
@@ -57,18 +57,28 @@ To create a new Always-On survey:
 
    |:::image type="icon" source="/office/media/icons/administrator.png" :::  |Setup section |Description|
    |:----------|:-----------|:------------|
-   | :::image type="icon" source="/office/media/icons/settings.png" :::  |[Program Setup](program-set-up.md)        |Define basics like languages, optional features, and confidentiality settings.        |
+   | :::image type="icon" source="/office/media/icons/settings.png" :::  |[Program Setup](program-set-up.md)        |Define basics like languages, optional features, and confidentiality settings.  <br> ***See Important callout.**      |
    | :::image type="icon" source="/office/media/icons/users-people.png" :::   |[Distribution](distribution-program-summary.md)        |Select Distribution Lists or User Roles to include in or exclude from the survey invite list.        |
    | :::image type="icon" source="/office/media/icons/help.png" :::  |[Questions](questions-setup.md)       | Add survey introduction text, select questions, and add a survey thank you message.      |
    | :::image type="icon" source="/office/media/icons/usage-report-blue.png" :::  |[Reporting](reporting-setup.md)       |  Define which roles have access to this survey's results and determine key reporting views.      |
    | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content that helps users interpret results on their dashboards.    |
 
+> [!IMPORTANT]
+> **For Always-On surveys**, if the **Waiting period between surveys** field is edited after a survey generates for an employee, the change only impacts new surveys generated for that employee. The original waiting period is enforced for surveys scheduled and generated.
+
+
 7. [Preview your survey](preview-filter-lifecycle-programs.md#preview-your-survey) after completing each setup section.
+   
 8. [Review survey setup](survey-qa.md) before enabling for your organization.
-8. Enable your Always-On survey when you're ready to make it available to your organization.
+
+9. [Customize this email template to introduce your organization to Viva Glint programs and this Always-On survey](/viva/glint/start/introductory-emails?branch=pr-en-us-10011#email-template-7---announce-survey-launch-to-entire-organization).
+    
+10. Enable your Always-On survey when you're ready to make it available to your organization.
    1. Use the toggle at the top of the page to switch the survey to **Approved**.
    2. Hover over the survey card on the left and select **Enable Survey**.
    3. Select **Yes, enable the survey** in the **Enable Survey** dialog. The survey tile changes from gray to blue and displays response rate as users submit surveys.
+  
+
 
 > [!IMPORTANT]
 > After an Always-On survey is enabled for the first time, Viva Glint admins can make edits by switching the Approved toggle to **Off**. When an admin reapproves the survey in the future, the survey **auto-enables**.

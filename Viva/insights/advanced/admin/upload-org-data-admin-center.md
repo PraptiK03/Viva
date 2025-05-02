@@ -1,5 +1,5 @@
 ---
-ms.date: 01/10/2025
+ms.date: 04/23/2025
 title: Upload and maintain data through the Microsoft 365 admin center
 description: Learn how to upload organizational data using the Microsoft 365 Admin Center instead of Viva Insights.
 author: zachminers
@@ -59,6 +59,20 @@ To upload data, follow the Organizational data in Microsoft 365 wizard to comple
 ## Other capabilities remaining in the Advanced Analytics app
 
 While uploading and managing organizational data must now be done in the Microsoft 365 admin center, all other tasks must still be done in the Advanced Analytics app such as creating [data partitions](../admin/partitions.md), uploading all other types of data such as [sentiment data](../../org-team-insights/copilot-dashboard.md#upload-group-level-survey-results-with-the-advanced-insights-app), business outcome data, and managing your Viva Insights [admin settings](../admin/admin-center.md).
+
+## Use Viva Insights for data uploads after transition
+
+If you've transitioned to the Microsoft 365 admin center for organizational data uploads, you can switch back to using Viva Insights if you'd like. You'll be able to switch back until all tenants have been migrated to the Microsoft 365 admin center. To do so, use the process below.
+
+1. In the advanced insights app, select **Organizational data** on the left.
+
+2. Select **Undo migration**.
+
+    :::image type="content" source="../images/modis-upload-rollback-01.png" alt-text="Screenshot that shows the button to transition back to Viva Insights upload.":::
+
+3. Select a reason for why you're switching back, then select **Submit**.
+
+4. Your tenant will be reverted immediately back to Viva Insights for organizational data uploads.
 
 ## FAQ
 
