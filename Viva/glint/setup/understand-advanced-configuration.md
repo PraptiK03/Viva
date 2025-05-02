@@ -162,7 +162,7 @@ Use the Uploads option to:
 
 ### Upload types:
 
-- **MANAGERS_UPLOAD:** [Upload custom results data access](advanced-config-uploads.md#perform-a-managers_upload) for dashboard users in bulk..
+- **MANAGERS_UPLOAD:** [Upload custom results data access](advanced-config-uploads.md#perform-a-managers_upload) for dashboard users in bulk.
 - **Retroactive User Updates:** [Update user data in closed surveys](advanced-config-uploads.md#perform-retroactive-user-updates) to correct reporting.
 - **ROLE_UPLOAD:** To upload users to a Viva Glint User Role, follow the guidance in this article: [Import and export Viva Glint User Roles](export-user-roles.md).
 
