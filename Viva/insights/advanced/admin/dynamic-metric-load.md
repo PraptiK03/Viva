@@ -1,5 +1,5 @@
 ---
-ms.date: 05/23/2024
+ms.date: 05/5/2025
 title: Export Viva Insights data using MGDC
 description: Use Microsoft Graph Data Connect (MGDC) to transfer backend Viva Insights data to Azure
 author: zachminers
@@ -161,7 +161,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
 
 ## 7. Consent to application/dataset
 
-*Applies to: Global Administrator (App approver must be different from the app developer)*
+*Applies to: Viva Insights Administrator and MGDC Administrator (App approver must be different from the app developer)*
 
 1. Open a browser and sign in to your [Microsoft 365 Admin Portal](https://admin.microsoft.com/adminportal).
 1. Under **Settings**, select **Org settings**. You may have to select **Show all** to see the **Settings** option.
