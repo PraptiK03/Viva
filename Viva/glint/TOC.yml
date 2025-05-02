@@ -380,6 +380,8 @@ items:
             href: reports/color-coding.md
           - name: Export reports as PDF
             href: reports/export-report-pdf.md
+          - name: Filter for past cycle reports
+            href: reports/filter-past-cycles.md
           - name: Manager reporting trend
             href: setup/manager-changing-team-role.md
           - name: Report customization
