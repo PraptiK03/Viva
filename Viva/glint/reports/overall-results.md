@@ -1,5 +1,5 @@
 ---
-title: Viva Glint's Overall Results Report
+title: Overall Results report from a Microsoft Viva Glint survey
 description: Viva Glint's Overall Results Report mimics the Glint dashboard but allows data filtering and reviewing of more demographics.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/15/2025
+ms.date: 5/02/2025
 ---
 
-# Viva Glint's Overall Results Report
+# Overall Results report from a Microsoft Viva Glint survey
 
 :::image type="content" source="../../media/glint/reports/overall-results.png" alt-text="Screenshot of the Overall Results Report in the Reports tab.":::
 
