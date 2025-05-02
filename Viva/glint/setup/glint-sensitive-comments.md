@@ -15,7 +15,7 @@ ms.topic: how-to
 ms.service: viva-glint
 ms.localization priority: high
 ms.custom: CELA-approved
-ms.date: 02/10/2025
+ms.date: 05/02/2025
 ---
 
 # Flag Sensitive comments in Viva Glint
@@ -37,6 +37,9 @@ Flagged, sensitive comments fall into three categories:
 > Sensitive comment flagging doesn't currently support non-English comments. 
 
 ## Enable sensitive comment flagging
+
+> [!IMPORTANT]
+> Sensitive comment flagging isn’t immediate as participants submit surveys. There is a delay in flagging as comments are processed.
 
 To enable sensitive comments:
 
