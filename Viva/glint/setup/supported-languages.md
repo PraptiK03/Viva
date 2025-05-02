@@ -27,7 +27,7 @@ Microsoft Viva Glint supports 60+ languages for users' survey and dashboard expe
  |:----------|:----------|:----------|:----------|:----------|
  | Afrikaans |     Afrikaans |     Yes |     Yes |     af_ZA | 
  | Albanian |   Shqip |     Yes |     Yes |     sq_AL | 
- | Arabic |     <div align="right">عَرَبِيّ</div> |  Yes |     RTL Language not supported |    ar_EG | 
+ | Arabic |     <div align="right">عَرَبِيّ</div> |  Yes |     Right-to-left language not supported |    ar_EG | 
  | Azerbaijani |    Azərbaycan |    Yes |     Yes |     az_AZ | 
  | Bangla |     বাংলা (ভারত) |  Yes |     Yes |     bn_IN | 
  | Bosnian |    Bosanski |  Yes |     Yes |     bs_BA | 
@@ -49,7 +49,7 @@ Microsoft Viva Glint supports 60+ languages for users' survey and dashboard expe
  | German |     Deutsch |   Yes |     Yes |     de_DE | 
  | Greek |  Ελληνικά |  Yes |     Yes |     el_GR | 
  | Gujarati |   ગુજરાતી |   Yes |     Yes |     gu_IN | 
- | Hebrew |     <div align="right">עברית</div> |    Yes |     RTL Language not supported |    he_IL | 
+ | Hebrew |     <div align="right">עברית</div> |    Yes |     Right-to-left language not supported |    he_IL | 
  | Hindi |  हिन्दी |    Yes |     Yes |     hi_IN | 
  | Hungarian |  Magyar |    Yes |     Yes |     hu_HU | 
  | Icelandic |  Íslenska |  Yes |     Yes |     is_IS | 
@@ -85,7 +85,7 @@ Microsoft Viva Glint supports 60+ languages for users' survey and dashboard expe
  | Thai |   ภาษาไทย |   Yes |     Yes |     th_TH | 
  | Turkish |    Türkçe |    Yes |     Yes |     tr_TR | 
  | Ukrainian |  українська мова |   Yes |     Yes |     uk_UA | 
- | Urdu |   <div align="right">اُردُو</div>|   Yes |     RTL Language not supported |    ur_IN | 
+ | Urdu |   <div align="right">اُردُو</div>|   Yes |     Right-to-left language not supported |    ur_IN | 
  | Vietnamese |     Tiếng Việt |    Yes |     Yes |     vi_VN | 
  | Zulu |   isiZulu |   Yes |     Yes |     zy_ZA | 
 
