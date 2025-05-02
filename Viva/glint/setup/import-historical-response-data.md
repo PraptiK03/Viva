@@ -181,7 +181,7 @@ To establish users and attributes for historical data, import your prepared User
 To complete your external, historical import, access Viva Glint’s Advanced Configuration page. If you don't have access, confirm that:
 
 - You are in the Company Admin User Role.
-- The [Advanced Configuration feature is enabled](understand-advanced-configuration#grant-user-access-to-advanced-configuration) for you as a user.
+- The [Advanced Configuration feature is enabled](understand-advanced-configuration.md#grant-user-access-to-advanced-configuration) for you as a user.
 
 > [!CAUTION]
 > Your Viva Glint survey program must be in an approved state while you import external, historical data and while reports generate. Ensure that your survey is approved before continuing.
