@@ -1,5 +1,5 @@
 ---
-ms.date: 04/25/2025
+ms.date: 05/2/2025
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -628,6 +628,14 @@ There are two reasons for this:
 1. The app total figure is the count of the total number of *unique* users who leverage Copilot within that app. The feature total also tallies the total number of unique users who leverage Copilot for that particular feature. Therefore, if the same person uses multiple Copilot features within a single app, they are still only counted once in the total app figure.
 
 2. The app total refers to the total number of unique users who are active on *any* Copilot feature for that app, and the list of features below the app might not include every feature.
+
+**Q5. How does data in the Copilot Dashboard compare to the Power BI templates in the analyst workbench?**
+
+There might be a few differences in the values between these reports due to different filters and date ranges used when creating the reports in the analyst workbench.
+
+**Q6. Why is my historical data different when I review the same date ranges over time?**
+
+These differences are due to Copilot license reassignments that might have occurred, because metrics are only calculated for users who are actively licensed. If users lost their Copilot licenses, they would no longer be...
 
 ## Related topics
 
