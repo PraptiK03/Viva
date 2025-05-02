@@ -1,6 +1,6 @@
 ---
-title: "Manage data in the Viva Engage admin center"
-description: "Describes where and how admins can manage data in the Viva Engage admin center."
+title: "Export and manage Viva Engage data"
+description: "Describes where and how admins can manage data in the Viva Engage admin center, and what that data consists of."
 ms.reviewer: cferancik
 ms.author: donnabouldin
 author: v-rgrace
