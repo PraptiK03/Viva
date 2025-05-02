@@ -14,19 +14,19 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/04/2025
+ms.date: 05/02/2025
 ---
 
 # Manage Viva Glint Advanced Configuration settings and tasks
 
 Microsoft Viva Glint offers Advanced Configuration options which allow users to view and modify advanced platform settings and perform complex data updates. Use Advanced Configuration to:
 
-- Review and edit reporting thresholds in the Details or Surveys section. [Learn more](manage-confidentiality-thresholds.md).
-- Manage advanced survey settings, like Sensitive Comments. [Learn more](glint-sensitive-comments.md).
-- Import external, historical data from a previous employee survey vendor. [Learn more](import-historical-response-data.md).
-- Export a detailed snapshot of employee data at the time of a past survey launch. [Learn more](glint-data-apps.md)
-- Update employee data that is tied to a closed survey to correct reporting. [Learn more](update-glint-reporting-data.md).
-- Perform uploads to update custom access. [Learn more](advanced-config-uploads.md#perform-a-managers_upload).
+- [Review and edit reporting thresholds](manage-confidentiality-thresholds.md) in the Details or Surveys section.
+- Manage advanced survey settings, [like Sensitive Comments](glint-sensitive-comments.md).
+- [Import external, historical data](import-historical-response-data.md) from a previous employee survey vendor.
+- Export a detailed [snapshot of employee data](glint-data-apps.md) at the time of a past survey launch.
+- [Update employee data that is tied to a closed survey](update-glint-reporting-data.md) to correct reporting.
+- Perform uploads to [update custom access](advanced-config-uploads.md#perform-a-managers_upload).
 - Monitor Advanced Configuration tasks that are still running in the Running Jobs section.
 
 :::image type="content" source="../../media/glint/setup/glint-service-config.png" alt-text="Screenshot that displays the Advanced configuration option icon in Viva Glint tenant.":::
@@ -85,7 +85,7 @@ View specifics about how information displays in Viva Glint reporting and which 
 | **Minimum Difference for Driver Impact Report** | In the Driver Impact report, the minimum difference from the item score for the entire company. Viva Glint standard: 5 |
 | **Driver Impact Report Threshold** | In the Driver Impact report, the minimum number of respondents to display results. Viva Glint standard: 20 |
 | **Exclude negative strengths and positive weaknesses** | Exclude negative strengths and positive weaknesses for Driver Impact calculation. |
-| **Enable Kiosk Page** | Allow users to access attribute-based surveys without a registered kiosk. [Learn more](attribute-based-survey-access.md) |
+| **Enable Kiosk Page** | Allow users to [access attribute-based surveys](attribute-based-survey-access.md) without a registered kiosk. |
 | **Self-Serve Mode** | EDIT_AND_CREATE allows admins to edit and create survey programs |
 | **Support Users for Survey Notifications** | No action needed, leave blank. Admins can add users in the Support role to surveys in the Distribution section.  |
 | **Action Plans to Goals enabled?** | No action needed, leave as true |
@@ -133,7 +133,7 @@ Select a survey program to view more details and options. For more information o
 | **Default survey locale** | Displays selection from Survey Programs: Survey: Program Setup |
 | **Additional Survey Locales** | Displays selection from Survey Programs: Survey: Program Setup |
 | **Enable Follow Up** | Enable follow up questions that encourage more open-ended comments in surveys |
-| **Sensitive Comments** | Enable sensitive comment flagging in the admin view of the Comments report for personally identifiable information (PII), sensitive topics, and profanity. [Learn more](glint-sensitive-comments.md) |
+| **Sensitive Comments** | [Enable sensitive comment flagging](glint-sensitive-comments.md) in the admin view of the Comments report for personally identifiable information (PII), sensitive topics, and profanity. |
 
 ## Advanced Configuration: Users
 
@@ -141,11 +141,11 @@ To export Viva Glint users select the **Configuration** symbol, choose **People,
 
 ## Advanced Configuration: External Import
 
-Import external survey results to see trend for past items that continue to be asked in Viva Glint survey programs. [Learn more](import-historical-response-data.md).
+[Import external survey results](import-historical-response-data.md) to see trend for past items that continue to be asked in Viva Glint survey programs.
 
 ## Advanced Configuration: Data Apps
 
-Use Viva Glint Data Apps to export recipients or update attribute values for users in closed surveys. [Learn more](glint-data-apps.md).
+Use [Viva Glint Data Apps](glint-data-apps.md) to export recipients or update attribute values for users in closed surveys.
 
 | App UUID | Description |
 | --- | --- |
@@ -162,8 +162,8 @@ Use the Uploads option to:
 
 ### Upload types:
 
-- **MANAGERS_UPLOAD:** Upload custom results data access for dashboard users in bulk. [Learn more](advanced-config-uploads.md#perform-a-managers_upload).
-- **Retroactive User Updates:** Update user data in closed surveys to correct reporting. [Use Advanced Configuration Uploads](advanced-config-uploads.md#perform-retroactive-user-updates).
+- **MANAGERS_UPLOAD:** [Upload custom results data access](advanced-config-uploads.md#perform-a-managers_upload) for dashboard users in bulk..
+- **Retroactive User Updates:** [Update user data in closed surveys](advanced-config-uploads.md#perform-retroactive-user-updates) to correct reporting.
 - **ROLE_UPLOAD:** To upload users to a Viva Glint User Role, follow the guidance in this article: [Import and export Viva Glint User Roles](export-user-roles.md).
 
 ## Advanced Configuration: Running Jobs
