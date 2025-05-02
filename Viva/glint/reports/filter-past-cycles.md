@@ -33,7 +33,7 @@ Admins and managers can use the filter panel to view results of a previous cycle
 
    :::image type="content" source="../../media/glint/reports/overall-results2.png" alt-text="Screenshot of where to choose the survey program and report tile.":::
    
-4. The top filter bar displays the program name with the current cycle. Select the **grey down-facing arrow** next to the current cycle. **Note:** This section appears greyed out on the platform. 
+4. The top filter bar displays the program name with the current cycle. Select the **grey down-facing arrow** next to the current cycle. Note that this section appears greyed out on the platform. 
 
    :::image type="content" source="../../media/glint/reports/cycle-selection.png" alt-text="Screenshot of the filter row in Reporting." lightbox="../../media/glint/reports/cycle-selection.png":::
 
