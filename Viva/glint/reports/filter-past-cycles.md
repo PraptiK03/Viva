@@ -45,7 +45,7 @@ Admins and managers can use the filter panel to view results of a previous cycle
 
    :::image type="content" source="../../media/glint/reports/change-cycle-1.png" alt-text="Screenshot of the cycle dropdown menu with the new cycle checked.":::
 
-### Switch to a different report
+### Switch to a different report in the same program
 
 Use the **down-facing arrow** next to the current report name. Navigate to and any other available report.
 
