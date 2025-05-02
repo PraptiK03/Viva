@@ -173,7 +173,7 @@ To establish users and attributes for historical data, import your prepared User
 > Avoid external, historical imports while Viva Glint surveys are live.
 
 - [Import employee data](upload-employee-attributes.md).
-- Create a Distribution List with these historical employees. [Learn more](set-up-distribution-lists.md).
+- [Create a Distribution List](set-up-distribution-lists.md) with these historical employees.
 - [Update the Distribution section](distribution-program-summary.md) of your survey program with your new Distribution List.
 
 ## 7. Import external data
