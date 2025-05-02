@@ -17,7 +17,7 @@ ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 4/16/2025
+ms.date: 5/2/2025
 
 ---
 
@@ -29,7 +29,7 @@ In Microsoft Viva Glint, "raw survey responses" refers to unaggregated survey re
 
 By default, Viva Glint’s in-product reporting doesn't include raw survey responses and is reported in the aggregate. However, your organization may choose to make some surveys “identifiable,” meaning survey responses are directly linked to the survey taker. If a survey is identifiable, survey takers are informed before taking the survey. Learn more about [Viva Glint confidentiality and reporting](viva-glint-survey-privacy.md).
 
-While raw survey responses aren't included in Viva Glint default reporting, Viva Glint admins can export them unless export is disabled. Even when export of raw survey responses is disabled, your organization may still access raw survey responses if it determines that certain Extreme Circumstances exist. Learn more about [Extreme Circumstances](#exception-for-extreme-circumstances). 
+While raw survey responses aren't included in Viva Glint default reporting, Viva Glint admins can export them unless the export function is disabled. Even when export of raw survey responses is disabled, your organization may still access raw survey responses if it determines that certain Extreme Circumstances exist. Learn more about [Extreme Circumstances](#exception-for-extreme-circumstances). 
 
 ## Configuring raw survey response export
 
@@ -81,7 +81,7 @@ By default, export of raw survey responses is enabled for each new Viva Glint su
 5.	By default, the control is set to **YES**, meaning export is enabled.
 6.	To disable export of raw survey responses, set the control to **NO**.
 
-> [!NOTE]
+> [!IMPORTANT]
 > You can't enable export of raw survey responses when a program is in Approved status. To enable raw survey response export, ensure Approved is set to NO. 
 
 Opting out of response exports occurs within the **Confidentiality** section of *Program Setup*. Program Summary is accessible from the *Survey Programs* configuration page of the admin dashboard. 
@@ -99,7 +99,7 @@ If export is enabled for a survey program, you can export raw survey responses f
 1.	Go to the **Configuration** page and select **Survey Programs.**
 2.	Select your survey program and go to the **Completed cycles** tab.
 3.	On the row with the appropriate cycle, select the ellipses (three dots) and then **Export Raw Survey Responses.**
-1. In the Export Raw Survey Responses panel that opens:
+4. In the Export Raw Survey Responses panel that opens:
    1. Select your **Export Options**. Choose from: Survey Cycle ID, Survey Sent Date, Comments, Comment Topics, Sensitive Comment Flag, and Use question's description instead of UUID.
    1. Select **Attributes** from your organization in the Attributes section.
    2. After making all selections, select **Export.**
@@ -107,17 +107,17 @@ If export is enabled for a survey program, you can export raw survey responses f
 
 ### Export raw survey responses for Employee Lifecycle and Always-On surveys
 
-1.	Go to the **Configuration** page and select **Survey Programs.**
+1.	Go to the **Configuration** page and select **Survey programs.**
 2.	Select your survey program and then the **Actions** menu.
 3.	Choose **Export Raw Survey Responses.**
-1. In the export panel that appears:
-   1. Select a Start Date and End Date in the Date Range section.
-   1. Select a date type:
-      1. The date the participant started the survey (which matches reports).
-      2. The date the participant completed the survey.
-   1. Select attributes to include in the Export Options section. Choose from: Survey Cycle ID, Survey Sent Date, Comments, Comments Topics, Sensitive Comments Flag, and Use question's description instead of UUID. Survey Start Date is also available for Always-On surveys.
-   2. Select attributes from your organization in the Attributes section.
-   3. After making all selections, select **Export.**
+4. In the **Export Raw Survey Responses** panel that appears:
+   1. Add a **Start Date** and **End Date** in the **Date range** fields.
+   1. In the **Include the response if** section, select either:
+      - the date when the *survey invitation was sent* is in the date range, or
+      - the date the *participant completed the survey* is in the date range
+   1. Select attributes to include in the **Export Options** section. Choose from: Survey Cycle ID, Survey Sent Date, Comments, Comments Topics, Sensitive Comments Flag, and Use question's description instead of UUID. Survey Start Date is also available for Always-On surveys.
+   2. Select attributes from your organization's Employee Attribute File in the **Attributes** section.
+   3. After making your selections, select **Export.**
 5.	The CSV file downloads to your device. Larger files take more time to generate. You receive an email when your file is ready to download.
 
 ## Raw survey response file layout and content
@@ -126,19 +126,19 @@ The fields included in Viva Glint raw survey response exports vary. Variation is
 
 |Field Label  |Description   |Value Format|
 |----------|-----------|------------|
-|Survey Creation Date   |The date and time that surveys were generated for users.       |YYYY-MM-DD hh:mm:ss|
-|Survey Cycle Completion Date|The date and time a unique user completed the survey.    |YYYY-MM-DD hh:mm:ss|
-|Survey Cycle Title|The name of the survey cycle.  |\<Month> \<Year> \<Program name> Survey|
-|Survey Cycle ID|  The unique number to identify the survey cycle|Metadata can contain sensitive data about the system, its users, and operations. Only the last 12 digits of this ID are exported. As product IDs are considered metadata, the beginning numbers show as XXX. |
-|Survey sent date|The date and time that surveys were generated for users.       |YYYY-MM-DD hh:mm:ss|
-|ItemText1  |Full text of survey item or question UUID. |Numeric response value.|
-|ItemText2  |Full text of survey item or question UUID. |Numeric response value.|
-|ItemText3  |Full text of survey item or question UUID. |Numeric response value.|
+|**Survey Creation Date**   |The date and time that surveys were generated for users.       |YYYY-MM-DD hh:mm:ss|
+|**Survey Cycle Completion Date**|The date and time a unique user completed the survey.    |YYYY-MM-DD hh:mm:ss|
+|**Survey Cycle Title**|The name of the survey cycle.  |\<Month> \<Year> \<Program name> Survey|
+|**Survey Cycle ID**|  The unique number to identify the survey cycle|Metadata can contain sensitive data about the system, its users, and operations. Only the last 12 digits of this ID are exported. As product IDs are considered metadata, the beginning numbers show as XXX. |
+|**Survey sent date**|The date and time that surveys notifications were sent to users.       |YYYY-MM-DD hh:mm:ss|
+|**Comment topics**|Topics appear in alphabetical order|&nbsp;|
+|**Sensitive comment flag**|Comments with sensitive comments including profanity or Personally Identifiable Information are flagged|&nbsp;|
+|**Use question's description instead of UUID**  |Full text of survey item or question UUID. |Numeric response value.|
 
 ### Partial, blank, and termed employee response handling
 
 - Partially completed surveys that participants don't submit **aren't** included in raw response exports.
-- Blank surveys with no question responses or comments **aren't** included in raw response exports.
+- Blank surveys with no question responses or comments **aren't** included in raw response exports. **Note:** Raw data export counts may differ from the final respondent counts in the Viva Glint portal. This is because surveys without answers are excluded from the raw data export but are still counted in the portal.
 - Surveys submitted by terminated employees **are** included in raw response exports. Consider your organization's [data deletion settings](manage-general-settings.md#user-data) and how they affect terminated employee response data.
 
 > [!NOTE]
@@ -147,3 +147,7 @@ The fields included in Viva Glint raw survey response exports vary. Variation is
 
 > [!CAUTION]
 > Once a survey is live, the choice to enable or disable raw survey response export can't be changed for that survey.
+
+
+
+
