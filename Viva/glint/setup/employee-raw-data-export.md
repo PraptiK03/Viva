@@ -138,7 +138,7 @@ The fields included in Viva Glint raw survey response exports vary. Variation is
 ### Partial, blank, and termed employee response handling
 
 - Partially completed surveys that participants don't submit **aren't** included in raw response exports.
-- Blank surveys with no question responses or comments **aren't** included in raw response exports. **Note:** Raw data export counts may differ from the final respondent counts in the Viva Glint portal. This is because surveys without answers are excluded from the raw data export but are still counted in the portal.
+- Blank surveys with no question responses or comments **aren't** included in raw response exports. **Note that** raw data export counts may differ from the final respondent counts in the Viva Glint portal. This is because surveys without answers are excluded from the raw data export but are still counted in the portal.
 - Surveys submitted by terminated employees **are** included in raw response exports. Consider your organization's [data deletion settings](manage-general-settings.md#user-data) and how they affect terminated employee response data.
 
 > [!NOTE]
