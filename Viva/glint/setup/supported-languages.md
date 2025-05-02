@@ -1,6 +1,6 @@
 ---
 title: Viva Glint supported languages
-description: 
+description: Microsoft Viva Glint supports 60+ languages for users' survey and dashboard experiences.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -69,7 +69,7 @@ Microsoft Viva Glint supports 60+ languages for users' survey and dashboard expe
  | Mongolian |  монгол хэл |    Yes |     Yes |     mn | 
  | Norwegian |  Norsk |     Yes |     Yes |     no_NO | 
  | Polish |     Język polski |  Yes |     Yes |     pl_PL | 
- | Portuguese( Brazil) |    Português do Brasil |   Yes |     Yes |     pt_BR | 
+ | Portuguese (Brazil) |    Português do Brasil |   Yes |     Yes |     pt_BR | 
  | Portuguese (Portugal) |  Português |     Yes |     Yes |     pt_PT | 
  | Punjabi |    ਪੰਜਾਬੀ |    Yes |     Yes |     pa_IN | 
  | Romanian |   Limba română |  Yes |     Yes |     ro_RO | 
@@ -94,5 +94,5 @@ Microsoft Viva Glint supports 60+ languages for users' survey and dashboard expe
 - [Set up language attributes](send-employee-attributes.md#optional-system-attributes)
 - [Review recent language changes](attribute-fundamentals.md#recent-language-changes)
 - [Select languages in General settings](manage-general-settings.md#localization)
-- [Select languges at the survey level in Program setup](program-set-up.md)
+- [Select languages at the survey level in Program setup](program-set-up.md)
 - [Manage translations for survey content](language-translations.md)
