@@ -36,7 +36,7 @@ An authorized admin in your tenant can create, assign, and manage access policie
 Before you can create an access policy, you need:
 
 - A [supported version of Microsoft 365 or a Viva Suite license](https://www.microsoft.com/microsoft-viva/pricing)
-- Access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later. If you need to use non-mail-enabled groups you must have access to Exchange PowerShell version 3.5.1 or later. 
+- Access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later. If you need to use non-mail-enabled groups you must have access to Exchange PowerShell version 3.5.1 or later. If you need to setup policies with the user opted-out by default (soft-disable), you must have access to Exchange PowerShell version 3.8.0 or later.
 
 - User accounts created in or synchronized to Microsoft Entra ID
 - Microsoft 365 groups, Microsoft Entra security groups created in or synchronized to Microsoft Entra ID, or distribution groups.
