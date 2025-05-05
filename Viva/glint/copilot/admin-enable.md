@@ -76,7 +76,7 @@ Copilot in Viva Glint gives you the flexibility to roll out to one or many user 
 
 6. Toggle **Copilot in Viva Glint** to **On** and then **Save Changes**.
 
-    :::image type="content" source="../../media/glint/copilot/copilot-toggle.png" alt-text="Screenshot of role settings in the Reporting tab." lightbox="../../media/glint/setup/admin-enable.jpg":::
+    :::image type="content" source="../../media/glint/setup/copilot-toggle.png" alt-text="Screenshot of role settings in the Reporting tab." lightbox="../../media/glint/setup/admin-enable.jpg":::
 
 ## Ensure Copilot in Viva Glint is enabled
 
