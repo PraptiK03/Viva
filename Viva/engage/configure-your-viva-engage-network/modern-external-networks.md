@@ -69,7 +69,7 @@ The new tenant automatically embeds the creating user as a B2B Guest user and as
 You also use the Microsoft Entra admin center to assign the correct license to the B2B Guest user. You assign a Microsoft 365 E5 license to the Global Administrator of the new tenant. Doing so allows the Global Administrator to sign into Viva Engage as the Engage Network Admin.
 
 > [!NOTE]
-> Enable the *Engage Core Service plan* for the user in the assigned Microsoft 365 E5 license.
+> Enable the *Engage Core Service plan* for the user in the assigned Microsoft 365 E5 license. The admin should then confirm that the B2B Guest user account owns the global admin role and the correct Microsoft 365 E5 license.
 
 ### Connect the new Entra tenant to the parent network
 
@@ -116,7 +116,7 @@ After the redemption of the association code, you see the following result:
 
 The parent network now connects to the new tenant.
 
-#### Connect the legacy external network to the parent network
+#### Connect the legacy external network to the new external network
 
 After the new Microsoft Entra tenant associates to the parent network, you set the *legacy external network* to connect to the *new external network*. To do so, you use the same association token and Tenant ID that you used in the previous sections.
 
@@ -127,7 +127,7 @@ After the new Microsoft Entra tenant associates to the parent network, you set t
 
 :::image type="content" source="../../media/engage/admin/external-network-upgrade-on-parent.png" alt-text="Token redemption":::
 
-You see the message **External network has been successfully set up.** The legacy Viva Engage external network binds to the new external network and is backed by the new Entra tenant.
+The legacy Viva Engage external network binds to the new external network and is backed by the new Entra tenant.
 
 > [!NOTE]
 > The system signs the user out from the legacy network to allow immediate sign in with Entra as the identity provider.
