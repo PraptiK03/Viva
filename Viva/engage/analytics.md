@@ -34,7 +34,7 @@ Analytics features are available in [all languages that Viva Engage supports](ht
 ## View analytics
 
 >[!NOTE]
->To view premium analytics features, users must have Viva Engage Premium, which is bundled with the _Viva Suite_ and _Employee Communications and Communities_ license. Conversation, live event, and some community analytics are available without a premium license. Audience analytics are only viewable by leaders that have at least one primary assigned audience and their delegates.
+>To view all analytics features, users must have Viva Engage Premium, which is bundled with the _Viva Suite_ and _Employee Communications and Communities_ (C&C) license. You can use conversations, live events, and some community analytics without the Viva Suite or C&C license. Audience analytics are only viewable by leaders that have at least one primary assigned audience and their delegates.
 
 To open analytics, select the analytics icon on the top navigation bar in Viva Engage.
 
