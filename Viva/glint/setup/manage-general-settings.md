@@ -53,7 +53,7 @@ Also, set up what your employees see when they open an email sharing information
 |:-----------|:-----------|
 |**Enable Email Notifications for Focus Area Comments**    | Enable for comments and user tagging.  | 
 |**Hide Focus Area/Comment Text in Focus Area Emails**    | Managers may receive an email notification when someone comments on their Focus Area (goal) or a new one is cascaded to them. Enable to hide these details from these emails. Disable to allow goal title and comment text to display.    | 
-|**Send Survey in Users’ Time Zones**    | Send invitations in user’s time zones on the survey start date. [Learn more](time-zones.md). | 
+|**Send Survey in Users’ Time Zones**    | [Send invitations in users' time zones](time-zones.md) on the survey start date. | 
 |**Microsoft Teams** | Enable your company to receive survey notifications and all Nudges via Teams. Overview and [installation process here](glint-teams.md). | 
 
 ## Reporting  
@@ -76,7 +76,7 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 |**Insight Minimum Group Size**   | Minimum number of responses before insights and alerts can be shown.    |  
 |**Insight Minimum Score Difference**   | Minimum number of responses before showing differences in insights and alerts.     | 
 |**Minimum Sample Survey Stats**   | Response rate isn't displayed for groups smaller than this set number. This rate is based on group size, not on number of responses and it must match the confidentiality threshold.      | 
-|**PowerPoint Template for Reports**   | Customer chosen default template. If unset, it defaults to the Viva Glint template. [Learn more](custom-ppt-upload.md).  |  
+|**PowerPoint Template for Reports**   | Customer chosen default template. If unset, it defaults to the Viva Glint template. [Modify templates](custom-ppt-upload.md).  |  
 |**Primary Hierarchy**   | The hierarchy your company identified as the first level for reporting, typically Manager. |  
 |**Secondary Hierarchy**   | The hierarchy your company identified as its second level for reporting, typically Location. | 
 |**Rating Questions Scale**   | The defaults survey rating questions use. Viva Glint's best practice is to use a 5-point scale. | 
@@ -86,12 +86,12 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 
 ## Engage Survey Details 
 
-Choose your survey access method. [Learn more](understand-survey-access-methods.md).
+Choose your [survey access method](understand-survey-access-methods.md).
 
 | Field | Definition and notes |
 |:-----------|:-----------|
-|**Require Microsoft Entra ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn off this functionality, a personalized survey link is sent to participants. [Learn more](understand-survey-access-methods.md).  | 
-|**Attribute-based Survey Access**   | Participants are able to retrieve survey links by entering attributes. This process doesn't authenticate participants and is less secure than surveys requiring Microsoft Entra ID authentication. [Learn more](attribute-based-survey-access.md).  |  
+|**Require Microsoft Entra ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn off this functionality, a personalized survey link is sent to participants. | 
+|**Attribute-based Survey Access**   | Participants are able to [retrieve survey links by entering attributes](attribute-based-survey-access.md). This process doesn't authenticate participants and is less secure than surveys requiring Microsoft Entra ID authentication. |  
 
 ## Features 
 
@@ -103,7 +103,7 @@ In this section:
 |:-----------|:-----------|
 |**Available Survey Questions and Program Templates**   |Deselect program types to delete them from being available on your platform. You can edit this functionality at any time.    |  
 |**Community Enabled**   |Enable to permission access to the Viva Glint community forum for this client, regardless of role-based permissions.  |  
-|**Employee Post-Survey Action Taking**   |Enables employees to view free LinkedIn Learning videos upon completing a survey. A LinkedIn Learning license isn't required. [Learn more](post-survey-learnings.md). | 
+|**Employee Post-Survey Action Taking**   |Enables employees to [view free LinkedIn Learning videos upon completing a survey](post-survey-learnings.md). A LinkedIn Learning license isn't required. | 
 |**Team Conversation Enabled**   |Enables Team Conversations for recurring surveys.   |  
 |**Default Focus Area Privacy**   |Choose the visibility/privacy setting for users creating a new Focus Area. More instructions around focus area privacy follow this table.  |
 |**Maximum Number of Survey Cycles for Trend**   |Default is five (5) cycles. Applies only to recurring and ad-hoc surveys. This controls the number of cycles that show on the dashboard and in reporting.    |
@@ -129,11 +129,11 @@ Make selections for your Viva Glint technical setup.
 | Field | Definition and notes |
 |:-----------|:-----------|
 |**Attribute for SSO Authentication** |View only. The email is set as the default employee ID. |
-|**SFTP Setup** |Streamline your data upload process by automatically adding your company data into the Viva Glint platform. [Learn more](set-up-sftp.md). |
+|**SFTP Setup** |Streamline your data upload process by automatically adding your company data into the Viva Glint platform. [SFTP setup](set-up-sftp.md). |
 
 ## Localization 
 
-English is the default language for all programs, but surveys and emails may be sent to employees in their preferred language. Viva Glint has 70+ language translations for standard content that can be set during the initial configuration or added later, until the survey is live.  
+English is the default language for all programs, but surveys and emails may be sent to employees in their preferred language. Viva Glint has 60+ language translations for standard content that can be set during the initial configuration or added later, until the survey is live.  
 
 | Field | Definition and notes |
 |:-----------|:-----------|

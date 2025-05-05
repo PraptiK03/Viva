@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/22/2025
+ms.date: 05/02/2025
 ---
 
 # Set up Secure File Transfer Protocol (SFTP) in Viva Glint
@@ -66,9 +66,4 @@ The public PGP key provided by Viva Glint that your organization can optionally 
 
 :::image type="content" source="../../media/glint/setup/pgp-expire-email.png" alt-text="Screenshot of the PGP key expiration email which Viva Glint sends 30 days before the expiration date.":::
 
-To create a new public PGP key:
-
-1. Go to **Configuration** and select **General settings** in the **Service configuration** section.
-2. Select **Technical configuration** in the menu and then in **SFTP setup** choose **Manage**.
-3. To generate a new key, go to **PGP Encryption** and switch the toggle from **On** to **Off**, and then back to **On**.
-4. Select the copy icon next to the **Public Key** field or select the **Download .asc file** option to get the newly generated key.
+To get a new PGP key, [contact Support](/viva/troubleshoot/glint/contact-support/get-support-viva-glint?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json#submit-a-support-request) and enter "**Viva Glint PGP key**" as the Title for your request.

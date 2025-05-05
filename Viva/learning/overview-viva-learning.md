@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: shirana
-ms.date: 04/03/2025
+ms.date: 05/02/2025
 audience: admin
 ms.topic: overview
 ms.custom: 
@@ -20,6 +20,7 @@ ms.collection:
   - essentials-overview
   - essentials-privacy
   - essentials-security
+  - essentials-compliance
 ms.localizationpriority: medium
 description: Learn about Microsoft Viva Learning in your Microsoft 365 environment.
 ---
@@ -86,7 +87,7 @@ Data stored from Viva Learning includes:
 >[!NOTE]
 >As an admin, you can turn storage of diagnostic data on or off.
 
-For more information, read about [privacy](/viva/viva-privacy) and [security](/viva/viva-security) in Viva.
+For more information, read about [compliance](/viva/viva-compliance), [privacy](/viva/viva-privacy) and [security](/viva/viva-security) in Viva.
 
 ## Get started
 

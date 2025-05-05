@@ -19,7 +19,7 @@ ms.date: 03/28/2025
 
 # Manage Viva Glint confidentiality thresholds
 
-Data privacy and trust are key priorities for Microsoft Viva Glint. Several methods are used to inform you, as the Glint Admin, about what level of privacy users can expect when responding to surveys. Viva Glint offers confidential surveys, where scores only display with at least three (3) responses, and identifiable Lifecycle surveys, where the response threshold is less than three (3). [Learn more](viva-glint-survey-privacy.md). Use the guidance in this article to adjust confidentiality thresholds at the overall level or at the survey program level and understand the impact of those changes.
+Data [privacy and trust](viva-glint-survey-privacy.md) are key priorities for Microsoft Viva Glint. Several methods are used to inform you, as the Glint Admin, about what level of privacy users can expect when responding to surveys. Viva Glint offers confidential surveys, where scores only display with at least three (3) responses, and identifiable Lifecycle surveys, where the response threshold is less than three (3). Use the guidance in this article to adjust confidentiality thresholds at the overall level or at the survey program level and understand the impact of those changes.
 
 For a deeper understanding of how confidentiality and suppression appear in Viva Glint reports: [Understand Viva Glint confidentiality and suppression in reports](/viva/glint/reports/confidentiality-suppression-reports).
 

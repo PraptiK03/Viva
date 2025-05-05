@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/29/2025
+ms.date: 04/30/2025
 ---
 
 # Set up a Viva Glint Exit survey
@@ -57,20 +57,17 @@ If your organization plans to [include inactive users](set-up-distribution-lists
    | :::image type="icon" source="/office/media/icons/users-people.png" :::   |[Distribution](distribution-program-summary.md)        |Select Distribution Lists or User Roles to include in or exclude from the survey invite list.        |
    | :::image type="icon" source="/office/media/icons/help.png" :::  |[Questions](questions-setup.md)       | Add survey introduction text, select questions, and add a survey thank you message.      |
    | :::image type="icon" source="/office/media/icons/usage-report-blue.png" :::  |[Reporting](reporting-setup.md)       |  Define which roles have access to this survey's results and determine key reporting views.      |
-   | :::image type="icon" source="/office/media/icons/whats-new-megaphone-blue.png" ::: |[Communications](program-summary-communications.md)       |  Set a schedule and customize content for survey invites, reminders, and survey results notification emails.     |
+   | :::image type="icon" source="/office/media/icons/whats-new-megaphone-blue.png" ::: |[Communications](program-summary-communications.md)       | Customize and set a schedule to send survey communications.     
    | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content that helps users interpret results on their dashboards.       |
 
    > [!NOTE]
    > The attribute that your organization includes as a termination date in uploaded data may have a different label, like "Leave Date." Select the date that should trigger Exit surveys in the Distribution section of your survey.
 
 7. [Preview your survey](preview-filter-lifecycle-programs.md#preview-your-survey) after completing each setup section.
-   
-8. Build excitement and remind your people about the survey.
-   - 1-2 days before your survey launch, [customize this email template and send it to your Distribution Lists.]( /../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-7---announce-survey-launch-to-entire-organization)
-   - [Set a calendar alert to send this survey reminder email to your full Distribution List 72 hours before the survey is set to close](/../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-8-reminder-to-submit-survey).
      
-9. [Review survey setup](survey-qa.md) before survey launch.
+8. [Review survey setup](survey-qa.md) before survey launch.
    
-10. [Enable and launch your survey](preview-filter-lifecycle-programs.md#enable-an-employee-lifecycle-program).
+9. [Enable and launch your survey](preview-filter-lifecycle-programs.md#enable-an-employee-lifecycle-program).
+
 
 

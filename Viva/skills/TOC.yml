@@ -1,5 +1,7 @@
 
     - name: Get started with People Skills
       items:    
-        - name: People Skills
+        - name: Overview of People Skills
           href: skills-overview.md
+        - name: Manage skills inferencing and visibility
+          href: skills-manage-inferencing-visibility.md 

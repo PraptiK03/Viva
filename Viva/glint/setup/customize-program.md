@@ -1,5 +1,5 @@
 ---
-title: Design an effective Viva Glint survey program
+title: Design an effective Microsoft Viva Glint survey program
 description: Viva Glint has prepopulated and blank templates for you to customize to design the right feedback program for your organization.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,14 +14,14 @@ search.appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/22/2025
+ms.date: 05/02/2025
 ---
 
-# Design an effective Viva Glint survey program
+# Design an effective Microsoft Viva Glint survey program
 
 Use prepopulated or blank templates to set up your feedback program. Customize as you like. Use our best design principles and guidance to ensure you have the right program for the people targeted in your organization. 
 
-## Watch this 5-minute video on Best Practice Survey Design Principles
+## Watch this 5-minute video on Survey Design Principles
 
 > [!VIDEO 63483b8b-6189-49dc-bf1e-835f9e2e85dc]
 

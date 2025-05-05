@@ -57,11 +57,11 @@ There are two options to update reporting data for closed survey cycles in Viva 
 
 ### Uploads: Retroactive User Updates
 
-To retain current employee information, upload a file of all or some users in your closed survey to apply new values to past versions of data. This option is the simplest and can be used for most retroactive updates, including nonmanagerial reporting hierarchy updates. [Learn more](advanced-config-uploads.md#to-perform-a-retroactive-user-updates-upload).
+To retain current employee information, [upload a file of all or some users in your closed survey to apply new values](advanced-config-uploads.md#to-perform-a-retroactive-user-updates-upload) to past versions of data. This option is the simplest and can be used for most retroactive updates, including nonmanagerial reporting hierarchy updates.
 
 > [!IMPORTANT]
-> To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive USERS_UPLOAD option. [Learn more](glint-data-apps.md).
+> To retroactively update a Manager Hierarchy, always use the [RETROACTIVE_PULSE_UPDATE Data App](glint-data-apps.md#retroactive_pulse_update) and not the Retroactive USERS_UPLOAD option.
 
 ### Data Apps: RETROACTIVE_PULSE_UPDATE
 
-Update Manager Hierarchy information for closed surveys by uploading corrected users to Viva Glint, running the RETROACTIVE_PULSE_UPDATE Data App, and reverting user data to current information after the update. [Learn more](glint-data-apps.md#to-perform-a-retroactive-update-to-manager-hierarchy).
+Update Manager Hierarchy information for closed surveys by uploading corrected users to Viva Glint, running the [RETROACTIVE_PULSE_UPDATE Data App](glint-data-apps.md#to-perform-a-retroactive-update-to-manager-hierarchy), and reverting user data to current information after the update.
