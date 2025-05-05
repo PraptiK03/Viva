@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/24/2025
+ms.date: 5/05/2025
 ---
 
 # How Microsoft People Science drives Viva Glint programs
@@ -59,6 +59,6 @@ This terminology helps you understand the Microsoft People Science methodology f
 ## More Microsoft People Science thought leadership
 
 [Define a measurement strategy](https://adoption.microsoft.com/files/viva/glint/Defining-a-measurement-strategy.pdf) in the modern world of work <br>
-[Effectively design a survey](https://adoption.microsoft.com/files/viva/glint/Survey-design-principles-with-Microsoft-Viva-Glint.pdf) that best drives business results]<br>
+[Effectively design a survey](https://adoption.microsoft.com/files/viva/glint/Survey-design-principles-with-Microsoft-Viva-Glint.pdf) that best drives business results)<br>
 [Propel action taking through conversations](https://adoption.microsoft.com/files/viva/glint/Propel-action-taking-through-conversations-with-Microsoft-Viva-Glint.pdf)
 
