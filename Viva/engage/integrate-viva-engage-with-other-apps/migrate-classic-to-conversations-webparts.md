@@ -23,19 +23,20 @@ description: "Migrate feeds that use the classic Highlights web part to Viva Eng
 # Migrate your classic feed on SharePoint to the Viva Engage Conversations web part
 
 >[!NOTE]
->Starting June 31, 2025, Microsoft will retire and no longer support the classic Highlights web part for Viva Engage feeds in SharePoint. To avoid a broken feed experience, we recommend that you migrate to the Viva Engage Conversations web part as soon as possible using the instructions in this article.
+>Starting June 1, 2025, Microsoft will retire and no longer support the classic Highlights web part for Viva Engage feeds in SharePoint. To avoid a broken feed experience, we recommend that you migrate to the Viva Engage Conversations web part as soon as possible using the instructions in this article.
 
-The Viva Engage Conversations web part allows people to engage with each other on modern SharePoint without leaving the page. 
+The Viva Engage Conversations web part allows people to engage with each other on modern SharePoint without leaving the page.
 
 The Conversations web part is available only for the online SharePoint experience available in Microsoft 365. Learn more about [Viva Engage web parts](https://support.microsoft.com/en-us/office/use-a-viva-engage-web-part-in-sharepoint-a53cfa0c-3d09-42c8-a286-1038a81c59da?ui=en-us&rs=en-us&ad=us).
 
 ## Which version are you using?
 
-1. Go to the SharePoint page that contains your Viva Engage feed and select **Edit** at the top of the page. 
+1. Go to the SharePoint page that contains your Viva Engage feed and select **Edit** at the top of the page.
 1. Select the Viva Engage web part and then select **Edit** to open the web part menu.
 
     - If the menu includes a note stating that you’re using the classic version of Viva Engage, proceed to the next section to migrate your feed.
     - If the menu doesn't include a note, no action is required.
+    - You can also use a [downloadable script from this link](https://www.microsoft.com/download/details.aspx?id=108154) to identify the classic SharePoint web part that you want to migrate. To run the script, the user must have the correct permissions to access the SharePoint admin site.
 
 ## Migrate a classic Highlights web part to the Conversations web part
 
@@ -64,7 +65,7 @@ Use this procedure to migrate all instances of the classic Highlights web part i
     >[!NOTE]
     >For **Home** and **Community** feeds, turn off the publisher option if you don't want users in your organization to publish new Engage posts from the web part.
 
-    - **Home Feed** displays the most recent conversations that appear on the **Home** page in Viva Engage. Select this if the classic Highlights web part displays the Viva Engage home feed. 
+    - **Home Feed** displays the most recent conversations that appear on the **Home** page in Viva Engage. Select this if the classic Highlights web part displays the Viva Engage home feed.
 
     - **Community** displays the most recent conversations posted in the selected community. Select this option if the classic Highlights web part displayed a **group feed**, and enter the community name. Choose the appropriate filter for the conversations you want to display in the web part.
 
