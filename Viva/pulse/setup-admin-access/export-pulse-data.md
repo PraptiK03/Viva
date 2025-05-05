@@ -35,16 +35,15 @@ You get an email notification letting you know when your export job is complete.
  
 ### Column definitions  
 
-The Status column in your exported data displays one of the following values to indicate the current state of each feedback request:
+In your exported data, the Status column uses numbers to indicate the current state of each feedback request. Here's what each number means:
+* 0 – Open: The feedback request is active and still open.
+* 1 – Closed: The feedback request has been completed.
+* 2 – Canceled: The feedback request was canceled.
 
-- Open (0): The feedback request is active and still open.  
-- Closed (1): The feedback request is completed.  
-- Canceled (2): The feedback request is canceled.  
+In your exported data, the Question Type column uses numbers to represent the format of each question. Here's what each number means:
 
-The Question Type column in your exported data shows one of the following values to describe the format of each question:
-
-- Rating (0): The question uses a rating scale.  
-- Multiple Choice (1): The question allows the user to select one or more options from a list.  
-- Open-Ended (2): The question allows the user to type in an open-ended response.  
-- Matrix (3): The question is a matrix question.  
-- Ranking (4): The question asks the user to rank options.  
+* 0 – Rating: A question that uses a rating scale.
+* 1 – Multiple Choice: A question where users select one or more options from a list.
+* 2 – Open-Ended: A question that allows users to type a free-form response.
+* 3 – Matrix: A matrix-style question with rows and columns.
+* 4 – Ranking: A question where users rank options in order.
