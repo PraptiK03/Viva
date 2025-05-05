@@ -1,5 +1,5 @@
 ---
-ms.date: 03/14/2025
+ms.date: 05/5/2025
 title: Microsoft 365 Copilot impact report
 description: Learn how to use the Microsoft 365 Copilot impact Power BI template to understand the effects of Copilot usage among employees across your organization.
 author: zachminers
@@ -155,6 +155,10 @@ The structure of each of these pages is the same for the deep dive into meetings
 ##### Compare Copilot usage and collaboration behavior after Copilot adoption 
 
 This page shows the impact of Copilot usage on employees’ collaboration behavior. In the meetings section, for example, you can evaluate the number and duration of meetings that were summarized with Copilot. You can also learn how meeting behavior has changed for employees after adopting Copilot.
+
+The comparison pages for each of these pages compares Copilot usage and collaboration behavior *before* versus *after* employees started using Copilot. The analysis considers the first date an employee started using Copilot. It then compares the average collaboration behavior per person per month in the four weeks *after* their first Copilot adoption date with the average collaboration behavior per person per month in the four most recent weeks *prior to* their Copilot adoption date.
+
+Copilot is not likely to be solely responsible for any metric differences shown in the dashboard. In addition to Copilot, multiple organizational factors such as adoption levels, seasonality, and functional or role differences might influence these metrics and should be considered in defining data filters and interpreting results.
 
 > [!Important]
 > To accurately capture the first time employees began using Copilot in different apps, make sure your query includes the time period in which your company first started using Copilot. For example, if your company enabled Copilot in January 2024, make sure data going back to January 2024 is included in the query.
