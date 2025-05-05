@@ -156,7 +156,7 @@ The structure of each of these pages is the same for the deep dive into meetings
 
 This page shows the impact of Copilot usage on employees’ collaboration behavior. In the meetings section, for example, you can evaluate the number and duration of meetings that were summarized with Copilot. You can also learn how meeting behavior has changed for employees after adopting Copilot.
 
-The comparison pages for each of these pages compares Copilot usage and collaboration behavior *before* versus *after* employees started using Copilot. The analysis considers the first date an employee started using Copilot. It then compares the average collaboration behavior per person per month in the four weeks *after* their first Copilot adoption date with the average collaboration behavior per person per month in the four most recent weeks *prior to* their Copilot adoption date.
+The comparison pages for each of these pages compares Copilot usage and collaboration behavior *before* versus *after* employees started using Copilot. The analysis considers the first date an employee started using Copilot. It then compares the average collaboration behavior per person per month in the four weeks *after* their Copilot adoption date, with the average collaboration behavior per person per month in the four most recent weeks *prior to* their Copilot adoption date.
 
 Copilot is not likely to be solely responsible for any metric differences shown in the dashboard. In addition to Copilot, multiple organizational factors such as adoption levels, seasonality, and functional or role differences might influence these metrics and should be considered in defining data filters and interpreting results.
 
