@@ -1,5 +1,5 @@
 ---
-ms.date: 04/17/2025
+ms.date: 05/5/2025
 title: Advanced insights privacy
 description: Learn more about privacy in advanced insights
 author: zachminers

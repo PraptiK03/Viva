@@ -241,9 +241,9 @@ Then, just like the other insights mentioned above, select **View by** to filter
 
 Those who take at least one Copilot action in both the current and preceding time periods are deemed to be "Returning users." Select **timeframe** to toggle between monthly and weekly retention periods. 
 
-###### Insight #4: Breakdown of Copilot usage across different Microsoft 365 apps
+###### Insight #4: Breakdown of Copilot users across different Microsoft 365 apps
 
-App totals reflect the total number of adoption metrics in the following Microsoft 365 apps: Microsoft Teams, Outlook, Word, Excel, PowerPoint, Copilot Chat (work), and Copilot Chat (web).
+App totals reflect the total number of active users in the following Microsoft 365 apps: Microsoft Teams, Outlook, Word, Excel, PowerPoint, Copilot Chat (work), and Copilot Chat (web).
 
 Group totals reflect all users based on the filtered group, including groups that are below the minimum group size.
 
