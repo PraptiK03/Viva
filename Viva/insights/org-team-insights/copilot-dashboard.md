@@ -1,5 +1,5 @@
 ---
-ms.date: 05/2/2025
+ms.date: 05/5/2025
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -635,7 +635,7 @@ There might be a few differences in the values between these reports due to diff
 
 **Q6. Why is my historical data different when I review the same date ranges over time?**
 
-These differences are due to Copilot license reassignments that might have occurred, because metrics are only calculated for users who are actively licensed. If users lost their Copilot licenses, they would no longer be...
+These differences are due to Copilot license reassignments that might have occurred, because metrics are only calculated for users who are actively licensed. If users lose their Copilot licenses, they aren't included in reporting.
 
 ## Related topics
 

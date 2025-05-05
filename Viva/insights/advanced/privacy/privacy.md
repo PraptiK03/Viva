@@ -308,7 +308,7 @@ Consult with your organization’s HR, privacy, and legal subject matter experts
 
 All employees with Microsoft 365 Copilot licenses are automatically assigned a Viva Insights service plan, which makes them part of the measured population for the Microsoft Copilot Dashboard, advanced insights, and organizational insights.  
 
-To remove employees and their collaboration data from processing for advanced insights and organizational insights, you must remove their Viva Insights service plan in the Microsoft 365 admin center using [these steps](/viva/control-access-admin-center). This does **not** remove employees from the measured population for the Copilot Dashboard. 
+To remove employees and their collaboration data from being included in the measured population for advanced insights and organizational insights, you must remove their Viva Insights service plan in the Microsoft 365 admin center using [these steps](/viva/control-access-admin-center). This does **not** remove employees from the measured population for the Copilot Dashboard. 
 
 To remove employees from the measured population for the Copilot Dashboard, you can [create an exclusion list](../admin/manage-settings-copilot-dashboard.md#create-an-exclusion-list-hide-users-from-aggregates) for those users. 
 
