@@ -104,7 +104,7 @@ Access is through the analytics icon on the top navigation bar or on the leader'
 - **Theme-level sentiment** controls the *Themes* metric. Turning off this toggle prevents leaders and their delegates from viewing results that measure sentiment toward frequently discussed subjects in their audience.
 
 >[!NOTE] 
->If you designate a leader for the entire organization, but don't assign them any audiences, that leader and their delegates don't see any data under audience analytics.
+>If you designate a leader for the entire organization, but don't assign them any audiences, that leader and their delegates don't see any data under audience analytics. Leaders with several audiences might also be designated as the leader for the entire organization. In this case, audience analytics reflect engagement trends across the organization, because audience analytics show aggregate counts across all of a leader's audiences.
 
 ## Global Answers analytics
 
