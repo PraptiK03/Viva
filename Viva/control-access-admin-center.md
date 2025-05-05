@@ -22,8 +22,9 @@ search.appverid:
 description: "Control who can access features in Microsoft Viva using the Microsoft 365 admin center"
 ---
 
-# Control who can access features in Microsoft Viva using the Microsoft 365 admin center
-To control who has access to specific Viva features and tailor your deployments to meet your local regulatory or business requirements, you can create and update policies in the Microsoft 365 admin center.
+# Control who can access features in Microsoft 365 using the Microsoft 365 admin center
+
+To control who has access to specific Microsoft 365 features and tailor your deployments to meet your local regulatory or business requirements, you can create and update policies in the Microsoft 365 admin center.
 
 Policies are used to enable or disable specific features or types of data processing for users or groups in your tenant. [Learn more about policies](/viva/feature-access-management).
 
