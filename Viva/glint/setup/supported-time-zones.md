@@ -562,8 +562,8 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  
 ### Indian
  
- | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time |
- |:----------|:-----------|:------------|
+ | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
+ |:----------|:-----------|:------------|:-----------|:-----------|
  | Indian/Antananarivo |    +03:00 |    +03:00 |    Madagascar |    MG | 
  | Indian/Chagos |  +06:00 |    +06:00 |    British Indian Ocean Territory (the) |  IO | 
  | Indian/Christmas |   +07:00 |    +07:00 |    Christmas Island |  CX | 
