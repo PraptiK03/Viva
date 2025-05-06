@@ -35,13 +35,30 @@ For this kind of feedback, the respondent shifts from individual employees respo
 
 ## Survey type options
 
-| Survey type | Timeframe | Survey access | Attributes | Question phrasing | Communications |
-|:----------|:-----------|:------------|:----------|:-----------|:------------|
-| [Always-On](always-on-surveys.md) | Past month or quarter | [Attribute-based access](attribute-based-survey-access.md) <br> or <br> [Authentication with Entra](understand-survey-access-methods.md#authentication-with-microsoft-entra-id) | <ul><li>Hiring manager flag</li></ul> | General, with no references to specific new hires or recruiters | Sent by Viva Glint Admins (Always-On surveys don't include notifications) |  
-| [Always-On](always-on-surveys.md)  | As needed, when there are new hires or recruiters to gather feedback on | [Attribute-based access](attribute-based-survey-access.md) <br> or <br> [Authentication with Entra](understand-survey-access-methods.md#authentication-with-microsoft-entra-id) | <ul><li>Hiring manager flag </li> <li>New hire full name </li> <li>Recruiter full name</li></ul> | Specific, with references to hew hires or recruiters using attributes | Sent by Viva Glint Admins (Always-On surveys don't include notifications) |
-| [Employee Lifecycle](program-summary-setup-lifecycle.md) | As needed, when hiring managers are eligible based on "New hire start date" | [Attribute-based access](attribute-based-survey-access.md) <br> or <br> [Authentication with Entra](understand-survey-access-methods.md#authentication-with-microsoft-entra-id) <br> or <br> [Personalized link](understand-survey-access-methods.md#personalized-survey-link) | <ul><li>New hire date </li> <li>Hiring manager flag </li> <li>New hire full name </li> <li>Recruiter full name</li></ul>| Specific, with references to hew hires or recruiters using attributes | Use Viva Glint survey invite and reminder notifications | 
-| [Recurring](program-summary-overview.md) | Past month or quarter | [Attribute-based access](attribute-based-survey-access.md) <br> or <br> [Authentication with Entra](understand-survey-access-methods.md#authentication-with-microsoft-entra-id) <br> or <br> [Personalized link](understand-survey-access-methods.md#personalized-survey-link) | <ul><li>Hiring manager flag</li></ul> | General, with no references to specific new hires or recruiters | Use Viva Glint survey invite and reminder notifications | 
-| [Recurring](program-summary-overview.md)  | Past month or quarter | [Attribute-based access](attribute-based-survey-access.md) <br> or <br> [Authentication with Entra](understand-survey-access-methods.md#authentication-with-microsoft-entra-id) <br> or <br> [Personalized link](understand-survey-access-methods.md#personalized-survey-link) | <ul><li>Hiring manager flag </li> <li>New hire full name </li> <li>Recruiter full name</li></ul> | Specific, with references to hew hires or recruiters using attributes | Use Viva Glint survey invite and reminder notifications |
+| Survey type | Timeframe  | Attributes | Question phrasing | 
+|:----------|:-----------|:------------|:----------|
+| [Always-On](always-on-surveys.md) | Past month or quarter  | <ul><li>Hiring manager flag</li></ul> | General, with no references to specific new hires or recruiters | 
+| [Always-On](always-on-surveys.md)  | As needed, when there are new hires or recruiters to gather feedback on | <ul><li>Hiring manager flag </li> <li>New hire full name </li> <li>Recruiter full name</li></ul> | Specific, with references to hew hires or recruiters using attributes | 
+| [Employee Lifecycle](program-summary-setup-lifecycle.md) | As needed, when hiring managers are eligible based on "New hire start date" | <ul><li>New hire date </li> <li>Hiring manager flag </li> <li>New hire full name </li> <li>Recruiter full name</li></ul>| Specific, with references to hew hires or recruiters using attributes | 
+| [Recurring](program-summary-overview.md) | Past month or quarter  | <ul><li>Hiring manager flag</li></ul> | General, with no references to specific new hires or recruiters | 
+| [Recurring](program-summary-overview.md)  | Past month or quarter  | <ul><li>Hiring manager flag </li> <li>New hire full name </li> <li>Recruiter full name</li></ul> | Specific, with references to hew hires or recruiters using attributes | 
+
+### Communications
+
+For Recurring and Employee Lifecycle surveys, use Viva Glint survey invite and reminder notifications in [Communications](program-summary-communications.md). Always-On surveys don't include a Communications section and Viva Glint Admins need to manage and send all notifications outside of the Viva Glint app.
+
+### Survey access methods
+
+If your organization chooses Employee Lifecycle or Recurring survey types for getting feedback from hiring managers, choose from Viva Glint's available survey access methods:
+
+- [Attribute-based access](attribute-based-survey-access.md)  
+- [Authentication with Entra](understand-survey-access-methods.md#authentication-with-microsoft-entra-id)  
+- [Personalized link](understand-survey-access-methods.md#personalized-survey-link)
+
+For Always-On surveys, which don't include Communications to deliver personalized links, choose from:
+
+- [Attribute-based access](attribute-based-survey-access.md)  
+- [Authentication with Entra](understand-survey-access-methods.md#authentication-with-microsoft-entra-id)  
 
 ## Confidentiality
 
@@ -57,5 +74,5 @@ Recurring surveys allow one submission per hiring manager per survey cycle and e
 - [How data trends for ongoing surveys](/viva/glint/reports/trend-graph-lifecycle-survey)
 - [How responses are counted in ongoing survey reporting](/viva/glint/reports/trend-graph-lifecycle-survey#understand-how-response-numbers-show-in-elc-reporting)
 
-To determine how long users wait before submitting another survey, use the "Next survey available" (Always-On) or "Waiting period between surveys" (Lifecycle) in [Program setup](program-set-up.md#define-the-basics) 
+To determine how long users wait before submitting another survey, use the "Next survey available" (Always-On) or "Waiting period between surveys" (Lifecycle) in [Program setup](program-set-up.md#define-the-basics).
 
