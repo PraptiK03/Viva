@@ -43,6 +43,8 @@
         - name: Setup requirements for Native Mode
           href: /viva/engage/configure-your-viva-engage-network/configure-native-mode
         - name: Step-by-step guide for Native Mode
+          href: /viva/engage/configure-your-viva-engage-network/modern-external-networks
+        - name: Set up modern external Viva Engage networks
           href: native-mode-guide.md
         - name: Consolidate multiple networks
           href: /viva/engage/configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks
