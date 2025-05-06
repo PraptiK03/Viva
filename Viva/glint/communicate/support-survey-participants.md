@@ -1,5 +1,5 @@
 ---
-title: Support participants during a live Viva Glint survey
+title: Support participants during a live Microsoft Viva Glint survey
 description: During a live Viva Glint survey, participants can use online support content to answer many of their questions. Take other steps listed here to set up users for success to submit their valuable feedback.
 ms.author: aweixelman
 author: AliciaWeixelman
@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/18/2025
+ms.date: 05/06/2025
 ---
 
-# Support survey participants during a live Viva Glint survey
+# Support survey participants during a live Microsoft Viva Glint survey
 
 Introduce Microsoft Viva Glint surveys and [communicate proactively](/../../viva/glint/communicate/prelaunch-live-email-templates) with your organization about upcoming surveys. During a live Viva Glint survey, participants can use [online support content](https://support.microsoft.com/en-us/topic/viva-glint-overview-87374186-feec-4256-962a-563f99992f08) to answer many of their questions. Take other steps listed here to set up users for success to submit their valuable feedback.
 
@@ -78,9 +78,15 @@ Your organization may use [attribute-based access](/../../viva/glint/setup/attri
 
 ## Resend survey invites
 
-### Use the "Resend Survey" option in Viva Glint
+### Use the "Resend Survey" option to manually send invites to individual employees
 
 If a user is eligible for a survey but wasn’t included at the time of launch, use the Viva Glint [Send Survey](/../../viva/glint/setup/people-page) option to send an invite during a live survey. In the configuration section, select **People** and search for a user. After selecting their profile, select **Actions** and choose **Send Survey**, which sends in invite email.
+
+### Use the "Resend Survey Invites" option to reschedule all invites to be resent 
+
+You can resend all survey invites - in bulk - at a new date and time. This time must be after the Survey Start date and before the first Reminder date.
+
+:::image type="content" source="../../media/glint/setup/extend-resend.png" alt-text="Screenshot of resending and rescheduling survey invites.":::
 
 ### Use the Viva Glint survey invite link
 
