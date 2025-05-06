@@ -43,20 +43,19 @@ For this kind of feedback, the respondent shifts from individual employees respo
 | [Recurring](program-summary-overview.md) | Past month or quarter | [Attribute-based access](attribute-based-survey-access.md) <br> or <br> [Authentication with Entra](understand-survey-access-methods.md#authentication-with-microsoft-entra-id) <br> or <br> [Personalized link](understand-survey-access-methods.md#personalized-survey-link) | <ul><li>Hiring manager flag</li></ul> | General, with no references to specific new hires or recruiters | Use Viva Glint survey invite and reminder notifications | 
 | [Recurring](program-summary-overview.md)  | Past month or quarter | [Attribute-based access](attribute-based-survey-access.md) <br> or <br> [Authentication with Entra](understand-survey-access-methods.md#authentication-with-microsoft-entra-id) <br> or <br> [Personalized link](understand-survey-access-methods.md#personalized-survey-link) | <ul><li>Hiring manager flag </li> <li>New hire full name </li> <li>Recruiter full name</li></ul> | Specific, with references to hew hires or recruiters using attributes | Use Viva Glint survey invite and reminder notifications |
 
-## Reporting considerations
+## Confidentiality
 
-### Confidentiality
+Depending on how regularly your organization hires new employees, respondent counts may be small for a given month or quarter. Consider adjusting confidentiality for hiring manager feedback so that your users can effectively view and act on feedback.
 
-### Survey submissions
+- [How Viva Glint protects privacy](viva-glint-survey-privacy.md)
+- [Manage Viva Glint confidentiality thresholds](manage-confidentiality-thresholds.md)
 
-[how data trends for ongoing surveys](/viva/glint/reports/trend-graph-lifecycle-survey)
-[how responses are counted in ongoing survey reporting](/viva/glint/reports/trend-graph-lifecycle-survey.md#understand-how-response-numbers-show-in-elc-reporting)
+## Survey submissions and reporting
 
-Always-On: To determine how long users wait before submitting another survey, use the "Next survey available" option in [Program setup](program-set-up.md#define-the-basics) 
+Recurring surveys allow one submission per hiring manager per survey cycle and each survey cycle is a fixed point in time that can trend with other cycles. Always-On and Employee Lifecycle surveys, however, are ongoing and trend data on a rolling basis. Depending on Viva Glint Admins' selections in Program setup, users can respond multiple times in a single reporting timeframe.
 
-Lifecycle: To determine how long users wait before submitting another survey, use the "Waiting period between surveys" option in [Program setup](program-set-up.md#define-the-basics) 
+- [How data trends for ongoing surveys](/viva/glint/reports/trend-graph-lifecycle-survey)
+- [How responses are counted in ongoing survey reporting](/viva/glint/reports/trend-graph-lifecycle-survey#understand-how-response-numbers-show-in-elc-reporting)
 
-Recurring: One submission per hiring manager per survey cycle |
-
-
+To determine how long users wait before submitting another survey, use the "Next survey available" (Always-On) or "Waiting period between surveys" (Lifecycle) in [Program setup](program-set-up.md#define-the-basics) 
 
