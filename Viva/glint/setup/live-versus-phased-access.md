@@ -38,7 +38,7 @@ From the **Reporting** tab of your admin dashboard, choose the User Role. In thi
 
 :::image type="content" source="../../media/glint/reports/choose-access-1.png" alt-text="Screenshot of the Program Roles permissions section in Reporting.":::
 
-The permissions for the chosen role display. The default **Reporting view** is **Live.**  Use the menu box in that row to switch from Live View to Phased Access.
+The permissions for the chosen role display. The default **Reporting view** is **Live.**  To switch from Live View to Phased Access, use the menu box in that row.
  
 :::image type="content" source="../../media/glint/reports/switch-view.png" alt-text="Screenshot of the switching from Live View to Phased Access.":::
  
@@ -65,10 +65,10 @@ The permissions for the chosen role display. The default **Reporting view** is *
 
       :::image type="content" source="../../media/glint/setup/fully-released.png" alt-text="Screenshot of the Fully Released reporting view.":::
 
-- The hyperlink may indicate **Fully Released** (rather than the "7 of 8 Roles" in the example). This means that all roles already have report permissions available to them.
+- The hyperlink may indicate **Fully Released** (rather than the "7 of 8 Roles" in the example). This text snippet indicates that all roles already have report permissions available to them.
 
 > [!IMPORTANT]
-> When a new program cycle begins, reporting from the previous cycle is automatically released to all users with permissions to see the results. This release occurs even when the admin hasn't updated all roles to **Live** status.
+> When a new program cycle begins, reporting from the previous cycle is automatically released to all users with permissions to see the results. This release occurs even when the admin all roles aren't updated to **Live** status.
 
-## Change from Live access to Phased access
+
  
