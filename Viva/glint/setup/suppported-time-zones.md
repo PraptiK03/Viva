@@ -23,7 +23,7 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
 
 ## Time zones
 
- | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br> SDT | UTC offset <br> ±hh:mm  <br> DST | Country |  Country Alpha-2 code |
+ | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
  |:----------|:-----------|:------------|:-----------|:------------|
  | Africa/Abidjan |     +00:00 |    +00:00 |    Côte d'Ivoire, Burkina Faso, Ghana, Gambia (the), Guinea, Iceland, Mali, Mauritania, Saint Helena (Ascension and Tristan da Cunha), Sierra Leone, Senegal, Togo |   CI, BF, GH, GM, GN, IS, ML, MR, SH, SL, SN, TG | 
  | Africa/Accra |   +00:00 |    +00:00 |    Ghana |     GH | 
