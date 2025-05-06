@@ -6,7 +6,7 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: time zone, supported time zones, default time zone
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -22,6 +22,8 @@ ms.date: 05/06/2025
 Select a default time zone in Microsoft Viva Glint [General settings](manage-general-settings.md#company-information), or [send notifications in users' preferred time zones](time-zones.md) during their working hours by setting up a time zone attribute.
 
 ## Time zones
+
+### Africa
 
  | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
  |:----------|:-----------|:------------|:-----------|:------------|
@@ -78,7 +80,12 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Africa/Timbuktu |    +00:00 |    +00:00 |    Mali |  ML | 
  | Africa/Tripoli |     +02:00 |    +02:00 |    Libya |     LY | 
  | Africa/Tunis |   +01:00 |    +01:00 |    Tunisia |   TN | 
- | Africa/Windhoek |    +02:00 |    +02:00 |    Namibia |   NA | 
+ | Africa/Windhoek |    +02:00 |    +02:00 |    Namibia |   NA |
+
+### Americas
+
+ | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
+ |:----------|:-----------|:------------|:-----------|:------------|
  | America/Adak |   −10:00 |    −09:00 |    United States of America (the) |    US | 
  | America/Anchorage |  −09:00 |    −08:00 |    United States of America (the) |    US | 
  | America/Anguilla |   −04:00 |    −04:00 |    Anguilla |  AI | 
@@ -246,7 +253,41 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | America/Whitehorse |     −07:00 |    −07:00 |    Canada |    CA | 
  | America/Winnipeg |   −06:00 |    −05:00 |    Canada |    CA | 
  | America/Yakutat |    −09:00 |    −08:00 |    United States of America (the) |    US | 
- | America/Yellowknife |    −07:00 |    −06:00 |    Canada |    CA | 
+ | America/Yellowknife |    −07:00 |    −06:00 |    Canada |    CA |
+ | Brazil/Acre |    −05:00 |    −05:00 |    Brazil |    BR | 
+ | Brazil/DeNoronha |   −02:00 |    −02:00 |    Brazil |    BR | 
+ | Brazil/East |    −03:00 |    −03:00 |    Brazil |    BR | 
+ | Brazil/West |    −04:00 |    −04:00 |    Brazil |    BR | 
+ | Canada/Atlantic |    −04:00 |    −03:00 |    Canada |    CA | 
+ | Canada/Central |     −06:00 |    −05:00 |    Canada |    CA | 
+ | Canada/Eastern |     −05:00 |    −04:00 |    Canada |    CA | 
+ | Canada/Mountain |    −07:00 |    −06:00 |    Canada |    CA | 
+ | Canada/Newfoundland |    −03:30 |    −02:30 |    Canada |    CA | 
+ | Canada/Pacific |     −08:00 |    −07:00 |    Canada |    CA | 
+ | Canada/Saskatchewan |    −06:00 |    −06:00 |    Canada |    CA | 
+ | Canada/Yukon |   −07:00 |    −07:00 |    Canada |    CA | 
+ | Chile/Continental |  −04:00 |    −03:00 |    Chile |     CL | 
+ | Chile/EasterIsland |     −06:00 |    −05:00 |    Chile |     CL |
+ | Mexico/BajaNorte |   −08:00 |    −07:00 |    Mexico |    MX | 
+ | Mexico/BajaSur |     −07:00 |    −07:00 |    Mexico |    MX | 
+ | Mexico/General |     −06:00 |    −06:00 |    Mexico |    MX |
+ | US/Alaska |  −09:00 |    −08:00 |    United States of America (the) |    US | 
+ | US/Aleutian |    −10:00 |    −09:00 |    United States of America (the) |    US | 
+ | US/Arizona |     −07:00 |    −07:00 |    United States of America (the) |    US | 
+ | US/Central |     −06:00 |    −05:00 |    United States of America (the) |    US | 
+ | US/East-Indiana |    −05:00 |    −04:00 |    United States of America (the) |    US | 
+ | US/Eastern |     −05:00 |    −04:00 |    United States of America (the) |    US | 
+ | US/Hawaii |  −10:00 |    −10:00 |    United States of America (the) |    US | 
+ | US/Indiana-Starke |  −06:00 |    −05:00 |    United States of America (the) |    US | 
+ | US/Michigan |    −05:00 |    −04:00 |    United States of America (the) |    US | 
+ | US/Mountain |    −07:00 |    −06:00 |    United States of America (the) |    US | 
+ | US/Pacific |     −08:00 |    −07:00 |    United States of America (the) |    US | 
+ | US/Samoa |   −11:00 |    −11:00 |    American Samoa |    AS | 
+ 
+### Antarctica and the Arctic
+ 
+ | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
+ |:----------|:-----------|:------------|:-----------|:------------|
  | Antarctica/Casey |   +08:00 |    +08:00 |    Antarctica |    AQ | 
  | Antarctica/Davis |   +07:00 |    +07:00 |    Antarctica |    AQ | 
  | Antarctica/DumontDUrville |  +10:00 |    +10:00 |    Antarctica |    AQ | 
@@ -260,6 +301,11 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Antarctica/Troll |   +00:00 |    +02:00 |    Antarctica |    AQ | 
  | Antarctica/Vostok |  +05:00 |    +05:00 |    Antarctica |    AQ | 
  | Arctic/Longyearbyen |    +01:00 |    +02:00 |    Svalbard and Jan Mayen |    SJ | 
+ 
+### Asia
+ 
+ | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
+ |:----------|:-----------|:------------|:-----------|:------------|
  | Asia/Aden |  +03:00 |    +03:00 |    Yemen |     YE | 
  | Asia/Almaty |    +05:00 |    +05:00 |    Kazakhstan |    KZ | 
  | Asia/Amman |     +03:00 |    +03:00 |    Jordan |    JO | 
@@ -359,6 +405,11 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Asia/Yangon |    +06:30 |    +06:30 |    Myanmar, Cocos (Keeling) Islands (the) |    MM, CC | 
  | Asia/Yekaterinburg |     +05:00 |    +05:00 |    Russian Federation (the) |  RU | 
  | Asia/Yerevan |   +04:00 |    +04:00 |    Armenia |   AM | 
+ 
+ ### Atlantic
+ 
+ | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
+ |:----------|:-----------|:------------|:-----------|:------------|
  | Atlantic/Azores |    −01:00 |    +00:00 |    Portugal |  PT | 
  | Atlantic/Bermuda |   −04:00 |    −03:00 |    Bermuda |   BM | 
  | Atlantic/Canary |    +00:00 |    +01:00 |    Spain |     ES | 
@@ -371,6 +422,11 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Atlantic/South_Georgia |     −02:00 |    −02:00 |    South Georgia and the South Sandwich Islands |  GS | 
  | Atlantic/St_Helena |     +00:00 |    +00:00 |    Saint Helena, Ascension and Tristan da Cunha |  SH | 
  | Atlantic/Stanley |   −03:00 |    −03:00 |    Falkland Islands (the) [Malvinas] |     FK | 
+ 
+ ### Australia
+ 
+ | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
+ |:----------|:-----------|:------------|:-----------|:------------|
  | Australia/ACT |  +10:00 |    +11:00 |    Australia |     AU | 
  | Australia/Adelaide |     +09:30 |    +10:30 |    Australia |     AU | 
  | Australia/Brisbane |     +10:00 |    +10:00 |    Australia |     AU | 
@@ -394,55 +450,51 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Australia/Victoria |     +10:00 |    +11:00 |    Australia |     AU | 
  | Australia/West |     +08:00 |    +08:00 |    Australia |     AU | 
  | Australia/Yancowinna |   +09:30 |    +10:30 |    Australia |     AU | 
- | Brazil/Acre |    −05:00 |    −05:00 |    Brazil |    BR | 
- | Brazil/DeNoronha |   −02:00 |    −02:00 |    Brazil |    BR | 
- | Brazil/East |    −03:00 |    −03:00 |    Brazil |    BR | 
- | Brazil/West |    −04:00 |    −04:00 |    Brazil |    BR | 
- | Canada/Atlantic |    −04:00 |    −03:00 |    Canada |    CA | 
- | Canada/Central |     −06:00 |    −05:00 |    Canada |    CA | 
- | Canada/Eastern |     −05:00 |    −04:00 |    Canada |    CA | 
- | Canada/Mountain |    −07:00 |    −06:00 |    Canada |    CA | 
- | Canada/Newfoundland |    −03:30 |    −02:30 |    Canada |    CA | 
- | Canada/Pacific |     −08:00 |    −07:00 |    Canada |    CA | 
- | Canada/Saskatchewan |    −06:00 |    −06:00 |    Canada |    CA | 
- | Canada/Yukon |   −07:00 |    −07:00 |    Canada |    CA | 
- | Chile/Continental |  −04:00 |    −03:00 |    Chile |     CL | 
- | Chile/EasterIsland |     −06:00 |    −05:00 |    Chile |     CL | 
- | Etc/GMT |    +00:00 |    +00:00 |     |   | 
- | Etc/GMT-0 |  +00:00 |    +00:00 |     |   | 
- | Etc/GMT-1 |  +01:00 |    +01:00 |     |   | 
- | Etc/GMT-10 |     +10:00 |    +10:00 |     |   | 
- | Etc/GMT-11 |     +11:00 |    +11:00 |     |   | 
- | Etc/GMT-12 |     +12:00 |    +12:00 |     |   | 
- | Etc/GMT-13 |     +13:00 |    +13:00 |     |   | 
- | Etc/GMT-14 |     +14:00 |    +14:00 |     |   | 
- | Etc/GMT-2 |  +02:00 |    +02:00 |     |   | 
- | Etc/GMT-3 |  +03:00 |    +03:00 |     |   | 
- | Etc/GMT-4 |  +04:00 |    +04:00 |     |   | 
- | Etc/GMT-5 |  +05:00 |    +05:00 |     |   | 
- | Etc/GMT-6 |  +06:00 |    +06:00 |     |   | 
- | Etc/GMT-7 |  +07:00 |    +07:00 |     |   | 
- | Etc/GMT-8 |  +08:00 |    +08:00 |     |   | 
- | Etc/GMT-9 |  +09:00 |    +09:00 |     |   | 
- | Etc/GMT+0 |  +00:00 |    +00:00 |     |   | 
- | Etc/GMT+1 |  −01:00 |    −01:00 |     |   | 
- | Etc/GMT+10 |     −10:00 |    −10:00 |     |   | 
- | Etc/GMT+11 |     −11:00 |    −11:00 |     |   | 
- | Etc/GMT+12 |     −12:00 |    −12:00 |     |   | 
- | Etc/GMT+2 |  −02:00 |    −02:00 |     |   | 
- | Etc/GMT+3 |  −03:00 |    −03:00 |     |   | 
- | Etc/GMT+4 |  −04:00 |    −04:00 |     |   | 
- | Etc/GMT+5 |  −05:00 |    −05:00 |     |   | 
- | Etc/GMT+6 |  −06:00 |    −06:00 |     |   | 
- | Etc/GMT+7 |  −07:00 |    −07:00 |     |   | 
- | Etc/GMT+8 |  −08:00 |    −08:00 |     |   | 
- | Etc/GMT+9 |  −09:00 |    −09:00 |     |   | 
- | Etc/GMT0 |   +00:00 |    +00:00 |     |   | 
- | Etc/Greenwich |  +00:00 |    +00:00 |     |   | 
- | Etc/UCT |    +00:00 |    +00:00 |     |   | 
- | Etc/Universal |  +00:00 |    +00:00 |     |   | 
- | Etc/UTC |    +00:00 |    +00:00 |     |   | 
- | Etc/Zulu |   +00:00 |    +00:00 |     |   | 
+
+ ### Other time zones
+ 
+ | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time |
+ |:----------|:-----------|:------------|
+ | Etc/GMT |    +00:00 |    +00:00 |
+ | Etc/GMT-0 |  +00:00 |    +00:00 |
+ | Etc/GMT-1 |  +01:00 |    +01:00 |
+ | Etc/GMT-10 |     +10:00 |    +10:00 |
+ | Etc/GMT-11 |     +11:00 |    +11:00 |
+ | Etc/GMT-12 |     +12:00 |    +12:00 |
+ | Etc/GMT-13 |     +13:00 |    +13:00 |
+ | Etc/GMT-14 |     +14:00 |    +14:00 |
+ | Etc/GMT-2 |  +02:00 |    +02:00 |
+ | Etc/GMT-3 |  +03:00 |    +03:00 |
+ | Etc/GMT-4 |  +04:00 |    +04:00 |
+ | Etc/GMT-5 |  +05:00 |    +05:00 |
+ | Etc/GMT-6 |  +06:00 |    +06:00 |
+ | Etc/GMT-7 |  +07:00 |    +07:00 |
+ | Etc/GMT-8 |  +08:00 |    +08:00 |
+ | Etc/GMT-9 |  +09:00 |    +09:00 |
+ | Etc/GMT+0 |  +00:00 |    +00:00 |
+ | Etc/GMT+1 |  −01:00 |    −01:00 |
+ | Etc/GMT+10 |     −10:00 |    −10:00 |
+ | Etc/GMT+11 |     −11:00 |    −11:00 |
+ | Etc/GMT+12 |     −12:00 |    −12:00 |
+ | Etc/GMT+2 |  −02:00 |    −02:00 |
+ | Etc/GMT+3 |  −03:00 |    −03:00 |
+ | Etc/GMT+4 |  −04:00 |    −04:00 |
+ | Etc/GMT+5 |  −05:00 |    −05:00 |
+ | Etc/GMT+6 |  −06:00 |    −06:00 |
+ | Etc/GMT+7 |  −07:00 |    −07:00 |
+ | Etc/GMT+8 |  −08:00 |    −08:00 |
+ | Etc/GMT+9 |  −09:00 |    −09:00 |
+ | Etc/GMT0 |   +00:00 |    +00:00 |
+ | Etc/Greenwich |  +00:00 |    +00:00 |
+ | Etc/UCT |    +00:00 |    +00:00 |
+ | Etc/Universal |  +00:00 |    +00:00 |
+ | Etc/UTC |    +00:00 |    +00:00 |
+ | Etc/Zulu |   +00:00 |    +00:00 |
+ 
+ ### Europe
+ 
+ | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
+ |:----------|:-----------|:------------|:-----------|:------------
  | Europe/Amsterdam |   +01:00 |    +02:00 |    Netherlands (the) |     NL | 
  | Europe/Andorra |     +01:00 |    +02:00 |    Andorra |   AD | 
  | Europe/Astrakhan |   +04:00 |    +04:00 |    Russian Federation (the) |  RU | 
@@ -507,6 +559,11 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Europe/Zagreb |  +01:00 |    +02:00 |    Croatia |   HR | 
  | Europe/Zaporozhye |  +02:00 |    +03:00 |    Ukraine |   UA | 
  | Europe/Zurich |  +01:00 |    +02:00 |    Switzerland, Germany, Liechtenstein |   CH, DE, LI | 
+ 
+### Indian
+ 
+ | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time |
+ |:----------|:-----------|:------------|
  | Indian/Antananarivo |    +03:00 |    +03:00 |    Madagascar |    MG | 
  | Indian/Chagos |  +06:00 |    +06:00 |    British Indian Ocean Territory (the) |  IO | 
  | Indian/Christmas |   +07:00 |    +07:00 |    Christmas Island |  CX | 
@@ -518,9 +575,12 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Indian/Mauritius |   +04:00 |    +04:00 |    Mauritius |     MU | 
  | Indian/Mayotte |     +03:00 |    +03:00 |    Mayotte |   YT | 
  | Indian/Reunion |     +04:00 |    +04:00 |    Réunion |   RE | 
- | Mexico/BajaNorte |   −08:00 |    −07:00 |    Mexico |    MX | 
- | Mexico/BajaSur |     −07:00 |    −07:00 |    Mexico |    MX | 
- | Mexico/General |     −06:00 |    −06:00 |    Mexico |    MX | 
+
+ 
+ ### Pacific
+ 
+ | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
+ |:----------|:-----------|:------------|:-----------|:-----------|
  | Pacific/Apia |   +13:00 |    +13:00 |    Samoa |     WS | 
  | Pacific/Auckland |   +12:00 |    +13:00 |    New Zealand, Antarctica |   NZ, AQ | 
  | Pacific/Bougainville |   +11:00 |    +11:00 |    Papua New Guinea |  PG | 
@@ -565,15 +625,4 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Pacific/Wake |   +12:00 |    +12:00 |    United States Minor Outlying Islands (the) |    UM | 
  | Pacific/Wallis |     +12:00 |    +12:00 |    Wallis and Futuna |     WF | 
  | Pacific/Yap |    +10:00 |    +10:00 |    Micronesia (Federated States of) |  FM | 
- | US/Alaska |  −09:00 |    −08:00 |    United States of America (the) |    US | 
- | US/Aleutian |    −10:00 |    −09:00 |    United States of America (the) |    US | 
- | US/Arizona |     −07:00 |    −07:00 |    United States of America (the) |    US | 
- | US/Central |     −06:00 |    −05:00 |    United States of America (the) |    US | 
- | US/East-Indiana |    −05:00 |    −04:00 |    United States of America (the) |    US | 
- | US/Eastern |     −05:00 |    −04:00 |    United States of America (the) |    US | 
- | US/Hawaii |  −10:00 |    −10:00 |    United States of America (the) |    US | 
- | US/Indiana-Starke |  −06:00 |    −05:00 |    United States of America (the) |    US | 
- | US/Michigan |    −05:00 |    −04:00 |    United States of America (the) |    US | 
- | US/Mountain |    −07:00 |    −06:00 |    United States of America (the) |    US | 
- | US/Pacific |     −08:00 |    −07:00 |    United States of America (the) |    US | 
- | US/Samoa |   −11:00 |    −11:00 |    American Samoa |    AS | 
+ 
