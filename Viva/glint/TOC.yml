@@ -505,8 +505,6 @@ items:
         href: setup/glint-product-feedback.md      
       - name: Viva People Science research
         items:
-        - name: Viva People Science and Glint
-          href: start/people-science-viva-glint.md
         - name: Propel action-taking
           href: people-science/propelling-action-taking.md
           items: 
