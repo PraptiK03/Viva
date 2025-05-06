@@ -2625,6 +2625,11 @@
     "source_path": "viva/connections/faqs-viva-connections-feed.md",
     "redirect_url": "/viva/connections/news-reader",
     "redirect_document_id": true
-  }
+  },
+  {
+     "source_path": "Viva/glint/people-science-viva-glint.md",
+    "redirect_url": "/viva/glint/setup/template-research",
+    "redirect_document_id": true
+  },
  ]
 }
