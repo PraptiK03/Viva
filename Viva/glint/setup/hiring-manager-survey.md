@@ -45,7 +45,7 @@ For this kind of feedback, the respondent shifts from individual employees respo
 
 ## Confidentiality
 
-Depending on how regularly your organization hires new employees, respondent counts may be small for a given month or quarter. Consider adjusting confidentiality for hiring manager feedback so that your users can effectively view and act on feedback.
+Depending on how regularly your organization hires new employees, respondent counts may be small for a given month or quarter. Consider adjusting confidentiality for hiring manager surveys so that your users can effectively view and act on feedback.
 
 - [How Viva Glint protects privacy](viva-glint-survey-privacy.md)
 - [Manage Viva Glint confidentiality thresholds](manage-confidentiality-thresholds.md)
