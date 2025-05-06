@@ -1,6 +1,6 @@
 ---
 title: Viva Glint supported time zones
-description: Select a default time zone in Microsoft Viva Glint General settings, or set up a time zone attribute to send notifications in users' preferred time zones during their working hours.
+description: Select a default time zone in Microsoft Viva Glint General settings, or send notifications in users' preferred time zones during their working hours by setting up a time zone attribute.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -19,7 +19,7 @@ ms.date: 05/06/2025
 
 # Viva Glint supported time zones
 
-Select a default time zone in Microsoft Viva Glint [General settings](manage-general-settings.md#company-information), or set up a time zone attribute to [send notifications in users' preferred time zones](time-zones.md) during their working hours.
+Select a default time zone in Microsoft Viva Glint [General settings](manage-general-settings.md#company-information), or [send notifications in users' preferred time zones](time-zones.md) during their working hours by setting up a time zone attribute.
 
 ## Time zones
 
