@@ -14,12 +14,16 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/24/2025
+ms.date: 5/05/2025
 ---
 
 # How Microsoft People Science drives Viva Glint programs
 
-Microsoft People Science analyzed over 350 million employee survey responses to determine the employee experiences that were most predictive of engagement - happiness at work and willingness to recommend the company. We uncover key driver themes and use these themes to build survey templates. The result of our examination of the focus of engagement is a framework called **People Success Elements.** The six elements summarize the fundamental needs and expectations that are most critical to a person’s holistic life experience - not only their work experience - and that best shape an environment for high engagement and productivity.
+People Science is a research-backed, people-centric approach to the study of happiness and success at work. It combines industrial-organizational psychology, organizational development, and occupational psychology with increasingly relevant fields like data science, product management, and design. These combinations allow reimagination of the employee experience to drive better individual and organizational outcomes.
+
+**Who are Microsoft People Science experts?** Microsoft People Science experts are consultants, researchers, analysts, content authors, product consultants, and customer advocates/ People Science experts have deep expertise in how engagement and employee experience affect productivity. Read more in the [What is People Science](https://techcommunity.microsoft.com/blog/microsoftvivablog/what-is-people-science/3946621) blog in the Viva tech community.
+
+To date, Microsoft People Science analyzed over 350 million employee survey responses to determine the employee experiences that were most predictive of engagement - happiness at work and willingness to recommend the company. We uncover key driver themes and use these themes to build survey templates. The result of our examination of the focus of engagement is a framework called **People Success Elements.** The six elements summarize the fundamental needs and expectations that are most critical to a person’s holistic life experience - not only their work experience - and that best shape an environment for high engagement and productivity.
 
 ## People Success Elements
 
@@ -51,3 +55,10 @@ This terminology helps you understand the Microsoft People Science methodology f
 | **Other Drivers** | Most Viva Glint programs have “other” drivers, too - items that are strong drivers of engagement that we want customers to be aware of but aren't part of the core/recommended driver selection for that program.|
 |**Survey item**|A question or statement posed to a survey participant. Search for an item by a driver keyword, such as "manager," "culture," or "change management."|
 |**Validated item**| An item in the Viva Glint Question Library with added rigor and research behind it. Some Viva Glint templates are composed of all validated items, but there are cases where a nonvalidated survey - a survey with one or more nonvalidated items - is templated.| 
+
+## More Microsoft People Science thought leadership
+
+[Define a measurement strategy](https://adoption.microsoft.com/files/viva/glint/Defining-a-measurement-strategy.pdf) in the modern world of work <br>
+[Effectively design a survey](https://adoption.microsoft.com/files/viva/glint/Survey-design-principles-with-Microsoft-Viva-Glint.pdf) that best drives business result<br>
+[Propel action taking through conversations](https://adoption.microsoft.com/files/viva/glint/Propel-action-taking-through-conversations-with-Microsoft-Viva-Glint.pdf)
+
