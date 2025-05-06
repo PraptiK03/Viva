@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 12/12/2024
+ms.date: 05/05/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -45,7 +45,6 @@ Additionally, see the following GDPR information for specific apps:
 - Viva Connections and Viva Learning (SharePoint): [Safeguarding your SharePoint data](/sharepoint/safeguarding-your-data)
 - Viva Engage: [Manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise)
 - Viva Glint: [Set up a successful Works Council program](/viva/glint/setup/works-council)
-- Viva Goals: [Viva Goals security, privacy, and compliance](./goals/vg-privacy-and-security.md#viva-goals-gdpr-requests)
 - Viva Insights: [Personal Insights privacy guide](insights/personal/overview/privacy-guide-admins.md#gdpr-compliance)
 
 ## Data residency
@@ -62,7 +61,6 @@ All data within Viva is stored within the customer tenant for any given Viva app
 |Viva Connections|Data is stored in the data center where the associated Microsoft 365 tenant resides. For tenants located in Germany or the EU, none of the data is transferred to a third country.<br><br>**Note:** Data from third-party apps is governed by the data and privacy agreements for those apps. This information applies to data from Microsoft apps.|[Data Residency for Viva Connections](/microsoft-365/enterprise/m365-dr-workload-viva-connections)|
 |Viva Engage|Committed to storing message bodies and files attached to messages at rest within a specific geographical area (Geo). Data is stored in either Engage cloud storage or SharePoint. Files saved in SharePoint are stored in SharePoint Online per your SharePoint Online data residency policy. <br><br>Mobile push notifications require sending data to a third party notification service (Apple or Google), which might be outside your Geo.|[Data residency for Viva Engage](/viva/engage/manage-security-and-compliance/data-residency)|
 |Viva Glint|The data region for Viva Glint is determined by the default geography of the tenant, not individual users, and is stored in US or EU data centers based on central tenant location.||
-|Viva Goals|Data for customers located in the European Union Data Boundary (EUDB) or the United Kingdom is stored in data centers located in the EU. The data for all other tenants is stored in data centers located in the United States.|[Viva Goals data residency](./goals/vg-privacy-and-security.md#viva-goals-data-residency)|
 |Viva Insights|**Personal insights** - Processed and stored in the employee’s Exchange Online mailbox. Data residency is based on the employee's mailbox location.<br>**Manager/Leader/Advanced Insights** - The data region for Manager/Leader and Advanced is determined by the Default Geography of the tenant, not individual users.<br><br>Data at Rest (header info and metadata sourced from Exchange Online and Teams, but not message content or attachments) is stored in US, EU, EMEA, APAC based on central tenant location.|[Viva Insights - Advanced/Manager/Leader](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--advanced-mgr-leader)<br><br>[Viva Insights - Personal](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--personal)
 |Viva Learning|Integration with SharePoint is currently only supported for sites hosted from the home geography of the tenant. For example, a French tenant can only link SharePoint sites hosted in France to Viva Learning.|[Viva Learning data residency](/microsoft-365/enterprise/m365-dr-workload-other)|
 |Viva Pulse|Data for customers located in the European Union Data Boundary (EUDB) is stored in data centers located in the EU. The data for all other tenants is stored in data centers located in the United States|[Data residency for Viva Pulse](/viva/pulse/get-started/data-residency-for-viva-pulse)
@@ -71,15 +69,6 @@ For more information, see:
 - [Microsoft 365 data locations](/microsoft-365/enterprise/o365-data-locations)
 - [Microsoft Privacy - Where is Your Data Located](https://www.microsoft.com/trust-center/privacy/data-location)
 - [Licensing Documents (microsoft.com)](https://www.microsoft.com/licensing/docs/view/Licensing-Use-Rights)
-
-## How Microsoft Viva uses AI
-> [!IMPORTANT]
-> We’re extending [Copilot to Microsoft Viva](https://techcommunity.microsoft.com/t5/viva-goals-blog/the-future-of-goal-setting-with-viva-goals-copilot-customized/ba-p/3800587) to help leaders boost employee engagement and improve business performance. The Copilot System combines the power of large language models (LLMs), including GPT-4, with the Microsoft 365 and Microsoft Viva apps, as well as your business data in the Microsoft Graph—and makes it accessible through natural language. <br><br>More information about additional AI capabilities in Microsoft Viva and the Viva apps will be available soon.
-
-Viva Connections uses AI to rank content in the feed. Microsoft's use of artificial intelligence is governed by the [Responsible AI Standard](https://www.microsoft.com/ai/responsible-ai).
-
-For more information on how Viva uses AI, see the following:
-- [Get answers to common questions about the Viva Connections Feed](connections/faqs-viva-connections-feed.md)
 
 ## App-specific data information
 Each of the Viva apps collects and stores data in different ways, based on the intent of the app. You control your data, but how you control it differs depending on the app.
@@ -110,9 +99,6 @@ Privacy and security controls:
 |Public announcements, private messages, posts, polls, and videos shared in communities, the inbox, and the Storyline.<br>User profiles (through Viva Engage)<br>Questions and answers<br>Rewards and recognition<br>Sentiment/usage analysis (personal analytics, audience analytics, campaign analytics, Answers analytics)|All users with a paid Microsoft or Office 365 subscription (as part of the Viva Engage license) and accessible through Microsoft Teams.<br><br>By default, private content is restricted to the participants in the content (for example, the sender and recipient of a private message); however, admins can be temporarily granted access to private content. (You'll need to manually remove this access as well.)|The Engage admin can set up and configure Viva Engage through the Engage admin center (present in the Teams app).|
 
 For more information about privacy in Viva Engage, see [Overview of security and compliance in Viva Engage](/viva/engage/manage-security-and-compliance/security-and-compliance).
-
-### Viva Goals
-For information about privacy in Viva Goals, see [Viva Goals security, privacy, and compliance](./goals/vg-privacy-and-security.md).
 
 ### Viva Insights
 Privacy and security controls:
