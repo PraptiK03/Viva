@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: faq
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/04/2025
+ms.date: 05/06/2025
 ---
 
 # Viva Glint 360 frequently asked questions 
@@ -24,7 +24,7 @@ These frequently asked questions (FAQs) address common questions that Microsoft 
 ## Subject FAQs
 
 ### Can I start my feedback and complete it later?
-Yes, Viva Glint feedback surveys automatically save your answers. Select the link from the original invitation to review your feedback email or access it from the "Feedback" tab within Viva Glint to complete it anytime before the end date.
+Yes, Viva Glint feedback surveys automatically save your answers. Select the link from the original invitation to review your feedback email or access it from the **Feedback** tab within Viva Glint to complete it anytime before the end date.
 
 ### How can I log in to Viva Glint to see my feedback information?
 Access Viva Glint with these links, depending on your organization's region:
@@ -56,7 +56,7 @@ No. To better maintain governance over 360 programs, only admins have this level
 No, Viva Glint doesn't currently show aggregate 360 scores in the platform, but this report feature is on our longer-term roadmap. After the 360 cycle closes, you can export all rating and comments data into a CSV file to do aggregate analysis offline.
 
 ### Is the Secure File Transfer Protocol (SFTP) / HRIS data automation the same as for other Viva Glint surveys?
-Yes. [Learn more](sftp-data-automation.md).
+Yes. [Learn more about SFTP and automated imports](sftp-data-automation.md).
 
 ### Can we aggregate manager reports so a leader can see all their directs and their skip-level directs’ reports?
 No, 360 subject reports aren't aggregated, and reports aren't automatically provided to managers or skip-level managers. The 360 admin can release a 360 report to a manager, and a skip-level manager can be selected as a coach. But the subject's hierarchy isn't automatically granted access.
@@ -95,4 +95,4 @@ Coaches can access a 360 report in two different ways:
 
 **Is there a way to compile feedback provider information to look at feedback provider tendencies (leniency, stringency)?**
 
-Yes, on the All Responses tab of the 360 report, choose whether you want to see scores for all scaled items mapped to a competency. You can select across one, multiple, or all feedback provider categories to find trends. You can see the feedback provider group tendency (not individual tendency) by viewing the All Responses in the 360 report. Scores are shown for all scaled items mapped to a competency across one, multiple, or all categories to identify trends. You can view the range of scores provided for each competency or item by feedback provider group in many sections of the report.
+Yes, on the **All Responses** tab of the 360 report, choose whether you want to see scores for all scaled items mapped to a competency. You can select across one, multiple, or all feedback provider categories to find trends. You can see the feedback provider group tendency (not individual tendency) by viewing the All Responses in the 360 report. Scores are shown for all scaled items mapped to a competency across one, multiple, or all categories to identify trends. You can view the range of scores provided for each competency or item by feedback provider group in many sections of the report.

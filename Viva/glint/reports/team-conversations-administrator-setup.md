@@ -19,7 +19,7 @@ ms.date: 03/18/2025
 
 # Set up Viva Glint Team Conversations
 
-Microsoft Viva Glint Administrators can set up Team Conversations for managers. Team Conversations allow managers to meet with their teams and have meaningful discussions on their team's results and choose Focus Areas. [Learn more](take-action-team-conversations.md).
+Microsoft Viva Glint Administrators can set up Team Conversations for managers. Team Conversations allow [managers to meet with their teams and have meaningful discussions](take-action-team-conversations.md) on their team's results and choose Focus Areas.
 
 > [!NOTE]
 > - Team Conversations are only available for Recurring surveys.
