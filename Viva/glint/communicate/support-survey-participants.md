@@ -50,7 +50,7 @@ If a user reaches out because they weren't included in a survey, use Viva Glint 
 
 ### Recurring and Ad Hoc surveys
 
-1. Go to **Configuration** and in **Survey Programs**, select **Surveys**.
+1. From the admin dashboard, select **Configuration**. In the **Survey Programs** section, select **Surveys**.
 2. Select the live survey.
 3. In the list of **Upcoming and Live** surveys, hover over the right side of the live survey and select the ellipsis.
 4. In the dropdown menu, select **Export Recipients** and enable the **Include all use attributes?** setting to see the user's attribute values as they were when the survey launched.
@@ -63,7 +63,7 @@ If a user reaches out because they weren't included in a survey, use Viva Glint 
 
 1. Go to **Configuration** and in **Service Configuration**, select **Advanced Configuration**.
 2. In the **Advanced Configuration** menu, select **Data Apps** and choose **Export Users from Survey Cycle**.
-1. Select parameters to export recipients:
+1. To export recipients, select the parameters:
    1. **surveyName:** Select **Load Values** and choose a survey from the dropdown list.
    1. **cycleName:** Select **Load Values** and choose a cycle from the dropdown list.
    1. **includeAttributes:** Select **yes** to include all attributes. Select **no** to include required attributes only.
@@ -78,13 +78,13 @@ Your organization may use [attribute-based access](/../../viva/glint/setup/attri
 
 ## Resend survey invites
 
-### Use the "Resend Survey" option to manually send invites to individual employees
+### Use the "Resend Survey" option to send invites to individual employees
 
 If a user is eligible for a survey but wasn’t included at the time of launch, use the Viva Glint [Send Survey](/../../viva/glint/setup/people-page) option to send an invite during a live survey. In the configuration section, select **People** and search for a user. After selecting their profile, select **Actions** and choose **Send Survey**, which sends in invite email.
 
-### Use the "Resend Survey Invites" option to reschedule all invites to be resent 
+### Resend all invites in bulk
 
-You can resend all survey invites - in bulk - at a new date and time. This time must be after the Survey Start date and before the first Reminder date.
+To reschedule all invites to be resent - in bulk - use the **Resend Survey Invites** option. The date and time must be after the Survey Start date and before the first Reminder date.
 
 :::image type="content" source="../../media/glint/setup/extend-resend.png" alt-text="Screenshot of resending and rescheduling survey invites.":::
 
