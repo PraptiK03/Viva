@@ -3,9 +3,10 @@ title: "Migrate classic feeds in SharePoint to the Viva Engage Conversations web
 f1.keywords:
 - NOCSH
 ms.author: donnabouldin
-author: Starshine89
+ms.reviewer: spuranik
+author: v-rgrace
 manager: elizapo
-ms.date: 08/07/2024
+ms.date: 05/06/2025
 audience: Admin
 ms.topic: upgrade-and-migration-article
 ms.localizationpriority: medium
@@ -38,9 +39,9 @@ SharePoint site owners can take the following steps to verify if they need to mi
 
 If the feed doesn't include the classic version note, no action is required.
 
-### Identify the SharePoint sites with the deprecated web part
+## Identify the SharePoint sites with the deprecated web part
 
-Tenant admins can use a [downloadable script](https://www.microsoft.com/download/details.aspx?id=108154) to identify the SharePoint sites in your tenant that you need to migrate.
+Tenant admins can use a [downloadable script](https://www.microsoft.com/download/details.aspx?id=108154) to identify the SharePoint sites in your tenant that need to be migrated.
 
 >[!NOTE]
 >To run the script, the user must have the correct permissions to access the SharePoint admin site.
