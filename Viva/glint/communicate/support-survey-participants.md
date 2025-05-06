@@ -61,7 +61,7 @@ If a user reaches out because they weren't included in a survey, use Viva Glint 
 > [!NOTE]
 > Viva Glint Admins need [access to Advanced Configuration](/viva/glint/setup/understand-advanced-configuration#grant-user-access-to-advanced-configuration) to export recipients for Lifecycle and Always-On surveys.
 
-1. Go to **Configuration** and in **Service Configuration**, select **Advanced Configuration**.
+1. From the admin dashboard, select **Configuration**. In the **Service Configuration** section, select **Advanced Configuration**.
 2. In the **Advanced Configuration** menu, select **Data Apps** and choose **Export Users from Survey Cycle**.
 1. To export recipients, select the parameters:
    1. **surveyName:** Select **Load Values** and choose a survey from the dropdown list.
@@ -78,13 +78,13 @@ Your organization may use [attribute-based access](/../../viva/glint/setup/attri
 
 ## Resend survey invites
 
-### Use the "Resend Survey" option to send invites to individual employees
+### Resend invites to individual employees
 
 If a user is eligible for a survey but wasn’t included at the time of launch, use the Viva Glint [Send Survey](/../../viva/glint/setup/people-page) option to send an invite during a live survey. In the configuration section, select **People** and search for a user. After selecting their profile, select **Actions** and choose **Send Survey**, which sends in invite email.
 
 ### Resend all invites in bulk
 
-To reschedule all invites to be resent - in bulk - use the **Resend Survey Invites** option. The date and time must be after the Survey Start date and before the first Reminder date.
+You can reschedule all the survey invites to be resent, in bulk. Use the **Resend Survey Invites** option. The date and time must be after the Survey Start date and before the first Reminder date.
 
 :::image type="content" source="../../media/glint/setup/extend-resend.png" alt-text="Screenshot of resending and rescheduling survey invites.":::
 
