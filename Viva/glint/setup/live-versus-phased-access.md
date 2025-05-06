@@ -36,11 +36,11 @@ To determine when leaders get access to Recurring or Ad Hoc survey results, gran
 
 From the **Reporting** tab of your admin dashboard, choose the User Role. In this example, let's use Managers. The down-facing arrow is selected and the permissions for employees in the Manager User Role are displayed.
 
-:::image type="content" source="../../media/glint/setup/choose-access-1.png" alt-text="Screenshot of the Program Roles permissions section in Reporting.":::
+:::image type="content" source="../../media/glint/reports/choose-access-1.png" alt-text="Screenshot of the Program Roles permissions section in Reporting.":::
 
 The permissions for the chosen role display. The default **Reporting view** is **Live.**  Use the menu box in that row to switch from Live View to Phased Access.
  
-:::image type="content" source="../../media/glint/setup/switch-view.png" alt-text="Screenshot of the switching from Live View to Phased Access.":::
+:::image type="content" source="../../media/glint/reports/switch-view.png" alt-text="Screenshot of the switching from Live View to Phased Access.":::
  
 ## Grant user access for a completed cycle
 
