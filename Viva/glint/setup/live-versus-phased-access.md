@@ -44,7 +44,7 @@ The permissions for the chosen role display. The default **Reporting view** is *
  
 ## Grant user access for a completed cycle
 
-- After a cycle is competed, the admin needs to release the survey results to those users with Phased access. 
+- After a cycle is completed, the admin needs to release the survey results to those users with Phased access. 
 
    1. Switch to the **Completed** view and hover over the survey cycle. 
    1. In the **Reporting view** column for the desired survey, view reporting access. In this example, the **Reporting view** shows that **7 of 8 Roles** currently see reports. Hover over the hyperlink to reveal the User Roles. 
