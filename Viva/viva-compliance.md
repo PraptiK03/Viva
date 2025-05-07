@@ -77,7 +77,7 @@ A [SOC 2 report](/compliance/regulatory/offering-soc-2) is an independent assess
 | Viva app | SOC 2 report |
 |----------|-----------|
 | Viva Connections | Covered within scope of [Microsoft 365 - Central Services - SOC 2 report](https://servicetrust.microsoft.com/DocumentPage/b369c903-12a0-406d-8a25-ea7c61b3a42e). Excludes third-party content.
-| Viva Glint, Insights, Learning, Puse | Covered by [Microsoft 365 - Microservices Type 2 SOC 1 Report](https://servicetrust.microsoft.com/DocumentPage/432fa0dd-f656-4be3-ac40-5dbb6a249cb7)
+| Viva Glint, Insights, Learning, Pulse | Covered by [Microsoft 365 - Microservices Type 2 SOC 1 Report](https://servicetrust.microsoft.com/DocumentPage/432fa0dd-f656-4be3-ac40-5dbb6a249cb7)
 | Viva Engage | Covered by [Microsoft 365 - Viva Engage - SOC 2 Type 2 (2024)](https://servicetrust.microsoft.com/DocumentPage/abcf5178-cd02-45ab-a226-6b278bb2aa09)
 
 ## General Data Protection Regulation (GDPR)
