@@ -262,6 +262,8 @@ items:
              href: setup/program-summary-setup-lifecycle.md
            - name: Set up an Exit survey
              href: setup/exit-survey-setup.md
+           - name: Survey hiring managers
+             href: setup/hiring-manager-survey.md       
            - name: Preview a Lifecycle survey
              href: setup/preview-filter-lifecycle-programs.md 
       - name: Set up an Always-On survey
@@ -374,6 +376,13 @@ items:
         items:
           - name: Aggregate trend
             href: reports/aggregate-trending.md
+          - name: Use benchmarks effectively
+            href: people-science/people-science-benchmark-philosophy.md
+            items: 
+            - name: Benchmark collateral
+              href: setup/benchmarks.md
+            - name: Choose comparison data
+              href: setup/survey-comparison-data.md   
           - name: Reporting features
             href: reports/report-analytics-filtering-favorability-trending.md
           - name: Cross-program intelligence
@@ -394,7 +403,7 @@ items:
         items:
          - name: Executive Summary Report
            href: reports/executive-summary-report.md
-         - name: Employee Lifecycle trend
+         - name: Lifecycle and Always-On trend
            href: reports/trend-graph-lifecycle-survey.md
          - name: Driver Impact Report
            href: reports/driver-impact-report.md
@@ -502,22 +511,7 @@ items:
       - name: Newsletter registration
         href: setup/newsletter-register.md
       - name: Submit product feedback
-        href: setup/glint-product-feedback.md      
-      - name: Viva People Science research
-        items:
-        - name: Propel action-taking
-          href: people-science/propelling-action-taking.md
-          items: 
-            - name: Managers using ACT conversations
-              href: people-science/managers-using-act-conversations.md
-        - name: Benchmark methodology
-          items:
-            - name: Use benchmarks effectively
-              href: people-science/people-science-benchmark-philosophy.md
-            - name: Benchmark collateral
-              href: setup/benchmarks.md
-            - name: Choose comparison data
-              href: setup/survey-comparison-data.md
+        href: setup/glint-product-feedback.md     
   - name: Troubleshoot
     items:
       - name: Data File Uploads

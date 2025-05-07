@@ -1,5 +1,5 @@
 ---
-ms.date: 02/12/2025
+ms.date: 05/7/2025
 title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: zachminers
@@ -23,6 +23,9 @@ search.appverid:
 # Advanced insights metrics
 
 When you create queries in the Microsoft Viva Insights advanced insights app, you can add these metrics from the **Metrics** pane. We've listed the descriptions alphabetically within each category.
+
+> [!NOTE]
+> You can customize certain parameters by adjusting metric rules, so definitions might vary by organization. [Learn more about metric rules](../analyst/metric-rules.md). Learn about [default exclusion scenarios for meetings, emails, and calls](../analyst/metric-rules.md#about-default-rules).
 
 ## Metrics and definitions
 

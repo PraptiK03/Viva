@@ -30,7 +30,7 @@ The following roles and permissions are required to set up Viva Amplify.
 
 |Admin role |Permissions |
 |-----------|------------|
-|SharePoint admin |Users with this role have global permissions within Microsoft SharePoint Online, when the service is present, and the ability to create and manage all Microsoft 365 groups, manage support tickets, and monitor service health. |
+|SharePoint admin |Users with this role have global permissions within Microsoft SharePoint, when the service is present, and the ability to create and manage all Microsoft 365 groups, manage support tickets, and monitor service health. |
 |Microsoft 365 Groups admin |Users in this role can create and manage groups and their settings, including naming and expiration policies. It's important to understand that assigning a user to this role gives them the ability to manage all groups in the organization across various workloads including Viva Amplify campaigns, Teams, SharePoint, and Outlook. Users with this permission can also manage the various groups settings across some admin portals including the Microsoft 365 admin center, Azure portal, Teams admin center, and SharePoint admin center.
 
 [Learn more about Microsoft 365 roles.](/azure/active-directory/roles/permissions-reference)
