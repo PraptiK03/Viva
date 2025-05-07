@@ -71,6 +71,8 @@ items:
                  href: setup/works-council.md
                - name: Select supported languages
                  href: setup/supported-languages.md
+               - name: Notification time zones
+                 href: setup/supported-time-zones.md
                - name: Choose survey access methods
                  href: setup/understand-survey-access-methods.md  
           - name: Prepare internal messages and resources
