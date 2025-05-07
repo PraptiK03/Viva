@@ -27,7 +27,8 @@ Or, use the **Send surveys in users' time zones** setting in General settings an
 
 :::image type="content" source="../../media/glint/setup/user-time-zone.png" alt-text="Screenshot of Viva Glint user time zone setting in General settings.":::
 
-When sending time zones to Viva Glint in employee data, values must match the time zones in the "Time zone identifier Required format - case sensitive" column in the following tables **exactly**.
+> [!IMPORTANT]
+> When sending time zones to Viva Glint in employee data, values must match the time zones in the **"Time zone identifier Required format - case sensitive"** column in the following tables **exactly**.
 
 ## Africa
 
