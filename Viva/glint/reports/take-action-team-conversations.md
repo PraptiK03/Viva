@@ -22,7 +22,7 @@ ms.date: 5/07/2025
 Research shows that having team conversations in the workplace are critical to productivity and well-being. Unfortunately, there are lots of reasons for avoiding important conversations:
 - It’s not always clear how to facilitate a good conversation.
 - The value is unclear.
-- Conversations about feedback can feel awkward or intimidating.. Managers can improve the employee work experience by leading Team Conversations to share results, invite their teams to prioritize Focus Areas, and brainstorm action taking.
+- Conversations about feedback can feel awkward or intimidating. Managers can improve the employee work experience by leading Team Conversations to share results, invite their teams to prioritize Focus Areas, and brainstorm action taking.
 
 Team Conversations brings the Microsoft Viva Glint ACT Conversation methodology to managers. It provides online presentation exports, Focus Area creation guidance, and links to suggested learning resources. Team Conversations is compatible for all feedback surveys. 
 
