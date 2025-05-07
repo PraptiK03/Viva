@@ -14,16 +14,14 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/06/2025
+ms.date: 05/07/2025
 ---
 
 # Viva Glint supported time zones
 
 Select a default time zone in Microsoft Viva Glint [General settings](manage-general-settings.md#company-information), or [send notifications in users' preferred time zones](time-zones.md) during their working hours by setting up a time zone attribute.
 
-## Time zones
-
-### Africa
+## Africa
 
  | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
  |:----------|:-----------|:------------|:-----------|:------------|
@@ -82,7 +80,7 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Africa/Tunis |   +01:00 |    +01:00 |    Tunisia |   TN | 
  | Africa/Windhoek |    +02:00 |    +02:00 |    Namibia |   NA |
 
-### Americas
+## Americas
 
  | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
  |:----------|:-----------|:------------|:-----------|:------------|
@@ -284,7 +282,7 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | US/Pacific |     −08:00 |    −07:00 |    United States of America (the) |    US | 
  | US/Samoa |   −11:00 |    −11:00 |    American Samoa |    AS | 
  
-### Antarctica and the Arctic
+## Antarctica and the Arctic
  
  | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
  |:----------|:-----------|:------------|:-----------|:------------|
@@ -302,7 +300,7 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Antarctica/Vostok |  +05:00 |    +05:00 |    Antarctica |    AQ | 
  | Arctic/Longyearbyen |    +01:00 |    +02:00 |    Svalbard and Jan Mayen |    SJ | 
  
-### Asia
+## Asia
  
  | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
  |:----------|:-----------|:------------|:-----------|:------------|
@@ -406,7 +404,7 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Asia/Yekaterinburg |     +05:00 |    +05:00 |    Russian Federation (the) |  RU | 
  | Asia/Yerevan |   +04:00 |    +04:00 |    Armenia |   AM | 
  
- ### Atlantic
+ ## Atlantic
  
  | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
  |:----------|:-----------|:------------|:-----------|:------------|
@@ -423,7 +421,7 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Atlantic/St_Helena |     +00:00 |    +00:00 |    Saint Helena, Ascension and Tristan da Cunha |  SH | 
  | Atlantic/Stanley |   −03:00 |    −03:00 |    Falkland Islands (the) [Malvinas] |     FK | 
  
- ### Australia
+ ## Australia
  
  | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
  |:----------|:-----------|:------------|:-----------|:------------|
@@ -451,7 +449,7 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Australia/West |     +08:00 |    +08:00 |    Australia |     AU | 
  | Australia/Yancowinna |   +09:30 |    +10:30 |    Australia |     AU | 
 
- ### Other time zones
+ ## Et cetera (other) time zones
  
  | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time |
  |:----------|:-----------|:------------|
@@ -491,7 +489,7 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Etc/UTC |    +00:00 |    +00:00 |
  | Etc/Zulu |   +00:00 |    +00:00 |
  
- ### Europe
+ ## Europe
  
  | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
  |:----------|:-----------|:------------|:-----------|:------------
@@ -560,7 +558,7 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Europe/Zaporozhye |  +02:00 |    +03:00 |    Ukraine |   UA | 
  | Europe/Zurich |  +01:00 |    +02:00 |    Switzerland, Germany, Liechtenstein |   CH, DE, LI | 
  
-### Indian
+## Indian
  
  | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
  |:----------|:-----------|:------------|:-----------|:-----------|
@@ -577,7 +575,7 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Indian/Reunion |     +04:00 |    +04:00 |    Réunion |   RE | 
 
  
- ### Pacific
+ ## Pacific
  
  | Time zone identifier <br> Required format - case sensitive | UTC offset <br> ±hh:mm <br><br> Standard Time | UTC offset <br> ±hh:mm <br><br> Daylight Savings Time | Country |  Country Alpha-2 code |
  |:----------|:-----------|:------------|:-----------|:-----------|
