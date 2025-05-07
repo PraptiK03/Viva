@@ -38,7 +38,7 @@ Engage administrators often need to export data to manage users and content in t
 
 ## Export user data and admin lists
 
-Access all export options from the Data export page in the Engage admin portal. You can use this method to export data from a specific time period.
+You can find all export options in the Data export page of the Engage admin center. Use this tool to export data from a specific time period.
 
 1. Select the **Governance and compliance** tab.
 2. Select **Data Export**.
@@ -64,7 +64,7 @@ The data export contains the following files:
    | **Admins.csv** | Lists current admins, their email addresses, and corresponding roles <br>For more information on the types of admins in Viva Engage, see [Manage admin roles in Viva Engage.](/viva/engage/eac-key-admin-roles-permissions) |
    | **Answers.csv** | Lists the ID, messageId, networkId, threadId, voterID, and the updatedAt timestamp of Answer Votes |
    | **Campaigns.csv**| Provides data for campaigns including hashtag, creation date, state, and so on. The scope_type attribute distinguishes official (network) campaigns versus community (group) campaigns. The scope_id attribute identifies the network or community that hosted the community campaign. Find more campaign details about the network or community in the networks.csv file or the groups.csv file. |
-   | **Networks.csv** | Information about your home network and any external networks:<br>- Name<br>- URL<br>- Creation date<br>- Number of users<br>- Defines if it's moderated or has a usage policy. |
+   | **Networks.csv** | Information about your home network and any external networks:<br>- Name<br>- URL<br>- Creation date<br>- Number of users<br>- States if the networks are moderated or have a usage policy. |
    | **Users.csv** | Lists user data. **Properties include:**<br>- ID<br>- Name<br>- Email<br>- Job title<br>- Location<br>- Department<br>- User ID<br>- Deletion status (date, name, and ID of the person who performed the deletion)<br>- Join date<br>- Suspension status (date, name, and ID of person who performed the deactivation)<br>- The user state (active or soft_delete).<br>A soft_delete attribute shows the following values:<br>- **Pending**, if accompanied by no other values<br>- **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value<br>- **Deleted**, if accompanied by a deleted_at value.<br><br>Identify Guests by an email address that doesn't match the home network domain. <br>The api_url provides user metadata. For more information about using the data in this field, see the [REST API](/rest/api/yammer/rest-api-rate-limits). |
    | **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
@@ -171,9 +171,9 @@ The data export contains the following files:
 | **Messages.csv** | Lists all messages sent or modified by the user, including messages generated from files (using Intelligent Importer). **Properties include:**<br>- Message ID<br>- Thread ID<br>- Group ID<br>- Group name<br>- Privacy status<br>- Sender ID<br>- Name and email<br>- The full body of the message<br>- Attachments<br>- Creation and deletion information<br>- Draft state<br>Also provides a list of polls the user created and titles of any posted announcements. <br>Along with attachments, this Open Graph Object (OGO) information is exported: ID, URL, title, and description. |
 | **MessageThreadExtension.csv** | Lists all messages marked as best reply or verified reply. **Properties include:**<br> - Message ID<br>- Thread ID<br>- Group ID<br>- Network ID<br>- Operation<br>- Operation performed by<br>- Operation performed at.<br>*Information is restricted to the selected user.* |
 | **Topics.csv** | Lists all topics created by the user during the specified date range, including creation information and a link to each topic. |
-|**VivaTopicApplications.csv** | For any topic applied to a post, lists information about each application for the date range specified (if any). |
+|**VivaTopicApplications.csv** | For any topic applied to a post, lists information about each application for the specified date range (if any). |
 |**VivaTopicCurationStateLogs.csv** | Applies to only Answers in Viva. <br><br/>Contains the curation state logs for featured topics.<br><br/>cortex_topic_id can be used with the content of VivaTopics.csv to retrieve other information that's relevant to the topic. |
-|**VivaTopics.csv** | Any topic created or updated is displayed for the date range specified (if any).<br><br/>The ID refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.|
+|**VivaTopics.csv** | Any topic created or updated is displayed for the specified date range (if any).<br><br/>The ID refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.|
 
 This data export doesn't include:
 
@@ -184,21 +184,21 @@ This data export doesn't include:
 - Application and language settings
 
 > [!NOTE]
-> Data for the user’s skin tone selection is excluded from exported data. However, you can access the skin tone selection on any post in Viva Engage that includes a reaction by the user. Open the grouped modal dialog box for that specific post or comment, and view the user's skin-tone preference in the list.
+> Data for the user’s skin tone selection is excluded from exported data. You can see the skin tone selection on any post in Viva Engage that includes a reaction by the user. Open the grouped modal dialog box for that specific post or comment, and view the user's skin-tone preference in the list.
 
 ## Troubleshoot data export
 
-If the .zip file is corrupted and can't be unzipped, try again. If the file still doesn't expand, [contact Support](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+If the .zip file can't be unzipped, try a second time. If the file still doesn't expand, [contact Support](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). The file may be corrupted.
 
-If the log.txt file shows export errors for one category of data, try again. If there are still errors, [contact Support](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+If the log.txt file shows export errors for one category of data, try again. If errors still occur, [contact Support](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ## Automate data exports
 
-To set up automatic recurring exports, use the API. For more information, see [Data Export API.](/rest/api/yammer/rest-api-rate-limits)<br>
+To set up automatic recurring exports, use the [Data Export API](/rest/api/yammer/rest-api-rate-limits).<br>
 
-## Export large volumes of files with the API
+### Export large volumes of files with the API
 
-Verified administrators can use the Data Export API to archive and export files in Viva Engage storage asynchronously. This API is intended for exporting large volumes of files from Viva Engage. For more information, see [Data Export API.](/rest/api/yammer/rest-api-rate-limits)
+Verified administrators can use the Data Export API to asynchronously archive and export files in Viva Engage storage. This API is designed to export large volumes of files from Viva Engage. For more information, see the [Data Export API](/rest/api/yammer/rest-api-rate-limits) page.
 
 ### See also
 
