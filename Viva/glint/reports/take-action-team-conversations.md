@@ -59,13 +59,13 @@ Team Conversations uses Viva Glint’s **ACT** conversation framework. **ACT** m
 - **C**ollaborate on where we want to go 
 - **T**ake one step forward
 
-### Are ACT conversations just one more thing to do?
+### Is an ACT conversation just one more thing to do?
 
-No! Leaders and managers are already too busy. Creating more work is a recipe for failure. Acting on survey feedback should be integrated into the “way we do things around here."
+No! Leaders and managers are already too busy. Creating more work is a recipe for failure. Acting on survey feedback should be integrated into the “way we do things around here." 
 
 |Questions about ACT conversations| Answer|
 |----------|--------|
-|**Should action planning be a separate meeting?**|Creating more meetings is not the answer. Make Focus Areas part of regular team meetings. Check-ins don’t have to be long. |
+|**Should action planning be a separate meeting?**|Creating more meetings isn't the answer. Make Focus Areas part of regular team meetings. Check-ins don’t have to be long. |
 |**If we asked a question in a survey, must we address it?**| No. Employees understand that everyone is busy and that resources are limited. As long as they play a part in prioritizing and they see progress, they know their feedback is valued. |
 |**How much is too much?**|Get to the root of what you're trying to solve. Try not to add new things without taking something away. Change requires as much undoing as doing. Discuss what behaviors are needed to start, stop, and continue.|
 |**How do I support an environment of ongoing learning?**|Less focus on goal achievement and more on ongoing learning creates a growth mindset.- **Acknowledge** conversations nudge the team to share what’s working and what’s not. During the **Collaborate** phase, encourage deconstructing what we need to start, stop, and continue doing to improve outcomes. In the **Take one step forward** phase, teams commit to when they check in again, signaling an initial chat isn't the end of the conversation.|
@@ -84,6 +84,6 @@ Managers play the role of:
 
 - **Facilitator**: As a facilitator, managers help teams collaborate on an outcome. Managers provide guidelines and then seek out team opinions to ensure all voices are heard.
 
-- **Roadblock remover**: Taking action can be tough due to organizational constraints. Managers are the first-line of escalation to help overcome roadblocks. Managers often must navigate larger organizational structures to help drive change.
+- **Roadblock remover**: Taking action can be tough due to organizational constraints. Managers are the frontline of escalation to help overcome roadblocks. Managers often must navigate larger organizational structures to help drive change.
 
 - **Connector**: The most important role of the manager is to have ongoing, meaningful conversations with their team that align with priorities. Managers should check in frequently through team meetings or one-on-ones, then course correct as needed. Managers should also connect with other groups that may be working on similar challenges.
