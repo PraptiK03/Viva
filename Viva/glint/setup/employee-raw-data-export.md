@@ -13,7 +13,7 @@ ms.collection:
  - essentials-compliance
  - essentials-security
 search-appverid: MET150
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved

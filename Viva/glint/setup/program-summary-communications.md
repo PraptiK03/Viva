@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/08/2025
+ms.date: 05/06/2025
 ---
 
 # Viva Glint survey Communications setup
@@ -48,7 +48,7 @@ Send survey invites and reminders between the times that you select. Your organi
 
 ## Channels
 
-When Microsoft Teams is enabled for Viva Glint notifications, choose to send survey invites and reminders in emails or also in Teams. [Learn more](glint-teams.md).
+When Microsoft Teams is enabled for Viva Glint notifications, choose to send survey invites and reminders in emails or also in [Microsoft Teams](glint-teams.md).
 
 ## Email Settings
 
