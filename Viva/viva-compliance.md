@@ -50,7 +50,7 @@ Microsoft works to ensure that we are compliant with industry and international 
 ![Image depicting shared responsibility model](./media/viva-compliance.png)
 
 ## Inheritance of compliance features and settings
-Microsoft Viva apps are built on your existing infrastructure and, depending on the app, inherit compliance features and settings from Microsoft Teams, Exchange Online, SharePoint Online, Azure, and Viva Engage. In addition, all Viva modules are built on the [Microsoft Graph API](/graph/overview).
+Microsoft Viva apps are built on your existing infrastructure and, depending on the app, inherit compliance features and settings from Microsoft Teams, Exchange Online, SharePoint, Azure, and Viva Engage. In addition, all Viva modules are built on the [Microsoft Graph API](/graph/overview).
 
 ![Image depicting simple architecture model](./media/viva-architecture.png)
 
@@ -76,7 +76,7 @@ A [SOC 2 report](/compliance/regulatory/offering-soc-2) is an independent assess
 
 | Viva app | SOC 2 report |
 |----------|-----------|
-| Viva Connections | Covered within scope of [SharePoint Online SOC 2 report](https://servicetrust.microsoft.com/DocumentPage/89e8b7c9-d08d-4bd3-9644-7a29d8266c58), although not individually called out in the report. Excludes third-party content.
+| Viva Connections | Covered within scope of [SharePoint SOC 2 report](https://servicetrust.microsoft.com/DocumentPage/89e8b7c9-d08d-4bd3-9644-7a29d8266c58), although not individually called out in the report. Excludes third-party content.
 | Viva Learning | Covered by [Microsoft 365 Microservices T1 - SSAE 18 SOC 2 Type 1 Report (2022)](https://servicetrust.microsoft.com/DocumentPage/24a81cd0-395b-4419-b76d-fc4c6e625a6d)
 | Viva Engage | Covered by [Office 365 – Viva Engage – SOC 2 Type 2 (2022)](https://servicetrust.microsoft.com/DocumentPage/d38c3a33-5521-4b6d-9891-924ab1cdf6e6)
 | Viva Goals | Covered by [Microsoft 365 Microservices T1 - SSAE 18 SOC 2 Type 1 Report (2022)](https://servicetrust.microsoft.com/DocumentPage/24a81cd0-395b-4419-b76d-fc4c6e625a6d)
@@ -99,7 +99,7 @@ Currently, certain features in Viva Engage and Viva Connections (through SharePo
 
 The Viva Engage features [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) are supported by Microsoft Purview; sensitivity labels and data loss prevention aren't supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](engage/native-mode-guide.md).
 
-Viva Connections inherits eDiscovery and [Data Retention](/microsoft-365/compliance/retention-policies-sharepoint) support from [SharePoint Online](/SharePoint/compliant-environment) for files involved in each service.
+Viva Connections inherits eDiscovery and [Data Retention](/microsoft-365/compliance/retention-policies-sharepoint) support from [SharePoint](/SharePoint/compliant-environment) for files involved in each service.
 
 ## More resources
 
