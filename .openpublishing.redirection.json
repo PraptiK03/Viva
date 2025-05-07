@@ -2632,6 +2632,16 @@
     "redirect_document_id": true
   },
   {
+    "source_path": "Viva/glint/people-science/propelling-action-taking.md",
+    "redirect_url": "/viva/glint/reports/take-action-team-conversations",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "Viva/glint/people-science/managers-using-act-conversations.md",
+    "redirect_url": "/viva/glint/reports/take-action-team-conversations",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Viva/glint/people-science/people-science-benchmark-philosophy.md",
     "redirect_url": "/viva/glint/reports/benchmark-comparisons",
     "redirect_document_id": true

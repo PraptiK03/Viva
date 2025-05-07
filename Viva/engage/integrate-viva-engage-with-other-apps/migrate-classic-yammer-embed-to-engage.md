@@ -3,9 +3,10 @@ title: "Migrate classic feeds in HTML apps with Embed feed for Engage"
 f1.keywords:
 - NOCSH
 ms.author: donnabouldin
+ms.reviewer: spuranik
 author: Starshine89
 manager: elizapo
-ms.date: 08/07/2024
+ms.date: 05/06/2025
 audience: Admin
 ms.topic: upgrade-and-migration-article
 ms.localizationpriority: medium
@@ -25,21 +26,21 @@ description: "Replace Embed Feed for Yammer Classic to Embed Feed in Engage in y
 **Embed Feed for Engage** lets you add Viva Engage feeds to your HTML-based applications by using iFrame widgets. This modern experience replaces classic Embed Feed, which used a JavaScript API to render the embed view.
 
 >[!NOTE]
->Starting June 31, 2025, Microsoft will retire and no longer support classic Embed Feed. To avoid a broken feed experience, we recommend that you replace your classic embed feeds as soon as possible using the following instructions.
+>On June 1, 2025, Microsoft no longer supports the classic Embed Feed. To avoid a broken feed experience, we recommend that you replace your classic embed feeds as soon as possible using the following instructions.
 
 ## Which version are you using?
 
 To determine if your site uses classic Embed Feed, examine your feed's code structure:
 
-- If your embed code uses a "yam" object (for example, "yam.connect.embedFeed" as in the following code example), it's using the classic Embed. Proceed to the next section to migrate your feed.
+- If your embed code uses a "yam" object (for example, "yam.connect.embedFeed" as in the following code example), it's using the classic Embed. To migrate your feed, go to the next section.
 
-- If your embed code starts with "iframe", it's already using Embed Feed for Engage. No action is required.
+- If your embed code starts with "iframe," it's already using Embed Feed for Engage. No action is required.
 
     :::image type="content" source="../../media/engage/admin/embed-feed-classic-examples.png" alt-text="Screenshot shows code examples of a classic Embed feed compared to that of an Embed feed for Engage feed.":::
 
 ## Replace your classic Embed feed
 
-Follow these instructions to update your Embed feed experience. This process doesn’t affect Viva Engage data in any way.
+Take the following steps to update your Embed feed experience. This process doesn’t affect Viva Engage data in any way.
 
 1. Open the file that contains your embed feed.
 1. Note any special configuration properties (such as, "footer:true").
