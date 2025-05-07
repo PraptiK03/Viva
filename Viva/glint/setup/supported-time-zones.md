@@ -1,6 +1,6 @@
 ---
 title: Viva Glint supported time zones
-description: Select a default time zone in Microsoft Viva Glint General settings, or send notifications in users' preferred time zones by setting up a time zone attribute.
+description: Select a default time zone in Microsoft Viva Glint General settings and optionally configure Viva Glint and your employee data to send notifications in users' preferred time zones.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -23,12 +23,12 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
 
 :::image type="content" source="../../media/glint/setup/default-time-zone.png" alt-text="Screenshot of Viva Glint default time zone selection dropdown menu in General settings.":::
 
-Or, use the **Send surveys in users' time zones** setting in General settings and follow steps here to deliver notifications in times zones: [Communicate with Viva Glint users based on time zone](time-zones.md). 
+Optionally, use the **Send surveys in users' time zones** setting in General settings and follow steps here to deliver notifications in times zones: [Communicate with Viva Glint users based on time zone](time-zones.md). 
 
 :::image type="content" source="../../media/glint/setup/user-time-zone.png" alt-text="Screenshot of Viva Glint user time zone setting in General settings.":::
 
 > [!IMPORTANT]
-> When sending time zones to Viva Glint in employee data, values must match the time zones in the **"Time zone identifier Required format - case sensitive"** column in the following tables **exactly**.
+> When sending time zones to Viva Glint in employee data, values must match the time zones in the **"Time zone identifier Required format - case sensitive"** column in the following tables **exactly**. Users with blank or invalid values receive notifications in your organization's default time zone.
 
 ## Africa
 
