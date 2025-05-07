@@ -28,7 +28,7 @@ Viva Engage offers various integrations to help make other applications more mob
   
 ## Viva Engage for SharePoint
 
-Add Viva Engage feeds to your SharePoint pages. For instructions, see [Use a Viva Engage web part in SharePoint Online](https://support.office.com/article/a53cfa0c-3d09-42c8-a286-1038a81c59da) and [Include a Viva Engage feed in a SharePoint page](embed-a-feed-into-a-sharepoint-site.md).
+Add Viva Engage feeds to your SharePoint pages. For instructions, see [Use a Viva Engage web part in SharePoint](https://support.office.com/article/a53cfa0c-3d09-42c8-a286-1038a81c59da) and [Include a Viva Engage feed in a SharePoint page](embed-a-feed-into-a-sharepoint-site.md).
   
 ## Viva Engage and Teams
 

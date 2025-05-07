@@ -1,12 +1,12 @@
 ---
-title: Trend data for Viva Glint Employee Lifecycle programs
-description: Microsoft Viva Glint recurring surveys happen at definite points in time and trend based on each survey launch. But scores for  Viva Glint Employee Lifecycle (ELC) surveys trend differently because of their ongoing nature.
+title: Trend scores for Viva Glint Employee Lifecycle and Always-On programs
+description: Microsoft Viva Glint recurring surveys happen at definite points in time and trend based on each survey launch. But scores for  Viva Glint Employee Lifecycle (ELC) and Always-On surveys trend differently because of their ongoing nature.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: lifecycle trend, trend line, trend scores, ELC, exit trend, onboarding trend
+keywords: lifecycle trend, trend line, trend scores, ELC, exit trend, onboarding trend, always-on trend
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,26 +14,26 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/25/2025
+ms.date: 05/06/2025
 ---
 
-# Trend scores for Viva Glint Employee Lifecycle programs
+# Trend scores for Viva Glint Employee Lifecycle and Always-On programs
 
-Microsoft Viva Glint recurring surveys happen at definite points in time and trend based on each survey launch. But scores for Viva Glint Employee Lifecycle (ELC) surveys trend differently because of their ongoing nature.
+Microsoft Viva Glint recurring surveys happen at definite points in time and trend based on each survey launch. But scores for  Viva Glint Employee Lifecycle (ELC) and Always-On surveys trend differently because of their ongoing nature.
 
-- ELC surveys, by default, display scores filtered to surveys delivered in the last 90 days. 
-- ELC surveys are always active so reports group based on the date range selected and not a specific survey date, like with recurring surveys.  
-- ELC results appear in dashboards in real time and follow program confidentiality thresholds for displaying results to users who have access.
+- ELC and Always-On surveys, by default, display scores filtered to surveys delivered in the last 90 days. 
+- ELC and Always-On surveys are always active so reports group based on the date range selected and not a specific survey date, like with recurring surveys.  
+- ELC and Always-On results appear in dashboards in real time and follow program confidentiality thresholds for displaying results to users who have access.
 
 > [!NOTE]
-> If program settings allow users to submit multiple surveys for an ELC survey, they may have multiple response records in raw survey response exports. **However, aggregated reports in the platform count them only once**. [Learn more about how responses are counted in reports](#understand-how-response-numbers-show-in-elc-reporting).
+> If program settings allow users to submit multiple surveys for an ELC or Always-On survey, they may have multiple response records in raw survey response exports. **However, aggregated reports in the platform count them only once**. [Learn more about how responses are counted in reports](#understand-how-response-numbers-show-in-elc-and-always-on-reporting).
 
-## Date filters for Lifecycle reports
+## Date filters for reports
 
-Users have access to multiple preset date range filters and can apply custom date ranges in ELC survey reports. Keep in mind that:
+Users have access to multiple preset date range filters and can apply custom date ranges in ELC and Always-On survey reports. Keep in mind that:
 
-- ELC survey reports use **survey delivery date** as the date type for filtering in reports.
-- Dates are based on calendar year (not fiscal year) in ELC survey reports.
+- Survey reports use **survey delivery date** as the date type for filtering in reports.
+- Dates are based on calendar year (not fiscal year) in survey reports.
 
 :::image type="content" source="../../media/glint/reports/elc-date-filter-options.png" alt-text="Screenshot of date filter options for lifecycle surveys.":::
 
@@ -51,7 +51,7 @@ The Survey Date section in Heat Map reports uses the start month used to calcula
 
 ### Default date range
 
-Reports for ELC surveys default to a view of results for surveys delivered in the past 90 days. The date displayed when you hover over data points is the first day of that range - meaning that **the most recent** data point is 90 days before today's date and previous data points in trend lines display data with ranges whose start dates are 90-day increments in the past. For more information, see the following table.
+Reports for ELC and Always-On surveys default to a view of results for surveys delivered in the past 90 days. The date displayed when you hover over data points is the first day of that range - meaning that **the most recent** data point is 90 days before today's date and previous data points in trend lines display data with ranges whose start dates are 90-day increments in the past. For more information, see the following table.
 
 | Data point  | "Surveyed on" date displayed   | Score date range|
 |:----------|:-----------|:------------|
@@ -61,7 +61,7 @@ Reports for ELC surveys default to a view of results for surveys delivered in th
 
 ### Other date ranges
 
-Aside from the default range, users can select the following preset date ranges or enter custom dates when viewing ELC survey results. Use these tables to determine the date ranges that are used to display scores for each timeframe.
+Aside from the default range, users can select the following preset date ranges or enter custom dates when viewing survey results. Use these tables to determine the date ranges that are used to display scores for each timeframe.
 
 #### Last 30 days
 
@@ -120,9 +120,9 @@ The trend line in the Executive Summary Report shows data points going back in t
 
 :::image type="content" source="../../media/glint/reports/elc-trend-example.png" alt-text="Screenshot of an Executive Summary Report for an ELC survey with a custom six month date range applied.":::
 
-## Understand how response numbers show in ELC reporting
+## Understand how response numbers show in ELC and Always-On reporting
 
-The default report date range for lifecycle surveys is 90 days. It's possible for some users in your organization to submit multiple surveys in that timeframe - the waiting period between surveys is less than 90 days. How is this data counted?
+The default report date range for ELC and Always-On surveys is 90 days. It's possible for some users in your organization to submit multiple surveys in that timeframe - the waiting period between surveys is less than 90 days. How is this data counted?
 
  - The response number shows for **unique users** only. Repeat survey takers count only once.
  - Multiple responses submitted by a single user are counted in the aggregate and the multiple choice report.

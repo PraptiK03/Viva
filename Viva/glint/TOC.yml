@@ -71,6 +71,8 @@ items:
                  href: setup/works-council.md
                - name: Select supported languages
                  href: setup/supported-languages.md
+               - name: Notification time zones
+                 href: setup/supported-time-zones.md
                - name: Choose survey access methods
                  href: setup/understand-survey-access-methods.md  
           - name: Prepare internal messages and resources
@@ -260,6 +262,8 @@ items:
              href: setup/program-summary-setup-lifecycle.md
            - name: Set up an Exit survey
              href: setup/exit-survey-setup.md
+           - name: Survey hiring managers
+             href: setup/hiring-manager-survey.md       
            - name: Preview a Lifecycle survey
              href: setup/preview-filter-lifecycle-programs.md 
       - name: Set up an Always-On survey
@@ -399,7 +403,7 @@ items:
         items:
          - name: Executive Summary Report
            href: reports/executive-summary-report.md
-         - name: Employee Lifecycle trend
+         - name: Lifecycle and Always-On trend
            href: reports/trend-graph-lifecycle-survey.md
          - name: Driver Impact Report
            href: reports/driver-impact-report.md
