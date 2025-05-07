@@ -507,14 +507,7 @@ items:
       - name: Newsletter registration
         href: setup/newsletter-register.md
       - name: Submit product feedback
-        href: setup/glint-product-feedback.md      
-      - name: Viva People Science research
-        items:
-        - name: Propel action-taking
-          href: people-science/propelling-action-taking.md
-          items: 
-            - name: Managers using ACT conversations
-              href: people-science/managers-using-act-conversations.md
+        href: setup/glint-product-feedback.md     
   - name: Troubleshoot
     items:
       - name: Data File Uploads
