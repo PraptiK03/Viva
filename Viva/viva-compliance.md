@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author: loreenl
 author: loreenla
 manager: elizapo
-ms.date: 5/08/2024
+ms.date: 05/05/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -85,12 +85,12 @@ A [SOC 2 report](/compliance/regulatory/offering-soc-2) is an independent assess
 
 ## General Data Protection Regulation (GDPR)
 All Viva apps built on your Microsoft 365 infrastructure support compliance with EU General Data Protection Regulation (GDPR) requirements.
-For detailed information, see [Microsoft Viva Privacy](/Viva/viva-privacy).
+For detailed information, see [Microsoft Viva privacy](/Viva/viva-privacy).
 
 ## Data residency
 Data residency refers to the geographic location where data is stored at rest. Many customers, particularly in the public sector and regulated industries, have distinct requirements around protecting personal or sensitive information.  In addition, in certain countries, customers are expected to comply with laws and regulations that explicitly govern data storage location.
 
-For information about data residency for Viva apps, see [Microsoft Viva Privacy](/Viva/viva-privacy).
+For information about data residency for Viva apps, see [Microsoft Viva privacy](/Viva/viva-privacy).
 
 ## Microsoft Purview 
 [Microsoft Purview](/purview/purview) is a family of data governance, risk, and compliance solutions that can help your organization govern, protect, and manage your entire data estate.
@@ -103,8 +103,8 @@ Viva Connections inherits eDiscovery and [Data Retention](/microsoft-365/complia
 
 ## More resources
 
-[Microsoft Viva Privacy](/Viva/viva-privacy)
+[Microsoft Viva privacy](/Viva/viva-privacy)
 
-[Microsoft Viva Security](/Viva/microsoft-viva-security)
+[Microsoft Viva security](/Viva/microsoft-viva-security)
 
 [Viva admin roles and tasks](/viva/microsoft-viva-admin-roles)

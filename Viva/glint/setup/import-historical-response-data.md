@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/24/2025
+ms.date: 05/02/2025
 ---
 
 # Import historical response data in Viva Glint
@@ -51,7 +51,7 @@ Data from an external source must meet the prerequisites listed here to be eligi
 
 ### Survey items
 
-- External data are tied to items that map to Viva Glint items. [Learn more](question-mapping.md).
+- External data are tied to items that [map to Viva Glint items](question-mapping.md).
 - The response scale for rated items is compatible with Viva Glint:
   - 5-point Likert scale: 1 = Strongly Disagree, 2 = Disagree, 3 = Neither, 4 = Agree, 5 = Strongly Agree.
   - Reversed 5-point Likert scales require conversion before import to Viva Glint.
@@ -66,11 +66,11 @@ Data from an external source must meet the prerequisites listed here to be eligi
  
 ## 3. Map historical survey items
 
-Complete a mapping of historical and Viva Glint items to determine exactly where you see trend in reporting. [Learn more](question-mapping.md).
+[Complete a mapping of historical and Viva Glint items](question-mapping.md) to determine exactly where you see trend in reporting.
 
 ## 4. Set up a survey program
 
-Set up your Viva Glint program, including items that trend with your external survey data. [Learn more](program-summary-overview.md).  
+[Set up your Viva Glint program](program-summary-overview.md), including items that trend with your external survey data.
 
 After you complete setup: 
 
@@ -112,9 +112,9 @@ To import historical data and generate reports, first add all historical employe
 
 Confirm that:
 
-- **Attribute setup** is complete in Viva Glint. [Learn more](upload-employee-data.md).
+- [**Attribute setup**](upload-employee-data.md) is complete in Viva Glint.
 - **Employee IDs and Email Addresses** between current Viva Glint and historical users are aligned.
-- You include **accurate Employee ID and Manager ID relationships** to calculate your manager hierarchy for historical data and reporting. [Learn more](hierarchy-fundamentals.md).
+- You include **accurate Employee ID and Manager ID relationships** to calculate your [manager hierarchy](hierarchy-fundamentals.md) for historical data and reporting.
 - **Attributes and values** between current Viva Glint and historical users are aligned. 
   - For example: Department = Human Resources doesn't trend with Department = HR.
 - **Derived attributes (if set up), Tenure Groups and Age Groups**, are disabled before you import historical data. Manually calculate age groups and tenure based on the survey launch date for historical data. To disable:
@@ -173,15 +173,15 @@ To establish users and attributes for historical data, import your prepared User
 > Avoid external, historical imports while Viva Glint surveys are live.
 
 - [Import employee data](upload-employee-attributes.md).
-- Create a Distribution List with these historical employees. [Learn more](set-up-distribution-lists.md).
-- Update the Distribution section of your survey program with your new Distribution List. [Learn more](distribution-program-summary.md).
+- [Create a Distribution List](set-up-distribution-lists.md) with these historical employees.
+- [Update the Distribution section](distribution-program-summary.md) of your survey program with your new Distribution List.
 
 ## 7. Import external data
 
 To complete your external, historical import, access Viva Glint’s Advanced Configuration page. If you don't have access, confirm that:
 
 - You are in the Company Admin User Role.
-- The Advanced Configuration feature is enabled for you as a user. [Learn more](understand-advanced-configuration.md).
+- The [Advanced Configuration feature is enabled](understand-advanced-configuration.md#grant-user-access-to-advanced-configuration) for you as a user.
 
 > [!CAUTION]
 > Your Viva Glint survey program must be in an approved state while you import external, historical data and while reports generate. Ensure that your survey is approved before continuing.

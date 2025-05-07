@@ -19,7 +19,7 @@ ms.date: 04/22/2025
 
 # Manage language translations in Viva Glint programs 
 
-English is the default language for all Microsoft Viva Glint programs, but admins can send surveys and email communications to employees in their preferred language. Viva Glint provides customers with about 70 language translations for standard program content. Language translations are set during the initial survey configuration or added later as needed. Use Viva Glint's export/import option to review, add, or edit translations for survey emails and content (items, responses, survey text). 
+English is the default language for all Microsoft Viva Glint programs, but admins can send surveys and email communications to employees in their preferred language. Viva Glint provides customers with 60+ language translations for standard program content. Language translations are set during the initial survey configuration or added later as needed. Use Viva Glint's export/import option to review, add, or edit translations for survey emails and content (items, responses, survey text). 
 
 There are four steps for language translations: 
 
@@ -75,7 +75,7 @@ Keep translated content in the same cell and columns|Don't add personal comments
 ## Import translated items back into Viva Glint
 
 >[!IMPORTANT]
-> Only one languge can be uploaded at a time, even within a zip file. The platform may indicate that more than one language is being uploaded, but each language must be uploaded individually. An enhancement is in process to correct the notification stating that more than one language is being uploaded. 
+> Only one language can be uploaded at a time, even within a zip file. The platform may indicate that more than one language is being uploaded, but each language must be uploaded individually. An enhancement is in process to correct the notification stating that more than one language is being uploaded. 
 
 From the **Question Library** page, select **Import Questions** from the dropdown **Actions** menu. 
 

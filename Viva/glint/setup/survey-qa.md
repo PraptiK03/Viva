@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/07/2025
+ms.date: 05/06/2025
 ---
 
 # Review and test Viva Glint surveys before launch
@@ -32,17 +32,17 @@ Selections that admins make in [General settings](manage-general-settings.md) la
 |:----------|:-----------|:------------|
 |Company Information     |Client Name       |The organization name is correct; it appears in surveys and email invites and reminders.        |
 |      |Client Time Zone       |The correct default time zone that Viva Glint uses to send communications is selected.        |
-|      |Company Privacy Policy (optional)        |If configured, the correct link to your company policy is included. [Learn more](add-privacy-policy.md).        |
+|      |Company Privacy Policy (optional)        |If configured, the correct [link to your company policy](add-privacy-policy.md) is included.       |
 |      |Company Message to Survey Participants (optional)      |If configured, the message and translations here are accurate. To customize for each survey, add in Program Setup.        |
 |Communications     |Send Surveys in Users' Time Zones       |This setting is switched to Yes or No to enable or disable [sending communications in user's time zones](time-zones.md).         |
 |     | Microsoft Teams      |This setting is switched to Yes or No to enable or disable [the survey-level option to send survey notifications and Nudges in Microsoft Teams](glint-teams.md).         |
 |Reporting     |Attributes for Alerts       |Attributes are selected to use for populations in the [Alerts Report](/viva/glint/reports/alerts-report-attrition-risk). **When blank, no alerts are generated**.        |
 |      |Primary Hierarchy      |The correct primary hierarchy is selected for default reporting views and sections (usually Manager Hierarchy).        |
 |      |Secondary Hierarchy       |The correct secondary hierarchy is selected for default reporting views and sections.        |
-|Survey Details     |Require Microsoft Entra ID for links in survey emails and Microsoft Teams notifications       |This setting is switched to:<br><br> **Yes** to require survey participants to authenticate with Entra ID to access surveys. <br> **No** to allow survey participants to access surveys with personalized links.<br>[Learn more](understand-survey-access-methods.md).        |
-|      |Attribute-based Survey Access       |If needed, attributes are selected for an alternate survey access method for deskless workers. [Learn more](attribute-based-survey-access.md).        |
+|Survey Details     |Require Microsoft Entra ID for links in survey emails and Microsoft Teams notifications       |This setting is switched to:<br><br> **Yes** to require survey participants to authenticate with Entra ID to access surveys. <br> **No** to allow survey participants to access surveys with personalized links.<br>[Learn more about access methods](understand-survey-access-methods.md).        |
+|      |Attribute-based Survey Access       |If needed, attributes are selected for an [alternate survey access method](attribute-based-survey-access.md) for deskless workers.       |
 |Features     |Employee Post-Survey Action Taking       |This setting is set to Yes or No to determine if survey participants see recommended LinkedIn Learning videos on their survey Thank you page. This setting applies to all surveys.        |
-|Technical Configuration     |SFTP Setup       |Secure File Transfer Protocol (SFTP) setup is complete if your organization imports employee data with this method. [Learn more](set-up-sftp.md).        |
+|Technical Configuration     |SFTP Setup       |[Secure File Transfer Protocol (SFTP) setup](set-up-sftp.md) is complete if your organization imports employee data with this method.      |
 |Localization     |Comments Analytics Languages       |Languages that should be translated to English for comment analysis are selected. **Languages must be selected before a survey launches to successfully analyze non-English comments.**       |
 |      |Default Survey Language       |The correct default language is selected for survey participants.        |
 |      |Supported Survey Languages       |Correct languages for survey participants are selected.        |

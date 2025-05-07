@@ -69,6 +69,8 @@ items:
                  href: setup/monthly-release-dates.md
                - name: Partner with works councils
                  href: setup/works-council.md
+               - name: Select supported languages
+                 href: setup/supported-languages.md
                - name: Choose survey access methods
                  href: setup/understand-survey-access-methods.md  
           - name: Prepare internal messages and resources
@@ -370,6 +372,13 @@ items:
         items:
           - name: Aggregate trend
             href: reports/aggregate-trending.md
+          - name: Use benchmarks effectively
+            href: people-science/people-science-benchmark-philosophy.md
+            items: 
+            - name: Benchmark collateral
+              href: setup/benchmarks.md
+            - name: Choose comparison data
+              href: setup/survey-comparison-data.md   
           - name: Reporting features
             href: reports/report-analytics-filtering-favorability-trending.md
           - name: Cross-program intelligence
@@ -378,6 +387,8 @@ items:
             href: reports/color-coding.md
           - name: Export reports as PDF
             href: reports/export-report-pdf.md
+          - name: Filter for past cycle reports
+            href: reports/filter-past-cycles.md
           - name: Manager reporting trend
             href: setup/manager-changing-team-role.md
           - name: Report customization
@@ -496,24 +507,7 @@ items:
       - name: Newsletter registration
         href: setup/newsletter-register.md
       - name: Submit product feedback
-        href: setup/glint-product-feedback.md      
-      - name: Viva People Science research
-        items:
-        - name: Viva People Science and Glint
-          href: start/people-science-viva-glint.md
-        - name: Propel action-taking
-          href: people-science/propelling-action-taking.md
-          items: 
-            - name: Managers using ACT conversations
-              href: people-science/managers-using-act-conversations.md
-        - name: Benchmark methodology
-          items:
-            - name: Use benchmarks effectively
-              href: people-science/people-science-benchmark-philosophy.md
-            - name: Benchmark collateral
-              href: setup/benchmarks.md
-            - name: Choose comparison data
-              href: setup/survey-comparison-data.md
+        href: setup/glint-product-feedback.md     
   - name: Troubleshoot
     items:
       - name: Data File Uploads

@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/08/2025
+ms.date: 05/02/2025
 ---
 
 # Viva Glint employee attribute fundamentals
@@ -49,6 +49,29 @@ Attribute column headers (labels) are unique to your organization. For example, 
 | **End date** | Employee’s termination date. | No | Yes, for triggering Employee Lifecycle Exit surveys |
 
 *Tenure values for new Viva Glint customers after January 13, 2024. Before this date: 0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years.
+
+## Date attributes
+
+Date information, like Hire date or Term date, can be crucial for collecting feedback from employees as they start at or leave your organization. To use dates to trigger surveys and create distribution lists, ensure that all dates are formatted correctly and consistently in the employee data uploaded to Viva Glint.
+
+### Format dates in Microsoft Excel
+
+If your organization sends data files in Excel format, ensure that:
+
+- The cells that contain dates have a Text format in Excel, **not** Custom or Date formats.
+- Your organization selects the date format that is included in uploaded files during attribute setup.
+- Your organization completes derivation selections in attribute setup, which transform dates into Viva Glint's preferred format: yyyy/mm/dd.
+
+To reformat dates and the cell format in Excel, see the [resolution steps to correct an incorrectly configured date](/viva/troubleshoot/glint/data-file-upload/fix-upload-derivation-errors?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json#the-date-format-is-incorrectly-configured). 
+
+If a date's format is correct (for example, mm/dd/yyyy), but the cell format needs to be updated to Text, follow these steps:
+
+1. In Excel, select the date column.
+2. Choose the **Data** option the ribbon at the top of the file.
+3. Choose the **Text to Column**s option.
+4. In the Text Wizard dialog that appears, select **Delimited** and then choose **Next**.
+5. In the **Delimiters** section, choose **Tab** and select **Next**.
+6. In the Column data format section, choose **Text** and select **Finish**.
 
 ## Custom attributes
 
