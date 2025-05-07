@@ -2631,5 +2631,10 @@
     "redirect_url": "/viva/glint/setup/template-research",
     "redirect_document_id": true
   },
+  {
+    "source_path": "Viva/glint/people-science/people-science-benchmark-philosophy.md",
+    "redirect_url": "/viva/glint/reports/benchmark-comparisons",
+    "redirect_document_id": true
+  },
  ]
 }
