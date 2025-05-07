@@ -61,7 +61,7 @@ Team Conversations uses Viva Glint’s **ACT** conversation framework. **ACT** m
 
 ### Is an ACT conversation just one more thing to do?
 
-No! Leaders and managers are already too busy. Creating more work is a recipe for failure. Acting on survey feedback should be integrated into the “way we do things around here." 
+No! Leaders and managers are already too busy. Creating more work is a recipe for failure. Acting on survey feedback should be integrated into the "way we do things around here." 
 
 |Questions about ACT conversations| Answer|
 |----------|--------|
