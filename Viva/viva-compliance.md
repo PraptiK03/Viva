@@ -50,7 +50,7 @@ Microsoft works to ensure that we are compliant with industry and international 
 ![Image depicting shared responsibility model](./media/viva-compliance.png)
 
 ## Inheritance of compliance features and settings
-Microsoft Viva apps are built on your existing infrastructure and, depending on the app, inherit compliance features and settings from Microsoft Teams, Exchange Online, SharePoint Online, Azure, and Viva Engage. In addition, all Viva modules are built on the [Microsoft Graph API](/graph/overview).
+Microsoft Viva apps are built on your existing infrastructure and, depending on the app, inherit compliance features and settings from Microsoft Teams, Exchange Online, SharePoint, Azure, and Viva Engage. In addition, all Viva modules are built on the [Microsoft Graph API](/graph/overview).
 
 ![Image depicting simple architecture model](./media/viva-architecture.png)
 
@@ -96,7 +96,7 @@ Currently, certain features in Viva Engage and Viva Connections (through SharePo
 
 The Viva Engage features [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) are supported by Microsoft Purview; sensitivity labels and data loss prevention aren't supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](engage/native-mode-guide.md).
 
-Viva Connections inherits eDiscovery and [Data Retention](/microsoft-365/compliance/retention-policies-sharepoint) support from [SharePoint Online](/SharePoint/compliant-environment) for files involved in each service.
+Viva Connections inherits eDiscovery and [Data Retention](/microsoft-365/compliance/retention-policies-sharepoint) support from [SharePoint](/SharePoint/compliant-environment) for files involved in each service.
 
 ## More resources
 

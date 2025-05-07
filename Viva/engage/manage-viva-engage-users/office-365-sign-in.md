@@ -25,7 +25,7 @@ Microsoft 365 sign-in lets users access Viva Engage with their Microsoft 365 ide
   
 - You can easily [Manage Viva Engage users across their life cycle in Microsoft 365](manage-users-across-their-lifecycle.md), in addition to managing Viva Engage administrators in Microsoft 365.
     
-- Users can navigate between Viva Engage and Microsoft 365 without signing in under a separate username and password. From Microsoft 365 Copilot, users can quickly switch back and forth between Viva Engage and Microsoft 365 services such as Outlook, SharePoint Online sites, and OneDrive for Business.
+- Users can navigate between Viva Engage and Microsoft 365 without signing in under a separate username and password. From Microsoft 365 Copilot, users can quickly switch back and forth between Viva Engage and Microsoft 365 services such as Outlook, SharePoint sites, and OneDrive for Business.
   
 ## How it works
 
