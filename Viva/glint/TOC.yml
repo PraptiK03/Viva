@@ -503,19 +503,14 @@ items:
         href: setup/glint-product-feedback.md      
       - name: Viva People Science research
         items:
-        - name: Propel action-taking
-          href: people-science/propelling-action-taking.md
-          items: 
-            - name: Managers using ACT conversations
-              href: people-science/managers-using-act-conversations.md
-        - name: Benchmark methodology
-          items:
-            - name: Use benchmarks effectively
-              href: people-science/people-science-benchmark-philosophy.md
-            - name: Benchmark collateral
-              href: setup/benchmarks.md
-            - name: Choose comparison data
-              href: setup/survey-comparison-data.md
+          - name: Benchmark methodology
+            items:
+               - name: Use benchmarks effectively
+                 href: people-science/people-science-benchmark-philosophy.md
+               - name: Benchmark collateral
+                 href: setup/benchmarks.md
+               - name: Choose comparison data
+                 href: setup/survey-comparison-data.md
   - name: Troubleshoot
     items:
       - name: Data File Uploads
