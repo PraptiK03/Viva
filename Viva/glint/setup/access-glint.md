@@ -70,12 +70,12 @@ Invited Guests from other tenants in a [multitenant organization](glint-mto.md) 
 
 ## Session time-out
 
-Viva Glint sessions close after 30 minutes of inactivity. This timeout mechanism helps protect sensitive data and ensures that sessions don't remain open indefinitely, which could pose security risks.
+Viva Glint sessions close after 30 minutes of inactivity. This mechanism helps protect sensitive data and ensures that sessions don't remain open indefinitely, which could pose security risks.
 
-This is what a user sees:
+User experience:
 
 - After 20 minutes of inactivity, an **Are you still here?** message displays.
-- If there is no response to the initial message, the session automatically shuts down after *another* 10 minutes of inactivity. 
+- If there's no response to the initial message, the session automatically shuts down after *another* 10 minutes of inactivity. 
 
 :::image type="content" source="../../media/glint/setup/glint-inactive-session-message.png" alt-text="Screenshot of a message that appears when a user is inactive in their survey session.":::
 
