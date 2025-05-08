@@ -376,7 +376,7 @@ items:
         items:
           - name: Aggregate trend
             href: reports/aggregate-trending.md
-          - name: Use benchmarks effectively
+          - name: Benchmarks
             href: people-science/people-science-benchmark-philosophy.md
             items: 
             - name: Benchmark collateral
