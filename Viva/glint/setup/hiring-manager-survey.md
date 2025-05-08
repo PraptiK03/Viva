@@ -36,7 +36,7 @@ For this kind of feedback, the respondent shifts from individual employees respo
   - Add separate **Recruiter first name** and **Recruiter last name** fields to add "Last, first" name formats into survey and question text.
  
 > [!IMPORTANT] 
-> To trigger surveys for the right users, populate “New hire start date” values for hiring manager records in employee data files. Hiring managers (not new hires) are the targeted respondents.
+> To trigger surveys for the right users, populate "New hire start date" values for hiring manager records in employee data files. Hiring managers (not new hires) are the targeted respondents.
 
 ## Survey type options
 
