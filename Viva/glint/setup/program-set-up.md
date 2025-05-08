@@ -3,7 +3,7 @@ title: Complete Program Setup for a Microsoft Viva Glint survey
 description: Program Setup page is the first section of a Microsoft Viva Glint survey that lets Viva Glint Administrators define the basic settings for a survey program. Choose items like a survey name and what languages are needed, along with confidentiality directives.
 ms.author: JudithWeiner
 author: JudyWeiner
-manager: elizapo
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: confidentiality setup, basics setup, survey comment expansion, create Viva Glint survey, enable Nudges, enable Team Conversations, additional languages, auto-expand comments input
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/01/2025
+ms.date: 05/08/2025
 ---
 
 # Complete Program Setup for a Microsoft Viva Glint survey
@@ -44,7 +44,7 @@ In the first section on the **Program setup** page, define, enable, or disable e
 |**Eligible for Nudges** |Timely messages designed to help managers take action| Toggle to enable or disable. | Recurring and Ad Hoc  |
 |**Allow survey resubmission** |Allow survey takers to retake their surveys. All previous responses are deleted|  Toggle to enable or disable.| Recurring, Ad Hoc, and Lifecycle |
 |**Enable [Team Conversations](/../../viva/glint/reports/team-conversations-administrator-setup)**|Helps managers and survey takers feel like their feedback is heard and acted upon.|Managers receive a personalized summary presentation of survey results. Helps your managers share results, pick Focus Areas, and identify next steps through a guided interactive conversation.| Recurring |
-|**Auto-expand comments input**|With this enabled, a comment box shows after each survey item is posed to a survey taker and the survey taker must manually move to the next question if they are ready. Enabling this feature allows the survey taker to see and consider using the comment box. Disabled, the survey automatically moves to the next item.|Disabled by default. Toggle to enable. This feature prompts more detailed and actionable insights by survey takers, increasing survey engagement.| All |
+|**NEW! Auto-expand comments input**|With this enabled, a comment box shows after each survey item is posed to a survey taker and the survey taker must manually move to the next question if they are ready. Enabling this feature allows the survey taker to see and consider using the comment box. Disabled, the survey automatically moves to the next item.|Disabled by default. Toggle to enable. This feature prompts more detailed and actionable insights by survey takers, increasing survey engagement.| All |
 |**Enable Team Conversations Sharing**|Allows managers to share a read-only version of their feedback summary presentation before or after meetings with their team.| Enabled by default when Team Conversations is enabled. | Recurring |
 
 > [!IMPORTANT]
