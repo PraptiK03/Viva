@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/07/2025
+ms.date: 05/08/2025
 ---
 
 # Survey hiring managers with Viva Glint
@@ -26,7 +26,7 @@ While Microsoft Viva Glint doesn't offer a survey template for hiring feedback, 
 
 ## New attributes to include
 
-For this kind of feedback, the respondent shifts from individual employees responding to questions on their company to hiring managers describing to their recruiter and new hire experiences. To reach out to hiring managers and include the right information in survey questions, [consider adding new attributes](update-attributes.md): 
+For this kind of feedback, the respondent shifts from individual employees responding to questions on their company to hiring managers describing to their recruiter and new hire experiences. To reach out to hiring managers and include the right information in survey questions, [consider adding new attributes](update-attributes.md#add-new-attributes-to-viva-glint) and making them [visible in reporting](update-attributes.md#update-custom-attribute-visibility): 
 
 - **Hiring manager flag:** To add hiring managers to Distribution Lists.
 - **New hire start date:** To trigger surveys or create Distribution lists based on when new hires started.
@@ -34,6 +34,9 @@ For this kind of feedback, the respondent shifts from individual employees respo
   - Add separate **New hire first name** and **New hire last name** fields to add "Last, first" name formats into survey and question text.
 - **Recruiter full name:** To let hiring managers know which recruiters they're giving feedback for.
   - Add separate **Recruiter first name** and **Recruiter last name** fields to add "Last, first" name formats into survey and question text.
+ 
+> [!IMPORTANT] 
+> To trigger surveys for the right users, populate "New hire start date" values for hiring manager records in employee data files. Hiring managers (not new hires) are the targeted respondents.
 
 ## Survey type options
 
@@ -72,12 +75,16 @@ Depending on how regularly your organization hires new employees, respondent cou
 - [How Viva Glint protects privacy](viva-glint-survey-privacy.md)
 - [Manage Viva Glint confidentiality thresholds](manage-confidentiality-thresholds.md)
 
-## Survey submissions and reporting
+## Survey submissions 
 
 Recurring surveys allow one submission per hiring manager per survey cycle and each survey cycle is a fixed point in time that can trend with other cycles. Always-On and Employee Lifecycle surveys, however, are ongoing and trend data on a rolling basis. Depending on Viva Glint Admins' selections in Program setup, users can respond multiple times in a single reporting timeframe.
 
+To determine how long users wait before submitting another survey, use the "Next survey available" (Always-On) or "Waiting period between surveys" (Lifecycle) in [Program setup](program-set-up.md#define-the-basics). To let hiring managers respond as often as possible, lower this setting to one.
+
+## Reporting
+
+Viva Glint recurring surveys happen at definite points in time and trend based on each survey cycle. But scores for Employee Lifecycle and Always-On surveys trend differently because of their ongoing nature. If you choose Lifecycle or Always-On surveys to get hiring manager feedback, review how reporting functions for these survey types:
+
 - [How data trends for ongoing surveys](/viva/glint/reports/trend-graph-lifecycle-survey)
 - [How responses are counted in ongoing survey reporting](/viva/glint/reports/trend-graph-lifecycle-survey#understand-how-response-numbers-show-in-elc-reporting)
-
-To determine how long users wait before submitting another survey, use the "Next survey available" (Always-On) or "Waiting period between surveys" (Lifecycle) in [Program setup](program-set-up.md#define-the-basics). To let hiring managers respond as often as possible, lower this setting to one. 
 
