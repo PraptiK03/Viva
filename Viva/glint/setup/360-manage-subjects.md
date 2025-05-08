@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/04/2024
+ms.date: 05/08/2025
 ---
 
 # Manage subjects, feedback providers, and coaches in a Viva Glint 360 feedback program
@@ -33,6 +33,8 @@ Selecting Subjects can be done manually or through an upload, if you’re adding
 3. The Subject name now appears in the **Manage Subjects** box.
 
 ## Add a Coach
+
+**Only one Coach is allowed per Subject.**
 
 1. Select the ellipses next to the Subject's name.
 2. Select **Edit/Add Coach.**
