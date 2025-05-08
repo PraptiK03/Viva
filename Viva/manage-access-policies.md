@@ -29,7 +29,7 @@ You can use access policies to manage which users can access specific features i
 An authorized admin in your tenant can create, assign, and manage access policies from PowerShell. When a user signs in to Microsoft 365, the policy settings are applied, and they only see the features that haven't been disabled.
 
 > [!IMPORTANT]
-> You can have multiple access policies for a feature active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy assigned directly to a user or group takes precedence. For more information, see [How access policies work in Vi](/Viva/feature-access-management)[How access policies work ](/Viva/feature-access-management).
+> You can have multiple access policies for a feature active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy assigned directly to a user or group takes precedence. For more information, see [How access policies work](/Viva/feature-access-management).
 
 ## Requirements
 
@@ -48,7 +48,7 @@ Before you can create an access policy, you need:
 
 ## Create and manage access policies for Microsoft 365 features
 
-Policies can be created and managed by an admin who has permissions to do so in the Microsoft 365 admin center or by using PowerShell. [Get all the details about creating and managing policies](/viva/feature-access-management#creating-and-managing-policies).
+Policies can be created and managed by an admin who has permissions to do so in the Microsoft 365 admin center or by using PowerShell. [Get all the details about creating and managing policies](/viva/feature-access-management#creating-and-managing-policies). For detailed instructions on how to construct a command in PowerShell, please refer to the [PowerShell documentation](/powershell/module/exchange/?view=exchange-ps&branch=main). 
 
 ### Get the featureID for the feature
 Before you can create an access policy, use the **ModuleID** to get the **featureID** for the specific feature you want to control access to.
@@ -92,6 +92,9 @@ Use the **[Get-VivaModuleFeature](/powershell/module/exchange/get-vivamodulefeat
 4. Find the feature that you'd like to create an access policy for and make note of its **featureID**.
 
 ### Create an access policy
+
+> [!TIP]
+> We recommend admins refer to [PowerShell documentation](/powershell/module/exchange/?view=exchange-ps&branch=main) for a complete list of available commands to create and manage policies. This includes advanced policies for features with user opt-in controls, soft-disabling features, and detailed instructions on PowerShell command syntax.
 
 Now that you have the **featureID**, use the [**Add-VivaModuleFeaturePolicy**](/powershell/module/exchange/add-vivamodulefeaturepolicy) PowerShell cmdlet to create an access policy for the feature.
 
