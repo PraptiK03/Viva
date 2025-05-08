@@ -81,10 +81,6 @@ Recurring surveys allow one submission per hiring manager per survey cycle and e
 
 To determine how long users wait before submitting another survey, use the "Next survey available" (Always-On) or "Waiting period between surveys" (Lifecycle) in [Program setup](program-set-up.md#define-the-basics). To let hiring managers respond as often as possible, lower this setting to one.
 
-### Multiple new hires in one day
-
-
-
 ## Reporting
 
 Viva Glint recurring surveys happen at definite points in time and trend based on each survey cycle. But scores for Employee Lifecycle and Always-On surveys trend differently because of their ongoing nature. If you choose Lifecycle or Always-On surveys to get hiring manager feedback, review how reporting functions for these survey types:
