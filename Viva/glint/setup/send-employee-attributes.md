@@ -14,15 +14,15 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/08/2025
+ms.date: 05/08/2025
 ---
 
 # Set up attributes in Viva Glint
 
-Set up attributes in Microsoft Viva Glint to create a mapping of fields to expect in your employee data files transmitted to Viva Glint. To set up required, custom, hierarchy, and derived attributes, use the decisions made in the [Employee Attribute Template](create-employee-attribute-template.md) as a guide.
+Set up attributes in Microsoft Viva Glint to create a mapping of fields to expect in your employee data files transmitted to Viva Glint. To set up required, custom, hierarchy, and derived attributes, use the decisions made in the [Employee attribute template](create-employee-attribute-template.md) as a guide.
 
 > [!NOTE]
-> Before starting, confirm that the attribute selections in your Employee Attribute Template are **final**. Viva Glint Admins can't edit reporting hierarchies, file format, or date attribute formats after initial setup is complete. 
+> Before starting, confirm that the attribute selections in your Employee attribute template are **final**. Viva Glint Admins can't edit reporting hierarchies, file format, or date attribute formats after initial setup is complete. 
 
 ## Attribute setup in Viva Glint
 
@@ -118,8 +118,13 @@ Map attributes in your employee data to Viva Glint language, time zone, and pers
 :::image type="content" source="../../media/glint/setup/setup-step3-optional.png" alt-text="Screenshot of step 3 to map optional system attributes.":::
 
 > [!IMPORTANT]
-> - Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
-> - See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
+> Send language and time zone values exactly as they appear in related tabs in the following articles:
+> - [Viva Glint supported languages](supported-languages.md)
+> - [Viva Glint supported time zones](supported-time-zones.md)
+> 
+> Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
+>
+> See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 ### Hierarchy groups
 

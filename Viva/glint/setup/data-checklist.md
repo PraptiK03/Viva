@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: checklist
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/29/2025
+ms.date: 05/08/2025
 ---
 
 # Review employee data with Viva Glint checklists
@@ -60,8 +60,8 @@ Confirm that your employee data file, attributes, and attribute values align wit
 |Inactive employees  | Inactive users are only included if they're 1) termed, 2) on leave, or 3) are needed to complete a manager hierarchy.      |
 |Manager ID  | All users **except the CEO** have a Manager ID value populated.      |
 |Manager ID  | Users don't report to their own employee ID or create reporting loops with other users.     |
-|Time zone  | Time zone values are populated correctly for all users. See the [Employee Attribute Template](https://www.microsoft.com/download/details.aspx?id=105533) for correct time zone values.     |
-|Language codes* | Survey and/or dashboard language values are populated correctly for all users. See the [Employee Attribute Template](https://www.microsoft.com/download/details.aspx?id=105533) for correct language values.      |
+|Time zone  | Time zone values are populated correctly for all users. See [Viva Glint supported time zones](supported-time-zones.md) for correct time zone values.     |
+|Language codes* | Survey and/or dashboard language values are populated correctly for all users. See [Viva Glint supported languages](supported-languages.md) for correct language values.      |
 |Consistency | Values have a consistent spelling and naming convention. For example, department value of 'Sales,' 'SALES,' and 'sales' all appear as different values in reporting.      |
 
 > [!IMPORTANT]
