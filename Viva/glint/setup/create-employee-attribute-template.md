@@ -1,5 +1,5 @@
 ---
-title: Use the Viva Glint Employee Attribute Template
+title: Use the Viva Glint Employee attribute template
 description: Learn how Viva Glint uses the attributes and hierarchies you provide about the people in your organization to surface meaningful and actionable insights. The template is the row of column headers; all the data you provide.
 ms.author: aweixelman
 author: AliciaWeixelman
@@ -14,17 +14,17 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/08/2025
+ms.date: 05/08/2025
 ---
 
-# Use the Viva Glint Employee Attribute Template
+# Use the Viva Glint Employee attribute template
 
-The Employee Attribute Template is a planning tool Viva Glint Administrators use to document an organization’s file format and attribute selections, before uploading employee data to the Microsoft Viva Glint platform. Use the template to document decisions that you and other data stakeholders make as you [meet and prepare to upload employee data](upload-employee-data.md).
+The Employee attribute template is a planning tool Viva Glint Administrators use to document an organization’s file format and attribute selections, before uploading employee data to the Microsoft Viva Glint platform. Use the template to document decisions that you and other data stakeholders make as you [meet and prepare to upload employee data](upload-employee-data.md).
 
 > [!div class="nextstepaction"]
-> [Download the Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) 
+> [Download the Employee attribute template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) 
 
-## Why use the Employee Attribute Template? 
+## Why use the Employee attribute template? 
 
 Every report, recommendation, and action plan that Viva Glint presents for your organization relies on the foundation of employee data that you provide. The collection of detailed information about the people in your organization is essential to highlight meaningful insights from survey results and determine what you're doing right and where your opportunities lie.
 
@@ -38,11 +38,11 @@ Viva Glint supports these file formats for data your organization uploads to the
   - Viva Glint accepts UTF-8 and UTF-8 with BOM encoding
 - .xlsx for files in Microsoft Excel format with a single tab of data
 
-### Employee Attribute Template terminology
+### Employee attribute template terminology
 
 | Term | Definition |
 |---|---|
-| **Employee Attribute Template** | Guidance in the form of a downloadable workbook for documenting your organization’s file format and data selections, before setting up attributes in Viva Glint. |
+| **Employee attribute template** | Guidance in the form of a downloadable workbook for documenting your organization’s file format and data selections, before setting up attributes in Viva Glint. |
 | **Attributes** | Demographic details about employees that become report filters in the platform. |
 | **Attribute Header Row** | The blueprint for columns of data and the labels for the columns. |
 | **Required Attribute** | Information about each employee in your organization that Viva Glint requires:<li>Status: ACTIVE or INACTIVE <li>First name <li>Last name <li>Email address <li>Employee ID |
