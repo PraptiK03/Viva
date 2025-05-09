@@ -7,7 +7,7 @@ author: Starshine89
 manager: elizapo
 ms.date: 09/30/2024
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: office-online-server
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer

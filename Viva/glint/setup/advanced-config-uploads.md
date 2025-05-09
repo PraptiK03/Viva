@@ -10,10 +10,10 @@ keywords: advanced configuration, uploads, retroactive update, bulk custom acces
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/29/2025
+ms.date: 03/05/2025
 ---
 
 # Use Advanced Configuration Uploads
@@ -34,7 +34,7 @@ For highly trained users, Microsoft Viva Glint the Advanced Configuration Upload
 
 ## Perform a MANAGERS_UPLOAD
 
-When several users need customized data access to their Viva Glint Dashboards, use the MANAGERS_UPLOAD to update their access in bulk. To grant 1 or a few users access to custom segments of data, grant custom access from their user profile: [Learn more](custom-user-role.md).
+When several users need customized data access to their Viva Glint Dashboards, use the MANAGERS_UPLOAD to update their access in bulk. To grant one or a few users access to custom segments of data, [grant custom access from their user profile](custom-user-role.md).
 
 ### To upload custom access for multiple users:
 
@@ -79,7 +79,7 @@ If duplicated users aren't removed, admins see a "FAILED" State for the Retroact
 - System error: Failed to find user_staging_record with externalUserId=[user@contoso.com], which is not supposed to happen at all because User object with the same ID was previously loaded."
 
 > [!NOTE]
-> To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive User Updates option. [Learn more](glint-data-apps.md).
+> To retroactively update a Manager Hierarchy, always use the [RETROACTIVE_PULSE_UPDATE Data App](glint-data-apps.md#retroactive_pulse_update) and not the Retroactive User Updates option.
 
 > [!IMPORTANT]
 > If your organization can't save files in .csv format, Retroactive User Updates isn't an option. Instead:
@@ -87,13 +87,15 @@ If duplicated users aren't removed, admins see a "FAILED" State for the Retroact
 > 2. [Create a User Role](set-up-user-roles.md) and add these users to the role.
 > 3. Use the [RETROACTIVE_PULSE_UPDATE Data App](glint-data-apps.md) and select your User Role in **roleOrDistributionList**. 
 
-### To perform a Retroactive User Updates upload:
+### To perform a Retroactive User Updates upload
+
+Got to **Configuration** and in **Service Configuration**, select **Advanced Configuration**. For this task, admins access Data Apps and Uploads from the Advanced Configuration menu.
 
 > [!CAUTION]
 > - Don't perform a retroactive update while a Viva Glint survey is live.
 > - Deleted user data can't be retroactively updated.
 
-1. Export survey cycle data with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the surveys that need to be updated. [Learn more](glint-data-apps.md).
+1. Export survey cycle data with the [EXPORT_USERS_FROM_SURVEY_CYCLE Data App](glint-data-apps.md#export_users_from_survey_cycle) for the surveys that need to be updated.
 
    > [!NOTE]
    > Keep this export of original survey cycle data in case any retroactive updates need to be reverted.

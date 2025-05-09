@@ -5,7 +5,7 @@ title: Personal insights FAQ
 description: Frequently asked questions about Personal insights with Microsoft Viva Insights
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: faq
 ms.localizationpriority: medium
 ms.service: viva-insights
 ms.collection: M365-analytics, viva-insights-personal

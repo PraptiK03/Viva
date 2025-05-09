@@ -1,5 +1,5 @@
 ---
-ms.date: 01/31/2025
+ms.date: 02/27/2025
 title: Tips for uploading organizational data for Microsoft 365 Copilot in Viva Insights
 description: Explains to Viva Insights admins which specific attributes to upload and how to use them to generate actionable insights with Microsoft 365 Copilot.
 author: zachminers
@@ -16,10 +16,6 @@ audience: user
 ---
 
 # Tips for uploading organizational data for Microsoft 365 Copilot in Viva Insights
-
->[!IMPORTANT]
-> Microsoft 365 Copilot in Viva Insights is rolling out gradually and isn't yet available to all customers.
-
 
 Microsoft 365 Copilot in Viva Insights is most effective when you upload as much data as possible for each employee attribute in Viva Insights. You should upload as many attributes as your company finds useful, because most questions leaders ask will depend on a combination of multiple attributes. [Learn more about the attributes Copilot in Viva Insights supports](./prepare-org-data.md).
 

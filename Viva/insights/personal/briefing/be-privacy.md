@@ -5,7 +5,7 @@ title: Privacy guide for Briefing emails
 description: Learn about how Briefing emails keep your data private and secure
 author: madehmer
 ms.author: helayne
-ms.topic: conceptual
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

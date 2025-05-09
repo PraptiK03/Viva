@@ -11,10 +11,10 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/16/2025
+ms.date: 02/03/2025
 ---
 
 # Update employee IDs in Viva Glint
@@ -27,6 +27,9 @@ Use the Microsoft Viva Glint employee ID update feature to keep employee informa
 - Rehires
 - Changes in HR information system (HRIS) vendor
 - Incorrect IDs
+
+> [!CAUTION]
+> Update ID values with these processes **before** uploading user records with new employee IDs with the [Edit Employee List and Details option](upload-employee-attributes.md#import-employee-data). Uploading users with new IDs before updating ID values can result in [DUPLICATED_EMAIL](/viva/troubleshoot/glint/data-file-upload/fix-upload-duplicate-data-warnings?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json#duplicated_email) and [DUPLICATED_EXTERNAL_USER_ID](/viva/troubleshoot/glint/data-file-upload/fix-upload-duplicate-data-warnings?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json#duplicated_external_user_id) errors.
 
 ## Update a user's employee ID
 
@@ -54,7 +57,7 @@ To update users' IDs in bulk:
 1. From the admin dashboard, select the **Configuration** symbol and in the **Employees** section, choose **People**.
 2. In the menu on left side of the **People** page, select **All People** and then choose **Export**.
 4. In the **Export All People** dialog that appears, switch the **Include all user attributes?** toggle to **Yes** and select **Export**.
-5. A .csv file of all Glint users downloads to your device. To retain leading zeros and special characters when opening the file, [import it in Microsoft Excel](https://support.microsoft.com/office/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba).
+5. A .csv file of all Glint users downloads to your device. To retain leading zeros and special characters when opening the file, use the [Text Import Wizard](https://support.microsoft.com/office/text-import-wizard-c5b02af6-fda1-4440-899f-f78bafe41857) to import data into Excel.
 1. Delete all columns except for:
    1. First Name
    1. Last Name

@@ -4,9 +4,9 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 02/12/2024
+ms.date: 02/18/2025
 audience: admin
-ms.topic: article
+ms.topic: integration
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
@@ -38,14 +38,14 @@ To enable seamless login, admins can set up the following configurations:
    ![Screenshot that shows permission requested window that wants to sign into the LinkedIn Learning Viva Connector](../media/learning/linkedin-learning-seamless-3-permission-requested.png)
 
    > [!IMPORTANT]
-   > The consent is provided only by specific roles in the organization. Review who can [grant tenant-wide admin consent](/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#prerequisites) in Enterprise applications.
+   > Only a global admin or a knowledge admin can provide admin consent. For more information, read about [grant tenant-wide admin consent](/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#prerequisites) in Enterprise applications.
 
 4. Integrate LinkedIn Learning with Viva Learning.
 
     1. Get the single sign-on WebURL from the LinkedIn Learning Admin page.  
     You can reach this url via the link shown or go to the **LinkedIn Admin configuration** > **Authenticate** > **Set up Viva Learning Authentication**.
     2. Enter the WebURL in Viva Learning.
-    3. On the same LinkedIn Learning configuration page, enter the Entra tenant ID. The Entra ID is shown in the Viva Learning configuration. 
+    3. On the same LinkedIn Learning configuration page, enter the Microsoft Entra tenant ID. The Entra ID is shown in the Viva Learning configuration. 
 
        > [!IMPORTANT]
        > On the LinkedIn configuration page, select **Submit** after entering the tenant ID and copying the Link to ensure that configuration is saved.
@@ -57,4 +57,3 @@ To enable seamless login, admins can set up the following configurations:
 8. Select **Validate** and follow the steps to confirm the configuration works. Users are prompted to use their organization's LinkedIn Learning credentials to sign in.
 
 10. Select **Save** to save the configurations.
-

@@ -4,7 +4,7 @@ title: Viva Insights data residency for advanced insights, managers, and leaders
 description: Provides information to customers about where data is stored at rest based on their geography and date of Viva Insights provisioning. 
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

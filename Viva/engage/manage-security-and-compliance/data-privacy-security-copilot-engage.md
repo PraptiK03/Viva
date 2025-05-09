@@ -3,9 +3,9 @@ title: "Data, Privacy, and Security for Microsoft 365 Copilot for Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
-ms.date: 09/16/2024
+ms.date: 02/19/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: viva-engage
@@ -23,7 +23,7 @@ description: "Learn how Microsoft 365 Copilot for Viva Engage protects your data
 
 # Data, Privacy, and Security for Microsoft 365 Copilot in Viva Engage
 
-Microsoft 365 Copilot in Viva Engage is your partner and coach for posting on Viva Engage in ways that support your professional goals. Copilot provides access to large language model (LLM) technology, which is a type of technology that you can ask to do language-based tasks for you, similarly to how you might ask a person. 
+Microsoft 365 Copilot in Viva Engage is your partner and coach for posting on Viva Engage in ways that support your professional goals. Copilot supports large language model (LLM) technology, which performs language-based tasks similarly to how you might ask a person. 
 
 ### Copilot capabilities
 
@@ -39,17 +39,17 @@ Here are some examples of how Copilot can help you:
 
 ### How to use Copilot in Viva Engage
 
-Copilot is intended to enhance your use of Viva Engage by suggesting relevant content with which to interact and by assisting the user to communicate valuably.
+Copilot suggests relevant content and assists users to communicate more effectively. In this way, Copilot enhances your daily use of Viva Engage.
 
-1. Suggests what and where to post. To reach the optimal audience, Copilot assists you in determining what content to post and where to post it. Copilot identifies content, people, and groups that align with your interests, identity, and objectives. For example, Copilot identifies ongoing conversations that contain themes relevant to your interests. It also highlights ongoing campaigns sponsored by leaders or otherwise relevant to your interests and workplace connections.
+1. **Suggest what and where to post**. To reach the optimal audience, Copilot assists you to determine good post content and the right places to post it. Copilot identifies content, people, and groups that align with your interests, identity, and objectives. For example, Copilot identifies ongoing conversations that contain themes relevant to your interests. It also highlights ongoing campaigns sponsored by leaders or otherwise relevant to your interests and workplace connections.
 
-2. Creates valuable, engaging, authentic communications. Copilot assists you in creating high-quality posts that are likely to be valuable, engaging, and perceived as authentic. This involves deciding what points to include in the post, assisting in composition of the post itself, and subsequently editing it for factors such as tone, length, and keywords. Copilot can also provide feedback on your post. You can attach images to enhance their posts, include calls to action (CTAs) to promote engagement, and tag relevant individuals in their posts.
+2. **Create valuable, engaging, authentic communications**. Copilot assists production of high-quality posts with value, engagement, and authenticity. It helps deciding what points to include in the post, helps compose the post if necessary, and helps edit for tone, length, and keywords. Copilot can also offer feedback on your post. You can attach images to enhance your posts, include calls to action (CTAs) to promote engagement, and tag relevant individuals in their posts.
 
 Copilot empowers with the information and collaboration you need to leverage Viva Engage to achieve your professional goals.
 
 ### Copilot performance metrics
 
-We measured the performance of Copilot, which is powered by GPT-4 using these key metrics.
+We measure the performance of Copilot, which is powered by GPT-4 using these key metrics.
 
 - Precision and Recall: These metrics were crucial for evaluating the quality of suggestions. Precision quantified how many of the AI-generated suggestions were relevant, while recall determined how many of the relevant suggestions were retrieved.
 

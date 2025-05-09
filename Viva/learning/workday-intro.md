@@ -6,7 +6,7 @@ manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 11/27/2024
 audience: admin
-ms.topic: article
+ms.topic: integration
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
@@ -56,7 +56,7 @@ You need the following permissions and scenarios in place to complete the Workda
 ### User mapping
 User mapping between Workday and Viva Learning should exist before configuration.
  
-The default user mapping originates from the "username" field in Workday user RaaS Report and the UPN alias in the Microsoft Entra (formerly Azure Active Directory) system. For proper mapping or mapping to work, the username field needs an email alias and the UPN should have an email address. 
+The default user mapping is determined by the "username" field in the Workday user RaaS Report and the UPN alias in the Entra ID system. For proper mapping to work, both these fields should have similar values.
  
 If there's any discrepancy in mapping logic used by the customer organization, reach out to the Viva Learning product group. We have custom user mapping option available, which are controlled from the backend. The custom mapping is based on Workday attributes: Username, Email_address, and  employee_ID and corresponding Microsoft Entra attributes as UPN alias, UPN, employee ID and custom Microsoft Entra attributes. 
 

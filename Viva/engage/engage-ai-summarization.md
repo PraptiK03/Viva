@@ -4,9 +4,9 @@ f1.keywords:
 - NOCSH
 ms.reviewer: ethli
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
-ms.date: 09/16/2024
+ms.date: 02/19/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: viva-engage
@@ -48,7 +48,7 @@ Policy settings apply anytime a user signs in, and determine which enabled featu
 |--------|------------|----------|-------------|
 |**Enabled** (Default)| Processes Engage threads within the tenant.|Enhances Copilot conversation starters on the Home page. Summarizations provide insights and recaps, and  posting suggestions based on network activity.|Required for sentiment analysis in Network analytics.|
 |**Enabled with user opt out**|Provides the same functionality as **Enabled**, except that users who have access to AI Summarization can turn it off for their user account through the setting in their personal analytics.|If a user opts out, Copilot lacks summarization data for the network and is unable to provide insights and recaps, or posting suggestions based on network activity.|If an admin or corporate communicator opts out, they turn off sentiment analysis in Network analytics. If enough users opt out, the network may not meet the minimum required data for Network analytics.|
-|**Disabled**|Stops all processing of Engage threads. If you disable AI Summarization for the tenant, without creating either a user or group enablement policy or a disabled tenant policy, all history data in the tenant is deleted retroactively. To prevent deletion of all summarization data, accompany this setting change with one of the aforementioned policies.|Disables Copilot conversation starters on the Home page and Copilot responses for posts and insights that require summarization posts across the network.|Disables all Network analytics (theme, sentiment analysis, and conversation summarization).|
+|**Disabled**|Stops all processing of Engage threads. If you disable AI Summarization for the tenant, without creating either a user or group enablement policy or a tenant who has a disability policy, all history data in the tenant is deleted retroactively. To prevent deletion of all summarization data, accompany this setting change with one of the aforementioned policies.|Disables Copilot conversation starters on the Home page and Copilot responses for posts and insights that require summarization posts across the network.|Disables all Network analytics (theme, sentiment analysis, and conversation summarization).|
 
 ## See also
 

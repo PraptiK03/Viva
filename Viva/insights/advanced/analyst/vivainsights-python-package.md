@@ -1,10 +1,10 @@
 ---
-ms.date: 08/24/2023
+ms.date: 04/21/2025
 title: vivainsights Python package
 description: Learn how the vivainsights Python package can help you dive deeper into data and solve specific problems
 author: lrolason
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: overview
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

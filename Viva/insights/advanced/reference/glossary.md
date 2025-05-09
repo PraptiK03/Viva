@@ -4,7 +4,7 @@ title: Viva Insights advanced insights glossary
 description: This article provides a glossary of terms for the Microsoft Viva Insights advanced insights app. 
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: glossary
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights

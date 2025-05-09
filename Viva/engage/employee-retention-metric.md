@@ -9,7 +9,7 @@ ms.date: 09/20/2024
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-engage
 ms.localizationpriority: medium
 ms.collection:  

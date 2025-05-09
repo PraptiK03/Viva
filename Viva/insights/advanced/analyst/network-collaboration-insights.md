@@ -4,7 +4,7 @@ title: Uncover network collaboration insights
 description: Introduction to large-scale collaboration analysis with the organizational network analysis or ONA query tool.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

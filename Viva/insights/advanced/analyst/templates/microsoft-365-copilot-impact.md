@@ -1,10 +1,10 @@
 ---
-ms.date: 09/16/2024
+ms.date: 05/5/2025
 title: Microsoft 365 Copilot impact report
 description: Learn how to use the Microsoft 365 Copilot impact Power BI template to understand the effects of Copilot usage among employees across your organization.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: 
 - viva-insights-advanced
@@ -50,6 +50,8 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 * Have Microsoft 365 Copilot licenses and Microsoft Viva Insights licenses assigned to the employees you would like to include as part of your measured population.
 
 ## Report setup
+
+For detailed scenario-based guidance on how to set up an analysis tailored to your organization, refer to our [analyst toolkit playbook](https://aka.ms/CopilotAdvancedAnalytics).
 
 ### Run query
 
@@ -154,6 +156,10 @@ The structure of each of these pages is the same for the deep dive into meetings
 
 This page shows the impact of Copilot usage on employees’ collaboration behavior. In the meetings section, for example, you can evaluate the number and duration of meetings that were summarized with Copilot. You can also learn how meeting behavior has changed for employees after adopting Copilot.
 
+The comparison pages for each of these pages compares Copilot usage and collaboration behavior *before* versus *after* employees started using Copilot. The analysis considers the first date an employee started using Copilot. It then compares the average collaboration behavior per person per month in the four weeks *after* their Copilot adoption date, with the average collaboration behavior per person per month in the four most recent weeks *prior to* their Copilot adoption date.
+
+Copilot is not likely to be solely responsible for any metric differences shown in the dashboard. In addition to Copilot, multiple organizational factors such as adoption levels, seasonality, and functional or role differences might influence these metrics and should be considered in defining data filters and interpreting results.
+
 > [!Important]
 > To accurately capture the first time employees began using Copilot in different apps, make sure your query includes the time period in which your company first started using Copilot. For example, if your company enabled Copilot in January 2024, make sure data going back to January 2024 is included in the query.
 
@@ -195,5 +201,6 @@ View this report's metric definitions.
 
 ### Related topics
 
-- [Access query results and modify existing queries](../query-results.md)
-- [Filters](../filters.md)
+* [Copilot analytics playbook](https://aka.ms/CopilotAdvancedAnalytics)
+* [Access query results and modify existing queries](../query-results.md)
+* [Filters](../filters.md)

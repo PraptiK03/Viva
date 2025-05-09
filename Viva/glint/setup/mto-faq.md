@@ -11,95 +11,95 @@ ms.collection:
 - Microsoft 365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: faq
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/23/2024
+ms.date: 04/03/2025
 ---
 
 # Viva Glint for a multitenant organization FAQ
 
 Use these frequently asked questions as your company sets up multitenant organization (MTO), a Microsoft 365 feature that enables you to form a tenant group within your organization.
 
-## Why does my organization need to enable MTO for Glint?
+## Why does my organization need to enable MTO for Viva Glint?
 The [multitenant organization (MTO) capability in Microsoft 365](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview) allows organizations to manage multiple tenants under a single umbrella enabling secure collaboration and resource sharing across these tenants. Tenant admins create an MTO policy in the target tenant and add source tenants. This option was created for Viva Glint customers to seamlessly access the product like they currently do in LinkedIn Glint.
 
-## Are there any options for organizations who already use B2B collaboration or cross-tenant synchronization (CTS) to access Glint?
-Customers with B2B Collab or cross-tenant synchronization (CTS) can access Viva Glint. The following shows the Glint dashboard access and experience for each customer sync type:
+## Are there any options for organizations who already use B2B collaboration or cross-tenant synchronization (CTS) to access Viva Glint?
+Customers with B2B Collab or cross-tenant synchronization (CTS) can access Viva Glint. The following table shows the Viva Glint dashboard access and experience for each customer sync type:
 
 |Sync method   |Dashboard access and experience   |
 |:----------|:-----------|
-|**(Recommended)** An MTO policy and users synced with CTS or B2B collaboration.     |When logging into Glint with an MTO policy, users have to: <br><br> <ol><li>Enter credentials (Email and password)</li><li>Complete two-factor authentication</li><li>Access Glint</li></ol>       |
-|No MTO policy and users synced with CTS or B2B collaboration.     |When logging into Glint without an MTO policy, Glint can't identify a user's tenant. Users have to:  <br><br> <ol><li>Choose the "Sign in to an organization" sign in option</li><li>Enter the target tenant domain name</li><li>Enter credentials (Email and password)</li><li>Complete two-factor authentication</li><li>Access Glint</li></ol>      |
-|No sync method set up.    |**(Recommended)** Enable MTO and sync users with cross-tenant synchronization. [Learn more](glint-mto.md)    |
+|**(Recommended)** An MTO policy and users synced with CTS or B2B collaboration.     |When logging into Viva Glint with an MTO policy, users have to: <br><br> Enter credentials (Email and password)</li><li>Complete two-factor authentication</li><li>Access Viva Glint</li></ol>       |
+|No MTO policy and users synced with CTS or B2B collaboration.     |When logging into Viva Glint without an MTO policy, Viva Glint can't identify a user's tenant.<br><br> **In an Incognito or InPrivate browser**, users have to:  <br><br> Choose the "Sign in to an organization" sign in option</li><li>Enter the target tenant domain name</li><li>Enter credentials (Email and password)</li><li>Complete two-factor authentication</li><li>Access Viva Glint</li></ol>      |
+|No sync method set up.    |**(Recommended)** [Enable MTO and sync users with cross-tenant synchronization](glint-mto.md).   |
 
 ## If my organization chooses not to enable MTO, but uses B2B collaboration or CTS, can I send surveys to all users in multiple tenants?
-Microsoft 365 admins can install Glint to only one tenant - the target tenant. Glint isn't installed to source tenants. To access Glint to create and send surveys to all tenants:
+Microsoft 365 admins can install Viva Glint to only one tenant - the target tenant. Viva Glint isn't installed to source tenants. To access Viva Glint to create and send surveys to all tenants:
 
-1. A Glint admin user must be logged into the target tenant, where Glint is installed.
-1. All users from source tenants need to be synced to the target tenant with B2B collaboration or CTS and all users (across all tenants) must be imported to the Glint app.
-1. Glint admins can send a survey to all synced users or selected users from the target tenant and need to complete all survey setup actions in the target tenant. These users receive the survey but may not be able to access depending on if the organization chooses sign-in using Microsoft Entra ID as a survey access method.
+1. A Viva Glint admin user must be logged into the target tenant, where Viva Glint is installed.
+1. All users from source tenants need to be synced to the target tenant with B2B collaboration or CTS and all users (across all tenants) must be imported to the Viva Glint app.
+1. Viva Glint admins can send a survey to all synced users or selected users from the target tenant and need to complete all survey setup actions in the target tenant. These users receive the survey but may not be able to access depending on if the organization chooses sign-in using Microsoft Entra ID as a survey access method.
 
-|Users synced with B2B collab or CTS  |HRIS import to Glint app complete  |Require Azure AD (Microsoft Entra) for links in survey emails |Dashboard access for source tenant users |Survey access for source tenant users|
-|:----------|:-----------|:-----------|:-----------|:-----------|
-| Yes | No  | Yes | No | No |
-| Yes  | No | No | No | No |
-| No  | Yes  | Yes | No  | No |
-| No  | Yes  | No | No | Yes |
-| Yes | Yes  | Yes | Yes  | Yes |
-| Yes | Yes  | No | Yes  | Yes |
+|                                        |Users synced with B2B collab or CTS  |HRIS import to Viva Glint app |Microsoft Entra for  survey email links |Dashboard access for source tenant users |Survey access for source tenant users|
+|------------------|:----------|:-----------|:-----------|:-----------|:-----------|
+|**Scenario A**| Yes | No  | Yes | No | No |
+|**Scenario B**| Yes | No  | No | No | No |
+|**Scenario C**| No  | Yes | Yes | No  | No |
+|**Scenario D**| No  | Yes | No | No | Yes |
+|**Scenario E**| Yes | Yes | Yes | Yes  | Yes |
+|**Scenario F**| Yes | Yes | No | Yes  | Yes |
 
-## My organization doesn't use B2B collaboration or CTS but does have multiple tenants. Can all users access Glint?
+## My organization doesn't use B2B collaboration or CTS but does have multiple tenants. Can all users access Viva Glint?
 No. Consider this scenario, where a customer has two tenants:
 
-- Tenant A: The target tenant where Glint is installed
+- Tenant A: The target tenant where Viva Glint is installed
 - Tenant B: The source tenant
 
-If an organization has no sync method or MTO policy, only users in tenant A have access to Glint. All users in tenant B (including admins and dashboard users) don't have access to Glint because they aren't synced to target tenant A.
+If an organization has no sync method or MTO policy, only users in tenant A have access to Viva Glint. All users in tenant B (including admins and dashboard users) don't have access to Viva Glint because they aren't synced to target tenant A.
 
 ## My organization doesn't use B2B collaboration or CTS but does have multiple tenants. Can I still survey all users?
 Yes, but only under certain circumstances. Consider this scenario, where a customer has two tenants:
 
-- Tenant A: The target tenant where Glint is installed
+- Tenant A: The target tenant where Viva Glint is installed
 - Tenant B: The source tenant
 
-The tenant B admin doesn't have access to Glint to send surveys. The tenant A Glint admin can send all users across both tenants a survey if:
+The tenant B admin doesn't have access to Viva Glint to send surveys. The tenant A Viva Glint admin can send all users across both tenants a survey if:
 
-1. Users' HRIS data are imported to the Glint app.
+1. Users' HRIS data are imported to the Viva Glint app.
    1. Without this step, tenant A admins can only send surveys to users in tenant A.
-1. The tenant A Glint admin disables the requirement for users to sign in with Microsoft Entra ID to access surveys.
-   1. If an organization doesn't disable this access method, tenant B users receive survey emails but aren't able to access the Glint app.
+1. The tenant A Viva Glint admin disables the requirement for users to sign in with Microsoft Entra ID to access surveys.
+   1. If an organization doesn't disable this access method, tenant B users receive survey emails but aren't able to access the Viva Glint app.
 
-## Can we restrict MTO to just Glint? Does enabling MTO impact other Microsoft applications?
+## Can we restrict MTO to just Viva Glint? Does enabling MTO impact other Microsoft applications?
 Restricting MTO to specific app isn't currently possible. MTO setup impacts synced users' experience in any apps or features integrated with MTO, such as Microsoft Teams, Search, and People card.
 
 ## How long does it take to set up MTO?
 One working session of an hour with the Microsoft 365 or Microsoft Entra Admin should be enough to enable MTO and test. But, factor in another session in case you run into any problems.
 
-## How does MTO impact guest users? Can our organization add guest users without converting them to members?
+## How does MTO impact guests? Can our organization add guests without converting them to members?
 MTO uses any B2B collaboration or CTS and doesn't automatically change the external user setup.
 
-- B2B collaboration sets up the target tenant members as **external guest users** by default. These users are automatically added as external guests in MTO policy. Most customers don't hit the external guest maximum of 50,000 monthly average users (MAU). If an organization hits this limit, they can choose between keeping their guest users at an extra cost or converting them to member users.
+- B2B collaboration sets up the target tenant members as **external guest users** by default. These users are automatically added as external guests in MTO policy. Most customers don't hit the external guest maximum of 50,000 monthly average users (MAU). If an organization hits this limit, they can choose between keeping their guests at an extra cost or converting them to member users.
 - CTS sets up the target tenant members as **external member users** by default. These users are automatically added as external members in the MTO policy. There's an unlimited number of member users allowed.
 
 Learn more:
 
 - [Workforce tenant overview](/entra/external-id/what-is-b2b)
-- [Properties of a B2B guest user](/entra/external-id/user-properties)
+- [Properties of a B2B guest](/entra/external-id/user-properties)
 
 ## Can I give dashboard access to users outside of my target tenant?
-Yes. Admins need to add the users to the target tenant, import the users’ HRIS data to Glint, and share credentials with the users so they can access the Glint Dashboard.
+Yes. Admins need to add the users to the target tenant, import the users’ HRIS data to Viva Glint, and share credentials with the users so they can access the Viva Glint Dashboard.
 
 **If source tenants are Microsoft Entra ID tenants:**
 - Syncing users to the target tenant alone isn't enough because users still have their source tenant set to the home tenant.
-- To allow users to access Glint in the target tenant, implement an MTO policy and a user sync with B2B collaboration or CTS.
+- To allow users to access Viva Glint in the target tenant, implement an MTO policy and a user sync with B2B collaboration or CTS.
 
 **If source tenants aren't Microsoft Entra ID tenants:**
 - Add users directly to the target tenant.
 - An MTO policy and user sync aren't needed because these users have the target tenant as their home tenant in Microsoft Entra.
 
 ## Can our organization set up one tenant now and add others later?
-Yes. If you currently have multiple tenants, you can migrate and access Glint with your primary tenant to start with.
+Yes. If you currently have multiple tenants, you can migrate and access Viva Glint with your primary tenant to start with.
 
 ## Are there any licensing requirements?
 To access Viva Glint, **a tenant does not need to have a P1 license**. The only requirement is for the target tenant to subscribe to Viva suite or Viva Glint. 
@@ -108,13 +108,16 @@ A P1 license is required to set up an MTO policy and if your organization access
 
 |Item |License requirements  |
 |:----------|:-----------|
-| MTO | Requires Microsoft Entra ID P1 licenses. Only one Microsoft Entra ID P1 license is required per employee per multitenant organization. Also, you must have at least one Microsoft Entra ID P1 license per tenant. [Learn more](https://go.microsoft.com/fwlink/?linkid=2282509).  |
-| CTS only | Requires Microsoft Entra ID P1 licenses. Each user who is synchronized with cross-tenant synchronization must have a P1 license in their home/source tenant. [Learn more](https://go.microsoft.com/fwlink/?linkid=2286123). |
-| B2B collab only  | Billing is based on monthly active users (MAU), which is the count of unique external users who authenticate to your tenants within a calendar month. To determine the total number of MAUs, we combine MAUs from all workforce and external tenants that are linked to a subscription. <br><br> For B2B collaboration in multitenant organizations, this billing model applies only to external users with a UserType of Guest. It doesn’t apply to external members that originate from within the multitenant organization, which have a UserType of Member.<br><br>External ID consists of a core offer and premium add-ons. The Microsoft Entra External ID core offering is free for the first 50,000 MAU. [Learn more](/entra/external-id/external-identities-pricing)   |
+| MTO | Requires Microsoft Entra ID P1 licenses. Only one Microsoft Entra ID P1 license is required per employee per multitenant organization. Also, you must have at least one Microsoft Entra ID P1 license per tenant. [MTO license requirements](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview#license-requirements).  |
+| CTS only | Requires Microsoft Entra ID P1 licenses. Each user who is synchronized with cross-tenant synchronization must have a P1 license in their home/source tenant. [CTS license requirements](/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-overview#license-requirements). |
+| B2B collab only  | Billing is based on monthly active users (MAU), which is the count of unique external users who authenticate to your tenants within a calendar month. To determine the total number of MAUs, we combine MAUs from all workforce and external tenants that are linked to a subscription. <br><br> For B2B collaboration in multitenant organizations, this billing model applies only to external users with a UserType of Guest. It doesn’t apply to external members that originate from within the multitenant organization, which have a UserType of Member.<br><br>External ID consists of a core offer and premium add-ons. The Microsoft Entra External ID core offering is free for the first 50,000 MAU. [B2B collaboration licensing and pricing](/entra/external-id/external-identities-pricing#external-id-pricing)   |
 | No sync | No license requirement due to no sync options.  |
 
-## Are there any additional costs associated with enabling MTO?
+## Are there any other costs associated with enabling MTO?
 No.
+
+## Does our organization need to make [allowlist updates](allowed-list.md) for all tenants in our MTO?
+No, allowlist updates only need to be made to target tenants where the Viva Glint app is installed.
 
 ## Related resources
 
@@ -132,7 +135,7 @@ No.
 **B2B collaboration**: 
 
 - [Configure cross-tenant access settings for B2B collaboration](/entra/external-id/cross-tenant-access-settings-b2b-collaboration)
-- [Bulk invite guest users for B2B collaboration](/entra/external-id/tutorial-bulk-invite)
+- [Bulk invite guests for B2B collaboration](/entra/external-id/tutorial-bulk-invite)
 - [B2B monthly active user (MAU) licensing](/entra/external-id/external-identities-pricing)
 
 **Cross-tenant synchronization**: 

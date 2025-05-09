@@ -10,7 +10,7 @@ f1.keywords: NOCSH
 ms.collection:
   - magic-ai-copilot
   - M365initiative-vivam365initiative-viva-pulse
-ms.date: 1/27/2024
+ms.date: 1/27/2025
 ms.topic: overview
 ms.service: viva-pulse
 ms.localizationpriority: medium

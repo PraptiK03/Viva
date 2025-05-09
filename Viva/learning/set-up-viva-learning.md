@@ -4,9 +4,9 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/16/2024
+ms.date: 03/14/2025
 audience: admin
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
@@ -37,6 +37,10 @@ To set up learning content sources in Viva Learning and manage individual licens
 - [Knowledge admin](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
 
 The knowledge admin is a Microsoft Entra role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources. For more information, see [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator) and [Overview of Microsoft Learning](overview-viva-learning.md).
+
+> [!NOTE]
+> Viva Learning doesn't support user-based permissions. Only the Microsoft 365 and Mail enabled security group (MESG) group types are supported. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or MESG permissions.
+
 
 ## Set up Viva Learning
 

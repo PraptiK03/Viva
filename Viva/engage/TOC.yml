@@ -22,6 +22,8 @@
        href: /viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage
    - name: Setup and administration
      items:
+     - name: Access admin center for any Viva Engage deployment
+       href: admin-howto-access-admin-center-in-ve.md
      - name: Viva Engage admin center overview 
        href: eac-overview.md
      - name: Key concepts for Engage admins
@@ -42,6 +44,8 @@
           href: /viva/engage/configure-your-viva-engage-network/configure-native-mode
         - name: Step-by-step guide for Native Mode
           href: native-mode-guide.md
+        - name: Set up modern external Viva Engage networks
+          href: /viva/engage/configure-your-viva-engage-network/modern-external-networks
         - name: Consolidate multiple networks
           href: /viva/engage/configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks
         - name: Manage domains in Microsoft 365
@@ -84,12 +88,8 @@
        items:
         - name: Work with external groups not aligned to Native Mode
           href: /viva/engage/work-with-external-users/create-and-manage-external-groups
-        - name: Create and manage an external network
-          href: /viva/engage/work-with-external-users/create-and-manage-an-external-network     
         - name: Collaborate with guests in a community
           href: /viva/engage/work-with-external-users/collaborate-guests-external-viva-engage-community
-        - name: Find external participants
-          href: /viva/engage/work-with-external-users/find-external-participants
         - name: Add external participants
           href: /viva/engage/work-with-external-users/add-external-participants
         - name: Disable external messaging
@@ -167,8 +167,6 @@
       - name: Viva Engage and Microsoft Defender
         href: /viva/engage/viva-engage-and-defender
       - name: Social experience options in SharePoint 
-        href: /viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed
-      - name: Add a feed to a SharePoint page
         href: /viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site
       - name: Migrate your classic feeds in SharePoint 
         href: /viva/engage/integrate-viva-engage-with-other-apps/migrate-classic-to-conversations-webparts

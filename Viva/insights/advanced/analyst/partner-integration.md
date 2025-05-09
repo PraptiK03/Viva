@@ -1,11 +1,11 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 04/01/2022
+ms.date: 04/02/2025
 title: Viva Insights partner integration
 description: Learn how to integrate Microsoft Viva Insights and partner application data for more advanced analysis
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: integration
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
@@ -471,7 +471,7 @@ Yes. Here’s what you need to do. For more information, refer to [Import Key](/
 
 ### Q7. How do I programmatically create and store RSA keys?
 
-To programmatically generate RSA keys, refer to the [Create Key REST API](/rest/api/keyvault/keys/create-key/create-key) (or the [C#](/dotnet/api/azure.security.keyvault.keys.keyclient.creatersakey) or [Java SDK](https://azuresdkdocs.blob.core.windows.net/$web/java/azure-security-keyvault-keys/4.2.3/index.html) methods). This method also stores the RSA into the specified Key Vault.
+To programmatically generate RSA keys, refer to the [Create Key REST API](/rest/api/keyvault/keys/create-key/create-key) (or the [C#](/dotnet/api/azure.security.keyvault.keys.keyclient.creatersakey) or Java SDK methods). This method also stores the RSA into the specified Key Vault.
 
 
 ### Information for customers

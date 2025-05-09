@@ -1,11 +1,11 @@
 ---
 
-ms.date: 11/07/2019
+ms.date: 4/01/2025
 title: Configure Briefing email
 description: Steps for admins to configure Briefing email for their organization
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 search.appverid:
 - MET150

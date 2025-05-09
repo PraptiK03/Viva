@@ -5,7 +5,7 @@ title: Best practices for avoiding email overload
 description: Get best practice recommendations for managers about how to avoid email overload
 author: madehmer
 ms.author: helayne
-ms.topic: article
+ms.topic: best-practice
 ms.localizationpriority: medium 
 ms.service: viva-insights
 manager: scott.ruble

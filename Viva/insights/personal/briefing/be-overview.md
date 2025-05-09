@@ -5,7 +5,7 @@ title: Briefing email overview
 description: About the Briefing email and how to use it to help with your workday
 author: madehmer
 ms.author: helayne
-ms.topic: conceptual
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

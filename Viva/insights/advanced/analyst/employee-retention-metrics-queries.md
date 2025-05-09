@@ -5,7 +5,7 @@ title: What metrics and queries can be accessed in Viva Insights and in Glint?
 description: Provides an overview of the relevant metrics and queries needed to build an employee retention model.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: integration
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

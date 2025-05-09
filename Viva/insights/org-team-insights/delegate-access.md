@@ -4,7 +4,7 @@ title: Delegate access to organizational insights and Copilot Dashboard
 description: Learn how to delegate access to organization insights and Copilot Dashboard in Viva Insights.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection:
  - viva-insights-advanced
@@ -26,7 +26,7 @@ There are no changes to the metrics, aggregation, or filtering tools available t
 >[!Note]
 >To view and delegate access to organizational insights, you need a Viva Insights subscription and must be assigned the Group Manager role. [Learn more about roles and access for organizational insights](org-insights.md#subscriptions-roles-and-access).
 >
->To view and delegate access to the Copilot Dashboard, you need to have access to the dashboard, but neither the Group Manager role nor a Viva Insights subscription is required. [Learn more about how access to the Copilot Dashboard is determined](copilot-dashboard.md#how-access-to-the-copilot-dashboard-is-determined).
+>To view and delegate access to the Copilot Dashboard, you need to have access to the dashboard, but neither the Group Manager role nor a Viva Insights subscription is required. [Learn more about how access to the Copilot Dashboard is determined](copilot-dashboard.md#how-automatic-access-to-the-copilot-dashboard-is-determined).
 >
 >Viva Insights admins can also delegate access to organizational insights and the Copilot Dashboard on your behalf using PowerShell.
 
@@ -99,7 +99,7 @@ Employees who need delegate access can request it for organizational insights (n
 
 5. Enter the name of the group manager or group managers from whom you'd like to request access. You can also add an optional note. Select **Send request**.
 
-    :::image type="content" source="images/request-delegate-access-01.png" alt-text="Screenshot showing how to request delegate access.":::
+    :::image type="content" source="images/request-delegate-access-02.png" alt-text="Screenshot showing how to request delegate access.":::
 
 6. If you're the group manager who was selected in the step above, you'll receive a notification in Teams about the request. To approve or deny the request, select **Go to settings**. 
 

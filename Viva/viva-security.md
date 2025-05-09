@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 5/08/2024
+ms.date: 05/05/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -61,7 +61,7 @@ When you’re setting up Viva Connections, be sure to [confirm who has access to
 For more information about Viva Connections, see [Overview of Viva Connections](connections/viva-connections-overview.md).
 
 ### Viva Engage
-The admin tools in Viva Engage help protect your Engage data and determine who can access your Engage network, along with controlling access, managing users, providing secure access on mobile devices via Microsoft Intune, [assigning roles](engage/eac-key-admin-roles-permissions.md), and limiting file uploads. The Engage admin can set up and configure Engage for your organization and manage data, network-related settings, and the various core or premium features within the application. To make someone an Engage admin, make them an [Viva Engage administrators](/microsoft-365/admin/add-users/assign-admin-roles) in Microsoft Entra ID.
+The admin tools in Viva Engage help protect your Engage data and determine who can access your Engage network, along with controlling access, managing users, providing secure access on mobile devices via Microsoft Intune, [assigning roles](engage/eac-key-admin-roles-permissions.md), and limiting file uploads. The Engage admin can set up and configure Engage for your organization and manage data, network-related settings, and the various core or premium features within the application. To make someone an Engage admin, make them a [Viva Engage administrators](/microsoft-365/admin/add-users/assign-admin-roles) in Microsoft Entra ID.
 
 For more information about security in Viva Engage, see 
 [Configure and review privacy and security settings](engage/setup.md#configure-and-review-privacy-and-security-settings).
@@ -72,8 +72,6 @@ Microsoft Glint is a people-driven platform that provides visibility into the he
 This happens through the analysis of Microsoft 365 collaborative data and organizational (HR) data that you provide or that's used in Microsoft Entra ID.
 Because of the potential sensitivity about how data could be used, Viva Glint uses role-based access to control who has access. [Learn about assigning roles for viewing feedback in reporting.](https://go.microsoft.com/fwlink/?linkid=2230740)
 
-### Viva Goals
-Microsoft Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business. For information about security in Viva Goals, see [Viva Goals security, privacy, and compliance](goals/vg-privacy-and-security.md).
 
 ### Viva Insights
 Microsoft Viva Insights produces useful insights about how your organization and employees function by analyzing Microsoft 365 collaboration data and organizational (HR) data that you provide or that's used in Microsoft Entra ID. 

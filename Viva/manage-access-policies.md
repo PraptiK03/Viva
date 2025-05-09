@@ -4,11 +4,11 @@ ms.reviewer: elizapo
 ms.author: loreenl
 author: loreenl
 manager: elizapo
-ms.date: 01/24/2025
+ms.date: 02/18/2025
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-suite
 ms.localizationpriority: medium
 ms.custom:
@@ -57,6 +57,7 @@ Before you can create an access policy, use the **ModuleID** to get the **featur
 |App|ModuleID|
 |-|-|
 |Engage|VivaEngage|
+|Glint|VivaGlint|
 |Goals|VivaGoals|
 |Insights|VivaInsights|
 |Pulse|VivaPulse|

@@ -3,11 +3,11 @@ title: "Include a Viva Engage feed in a SharePoint page"
 f1.keywords:
 - NOCSH
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
-ms.date: 05/01/2024
+ms.date: 02/18/2025
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.service: viva-engage
 ms.custom: Adm_Yammer
@@ -134,7 +134,7 @@ The following procedures describe how to add a group feed, my feed, or page feed
       > [!NOTE]
       > You can change the height and width parameters as needed.
 
-     This example shows an open graph feed for a web page, but you can create feeds for other open-graph objects. If you're interested in using the Viva Engage Embed widget to add Viva Engage feeds to your SharePoint pages, see [Add the Viva Engage Embed widget to a SharePoint page](/viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed).
+     This example shows an open graph feed for a web page, but you can create feeds for other open-graph objects.
     
 ### Step 3: Paste in the script, and publish the SharePoint page.
 
@@ -142,5 +142,3 @@ The following procedures describe how to add a group feed, my feed, or page feed
     
     >[!NOTE]
     >For the Highlights (Classic mode) and the Viva Engage embed script experiences, when you add a Viva Engage My Feed/Home feed to a SharePoint page, you'll see different messages than the ones included in the Home feed available in Viva Engage web, desktop, or mobile. The following feed for users contains messages from people, topics, and files they follow. The My Feed contains messages from All Company and the user's following feed. In Viva Engage web, desktop, and mobile, users can select Discovery, All, or Following feeds, but these options aren't available in SharePoint pages. The My Feed/Home feed type is closest to the All feed but doesn't include public posts in public groups the user doesn't belong to.<br><br>
-
-If you want Viva Engage to be the primary social experience for SharePoint, see [SharePoint enterprise social experience](/viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed).

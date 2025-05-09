@@ -1,6 +1,6 @@
 ---
-title: Viva Glint Always-On Feedback surveys
-description: Viva Glint Always-On Feedback surveys provide insight on any topic, at any time, from any group of people in your organization.
+title: Set up a Microsoft Viva Glint Always-On survey
+description: Microsoft Viva Glint Always-On Feedback surveys provide insight on any topic, at any time, from any group of people in your organization.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: melissabarry
@@ -11,74 +11,83 @@ ms.collection:
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/30/2024
+ms.date: 03/07/2025
 ---
 
-# Viva Glint Always-On Feedback surveys
+# Set up a Microsoft Viva Glint Always-On survey
 
-Always-On Feedback surveys provide insight on any topic, at any time, from any group of people in your organization. Always-On Feedback helps leaders make timely decisions about how best to invest in their people and programs. Different than scheduled surveys, Always-On surveys are ready to provide insights in real time.
+Microsoft Viva Glint Always-On feedback surveys provide insight on any topic, at any time, from any group of people in your organization. Different than scheduled or recurring programs, Always-On surveys are always open and ready for users to provide insights in real time. Ideally, Always-On surveys are quick and easy to complete in a few minutes. [Learn about survey types](/viva/glint/start/program-types-templates#types-of-surveys).
 
-An Always-On surveys should be:
-- communicated to clarify:
-  - why it is different than a scheduled survey
-  - why the information is being collected
-  - what you intend to learn from and do with the data.
-- quick and easy to complete. Keep surveys under five minutes; they should take no longer than three minutes to complete.
+## Potential use cases
 
-Always-On surveys provide specific information about a topic, whether it be programmatic, problem-specific, or strategy-driven. The platform delivers results like averages and comparisons to relevant benchmarks, complex pattern recognition, and business outcome linkage. Unstructured data like comments and suggestions are summarized, and the themes are uncovered by Viva Glint's Narrative Intelligence engine.
+Always-On surveys should pair with the timing of an event, initiative, or situation that your organization wants continuous feedback on:
 
-**Consider these use cases:**
-
-- Track engagement confidence levels before and after a major event.
+- Determine engagement confidence levels before and after a major event.
 - Get suggestions for improving policies and procedures.
-- Ask people during a tough time, “What can leaders do to support you right now?” 
-- Are recent expats feeling supported in their new countries, especially given recent updates to the expat program?
-- How confident are employees in our new product strategy?
-- What are the most outstanding actions people saw their colleagues do this month to help improve our company?
+- Ask people during a tough time, "What can leaders do to support you right now?" 
+- Determine whether recent expats feel supported in their new countries.
+- Ask how confident employees are in a new product strategy.
 
-## Drive a successful program
+> [!NOTE]
+> Always-On surveys don't include a Communications section or send any notifications to users. Viva Glint admins need to handle Always-On survey notifications outside of the platform.
 
-Consider these aspects:
+## Survey access methods
 
-### Response Rate
+Always-On surveys don't include a Communications section or any notifications from the platform. Personalized survey links can only be delivered in Viva Glint emails, but Viva Glint admins can choose from two other access methods for Always-On surveys:
 
-You can send Always-On pulses to all your employees or a subset of employees. Participation is based on a few key aspects: the timeliness of the feedback being gathered, accessibility to the survey, reminders to provide input, and visible actions taken as a result of past feedback. 
+1. [Attribute-based access](attribute-based-survey-access.md)
+2. [Authentication with Microsoft Entra ID](understand-survey-access-methods.md#authentication-with-microsoft-entra-id)
+   
+## How to set up an Always-On survey
 
-#### Response rate calculation
+To create a new Always-On survey:
 
-Always-On surveys are open-ended and aren't calculated in the same manner as other Viva Glint survey types. Response rate percentage for Always-On surveys are calculated as follows:  
-> Number of participants who submitted the survey divided by the total number of participants who started the survey. This includes respondants who may have submitted the survey more than once, which is permitted.
-
-### Communication strategy
-
-Always-On surveys should pair with the timing of an event, initiative, or situation. Manage your communication strategy to clarify why the feedback is requested, what it supports, how it's intended to be used, and when employees can expect to hear results. 
-
-Send reminders in case the initial communication is missed.
-
-### Insight to Actions
-
-Consider the specific topic of your survey and focus of the question/item set. Look at what percent of the population responded and the breakdown of those responses to ensure there wasn't bias towards a certain segment of employees, a certain set of experiences, or a certain set of perspectives. If you've fumbled, consider relaunching the survey to increase diverse feedback or host in-person meetings to gather more representative information. Now review the results to identify hot spots and bright spots, while using comment data to deepen your understanding of the feedback. Identify actions to take and create a strategy to move forward.
-
-### Communication Loop
-
-The entire communication loop from launch to survey close to the sharing of insights and actions supports the quantity and quality of employee feedback in the short and long-term. It provides visibility into how employee input positively impacts the organization. Communicate the results of the survey with the populations it impacts and keep them updated on the progress. Consider setting up discussion groups and follow-up meetings to further share and dive into the data.
-
-## Take action
-
-Team action depends on the type of Always-On survey. The link between employee input to visible actions shows that your company appreciates and uses feedback. Similar to broader, scheduled surveys, choose only one or two action areas. This process sets up the team for success.
-
-## Procedure for admin to set up an Always-On survey
-
-1. From the admin dashboard, select **Configure.**
+1. From the admin dashboard, select **Configuration.**
 2. In the **Surveys** section, select **Survey Programs.**
 3. Select **+ New Program.**
-4. Select the **Blank Always-On template card.** Select **Create Program.**
+4. Choose from the **Distress Survey Always-On template** or the **Blank Always-On template** in the **Always-On Feedback** section.
 
-   :::image type="content" source="../../media/glint/setup/always-on-card-2.png" alt-text="Screenshot of the Always-On Feedback template card.":::
+   :::image type="content" source="../../media/glint/setup/always-on-survey-templates.png" alt-text="Screenshot of Viva Glint Always-On survey templates which can be preloaded with questions or blank.":::
+   
+5. Hover over a template and select **Create Program.**
+6. After creating a new program from a template, follow the guidance listed for each section of your Always-On survey setup.
 
-5. Now title your survey and follow the steps to set up the five pages within [**Program Summary**](/viva/glint/setup/program-summary-overview).
+   |:::image type="icon" source="/office/media/icons/administrator.png" :::  |Setup section |Description|
+   |:----------|:-----------|:------------|
+   | :::image type="icon" source="/office/media/icons/settings.png" :::  |[Program Setup](program-set-up.md)        |Define basics like languages, optional features, and confidentiality settings.  <br> ***See Important callout.**      |
+   | :::image type="icon" source="/office/media/icons/users-people.png" :::   |[Distribution](distribution-program-summary.md)        |Select Distribution Lists or User Roles to include in or exclude from the survey invite list.        |
+   | :::image type="icon" source="/office/media/icons/help.png" :::  |[Questions](questions-setup.md)       | Add survey introduction text, select questions, and add a survey thank you message.      |
+   | :::image type="icon" source="/office/media/icons/usage-report-blue.png" :::  |[Reporting](reporting-setup.md)       |  Define which roles have access to this survey's results and determine key reporting views.      |
+   | :::image type="icon" source="/office/media/icons/chat-room-conversation-blue.png" ::: |[Coaching](program-summary-coaching.md)       | Confirm or customize content that helps users interpret results on their dashboards.    |
 
-   :::image type="content" source="../../media/glint/setup/always-on-setup.png" alt-text="Screenshot of the Always-On survey setup in Program Summary." lightbox="../../media/glint/setup/always-on-setup.png":::
+> [!IMPORTANT]
+> **For Always-On surveys**, if the **Waiting period between surveys** field is edited after a survey generates for an employee, the change only impacts new surveys generated for that employee. The original waiting period is enforced for surveys scheduled and generated.
+
+
+7. [Preview your survey](preview-filter-lifecycle-programs.md#preview-your-survey) after completing each setup section.
+   
+8. [Review survey setup](survey-qa.md) before enabling for your organization.
+
+9. [Customize this email template to introduce your organization to Viva Glint programs and this Always-On survey](/viva/glint/start/introductory-emails?branch=pr-en-us-10011#email-template-7---announce-survey-launch-to-entire-organization).
+    
+10. Enable your Always-On survey when you're ready to make it available to your organization.
+   1. Use the toggle at the top of the page to switch the survey to **Approved**.
+   2. Hover over the survey card on the left and select **Enable Survey**.
+   3. Select **Yes, enable the survey** in the **Enable Survey** dialog. The survey tile changes from gray to blue and displays response rate as users submit surveys.
+  
+
+
+> [!IMPORTANT]
+> After an Always-On survey is enabled for the first time, Viva Glint admins can make edits by switching the Approved toggle to **Off**. When an admin reapproves the survey in the future, the survey **auto-enables**.
+
+## Understand how response numbers show in Always-On reporting
+
+The default report timing for Always-On surveys is 90 days. Sometimes people in your organization may take the survey frequently - the waiting period is less than 90 days. How is this data counted?
+ - The responses number shows for unique users only. Repeat survey takers count only once.
+ - Multiple responses submitted by a single user are counted in the aggregate and the multiple choice report.
+
+> **Example**
+> Your organization has a survey with waiting period of one (1) day and the survey includes multiple-choice questions where only one option can be selected. The 90-day default report shows the number of unique user responses, but the multiple choice for a demographic, hierarchy, or a team adds up to more than 100%. 

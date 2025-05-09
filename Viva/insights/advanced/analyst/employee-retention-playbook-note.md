@@ -1,11 +1,11 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 11/17/2023
+ms.date: 4/2/2025
 title: Retention model Playbook end note
 description: Final note and thank you for the employee retention model playbook.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: integration
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

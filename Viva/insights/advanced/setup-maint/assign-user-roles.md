@@ -4,7 +4,7 @@ title: Assign roles
 description: Learn how to assign Insights Administrator, Insights Analyst, and Insights Business Leader roles to users in your organization
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
@@ -117,6 +117,4 @@ Manager isn't technically a role that can be assigned. The Insights admin can en
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Configure manager settings](./manager-settings.md)
-
-*Applies to: Insights Administrator*
+> [Enable or disable advanced insights with PowerShell](./control-advanced-insights-powershell.md)

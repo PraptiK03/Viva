@@ -5,7 +5,7 @@ title: Improve model performance
 description: Provides an overview of steps that can be taken to make the employee retention model even more useful.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

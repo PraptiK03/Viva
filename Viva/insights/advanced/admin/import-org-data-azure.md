@@ -4,7 +4,7 @@ title: Import organizational data with Azure blob import
 description: Learn how to import organizational data into Viva Insights through an Azure blob import.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights

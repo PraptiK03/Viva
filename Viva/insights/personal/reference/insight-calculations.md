@@ -5,7 +5,7 @@ title: Meeting and communications in Viva Insights reference
 description: Learn how Viva Insights calculates some meeting- and communications-related insights
 author: zachminers
 ms.author: v-zachminers
-ms.topic: conceptual
+ms.topic: reference
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

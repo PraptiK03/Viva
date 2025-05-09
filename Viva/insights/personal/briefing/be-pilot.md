@@ -1,11 +1,11 @@
 ---
 
-ms.date: 05/13/2020
+ms.date: 04/2/2025
 title: Conduct a user pilot
 description: Helps you conduct a pilot rollout for the Briefing email
 author: madehmer
 ms.author: helayne
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

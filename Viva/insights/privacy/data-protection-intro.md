@@ -5,7 +5,7 @@ title: Data protection and Viva Insights
 description: Summarizes how your data is kept private and protected within Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
-ms.topic: conceptual
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.collection: 
 - viva-insights-personal

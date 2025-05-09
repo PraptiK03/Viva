@@ -3,8 +3,6 @@
       items:    
         - name: Overview of Viva Learning
           href: overview-viva-learning.md
-        - name: What's New 
-          href: whats-new.md
         - name: Set up Viva Learning
           href: set-up-viva-learning.md
         - name: Customize Viva Learning
@@ -29,6 +27,10 @@
           href: configure-lms.md
         - name: Delete learning content sources
           href: delete-content-source.md
+        - name: Manage data sync 
+          items: 
+            - name: Provider setup and sync issues
+              href: provider-setup-sync-issues.md 
         - name: SAP SuccessFactors
           items:
           - name: Overview of SAP SuccessFactors integration
@@ -69,6 +71,8 @@
           href: configure-cornerstone-content-source.md
         - name: Saba
           href: configure-saba-content-source.md
+        - name: AI and Copilot resources
+          href: ai-and-copilot-resources.md 
         - name: Add other content providers
           href: configure-other-content-sources.md
           items:
@@ -135,14 +139,5 @@
     - name: Microsoft 365 Copilot
       items:
         - name: Microsoft Copilot Academy
-          href: academy-copilot.md  
-    - name: Troubleshoot
-      items:
-        - name: Learning management systems
-          items:
-            - name: Content ingestion errors when adding an LMS
-              href: /viva/troubleshoot/learning/lms-content-ingestion-errors?toc=/viva/learning/toc.json&bc=/viva/breadcrumb/toc.json
-        - name: Content providers
-          items:
-            - name: Content ingestion errors when adding a content provider
-              href: /viva/troubleshoot/learning/provider-content-ingestion-errors?toc=/viva/learning/toc.json&bc=/viva/breadcrumb/toc.json
+          href: academy-copilot.md
+          

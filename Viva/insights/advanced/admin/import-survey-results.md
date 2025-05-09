@@ -4,13 +4,13 @@ title: Import survey results
 description: Learn how to import survey results to the advanced insights app
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights
 manager: anirudhbajaj
 audience: Admin
-ms.date: 06/30/2023
+ms.date: 04/2/2025
 ---
 
 # Import survey results

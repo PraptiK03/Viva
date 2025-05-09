@@ -1,5 +1,5 @@
 ---
-ms.date: 02/07/2024
+ms.date: 03/06/2025
 title: Introduction to Microsoft Viva Goals
 ms.reviewer: 
 ms.author: daisyfeller

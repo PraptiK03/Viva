@@ -19,8 +19,9 @@ description: Learn how to manage catalog access in Microsoft Viva Learning to re
 
 # Manage Catalog Access in Viva Learning
 
-All content available in Viva Learning is discoverable by all users in the organization by default.  
-Catalog access management allows you to restrict the ability of select users to view and discover courses. This process lets your organization control whether a learning object is visible to a learner in Viva Learning.
+All users in your organization can discover all content available in Viva Learning as part of the default experience.
+
+Catalog access management lets you restrict the ability of select users to view and discover courses. This process lets your organization control whether a learning object is visible to a learner in Viva Learning.
 
 Depending on your integration with Viva Learning, there are two methods by which your organization can control the access permissions:
 

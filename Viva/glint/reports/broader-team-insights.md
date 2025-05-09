@@ -1,87 +1,105 @@
 ---
 title: Use Viva Glint’s Broader Team Insights feature
-description: "Broader Team Insights bridges the confidentiality-driven gap for managers of small teams that may not have enough team members or survey responses to view their own team’s responses."
+description: Broader Team Insights bridges the confidentiality-driven gap for managers of small teams that may not have enough team members or survey responses to view their own team’s responses.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: Melissa Barry
 audience: admin
-f1.keywords: small teams, 
+f1.keywords: small teams, confidentiality threshold, live access, direct reports, rollup reports
 keywords: viva strengths and opportunities
 ms.collection:  
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/28/2024
+ms.date: 04/25/2025
 ---
 
 # Use the Viva Glint Broader Team Insights feature
 
-Team leaders who use Microsoft Viva Glint’s action taking tools see a significant increase in scores. However, up to 50% of managers’ teams are too small to allow them access to their own team’s results. By enabling Broader Team Insights (BTI), managers are empowered to significantly impact employee engagement.  
+Managers’ teams are often too small to allow them access to their own team’s survey results. Microsoft Viva Glint considers a small team as a team with less than five team members or a team who's survey respondents didn't meet the required confidentiality threshold. Empower managers of small team managers with feedback and action-taking capabilities by enabling the Broader Team Insights (BTI) bridges feature. 
 
-## Empower managers of small teams 
+And BTI isn't only limited to managers of small teams. Team leaders at all levels who use BTI are better able to anchor their team’s feedback in the context of their larger department. Enabling BTI empowers all managers to impact employee engagement, even when their own team's data can't be viewed or shared. 
 
-Managers of small teams may not have enough team members with overall size or response rate size - to view their own team’s survey responses. Glint considers this number to be a team of five or less respondents. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights helps to bridge that gap. 
+The BTI dashboard shows a high-level summary of a **direct team leader’s** results or **rollup hierarchy results**. BTI provides:
 
-Broader Team Insights isn't only limited to managers of small teams. Team leaders at all levels who use Broader Team Insights are better able to anchor their team’s feedback in the context of their larger department, have better conversations, and align actions.
-
-## What does the Broader Team Insights dashboard show?   
-
-The Broader Team Insights dashboard allows managers to review a high-level summary of their direct team leader’s results. For small team managers who don't have access to their own team’s results, this provides: 
-
-- Visibility into their broader team’s opportunity areas 
+- Visibility into broader team’s strengths and opportunities 
 - Access to dashboard and action-taking capabilities
 - Starters for ACT and 1:1 conversations
-- Ownership and accountability for their team’s engagement scores
+- Ownership and accountability for their team’s scores
 
-By enabling bottom-up change, you can create more engaged people, align teams, and promote greater business performance.
+When a role has BTI enabled, cascaded results are based on custom permissions set by the admin. 
 
-## Access Broader Team Insights
+When feedback results are ready, the manager receives an email with a link to view their results. The email may indicate that while results are available, there's no access to the manager's own results. However, with BTI enabled, a summary of results of the next team who did meet confidentiality requirements are available for reviewing and sharing. Managers can follow in-platform guidance.
 
-When results are ready, the team manager receives an email with a link to view results. When selecting this link, however, a message indicates that while there is no access to their own team’s results (because confidentiality standards weren't met), a summary of the broader team’s results are available for reviewing and sharing.
+### See an example of direct BTI reporting
 
-This BTI summary report view provides this manager the opportunity to see guidance on how to have a conversation with their own team about the BTI results and an abbreviated view of the Executive Summary report.
+This example shows how a manager can view **"direct's"** BTI reports:
 
-## Set up Broader Team Insights
+> Terence, manager of a small team, sees a message on the dashboard stating their own team results aren't available. With BTI enabled, however, a message shows with guidance on how to view a BTI summary.
+>
+> Without BTI enabled, Terence can't see feedback results.
+> 
+> :::image type="content" source="../../media/glint/reports/direct-without-bti.png" alt-text="Screenshot of a small team's managers reporting viewing without BTI.":::
+> 
+> With BTI, Terence can view the reports of their **direct leader's team**. Kira's results show, and they include data from Terence's team's responses.
+> 
+> :::image type="content" source="../../media/glint/reports/direct-with-bti.png" alt-text="Screenshot of a small team manager's reporting view with BTI.":::
+> 
+> In the summary view, Terence views customized guidance on how to have a team conversation about the broader results. An abbreviated view of the executive 
+summary report is available. The summary report is also accessible from the Reports tab.
+>
 
-From the admin dashboard, Broader Team Insights is enabled following this procedure: 
 
-1. Select **Survey Programs**.
-1. Select the program name to be enabled. 
-1. Select **Reporting**. 
+### See an example of rollup BTI reporting
 
-### Set up Program Roles 
+While BTI is essential for supporting managers of small teams, it also benefits managers of large teams. With Broader Team Insights, managers with their own results also see a summary with the added context of their rollup hierarchy. This functionality increases transparency across the organization. 
 
-The first section in **Reporting** is **Program Roles**. In this section, customize how your dashboard displays results and when your people can view survey results. This section allows set up by specific roles. 
+This example shows how a manager can view **"rollup"** BTI reports:
 
-   > [!NOTE]
-   >When a manager is in a role with Broader Team Insights enabled, cascaded results are based on their custom permissions, irrespective of their rollup managerial hierarchy. Decide whether this role’s reports are visible to directs only or are visible to their entire roll-up hierarchy. **ON** enables sharing of report. **OFF** disables the role from sharing reports.
+>Without BTI enabled, Kira can see their own results and rollup results from lower on the organizational chart. Kira can't see higher level manager reports.
+>
+>:::image type="content" source="../../media/glint/reports/rollup-without-bti.png" alt-text="Screenshot of an organizational chart without BTI.":::
+>
+>With BTI enabled, Kira can also see a higher level manager's results.
+>
+>:::image type="content" source="../../media/glint/reports/rollup-with-bti.png" alt-text="Screenshot of a small team's organizational chart with BTI.":::
 
-- Use the dropdown menu to assign report visibility to direct report or roll-up hierarchy. 
-- The padlock icon symbolizes that this role isn't editable on this page and can only be edited in **Program Setup**.
-- Hovering over a role displays the trash can symbol. Select the **trash can** to remove that role.
+## Enable Broader Team Insights
+
+1. From your admin dashboard, select **Survey Programs**.
+1. In **Program Summary**, navigate to the **Reporting** tab. Choose the down-facing arrow to set up or view permissions for a role. 
+1. In the **Reporting section**, on the **Broader Team Insights** row, **ON** enables sharing of the BTI report. **OFF** disables the role from sharing or viewing reports.
+2. Use the dropdown menu to choose between:
+  - **Visible to Direct Reports Only**, or
+  - **Visible to Rollup Hierarchy**
+   
+In this example, you see the permissions for the manager role. 
+     
+   :::image type="content" source="../../media/glint/reports/bti-visibility.png" alt-text="Screenshot of choosing BTI visibility.":::
+
+## Live and Phased access in Broader Team Insights
+
+BTI functionality honors Live or Phased setting for the leader of the team whose report date is being used by a small team manager using BTI. This functionality overrides the original manager's access. [Read about Live vs Phased access](/viva/glint/setup/live-versus-phased-access).  Set a calendar reminder to grant Phased access to leaders who have Live access permission only.
+
+> Example: If a small team manager's direct leader is enabled for Live access, the access level of the small team manager with BTI enabled also has Live access to results for this survey. The small team manager's access changes to Live, even if their own access is set to Phased.
 
 ## How turnover affects what Broader Team Insights results display
 
-Turnover within roles is inevitable. For this reason, as with action taking, we recommend that either HR or the next level up manager exports all feedback results to save and share offline as needed. 
+Turnover within roles is inevitable. For this reason, as with action taking, we recommend that either Human Resources or the next level-up manager exports all feedback results to save and share offline as needed. 
  
-*A manager’s feedback won't transfer to a new manager that fills that position*. Feedback is specific to a manager at the time the survey is taken; survey results happen point-in-time, hence, only reflect results (if any) for the current manager in that position.  
+*A manager’s feedback doesn't transfer to a new manager that fills that position*. Feedback is specific to a manager at the time the survey is taken. Survey results are point-in-time and only reflect results of the manager in that position at that time.  
 
-## Choose Live versus Phased reports access 
+## Change BTI access once User Roles are set 
 
-Once a survey is completed, it moves to the Completed section of the Program page, and you can view the access it has been assigned by hovering over the **Reporting Access** column. For more information, see [Live vs Phased access](https://go.microsoft.com/fwlink/?linkid=2230747). 
+BTI access can be changed in **Program Summary** for upcoming cycles and during live cycles. All upcoming surveys for that program are changed.  
 
-   > [!TIP]
-   >Set a calendar reminder to grant Phased access to leaders without Live access permissions.
+1. In **Program Summary** switch the **Approved** status from **YES** to **NO**.
+1. [Follow the enablement procedure for BTI.](#enable-broader-team-insights)
+1. Select **Save Changes**, then switch **Approved** status from **NO** to **YES**.
 
-### Change access once User Roles are set 
 
-Access can be changed in **Program Summary** for upcoming cycles and Live cycles. All upcoming surveys for that program are changed.  
 
-To change the access:
-
-1. In **Program Summary** switch the Approved status from YES to **NO**.
-1. Select **Save Changes**, then switch Approved status from NO to **YES**.   
 

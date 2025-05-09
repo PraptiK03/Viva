@@ -5,7 +5,7 @@ title: Privacy and data access
 description: About the privacy and data access controls available in Microsoft Viva Insights 
 author: madehmer
 ms.author: helayne
-ms.topic: conceptual
+ms.topic: concept-article
 ms.localizationpriority: medium
 ms.collection:  
 - viva-insights-advanced

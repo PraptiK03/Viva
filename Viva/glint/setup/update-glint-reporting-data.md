@@ -10,10 +10,10 @@ keywords: advanced configuration, uploads, retroactive update
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/29/2025
+ms.date: 03/05/2025
 ---
 
 # How to update reporting data in closed Viva Glint surveys
@@ -21,12 +21,12 @@ ms.date: 01/29/2025
 Microsoft Viva Glint Advanced Configuration Uploads and Data Apps allow you to perform retroactive updates to survey data. Use this guidance to determine which retroactive update option best meets your needs.
 
 > [!CAUTION]
-> - Don't perform a retroactive update while a Glint survey is live.
+> - Don't perform a retroactive update while a Viva Glint survey is live.
 > - Deleted user data can't be retroactively updated.
 
 ## Attributes that don't require retroactive updates
 
-Some attributes in Glint always reference the most current information and don't require retroactive updates. These attributes include:
+Some attributes in Viva Glint always reference the most current information and don't require retroactive updates. These attributes include:
 
 - First Name
 - Last Name
@@ -51,13 +51,17 @@ If duplicated users aren't removed, admins see a:
 - "FAILED" State for the Retroactive User Updates upload, with the following File error in the Upload Job Details:
   - System error: Failed to find user_staging_record with externalUserId=[user@contoso.com], which is not supposed to happen at all because User object with the same ID was previously loaded."
 
-## Uploads: Retroactive User Updates
+## Data update options
 
-To retain current employee information, upload a file of all or some users in your closed survey to apply new values to past versions of data. This option is the simplest and can be used for most retroactive updates, including nonmanagerial reporting hierarchy updates. [Learn more](advanced-config-uploads.md).
+There are two options to update reporting data for closed survey cycles in Viva Glint. For updates to nonmanager hierarchy information, use the Advanced Configuration > Uploads > Retroactive User Updates option. For manager hierarchy updates, use the Advanced Configuration > Data Apps > RETROACTIVE_PULSE_UPDATE option. See the following descriptions of each option and select "Learn more" to see how to complete each update.
+
+### Uploads: Retroactive User Updates
+
+To retain current employee information, [upload a file of all or some users in your closed survey to apply new values](advanced-config-uploads.md#to-perform-a-retroactive-user-updates-upload) to past versions of data. This option is the simplest and can be used for most retroactive updates, including nonmanagerial reporting hierarchy updates.
 
 > [!IMPORTANT]
-> To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive USERS_UPLOAD option. [Learn more](glint-data-apps.md).
+> To retroactively update a Manager Hierarchy, always use the [RETROACTIVE_PULSE_UPDATE Data App](glint-data-apps.md#retroactive_pulse_update) and not the Retroactive USERS_UPLOAD option.
 
-## Data Apps: RETROACTIVE_PULSE_UPDATE
+### Data Apps: RETROACTIVE_PULSE_UPDATE
 
-Update Manager Hierarchy information for closed surveys by uploading corrected users to Glint, running the RETROACTIVE_PULSE_UPDATE Data App, and reverting user data to current information after the update. [Learn more](glint-data-apps.md).
+Update Manager Hierarchy information for closed surveys by uploading corrected users to Viva Glint, running the [RETROACTIVE_PULSE_UPDATE Data App](glint-data-apps.md#to-perform-a-retroactive-update-to-manager-hierarchy), and reverting user data to current information after the update.

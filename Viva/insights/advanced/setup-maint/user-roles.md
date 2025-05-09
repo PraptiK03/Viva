@@ -4,7 +4,7 @@ title: Roles in Viva Insights
 description: Learn which roles can access which features in Viva Insights
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

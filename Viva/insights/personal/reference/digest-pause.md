@@ -5,7 +5,7 @@ title: Where to find digest email insights
 description: Provides a notice about the pause of digest emails, as well as where to find digest email insights in other areas of Viva Insights.
 author: kateylundquist
 ms.author: v-zachminers
-ms.topic: conceptual
+ms.topic: article
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

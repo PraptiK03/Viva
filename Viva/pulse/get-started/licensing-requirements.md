@@ -1,21 +1,21 @@
 ---
-title: Licensing requirements
-description: "Licensing requirements"
+title: Viva Pulse licensing requirements
+description: "Licensing requirements for Viva Pulse"
 ms.reviewer: 
 ms.author: hasrivas
 author: hasrivas
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 11/21/2024
-ms.topic: article
+ms.date: 04/30/2025
+ms.topic: get-started
 ms.service: viva-pulse
 ms.localizationpriority: medium
 ms.collection: m365initiative-viva-pulse  
 search.appverid: MET150
 ---
 
-# Licensing requirements
+# Viva Pulse licensing requirements
 
 Viva Pulse is available both as a premium experience and a limited experience available with Microsoft 365 Copilot subscription. The following list of capabilities is available to Viva Pulse authors and administrators as part of these experiences. 
 

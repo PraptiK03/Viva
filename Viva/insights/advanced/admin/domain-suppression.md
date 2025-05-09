@@ -3,13 +3,13 @@ title: Domain suppression
 description: Learn how to specify sensitive domains in the advanced insights Privacy settings page
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights
 manager: ablubetk
 audience: Admin
-ms.date: 08/14/2023
+ms.date: 04/2/2025
 ---
 
 # Domain suppression

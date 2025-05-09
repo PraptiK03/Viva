@@ -5,7 +5,7 @@ title: Viva Insights Outlook add-in reference
 description: Learn more about insights in the Viva Insights Outlook add-in
 author: zachminers
 ms.author: v-zachminers
-ms.topic: conceptual
+ms.topic: reference
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

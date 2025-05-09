@@ -1,5 +1,5 @@
 ---
-ms.date: 01/23/2025
+ms.date: 02/13/2025
 title: Upload organizational data (subsequent upload)
 description: This article discusses how to upload your data to the Viva Insights advanced insights app after you've already uploaded data there.
 author: zachminers
@@ -167,7 +167,7 @@ Select this option to remove organizational data you no longer need, or remove h
 
 #### How to upload the file
 
-1. Create a .csv file with the names of the employees you want to delete. The file should include a column named "PersonId," with the email address of each person you'd like to delete in each row of that column. Make sure the .csv file is: 
+1. Create a .csv file with the names of the employees you want to delete. The file should include a column named "PersonId," with the email address of each person you'd like to delete in each row of that column. For guidance, [use this template file](https://go.microsoft.com/fwlink/?linkid=2301277). Make sure the .csv file is: 
     * UTF-8 encoded
     * Not open in a different program when you begin the upload process
     * Not larger than 1 GB

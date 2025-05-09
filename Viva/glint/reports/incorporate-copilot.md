@@ -12,7 +12,7 @@ ms.collection:
  - selfserve
  - magic-ai-copilot
 search-appverid: MET150
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 1/29/2025

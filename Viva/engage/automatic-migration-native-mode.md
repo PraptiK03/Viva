@@ -9,7 +9,7 @@ manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  

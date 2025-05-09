@@ -1,10 +1,9 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Primary and secondary collaborators in queries
 description: Learn about the difference between collaborator types in the advanced insights app
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
@@ -12,7 +11,7 @@ search.appverid:
 - MET150 
 manager: anirudhbajaj
 audience: Admin
-ms.date: 06/30/2023
+ms.date: 04/2/2025
 ---
 
 # Primary and secondary collaborators in cross-collaboration queries

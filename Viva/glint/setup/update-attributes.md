@@ -6,15 +6,15 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: edit attribute, edit derived attribute, edit optional system attribute, rename attribute
+keywords: edit attribute, edit derived attribute, edit optional system attribute, rename attribute, update attributes
 ms.collection: 
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/30/2025
+ms.date: 05/08/2025
 ---
 
 # Update attributes in Viva Glint
@@ -22,7 +22,10 @@ ms.date: 01/30/2025
 After initial attribute setup in Microsoft Viva Glint, use this guidance to add new attributes, rename attributes, manage derived and optional system attributes, and to update attribute visibility in the platform. New attributes and their values apply to future survey results only.
 
 > [!CAUTION]
-> The Viva Glint Admin that sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the Language dropdown menu in Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
+> The Viva Glint Admin that sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the Language dropdown menu in Viva Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
+
+> [!IMPORTANT]
+> Coordinate the timing of new or updated attributes with your HR information system team. Edits to your attribute setup need to be in place before files with changes can successfully import to Viva Glint.
 
 ## Add new attributes to Viva Glint
 
@@ -104,8 +107,13 @@ To edit derived fields after your initial setup:
 Choose how and when Viva Glint communicates with employees by mapping language, time zone, and personal emails to Viva Glint fields.
 
 > [!IMPORTANT]
-> - Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
-> - See the Language Codes tab of the Employee Attribute Template for changes to supported languages and codes effective April 10, 2025.
+> Send language and time zone values exactly as they appear in related tabs in the following articles:
+> - [Viva Glint supported languages](supported-languages.md)
+> - [Viva Glint supported time zones](supported-time-zones.md)
+> 
+> Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
+> 
+> See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 To edit optional system attributes after your initial setup:
 

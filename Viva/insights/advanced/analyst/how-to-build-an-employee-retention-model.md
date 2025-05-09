@@ -5,7 +5,7 @@ title: How to build an employee retention model
 description: Explains the process for building an employee retention model using R and Python.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

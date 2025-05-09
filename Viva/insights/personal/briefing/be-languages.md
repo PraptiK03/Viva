@@ -4,7 +4,7 @@ title: Briefing languages
 description: List of supported languages for Briefings
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: Medium 
 search.appverid:
 - MET150

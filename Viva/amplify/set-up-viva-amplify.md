@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft Viva Amplify
 ms.reviewer: smathurin
-ms.date: 01/24/2024
+ms.date: 02/12/2025
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
@@ -43,7 +43,6 @@ Campaigns require an Exchange mailbox. Users therefore need to have Exchange set
 ## Product limitations
 
 - **Vanity URLs**: At launch, Viva Amplify may have limitations when used with vanity URLs. If your company has a vanity URL, reach out to your support contact to discuss the best approach for rolling out our product within your organization.
-- **Localization** At launch, Viva Amplify is available exclusively in English. More languages are planned for future releases.
 
 ### Assign admin roles
 
@@ -56,7 +55,7 @@ First, familiarize yourself with [roles in Viva Amplify.](viva-amplify-roles.md)
 
 1. Under **Featured collections** choose **Microsoft Viva**.
 
-    ![Screenshot of the Microsoft Viva collection](../media/amplify/set-up-mac-collections.png).
+    ![Screenshot of the Microsoft Viva collection](../media/amplify/set-up-mac-collections.png)
 
 1. Select **Viva Amplify**.
 
@@ -130,6 +129,8 @@ As with SharePoint sites, Viva Amplify campaigns can be managed in the **Active 
 ## Manage approval workflows
 
 Viva Amplify approvals are supported by the Approvals app in Teams. You need to set up Approvals in Teams to be able to use approvals in Amplify. [Learn how to set up Approvals in Teams](/microsoftteams/approval-admin).
+
+[Learn how to use approvals in Viva Amplify](https://support.microsoft.com/en-us/topic/request-approvals-for-viva-amplify-publications-a5e16a61-caee-4701-9602-d10ec8ba45e5). 
 
 ## Delete campaigns
 

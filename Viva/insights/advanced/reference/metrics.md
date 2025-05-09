@@ -1,10 +1,10 @@
 ---
-ms.date: 02/05/2025
+ms.date: 05/7/2025
 title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 manager: helayne
 audience: Admin
@@ -23,6 +23,9 @@ search.appverid:
 # Advanced insights metrics
 
 When you create queries in the Microsoft Viva Insights advanced insights app, you can add these metrics from the **Metrics** pane. We've listed the descriptions alphabetically within each category.
+
+> [!NOTE]
+> You can customize certain parameters by adjusting metric rules, so definitions might vary by organization. [Learn more about metric rules](../analyst/metric-rules.md). Learn about [default exclusion scenarios for meetings, emails, and calls](../analyst/metric-rules.md#about-default-rules).
 
 ## Metrics and definitions
 
@@ -234,6 +237,7 @@ These metrics provide insights around how employees are using Microsoft 365 Copi
 |  Days of active Copilot Chat (work) usage  |  The number of days the user was actively using Copilot Chat (work), formerly called Business Chat. | 10/15/2023 |
 | Copilot Chat (work) prompts submitted | The number of prompts submitted by users in Copilot Chat (work), formerly called Business Chat. Includes prompts submitted through Teams, Outlook, Edge, and the Microsoft 365 app. | 10/15/2023 |
 | Copilot Chat (work) prompts submitted in Outlook | The number of Copilot Chat (work) queries submitted by users through Outlook, formerly called Business Chat. | 02/21/2024 | 
+| Copilot Chat (work) prompts submitted in Teams | The number of Copilot Chat (work) queries submitted by users through Teams, formerly called Business Chat. | 10/15/2023 | 
 | Chat (Copilot in Word) prompts submitted | The number of times users submitted a prompt to Copilot chat in Word. Includes any prompts that don't map to one of the established Word Copilot skills such as "Summarize"-, "Draft"-, or "Rewrite"- actions taken in Word. | 02/01/2024 |
 | Chat (Copilot in PowerPoint) prompts submitted | The number of times users submitted a prompt to Copilot chat in PowerPoint. Includes any prompts that don't map to one of the established PowerPoint Copilot skills such as "Summarize"-, "Add content"-, or "Organize presentation"- actions taken in PowerPoint. | 02/01/2024 |
 | Chat (Copilot in Excel) prompts submitted | The number of times users submitted a prompt to Copilot chat in Excel. Includes any prompts that don't map to one of the established Excel Copilot skills such as "Analysis"-, "Formatting"-, or "Formula"- actions taken in Excel. | 02/01/2024 |

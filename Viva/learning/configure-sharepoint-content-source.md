@@ -6,7 +6,7 @@ manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 11/25/2024
 audience: admin
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
@@ -40,17 +40,21 @@ Viva Learning supports the following document types:
 
 For more information, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
-> [!NOTE]
-> You can use either a Modern or Classic SharePoint site. You can choose whether to use an existing site or create a new SharePoint site based on your organization's needs.
 
-> [!NOTE]
-> While either communication and teams sites can be used, we recommend using a communication site. 
+You can use either a Modern or Classic SharePoint site. You can choose whether to use an existing site or create a new SharePoint site based on your organization's needs.
+
+
+While either communication and teams sites can be used, we recommend using a communication site. 
 
 > [!NOTE]
 > If you are using a custom SharePoint Domain (for example, sp.contoso.com) raise a [**support ticket**](/services-hub/unified/support/open-support-requests) with the Viva Learning team to get the URL allowed. 
 
 > [!NOTE]
 > Viva Learning ingests up to 1000 files as learning objects. A Viva Suite or Viva Learning license is required to ingest more than 1000 files as learning objects.
+
+> [!NOTE]
+> Viva Learning doesn't support user-based permissions. Only the Microsoft 365 and Mail enabled security group (MESG) group types are supported. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or MESG permissions.
+
 
 
 ## Learning Service
@@ -90,7 +94,7 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
    
    1. Select **New** to view the **New item** panel.
    
-   1. On the **New item** panel, in the **Title** field, add a directory name of your choice. In the **Folder URL** field, add the URL to the learning content folder. Select **Save**. [Learn how to to create the folder URL](#folder-url-document-library-curation).
+   1. On the **New item** panel, in the **Title** field, add a directory name of your choice. In the **Folder URL** field, add the URL to the learning content folder. Select **Save**. [Learn how to create the folder URL](#folder-url-document-library-curation).
    
       [![New item panel in SharePoint showing the Title and Folder URL fields.](../media/learning/learning-sharepoint-configure6.png)](../media/learning/learning-sharepoint-configure6-big.png#lightbox)
 
@@ -271,7 +275,7 @@ Linked folders in the repository must also belong to the central location. This 
 
 If you encounter issues with content, refer to the [Manage Providers Configuration](/viva/learning/use-tabs#manage-providers-configuration) export log for detailed summaries of successful and failed content ingestions.
 
-For more information, see [Multi-geo capabilities in SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365).
+For more information, see [Multi-geo capabilities in SharePoint](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365).
 
 ## Next steps
 

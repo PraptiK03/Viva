@@ -1,11 +1,11 @@
 ---
 
-ms.date: 11/29/2023
+ms.date: 4/1/2025
 title: Settings for the Briefing email
 description: Learn how to change your personal settings for the Briefing email from Microsoft Viva
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

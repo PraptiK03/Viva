@@ -5,7 +5,7 @@ title: Viva Insights app redesign
 description: About the upcoming Viva Insights app redesign in Teams and on the web
 author: zachminers
 ms.author: v-zachminers
-ms.topic: conceptual
+ms.topic: article
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

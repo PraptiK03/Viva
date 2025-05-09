@@ -1,12 +1,12 @@
 ---
 title: Add other content providers for Microsoft Viva Learning
-ms.author: chucked
+ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 11/04/2024
 audience: admin
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:

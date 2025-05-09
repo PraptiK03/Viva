@@ -5,7 +5,7 @@ title: What is an employee retention model?
 description: Provides an overview of an employee retention model including terminology like attrition and turnover model.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights

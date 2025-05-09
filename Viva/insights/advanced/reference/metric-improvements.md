@@ -5,7 +5,7 @@ title: Viva Insights metric improvements
 description: This article provides a glossary of terms for the Microsoft Viva Insights advanced insights app. 
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: faq
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights

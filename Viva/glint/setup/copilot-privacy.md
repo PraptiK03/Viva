@@ -13,10 +13,11 @@ ms.collection:
 - viva-copilot
 - magic-ai-copilot
 search.appverid: MET150 
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/29/2025
+ms.custom: CELA-approved
+ms.date: 02/14/2025
 ---
 
 # Data, privacy, and security compliance for Microsoft 365 Copilot in Viva Glint

@@ -6,7 +6,7 @@ ms.reviewer: auhosford
 ms.author: donnabouldin
 author: v-rgrace
 manager: elizapo
-ms.date: 01/30/2024
+ms.date: 01/30/2025
 audience: Admin
 ms.topic: how-to
 ms.service: viva-engage

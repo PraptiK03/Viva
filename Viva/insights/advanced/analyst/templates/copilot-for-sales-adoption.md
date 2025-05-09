@@ -4,7 +4,7 @@ title: Copilot for Sales adoption report
 description: Learn how to use the Copilot for Sales adoption Power BI template to understand how your company's sales team is using Copilot for Sales.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection:
 - viva-insights-advanced

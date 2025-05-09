@@ -1,5 +1,5 @@
 ---
-ms.date: 01/31/2025
+ms.date: 02/27/2025
 title: Use Microsoft 365 Copilot in Viva Insights deep-dive reports
 description: Explains how to use deep-dive reports with Microsoft 365 Copilot in Viva Insights, including how to access detailed insights about organizational composition and employee HR data.
 author: zachminers
@@ -16,9 +16,6 @@ audience: user
 ---
 
 # Use Microsoft 365 Copilot in Viva Insights deep-dive reports
-
->[!IMPORTANT]
-> Microsoft 365 Copilot in Viva Insights is rolling out gradually and is not yet available to all customers.
 
 Deep-dive reports in Microsoft 365 Copilot in Viva Insights help you answer precise questions about organizational composition and give you access to detailed employee data mapped to HR attributes.
 

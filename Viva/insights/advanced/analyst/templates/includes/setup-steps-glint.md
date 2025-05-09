@@ -10,7 +10,14 @@ ms.service: viva-insights
     
     1. Type a **Query name**.
     2. Type a **Description** (optional).   
-    3. Select a survey for analysis. You can download the query results as a .csv file for Viva Glint surveys that had raw data export enabled when the survey was set up. Otherwise, you'll be prompted to contact your Viva Glint administrator for more information, or select a different dataset. [Learn more about raw data export](/viva/glint/setup/employee-raw-data-export).  
+    3. Select a survey for analysis. You can download the query results as a .csv file for Viva Glint surveys that had raw data export enabled when the survey was set up. Otherwise, you'll be prompted to contact your Viva Glint administrator for more information, or select a different dataset. [Learn more about raw data export](/viva/glint/setup/employee-raw-data-export). The zip file includes the following output:
+        * CategoryToMetricMapping: This file includes .csv file that includes the Glint Question to Viva Insights Metric mapping used for the report. This mapping is specific to the Power BI template and can be used as needed for custom reporting.
+        * HR: This file includes the .csv organizational HR attributes associated with each user who's included in the query output.
+        * MetricOutput: This file includes the .csv Viva Insights metrics associated with each user who's included in the query output.
+        * SurveyMetadata: This file includes the .csv survey metadata for the selected survey.
+        * Survey Output file using report ID: This file includes the .csv survey response output for the selected survey for each user who's included in the query output.  
+        :::image type="content" source="../../../images/glint-pbi-download.png" alt-text="Screenshot that shows the survey output file." :::
+    
     4. Change the metric rule (optional). To set a new metric rule, select **More settings**. Then, pick a new rule from the list. For more information about metric rules, see [Metric rules](../../metric-rules.md). 
     
     >[!Note]

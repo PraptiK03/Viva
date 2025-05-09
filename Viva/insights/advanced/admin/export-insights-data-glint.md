@@ -4,7 +4,7 @@ description: Learn how to set up a connection between Glint and Viva Insights to
 author: zachminers
 ms.author: v-zachminers
 ms.date: 08/28/2024
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
 ms.service: viva-insights

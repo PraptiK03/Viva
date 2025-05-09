@@ -11,10 +11,10 @@ ms.collection:
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/02/2024
+ms.date: 04/08/2025
 ---
 
 # Viva Glint 360 language translations export and import 
@@ -22,7 +22,8 @@ ms.date: 12/02/2024
 After setting up a Microsoft Viva Glint 360 cycle and making all customizations in English, use Export and Import Cycle Content options to apply all updates to translations.
 
 > [!NOTE]
-> Standard 360 content includes translations for selected languages.
+> - Standard 360 content includes translations for selected languages.
+> - See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 ## Export and edit content from the 360 cycle page
 
@@ -32,8 +33,8 @@ To export 360 content files from the cycle page and edit content to prepare for 
 1. In the dialog that appears, choose the **Content Details to Include** and select **Languages** to export.
 1. Select XLSX or CSV in the **Select Content Type** dropdown menu.
 
-> [!NOTE]
-> New 360 content can't be added to your cycle with the export/import process. This feature only updates translations for content that already exists in your 360 cycle.
+   > [!NOTE]
+   > New 360 content can't be added to your cycle with the export/import process. This feature only updates translations for content that already exists in your 360 cycle.
 
    :::image type="content" source="../../media/glint/setup/360-export-cycle-content.png" alt-text="Screenshot of the Export Cycle Content dialog with content, language, and file format selections.":::
 

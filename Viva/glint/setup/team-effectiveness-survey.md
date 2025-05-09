@@ -11,15 +11,15 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/17/2024
+ms.date: 2/27/2025
 ---
 
 # Set up a Viva Glint Team Effectiveness Survey
 
-The bulk of modern work is team-based. While organizations rely heavily on teams to get work done, few have measurements to evaluate the components of what makes an effective team. Most organizations focus on *individual* performance instead of seeking to understand what contributes to high *team* performance. For organizations to realize their full potential, shift the focus from who is on the team, to how they work together.
+The bulk of modern work is team-based. While organizations rely heavily on teams to get work done, few have measurements to evaluate the components of what makes an effective team. Most organizations focus on *individual* performance, instead of seeking to understand what contributes to high *team* performance. For organizations to realize their full potential, shift the focus from who is on the team, to how they work together.
 
 Microsoft Viva Glint’s Team Effectiveness Survey is a diagnostic assessment that shows how teams are working and communicating. Survey results provide guidance to enhance collaboration and productivity. Team Effectiveness surveys focus on assessing team dynamics, collaboration, and overall team performance. The objective is to understand team strengths, identify areas for improvement, foster a high-performing culture, and enhance employee satisfaction and productivity. 
 
@@ -29,25 +29,23 @@ Key considerations for these surveys include inclusivity (involving all team mem
 - **Departmental Teams:** Assess how well teams collaborate within a department 
 - **Organizational Teams:** Help understand overall team effectiveness. Sample questions might explore communication, collaboration, and overall team dynamics. 
 
-Additionally, Glint enables organizations to combine de-identified and aggregated employee feedback with workplace analytics. This integration allows leaders to identify areas where teams may struggle, adjust work norms proactively, and quantify the impact of changes over time. 
-
 ## Team Effectiveness Survey customization
 
 An important consideration when implementing Team Effectiveness surveys is customization to fit your organization’s specific context and goals. The content should be relevant and actionable, enabling managers to understand and address their team’s needs effectively. The surveys should be part of an integrated employee engagement program to ensure seamless assessment, analytics, and action planning across the manager experience. 
 
 ## What is the best cadence for a Team Effectiveness Survey?
 
-Setting up a Team Effectiveness Survey as a recurring, stand-alone program or as an Always-On survey allows leaders to use the program whenever it's needed.
+Setting up a Team Effectiveness Survey as a recurring survey or as an Always-On survey allows leaders to use it as is most useful to their situation. A Team Effectiveness recurring survey should be repeated 30-60 days after the initial feedback. The survey should take no more than about four minutes to complete. 
 
 > [!TIP]
-> Repeat the survey in one-two months to check on progress made, and adjust actions as needed.
+> Best practice: Survey, debrief and act, survey again.
 
 ## Viva Glint Team Effectiveness Survey items
 
 |Item #|Item name|Item text|
 |------|---------|---------|
 |1|Inclusion|Our team has a climate in which diverse perspectives are valued.|
-|2|Communication|In our team we communicate openly and honestly with each other.|
+|2|Communication|In our team, we communicate openly and honestly with each other.|
 |3|Trust|I trust the members of our team.|
 |4|Goals|Our team has clear goals.|
 |5|Accountability|In our team, we have shared accountability for what we deliver.|

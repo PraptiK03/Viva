@@ -8,7 +8,7 @@ author: v-rgrace
 manager: elizapo
 ms.date: 01/14/2025
 audience: Admin
-ms.topic: article
+ms.topic: faq
 ms.service: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer

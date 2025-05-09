@@ -1,6 +1,6 @@
 ---
 title: Access the Viva Glint platform
-description: Access Microsoft Viva Glint with a Microsoft Entra ID user account and review supported browsers and session timeout information.
+description: Active Microsoft Viva Glint admin and dashboard users can access Viva Glint with a Microsoft Entra ID user account and an ACTIVE status in the Viva Glint app. Use this article to learn about supported internet browsers, access links, session time-outs, login troubleshooting, and dashboard experiences.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -11,25 +11,28 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/05/2024
+ms.date: 05/08/2025
 ---
 
 # Access the Viva Glint platform
 
-Access Microsoft Viva Glint with a Microsoft Entra ID user account and review supported browsers and session timeout information.
+Active Microsoft Viva Glint admin and dashboard users can access Viva Glint with a Microsoft Entra ID user account and an ACTIVE status in the Viva Glint app. Use this article to learn about supported internet browsers, access links, session time-outs, login troubleshooting, and dashboard experiences. 
 
-> [!NOTE]
-> Users must exist in Entra with a Member Type of "Member" (not "Guest") to successfully access Viva Glint. Learn more about how Microsoft 365 Global Administrators or Entra admins can [set up access to Glint with Microsoft Entra ID](access-with-azure-ad.md).
+> [!IMPORTANT]
+> To successfully access Viva Glint, users must:
+> - Exist in Microsoft Entra. Learn more about how Microsoft 365 Global Administrators or Entra admins can [set up access to Viva Glint with Microsoft Entra ID](access-with-azure-ad.md).
+>     - Users can have a member type of Guest or Member. Invited Guests from other tenants in a [multitenant organization](glint-mto.md) and [Support users](add-external-user.md) need to select a domain when [logging in](#sign-in-as-a-guest-or-support-user).
+> - Exist in the Viva Glint app with an "ACTIVE" employee status and membership to the Active Employees role.
 
 ## Select a supported browser
 
-Glint users access surveys and dashboards with various internet browsers. Use this information to verify that your preferred browser is supported for accessing Glint.
+Viva Glint users can access surveys and dashboards with various internet browsers. Use this information to verify that your preferred browser is supported for accessing Viva Glint.
 
 > [!IMPORTANT]
-> All users must access Glint from a browser that supports TLS 1.2, which includes the latest versions of Microsoft Edge, Google Chrome, Safari, and Mozilla Firefox.
+> All users must access Viva Glint from a browser that supports TLS 1.2, which includes the latest versions of Microsoft Edge, Google Chrome, Safari, and Mozilla Firefox.
 
 |Browser  |Survey  |Dashboard|
 |----------|-----------|------------|
@@ -45,19 +48,41 @@ Glint users access surveys and dashboards with various internet browsers. Use th
 
 ## Access with a Microsoft Entra ID user account
 
-Your Entra or other IT admins choose [authentication methods in Microsoft Entra ID](/entra/identity/authentication/concept-authentication-methods) for Glint and other resources. For example: username and password + multifactor authentication with an app like Microsoft Authenticator. Select a link based on the region that your organization's Glint tenant sits in and follow prompts to log in.
+Your Entra or other IT admins choose [authentication methods in Microsoft Entra ID](/entra/identity/authentication/concept-authentication-methods) for Viva Glint and other resources. For example: username and password + multifactor authentication with an app like Microsoft Authenticator. Select a link based on the region that your organization's Viva Glint tenant sits in and follow prompts to log in.
 
 - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
 
-## Session timeout
+## Sign in as a Guest or Support user
 
-After 20 minutes of inactivity, you're prompted with an initial **"Are you still here?"** message. A Glint session ends after another 10 minutes of inactivity.
+Invited Guests from other tenants in a [multitenant organization](glint-mto.md) and [Support users](add-external-user.md) need to take these steps to access Viva Glint with member types of "Guest" in Entra.
+
+1. Select the appropriate link for the organization's region:
+   - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
+   - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
+2. Select **Sign-in options** in the **Sign in** dialog.
+3. Select **Sign in to an organization.**
+4. Enter the **domain name**, for example: `contoso.onmicrosoft.com`, of the organization you'd like to sign in to and select **Next**.
+5. Enter your email and password, select **Sign in**, and follow other sign-on prompts (for example: multifactor authentication).
+
+> [!TIP]
+> To prevent sign-in issues, try accessing Viva Glint in a new InPrivate or Incognito window.
+
+## Session time-out
+
+Viva Glint sessions close after 30 minutes of inactivity. This mechanism helps protect sensitive data and ensures that sessions don't remain open indefinitely, which could pose security risks.
+
+User experience:
+
+- After 20 minutes of inactivity, an **Are you still here?** message displays.
+- If there's no response to the initial message, the session automatically shuts down after *another* 10 minutes of inactivity. 
 
 :::image type="content" source="../../media/glint/setup/glint-inactive-session-message.png" alt-text="Screenshot of a message that appears when a user is inactive in their survey session.":::
 
-## Connection issue
+## Login issues
 
-If you see a message indicating that a connection can’t be made to the Glint service, there's likely an issue with matching your information between the Glint application and Microsoft Entra ID. Contact your Glint or Entra admin to confirm that your data matches between systems.
+If users experience login issues or repeated logouts when accessing Viva Glint, [review troubleshooting information](/viva/troubleshoot/glint/access/manager-access-issues?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json#unable-to-connect-to-the-glint-service) for common access problems.
 
-:::image type="content" source="../../media/glint/setup/glint-mgr-no-connection.png" alt-text="Screenshot of a Viva Glint error message for a connection issue.":::
+## Dashboard experiences
+
+Viva Glint Admins and dashboard users see different landing pages, or dashboards, in Viva Glint depending on their User Role and the role's settings. Learn more about [dashboard experiences for Viva Glint roles](/viva/glint/reports/dashboard-experiences).

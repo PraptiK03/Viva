@@ -9,7 +9,7 @@ author: v-rgrace
 manager: elizapo
 ms.date: 01/10/2025
 audience: Admin
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.service: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer

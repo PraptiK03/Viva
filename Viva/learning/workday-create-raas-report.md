@@ -4,9 +4,9 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/27/2024
+ms.date: 02/13/2025
 audience: admin
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
@@ -21,18 +21,18 @@ description: Learn how to create RaaS reports for catalog, user, assignment, and
 # Create RaaS reports on the Workday portal
 
 This article consists of steps required for enabling catalog, user, assignment, and completion data sync in Workday and Viva Learning integration. 
-Admins are required to create a custom RaaS report on the Workday portal. Once you have created integration system user of Workday portal and have provided all security access, follow these steps to create the required RaaS reports.  
+Admins are required to create a custom RaaS report on the Workday portal. After you create the integration system user for Workday portal and provide all security access, follow these steps to create the required RaaS reports.  
 
 
 > [!NOTE]
 > All RaaS reports (catalog, user data, LRS) should be created from same user account or a single user should be given report ownership at Workday portal. This username should be inserted under Reporting URL attribute in Viva Learning Manage Provider. Review this example: `https://wd2-impl-services1.workday.com/ccx/service/customreport2/microsoft_dpt6/username/Viva_Learning_Catalog_Report.`
 
 > [!NOTE]
-> Admins need to create a custom report manually. This is a one time process. We are only supporting the report structure mentioned in this support article, any other changes in reports are not recommended.
+> Admins need to create a custom report manually. This is a one time process. We're only supporting the report structure mentioned in this support article. We don't recommend any other changes in the reports.
 
 1. Ensure that the **Workday to AAD user sync** is in place for your tenant.  
-2. Enable inbound user provisioning with Workday to ensure that all users in Workday are synced to Azure Active Directory (AAD).
-3. If you're already a Microsoft 365 customer, Workday to AAD user sync should be in place for your tenant. 
+2. Enable inbound user provisioning with Workday to ensure that all users in Workday are synced to Microsoft Entra ID.
+3. If you're already a Microsoft 365 customer, Workday to Microsoft Entra user sync should be in place for your tenant. 
 
 Check with your organization admins for details around same. Otherwise, you can refer to the steps mentioned here to enable the provisioning. [Tutorial: Configure Workday for automatic user provisioning with on-premises Active Directory](/entra/identity/saas-apps/workday-inbound-tutorial)
 
@@ -57,13 +57,15 @@ This report should be created from the primary Admin account of Workday to avoid
 3. Add report fields.
    1. Once you select **OK**, Data Source has "Learning Content" as a value. Remove any existing value in the Data Source Filter field and add "Manageable Learning Content".
    1. Add the fields in "Columns" as outlined in the following schema. You see three objects for field "rating"; select the one with a hash (#) icon next to it.
+   > [!IMPORTANT]
+   > These column values are case sensitive.
 
    | Business object| Field | Column heading override| Column heading override XML alias|
    | --- | ---- | ---- | --- |
-   | Learning content | Workday ID | LearningObjectId | LearningObjectId|
+   | Learning Content | Workday ID | LearningObjectId | LearningObjectId|
    | Learning Content | Title | Title | Title |
    | Learning Content | Description | Description | Description |
-   | Learning Content | Link to Learning content | DeepLinkUrl | DeepLinkUrl |
+   | Learning Content | Link to Learning Content | DeepLinkUrl | DeepLinkUrl |
    | Learning Content | Duration in Minutes | Duration | Duration |
    | Learning Content | Inactive Status | Inactive | Inactive |
    | Learning Content | Learning Content Type | ContentType | ContentType |
@@ -78,16 +80,16 @@ This report should be created from the primary Admin account of Workday to avoid
    | Learning Content | Last Updated | LastUpdated | LastUpdated |
     
 
-   :::image type="content" alt-text="Screenshot of Edit Custom Report" source="../media/learning/wd-s2.2-3.png" lightbox="/Viva/media/learning/wd-s2.2-3.png":::
+   :::image type="content" alt-text="Screenshot of Edit Custom Report." source="../media/learning/wd-s2.2-3.png" lightbox="/Viva/media/learning/wd-s2.2-3.png":::
 
-4. Under "Group Column Headings", add the below fields:
+4. Under "Group Column Headings", add the following fields:
 
    | Business Object | Group column heading | Group column heading XML Alias |
    | --- | --- | --- |
-   | Languages | Languages | Languages |
+   | Language | Languages | Languages |
    | Learning content | learningContent_group | learningContent_group| 
 
-5. Add filters to the report under "Filter section" 
+5. Add filters to the report under "Filter section". 
         
    | And/Or | `(` | Field | Operator | Comparison type | Comparison value | `)` | Indexed | 
    | --- | --- |--|----  | --- | ---- | ---|-----| 
@@ -98,13 +100,15 @@ This report should be created from the primary Admin account of Workday to avoid
 
     :::image type="content" alt-text="Screenshot of the formatted fields for filter values." source="../media/learning/workday-filters-for-catalog-raas.png" lightbox="../media/learning/workday-filters-for-catalog-raas.png":::
 
-6. **Add the Prompts:** Go to **Prompts**. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy and paste these values. 
+6. **Add the Prompts:** Go to **Prompts**. Mark "Prompt Values in Subtitles" and add the following prompt values. You can directly copy and paste these values. 
+   > [!IMPORTANT]
+   > These column values are case sensitive.
 
    | Field | Prompt qualifier | Label for prompt | Label for prompt XML alias | Default type | Default value | Required | 
    | - | - | - | - | - | - | -| 
    | Learning Content Type | Prompt #1 | contentType | contentType | No default value | | Yes | 
-   | Last updated | Prompt #2 | Start_Date | Start_Date | No default value | | Yes | 
-   | Last updated | Prompt #3 | End_Date | End_Date | No default value | | Yes |
+   | Last Updated | Prompt #2 | Start_Date | Start_Date | No default value | | Yes | 
+   | Last Updated | Prompt #3 | End_Date | End_Date | No default value | | Yes |
     
 
    :::image type="content" alt-text="Screenshot of the formatted fields for prompt values." source="../media/learning/workday-prompts-for-catalog-raas.png" lightbox="../media/learning/workday-prompts-for-catalog-raas.png":::
@@ -112,15 +116,15 @@ This report should be created from the primary Admin account of Workday to avoid
 7. Go to **Advanced** and select the field **Optimized for Performance**.
 
    > [!NOTE]
-   > After isEffective date changes, it is not possible to turn on optimized for performance. Considering the data volumes in hand, we can advise customers to uncheck this field.
+   > After isEffective date changes, it isn't possible to turn on optimized for performance. Considering the data volumes in hand, we can advise customers to uncheck this field.
 
 8. Share the report with Integrated System User (ISU), which you created while enabling catalog sync. Go to the **Share** section in report, select the option "share with specific authorized groups and users" and add ISU name in the **Authorized users** field.  
 
-   :::image type="content" alt-text="Screenshot of the Edit Custom Report window for the Catalog Report" source="../media/learning/wd-s2.2-8.png" lightbox="/viva/media/learning/wd-s2.2-8.png":::
+   :::image type="content" alt-text="Screenshot of the Edit Custom Report window for the Catalog Report." source="../media/learning/wd-s2.2-8.png" lightbox="/viva/media/learning/wd-s2.2-8.png":::
 
 9. Save the report. Select **OK**. 
 
-    :::image type="content" alt-text="Screenshot of the final report" source="../media/learning/wd-s2.2-9.png" lightbox="/viva/media/learning/wd-s2.2-9.png":::
+    :::image type="content" alt-text="Screenshot of the final report." source="../media/learning/wd-s2.2-9.png" lightbox="/viva/media/learning/wd-s2.2-9.png":::
 
     1. Generate report URL. This URL is required as an input parameter on Viva Learning Admin tab. The same user who created the report should generate the URL.
 
@@ -132,7 +136,7 @@ This report should be created from the primary Admin account of Workday to avoid
 
            :::image type="content" alt-text="Screenshot of the View URLS Web Service window with the option to edit content types and dates" source="../media/learning/wd-s2.2-11.png" lightbox="/viva/media/learning/wd-s2.2-11.png":::
 
-        1. Select **JSON**, this opens a new window.
+        1. Select **JSON.** This action opens a new window.
   
            :::image type="content" alt-text="Screenshot of the new window that opens when you select JSON." source="../media/learning/wd-s2.2-12.png" lightbox="../media/learning/wd-s2.2-12.png":::
 
@@ -153,19 +157,23 @@ This report should be created from the primary Admin account of Workday to avoid
  Create this report from the primary Workday admin account to avoid any privacy and security related concerns. Currently we're syncing historic and present assignments. 
 
 1. **Sign in to the Workday Portal**.
-    1. **Sign in** 
-    1. Search for the task "Create Custom Report" 
+    1. **Sign in**.
+    1. Search for the task "Create Custom Report".
 
-1. Configure the report parameters 
+1. Configure the report parameters: 
     1. Name the report "Viva Learning Users Report". The report name must match this string. 
     1. Indicate report type as "Advanced."
-    1. Check "Enable as Web service" 
-    1. Check "Optimized for performance" 
-    1. In the "Data source," go to "All" and select "Workers for HCM reporting." Select **OK**.
+    1. Check "Enable as Web service". 
+    1. Check "Optimized for performance". 
+    1. In the "Data source," go to "All" and select "Workers for HCM Reporting." Select **OK**.
 
 1. Add report **Fields**.
 
 1. Add the fields in "Columns."
+
+   > [!IMPORTANT]
+   > These column values are case sensitive.
+
 
     | Business object | Field | Column heading override | Column heading override XML alias | 
     |  - | - | - | - |
@@ -173,7 +181,7 @@ This report should be created from the primary Admin account of Workday to avoid
     |Worker | Preferred Name – First Name | FirstName | FirstName | 
     |Worker | Preferred Name – Last Name | LastName | LastName |
     | Worker | User Name | UserName | UserName |
-    | Worker | Worker is Terminated | Terminated | Terminated | 
+    | Worker | "Worker is Terminated" or "Terminated" | Terminated | Terminated | 
     |Worker | Public Primary Work Email Address | Email_Address | Email_Address |
     |     Worker  |     Employee ID  |     Employee_ID  |     Employee_ID  |
 
@@ -181,25 +189,29 @@ This report should be created from the primary Admin account of Workday to avoid
 
    1. **Add filters to the report**
 
-      1. Add following values in "Filter on Instances". Follow the steps mentioned below for adding calculated field. 
+      1. Add the following values in the "Filter on Instances". Follow the steps mentioned below for adding the calculated field.
     
-         | And/Or | Field | Operator | Comparison type | Comparison value |
-         | - | - | - | - | - |
-         | And | Hire Date | greater than or equal to | Prompt the user for the value | Starting Prompt | 
-         |And | Hire Date | less than or equal to | Prompt the user for the value | Ending Prompt |
+         | And/Or |(|Field | Operator | Comparison type | Comparison value |)|Indexed|
+         | - | - | - | - | - |-| -| -| 
+         | And | | Hire Date | greater than or equal to | Prompt the user for the value | Starting Prompt |  | Yes| 
+         |And | | Hire Date | less than or equal to | Prompt the user for the value | Ending Prompt || Yes | 
 
-    1. Add the Prompts: Go to Prompts. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy paste these values.  
+    1. Add the Prompts: Go to Prompts. Mark "Display Prompt Values in Subtitles", and add the following prompt values. You can directly copy and paste these values.  
+    
+   > [!IMPORTANT]
+   > These column values are case sensitive.
 
-       | Field | Prompt qualifier | Label for prompt | Label for prompt XML alias | Default type | Default value | Required | Don't prompt at run time| 
-       | - | - | - | - | -| - | - | - |
-       | Contingent Worker type | Contingent_Worker_Type | No default value | | | Yes |
-       | Employee Type | Employee_Type | No default value | | | Yes | 
-       | Worker Types | Worker_Types | No default value | | | Yes | 
-       | Include Terminated workers | Include_Terminated_Workers | Specify default value | Yes | | Yes |
-       | Hire Date | Starting Prompt | Start_Date | Start_Date | No default value | | Yes | 
-       | Hire Date | Ending Prompt | End_Date | End_Date | No default value | | Yes | |
+      | Field | Prompt qualifier | Label for prompt | Label for prompt XML alias | Default type | Default value | Required | Don't prompt at run time| Do Not include in Subtitle |
+      | - | - | - | - | -| - | - | - | - |
+      | Contingent Worker type |   |   | Contingent_Worker_Type | No default value |  |  | Yes |   |
+      | Employee Type |   |   |Employee_Type | No default value |   |   | Yes  |   |
+      | Worker Types |  |   | Worker_Types | No default value |  |   | Yes |   |
+      | Include Terminated workers |   |   | Include_Terminated_Workers | Specify default value | Yes |  | Yes | |
+      | Hire Date | Starting Prompt | Start_Date | Start_Date | No default value |  | Yes |  |  |
+      | Hire Date | Ending Prompt | End_Date | End_Date | No default value |  | Yes |  | |
 
-    1. Go to **Advanced** and select the field `Optimized for Performance.` 
+
+    1. Go to **Advanced** and select the field `Optimized for Performance`. 
 
     1. Share the report with Integrated System User (ISU) and respective security group that you created while enabling content sync. Go to the **Share** section in report, select the option "share with specific authorized groups and users" and add group name and user name in Authorized Groups and **Authorized users** field.
 
@@ -213,11 +225,11 @@ This report should be created from the primary Admin account of Workday to avoid
 This report should be created from the primary Workday admin account to avoid any privacy and security related concerns. Currently we're syncing historic and present assignments. Here, learner record sync is abbreviated as **LRS**.
 
  
-1. **Sign in to the Workday Portal**
+1. **Sign in to the Workday Portal**:
     1. **Sign in**.
     2. Search for the tasks "Create Custom Report."
 
-2. Configure the report parameters 
+2. Configure the report parameters:
     1. Name the report "Viva Learning LRS Assignments Report". The report name must match this string. 
     2. Set Report Type as "Advanced."
     3. Mark checkbox "Enable as Web service."
@@ -226,6 +238,9 @@ This report should be created from the primary Workday admin account to avoid an
 3. Add report fields.
     1. Once you select **OK**, the "Data Source" automatically sets the value as "Learning Assignment Records." For the "Data Source Filter" field, remove any existing value and add "Assignment Records for ~Person~from Learning Organization". You can copy this value and paste in the field directly.
     1. Add the fields in "Columns" as outlined below. You see two objects for “Learning Assignment," select the one with a blue icon next to it.
+    
+   > [!IMPORTANT]
+   > These column values are case sensitive.
     
     |Business object | Field | Column heading override | Column heading override XML alias| 
     | - | - | - | - | 
@@ -239,24 +254,30 @@ This report should be created from the primary Workday admin account to avoid an
     |Learning Assignment |  Assignment Record Completion Moment | CompletionDate | CompletionDate | 
     | Learning Assignment | Required | AssignmentType | AssignmentType | 
 
+
+    :::image type="content" alt-text="Screenshot of the table for LRS (learner record sync) assignment RaaS report column values. The text values you need to enter are outlined in the preceeding table." source="../media/learning/workday-lrs-assignment-raas-3.png" lightbox="/viva/media/learning/workday-lrs-assignment-raas-3.png":::
+
     > [!NOTE]
-    > The `In progress` status from Workday doesn't sync to Viva Learning.
+   > The `In progress` status from Workday doesn't sync to Viva Learning.
 
 4. Under "Group Column Headings", add the following fields.
 
-   | Business object | Group column heading XML alias | 
-   | - | - | 
-   | Assigned By | Assigned_By_group |
-   | Learning Assignment | Learning_Assignment_group |
-   | Learning Content | Learning_Content_group |
-   | Worker | Worker_group |
+   | Business object |Group Column Heading| Group column heading XML alias | 
+   | - | - | - | 
+   | Assigned By | Assigned_By_group| Assigned_By_group |
+   | Learning Assignment | Learning_Assignment_group | Learning_Assignment_group |
+   | Learning Content | Learning_Content_group |Learning_Content_group |
+   | Worker | Worker_group |Worker_group|
 
-5. Under Prompt mark "Display Prompt Values in Subtitles" and, add following the prompt values. You can directly copy and paste these values. In the 'Default Value' field for "learning Organization for Learning Assignment," provide the default value of the top organization (root organization) for which you need the report that is being pivoted.
+5. Under Prompt mark "Display Prompt Values in Subtitles" and add the following prompt values. You can directly copy and paste these values. In the 'Default Value' field for "learning Organization for Learning Assignment," provide the default value of the top organization (root organization) for which you need the report that is being pivoted.
 
-   | Field | Label for Prompt XML Alias | Default Type | Default value | Required | Don't Prompt at Runtime |
-   | - | - | - | - | - | - | 
-   |  Learning Organizations for Learning Assignment | Learning_Organizations_for_Learning_Assignment | No default Value | | Yes | | 
-   | Include Subordinate Organizations | Include_Subordinate_Organizations | Specify default value | Yes | Yes | Yes | 
+   > [!IMPORTANT]
+   > These label values are case sensitive.
+
+   | Field | Label for Prompt| Label for Prompt XML Alias | Default Type | Default value | Required | Don't Prompt at Runtime |
+   | - | - | - | - | - | - | - |
+   |  Learning Organizations for Learning Assignment | Learning_Organizations_for_Learning_Assignment | Learning_Organizations_for_Learning_Assignment | No default Value |   | Yes |   | 
+   | Include Subordinate Organizations | | Include_Subordinate_Organizations | Specify default value | Yes | Yes | Yes | 
 
 6. Add date filters to the report for delta sync. 
         
@@ -275,7 +296,7 @@ This report should be created from the primary Workday admin account to avoid an
        | Field | Value |
        | - | - |
        |Field | Modified Date|
-       | Operator | Greater than or equal to |
+       | Operator | greater than or equal to |
        | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
        | Comparison Value | Starting Prompt | 
 
@@ -284,7 +305,7 @@ This report should be created from the primary Workday admin account to avoid an
        | Field | Value |
        | - | - | 
        |Field | ModifiedDate|
-       | Operator | Less than or equal to | 
+       | Operator | less than or equal to | 
        |Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
        | Comparison Value | Ending Prompt | 
    
@@ -300,16 +321,19 @@ This report should be created from the primary Workday admin account to avoid an
 
         1. Add following values in the new prompts and select **OK**.
 
-           - For Starting Prompt, add value `Start_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
-           - For Ending Prompt, add value `End_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
+           - For Starting Prompt, add value `Start_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**.
+           - For Ending Prompt, add value `End_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**.
+         
+   > [!IMPORTANT]
+   > These label values are case sensitive.
 
-    1. Go to **Advanced**. Uncheck the field **Optimized for Performance**
+    2. Go to **Advanced**. Uncheck the field **Optimized for Performance**.
 
-    1. Save the report. Select **OK.**
+    3. Save the report. Select **OK**.
 
-    1. Share the report with Integrated System User (ISU) and the respective security group, which you created while enabling content sync.
+    4. Share the report with Integrated System User (ISU) and the respective security group, which you created while enabling content sync.
 
-    1. Within the next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
+    5. Within the next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
 
 > [!NOTE]
 > The assignments with the completion status of "manually waived" aren't displayed in the Viva Learning user experience. 
@@ -325,7 +349,7 @@ This report should be created from the primary Workday admin account to avoid an
    1. **Sign in**.
    2. Search for "Create Custom Report."
 
-1. Configure the report parameters 
+1. Configure the report parameters: 
 
    1. Name the report "Viva Learning Self Enrollment Report". The report name must match this string. 
    2. Set Report Type as "Advanced."
@@ -336,7 +360,10 @@ This report should be created from the primary Workday admin account to avoid an
 
    1. Once you select **OK**, the "Data Source" automatically sets the value as "Learning Enrollments." Leave the "Data Source filter" field blank.
     
-   1. Add the fields in "Columns" as per below schema. You see two objects for “learning Enrollment, select the one with a blue icon next to it.
+   1. Add the fields in "Columns" as per below schema. You see two objects for "Learning Enrollment", select the one with a blue icon next to it.
+
+   > [!IMPORTANT]
+   > These column values are case sensitive.
 
       | Business object | Field | Column heading override | Column heading override XML alias |
       | - | - | - | - |
@@ -346,15 +373,15 @@ This report should be created from the primary Workday admin account to avoid an
       | Learning Enrollment | Completion Status | CompletionStatus | CompletionStatus |
       | Learning Enrollment | Completion Date | CompletionDate | CompletionDate |
 
-      :::image type="content" alt-text="Screenshot of the Workday self enrollment report" source="../media/learning/workday-self-enrollment-report.png" lightbox="../media/learning/workday-self-enrollment-report.png":::
+      :::image type="content" alt-text="Screenshot of the Workday self enrollment report." source="../media/learning/workday-self-enrollment-report.png" lightbox="../media/learning/workday-self-enrollment-report.png":::
 
    1. Under "Group Column Headings", add these fields: 
 
-      | Business object | Group column heading XML alias |
-      | -- | -- | 
-      | Learning Content Detail | Learning_Content_Detail_group |
-      | Learning Enrollment | Learning_Enrollment_group | 
-      | Learning Enrollment Participant | Learning_Enrollment_Participant_group | 
+      | Business object | Group Column Heading | Group column heading XML alias |
+      | -- | -- | --| 
+      | Learning Content Detail | Learning_Content_Detail_group | Learning_Content_Detail_group |
+      | Learning Enrollment | Learning_Enrollment_group | Learning_Enrollment_group | 
+      | Learning Enrollment Participant | Learning_Enrollment_Participant_group |Learning_Enrollment_Participant_group | 
 
     1. Add filters to the report for delta sync.
 
@@ -363,36 +390,40 @@ This report should be created from the primary Workday admin account to avoid an
         
           |     And/Or    |     (    |     Field    |     Operator    |     Comparison   type    |     Comparison   value    |     )    |     Indexed    |
           |---|---|---|---|---|---|---|---|
-          |     And    |          |     Completion Date    |     greater than or   equal to    |     Prompt the user   for the value    |     Starting Prompt    |          |          |
-          |     And    |          |     Completion Date    |     less than or   equal to    |     Prompt the user   for the value    |     Ending Prompt    |          |          |
-          |     And    |          |     Learning   Assignment    |     Is empty    |          |          |          |          |
-          |     And    |          |     Completion   Status    |     In the selection   list    |     Value specified   in the filter    |     Completed    |          |     Yes    |
+          |     And    |          |     Completion Date    |     greater than or   equal to    |     Prompt the user   for the value    |     Starting Prompt    |          |      Yes     |
+          |     And    |          |     Completion Date    |     less than or   equal to    |     Prompt the user   for the value    |     Ending Prompt    |          |     Yes     |
+          |     And    |          |     Learning   Assignment    |     is empty    |          |          |          |          |
+          |     And    |          |     Completion   Status    |     in the selection   list    |     Value specified   in this filter    |     Completed    |          |     Yes    |
         
         
-    :::image type="content" alt-text="Screenshot of the self-enrollment completion filters in Workday" source="../media/learning/workday-self-enrollment-completion-filters.png" lightbox="../media/learning/workday-self-enrollment-completion-filters.png":::
+    :::image type="content" alt-text="Screenshot of the self-enrollment completion filters in Workday." source="../media/learning/workday-self-enrollment-completion-filters.png" lightbox="../media/learning/workday-self-enrollment-completion-filters.png":::
 
 
 ### Modify the prompts
 
 1. Go to **Prompts**.
 
-    1. Select **Populate Undefined Prompt Defaults**. This selection adds the start and ending prompt for the Completion date, which is defined in previous step.
+    1. Select **Populate Undefined Prompt Defaults**. This selection quickly adds the start and ending prompt for the completion date, which is defined in previous step. You can also enter the prompts as shown in the image below. Once the prompts are populated, this check box selection is gone.
+   
+    2. Select **Display Prompt Value in Subtitle**.
     
        :::image type="content" alt-text="Screenshot of the Workday self enrollment completion prompts." source="../media/learning/workday-self-enrollment-completion-prompts.png" lightbox="../media/learning/workday-self-enrollment-completion-prompts.png":::
 
-    2. Add following values in the new prompts and select “OK”.
+    3. Add following values in the new prompts and select "OK".
 
-       - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
-       - For Ending Prompt, add value EndDate in fields Label for Prompt and Label for Prompt XML Alias
+       - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias.
+       - For Ending Prompt, add value EndDate in fields Label for Prompt and Label for Prompt XML Alias.
+   > [!IMPORTANT]
+   > These label values are case sensitive.
 
-2. Go to **Advanced.** Check the field **Optimized for Performance**. 
+2. Go to **Advanced**. Check the field **Optimized for Performance**. 
 
-   :::image type="content" alt-text="Screenshot of the Workday advanced option self enrollment report window." source="../media/learning/workday-advanced-option-self-enrollment-report.png" lightbox="../media/learning/workday-self-enrollment-completion-prompts.png":::
+   :::image type="content" alt-text="Screenshot of the Workday advanced option self enrollment report window." source="../media/learning/workday-advanced-option-self-enrollment-report.png" lightbox="../media/learning/workday-advanced-option-self-enrollment-report.png":::
 
 
 3. Save the field. Select **OK**.
 
-4. Share the report with Integrated System User (ISU) and respective security group, which you created while enabling content sync. Go to the **Share** section in the report, select “Share with specific authorized groups and users” and add group name and user name in Authorized Groups and Authorized users field. 
+4. Share the report with Integrated System User (ISU) and respective security group, which you created while enabling content sync. Go to the **Share** section in the report, select "Share with specific authorized groups and users" and add group name and user name in **Authorized Groups** and **Authorized users** field. 
 
 5. Within the next 24 hours, the LRS sync calls the report API and accordingly reflects the data in Viva Learning. This depends on whether the admin enabled LRS on Admin portal. Refer to this document for configuration steps on the Admin portal.
 

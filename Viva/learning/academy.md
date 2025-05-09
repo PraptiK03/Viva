@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/25/2024
+ms.date: 02/14/2025
 audience: admin
 ms.topic: how-to
 ms.service: viva-learning
@@ -20,14 +20,18 @@ description: A guide for admins who want to create and manage academies in Viva 
 # Manage academies in Viva Learning
 
 Use Viva Learning academy to curate pages for selected learners to develop business-critical capabilities through a facilitated learning experience. 
-
 The academy goes beyond technical and functional skills and focuses on the business capabilities a company needs to thrive. You can curate an academy by using a group of learning paths focused on specific learning objectives. 
 
-Academies are set up and managed on the admin tab in Viva Learning under **Manage Academies**. 
+Academies are set up and managed on the admin tab in Viva Learning under **Manage Academies**. Creating and editing academies involves managing featured sets and learning paths. 
 
-Creating and editing academies involves managing featured sets and learning paths. 
+There are many ways to personalize academies to your organization. 
+This includes: 
 
->[!NOTE]
+- Grouping learning paths under multiple layers.
+- Applying your own branding to academies by uploading a logo and background image.
+- Customizing academy components like featured sets and learner profiles cards.
+
+> [!NOTE]
 > Do you have Microsoft 365 Copilot? Check out [Microsoft Copilot Academy](academy-copilot.md) to learn how to help your users learn and use Microsoft 365 Copilot.
 
 ## Prerequisites 
@@ -37,29 +41,35 @@ You need a **premium license** for Viva Learning or Viva Suite to view, create, 
 Existing **Microsoft 365 admins**, **knowledge admins**, and **knowledge managers** can create and manage academies.
 
 
-## Set up an academy
+## Create an academy
 
 1. Select **Manage academies**.
 
-1. Select **Set-up an academy**.
+2. Select **Create new academy**.
 
-1. Enter a name and description for the academy.
+3. Enter a name and description for the academy.
  
-1. Upload an academy logo.
+4. Upload an academy logo and background image.
 
-1. Choose whether you want the academy open to all learners or select a maximum of specific learner groups. 
+5. Define your academy access:
+    1. Select **Open Academy** if you want your academy to be accessibile to all users.
+    2. Select **Restricted Academy** if you want to select specific learner groups.
 
-1. Select **Save**.
+6. Select **Save**.
 
    ![Screenshot of the Set up an academy popup within Manage academies. It requires an academy name, description, logo and user group access information](/viva/media/learning/academy-1.png)
 
-You now see your newly created academy for configuration.
-
-![Screenshot of the options for the newly created academy, with options to enable academy, add a featured set, and add learning path](/viva/media/learning/academy-2.png)
+Now your academy is available for configuration.
 
 ## Configure academy
 
+### Configure academy details
+
+Select **Edit** in the Academy Details section to modify the title, description, logo, and background image.
+
+
 Configure the academy by selecting the featured set and learning paths. 
+
 
 ### Select a featured set
 
@@ -67,47 +77,58 @@ Configure the academy by selecting the featured set and learning paths.
 
 2. Go to the **featured set** tab to create a new featured set. 
 
-3. Select **Add New** at the top to create new featured set. 
+3. Select **Create New** at the top to create new featured set. 
 
 4. Enter a featured set name. 
 
-5. Select the list of learning objects, which are displayed in the featured set.
+5. Select and add the content from the Viva Learning catalog or add content from the web, which are displayed in the featured set.
 
 6. Select **Save**. The draft featured set are displayed in the dashboard. 
-   >[!NOTE]
-   >- You can only add individual learning objects to a featured set, not entire learning paths. 
-   >- You can add a maximum of six learning objects to one featured set. 
-
-   ![Screenshot of the new featured set screen with fields to add title, find courses, and a list of your featured queue.](/viva/media/learning/academy-3.png)
+   > [!NOTE]
+   > You can add a maximum of six learning objects to one featured set. 
 
 7. Select **Activate** on the draft featured set.
 
-1. Select the academy where you want the featured set to be displayed.
+8. Select the academy where you want the featured set to be displayed.
    This maps the featured set to the academy. The featured set is now activated.
     
-   ![Screenshot of an academy with an activated featured set.](/viva/media/learning/academy-4.png)
+## Enable profile card
 
-### Add learning paths. 
+The profile card is disabled by default.  
 
-1. Go to **Learning paths** in Viva Learning admin. 
+Add a feature set if you want to enable the profile card.
+You can choose to either disable the profile card and keep the feature set, or to disable both. 
 
-1. Select **Create** to generate a new learning path. Refer to the article on [creating learning paths](/viva/learning/creating-learning-paths) 
+### Organize the academy structure 
 
-1. **Publish** the learning path.
+#### Add sections and sub-sections
 
-1. Navigate to **Manage Academies** to select the Academy and select **Configure**. 
+1. You can optionally add sections and subsections to organize learning paths. 
+2. You can edit or delete the section and sub-section, add descriptions, and reorder content.
+    
+#### Add learning paths
+   
+1. Select **Add Learning Paths** to add existing learning paths.
 
-   ![Screenshot of a configured academy where you can add a learning path](/viva/media/learning/academy-5.png)
+2. To create new learning paths, go to the Viva Learning admin, and then select **Learning paths**.
 
-1. Select **Add** to find the learning paths you want to include and **Add** them. You can reorder the list by clicking and dragging the content.
+3. Select **Create New** to generate a new learning path. Learning more about [creating learning paths](creating-learning-paths.md)
 
-1. Select **Save.**
+4. Publish the learning path. 
+
+5. To add newly created learning paths to the academy, go to **Manage Academies**.
+
+6. You can reorder the learning paths using drag and drop. 
+
+7. View selected learning paths under in the **Selected** tab in **Search**.
+
+8. Select **Save** to save your academy configurations. 
+
 
 ## Enable academy
 
-1. **Enable Academy** to enable the Academy to the learner group.
+1. Select **Enable Academy** to enable the academy for learners.
 
-   ![Screenshot of an academy after it has been enabled](/viva/media/learning/academy-6.png)
+   ![Screenshot of an academy after it has been enabled.](/viva/media/learning/academy-enable-1.png)
 
-2. Select the **Copy Academy** link icon next to **Enable Academy** to copy and share the Academy deep link url.
-
+2. Select **Preview** to review the academy structure before making it live. 

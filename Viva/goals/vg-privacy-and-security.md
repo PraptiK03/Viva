@@ -125,7 +125,7 @@ Viva Goals follows Office 365 practices and leverages yearly penetration tests, 
 
 #### Can we get the security event logs? Can we audit all activities in Viva Goals?
 
-Viva Goals does not send security event logs to a third-party Security Information and Event Management (SIEM) service. However, the Global admin can audit activities on Viva Goals by searching for Viva Goals activities in the audit section of the [Microsoft compliance portal](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcompliance.microsoft.com%2F&data=05%7C01%7Csusbhatia%40microsoft.com%7Cfe608d17064441d9162308db152377d1%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638127014381975186%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=3sf6iXmnIV1JUmfwymJOQkjWW%2BAUFBVxj58GX6e5w9k%3D&reserved=0). To learn more about how to search the audit log, see [Audit Log Search](/microsoft-365/compliance/audit-log-search). The list of user and admin activities in Viva Goals that are logged for auditing can be seen at [Viva Goals Activities](/microsoft-365/compliance/audit-log-activities?).  
+Viva Goals does not send security event logs to a third-party Security Information and Event Management (SIEM) service. However, the Global admin can audit activities on Viva Goals by searching for Viva Goals activities in the audit section of the [Microsoft compliance portal](/purview/purview-compliance-portal). To learn more about how to search the audit log, see [Audit Log Search](/microsoft-365/compliance/audit-log-search). The list of user and admin activities in Viva Goals that are logged for auditing can be seen at [Viva Goals Activities](/microsoft-365/compliance/audit-log-activities?).  
 
 #### How can Security incidents be reported?
 
@@ -226,7 +226,7 @@ Yes. See the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacy
 
 #### How do you ensure that sub-processors meet data handling standards?
 
-See the [Subprocessors and Data Privacy article](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Ftrust-center%2Fprivacy%2Fdata-access%23howdoesmicrosofthandleyourdatainthecloud&data=05%7C01%7Crasanders%40microsoft.com%7Cf43d2000d60f44fd36ba08db34619004%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638161365867484615%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=%2FNDeHFZP%2FHJZKslHI%2FluJIn5PzJKWQKghZAv%2BFsFzTI%3D&reserved=0) for how Microsoft handles your data.
+See the [Subprocessors and Data Privacy Whitepaper](https://www.microsoft.com/download/details.aspx?id=106293) to understand how Microsoft subprocessors handle your data.
 
 ### Viva Goals Data Residency
 

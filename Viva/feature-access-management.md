@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author: loreenl
 author: lizap
 manager: elizapo
-ms.date: 01/24/2025
+ms.date: 03/26/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -45,10 +45,6 @@ Before you can create a policy, you need:
 
 ## Features available to manage
 
-> [!NOTE]
-> - Some features may not support user/group policies. In addition, policies for one app can have an impact on the entire tenant or users in your tenant. For more information, see the feature documentation by using the link in the table.
-> - Only some features have the controls available for admins to provide users with the option to opt out.
-
 You can use feature access management to manage access to the following features:
 
 > [!NOTE]
@@ -57,25 +53,31 @@ You can use feature access management to manage access to the following features
 
 |App|Feature|Control for user opt-out?|Who can manage access|ModuleID|
 |-|-|-|-|-|
-|Engage|[Copilot in Engage](/viva/engage/configure-copilot-for-engage)|No|Engage admin|VivaEngage|
+|Engage|[Copilot in Engage](/viva/engage/configure-copilot-for-engage)|No|AI admin**|VivaEngage|
 ||[AI Summarization](/viva/engage/configure-copilot-for-engage)|Yes|Engage admin|VivaEngage|
+|Glint|[Copilot in Viva Glint](/viva/glint/copilot/admin-enable)*|No|Global admin|VivaGlint|
 |Goals|[Copilot in Viva Goals](/viva/goals/copilot-intro)|No|Goals admin|VivaGoals|
-|Insights|[Analyst Report Publish (preview)](/viva/insights/advanced/analyst/publish-reports)|No|Viva Insights admin|VivaInsights|
-||[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)|No|Global admin|VivaInsights|
-||[Copilot Dashboard Auto Enablement](/viva/insights/org-team-insights/copilot-dashboard#remove-access-to-the-dashboard-for-the-entire-tenant-with-powershell)|No|Global admin|VivaInsights|
-||[Copilot Dashboard Delegation](/viva/insights/org-team-insights/delegate-access)|Yes|Global admin|VivaInsights|
-||[Copilot Assisted Value](https://go.microsoft.com/fwlink/?linkid=2281051)|No|Global admin|VivaInsights|
-||[Copilot in Viva Insights](/viva/insights/advanced/analyst/copilot-query)|No|Viva Insights admin|VivaInsights|
+|Insights|[Advanced Insights](/viva/insights/advanced/introduction-to-advanced-insights)|No|AI admin|VivaInsights|
+||[Analyst Report Publish (preview)](/viva/insights/advanced/analyst/publish-reports)|No|Viva Insights admin|VivaInsights|
+||[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)|No|AI admin|VivaInsights|
+||[Copilot Dashboard Auto Enablement](/viva/insights/org-team-insights/copilot-dashboard#remove-access-to-the-dashboard-for-the-entire-tenant-with-powershell)|No|AI admin|VivaInsights|
+||[Copilot Dashboard Delegation](/viva/insights/org-team-insights/delegate-access)|Yes|AI admin|VivaInsights|
+||[Copilot Assisted Value](https://go.microsoft.com/fwlink/?linkid=2281051)|No|AI admin|VivaInsights|
+||[Copilot in Viva Insights](/viva/insights/advanced/analyst/copilot-query)|No|AI admin**|VivaInsights|
 ||[Digest Welcome Email](/viva/insights/advanced/setup-maint/configure-personal-insights#configure-access-at-the-tenant-level)|No| Global admin|VivaInsights|
 ||[Meeting cost and quality](https://aka.ms/meetingcostandqualitypost)|No|Insights admin|VivaInsights|
 ||[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Insights admin|VivaInsights|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)|No|Viva Pulse admin|VivaPulse|
 ||Delegation|No|Viva Pulse admin|VivaPulse|
 ||[Team conversations in Pulse reports](/viva/pulse/setup-admin-access/granular-access-controls#conversations-in-pulse-reports)|No|Viva Pulse admin|VivaPulse|
-|Skills|[Default Skills visibility](/viva/skills/skills-overview)*|Yes|Knowledge admin|VivaSkills|
-||[Skill suggestions](/viva/skills/skills-overview)*|Yes|Knowledge admin|VivaSkills|
+||[Copilot in Viva Pulse](/viva/pulse/setup-admin-access/granular-access-controls)|No|Viva Pulse admin|VivaPulse|
+||[Viva Pulse experience with Microsoft 365 Copilot](/viva/pulse/setup-admin-access/granular-access-controls)|No|Viva Pulse admin|VivaPulse|
+|Skills|Default Skills visibility*|Yes|Knowledge admin|VivaSkills|
+||Skill suggestions*|Yes|Knowledge admin|VivaSkills|
 
 \* The feature or feature control might not yet be available for all tenants. Support will be added soon.
+
+\** The AI admin controls all Copilot features in Viva Engage, Viva Goals, and Viva Insights. Individual app admins can control the Copilot features they have access to.
 > [!NOTE]
 >
 > - For information on the impact of policies on your tenant or the users in your tenant or on the functionality of other features in your tenant, see the table above for documentation on the specific feature.  

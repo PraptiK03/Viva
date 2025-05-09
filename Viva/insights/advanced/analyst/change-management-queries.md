@@ -4,7 +4,7 @@ title: Create change management queries
 description: Learn how to use organizational network analysis or ONA to measure the impact on collaboration after a large-scale company change.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
@@ -34,7 +34,7 @@ Before you can run the ONA query and populate the report in the advanced insight
 
 ## Set up a Network Analysis
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1nze8]
+> [!VIDEO 1843f987-8e68-4952-92b9-5c3b8721b216]
 
 1. In the advanced insights app’s **Analysis** page, in the **Network analysis** section, under “Change management,” select **Set up analysis**.
 
@@ -48,15 +48,15 @@ Before you can run the ONA query and populate the report in the advanced insight
 
 ### Select and customize your attributes
 
-6. Under **Select and prepare organizational attributes for analysis**, select up to three organizational attributes you’d like to use to factor into your analysis. These attributes control how employees are grouped in the ONA experience. Your choice of attributes depends on the specific questions you’d like to address with the analysis. For example, if you want to learn about employee collaboration across different organizational structures and assess the impact of hybrid work on collaboration, we suggest grouping employees using the attributes "Organization," "HybridWorkState," and “OnsiteDays.” You can’t select attributes that have more than 100 values. [Learn more about organizational data](../admin/org-data-overview.md).
+1. Under **Select and prepare organizational attributes for analysis**, select up to three organizational attributes you'd like to use to factor into your analysis. These attributes control how employees are grouped in the ONA experience. Your choice of attributes depends on the specific questions you'd like to address with the analysis. For example, if you want to learn about employee collaboration across different organizational structures and assess the impact of hybrid work on collaboration, we suggest grouping employees using the attributes "Organization," "HybridWorkState," and "OnsiteDays." You can't select attributes that have more than 100 values. [Learn more about organizational data](../admin/org-data-overview.md).
 
-    There are three steps to this process. First, you’ll select your attributes. Then, you’ll customize the attributes’ values to better align with the comparisons you’re looking to make. Thirdly, you’ll select attribute values as “focus” values to tailor your analysis to those values.
+    There are three steps to this process. First, you'll select your attributes. Then, you'll customize the attributes' values to better align with the comparisons you're looking to make. Thirdly, you'll select attribute values as "focus" values to tailor your analysis to those values.
 
-    For this hypothetical scenario, let’s assume that the data for the attribute “Organization” has undergone significant changes between the before and after periods, and to reflect that in the analysis you’d like to rename one of its values, and combine two other values.
+    For this hypothetical scenario, let's assume that the data for the attribute “Organization” has undergone significant changes between the before and after periods, and to reflect that in the analysis you'd like to rename one of its values, and combine two other values.
 
     To begin with the first step, select **Add attributes**.
 
-7. In this scenario, you would select the attribute **Organization**.
+1. In this scenario, you would select the attribute **Organization**.
 
     :::image type="content" source="../images/ona-query-setup-01.png" alt-text="Screenshot showing how to select your attributes.":::
 
@@ -68,9 +68,9 @@ Before you can run the ONA query and populate the report in the advanced insight
 
     At the top right, select **Save and continue**.
 
-8. In the **Node view**, select the values you’d like to combine. When you combine values, the newly formed groups are applied to both the before and after time periods. We recommend as much parity as possible between the before and after periods, for reliable before/after comparisons in your analysis.  
+1. In the **Node view**, select the values you'd like to combine. When you combine values, the newly formed groups are applied to both the before and after time periods. We recommend as much parity as possible between the before and after periods, for reliable before/after comparisons in your analysis.  
 
-    For the attribute “Organization,” you want to make a new group comprised of the “Inventory Management” and “Facilities” values. Select those values.
+    For the attribute “Organization,” you want to make a new group comprised of the "Inventory Management" and "Facilities" values. Select those values.
 
      :::image type="content" source="../images/query-setup-03.png" alt-text="Screenshot showing how to combine the attribute values.":::
 
@@ -86,7 +86,7 @@ Before you can run the ONA query and populate the report in the advanced insight
 
 ### Select focused values
 
-9. Finally, if you like, you can select up to three values as focused values. This will let you focus the results of your analysis on these particular groups and the groups with which they most closely collaborate. You can select up to three of these values to focus your analysis from the query’s summary view page, described below.
+1. Finally, if you like, you can select up to three values as focused values. This will let you focus the results of your analysis on these particular groups and the groups with which they most closely collaborate. You can select up to three of these values to focus your analysis from the query’s summary view page, described below.
 
     For example, if you select “Internal services” and “IT operations” as focused values, you can hone in on the collaboration changes just for those groups, and the groups’ closest collaborators, in your analysis.
 
@@ -94,9 +94,9 @@ Before you can run the ONA query and populate the report in the advanced insight
 
     When you’re finished, at the top right, select **Save and finish**.
 
-10. You’re brought back to the main query setup page. To add and customize another attribute, under **Select and prepare organizational attributes for analysis**, select **Add attributes**, and follow the same steps outlined above for that attribute.
+1. You're brought back to the main query setup page. To add and customize another attribute, under **Select and prepare organizational attributes for analysis**, select **Add attributes**, and follow the same steps outlined above for that attribute.
 
-    Or, to make changes to how you’ve customized your chosen attributes, select **View or edit** next to the attribute you want to further customize. Or, to remove the attribute entirely and choose a new one, select **Remove**.
+    Or, to make changes to how you've customized your chosen attributes, select **View or edit** next to the attribute you want to further customize. Or, to remove the attribute entirely and choose a new one, select **Remove**.
 
     When you’re ready to run the query, at the screen’s top right, select **Run**.
 
@@ -112,17 +112,17 @@ To view the results, find your query under **Query name**, then select the Netwo
 
 ### Explore insights in summary view
 
-At the top of the screen, you’ll see two cards that provide two categories of insights relevant to your query: **Significant change in collaboration** and **Showing signs of insularity**. These two cards provide two different types of insights and data points related to collaboration and working patterns.
+At the top of the screen, you'll see two cards that provide two categories of insights relevant to your query: **Significant change in collaboration** and **Showing signs of insularity**. These two cards provide two different types of insights and data points related to collaboration and working patterns.
 
-Let’s now discuss the insights provided by each category, and how you can navigate the ONA experience for each.
+Let's now discuss the insights provided by each category, and how you can navigate the ONA experience for each.
 
 ## Insight category #1 - Significant change in collaboration
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1k3fg]
+> [!VIDEO a04b9b9f-8270-4a29-a1b1-343a9286ee02]
 
 ### Summary page
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1nyKk]
+> [!VIDEO de3da5b4-46b4-47d7-85a5-e087f8a1bab6]
 
 **Significant change in collaboration** highlights significant changes in collaboration patterns following the event. You can use this insight category to analyze how collaboration increased or decreased between specific groups, as well as between smaller groups of people or subgroups within the larger groups. For example, with this card, you could analyze the changes in collaboration between the Product and Marketing groups following a reorganization.
 
@@ -170,7 +170,7 @@ This is the first view you’ll see after you select **Explore more**. It provid
 
 :::image type="content" source="../images/ona-hotspot-1-side-by-side.png" alt-text="Screenshot showing the side-by-side view for the first insight category." lightbox="../images/ona-hotspot-1-side-by-side.png":::
 
-Here’s how to interpret this view of nodes:
+Here's how to interpret this view of nodes:
 
 * The nodes are grouped based on the “People grouped by” selection, and their size is based on the number of people in the group.
 
@@ -178,7 +178,7 @@ Here’s how to interpret this view of nodes:
 
 * Any focused groups shown in the view are indicated with concentric circles.
 
-* A gray “other” node contains  other groups which have been filtered out of the network view in order to facilitate a more readable network visualization. You can use the **Filter groups** tool described below to display these groups as individual nodes. You can also select the gray “Other” node to see the groups it includes and incorporate them into the view.
+* A gray “other” node contains other groups which have been filtered out of the network view in order to facilitate a more readable network visualization. You can use the **Filter groups** tool described below to display these groups as individual nodes. You can also select the gray “Other” node to see the groups it includes and incorporate them into the view.
 
 * The colors around the nodes represent how the groups are segmented, such as by employee level or geography. The segments that constitute a group is governed by the “Segment groups by” selection.
 
@@ -246,7 +246,7 @@ Here are a few ways you can explore this view.
 
 4. **Go back to before/after view**. At the top right, select the outward facing box. Any time period changes you made in the full screen view will carry over to the “before/after” view.
 
-:::image type="content" source="../images/ona-hotspot-3-fullscreen-02.png" alt-text="Screenshot showing the button to go back to side by side view.":::
+    :::image type="content" source="../images/ona-hotspot-3-fullscreen-02.png" alt-text="Screenshot showing the button to go back to side by side view.":::
 
 ### Matrix view
 
@@ -282,11 +282,11 @@ Just like with the network view, you can use the matrix view to analyze collabor
 
 The insights provided by the Significant change in collaboration insight category are calculated using the following two metrics:
 
-* **Group collaboration time invested**, which determines the connecting lines between the nodes
+* **Group collaboration time invested**, which determines the connecting lines between the nodes.
 
-* **Group size**, which determines the size of the nodes and the size of the segments around them
+* **Group size**, which determines the size of the nodes and the size of the segments around them.
 
-Let’s dive a little bit deeper into some of these metrics and how their results are calculated.
+Let's dive a little bit deeper into some of these metrics and how their results are calculated.
 
 #### Group collaboration time invested
 
@@ -438,11 +438,11 @@ Therefore, for a given group, we average all the group size values that we have 
 
 ## Insight category #2 - Showing signs of insularity
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1k3fj]
+> [!VIDEO 9898f011-31a0-441f-b29d-fb13f3985b57]
 
 ### Summary page
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1nyKk]
+> [!VIDEO de3da5b4-46b4-47d7-85a5-e087f8a1bab6]
 
 The **Showing signs of insularity** insight category details which groups are connecting more within their own group than expected, in comparison to connecting with other groups outside their own group. This tendency toward within-group collaboration is referred to as “insularity.”
 
@@ -654,7 +654,7 @@ The top highlights section encompasses group(s) that exhibit either:
 
 1. A significant increase in insular collaboration behavior in the after period, the EI Index of the group(s) has become more negative (i.e., the EI Index is getting close to -1).
 
-2. Group(s) that continue to showcase insular collaboration tendencies (i.e. have a negative EI Index in the before/after periods). In the case where group(s) continue to display insular collaboration tendences in the before/after period, up to five groups with the lowest negative score (i.e. closer to -1) are surfaced in the top highlights section.
+2. Group(s) that continue to showcase insular collaboration tendencies (i.e. have a negative EI Index in the before/after periods). In the case where group(s) continue to display insular collaboration tendencies in the before/after period, up to five groups with the lowest negative score (i.e. closer to -1) are surfaced in the top highlights section.
 
 Let’s look at two different scenarios to see how this plays out.
 
@@ -677,3 +677,121 @@ In this scenario, there are no changes that surface an increasing tendency towar
 In this case, the “top highlights” section will only surface five groups that have the lowest negative score (i.e. closer to -1) belonging to the bottom 10% (or 25%) of EI Index scores. The groups whose EI index score falls in the bottom 10% (or 25%) will be emphasized via an appropriate visual treatment within the experience.  
 
 There could be other groups that continue to show insular collaboration tendency but possess an EI Index score greater than the EI Index scores for groups in the bottom 10% (or 25%). These groups will continue to appear in the visualizations within the experience.
+
+## Insight category #3 - Brokers of information flow
+
+### Summary page
+
+The **Brokers of information flow** insight category highlights groups that are acting as central hubs controlling or "brokering" the flow of information across the collaboration network. This category also spotlights groups that acted as information brokers *before* the change event at the company but are no longer acting as such.  
+
+Groups identified as top information brokers serve as key disseminators of information throughout the network. But these groups could also give rise to collaboration overload, because a significant proportion of information is flowing through the group(s) deemed to be information brokers. 
+
+Each group within your specified collaborative network has a Bridging Index, which is a numerical representation of the extent to which that group acts as an information broker. Of these, we highlight and rank the groups with the top five Bridging Index scores, assigning them a **bridging rank**. 
+
+>[!Important]
+>Because the computation of the Bridging Index is based on graph theory, the value of the metric is slightly different for each computation. For example, a group might have a Bridging Index of one value in an initial report, then a Bridging Index that's marginally higher or lower in a subsequent report for the same date range. 
+
+The bridging rank is displayed for the top five information brokers, with "1" being the highest rank. The higher the rank, the more that group is in the path of information flow. The bridging rank, to be clear, indicates a *ranking* of information flow, not the *amount* of information flow. 
+
+Just like the other insight categories, the card surfaces a key insight which is supported by a list of **top highlights** for the third insights category. Hover over each highlight to see which area of the graph it relates to. 
+
+On the summary page, you can also view top highlights based on the population scope you specified, or the focused values you selected during the setup process. At the top right, select **Analysis focused on** to view the top highlights specific to the focus group you selected.
+
+:::image type="content" source="../images/ona-hotspot-3-analysis-focused-on.png" alt-text="Screenshot showing the button to filter the analysis to specific focus groups.":::
+
+Under **Top highlights of**, select **Your focused groups** or **All other groups** to toggle between viewing these highlights as they apply to the entire network not including the focused groups, or *just* your focused groups. 
+
+>[!Note]
+> Depending on the focused values you selected, it's possible that some or all of your focused groups might not have experienced a significant change to have any top highlights associated with them. 
+
+Here is the ranking system we use – from most to least important – to determine these top highlights and the order in which we present them:
+
+1. Groups that were previously *not* communication hubs in the before period, but became one of the top five information brokers in the after period 
+
+2. Groups that were among the top five information brokers in the both the before *and* after periods 
+
+3. Groups that were previously among the top five information brokers in the before period but are no longer so in the after period 
+
+Now that you've got a handle on the top highlights, let's dive in to the network view for this third insight category. Select **Explore more**.
+
+### Side-by-side view
+
+Just like the first two insight categories, this view provides a network visualization comprised of nodes. There are some differences with this third insight category, however, in the visual representation of the analysis. 
+
+Here's how to interpret this view of nodes: 
+
+The nodes are still grouped based on your "People grouped by" selection. However, unlike the previous insight categories, their size is based on the extent to which each group acts as an information broker. The higher the Bridging Index for a group, the larger the size of the node.
+
+The groups are stack-ranked based on their Bridging Index. The bridging rank for the top five information brokers is displayed in both the before and after periods. 
+
+In the after period, the up or down arrows inside the node indicate that group's change as it relates to the top five information brokers. An up arrow indicates that the group moved into the top five information brokers in the after period, while a down arrow indicates that the group moved *out* of the top five information brokers in the after period.  
+
+In the scenario below, for instance, the Finance-Corporate group is ranked as the #3 top information broker, and the up arrow indicates that it moved into the top five information brokers in the after period. The down arrow for the Human Resources group, meanwhile, means it moved *out* of the top five information brokers in the after period. And IT-East is the #4 information broker with no arrow, which means it was in the top five information brokers in both the before and after periods.
+
+:::image type="content" source="../images/ona-hotspot-3-side-by-side-01.png" alt-text="Screenshot showing the bridging rankings for the three groups.":::
+
+Here are a few other characteristics of this insight category to be aware of: 
+
+* Like the previous insight categories, the thickness of the line or edge connecting any two nodes is based on the amount of collaboration between those groups. 
+
+* Also like the previous insight categories, the colors around the nodes represent how the groups are segmented, such as by employee level or geography. The segments are determined by your **Segment groups by** selection.
+
+Here are a few ways you can interact with this graph to learn more about the insights: 
+
+1. **See collaboration trends**. Select any group to see their total collaboration hours, as well as the collaboration activity for each subgroup member, including the group's collaboration time per capita within the callout. A group's per capita collaboration time represents the group's total collaboration time divided by the number of employees in the group. You'll also see the group's after-period bridging rank, as well as its rank in the before period. And, you'll see the top three contributors to the group's bridging profile. 
+
+2. **See collaboration trends with other groups**. Select the connecting edge between any two nodes to see how collaboration changed between those specific groups. 
+
+3. **Explore subgroups**. Select the node you want to explore further. Then select **Expand this group**. The node will show the subgroups that make up the larger group. Select the subgroup node to display the bridging rank for that subgroup. The below scenario, for instance, shows members of the Finance-Corporate group. Select the "Executive" subgroup to see the bridging rank and the Bridging Index of the subgroup. A rank of 1 indicates that the "Executive" subgroup is the top contributor to the bridging profile of the overarching Finance-Corporate group. To revert back to the previous view, select the node again, then select **Collapse this group**.
+
+    :::image type="content" source="../images/ona-hotspot-3-subgroup-01.png" alt-text="Screenshot showing the Executive subgroup.":::
+
+4. **Dive deeper into cross-group collaboration between subgroups**. Select the edge that connects any two groups, then select **Expand both groups**. You'll see a focused view of how the subgroups are collaborating with each other. Hover over each connecting edge see the collaboration changes for individual members. A green edge indicates increased collaboration between members, while a purple edge indicates decreased collaboration. You can also select an individual subgroup node for a more focused look at how that member collaborated with members of the overarching group. In the scenario below, for instance, collaboration between Finance-West and IT-East dropped by nearly 14 percent, and the purple edge indicates the decrease.
+
+    :::image type="content" source="../images/ona-hotspot-3-subgroup-02.png" alt-text="Screenshot showing the collaboration changes between Finance-West and IT-East.":::
+
+**Filtering options**: 
+
+1. **Filter for different views**. Experiment with the filters **Filter groups** and **Segment groups by** to get different perspectives on the flow of information between groups. 
+
+2. **Customize time periods**. In the top left of either view, select the dropdown next to the time period to change the timeframe. 
+
+3. **Revisit summary insights**. Want another look at the key insights? Inside the card at the top of the page, select **View highlights of**.
+
+### Full screen view
+
+The "before/after" view described above provides a quick snapshot that shows the Bridging Index scores across the network and how groups collaborated after the change event. To dig deeper into a single "before" or "after" view, select the outlined box in the top right of either view to investigate how groups and subgroups worked together during that time period alone.
+
+:::image type="content" source="../images/ona-hotspot-3-fullscreen.png" alt-text="Screenshot showing the button for fullscreen view.":::
+
+Here are a few ways you can explore this view. 
+
+1. **Analyze cross-group collaboration between subgroups**. Select the edge connecting any two nodes. Then select **Expand both groups** to see how members of the two uber groups collaborated with each other, just like you would in the "before/after" view described above. 
+
+2. **Share results**. In the top right of the view, select the camera icon to share a snapshot of the changes with a colleague. 
+
+3. **Go back to before/after view**. At the top right, select the outward facing box. Any time period changes you made in the full screen view will carry over to the "before/after" view.
+
+    :::image type="content" source="../images/ona-hotspot-3-fullscreen-02.png" alt-text="Screenshot showing the button to go back to the before and after view.":::
+
+### Chart view
+
+The network view provides a visual story of information brokers that's great for qualitative analysis. But you can also explore the chart view for this insight category, which provides a visual representation of the extent of change for each group's bridging profile.  
+
+Here's how to explore the chart view.
+
+1. **Explore the chart**. At the top of any network view, under "Visualize as," select **Chart**. The chart showcases the amount of change for each group's bridging profile. For any given group, a dark blue circle indicates the "after" state whereas the lighter blue circle indicates the "before" state. 
+
+2. **Circle color and movement show bridging profile changes**. Movement from the right to the left illustrates a decrease in that group's bridging profile in the "after" period. Movement from the left to the right illustrates an *increase* in that group's bridging profile in the "after" period. In the scenario below, for instance, the movement of the Finance-Corporate group's circle from light blue on the left to dark blue on the right indicates increased bridging in the "after" period. For IT-East, the movement of the circle from light blue on the right to dark blue on the left indicates *decreased* bridging in the after period.
+
+    :::image type="content" source="../images/ona-hotspot-3-chart-01.png" alt-text="Screenshot showing the chart view for the Finance-Corporate and IT-East groups.":::
+
+3. **Fine-tune your view**. Use the **Filter groups** option to narrow down specific values for the grouping attribute you've chosen. 
+
+4. **Explore subgroups**. Within the chart view, you can also see the extent to which each subgroup contributed to the larger group's bridging profile, in both the "before" and "after" periods. Individual bars will appear for each of the subgroups which show the changes in bridging for those subgroups.
+
+    For instance, in the example below, the degree to which the "Manager" subgroup contributes to the bridging profile of the overarching group has increased in the "after” period compared to the "before" period. The side-by-side bars illustrate this change. The bridging rank associated with the "Manager" indicates that the "Manager" subgroup is the top contributor to the bridging profile of the "IT Operations" group.
+
+    :::image type="content" source="../images/ona-hotspot-3-chart-02.png" alt-text="Screenshot showing the Manager subgroup in the chart view.":::
+
+5. **Switch back to network view**. Under "Visualize as," select **Graph** to explore the network visualizations within the same "before" and "after" view. 

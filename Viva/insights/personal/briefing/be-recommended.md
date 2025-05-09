@@ -1,10 +1,10 @@
 ---
-ms.date: 09/20/2022
+ms.date: 04/2/2025
 title: Recommended actions in the Briefing email
 description: Use actions that the Briefing email suggests as Recommended for you
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 

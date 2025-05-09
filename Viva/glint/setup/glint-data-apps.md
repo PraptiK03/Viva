@@ -11,10 +11,10 @@ ms.collection:
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/29/2025
+ms.date: 03/11/2025
 ---
 
 # Use Advanced Configuration Data Apps
@@ -66,13 +66,13 @@ If duplicated users aren't removed, admins see a "Failed to run the data app RET
 
 Use these steps when manager reporting lines need to be corrected for a closed survey.
 
-1. Export current employee data from the Glint People page to preserve employees and Manager IDs in their current state. When the retroactive update is complete, reload this data to reset users to their current information.
+1. Export current employee data from the Viva Glint People page to preserve employees and Manager IDs in their current state. When the retroactive update is complete, reload this data to reset users to their current information.
 1. Export survey cycle data with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the survey needs to be updated.
 
    > [!NOTE]
    > Keep this export of original survey cycle data in case any retroactive updates need to be reverted.
       
-1. Prepare an update file with the EXPORT_USERS_FROM_SURVEY_CYCLE file from Step 2.
+1. Prepare an update file with the EXPORT_USERS_FROM_SURVEY_CYCLE file from Step 2. If the employee data loaded to Viva Glint is already correct, skip to Step 6 to create a Distribution List.
 
    > [!IMPORTANT]
    > Retain all users from the survey cycle in your update file. Even users who are not directly impacted by a Manager ID change can have a reporting line impact.
@@ -102,7 +102,7 @@ Use these steps when manager reporting lines need to be corrected for a closed s
       > If uploads aren't confirmed within 60 minutes, they expire and don't process.
       
 1. After the import completes successfully, use the **Export** option on the **People** page to confirm that Manager Hierarchy levels and teams are updated as expected.
-2. [Create a Distribution List](/viva/glint/setup/set-up-distribution-lists) and [import all users](/viva/glint/setup/import-members-distribution-lists) that are part of the retroactive update.
+2. [Create a Distribution List](/viva/glint/setup/set-up-distribution-lists) and [import all users](/viva/glint/setup/set-up-distribution-lists#import-users) that are part of the retroactive update.
 3. After uploading your corrected data on the **People** page and creating a Distribution List, go to **Advanced Configuration** and select **Data Apps**.
 1. In **Data Apps**, select **RETROACTIVE_PULSE_UPDATE**.
 1. Select parameters to update Manager ID:
@@ -130,9 +130,9 @@ Use these steps when manager reporting lines need to be corrected for a closed s
    1. **reloadAnalytics:** Switch toggle to **On**.
    1. Select **Execute, and show first 500 log records**.    
 1. Confirm Manager Hierarchy changes in your **Dashboard** and **Reports**.
-1. If the user data updates made by the correction file loaded for this update should be reset to current attribute values, load the data exported in Step 1 to the Glint People page.
+1. If the user data updates made by the correction file loaded for this update should be reset to current attribute values, load the data exported in Step 1 to the Viva Glint People page.
    1. For example, if Manager corrections apply to survey data in the past, but Manager IDs now different for employees, load data exported in Step 1 to restore current information.
-3. Optionally, [delete the Distribution List](set-up-distribution-lists.md#delete-distribution-lists) created to target users for the update.
+3. Optionally, [delete the Distribution List](set-up-distribution-lists.md#delete-a-list) created to target users for the update.
 
 > [!NOTE]
 > Depending on the number of Manager ID updates and users involved, it may take up to an hour to see changes reflected in reporting.

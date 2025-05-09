@@ -5,7 +5,7 @@ title: Briefing email pause
 description: About pausing the Briefing email
 author: zachminers
 ms.author: v-zachminers
-ms.topic: conceptual
+ms.topic: article
 ms.localizationpriority: medium 
 ms.service: viva-insights
 ms.collection: 
