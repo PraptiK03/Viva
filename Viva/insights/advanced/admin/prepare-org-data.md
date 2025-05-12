@@ -19,7 +19,7 @@ The advanced insights app can get organizational data in one of two ways: throug
 To learn about organizational data in general, find out which data Microsoft Entra ID automatically syncs with Viva Insights, and to get an overview of the **Organizational data** page in the advanced insights admin experience, refer to [Organizational data in Viva Insights](org-data-overview.md).
 
 >[!Important]
-> You can use **both** Entra and .csv uploads simultaneously if you enable "parallel" data ingestion. Then later, if you decide to stop using Entra for certain attributes, you can revert back to using only .csv files. [Learn more](./entra-plus-csv-upload.md).
+> You can use **both** Entra and data file uploads simultaneously if you enable "parallel" data ingestion. Then later, if you decide to stop using Entra for certain attributes, you can revert back to using only manual data files. [Learn more](./entra-plus-csv-upload.md).
 
 ## Prepare organizational data
 
