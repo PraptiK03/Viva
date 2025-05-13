@@ -1,5 +1,5 @@
 ---
-ms.date: 07/26/2024
+ms.date: 05/13/2025
 title: Create change management queries
 description: Learn how to use organizational network analysis or ONA to measure the impact on collaboration after a large-scale company change.
 author: zachminers
@@ -112,7 +112,7 @@ To view the results, find your query under **Query name**, then select the Netwo
 
 ### Explore insights in summary view
 
-At the top of the screen, you'll see two cards that provide two categories of insights relevant to your query: **Significant change in collaboration** and **Showing signs of insularity**. These two cards provide two different types of insights and data points related to collaboration and working patterns.
+At the top of the screen, you'll see three cards that provide three categories of insights relevant to your query: **Significant change in collaboration**, **Showing signs of insularity**, and **Brokers of information flow**. These cards provide three different types of insights and data points related to collaboration and working patterns.
 
 Let's now discuss the insights provided by each category, and how you can navigate the ONA experience for each.
 
