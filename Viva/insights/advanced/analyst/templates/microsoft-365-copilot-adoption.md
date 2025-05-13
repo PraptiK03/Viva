@@ -1,5 +1,5 @@
 ---
-ms.date: 04/21/2025
+ms.date: 05/13/2025
 title: Microsoft 365 Copilot adoption report
 description: Learn how to use the Microsoft 365 Copilot adoption Power BI template to understand Copilot employee usage across an organization.
 author: zachminers
@@ -128,7 +128,9 @@ View and set the following parameters on the **Settings** page. You can find
 
 * **Report language** – Change the language for your report.
 
-## About this report 
+## About this report
+
+> [!VIDEO 90905134-b5fc-4c87-b25a-28e6b61c9b5a]
 
 The **Microsoft 365 Copilot adoption** report includes the following report pages that help you better understand and accelerate Copilot adoption across the company.
 
