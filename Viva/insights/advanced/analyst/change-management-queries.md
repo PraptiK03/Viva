@@ -708,7 +708,7 @@ Here is the ranking system we use – from most to least important – to determ
 
 1. Groups that were previously *not* communication hubs in the before period, but became one of the top five information brokers in the after period 
 
-2. Groups that were among the top five information brokers in the both the before *and* after periods 
+2. Groups that were among the top five information brokers in both the before *and* after periods 
 
 3. Groups that were previously among the top five information brokers in the before period but are no longer so in the after period 
 
