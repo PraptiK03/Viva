@@ -45,14 +45,14 @@ Viva Glint Conversation Start, reminders, and summary notifications contain mult
 Add your customizations to each section and select **Save Changes** to save all of your edits.
 
 > [!NOTE]
-> The Body Text section of Team Conversations emails support multiple paragraphs to break up and emphasize important messages.
+> The Body Text section of Team Conversations emails supports multiple paragraphs to break up and emphasize important messages.
 
 > [!CAUTION]
 > Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery or blocking issues.
 
 ### Email macros
 
-Macros in Viva Glint emails allow your organization to add placeholders that pull in information from your employee data and from Viva Glint. Include Departments, Manager Names, or additional Team Conversations information to further customize for your managers. To add a macro, select the **plus sign icon** in email sections and choose a macro from the dropdown menu.
+Macros in Viva Glint emails allow your organization to add placeholders that pull in information from your employee data and from Viva Glint. Include Departments, Manager Names, or other Team Conversations information to further customize for your managers. To add a macro, select the **plus sign icon** in email sections and choose a macro from the dropdown menu.
 
 :::image type="content" source="../../media/glint/setup/glint-tc-macros.png" alt-text="Screenshot of macros available to add to Team Conversation email text.":::
 
