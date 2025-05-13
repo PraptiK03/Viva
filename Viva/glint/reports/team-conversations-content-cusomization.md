@@ -1,6 +1,6 @@
 ---
-title: Customize Viva Glint Team Conversations email content
-description: Customize Microsoft Viva Glint email content for Team Conversation start messages and reminders in the Communications section of Program Setup.
+title: Customize Microsoft Viva Glint Team Conversations email content
+description: Customize Microsoft Viva Glint email content for Team Conversations introductory messages and reminders in the Communications section of Program Setup.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: mbarry
@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/18/2025
+ms.date: 05/13/2025
 ---
 
-# Customize Viva Glint Team Conversations email content
+# Customize Microsoft Viva Glint Team Conversations email content
 
-Customize Microsoft Viva Glint email content for Team Conversations start messages and reminders in the Communications section of Program Setup. Optionally, set up a custom email sending domain and a company logo for emails. To understand how to enable/disable emails, and for more information about Team Conversations setup, see [Admin setup for Viva Glint Team Conversations](team-conversations-administrator-setup.md).
+Customize Microsoft Viva Glint email content for Team Conversations introductory messages and reminders in the **Communications** section of **Program Summary**. Optionally, set up a custom email sending domain and a company logo for emails. For more information about Team Conversations setup and emails, see [Admin setup for Viva Glint Team Conversations](team-conversations-administrator-setup.md).
 
 ## Custom sending domains and branding (optional)
 
@@ -36,29 +36,29 @@ Your Microsoft 365 global admin can configure a custom sending domain for your o
 
 ## Email sections
 
-To edit email content, go to the Communications section of your desired survey program, select the pencil icon to edit a given Team Conversations email, and in the edit pane that appears, select the pencil icon to edit content.
+To edit email content, go to the **Communications** section of your desired survey program. Select the **pencil icon** to edit a given Team Conversations email. In the edit panel that appears, select the **pencil icon** to edit content.
 
 Viva Glint Conversation Start, reminders, and summary notifications contain multiple editable sections:
 
 :::image type="content" source="../../media/glint/setup/glint-tc-sections.png" alt-text="Screenshot of editable Team Conversations start email sections in Viva Glint.":::
 
-Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
+Add your customizations to each section and select **Save Changes** to save all of your edits.
 
 > [!NOTE]
-> The Body Text section of Team Conversations emails support multiple paragraphs to break up and emphasize important messages.
+> The Body Text section of Team Conversations emails supports multiple paragraphs to break up and emphasize important messages.
 
 > [!CAUTION]
-> Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
+> Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery or blocking issues.
 
 ### Email macros
 
-Macros in Viva Glint emails allow your organization to add placeholders that pull in information from your employee data and from Viva Glint. Include Departments, Manager Names, or additional Team Conversations information in email text to further customize for managers. To add a macro, select the plus sign icon email sections where it exists and choose a macro from the dropdown menu.
+Macros in Viva Glint emails allow your organization to add placeholders that pull in information from your employee data and from Viva Glint. Include Departments, Manager Names, or other Team Conversations information to further customize for your managers. To add a macro, select the **plus sign icon** in email sections and choose a macro from the dropdown menu.
 
 :::image type="content" source="../../media/glint/setup/glint-tc-macros.png" alt-text="Screenshot of macros available to add to Team Conversation email text.":::
 
-## Manage translations
+## Manage language translations
 
-Any edits made to email text in English need to be made to all other survey languages. Use the guidance here to manage your Team Conversations email translations.
+Any edits made to email text in English need to be made to all other survey languages. Use this guidance to manage Team Conversations email translations:
 
 ### Use the program content import
 
@@ -69,3 +69,6 @@ Use this [translation guidance](/viva/glint/setup/language-translations) to impo
 In the email edit pane, after customizing English content, use the **Language** dropdown menu to select other survey languages and add translations to each section. Select **Save Changes** in the top right to save all of your edits.
 
 :::image type="content" source="../../media/glint/setup/glint-email-language-dropdown.png" alt-text="Screenshot of the Language dropdown in the email edit pane.":::
+
+>[!IMPORTANT]
+>Unlike for *invite* and *reminder* emails, it's not possible to use a dual language template for the **results notification email.** For creating results notification emails in dual languages, all languages must be added to the email body section individually and saved. 
