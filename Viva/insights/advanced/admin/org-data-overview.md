@@ -1,5 +1,5 @@
 ---
-ms.date: 05/16/2024
+ms.date: 05/14/2025
 title: Organizational data overview
 description: This article gives an overview of the Organizational data page in the Microsoft Viva Insights advanced insights app. 
 author: zachminers
@@ -87,9 +87,7 @@ So, when you view your organizational data in the advanced insights app, you'll 
 :::image type="content" source="../images/admin-field-sources-csv.png" alt-text="Screenshot of a diagram for .csv that shows each data source on the left, arrows in the center, and each attribute on the right.":::
 
 > [!Important]
-> After you upload a .csv file with organizational data, you won't be able to switch back to using Microsoft Entra ID for the Analyst experience. You'll need to regularly upload .csv files to keep your organizational data current. 
-> 
-> For Team Insights, The HR file influences the team composition only for users who have entries in the HR data file. For other users who do not appear in the HR file, we fall back to using Microsoft Entra ID. 
+> For Team Insights, The HR file influences the team composition only for users who have entries in the HR data file. For other users who do not appear in the HR file, Microsoft Entra ID is the data source. 
 >
 > Learn more about attributes and getting your organizational data file set up in [Prepare organizational data](prepare-org-data.md).
 
@@ -131,9 +129,6 @@ View your current data source, or switch to a new one. Active sources have a gre
 ##### Changing the active data source
 
 If you want to manually upload organizational data using a .csv file, instead of using the default Microsoft Entra data source, navigate to **.csv upload** beneath **Other available data sources**. Then select the **Start** button to begin a manual upload.
-
->[!Important]
->Once you upload organizational data in a .csv file, Microsoft Entra ID is no longer available as a data source.
 
 ### Organizational data
 
