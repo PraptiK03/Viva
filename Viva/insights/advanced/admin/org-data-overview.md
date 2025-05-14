@@ -87,7 +87,7 @@ So, when you view your organizational data in the advanced insights app, you'll 
 :::image type="content" source="../images/admin-field-sources-csv.png" alt-text="Screenshot of a diagram for .csv that shows each data source on the left, arrows in the center, and each attribute on the right.":::
 
 > [!Important]
-> For Team Insights, The HR file influences the team composition only for users who have entries in the HR data file. For other users who do not appear in the HR file, we fall back to using Microsoft Entra ID. 
+> For Team Insights, The HR file influences the team composition only for users who have entries in the HR data file. For other users who do not appear in the HR file, Microsoft Entra ID is the data source. 
 >
 > Learn more about attributes and getting your organizational data file set up in [Prepare organizational data](prepare-org-data.md).
 
