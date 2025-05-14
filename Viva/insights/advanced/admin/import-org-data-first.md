@@ -542,8 +542,8 @@ Select your **Copy data** activity, then select **General** to complete each fie
 * **Base URL**: Use the URL below and replace <**TENANT_ID**> with your tenant ID: https://api.orginsights.viva.office.com/v1.0/scopes/<**TENANT_ID**>/ingress/connectors/HR/ingestions/fileIngestion 
 * **Authentication type**: Select your authentication type as **Service principal** or **Certificate**. Service principal example: 
     * **Inline**: Select it. 
-    * **Service principle ID**: Enter the ID.
-    * **Service principle key**: Enter the key.
+    * **Service principal ID**: Enter the ID.
+    * **Service principal key**: Enter the key.
     * **Tenant**: Enter the tenant ID.  
     * **Microsoft Entra ID resource**: https://api.orginsights.viva.office.com 
     * **Azure cloud type**: Select your Azure cloud type.  
