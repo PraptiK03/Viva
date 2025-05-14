@@ -1,5 +1,5 @@
 ---
-ms.date: 04/28/2025
+ms.date: 05/14/2025
 title: Import organizational data using API-based import (first import)
 description: Learn how to set up a connection and import your data to the Viva Insights advanced insights app
 author: zachminers
@@ -369,7 +369,7 @@ If connector is set but previous ingestion is not complete yet:
 API to poll status for the ingestion, as the ingestion of data is long-running operation. 
  
 `[GET] 
- https://api.orginsights.viva.office.com/v1.0/scopes/<tenantId>/ingress/connectors/Hr/ingestions/{ingestionId}`
+ https://api.orginsights.viva.office.com/v1.0/scopes/<tenantId>/ingress/connectors/Hr/ingestions/fileIngestion/{ingestionId:guid}`
 
 [Response] 
 
