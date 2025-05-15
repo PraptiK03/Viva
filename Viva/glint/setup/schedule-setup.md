@@ -1,5 +1,5 @@
 ---
-title: Viva Glint survey Schedule setup
+title: Microsoft Viva Glint survey Schedule setup
 description: Set up the Schedule for your Microsoft Viva Glint survey by choosing a launch date, recurrence, and response window.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/11/2025
+ms.date: 05/06/2025
 ---
 
-# Viva Glint survey Schedule setup
+# Microsoft Viva Glint survey Schedule setup
 
 Set up the Schedule for your Microsoft Viva Glint survey by choosing a launch date, recurrence, and response window. 
 
@@ -46,7 +46,7 @@ After completing Program Setup and Distribution sections, set up a survey's Sche
 
    > [!NOTE]
    > - Viva Glint Admins can edit survey dates on a per survey basis, and surveys must be [approved and enabled](preview-manage-enable-engage-programs.md) to send out.
-   > - When sending surveys in users' time zones, a 24-hour cushion is added to the survey start and close time. [Learn more](time-zones.md).
+   > - A 24-hour cushion is added to the start and end of a survey when admins [send notifications in user time zones](time-zones.md).
 
 1. Select the right-facing arrow symbol to **Save & Continue**.  
 

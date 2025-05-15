@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/03/2025
+ms.date: 05/08/2025
 ---
 
 # Access the Viva Glint platform
@@ -24,7 +24,7 @@ Active Microsoft Viva Glint admin and dashboard users can access Viva Glint with
 > [!IMPORTANT]
 > To successfully access Viva Glint, users must:
 > - Exist in Microsoft Entra. Learn more about how Microsoft 365 Global Administrators or Entra admins can [set up access to Viva Glint with Microsoft Entra ID](access-with-azure-ad.md).
->     - Users can have a member type of Guest or Member. Invited Guests from other tenants in a [multitenant organization](glint-mto.md) and [Support users](add-external-user.md) need to select a domain when logging in. [Learn more](#sign-in-as-a-guest-or-support-user)
+>     - Users can have a member type of Guest or Member. Invited Guests from other tenants in a [multitenant organization](glint-mto.md) and [Support users](add-external-user.md) need to select a domain when [logging in](#sign-in-as-a-guest-or-support-user).
 > - Exist in the Viva Glint app with an "ACTIVE" employee status and membership to the Active Employees role.
 
 ## Select a supported browser
@@ -70,7 +70,12 @@ Invited Guests from other tenants in a [multitenant organization](glint-mto.md) 
 
 ## Session time-out
 
-After 20 minutes of inactivity, you're prompted with an initial **"Are you still here?"** message. A Viva Glint session ends after another 10 minutes of inactivity.
+Viva Glint sessions close after 30 minutes of inactivity. This mechanism helps protect sensitive data and ensures that sessions don't remain open indefinitely, which could pose security risks.
+
+User experience:
+
+- After 20 minutes of inactivity, an **Are you still here?** message displays.
+- If there's no response to the initial message, the session automatically shuts down after *another* 10 minutes of inactivity. 
 
 :::image type="content" source="../../media/glint/setup/glint-inactive-session-message.png" alt-text="Screenshot of a message that appears when a user is inactive in their survey session.":::
 

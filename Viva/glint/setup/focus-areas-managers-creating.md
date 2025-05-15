@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/05/2025
+ms.date: 04/22/2025
 ---
 
 # Create Focus Areas in Viva Glint
@@ -96,10 +96,46 @@ You can change the status of these items:
 - Visibility
 - Action Items - After Suggested Actions are selected and appear in the **Action Items** section, keep track of team progress by activating the checkmark to indicate completion.
 - Comments - As a manager and their team work toward a Focus Area, they can make notes of progress or roadblocks.
-- Tag someone by name to get feedback or input from a specific person around a Focus Area. Tagging also alerts a specific manager to consider using this Focus Area for their own team.
+- Tag someone by name to get feedback or input from a specific person around a Focus Area. Tagging also alerts a specific manager to consider using this same Focus Area for their own team.
 
 ## Reordering Focus Areas
 
 To help focus and prioritize your attention, you can reorder focus areas from the **My Focus Areas** page. Hover over the card until a blue bar appears. Drag the blue bar to a new position.
+
+## Microsoft Viva People Science explains Focus Areas and Action Plans 
+
+The success of continuous conversations hinges on actions taken at the leadership and company levels and should be based on feedback collected from their employees. Many companies build excitement and energy around concepts like “We want to hear from you!” and “Thank you for the feedback!” However, the momentum often slows somewhere between “Here’s what we’re going to do about your feedback” and what actually gets done to make positive, incremental changes.
+
+Initiating and managing action after a survey can be an unclear process. Focused and streamlined action planning is essential. An Action Plan is a written commitment to make incremental improvements to the employee experience and engagement in their work, on your team, and within the company. 
+
+### Our approach to Focus Areas
+
+The Microsoft Viva Glint Focus Areas module is designed to directly connect managers to recommended Focus Areas and resources for taking action based on their team’s results. Leaders are immediately able to see strengths and opportunities, review best practices, and select Focus Areas. 
+
+Managers receive recommended Focus Areas based on the scores and drivers most impactful to engagement within their team. The Viva Glint algorithm provides personalized recommendations based on score, comparison to *Company Average,* the selected benchmark, and the impact of particular areas on the outcome of interest.
+
+Research shows that focusing on one area at a time maximizes the ability to achieve. While managers own and drive only one Focus Area for their team, they can also champion and support their roll-up teams' Focus Areas.
+
+**Move leaders from a ‘big event’ mentality around action planning.**
+
+### Why develop Focus Areas?
+
+Choosing Focus Areas demonstrates commitment to continually improving the employee experience and, ultimately, changing leaders’ habits. Partnering with employees in understanding feedback and taking action on that feedback makes this process meaningful and builds trust. 
+
+Action planning content is sourced from industry best practices and our experience across a wide range of organizations. Content is written to be attainable and easy to implement. Managers are guided through an intuitive framework to help build their own concrete action plans, using learnings from how other managers engage their teams.
+- An extensive resource library helps users understand why recommended Focus Areas are important and how to attain them.
+- An easy-to-use interface allows managers to choose, organize, and prioritize actions by adding suggested tasks or creating their own.
+- Prescribed actions include interactive and lightweight self-assessments, team discussion tips, and case studies.
+
+Your organization can add **custom content** to use its own learning resources and to reflect company-specific values, initiatives, or strategies. You can add links to current content on internal and external sites to broaden educational opportunities.
+
+>[!IMPORTANT]
+>The biggest risk for an organization is sending out a survey, collecting feedback, and failing to act upon it. Viva Glint offers an array of support resources to ensure effective action planning, communication of progress, and a measurable boost to business outcomes.
+
+## More resources
+
+>[!div class="nextstepaction"]
+> [Customize Action Plans](https://go.microsoft.com/fwlink/?linkid=2230867)
+
 
 

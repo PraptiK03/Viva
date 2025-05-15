@@ -45,7 +45,7 @@ Also, set up what your employees see when they open an email sharing information
 |**Top-Level Manager**    | This employee is used to build managerial hierarchy and is the only person in your organization that doesn't report to anyone at a higher level.| 
 |**Company Privacy Policy** | Add a link to your organization's privacy policy. The privacy policy is displayed at the beginning of Viva Glint surveys and in the Viva Glint navigation bar.|
 |**Company Message to Survey Participants**|Enter guidance specific to your organization to be displayed at the beginning of Viva Glint surveys and applied to new programs and scheduled surveys. <li>Avoid potential conflicts between your organization's message and Viva Glint's privacy statements. The application of a privacy statement is dependent upon admin configuration. [**Learn more**](/../../viva/glint/setup/viva-glint-survey-privacy).</li><li>The company message displayed alongside standard privacy statements should refrain from stating anything that conflicts with the privacy statement applied to the survey. *Microsoft reserves the right to delete company messages if such conflicts come to our attention.*</li><li>No hyperlinks can be used in this company message</li><li>Character limit: 1024</li><li>**Best practice:** link to your organization's privacy policy **or** to customized message. Using *both* may incur conflicts.</li> <br> :::image type="content" source="../../media/glint/setup/customized-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when a customized message around privacy isn't included."::: <br> :::image type="content" source="../../media/glint/setup/customized-and-org-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when a custom company message is included."::: |
-|**Custom Branding** | Customize the logo and colors users see in Viva Glint. Custom branding overrides any company branding set up in the Microsoft 365 admin center. |
+|**Custom Branding** | [Customize the logo and colors](custom-branding.md) users see in Viva Glint. Custom branding overrides any company branding set up in the Microsoft 365 admin center. |
 
 ## Communications
 
@@ -53,7 +53,7 @@ Also, set up what your employees see when they open an email sharing information
 |:-----------|:-----------|
 |**Enable Email Notifications for Focus Area Comments**    | Enable for comments and user tagging.  | 
 |**Hide Focus Area/Comment Text in Focus Area Emails**    | Managers may receive an email notification when someone comments on their Focus Area (goal) or a new one is cascaded to them. Enable to hide these details from these emails. Disable to allow goal title and comment text to display.    | 
-|**Send Survey in Users’ Time Zones**    | Send invitations in user’s time zones on the survey start date. [Learn more](time-zones.md). | 
+|**Send Survey in Users’ Time Zones**    | [Send invitations in users' time zones](time-zones.md) on the survey start date. | 
 |**Microsoft Teams** | Enable your company to receive survey notifications and all Nudges via Teams. Overview and [installation process here](glint-teams.md). | 
 
 ## Reporting  
@@ -76,22 +76,22 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 |**Insight Minimum Group Size**   | Minimum number of responses before insights and alerts can be shown.    |  
 |**Insight Minimum Score Difference**   | Minimum number of responses before showing differences in insights and alerts.     | 
 |**Minimum Sample Survey Stats**   | Response rate isn't displayed for groups smaller than this set number. This rate is based on group size, not on number of responses and it must match the confidentiality threshold.      | 
-|**PowerPoint Template for Reports**   | Customer chosen default template. If unset, it defaults to the Viva Glint template. [Learn more](custom-ppt-upload.md).  |  
+|**PowerPoint Template for Reports**   | Customer chosen default template. If unset, it defaults to the Viva Glint template. [Modify templates](custom-ppt-upload.md).  |  
 |**Primary Hierarchy**   | The hierarchy your company identified as the first level for reporting, typically Manager. |  
 |**Secondary Hierarchy**   | The hierarchy your company identified as its second level for reporting, typically Location. | 
 |**Rating Questions Scale**   | The defaults survey rating questions use. Viva Glint's best practice is to use a 5-point scale. | 
-|**Calculation method for rating question scores**   | Choose the calculation method for rating question and aggregate index scores. If you choose Average as the calculation method, scores are converted to a 0–100 scale for easier comparison. If you choose Percent Favorable, scores show the percentage of favorable responses. **Important: Selecting the percent favorable option disables external benchmarks.** If external benchmarks are enabled (field above), you see this confirmation window: <br><br> :::image type="content" source="../../media/glint/reports/percent-favorable.png" alt-text="Screenshot of the Switch to Percent Favorable pop-up window.":::<br><br> This setting only affects Viva Glint engagement and lifecycle survey reports. Viva Glint 360 feedback reports use their own calculation method.  | 
+|**Calculation method for rating question scores**   | Choose the calculation method for rating question and aggregate index scores. If you choose Average as the calculation method, scores are converted to a 0–100 scale for easier comparison. If you choose Percent favorable, scores show the percentage of favorable responses. **Important: Selecting the percent favorable option disables external benchmarks.** This setting only affects Viva Glint engagement and lifecycle survey reports. Viva Glint 360 feedback reports use their own calculation method.  | 
 |**Suppression Threshold**   | Suppression occurs if there aren't enough respondents to meet confidentiality requirements. The Viva Glint Suppression Threshold default is two (2) but is dependent upon the confidentiality threshold.  |  
 |**Cross-Program Filtering**   | Turns on cross-program filtering within reports. Enables user roles to compare employee groups across different survey programs and cycles.   |   
 
 ## Engage Survey Details 
 
-Choose your survey access method. [Learn more](understand-survey-access-methods.md).
+Choose your [survey access method](understand-survey-access-methods.md).
 
 | Field | Definition and notes |
 |:-----------|:-----------|
-|**Require Microsoft Entra ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn off this functionality, a personalized survey link is sent to participants. [Learn more](understand-survey-access-methods.md).  | 
-|**Attribute-based Survey Access**   | Participants are able to retrieve survey links by entering attributes. This process doesn't authenticate participants and is less secure than surveys requiring Microsoft Entra ID authentication. [Learn more](attribute-based-survey-access.md).  |  
+|**Require Microsoft Entra ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn off this functionality, a personalized survey link is sent to participants. | 
+|**Attribute-based Survey Access**   | Participants are able to [retrieve survey links by entering attributes](attribute-based-survey-access.md). This process doesn't authenticate participants and is less secure than surveys requiring Microsoft Entra ID authentication. |  
 
 ## Features 
 
@@ -103,7 +103,7 @@ In this section:
 |:-----------|:-----------|
 |**Available Survey Questions and Program Templates**   |Deselect program types to delete them from being available on your platform. You can edit this functionality at any time.    |  
 |**Community Enabled**   |Enable to permission access to the Viva Glint community forum for this client, regardless of role-based permissions.  |  
-|**Employee Post-Survey Action Taking**   |Enables employees to view free LinkedIn Learning videos upon completing a survey. A LinkedIn Learning license isn't required. [Learn more](post-survey-learnings.md). | 
+|**Employee Post-Survey Action Taking**   |Enables employees to [view free LinkedIn Learning videos upon completing a survey](post-survey-learnings.md). A LinkedIn Learning license isn't required. | 
 |**Team Conversation Enabled**   |Enables Team Conversations for recurring surveys.   |  
 |**Default Focus Area Privacy**   |Choose the visibility/privacy setting for users creating a new Focus Area. More instructions around focus area privacy follow this table.  |
 |**Maximum Number of Survey Cycles for Trend**   |Default is five (5) cycles. Applies only to recurring and ad-hoc surveys. This controls the number of cycles that show on the dashboard and in reporting.    |
@@ -129,11 +129,11 @@ Make selections for your Viva Glint technical setup.
 | Field | Definition and notes |
 |:-----------|:-----------|
 |**Attribute for SSO Authentication** |View only. The email is set as the default employee ID. |
-|**SFTP Setup** |Streamline your data upload process by automatically adding your company data into the Viva Glint platform. [Learn more](set-up-sftp.md). |
+|**SFTP Setup** |Streamline your data upload process by automatically adding your company data into the Viva Glint platform. [SFTP setup](set-up-sftp.md). |
 
 ## Localization 
 
-English is the default language for all programs, but surveys and emails may be sent to employees in their preferred language. Viva Glint has 70+ language translations for standard content that can be set during the initial configuration or added later, until the survey is live.  
+English is the default language for all programs, but surveys and emails may be sent to employees in their preferred language. Viva Glint has 60+ language translations for standard content that can be set during the initial configuration or added later, until the survey is live.  
 
 | Field | Definition and notes |
 |:-----------|:-----------|

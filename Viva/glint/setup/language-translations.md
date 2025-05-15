@@ -1,6 +1,6 @@
 ---
-title: Manage language translations in Viva Glint programs 
-description: Survey content and email communications should be sent to employees in their preferred language. Managing language translations is easy within Viva Glint program.
+title: Manage translations in Viva Glint programs 
+description: English is the default language for all Microsoft Viva Glint programs, but admins can send surveys and email communications to employees in their preferred language. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: melissabarry
@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/08/2025
+ms.date: 05/08/2025
 ---
 
-# Manage language translations in Viva Glint programs 
+# Manage translations in Viva Glint programs 
 
-English is the default language for all Microsoft Viva Glint programs, but admins can send surveys and email communications to employees in their preferred language. Viva Glint provides customers with about 70 language translations for standard program content. Language translations are set during the initial survey configuration or added later as needed. Use Viva Glint's export/import option to review, add, or edit translations for survey emails and content (items, responses, survey text). 
+English is the default language for all Microsoft Viva Glint programs, but admins can send surveys and email communications to employees in their preferred language. Viva Glint provides customers with 60+ language translations for standard program content. Language translations are set during the initial survey configuration or added later as needed. Use Viva Glint's export/import option to review, add, or edit translations for survey emails and content (items, responses, survey text). 
 
 There are four steps for language translations: 
 
@@ -29,7 +29,7 @@ There are four steps for language translations:
 4. Import content back into the Viva Glint program
 
 > [!IMPORTANT]
-> See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
+> See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to [supported languages](supported-languages.md) and codes effective April 10, 2025.
 
 ## Export survey and email text for translation
 
@@ -74,12 +74,15 @@ Keep translated content in the same cell and columns|Don't add personal comments
 
 ## Import translated items back into Viva Glint
 
+>[!IMPORTANT]
+> Only one language can be uploaded at a time, even within a zip file. The platform may indicate that more than one language is being uploaded, but each language must be uploaded individually. An enhancement is in process to correct the notification stating that more than one language is being uploaded. 
+
 From the **Question Library** page, select **Import Questions** from the dropdown **Actions** menu. 
 
 1. Drag and drop or browse to find the translated file and place it in the box indicated. 
 1. Select **Next**. 
 1. If everything looks as expected, select **Make Changes**.
 
-> [!IMPORTANT]
+> [!CAUTION]
 > To prevent import errors, don't change any file name or column label in any exported files.
 

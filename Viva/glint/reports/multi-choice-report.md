@@ -11,10 +11,10 @@ ms.collection:
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/08/2025
+ms.date: 04/23/2025
 ---
 
 # Use the Viva Glint Multiple Choice Question Report
@@ -61,18 +61,35 @@ To delete a section:
 1. Select the ellipsis in the top right of a section.
 2. In the dropdown menu that appears select **Remove**.
 
+## Color-coding
+
+Response percentages are color-coded from light gray (0%) to dark blue (100%) according to the color breakdown guide at the bottom of each section. 
+
 ## Percentage breakdowns in the Multiple Choice Question Report
 
 The Multiple Choice Question Report shows a table for each question, listing the response options from the question vertically. Horizontally, each response shows a percentage broken down by the attribute selected for the section. When questions allow users to make multiple selections, the total percentage for each attribute for a multi-select question is greater than 100%. To view the full response option text for an option, hover over the partial response in the table.
 
-### Color-coding
-
-Response percentages are color-coded from light gray (0%) to dark blue (100%) according to the color breakdown guide at the bottom of each section. 
-
-### Example
+## Example 1: Recurring survey with multiple response selections
 
 If a Contoso admin wants to view two manager teams' response breakdowns side by side, they select each manager team to filter to Manager A and Manager B's teams:
    
-:::image type="content" source="../../media/glint/reports/multi-choice-question-report.png" alt-text="Screenshot of the Multiple Choice Question report filtered to two manager teams' response breakdowns.":::
+:::image type="content" source="../../media/glint/reports/multi-choice-question-report.png" alt-text="Screenshot of the Multiple Choice Question report filtered to two manager teams' response breakdowns."lightbox="../../media/glint/reports/multi-choice-question-report.png":::
 
 For both teams, all users selected "Communicating effectively" as a focus area for their manager. Because users could select up to two options, the total percentages across all responses for the question don't equal 100%. Admins can use this report to find out where the highest percentage of users selected manager focus areas that are most important for their managers to work on.
+
+## Example 2: Always-On survey with single response selection
+
+A Contoso user notices that the total of percentages for responses to a multi-select question (Yes or No) on the Always-On survey is greater than 100%. In this example, the total for Yes and No responses to "Did you participate in the most recent quarterly learning session?" is 109%.
+
+:::image type="content" source="../../media/multi-choice-example.png" alt-text="Screenshot of a Viva Glint Multiple Choice Question Report where a respondent's multiple submissions on different teams led to more than 100% for a response option."lightbox="../../media/multi-choice-example.png":::
+
+Each user can only select one response to the question, but the survey is Always-On and the waiting period before a user can submit another survey is only one day. In this case, the same user responded in the 90 day period as a member of the Marketing team and as a member of the Support team. Employee Lifecycle and Always-On survey reporting function in the same way and users can see multiple submissions from one respondent for either survey type.
+
+Filtering to exclude the date that includes the response from the duplicated user (after their Team value changed to Support) shows all percentages totaling 100:
+
+:::image type="content" source="../../media/glint/setup/multi-choice-dupe-excluded.png" alt-text="Screenshot of the Viva Glint Multiple Choice Question report filtered to exclude a survey from a respondent who submitted two surveys."lightbox="../../media/glint/setup/multi-choice-dupe-excluded.png":::
+
+
+
+
+

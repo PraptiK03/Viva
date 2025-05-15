@@ -29,7 +29,7 @@ Viva Glint Admins, as data controllers, can choose to either:
 1. Erase all data related to the requester, excluding attributes and survey responses, or
 2. Erase all data related to the requester, including survey responses.
 
-This configuration is set at the platform level and applies to all requests equally and is set to exclude attribute and survey responses (option 1) by default. [Learn more](/../../viva/glint/setup/manage-general-settings).
+[This configuration is set at the platform level and applies to all requests equally and is set to exclude attribute and survey responses (option 1) by default](manage-general-settings.md#delete-survey-data-for-deleted-users).
 
 ## Delete user data
 
@@ -44,7 +44,7 @@ This configuration is set at the platform level and applies to all requests equa
      1. Data is removed from Viva Glint except for essential account information associated with your organization’s Microsoft subscription.
      2. To include later, the information must be reuploaded into your company’s employee data.
      3. By deleting the user:
-         1. Survey results are deleted, possibly impacting Glint reports, if deletion control is set to **ON**. [Learn more](/../../viva/glint/setup/manage-general-settings#user-data).
+         1. [Survey results are deleted, possibly impacting Glint reports, if deletion control is set to **ON**](/../../viva/glint/setup/manage-general-settings#user-data).
          2. The user’s data is removed from distribution lists and future surveys.
          3. The user’s role definitions and their reporting permissions are removed.
      4. The display indicates whether the user has direct reports and that the admin needs to reassign the reports later or in the next Employee Attribute File import.
@@ -72,4 +72,4 @@ Glint Admins, as data controllers, can reuse employee IDs and reassign them to n
 1. Exclude data associated with employee IDs of previously removed employees from uploads, or
 2. Update the already deleted records with the status provided in the Human Resources Information System (HRIS) file.
 
-This configuration is set at the platform level, applies to all records equally, and excludes data by default (option 1). [Learn more](/../../viva/glint/setup/manage-general-settings#user-data).
+[This configuration is set at the platform level, applies to all records equally, and excludes data by default (option 1)](manage-general-settings.md#disregard-employee-ids-of-previously-deleted-employees).

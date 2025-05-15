@@ -1,5 +1,5 @@
 ---
-title: Question mapping
+title: Question mapping in a Microsoft Viva Glint feedback survey
 description: To ensure true comparisons between previous and new survey item results, it's essential to **map** items accurately.​ 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,14 +14,17 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/16/2024
+ms.date: 05/02/2025
 ---
 
-# Question mapping
+# Question mapping in a Microsoft Viva Glint feedback survey
 
 Once you select items that align to your organizational strategies, you may decide to compare trending data from previous surveys to your current survey in Microsoft Viva Glint. If you do decide to compare historical data to new items moving forward, it's vital that the previous and new questions are truly comparable. 
 
 Results can be misinterpreted if there aren't clear connections from historical data to new insights. To ensure true comparisons between previous and new results, it's essential to **map** items accurately before importing data to Viva Glint.​ 
+
+> [!NOTE]
+> Not all items in the Viva Glint Question Library are posed in question format. Library items also include statements to rate on a given scale. For this reason, the term "item" on the Viva Glint platform and in Learn and training guidance refers to any content in the Question Library. The term "item" includes questions and statements.
 
 ## Mapping guidelines 
 

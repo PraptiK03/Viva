@@ -1,6 +1,36 @@
 {
     "redirections": [
-       { 
+        { 
+            "source_path": "Viva/experience-purpose.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },     
+        { 
+            "source_path": "Viva/experience-insight.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },     
+        { 
+            "source_path": "Viva/experience-connection.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },     
+        { 
+            "source_path": "Viva/solutions/automate-exports.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },            
+        { 
+            "source_path": "Viva/solutions/index.yml",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },            
+        { 
+            "source_path": "Viva/solutions/introduction.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },    
+        { 
             "source_path": "Viva/plan-for-all-viva-modules.md",
             "redirect_url": "/viva/microsoft-viva-overview",
             "redirect_document_id": false
@@ -903,11 +933,6 @@
         {
             "source_path": "Viva/insights/use/transform-meetings.md",
             "redirect_url": "/previous-versions/viva/insights/use/transform-meetings",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "Viva/insights/use/user-roles.md",
-            "redirect_url": "/previous-versions/viva/insights/use/user-roles",
             "redirect_document_id": false
         },
         {

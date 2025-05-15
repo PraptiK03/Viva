@@ -105,7 +105,7 @@ Configure the types of files that users can attach and upload in the Conversatio
    - When attachments are enabled, people can attach an unlimited number of files, images or videos, up to 5 GB each, to a message or reply.
    - File types are determined based on the file’s extension. When **Allow all files** or **Allow only images and videos** is selected, you can attach pdf files, image files, video files, Microsoft Office files, and more. Each post can have a maximum of 100 files.  
    - When file uploads are restricted or disabled, people can continue to share links in their posts. Viva Engage does not support blocking links.
-   - For networks in Native Mode [link to article], all files are checked for viruses when uploaded. For more information, see [Virus detection in SharePoint Online.](/defender-office-365/anti-malware-protection-for-spo-odfb-teams-about)
+   - For networks in Native Mode [link to article], all files are checked for viruses when uploaded. For more information, see [Virus detection in SharePoint.](/defender-office-365/anti-malware-protection-for-spo-odfb-teams-about)
    - If your network is not in native mode, virus checking applies only to
        - Files attached to posts and replies on a storyline.
         - Files attached to posts and replies in a community attached to a Microsoft 365 group.

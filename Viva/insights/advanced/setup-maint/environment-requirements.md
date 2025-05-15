@@ -1,5 +1,5 @@
 ---
-ms.date: 04/15/2025
+ms.date: 04/25/2025
 title: Environment requirements for Viva Insights
 description: Describes the environment requirements for using Microsoft Viva Insights
 author: zachminers
@@ -28,7 +28,7 @@ Microsoft Viva Insights provides personal insights in the [Viva Insights app in 
 >We've paused the Digest email, which is typically sent twice a month. All the content from Digest emails will still be available within the [Viva Insights app in Teams or on the web.](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) You can continue to explore and analyze your data insights seamlessly. To learn more about this change, refer to the [Digest email pause.](/Viva/insights/personal/reference/digest-pause)
 
 >[!Important]
->We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d) or [Viva Insights app in Teams](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../../personal/reference/briefing-pause.md).
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d) or [Viva Insights app in Teams](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) for key functionality until this service resumes. For more information about this change, see [Briefing pause](../../personal/reference/briefing-pause.md).
 
 ### Microsoft 365 plans
 
@@ -66,7 +66,7 @@ The following personal insights service plans are generally available with a sub
 * Department of Defense (DoD)
 
 >[!Note]
->For more information about the features available and unavailable in GCC-High and DoD environments, refer to the [Microsoft Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
+>For more information about the features available and unavailable in GCC-High and DoD environments, see the [Microsoft Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
 
 #### Not supported Microsoft 365 environments
 
@@ -156,16 +156,14 @@ See [Briefing languages](../../personal/briefing/be-languages.md) to see what's 
 
 With the applicable [Viva Insights licensing](#viva-insights-licenses), your company can get manager and leader insights in Teams, and advanced insights features as an add-on to the licensing agreement.
 
-Microsoft Exchange Online provides much of the collaboration data that Viva Insights uses. For this reason, we recommend you have a Microsoft 365 or an Office 365 product that contains Exchange Online Plan 1 and Plan 2.
+Microsoft Exchange Online provides much of the collaboration data that Viva Insights uses. For this reason, your company must have a Microsoft 365 or an Office 365 product that contains Exchange Online Plan 1 and Plan 2.
 
 Microsoft 365 Copilot plans also include manager, leader, and advanced insights for all employees who have an assigned Copilot license.
 
 >[!Important]
->For customers who aren't already using Viva Insights, at least 50 assigned Viva Insights licenses are required to access advanced insights, organizational insights, and the Microsoft Copilot Dashboard. This minimum threshold can be achieved through a combination of licenses.
+>At least 50 assigned Viva Insights licenses are required to access advanced insights, organizational insights, and the Microsoft Copilot Dashboard. This minimum threshold can be achieved through a combination of licenses.
 >
 >For example, 30 assigned Microsoft 365 Copilot licenses (which include the Viva Insights service plan) + 20 assigned Viva Insights licenses = 50 assigned Viva Insights licenses.
->
->For existing customers who already have access to advanced insights, organizational Insights, and the Copilot Dashboard, there's no minimum license requirement.
 
 ## Channel support
 

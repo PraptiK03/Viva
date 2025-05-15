@@ -7,7 +7,7 @@ author: hasrivas
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 12/19/2024
+ms.date: 04/23/2025
 ms.topic: install-set-up-deploy
 ms.service: viva-pulse
 ms.localizationpriority: medium
@@ -41,19 +41,14 @@ All pulses also require a minimum number of responses before authors can view fe
 2. Under the **Minimum number of responses required to see feedback** section,  you can select a value between 3 and 25 using either the carrot or typing in the value.
 3. The value is autosaved.
 
-### Customized privacy policy link
+### Customize your organization’s policy statement
 
-You can add your company’s privacy policy to be shown in the app in place of the Microsoft privacy statement. This change is reflected in three places: 
-
-1. In the common navigation header (top right ellipses).
-2. The 'Learn More' page, which appears when the author creates a new pulse during a new session.
-3. Before starting pulse, when the respondent opens the pulse request to respond.
-
-When the user clicks on **Privacy**, they're taken to your company’s privacy policy. To customize the privacy statement:
+As an admin, you can add a customized organizational message (with an optional link) that will be shown to Pulse authors and responders. You can use this message and link to remind employees of internal policies and guidelines for usign Viva Pulse within your organization. When the feedback author starts a new request or a responder starts a new Pulse response, they are shown this message along with the link. To configure the message and the link, 
 
 1. In the **Manage** tab, go to the **Privacy** tab.
-2. In the search bar, copy and paste the link to your company's privacy policy site. 
-3. The entry is autosaved.
+2. Under the **Customized organizational message** section, add the text that you would like to show to your Pulse authors and responders. The value is autosaved.
+3. Optionally, select **Add link** in case you would like to include any links as part of this message, link will be added to the end of your customized organizational message. Enter the **Text to display** and the corresponding URL in the **Address** field and select **Save**. 
+4. You can choose to preview how the message will show to the Pulse authors using **Preview author experience** or responders using **Preview recipient experience**.
 
 ### Diagnostic data
 
@@ -69,7 +64,17 @@ To turn off Required Diagnostic Data or Optional Diagnostic Data collection:
 3. To turn off data collection for either Required Diagnostic Data or Optional Diagnostic Data, use the toggles associated with **Required Diagnostic Data** or **Optional Diagnostic Data**.
 4. The update is autosaved.
 
-### Data sharing
+### Customized privacy policy link
+
+You can configure your company’s privacy policy to be shown in the app in place of the Microsoft privacy statement in the Microsoft admin center. To configure your organization's privacy policy in the Microsoft admin center, click on **Org settings**, then **Security & privacy tab**, then **Privacy profile**, enter your privacy policy in the open text field labeled **Organization privacy statement**, and click **Save**.
+
+Your organization's privacy policy is reflected in three places:
+
+1. In the common navigation header (top right ellipses).
+2. The 'Learn More' page, which appears when the author creates a new pulse during a new session.
+3. Before starting pulse, when the respondent opens the pulse request to respond.
+
+## Data sharing
 
 Viva Pulse survey results for the Copilot impact template is automatically shared to the [Microsoft Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard). In the Microsoft Copilot Dashboard, leaders can analyze usage metrics that map sentiment data collected by Viva Pulse to workplace patterns data collected by Viva Insights. The individual Copilot impact sentiment is not joined to behavioral metrics in Insights Advanced Analytics in Workbench.
 
@@ -91,7 +96,7 @@ To retry data export failures to the Microsoft Copilot Dashboard:
 
 Customization is turned on by default, but as an admin, you can control whether feedback authors can add their own questions to existing stock templates or edit existing stock questions through granular access controls. To make any customization configurations, see [Granular access controls](./granular-access-controls.md).
 
-### Customize your organization’s policy statement
+### Customize your organization’s policy statement link
 
 As an admin, you can also set customization options for your organization, which includes an option to add a link to internal guidance and policies governing appropriate survey questions, which are shown to users during survey creation.
 

@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/02/2025
+ms.date: 04/29/2025
 ---
 
 # Preview, enable, and prepare to launch Viva Glint surveys
@@ -28,7 +28,7 @@ When each section of a survey is set up successfully, a blue checkmark displays 
 After a Viva Glint Administrator approves a program, all programs except for Employee Lifecycle and Always-On surveys must also be enabled to go Live on the scheduled date. Surveys go into Live status at midnight on the day they're scheduled to go out, in your default time zone. 
 
    > [!NOTE]
-   > When Employee Lifecycle and Always-On surveys are updated, admins are prompted to reapprove them. Reapproval automatically re-enables the cycle. This feature helps admins ensure ongoing, live surveys are always active.
+   > When Employee Lifecycle and Always-On surveys are updated, admins are prompted to reapprove them. Reapproval automatically re-enables the cycle. This feature helps admins ensure live surveys are always active.
 
 ### Procedure 
 
@@ -58,7 +58,7 @@ When your survey is approved, you can preview how survey invites and reminder em
    - Comments are available 
    - Items aren't skippable unless intended
    - Macros appear as values 
-   - More language options are available as expected 
+   - More language options are available as expected
 
 ## Edit a cycle schedule 
 
@@ -76,6 +76,20 @@ To reschedule the survey:
 2. Select **Manage Schedule**. 
 3. In the **Reschedule Survey** dialog box, make the necessary changes. If the survey is Live, the **Schedule** section is disabled.  
 4. Select **Save Changes**. 
+
+## Announce the upcoming survey
+
+Now it's time to let survey takers know that the survey is just days away. Customize our email templates and share them with the people on your survey Distribution Lists. Use the tips for customizing templates found on the page with the template.
+
+### Send this email 1-2 days before your survey launches
+
+[Announce survey launch to entire organization](/../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-7---announce-survey-launch-to-entire-organization): Remind your org about the imminent survey release and build excitement!
+
+### Send this email when the survey is live
+
+Set a calendar alert to send this email (customized) to your full Distribution List. Send it 72 hours before the survey is set to close.
+
+[Reminder to submit survey](/../../viva/glint/start/introductory-emails?branch=pr-en-us-9977#email-template-8-reminder-to-submit-survey)
 
 ## Enable a program 
 

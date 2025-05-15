@@ -78,12 +78,12 @@ Users with both SharePoint Admin role and Microsoft 365 Groups Admin role can co
 
 | Role | What this role does in Viva |
 |-----------|------------|
-|SharePoint admin |Users with this role have global permissions within Microsoft SharePoint Online, when the service is present, and the ability to create and manage all Microsoft 365 groups, manage support tickets, and monitor service health. |
+|SharePoint admin |Users with this role have global permissions within Microsoft SharePoint, when the service is present, and the ability to create and manage all Microsoft 365 groups, manage support tickets, and monitor service health. |
 |Microsoft 365 Groups admin |Users in this role can create/manage groups and its settings like naming and expiration policies. It's important to understand that assigning a user to this role gives them the ability to manage all groups in the organization across various workloads like Viva Amplify campaigns, Teams, SharePoint, Viva Engage in addition to Outlook. Also, the user is able to manage the various groups settings across various admin portals like Microsoft admin center, Azure portal, and workload specific ones like Teams and SharePoint admin centers.
 
 ### Viva Connections
 
-Depending on the task, Viva Connections administration and permissions are managed through SharePoint Online and Microsoft Teams admin centers. The following are the basic requirements and minimum permission levels.
+Depending on the task, Viva Connections administration and permissions are managed through SharePoint and Microsoft Teams admin centers. The following are the basic requirements and minimum permission levels.
 
 | Role         | What this role does in Viva |
 |--------------|-----------|
@@ -92,7 +92,7 @@ Depending on the task, Viva Connections administration and permissions are manag
 |**Site owner**<br>Manages one or more SharePoint sites<br><br>Assigned by SharePoint admin	| Creates a SharePoint home site to meet technical requirements for Viva Connections |
 |**Site member**<br>Assigned by site owner|Can author and edit dashboards, news, and other pages|
 
-To learn about setup and administration for Connections, see [Guide to setting up Viva Connections](/viva/connections/guide-to-setting-up-viva-connections), in which required permissions are noted for each step. To learn about SharePoint Online roles and tasks see [Introduction to roles, tasks, and timelines in SharePoint Online](/sharepoint/intranet-roles-tasks). To learn about Teams administration, see [Manage teams in the Microsoft Teams admin center](/microsoftteams/manage-teams-in-modern-portal).
+To learn about setup and administration for Connections, see [Guide to setting up Viva Connections](/viva/connections/guide-to-setting-up-viva-connections), in which required permissions are noted for each step. To learn about SharePoint roles and tasks see [Introduction to roles, tasks, and timelines in SharePoint](/sharepoint/intranet-roles-tasks). To learn about Teams administration, see [Manage teams in the Microsoft Teams admin center](/microsoftteams/manage-teams-in-modern-portal).
 
 ### Viva Engage
 | Role         | What this role does in Viva |

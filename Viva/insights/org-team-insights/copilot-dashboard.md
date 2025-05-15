@@ -1,5 +1,5 @@
 ---
-ms.date: 03/18/2025
+ms.date: 05/5/2025
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -37,7 +37,7 @@ The types of insights and features provided by the dashboard vary depending on t
 ## Feature availability based on licenses
 
 >[!Note]
->A minimum of 10 assigned Viva Insights licenses, or 50 assigned Copilot licenses, is required for data processing to kick off. Data processing takes an estimated three to five days following license assignment.
+>A minimum of 50 assigned Viva Insights licenses, or 50 assigned Copilot licenses (including the Viva Insights service plan), is required for data processing to kick off. Data processing takes up to seven days following license assignment.
 
 | Total number of Copilot assigned licenses in tenant | Viva Insights assigned license in the tenant (Yes or No) | Availability of features in Microsoft Copilot Dashboard  |
 |---|---|---|
@@ -241,9 +241,9 @@ Then, just like the other insights mentioned above, select **View by** to filter
 
 Those who take at least one Copilot action in both the current and preceding time periods are deemed to be "Returning users." Select **timeframe** to toggle between monthly and weekly retention periods. 
 
-###### Insight #4: Breakdown of Copilot usage across different Microsoft 365 apps
+###### Insight #4: Breakdown of Copilot users across different Microsoft 365 apps
 
-App totals reflect the total number of adoption metrics in the following Microsoft 365 apps: Microsoft Teams, Outlook, Word, Excel, PowerPoint, Copilot Chat (work), and Copilot Chat (web).
+App totals reflect the total number of active users in the following Microsoft 365 apps: Microsoft Teams, Outlook, Word, Excel, PowerPoint, Copilot Chat (work), and Copilot Chat (web).
 
 Group totals reflect all users based on the filtered group, including groups that are below the minimum group size.
 
@@ -571,10 +571,10 @@ Any employee who has been assigned a Copilot license, including the following se
 * Intelligent Search
 
 **Q8. After I assign new Viva Insights or Copilot licenses for the first time, how long will it take for the Copilot Dashboard to turn on with the data?**
-To start data processing, you'll need to assign at least 10 Viva Insights licenses or at least 50 Copilot licenses. Once you do that, the process could take up to five days.
+To start data processing, you'll need to assign at least 50 Viva Insights licenses or at least 50 Copilot licenses (including the Viva Insights service plan). Once you do that, the process could take up to seven days.
 
 **Q9. After the dashboard is turned on with the data, if I subsequently assign *new* Copilot licenses, how long will it take for the new data to reflect in the dashboard?**
-Once you assign a new Copilot license to your employees, it will take up to five days to update and include the employees with the new assigned license.
+Once you assign a new Copilot license to your employees, it will take up to seven days to update and include the employees with the new assigned license.
 
 **Q10. If I assign new Copilot licenses to people, when will I see their data in the dashboard?**
 Once you assign a new Copilot license to your employees, it will take up to one week to update and include the employees with the new assigned license.
@@ -628,6 +628,14 @@ There are two reasons for this:
 1. The app total figure is the count of the total number of *unique* users who leverage Copilot within that app. The feature total also tallies the total number of unique users who leverage Copilot for that particular feature. Therefore, if the same person uses multiple Copilot features within a single app, they are still only counted once in the total app figure.
 
 2. The app total refers to the total number of unique users who are active on *any* Copilot feature for that app, and the list of features below the app might not include every feature.
+
+**Q5. How does data in the Copilot Dashboard compare to the Power BI templates in the analyst workbench?**
+
+There might be a few differences in the values between these reports due to different filters and date ranges used when creating the reports in the analyst workbench.
+
+**Q6. Why is my historical data different when I review the same date ranges over time?**
+
+These differences are due to Copilot license reassignments that might have occurred, because metrics are only calculated for users who are actively licensed. If users lose their Copilot licenses, they aren't included in reporting.
 
 ## Related topics
 

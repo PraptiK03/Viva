@@ -1,5 +1,5 @@
 ---
-title: Create a Viva Glint productivity survey
+title: Create a Microsoft Viva Glint productivity survey
 description: The Viva People Science team identified the critical opinions and attitudes that best characterize the experience and feeling of high productivity in the workplace. Use these survey items to improve productivity.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,22 +14,22 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/03/2024
+ms.date: 05/02/2025
 ---
 
-# Create a Viva Glint productivity survey
+# Create a Microsoft Viva Glint productivity survey
 
-More of our customers are looking beyond engagement alone to create an employee experience that also helps people be more productive and higher performing. With that in mind, the Microsoft Viva People Science team took a human-centric approach to define and operationalize employee productivity. They identified the critical opinions and attitudes that best characterize the experience and feeling of high productivity in the workplace.
+More of our customers are looking beyond engagement alone to create an employee experience that also helps people be more productive and higher performing. With that in mind, the Microsoft People Science research team took a human-centric approach to define and operationalize employee productivity. They identified the critical opinions and attitudes that best characterize the experience and feeling of high productivity in the workplace.
 
-## How can a productivity survey benefit your org?
+## How does productivity survey benefit your org?
 
-A comprehensive listening strategy needs to include every opportunity to gather feedback to help employees be the best they can be and do their best work. Understanding how employees feel about their work conditions and treatment is crucial. A comprehensive view of the total work experience  includes understanding their sense of empowerment to get things done and to help the organization be high performing. This is why a focus on productivity is also important.
+A comprehensive listening strategy needs to include every opportunity to gather feedback to help employees be the best they can be and do their best work. Understanding how employees feel about their work conditions and treatment is crucial. A comprehensive view of the total work experience includes understanding employees' sense of empowerment to get things done and how they feel they can help the organization be high performing. 
 
 ## Productivity as an outcome
 
 Our productivity research resulted in two validated productivity outcomes: **Individual Productivity** and **Team Productivity** to capture the full picture of productivity:
 
-- I feel like I am productive at work.
+- I feel like I'm productive at work.
 - I feel like my team is productive at work. 
 
 This research also revealed important differences between employee *engagement* and *productivity*.
@@ -46,16 +46,16 @@ This chart shows that engagement and productivity are moderately correlated. The
 
 ## How important is productivity to your organizational strategy?
 
-If there is a particular organizational goal or strategy best suited to individual and/or team productivity, use the best item(s) for your needs. Factors that contribute to higher perceptions of **team productivity** differ from factors contributing to higher perceptions of **individual productivity**. 
+If there's a particular organizational goal or strategy best suited to individual and/or team productivity, use one or more of these items for your needs. Factors that contribute to higher perceptions of **team productivity** differ from factors contributing to higher perceptions of **individual productivity**. 
 
 > [!IMPORTANT]
 > Match measurement strategy and action taking steps to the level of productivity your organization wishes to drive. 
 
-## Viva Glint’s recommendation for measuring productivity sentiment 
+## Microsoft People Science: Recommendation for measuring productivity sentiment 
 
 For most customers starting to measure productivity, use both productivity outcome items as overall productivity outcome measures:
 
-- I feel like I am productive at work
+- I feel like I'm productive at work
 - I feel like my team is productive at work.
 
 We evaluated more than two dozen employee experience factors that impact perceptions of productivity. Analyses identified eight employee experience factors, which are statistically shown to positively impact employee perceptions of productivity. Use these top-ranked productivity driver items, depending on the level (individual or team) of productivity you wish to focus on:
@@ -69,7 +69,7 @@ We evaluated more than two dozen employee experience factors that impact percept
 
 ## Set up a productivity survey
 
-Depending on your strategy and goals for productivity, you can set up an ad hoc productivity survey using the survey items mentioned in this guidance, or incorporate the items into your **Recurring Engagement survey** template. You may already have several of these top productivity drivers on your engagement survey. Adding a few more helps to round out a robust study of productivity conditions for your employees.
+Depending on your strategy and goals for productivity, you can set up an Ad Hoc productivity survey using the survey items mentioned in this guidance, or incorporate the items into your **Recurring Engagement survey** template. You may already have several of these top productivity drivers on your engagement survey. Adding a few more helps to round out a robust study of productivity conditions for your employees.
 
 ## Next step
 

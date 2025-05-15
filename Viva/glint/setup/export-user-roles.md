@@ -62,13 +62,14 @@ All exports generate a .csv download. Downloads may take a few minutes, dependin
    :::image type="content" source="../../media/glint/setup/import-to-role-modal.png" alt-text="Screenshot of the dialog that appears when a user selects the Import option to add users to a role.":::
 
 6. A .csv file downloads to your device with an **email** column. Add or remove email addresses for users that should leave or join this role. Save the edited file as .csv or .xlsx.
+   1. Leave the column label as "email" or update the column label to "email" if working with a file not exported from User Roles.
    1. Users in this file must already have a record in Viva Glint and the email address added to the User Role file must match their email in Viva Glint.
-7. In the User Role **Import Employees to role** dialog, drag and drop to upload or browse to choose your list of users for this role.
+8. In the User Role **Import Employees to role** dialog, drag and drop to upload or browse to choose your list of users for this role.
    - Select **Preserve the employees already in this role** to keep existing users
    - Deselect **Preserve the employees already in this role** to replace all existing users with the users in the uploaded file.
-8. Select **Import File.**
-9. In the **Confirm your import** dialog that appears, review the summary of changes and select **Confirm Import** or **Cancel**.
+9. Select **Import File.**
+10. In the **Confirm your import** dialog that appears, review the summary of changes and select **Confirm Import** or **Cancel**.
     
     :::image type="content" source="../../media/glint/setup/confirm-role-import-modal.png" alt-text="Screenshot of the dialog that appears for a user to confirm their user role import.":::
 
-10. Return to the User Role details page and check that the number of members decreased or increased as expected.
+11. Return to the User Role details page and check that the number of members decreased or increased as expected.

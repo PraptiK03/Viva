@@ -14,20 +14,20 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/18/2025
+ms.date: 04/21/2025
 ---
 
 # Understand Viva Glint reporting features
 
 Use these definitions to get the most useful information from your Microsoft Viva Glint reports. 
 
-|**Features**| **Definition**|
+| Features  | Definition |
 |-----------|-----------|
 |Key Outcome|The main result of the survey. It can be the score from a single item or an aggregate index. This number is the most prominently displayed score in most reports.| 
 |Engagement score | The key outcome for an Engagement survey. The Engagement Score is calculated by computing the average score, typically for eSat (Employee Satisfaction) - or eSat and Recommend. The Engagement Score has the highest correlation with engagement drivers, along with outcomes like productivity and retention. The overall Engagement score helps managers understand how happy their team is at work.  |
-|Item, <br> also referred to as *Question* or *Driver*|Any question or statement put forth to a survey participant. An item that typically impacts sentiment connected to the Key Outcome. For example, Recognition is a Driver that commonly impacts how employees feel about eSat (Key Outcome). Drivers provide additional data related to other motivators.  |
+|Item, <br> also referred to as *Question* or *Driver*|Any question or statement posed to a survey participant. An item that typically impacts sentiment connected to the Key Outcome. For example, Recognition is a Driver that commonly impacts how employees feel about eSat (Key Outcome). Drivers provide more data related to other motivators.  |
 |Mean score | The average for all items provided in a survey, converted into a 100-point scale.|
-|Favorability | Provides the distribution of responses. It’s useful to know if there is a strong consistency in responses or if the score is a result of a wide and divided range of opinions.  |
+|Favorability | Provides the distribution of responses. It’s useful to know if there's a strong consistency in responses or if the score is a result of a wide and divided range of opinions.  |
 |Filter|A fixed panel across all reports in the Glint Reports section. Reports can be filtered for further deeper interpretation. |
 |Impact| The correlation between a survey item and the Key Outcome. 
 
@@ -67,26 +67,34 @@ When a score increases or decreases, it’s useful to know where the increase or
 - Percent favorability only shows respondents who agree with the statement. Neutral or unfavorable scores aren’t provided.
 - Percent favorability doesn't reflect changes in scores over time.
 
+### Switch to percent favorable calculation
+
+1. Go to **Configuration** and select **General settings** in **Service configuration.**
+2. In **Reporting**, go to **Calculation method for rating question scores.**
+3. Select **Percent favorable** in the dropdown menu.
+4. When External benchmarks are enabled, a confirmation dialog appears:
+
+   :::image type="content" source="../../media/glint/reports/percent-favorable.png" alt-text="Screenshot of the Switch to percent favorable pop-up window.":::
+
+   > [!CAUTION]
+   > Switching to percent favorable as a calculation method disables external benchmarks, which use average score calculation. Users lose external benchmark comparisons in dashboards and reports.
+
+6. Select **Yes, switch to percent favorable**.
+7. Select **Save changes** at the top of the **General settings** page.
+
 ### Favorability rating scale point interpretation guide
 
 |Rating scale points|Favorable|Neutral|Unfavorable|
 |---------|-----------|--------|----------|
 |**2**|2| &nbsp;  |1|
 |**3**|3| 2 |1|
-|**4**|4| 2,3  |1|
-|**5**|4,5| 3  |1,2|
-|**6**|4,5,6| &nbsp;  |1,2,3|
-|**7**|6,7| 4,5  |1,2,3|
-|**8**|6,7,8| 4,5 |1,2,3|
-|**9**|7,8,9| 4,5,6 |1,2,3|
-|**10**| 8,9,10 |4,5,6,7|1,2,3|
-|**11**|10,11|8,9  |1,2,3,4,5,6,7|
-
-### Percent Favorable comparisons disables external benchmarks
-
-In the **Reporting** section of **General Settings**, if you switch from the default **Average** setting to **Percent Favorable**, this switch disables external benchmarks. You can only switch to Percent Favorable if external benchmarks are enabled. Then you see this confirmation window: 
-
-:::image type="content" source="../../media/glint/reports/percent-favorable.png" alt-text="Screenshot of the Switch to percent favorable pop-up window.":::<br><br> 
-This setting only affects Viva Glint Engagement and Employee Lifecycle survey reports. Viva Glint 360 feedback reports use their own calculation method.   
+|**4**|4| 2, 3  |1|
+|**5**|4, 5| 3  |1, 2|
+|**6**|4, 5, 6| &nbsp;  |1, 2, 3|
+|**7**|6, 7| 4, 5  |1, 2, 3|
+|**8**|6, 7, 8| 4, 5 |1, 2, 3|
+|**9**|7, 8, 9| 4, 5, 6 |1, 2, 3|
+|**10**| 8, 9, 10 |4, 5, 6, 7|1, 2, 3|
+|**11**|10, 11|8, 9  |1, 2, 3, 4, 5, 6, 7|
 
 

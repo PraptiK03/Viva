@@ -23,7 +23,7 @@ As a Viva Pulse administrator, you can use create or manage policies to define w
 
 ## Pulse experience with Microsoft 365 Copilot
 
-Users with a Microsoft 365 Copilot license can create and send Pulse requests to users in the tenant to gather real-time feedback about Copilot implementation from their teams. Users Using centralized feature access management, you can decide for this capability to be available at the tenant level, group level using Microsoft Entra ID groups or Microsoft 365 groups, or at the user level for maximum flexibility. This capability is default turned on for your tenant. Use the FeatureID value **PulseConversation** to configure conversations in Pulse reports for your tenant. 
+Users with a Microsoft 365 Copilot license can create and send Pulse requests to users in the tenant to gather real-time feedback about Copilot implementation from their teams. Users Using centralized feature access management, you can decide for this capability to be available at the tenant level, group level using Microsoft Entra ID groups or Microsoft 365 groups, or at the user level for maximum flexibility. This capability is default turned on for your tenant. Use the FeatureID value **PulseExpWithM365Copilot** to configure conversations in Pulse reports for your tenant. 
 
 ## Copilot in Viva Pulse
 
@@ -35,8 +35,8 @@ You can control whether feedback authors can add their own questions to existing
 
 ## Conversations in Pulse reports
 
-Viva Pulse authors can respond to open text responses in their Pulse reports and have a de-identified conversation with the Pulse participant who provided that particular open text response. Using centralized feature access management, you can decide for this capability to be available at the tenant level, group level using Microsoft Entra ID groups or Microsoft 365 groups, or at the user level for maximum flexibility. This capability is default turned on for your tenant. Use the FeatureID value **PulseExpWithM365Copilot** to configure conversations in Pulse reports for your tenant. 
+Viva Pulse authors can respond to open text responses in their Pulse reports and have a de-identified conversation with the Pulse participant who provided that particular open text response. Using centralized feature access management, you can decide for this capability to be available at the tenant level, group level using Microsoft Entra ID groups or Microsoft 365 groups, or at the user level for maximum flexibility. This capability is default turned on for your tenant. Use the FeatureID value **PulseConversation** to configure conversations in Pulse reports for your tenant. 
 
 ## Resources
 
-To configure these capabilities, see [Control access to features in Viva](https://go.microsoft.com/fwlink/p/?linkid=2245618). To control who has access to specific Viva features you can create and update policies in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2310835) or in [PowerShell](https://go.microsoft.com/fwlink/?linkid=2310836). Policies are used to enable or disable specific features or types of data processing for users or groups in your tenant.
+To configure these capabilities, see [Control access to features in Viva](https://go.microsoft.com/fwlink/p/?linkid=2245618). To control who has access to specific Viva features you can create and update policies in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2310835) or in [PowerShell](https://go.microsoft.com/fwlink/?linkid=2310836). Policies are used to enable or disable specific features or types of data processing for users or groups in your tenant. Changes to policies can take up to 24 hours to go into effect for most features.

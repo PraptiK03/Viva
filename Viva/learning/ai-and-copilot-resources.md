@@ -19,7 +19,7 @@ description: Learn about AI and Copilot Resources, the provider that is availabl
 
 # AI and Copilot resources
 
-AI and Copilot Resources content is available to all Viva Learning users who have Microsoft Copilot licenses. It's enabled by default and can be managed in the Manage Providers section of [Viva Learning Admin tab](https://learning.cloud.microsoft/home/providers). 
+AI and Copilot Resources content is available to all Viva Learning users. It's enabled by default and can be managed in the Manage Providers section of [Viva Learning Admin tab](https://learning.cloud.microsoft/home/providers). 
 
 This provider gives users curated Learning paths that draw on Microsoft 365 Training, MS Learn content, and some Microsoft internal links. These learning paths power Copilot Academy and all its contents can be viewed directly within Viva Learning. 
 
@@ -41,4 +41,3 @@ Viva Learning currently supports Microsoft 365 training content in the following
 
 For any more customization or control over AI and Copilot Resources, refer to the Manage Permissions and Manage Providers section in the Viva Learning Admin tab. If you have any questions or need further assistance, contact the Viva Learning support team. 
 
- 
