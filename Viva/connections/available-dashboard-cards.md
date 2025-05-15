@@ -50,6 +50,7 @@ Select a dashboard icon for more information.
 | [![Screenshot of the Power apps icon with a link to more information.](../media/connections/available-dashboard-cards/powerapp-card-icon-no-border.png)](#add-the-power-apps-card) |   Design a lightweight card using your power apps account for simple tasks like checking sales requests, vacation requests, and more. |
 | [![Screenshot of the Quick links card icon with a link to more information.](../media/connections/create-dashboard/quick-links-card-icon-nb.png)](#add-the-quick-links-card) |   Provide list of relevant links or files to users selected by admins. |
 | [![Screenshot of the shifts card icon with a link to more information.](../media/connections/shifts-card-icon.png)](#add-the-shifts-card) | Display information about the next or current shift from the Shifts app in Teams. |
+| [![Screenshot of the Stay Engaged card icon with a link to more information.](../media/connections/stay-engaged-icon.png)](#add-the-stay-engaged-card) |Users can access their Viva Engage feed conversations from within the Connections app. |
 | [![Screenshot of the Stream play list card icon with a link to more information.](../media/connections/create-dashboard/stream-playlist-card-icon-nb.png)](#add-the-stream-playlist-card) |   Display a list of videos to users that can be viewed in Microsoft Stream. |
 | [![Screenshot of the Teams app icon with a link to more information.](../media/connections/teams-app-icon.png)](#add-the-teams-app-card) |   Use to open a Teams personal app or bot specified by the dashboard author. |
 | [Varies](#add-a-partner-card-or-microsoft-app) | Use cards that integrate [partner services.](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
@@ -451,6 +452,25 @@ The Shifts card shows users information about their next or current shift from t
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
 4. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-cards-in-the-dashboard).
+
+### Add the Stay Engaged card
+
+The Stay Engaged card can be added to help users access their Viva Engage feed conversations from within the Connections app, enabling employees to stay updated with important communications and relevant updates from their organization. Users can easily engage with conversations relevant to them without needing to switch apps.
+
+> [!NOTE]
+> The Stay Engaged card will be automatically added to unconfigured dashboards.
+
+1. While in edit mode, select **+ Add a card** from the dashboard.
+
+2. Select **Stay Engaged** from the dashboard toolbox.
+
+    ![Screenshot showing a Stay Engaged app card.](../media/connections/stay-engaged-icon.png)
+
+4. Select the edit pencil to the left of the card to open the properties pane for the Stay Engaged card.
+
+5. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+6. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), **enable audience targeting**. [Learn more about audience targeting.](/viva/connections/create-dashboard#apply-audience-targeting-to-cards)
 
 ### Add the Stream playlist card
 
