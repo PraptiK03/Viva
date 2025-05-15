@@ -463,13 +463,14 @@ The Stay Engaged card can be added to help users access their Viva Engage feed c
 1. While in edit mode, select **+ Add a card** from the dashboard.
 
 2. Select **Stay Engaged** from the dashboard toolbox.
+
     ![Screenshot showing a Stay Engaged app card.](../media/connections/stay-engaged-icon.png)
 
-3. Select the edit pencil to the left of the card to open the properties pane for the Stay Engaged card.
+4. Select the edit pencil to the left of the card to open the properties pane for the Stay Engaged card.
 
-4. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+5. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
-5. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), **enable audience targeting**. [Learn more about audience targeting.](/viva/connections/create-dashboard#apply-audience-targeting-to-cards)
+6. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), **enable audience targeting**. [Learn more about audience targeting.](/viva/connections/create-dashboard#apply-audience-targeting-to-cards)
 
 ### Add the Stream playlist card
 
