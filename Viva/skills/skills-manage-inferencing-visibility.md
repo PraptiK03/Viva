@@ -125,8 +125,8 @@ You have the following options for creating an access control policy in PowerShe
 
    For this example, the **ModuleId** is *PeopleSkills*, and the **featureId** is *SkillsProfileVisibility*.
 
-   > [!NOTE]
-   > We don't offer the option to completely disable Skills profile visibility, a user can always opt in to sharing their skills from their personal skills in Profile Editor.  
+> [!NOTE]
+> We don't offer the option to completely disable skills profile visibility, but a user can always opt in to sharing their skills from their personal skills in Profile Editor.  
 
 #### Control visibility of AI-suggested skills  
 
