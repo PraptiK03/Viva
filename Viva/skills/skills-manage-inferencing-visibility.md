@@ -151,7 +151,7 @@ You have the following options for creating an access control policy in PowerShe
 
    For this example, the **ModuleId** is *PeopleSkills*, and the **featureId** is *ShowAISkills*.
 
-- Completely AI-suggested skill sharing: With this policy, AI-suggested skills aren't shared with Microsoft 365 experience in your tenant and users can't opt in to sharing their AI skill suggestions.  
+- Complete AI-suggested skill sharing: With this policy, AI-suggested skills aren't shared with Microsoft 365 experience in your tenant and users can't opt in to sharing their AI skill suggestions.  
 
    To create this policy, run the following PowerShell cmdlet:
 
@@ -184,7 +184,7 @@ You have the following options for creating an access control policy in PowerShe
 
    For this example, the **ModuleId** is *PeopleSkills*, and the **featureId** is *ShowOrgAddedSkills*.
 
-- Completely third-party skill sharing: With this policy, third-party skills aren't shared with Microsoft 365 experience in your tenant and users can't opt in to sharing their third-party skills. 
+- Complete third-party skill sharing: With this policy, third-party skills aren't shared with Microsoft 365 experience in your tenant and users can't opt in to sharing their third-party skills. 
 
    To create this policy, run the following PowerShell cmdlet:
 
