@@ -122,7 +122,7 @@ You have the following options for creating an access control policy in PowerShe
    > [!NOTE]
    > We don't offer the option to completely disable Skills profile visibility, a user can always opt in to sharing their skills from their personal skills in Profile Editor.  
 
-### Control visibility of AI-suggested skills  
+#### Control visibility of AI-suggested skills  
 
 AI-inferred skills are suggested to users based on their role and Microsoft 365 activity.  
 
@@ -153,7 +153,7 @@ You have the following options for creating an access control policy in PowerShe
    Add-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId ShowAISkills -Name  HardDisable -IsFeatureEnabled $false 
    ```
 
-### Control visibility of third-party skills imported by your organization  
+#### Control visibility of third-party skills imported by your organization  
 
 Third-party skills imported from a third-party system and added by your organization appear in a user’s skills profile alongside other AI-suggested skills.
 
