@@ -22,7 +22,7 @@ As an admin, you can set privacy and visibility controls for users, groups, or t
 
 ## Manage if skills are suggested
 
-Skills inferencing controls are enabled by default, but you can let users opt in or out after setting up People Skills in your tenant. 
+Skills inferencing controls are enabled by default, but you can also change these visibility controls before setting up People Skills. 
 
 - Admins can turn skills inferencing auto-on. Individual users can opt out. 
 - Admins can turn skills inferencing auto-off. Individual users can opt in.  
@@ -30,7 +30,7 @@ Skills inferencing controls are enabled by default, but you can let users opt in
 
 ## Manage if skills are shared 
 
-Skills visibility controls whether users can see their colleagues’ skills on surfaces like the people card or in Copilot. All skills in a user's profile is shared and visible by default once you set up People Skills in your tenant. 
+Skills visibility controls whether users can see their colleagues’ skills on surfaces like the people card or in Copilot. All skills in a user's profile is shared and visible by default once you set up People Skills in your tenant. You can also change these visibility controls before setting up People Skills.
 
 - Admins can turn skills visibility auto-on. Individual users can opt out. 
 - Admins can turn skills visibility auto-off. Individual users can opt in.
