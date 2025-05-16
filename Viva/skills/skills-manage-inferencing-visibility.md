@@ -41,7 +41,7 @@ Skills visibility controls whether users can see their colleagues’ skills on s
 > [!NOTE]
 > We'll share instructions on managing skills inferencing and visibility controls before People Skills general availability.  
 
-## Manage where skills are shared and skills suggestions 
+## Manage where skills are shared and skill suggestions
 
 Navigate to the People Skills setup page and select **Settings** to manage where skills are shared.
 
@@ -51,7 +51,7 @@ When checked, skills in Viva is passed on to Viva Insights. Skills in Insights a
 
 You can stop skills data from being shared with Viva Insights by unchecking this setting.
 
-### Manage skills AI suggestions  
+### Manage AI skill suggestions
 
 Select **Skill inferencing by AI** under **Settings** to see details about the AI inferencing settings.  
 
@@ -60,7 +60,7 @@ Users receive skill suggestions relevant to their role when inferencing is enabl
 Create an access control policy if you need to disable skill suggestions for specific users, groups, or your entire tenant. For more information on how to create and manage policies, see [control access to features in Viva](../feature-access-management.md). 
 
 > [!NOTE]
-> Policies for People Skills can only be created by PowerShell at this time. You can’t create or manage policies through the interface in Admin Center.
+> Policies for People Skills can only be created in PowerShell at this time. You can’t create or manage policies through the interface in Admin Center.
 
 You have the following options for creating an access control policy in PowerShell to manage skills inferencing:  
 
@@ -88,19 +88,22 @@ Select **Skills profile visibility** under **Settings** to see details about
 
 An individual’s skills profile, consisting of AI-suggested, confirmed, and third-party imported skills, will be visible to other people in your organization by default.  
 
-Admins can manage which skills will be seen across the various skills-related experiences in Microsoft 365, such as the profile card, other Microsoft Viva products, and other connected applications, by using skills visibility controls.  
+Admins can manage which skills will be seen across the various skills-related experiences in Microsoft 365, such as the profile card, other Microsoft Viva products, and other connected applications, by using skills visibility controls.
+
+> [!NOTE]
+> Policies for skills visibility controls can only be created in PowerShell at this time. You can’t create or manage policies through the interface in Admin Center.
 
 We offer granular visibility controls so you can control sharing of an entire skills profile, or specific types of skills such as AI-suggested skills or third party skills.  
 
 Types of skills sharing controls offered:  
 
-- Visibility of entire user skills profile (Parent Control): An individual’s skills profile  consists of AI-suggested skills, user confirmed skills and third-party imported skills. If sharing is disabled, all user skills will be private and won't be shown to other users or shared with any Microsoft 365 experiences.  
+- Visibility of entire user skills profile (Parent control): An individual’s skills profile  consists of AI-suggested skills, user confirmed skills and third-party imported skills. If sharing is disabled, all user skills will be private and won't be shown to other users or shared with any Microsoft 365 experiences.  
 
-- Visibility of AI suggested skills: AI-suggested skills are skill suggestions based on AI inferencing that are relevant to a user’s role. These skills will only be shown if the skills profile (parent) is also set to visible.  
+- Visibility of AI-suggested skills: AI-suggested skills are skill suggestions based on AI inferencing that are relevant to a user’s role. These skills will only be shown if the skills profile (parent) is also set to visible.  
 
 - Visibility of third party skills: Third party skills were imported by your organization and may have been previously confirmed by a user in a third-party product. These skills will only be shown if the skills profile (parent) is also set to visible.  
 
-#### Control visibility of entire user skills profile (Parent Control)
+#### Control visibility of entire user skills profile (Parent control)
 
 By default, a user’s skills profile is shown to others in their organizations and shared with other Microsoft 365 experience. If you need to disable sharing for specific users, groups, or your entire tenant, create an access control policy.
 
@@ -126,11 +129,11 @@ AI-inferred skills are suggested to users based on their role and Microsoft 365 
 By default, a user’s AI-suggested skills are shown to others in their organizations and shared with other Microsoft 365 experiences. 
 
 > [!NOTE]
-> These skills are only shared if Skills Profile visibility is also enabled or shared. If sharing is disabled, AI suggested skills won't be shown to other users or shared with any Microsoft 365 experiences. 
+> These skills are only shared if Skills Profile visibility is also enabled or shared. If sharing is disabled, AI-suggested skills won't be shown to other users or shared with any Microsoft 365 experiences. 
 
 If you need to disable sharing for specific users, groups, or your entire tenant, create an access control policy.
 
-You have the following options for creating an access control policy in PowerShell to control AI-suggested skill visibility:  
+You have the following options for creating an access control policy in PowerShell to manage the visibility of AI-suggested skill:  
 
 - Enable AI-suggested skill visibility (Default): When visibility is enabled, AI-suggested skills are shared across Microsoft 365. Users have the option to turn it off for themselves in their settings.
 
@@ -181,4 +184,4 @@ You have the following options for creating an access control policy in PowerShe
    Add-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId ShowOrgAddedSkills -Name HardDisable -IsFeatureEnabled $false 
    ```
 
-For more information on creating and managing policies, see [control access to features in Viva](../feature-access-management.md).  
+For more information on  how to create and manage policies, see [control access to features in Viva](../feature-access-management.md).  
