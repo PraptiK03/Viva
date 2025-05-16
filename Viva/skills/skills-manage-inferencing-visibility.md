@@ -98,15 +98,18 @@ We offer granular visibility controls so you can control sharing of an entire sk
 
 Types of skills sharing controls offered:  
 
-- Visibility of entire user skills profile (Parent control): An individual’s skills profile  consists of AI-suggested skills, user confirmed skills and third-party imported skills. If sharing is disabled, all user skills will be private and won't be shown to other users or shared with any Microsoft 365 experiences.  
+- Visibility of entire user skills profile (Parent control): An individual’s skills profile consists of AI-suggested skills, user confirmed skills and third-party imported skills.
 
-- Visibility of AI-suggested skills: AI-suggested skills are skill suggestions based on AI inferencing that are relevant to a user’s role. These skills will only be shown if the skills profile (parent) is also set to visible.  
+- Visibility of AI-suggested skills: AI-suggested skills are skill suggestions based on AI inferencing that are relevant to a user’s role and their Microsoft 365 activity. 
 
-- Visibility of third party skills: Third party skills were imported by your organization and may have been previously confirmed by a user in a third-party product. These skills will only be shown if the skills profile (parent) is also set to visible.  
+- Visibility of third party skills: Third party skills, imported by your organization or may have been previously confirmed by a user in a third-party product, appear in a user’s skills profile alongside other AI-suggested skills.
 
 #### Control visibility of entire user skills profile (Parent control)
 
 By default, a user’s skills profile is shown to others in their organizations and shared with other Microsoft 365 experience. If you need to disable sharing for specific users, groups, or your entire tenant, create an access control policy.
+
+> [!NOTE]
+> If sharing is disabled, all user skills will be private and won't be shown to other users or shared with any Microsoft 365 experiences.
 
 You have the following options for creating an access control policy in PowerShell to manage visibility of entire user skills profile:  
 
@@ -126,8 +129,6 @@ You have the following options for creating an access control policy in PowerShe
    > We don't offer the option to completely disable Skills profile visibility, a user can always opt in to sharing their skills from their personal skills in Profile Editor.  
 
 #### Control visibility of AI-suggested skills  
-
-AI-inferred skills are suggested to users based on their role and Microsoft 365 activity.  
 
 By default, a user’s AI-suggested skills are shown to others in their organizations and shared with other Microsoft 365 experiences. 
 
@@ -161,8 +162,6 @@ You have the following options for creating an access control policy in PowerShe
    For this example, the **ModuleId** is *PeopleSkills*, and the **featureId** is *ShowAISkills*.
 
 #### Control visibility of third-party skills imported by your organization  
-
-Third-party skills imported from a third-party system and added by your organization appear in a user’s skills profile alongside other AI-suggested skills.
 
 By default, third-party skills are displayed to others in their organizations and shared with other Microsoft 365 experiences.
 
