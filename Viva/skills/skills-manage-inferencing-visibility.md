@@ -36,12 +36,9 @@ Skills visibility controls whether users can see their colleagues’ skills on s
 - Admins can turn skills visibility auto-off. Individual users can opt in.
 - Admins can disable skills visibility for their tenant.  
 
-:::image type="content" source="../media/skills/skills-user-privacy-settings.png" alt-text="A screenshot of the different ways a user can set privacy options for sharing People Skills." lightbox="../media/skills/skills-user-privacy-settings.png":::
+:::image type="content" source="../media/skills/skills-user-privacy-settings.png" alt-text="A screenshot of the different ways a user can set privacy options for sharing People Skills." lightbox="../media/skills/skills-user-privacy-settings.png":::  
 
-> [!NOTE]
-> We'll share instructions on managing skills inferencing and visibility controls before People Skills general availability.  
-
-## Manage where skills are shared and skill suggestions
+## Manage skill suggestions and where skills are shared 
 
 Navigate to the People Skills setup page and select **Settings** to manage where skills are shared.
 
