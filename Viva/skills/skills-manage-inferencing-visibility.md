@@ -57,7 +57,7 @@ Users receive skill suggestions relevant to their role when inferencing is enabl
 Create an access control policy if you need to disable skill suggestions for specific users, groups, or your entire tenant. For more information on how to create and manage policies, see [control access to features in Viva](../feature-access-management.md). 
 
 > [!NOTE]
-> Policies for People Skills can only be created in PowerShell at this time. You can’t create or manage policies through the interface in Admin Center.
+> Policies for People Skills can only be created in PowerShell at this time. You can’t create or manage policies through the interface in Admin center.
 
 You have the following options for creating an access control policy in PowerShell to manage skills inferencing:  
 
@@ -92,7 +92,7 @@ An individual’s skills profile, consisting of AI-suggested, confirmed, and thi
 Admins can manage which skills will be seen across the various skills-related experiences in Microsoft 365, such as the profile card, other Microsoft Viva products, and other connected applications, by using skills visibility controls.
 
 > [!NOTE]
-> Policies for skills visibility controls can only be created in PowerShell at this time. You can’t create or manage policies through the interface in Admin Center.
+> Policies for skills visibility controls can only be created in PowerShell at this time. You can’t create or manage policies through the interface in Admin center.
 
 We offer granular visibility controls so you can control sharing of an entire skills profile, or specific types of skills such as AI-suggested skills or third party skills.  
 
