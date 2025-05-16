@@ -47,7 +47,7 @@ Navigate to the People Skills setup page and select **Settings** to manage whe
 
 ### Manage skills data sharing with Viva Insights  
 
-When checked, skills in Viva is passed on to Viva Insights. Skills in Insights allow organizations and leaders to discover skills within their workforce and assess skill distribution across groups. [Learn more about Skills in Viva Insights.]()
+When checked, skills in Viva is passed on to Viva Insights. Skills in Insights allow organizations and leaders to discover skills within their workforce and assess skill distribution across groups. [Learn more about skills in Viva Insights.](../insights/org-team-insights/org-insights-copilot.md)
 
 You can stop skills data from being shared with Viva Insights by unchecking this setting.
 
