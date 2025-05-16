@@ -94,7 +94,7 @@ Admins can manage which skills will be seen across the various skills-related ex
 > [!NOTE]
 > Policies for skills visibility controls can only be created in PowerShell at this time. You can’t create or manage policies through the interface in Admin center.
 
-We offer granular visibility controls so you can control sharing of an entire skills profile, or specific types of skills such as AI-suggested skills or third party skills.  
+We offer granular visibility controls so you can control sharing of an entire skills profile, or specific types of skills such as AI-suggested skills or third-party skills.  
 
 Types of skills sharing controls offered:  
 
@@ -102,7 +102,7 @@ Types of skills sharing controls offered:
 
 - Visibility of AI-suggested skills: AI-suggested skills are skill suggestions based on AI inferencing that are relevant to a user’s role and their Microsoft 365 activity. 
 
-- Visibility of third party skills: Third party skills, imported by your organization or may have been previously confirmed by a user in a third-party product, appear in a user’s skills profile alongside other AI-suggested skills.
+- Visibility of third-party skills: Third-party skills, imported by your organization or may have been previously confirmed by a user in a third-party product, appear in a user’s skills profile alongside other AI-suggested skills.
 
 #### Control visibility of entire user skills profile (Parent control)
 
