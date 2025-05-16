@@ -139,7 +139,7 @@ If you need to disable sharing for specific users, groups, or your entire tenant
 
 You have the following options for creating an access control policy in PowerShell to manage the visibility of AI-suggested skill:  
 
-- Enable AI-suggested skill visibility (Default): When visibility is enabled, AI-suggested skills are shared across Microsoft 365. Users have the option to turn it off for themselves in their settings.
+- Enable AI-suggested skills visibility (Default): When visibility is enabled, AI-suggested skills are shared across Microsoft 365. Users have the option to turn it off for themselves in their settings.
 
 - Keep the default off for AI-suggested skill sharing: Users in this access policy will be "opted-out," and their AI-suggested skills won't be shared across Microsoft 365. Users have the option to turn it on for themselves in their skill settings.
 
@@ -170,9 +170,9 @@ By default, third-party skills are displayed to others in their organizations an
 
 If you need to disable sharing for specific users, groups, or your entire tenant, create an access control policy. 
 
-You have the following options for creating an access control policy in PowerShell to manage third-party skill visibility imported by your organization:  
+You have the following options for creating an access control policy in PowerShell to manage third-party skills visibility imported by your organization:  
 
-- Enable third-party skill visibility (Default): When visibility is enabled, third-party skills are shared across Microsoft 365. Users have the option to turn it off for themselves in their settings. 
+- Enable third-party skills visibility (Default): When visibility is enabled, third-party skills are shared across Microsoft 365. Users have the option to turn it off for themselves in their settings. 
 
 - Keep the default off for third-party skill sharing: Users in this access policy will be "opted-out,” and their third-party skills won't be shared across Microsoft 365. Users have the option to turn it on for themselves in their skill settings.
 
