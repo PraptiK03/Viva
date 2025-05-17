@@ -22,7 +22,7 @@ As an admin, you can set privacy and visibility controls for users, groups, or t
 
 ## Manage if skills are suggested
 
-Skills inferencing controls are enabled by default, but you can also let users opt in or out or disable inferencing entirely either before or after setting up People Skills.
+Skills inferencing controls are enabled by default, but you can let users opt in or out or disable inferencing entirely either before or after setting up People Skills.
 
 - Admins can turn skills inferencing auto-on. Individual users can opt out. 
 - Admins can turn skills inferencing auto-off. Individual users can opt in.  
