@@ -28,7 +28,7 @@ ms.date: 05/19/2025
 ## Filtering 
 
 **Q: How can we distinguish between item labels and customized topics? What is a good practice for applying filters such as groups, topics, and question labels?** <br>
-**A:** Item labels and topics can sometimes be indistinguishable. For example, the "Inclusion" survey item versus the general topic of inclusion. Copilot in Viva Glint initially identifies item labels in the user prompt and filters comments based on those labels. After Copilot summarizes comments that closely align with the topics identified in the user prompt, it filters comments about inclusion as a topic.
+**A:** Item labels and topics can sometimes be indistinguishable. For example, the "Inclusion" survey *item* versus the *general topic* of inclusion. Copilot in Viva Glint initially identifies item labels in the user prompt and filters comments based on those labels. After Copilot summarizes comments that closely align with the topics identified in the user prompt, it filters comments about inclusion as a topic.
 
 **Q: Can Copilot in Viva Glint summarize comments for attributes that a user doesn’t have access to?** <br>
 **A:** No, Copilot in Viva Glint can’t filter or summarize comments based on attributes that a user can’t access.
@@ -36,8 +36,8 @@ ms.date: 05/19/2025
 **Q: When does Copilot in Viva Glint use all comments in its summarization? When does Copilot in Viva Glint summarize by a topic-based sampling? How is the sample size determined?** <br>
 **A:** Use these examples to understand summarization analytics:
 
-- **Scenario 1:** The user asks about specific survey item labels or comment topics. In this case, the prompt might be "Summarize comments from the career and empowerment items" or "Summarize comments about promotion." Copilot in Viva Glint behavior: In addition to any filters applied to the report, Copilot first filters comments based on the detected survey item labels from the user prompt. Next, Copilot looks for comments with words most closely related to the survey item or the comment topic in the user prompt.
-- **Scenario 2:** The user doesn't include specific survey item labels or comment topics in the prompts. In this case, the prompt might be "Summarize all comments," "Summarize comments from the engineering team," or "Summarize employee recommendations from US employees." Copilot in Viva Glint behavior: Copilot first filters the comments based on the detected filters in the user prompts, such as demographic filters, prescriptive comments, or comment sentiments. These filters are in addition to the filters already applied to the report.
+- **Scenario 1: The user asks about specific survey item labels or comment topics.** In this case, the prompt might be "Summarize comments from the career and empowerment items" or "Summarize comments about promotion." **Copilot in Viva Glint behavior:** In addition to any filters applied to the report, Copilot first filters comments based on the detected survey item labels from the user prompt. Next, Copilot looks for comments with words most closely related to the survey item or the comment topic in the user prompt.
+- **Scenario 2: The user doesn't include specific survey item labels or comment topics in the prompts.** In this case, the prompt might be "Summarize all comments," "Summarize comments from the engineering team," or "Summarize employee recommendations from US employees." **Copilot in Viva Glint behavior:** Copilot first filters the comments based on the detected filters in the user prompts, such as demographic filters, prescriptive comments, or comment sentiments. These filters are in addition to the filters already applied to the report.
 
 ## Summarization response 
 
@@ -55,21 +55,20 @@ ms.date: 05/19/2025
 
 **Q: What determines when Copilot in Viva Glint responds with…**
 
-“Sorry, I can't help with this." Reasons for this response might be:
+**“Sorry, I can't help with this."** Reasons for this response might be:
 - When our [responsible AI policy](https://www.microsoft.com/ai/responsible-ai?ef_id=_k_2b3ce813d8b01157997a803234c87cf3_k_&OCID=AIDcmm1o1fzy5i_SEM__k_2b3ce813d8b01157997a803234c87cf3_k_&msclkid=2b3ce813d8b01157997a803234c87cf3) is triggered
 - When Copilot doesn't understand the user prompt
 - When Copilot determines that the user prompt is not related to comments summarization
 
-An “all-comments” summary:
+**An “all-comments” summary:**
 - When the user doesn't ask about specific survey questions or comment themes in the prompt, Copilot summarizes all comments up to the 8,000 comment limit.
 - Apply filters to the reporting first and then ask Copilot to "Summarize all comments" as a workaround.
 
-A subset of comments summary:
-- A user asks about specific survey questions or comment themes.
-
-For example, "Summarize comments from the career questions" or "Summarize comments about promotion":
-- Copilot first uses the detected survey question label to filter the comments to that item. Then, Copilot looks for the most relevant 1,000 comments related to the item, or the theme mentioned in the user prompt. 
-- We recommend that you apply filters to the report first. Then ask Copilot to "summarize all comments," as a workaround to ask Copilot to summarize all comments from a specific item.
+**A subset of comments summary:**
+- A user asks about specific survey questions or comment themes.<br><br>
+  For example, "Summarize comments from the career questions" or "Summarize comments about promotion":
+  - Copilot first uses the detected survey question label to filter the comments to that item. Then, Copilot looks for the most relevant 1,000 comments related to the item, or the theme mentioned in the user prompt. 
+  - We recommend that you apply filters to the report first. Then ask Copilot to "summarize all comments," as a workaround to ask Copilot to summarize all comments from a specific item.
 
 **Q: Does Copilot in Viva Glint recognize words that may have incorrect spelling? Does Copilot in Viva Glint recognize similar words or acronyms? Is there a way to edit acronyms?** <br>
 A: Copilot in Viva Glint relies on the Large Language Model (LLM) ability to recognize and understand similar words, acronyms, and misspelled words, based on the context the words are used in prompts. Currently there isn’t a way for customers to add or adjust acronyms.
