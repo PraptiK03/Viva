@@ -1,11 +1,11 @@
 ---
 title: "Benchmarks in Viva Engage analytics"
-description: "Benchmarks reveal how your Viva Engage metrics perform compared to those of other organizations."
+description: "Benchmarks reveal how your Viva Engage metrics perform compared to other organizations."
 ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 5/17/2024
 ms.reviewer: ethli
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
 audience: Admin
 f1.keywords:
@@ -22,20 +22,19 @@ search.appverid:
 
 # Benchmarks in Viva Engage analytics
 
-The _benchmarks_ feature in Viva Engage Premium shows how your metrics are performing in comparison to other customers that use Viva Engage. Only verified and network admins can enable benchmarks in Viva Engage.
+The _benchmarks_ feature in Viva Engage Premium shows how your metrics compare to other customers that use Viva Engage. Only verified and network admins can enable benchmarks in Viva Engage.
 
 ## How we calculate benchmarks
 
 Benchmarks provide percentiles that correspond to your current metrics.
 
-For **Network Analytics**, this percentile uses the _People Engaged_ metric to tell you how engagement levels in your organization compare to similarly sized networks. The number of active users within an organization define the network size sectors. Both network administrators and corporate communicators can access the Networks Analytics benchmark on the **Network Activity** card.
+**Network Analytics** uses the _People Engaged_ metric as a benchmark to show how engagement in your organization compares to similarly sized networks. The number of active users in an organization defines the network size factors. Network administrators and corporate communicators can check the Networks Analytics benchmark on the **Network Activity** card.
 
 :::image type="content" alt-text="Screenshot of the Network analytics tiles with benchmark percentiles." source="../media/engage/admin/engage-benchmark-network.png":::
 
-For **Audience Analytics**, this percentile uses the _Audience members engaged_ metric to tell you how your engagement levels compare to all audiences in the same organization. Leaders, delegate managers, and delegates can access the Audience Analytics benchmark on the **Audience Engagement** card. Learn more about [Analytics in Viva Engage](https://support.microsoft.com/en-us/topic/analytics-in-viva-engage-0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895).
+**Audience Analytics** uses the _Audience members engaged_ metric as a benchmark to show how your audience engagement compares to all audiences in the same organization. Leaders, delegate managers, and delegates can access the Audience Analytics benchmark on the **Audience Engagement** card. Learn more about [Analytics in Viva Engage](https://support.microsoft.com/en-us/topic/analytics-in-viva-engage-0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895).
 
 :::image type="content" alt-text="Screenshot of the Audience analytics tiles with benchmark percentiles." source="../media/engage/admin/engage-benchmark-audience.png":::
-
 
 ## Enable benchmarks
 
@@ -45,11 +44,11 @@ Verified and Network admins can turn benchmarks on or off from the Viva Engage a
 
 1. On the **Setup & Configuration** tab, select **Analytics and AI**.
 
--  To enable benchmarks for Network analytics, go to **Network Analytics** and turn on **Benchmarks**.
+- To enable benchmarks for Network analytics, go to **Network Analytics** and turn on **Benchmarks**.
   When enabled, this feature compares your engagement against networks of similar size that use Viva Engage. It may include your network data in aggregate benchmarks for comparative purposes only.
 
     >[!NOTE]
-    >If less than 50% of the network’s users are licensed for *Viva Suite* or *Employee Communications and Communities*, the Network Analytics dashboard is unavailable. For precise percentile rankings, at least five similarly sized networks must also enable engagement benchmarks. Without this, benchmarks on Network Analytics won't be displayed.
+    >If less than 50% of the network’s users are licensed for *Viva Suite* or *Employee Communications and Communities*, the Network Analytics dashboard is unavailable. For precise percentile rankings, at least five similarly sized networks must also enable engagement benchmarks. Without it, benchmarks on Network Analytics don't appear.
 
 - To enable benchmarks for Audience analytics, go to **Audience Analytics** and turn on **Benchmarks**.
     When this setting is enabled, leaders can see how their engagement in Viva Engage compares to that of other leaders in the same organization. Your audience data may be included in aggregate benchmark calculations for comparative purposes only.
@@ -58,7 +57,7 @@ Verified and Network admins can turn benchmarks on or off from the Viva Engage a
 
 Network administrators and corporate communicators can increase engagement, strengthen connections, and improve their benchmark metrics for Network Analytics by applying best practices in their network.
 
-- Assign a peer as a [_corporate communicator_](/viva/engage/eac-key-admin-roles-permissions) to help moderate engagement across your organization.
+- To help moderate engagement across your organization, assign a peer as a [_corporate communicator_](/viva/engage/eac-key-admin-roles-permissions).
 
 - Assign more [_leaders_](/viva/engage/leadership-identification). Content posted by leaders tends to have higher engagement.
 
@@ -66,7 +65,7 @@ Network administrators and corporate communicators can increase engagement, stre
 
 - Create posts about popular themes on your storyline.
 
-- Manage your campaigns to increase employee engagement.
+- to increase employee engagement, manage your campaigns.
 
 - Encourage leaders to post and interact with content.
 
@@ -85,7 +84,6 @@ Leaders, delegate managers, and delegates can increase engagement, strengthen co
 - Develop a two-way dialog by praising contributions.
 
 - Post about active campaigns on your storyline.
-
 
 ## See also
 
