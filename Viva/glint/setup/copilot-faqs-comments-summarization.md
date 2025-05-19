@@ -1,12 +1,12 @@
 ---
-title:  Microsoft 365 Copilot in Viva Glint-FAQs for comments summarization
+title:  Microsoft 365 Copilot in Viva Glint FAQs for comments summarization
 description: Find answers to your specific inquiries about comments summarization and prompts for Copilot in Viva Glint.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: comment summarization, language for comments summarization, Copilot in Viva Glint metrics, purchasing Copilot in Viva Glint
+keywords: comment summarization, filtering comments summarization, Copilot in Viva Glint, responsible AI, FAQ
 ms.collection:  
 - m365initiative-viva
 - selfserve
