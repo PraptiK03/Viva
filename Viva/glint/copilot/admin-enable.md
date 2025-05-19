@@ -128,7 +128,7 @@ From your admin dashboard, follow this process:
 
 6. Toggle **Copilot in Viva Glint** to **On** and confirm that the role has **Comments** selected in the **Report Template Access** section.
 
-    :::image type="content" source="../../media/glint/setup/copilot-enabled.png" alt-text="Screenshot of the Role Permissions sections within the Reporting section." lightbox="../../media/glint/setup/copilot-enabled.png":::
+    :::image type="content" source="../../media/glint/setup/copilot-enabled2.png" alt-text="Screenshot of the Role Permissions sections within the Reporting section." lightbox="../../media/glint/setup/copilot-enabled2.png":::
 
 7. Select **Save Changes** in the top right of the **Reporting** page.
 
