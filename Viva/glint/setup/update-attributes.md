@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/08/2025
+ms.date: 05/19/2025
 ---
 
 # Update attributes in Viva Glint
@@ -55,7 +55,7 @@ To add new attributes to your Viva Glint setup from the admin dashboard:
 9. The Attributes Setup page shows current required, derived, optional system, and hierarchy attributes. If the newly added field is required, derived, or an optional system attribute, make your selection in the appropriate section. Select **Continue**.
   
      > [!NOTE]
-     > Derived Manager Hierarchy and Hierarchy Groups can't be edited after initial setup.
+     > Hierarchy Group levels and mapping can't be changed after initial setup. Viva Glint admins can change hierarchy and hierarchy level names after initial setup. 
   
 10. Review newly added attributes and select **Continue**.
 11. Choose to **Save attributes and import employee data** or to **Save attributes and discard employee data**.
@@ -125,6 +125,31 @@ To edit optional system attributes after your initial setup:
    1. To update the field mapped to an Optional System Attribute: Select the checkbox next to the desired field and choose a new field in the Sync From dropdown menu.
 
    :::image type="content" source="../../media/glint/setup/new-optional-attribute.png" alt-text="Screenshot of the Optional System Attributes section after selecting the Manage Optional System Attributes button.":::
+
+## Rename hierarchy attributes
+
+Use the following guidance to rename hierarchy attributes **before** updating your employee data files so that they continue to import seamlessly. Use these steps to update the Hierarchy group name for your manager hierarchy or the group and level names for other hierarchies.
+
+To rename a hierarchy group:
+
+1. Select the **Configuration** symbol and then under the **Employees** section, choose **People**.
+2. Select **Actions** and then **Manage User Attributes**.
+3. In the **Hierarchy Groups** section, go to the hierarchy that you want to rename.
+4. Select the ellipsis next to the hierarchy group and choose **Edit hierarchy group.**
+5. In the dialog that appears, edit the **Hierarchy group name** field.
+6. Select **Save changes**.
+
+To rename hierarchy levels:
+
+1. Select the **Configuration** symbol and then under the **Employees** section, choose **People**.
+2. Select **Actions** and then **Manage User Attributes**.
+3. In the **Hierarchy Groups** section, go to the hierarchy that has levels that you want to rename.
+4. Select the ellipsis next to the hierarchy group and choose **Edit hierarchy group.**
+5. In the dialog that appears, edit the **Level** fields in the Hierarchy levels section.
+6. Select **Save changes**.
+
+> [!CAUTION]
+> Use this method if the underlying data remains the same, but the hierarchy level name changes in your system (for example, Department changes to Team, but the values in the column remain the same). Repurposing attribute name labels can create issues in reporting.
 
 ## Update custom attribute visibility
 
