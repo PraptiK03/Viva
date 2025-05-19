@@ -95,8 +95,8 @@ To edit derived fields after your initial setup:
 3. In the **Derived Attributes** section, select **Manage Derived Attributes**.
 4. Select the checkbox next to the Derived Attribute that you want to edit or add.
    1. To disable a Derived Attribute: Deselect the checkbox next to the desired field.
-   1. To enable a Derived Attribute: Select the checkbox next to the desired field and choose a field from your data in the Calculate From dropdown menu.
-   1. To update the field used to create a Derived Attribute: Select the checkbox next to the desired field and choose a new field in the Calculate From dropdown menu. 
+   1. To enable a Derived Attribute: Select the checkbox next to the desired field and choose a field from your data in the **Calculate From** dropdown menu.
+   1. To update the field used to create a Derived Attribute: Select the checkbox next to the desired field and choose a new field in the **Calculate From** dropdown menu. 
    :::image type="content" source="../../media/glint/setup/new-derived-attribute2.png" alt-text="Screenshot of the Derived Attributes section after selecting Manage Derived Attributes.":::
 
 ## Manage Optional System Attributes
@@ -118,10 +118,10 @@ To edit optional system attributes after your initial setup:
 2. Select **Actions** and then **Manage User Attributes**.
 3. In the **Optional System Attributes** section, select **Manage Optional System Attributes**.
    1. To disable an Optional System Attribute: Deselect the checkbox next to the desired field.
-   1. To enable an Optional System Attribute: Select the checkbox next to the desired field and choose a field from your data in the Sync From dropdown menu.
-   1. To update the field mapped to an Optional System Attribute: Select the checkbox next to the desired field and choose a new field in the Sync From dropdown menu.
+   1. To enable an Optional System Attribute: Select the checkbox next to the desired field and choose a field from your data in the **Sync From** dropdown menu.
+   1. To update the field mapped to an Optional System Attribute: Select the checkbox next to the desired field and choose a new field in the **Sync From** dropdown menu.
 
-   :::image type="content" source="../../media/glint/setup/new-optional-attribute.png" alt-text="Screenshot of the Optional System Attributes section after selecting the Manage Optional System Attributes button.":::
+      :::image type="content" source="../../media/glint/setup/new-optional-attribute.png" alt-text="Screenshot of the Optional System Attributes section after selecting the Manage Optional System Attributes button.":::
 
 ## Rename hierarchy attributes
 
@@ -132,7 +132,7 @@ To rename a hierarchy group:
 1. Select the **Configuration** symbol and then under the **Employees** section, choose **People**.
 2. Select **Actions** and then **Manage User Attributes**.
 3. In the **Hierarchy Groups** section, go to the hierarchy that you want to rename.
-4. Select the ellipsis next to the hierarchy group and choose **Edit hierarchy group.**
+4. Select the ellipsis next to the hierarchy group and choose **Edit hierarchy group**.
 5. In the dialog that appears, edit the **Hierarchy group name** field.
 6. Select **Save changes**.
 
