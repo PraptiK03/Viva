@@ -57,7 +57,7 @@ In general, an admin can create the following policies, if they're supported by 
 
 *Only some features have user controls available for admins to provide users with the option to opt out. See the next section or visit the feature's documentation page for more details. 
 
-**Only some features support the soft disable policy. SVee the next section or visit the feature's documentation page for more details. 
+**Only some features support the soft disable policy. See the next section or visit the feature's documentation page for more details. 
 
 ## Features available to manage
 
