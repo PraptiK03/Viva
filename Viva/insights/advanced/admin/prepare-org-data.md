@@ -1,5 +1,5 @@
 ---
-ms.date: 05/12/2025
+ms.date: 05/19/2025
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: zachminers
@@ -269,6 +269,11 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
 ## Enable partial data ingestion 
 
 To enable partial data ingestion, select **Upload valid rows and exclude rows with invalid data**. This setting will only upload rows that include valid values, and will show warnings for the rows that were not ingested due to errors. This setting is off by default.
+
+## Review validation details before making data available
+
+By default, your upload is automatically used for insights after it finishes processing. To prevent this, select **Review validation details before making data available**. By doing so, you can review the validation report and decide whether to make the data available *after* it validates. Select **Confirm to make data available**.  
+
 
 ## Attribute reference
 
