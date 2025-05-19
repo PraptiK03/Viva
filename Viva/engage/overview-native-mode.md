@@ -28,10 +28,10 @@ As of January 2020, all new Viva Engage tenants start in Native Mode.
 
 ## Frequently asked questions
 
-In Native Mode, all Viva Engage users are in Microsoft Entra ID, all groups (communities) are Microsoft 365 groups, and all files are stored in SharePoint Online.
+In Native Mode, all Viva Engage users are in Microsoft Entra ID, all groups (communities) are Microsoft 365 groups, and all files are stored in SharePoint.
 
  > [!NOTE]
-> There are no bandwidth requirements for Native Mode migration because nothing is downloaded. You are essentially moving from a separate Viva Engage site to Microsoft 365 and SharePoint Online. The only consideration is the SharePoint Online quota if Viva Engage has been extensively used.
+> There are no bandwidth requirements for Native Mode migration because nothing is downloaded. You are essentially moving from a separate Viva Engage site to Microsoft 365 and SharePoint. The only consideration is the SharePoint quota if Viva Engage has been extensively used.
 
 A tenant must be in one of three modes:
 

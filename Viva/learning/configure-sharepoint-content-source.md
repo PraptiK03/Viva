@@ -275,7 +275,7 @@ Linked folders in the repository must also belong to the central location. This 
 
 If you encounter issues with content, refer to the [Manage Providers Configuration](/viva/learning/use-tabs#manage-providers-configuration) export log for detailed summaries of successful and failed content ingestions.
 
-For more information, see [Multi-geo capabilities in SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365).
+For more information, see [Multi-geo capabilities in SharePoint](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365).
 
 ## Next steps
 

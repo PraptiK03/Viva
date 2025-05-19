@@ -10,7 +10,7 @@ keywords: QA, review, test survey, survey tester, quality assurance, checklist
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 02/25/2025

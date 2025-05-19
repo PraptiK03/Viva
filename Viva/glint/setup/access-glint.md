@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/29/2025
+ms.date: 05/08/2025
 ---
 
 # Access the Viva Glint platform
@@ -70,7 +70,12 @@ Invited Guests from other tenants in a [multitenant organization](glint-mto.md) 
 
 ## Session time-out
 
-After 20 minutes of inactivity, you're prompted with an initial **"Are you still here?"** message. A Viva Glint session ends after another 10 minutes of inactivity.
+Viva Glint sessions close after 30 minutes of inactivity. This mechanism helps protect sensitive data and ensures that sessions don't remain open indefinitely, which could pose security risks.
+
+User experience:
+
+- After 20 minutes of inactivity, an **Are you still here?** message displays.
+- If there's no response to the initial message, the session automatically shuts down after *another* 10 minutes of inactivity. 
 
 :::image type="content" source="../../media/glint/setup/glint-inactive-session-message.png" alt-text="Screenshot of a message that appears when a user is inactive in their survey session.":::
 

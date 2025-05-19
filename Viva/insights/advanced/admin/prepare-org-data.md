@@ -1,5 +1,5 @@
 ---
-ms.date: 02/07/2025
+ms.date: 05/12/2025
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: zachminers
@@ -19,7 +19,7 @@ The advanced insights app can get organizational data in one of two ways: throug
 To learn about organizational data in general, find out which data Microsoft Entra ID automatically syncs with Viva Insights, and to get an overview of the **Organizational data** page in the advanced insights admin experience, refer to [Organizational data in Viva Insights](org-data-overview.md).
 
 >[!Important]
-> After you upload a .csv file with organizational data, you won't be able to switch back to using Microsoft Entra ID. You'll need to regularly upload .csv files to keep your organizational data current.
+> You can use **both** Entra and data file uploads simultaneously if you enable "parallel" data ingestion. Then later, if you decide to stop using Entra for certain attributes, you can revert back to using only manual data files. [Learn more](./entra-plus-csv-upload.md).
 
 ## Prepare organizational data
 

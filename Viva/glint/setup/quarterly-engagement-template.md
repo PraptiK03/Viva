@@ -1,5 +1,5 @@
 ---
-title: Viva Glint's Quarterly Engagement Survey template
+title: Microsoft Viva Glint Quarterly Engagement Survey template
 description: Over 350 million employee survey responses surfaced new key driver themes resulting in new top-20 core engagement drivers on this template.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,18 +14,19 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/01/2024
+ms.date: 05/13/2025
 ---
 
-# Viva Glint's Quarterly Engagement Survey template
+# Microsoft Viva Glint Quarterly Engagement Survey template
 
-Microsoft Viva Glint saw a shift in focus on what is most important to the happiness and success of employees since the mid-2020 because of the COVID-19 pandemic and other global factors. For this reason, we knew we needed to reexamine our current measures of employee engagement (2018) to ensure we're focusing on the most meaningful engagement drivers for this modern era. 
+Microsoft Viva Glint saw a shift in focus on what is most important to the happiness and success of employees since the mid-2020 because of the COVID-19 pandemic and other global factors.  We reexamined the measures of employee engagement from 2018 to ensure focus on the most meaningful engagement drivers for this modern era. We analyzed over 350 million employee survey responses collected since 2020 to determine the employee experiences that are most predictive of engagement. These experiences are **happiness at work** and **willingness to recommend the company**. We discovered some new key driver themes, which resulted in a new top-20 list of core engagement drivers. Additionally, we identified several other drivers that may be beneficial for consideration by individual organizations. 
 
-We analyzed over 350 million employee survey responses collected since 2020 to determine the employee experiences that were most predictive of engagement - happiness at work and willingness to recommend the company. We discovered some new key driver themes, which resulted in a new top-20 list of core engagement drivers. Additionally, we identified several other drivers that may be beneficial for consideration by individual organizations. 
+>[!NOTE]
+>Not all items in the Viva Glint Question Library are posed in question format. Library items also include statements to rate on a given scale. For this reason, the term "item" on the Viva Glint platform and in supporting guidance refers to any content in the Question Library. The term "item" includes questions and statements.
 
 ## How we arrived at the Viva Glint Quarterly Engagement template
 
-The result of our re-examination of the focus of engagement is a modernized framework (early 2022) called **People Success Elements. These elements are six constructs**: Purpose, Clarity, Growth, Empowerment, Connection, and Wellbeing. The constructs summarize the fundamental needs and expectations that are most critical to a person’s holistic life experience (not only their work experience) and that best shape an environment for high engagement.
+The result of our re-examination is a modernized framework - early 2022 - called the Microsoft Viva [**People Success Elements](/viva/glint/setup/template-research#people-success-elements). These elements are six constructs**: Purpose, Clarity, Growth, Empowerment, Connection, and Wellbeing. The constructs summarize the fundamental needs and expectations that are most critical to a person’s holistic life experience. 
 
 ## Quarterly Engagement Survey items
 
@@ -57,17 +58,17 @@ Item Number|Item Name|Item Text|
 |24|Stop Doing| What should we stop doing (or do less of) to improve results?|
 |25|What Else| What else is on your mind?|
 
-## View and export the core survey driver items in-platform
+## View and export the core survey items from the platform
 
-You can view the core drivers in the platform when you create a new Quarterly Engagement survey. From your **admin dashboard**:
-
-1. Select **Survey Program**, then **+ New Program**, and then the **Quarterly Engagement card** and **Create Program**.
-2. In *Program Summary*, select **Questions** (can't be selected until the pages prior are set up).
-3. The template items populate.
+1. From your admin dashboard, select **Survey Programs**.
+2. Select **+ New Program**.
+3. Select the **Quarterly Engagement card** and then **Create Program**.
+4. To view the survey items, in **Program Summary**, select **Questions**. All the pages before this section must already be set up. You can add dummy information to move ahead, but remember to go back and delete the dummy information!
+5. The template items populate.
 
 ## Add items to your Quarterly Engagement survey using the Question Library
 
-There are other items to consider as important drivers of engagement and they can be added to any engagement survey. Search the item name in the Question Library and add to your Engagement survey:
+There are other items considered important drivers of engagement. They can be added to any engagement survey. Search the item name (label) in the Question Library and add it to your Engagement survey:
 
 | **Item Text** | **Core Driver** |
 |:---|:---|

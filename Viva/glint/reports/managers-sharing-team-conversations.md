@@ -1,5 +1,5 @@
 ---
-title: Managers using Viva Glint Team Conversations
+title: Managers using Microsoft Viva Glint Team Conversations
 description: Managers can use a Team Conversations Presentation Kit to launch, send, and present feedback and solutions to their team.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,10 +14,10 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 3/11/2025
+ms.date: 5/07/2025
 ---
 
-# Managers using Viva Glint Team Conversations
+# Managers using Microsoft Viva Glint Team Conversations
 
 Managers use a Microsoft Viva Glint Team Conversations Presentation Kit to launch, send, and present feedback and solutions to their team. Team Conversations help managers have a meaningful conversation that moves their team forward to achieve organizational goals. Team Conversations must be enabled for the program in **General Settings**. Admins provide the Team Conversations dashboard experience for managers when setting up surveys.
 
