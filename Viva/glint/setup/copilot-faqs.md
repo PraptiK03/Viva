@@ -143,7 +143,7 @@ For the best feedback, encourage your employees to leave comments in their nativ
 
 **A:** Learn about [Microsoft Viva Glint's Narrative Intelligence](https://techcommunity.microsoft.com/discussions/results_and_action_taking_on_viva_glint/what-is-viva-glints-narrative-intelligence/3884799) and download the PDF to share with your leaders.
 
-<br>**Q:** How does the algorithm define Diversity, Equity, and Inclusion-related or sensitive topics/attributes? Is it solely based on our attributes sent to Viva Glint? Is there a key term library?
+<br>**Q: How does the algorithm define Diversity, Equity, and Inclusion-related or sensitive topics/attributes? Is it solely based on our attributes sent to Viva Glint? Is there a key term library?**
 
 **A:** [Read this article about Copilot's responsible AI approach](https://www.microsoft.com/microsoft-365/blog/2024/02/13/making-our-generative-ai-products-safer-for-consumers).
 
