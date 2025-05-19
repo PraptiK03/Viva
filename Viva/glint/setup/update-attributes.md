@@ -139,6 +139,8 @@ To rename a hierarchy group:
 5. In the dialog that appears, edit the **Hierarchy group name** field.
 6. Select **Save changes**.
 
+   :::image type="content" source="../../media/glint/setup/edit-hierarchy-grp-name.png" alt-text="Screenshot of the Viva Glint dialog to edit a hierarchy group name.":::
+
 To rename hierarchy levels:
 
 1. Select the **Configuration** symbol and then under the **Employees** section, choose **People**.
@@ -148,8 +150,10 @@ To rename hierarchy levels:
 5. In the dialog that appears, edit the **Level** fields in the Hierarchy levels section.
 6. Select **Save changes**.
 
-> [!CAUTION]
-> Use this method if the underlying data remains the same, but the hierarchy level name changes in your system (for example, Department changes to Team, but the values in the column remain the same). Repurposing attribute name labels can create issues in reporting.
+   :::image type="content" source="../../media/glint/setup/edit-hierarchy-level-name.png" alt-text="Screenshot of the Viva Glint dialog to edit  hierarchy level names.":::
+
+   > [!CAUTION]
+   > Use this method if the underlying data remains the same, but the hierarchy level name changes in your system . Repurposing attribute name labels can create issues in reporting. For example, rename a "Department" level to "Team" only if the values in the column remain the same.
 
 ## Update custom attribute visibility
 
