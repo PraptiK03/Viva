@@ -150,7 +150,7 @@ To rename hierarchy levels:
    :::image type="content" source="../../media/glint/setup/edit-hierarchy-level-name.png" alt-text="Screenshot of the Viva Glint dialog to edit  hierarchy level names.":::
 
    > [!CAUTION]
-   > Use this method if the underlying data remains the same, but the hierarchy level name changes in your system . Repurposing attribute name labels can create issues in reporting. For example, rename a "Department" level to "Team" only if the values in the column remain the same.
+   > Use this method if the underlying data remains the same, but the hierarchy level name changes in your system. Repurposing attribute name labels can create issues in reporting. For example, rename a "Department" level to "Team" only if the values in the column remain the same.
 
 ## Update custom attribute visibility
 
