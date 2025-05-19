@@ -103,61 +103,99 @@ View and set the following parameters in **Report settings**. You can find this 
 
 | Setting | Description |
 | ------- | ------------------|
-| Time period for the report | This shows the time period of the insights in the report. The report includes the skills data for the past month. |
+| Time period for the report | This shows the time period of the insights in the report. The report includes up to three months of the skills data based on your selection when you set up the query. |
 | Group by | Set the primary group-by attribute for all report pages. You can change this attribute at any time and all report pages will group values by the new attribute. |
 | Filter | Select an organizational attribute, and then filter by any of the values for the selected attribute. For example, if you selected "Organization" as the attribute, you could set "Engineering" as the filter value. You'll only see data from the Engineering organization, so setting filters lowers the **People included in this report** count. |
-|Skill customization | Exclude skills inferred by AI: Choose whether to exclude AI-inferred skills in the distribution insights. AI-inferred skills are powered by Skills in Viva based on people’s job titles and recent Microsoft 365 activities. If you select this option, the report will only include confirmed skills in the distribution insights.<br></br> Exclude related skills: Choose whether to exclude related skills in the distribution insights. If you select this option, the report will only include confirmed and AI-inferred skills (if selected). Additional people with related skills are no longer included. |
+|Skill customization | Exclude AI-inferred skills: Choose whether to exclude AI-inferred skills in the distribution insights. AI-inferred skills are powered by People Skills based on people's job titles and recent Microsoft 365 activities. If you select this option, the report will only include confirmed skills in the distribution insights. |
 
 ## About the report
 The report provides insights about the skills landscape in your organization to help you identify distribution of top skills, connections between skills, and potential skill gaps.
 
 
 ### About skill distribution and related concepts
-This is the total number or percentage of people in your organization who have either confirmed they have a skill or are presumed to have a skill based on AI reasoning and analysis. Distribution can be filtered to include only confirmed skills in **Report settings**. Additionally, people with related skills can be included in the distribution, which is configurable on each report page. 
-* **Skill confirmed by user**: A skill that a person confirmed they have in Skills in Viva.
+This is the total number or percentage of people in your organization who have either confirmed they have a skill or are presumed to have a skill based on AI reasoning and analysis. Distribution can be filtered to include only confirmed skills in **Report settings**.
+
+* **Skill confirmed by user**: A skill that a person confirmed they have in People Skills experiences.
 * **Skill inferred by AI**: A skill that an AI system predicts a person has but hasn’t been confirmed by the person. AI inferences are based on job titles and recent Microsoft 365 activities.
 
 
-### Skills in Viva data coverage 
+### People Skills introduction
 
-This page provides a summary of your organization’s skills data. This page can help you:
+This page provides a top-level overview of the skills being used across the measured population in the organization.
 
-* Understand how many people are included in this report. If the number doesn’t look correct, you can contact your admin for more information 
+This page can help you:
 
-* Discover how many people have confirmed their skills. As more people confirm their skills, the data’s relevance and accuracy improves 
+* Understand commonly used skills in your organization, which are normally used across a large population. 
 
-* Identify top skills in your organization across the measured population 
+* Discover top used skills in Artificial Intelligence. Use this information to identify talent in this area for your AI initiatives. 
 
-### Skills distribution
+* Identify skills that are highly concentrated in small pockets of the population. These insights help you discover areas of skills specialization in specific groups.
 
-This page provides insights on how skills are distributed between groups (determined by organizational attributes). You can use these insights to understand the skill profile for a group, compare differences across groups, and identify potential skill gaps.
+There are two definitions of concentration skills you can toggle between in the report:
 
-You can locate a group of highly relevant skills, including subskills and adjacent skills, once you select a primary skill. You can group these skills directly for distribution insights or make further adjustments to your selection to fit your analysis needs.
+* By count of employees: A skill is concentrated if it's held by many employees in just a few groups. This information can be useful for your project assignments or resource allocation.
 
-### Skills landscape (beta)
+* By percentage of employees: A skill is concentrated if it's held by a high percentage of employees in just a few groups. This information can help you identify expert groups for your initiatives.
 
-Powered by Skills in Viva and currently in beta experimentation, this page shows how skills are clustered and connected to each other to help you: 
+### Skills deep dive 
 
-* Identify skills distribution based on categories that matter to your organization 
+This page provides insights on how specific skills are distributed between groups (determined by organizational attributes). You can use these insights to understand the skill profile for a group, compare differences across groups, and identify potential skill gaps. 
+
+Specifically, you can:​ 
+
+* Select a primary skill of interest to quickly form a group of related skills, including its subskills and adjacent skills.​
+
+* Define your own group of skills for distribution analysis by adding or removing skills.​
+
+* Identify the distribution of skills across your organization based on available attributes in the report.
+
+### AI-generated skills hierarchy (beta) 
+
+Powered by People Skills and currently in beta, this page shows how skills are clustered and connected to each other to help you: 
+
+* Identify skills distribution from the categories that matter to your organization
+
+* Maximize learning and career advancement programs​ 
 
 * Better allocate resources by understanding how skills complement each other 
 
-#### Explore your organization’s top skills
-In these interactive visuals, you can explore the distribution of skills in your organization and how they're connected. Starting with an optional filter on skill categories, you can view the top skills for that category in the first layer. Selecting one of these skills will then show the skills that roll up into it. If computer science is in the top layer, and AI is in the drilldown, this means people who may have the AI skill will also have computer science. The skills drilldown is powered by the parent-child skill relationship in Skills in Viva.
-
-#### View distribution details
-This chart provides more insight as to whether skills are confirmed or inferred by AI, and whether related skills are included in the data. 
-
-You can search for a skill to filter the distribution details to that skill.
+In the interactive visuals on this page, you can explore the skills hierarchy in your organization. Start by selecting a skill category to view the top skills for that category. Select one of these skills to show its subskills. If a Computer science skill is in the top layer, and an AI intelligence skill is in the drilldown, this means AI is a subskill of Computer science. There are up to five layers in the skills hierarchy, powered by People Skills.
 
 ### Glossary
-Get definitions for key concepts introduced in this report. For more information about Skills in Viva, see [Skills in Viva Overview.](https://support.microsoft.com/office/skills-in-viva-overview-98df33d7-817b-42d2-8a07-eef3bb44e078) 
+Get definitions for key concepts introduced in this report. [Learn more about People Skills](/viva/skills/skills-overview).
 
-## Power BI tips, FAQs, and troubleshooting
-For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting.](./power-bi-faq-troubleshoot.md)
+## FAQ 
+
+**Q1. I see the Skills landscape report template in Advanced Insights, but I can't run the query. And, employees with People Skills data is zero in the query setup. Why?**
+
+There are two prerequisites to use skills data for this report: 
+
+1. People Skills services need to be onboarded and active in your organization.  
+2. The data sharing option needs to be turned on for Viva Insights to process People Skills data.  
+
+Please contact your Microsoft 365 admin for more details.
+
+**Q2. Why are there fewer people than expected in this report?**
+
+There can be multiple reasons: 
+
+1. Some employees might not have the required Viva Insights licenses or People Skills service plan. Contact your Microsoft 365 admin for information on the Viva licenses and People Skills service plan in your organization. 
+2. Some employees might not have their organizational data successfully uploaded or connected to Viva Insights. Contact your Insights admin for details about organizational data. 
+3. Some employees might decide not to share their skills with the organization in their skills settings. Their skills will no longer show up in this report.
+
+**Q3. The total number of people is correct in the report, but some groups don't appear in the breakdown view. Why?**
+
+This report has a minimum group size threshold, which is set to 10 people by default. Any group that does not meet this minimum size will not be displayed in the report breakdown view.
+
+**Q4. I have other questions about setting up or sharing the Power BI report.**
+
+For details about how to share the report and other Power BI tips, troubleshooting, and frequently asked questions, see [Power BI tips, FAQ, and troubleshooting.](./power-bi-faq-troubleshoot.md)
+
+**Q5. What is People Skills and how can I learn more about it?**
+
+People Skills is a service in Microsoft 365 to help employees and organizations identify skills, manage skills, and discover opportunities. [Learn more](/viva/skills/skills-overview).
 
 ## Related topics
 [Access query results and modify existing queries](../query-results.md)
 
 [Filters](../filters.md)
-
