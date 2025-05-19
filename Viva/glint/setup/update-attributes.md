@@ -97,10 +97,7 @@ To edit derived fields after your initial setup:
    1. To disable a Derived Attribute: Deselect the checkbox next to the desired field.
    1. To enable a Derived Attribute: Select the checkbox next to the desired field and choose a field from your data in the Calculate From dropdown menu.
    1. To update the field used to create a Derived Attribute: Select the checkbox next to the desired field and choose a new field in the Calculate From dropdown menu. 
-   :::image type="content" source="../../media/glint/setup/new-derived-attribute.png" alt-text="Screenshot of the Derived Attributes section after selecting the Manage Derived Attributes button.":::
-
-      > [!NOTE]
-      > Manager Hierarchy isn't editable after initial setup.
+   :::image type="content" source="../../media/glint/setup/new-derived-attribute2.png" alt-text="Screenshot of the Derived Attributes section after selecting Manage Derived Attributes.":::
 
 ## Manage Optional System Attributes
 
