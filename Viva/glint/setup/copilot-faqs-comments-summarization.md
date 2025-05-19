@@ -28,7 +28,7 @@ ms.date: 05/19/2025
 ## Filtering 
 
 **Q: How can we distinguish between item labels and customized topics? What is a good practice for applying filters such as groups, topics, and question labels?** <br>
-**A:** Item labels and topics can sometimes be indistinguishable. For example, the “Inclusion” survey item versus the general topic of inclusion. Copilot in Viva Glint initially identifies item labels in the user prompt and filters comments based on those labels. After Copilot summarizes comments that closely align with the topics identified in the user prompt, it filters comments about inclusion as a topic.
+**A:** Item labels and topics can sometimes be indistinguishable. For example, the "Inclusion" survey item versus the general topic of inclusion. Copilot in Viva Glint initially identifies item labels in the user prompt and filters comments based on those labels. After Copilot summarizes comments that closely align with the topics identified in the user prompt, it filters comments about inclusion as a topic.
 
 **Q: Can Copilot in Viva Glint summarize comments for attributes that a user doesn’t have access to?** <br>
 **A:** No, Copilot in Viva Glint can’t filter or summarize comments based on attributes that a user can’t access.
@@ -61,8 +61,8 @@ ms.date: 05/19/2025
 - When Copilot determines that the user prompt is not related to comments summarization
 
 An “all-comments” summary:
-- When the user doesn't ask about specific survey questions or comment themes in the prompt, Copilot summarizes all comments up to the 8K comment limit.
-- pply filters to the reporting first and then ask Copilot to "Summarize all comments" as a workaround.
+- When the user doesn't ask about specific survey questions or comment themes in the prompt, Copilot summarizes all comments up to the 8,000 comment limit.
+- Apply filters to the reporting first and then ask Copilot to "Summarize all comments" as a workaround.
 
 A subset of comments summary:
 - A user asks about specific survey questions or comment themes.
