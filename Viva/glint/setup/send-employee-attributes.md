@@ -129,7 +129,7 @@ Map attributes in your employee data to Viva Glint language, time zone, and pers
 
 Select your attributes from the dropdown menu for each hierarchy group.
 
-- Map a field from your employee data to Manager ID to have Viva Glint create a Manager Hierarchy.
+- To have Viva Glint create a Manager Hierarchy, map your manager ID field from your employee data to Manager ID.
 - To add more levels to a hierarchy, select **+ Add Level**.
 - To add a new hierarchy group, select **+ Add Hierarchy Group**.
 - To rename the hierarchy label, select the **pencil** symbol.
