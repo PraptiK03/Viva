@@ -36,7 +36,7 @@ Skills visibility controls whether users can see their colleagues’ skills on s
 - Admins can turn skills visibility auto-off. Individual users can opt in.
 - Admins can disable skills visibility of some skills (AI suggested or Org added skills) for their tenant. *
 
-* We offer granular visibility controls so you can control sharing of an entire skills profile, or for types of skills such as AI-suggested skills or Org added skills. Admins cannot completely disable skills profile visibility, as a user can always opt in to sharing their skills profile from their personal skills settings in Profile Editor. However, admins can disable sharing of some skills such as AI-suggested, or org. added skills
+* We offer granular visibility controls so you can control sharing of an entire skills profile, or for types of skills such as AI-suggested skills or Org added skills. Admins cannot completely disable skills profile visibility, as a user can always opt in to sharing their skills profile from their personal skills settings in Profile Editor. However, admins can disable sharing of some skills such as AI-suggested, or org. added skills.
 
 :::image type="content" source="../media/skills/skills-user-privacy-settings.png" alt-text="A screenshot of the different ways a user can set privacy options for sharing People Skills." lightbox="../media/skills/skills-user-privacy-settings.png":::  
 
