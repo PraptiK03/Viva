@@ -22,14 +22,16 @@ search.appverid:
 description: "Control who can access features in Microsoft Viva using the Microsoft 365 admin center"
 ---
 
-# Control who can access features in Microsoft Viva using the Microsoft 365 admin center
-To control who has access to specific Viva features and tailor your deployments to meet your local regulatory or business requirements, you can create and update policies in the Microsoft 365 admin center.
+# Control who can access features in Microsoft 365 using the Microsoft 365 admin center
+
+To control who has access to specific Microsoft 365 features and tailor your deployments to meet your local regulatory or business requirements, you can create and update policies in the Microsoft 365 admin center.
 
 Policies are used to enable or disable specific features or types of data processing for users or groups in your tenant. [Learn more about policies](/viva/feature-access-management).
 
 > [!NOTE]
 > - You can override your org-wide setting by using custom policies to apply only to specific users or groups. 
 > - Custom policies take precedence over your org-wide settings. For example, if you have organization-wide access turned off, a custom policy could still allow access for specific users or groups. If there are no custom policies set for a user or group, the organizational setting will apply. For more details, see [Which policy takes precedence](/viva/feature-access-management?#which-policy-takes-precedence).
+> - Policies for People Skills can only be created via PowerShell at this time. You cannot use the interface in Microsoft 365 admin center to create policies for People Skills features.
 
 ## Create a policy
 1.	From the Microsoft 365 admin center, select **Viva** from the settings menu. 
