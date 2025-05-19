@@ -162,7 +162,7 @@ Powered by People Skills and currently in beta, this page shows how skills are c
 In the interactive visuals on this page, you can explore the skills hierarchy in your organization. Start by selecting a skill category to view the top skills for that category. Select one of these skills to show its subskills. If the Computer science skill is in the top layer, and the Artificial intelligence (AI) skill is in the drilldown, this means AI is a subskill of Computer science. There are up to five layers in the skills hierarchy, powered by People Skills.
 
 ### Glossary
-Get definitions for key concepts introduced in this report. [Learn more about People Skills](/viva/skills/skills-overview).
+Get definitions for key concepts introduced in this report. [Learn more about People Skills](https://go.microsoft.com/fwlink/?linkid=2313228&clcid=0x409).
 
 ## FAQ 
 
