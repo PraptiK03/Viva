@@ -103,7 +103,7 @@ items:
                 href: setup/attribute-fundamentals.md
               - name: Hierarchy fundamentals
                 href: setup/hierarchy-fundamentals.md
-              - name: Employee Attribute Template
+              - name: Employee attribute template
                 href: setup/create-employee-attribute-template.md
               - name: Employee data file checklist
                 href: setup/data-checklist.md          
@@ -124,7 +124,7 @@ items:
     items:
       - name: Introduction to Copilot in Viva Glint 
         href: copilot/copilot-admin-intro.md
-      - name: Administrator enablement for Copilot in Viva Glint
+      - name: Enable Copilot in Viva Glint
         href: copilot/admin-enable.md
       - name: Copilot in Viva Glint data, privacy, and security
         href: setup/copilot-privacy.md
