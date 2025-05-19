@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 04/11/2025
+ms.date: 05/20/2025
 title: Skills landscape report
 description: Navigate the skills landscape report in Viva Insights
 author: zachminers
@@ -17,26 +17,26 @@ audience: Admin
 >[!Important]
 >This feature is in private preview. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
->[!Note]
->We've launched a new version of this report. If you're an existing customer using the previous version of this template, run a new query to load the new results.
+The Skills landscape report helps you explore top skills people in your company might have and identify potential skill gaps. These insights are powered by [People Skills](/viva/skills/skills-overview).
 
-The Skills landscape report helps you explore top skills people in your company may be using and identify potential skill gaps. These insights are powered by Skills in Viva.
 With this report, you can:
-* Discover top skills in your organization
-* See how skills may be distributed across groups
-* Identify potential skill gaps
-* Explore related skills insights
+
+* Understand People Skills data and how it's used
+* Browse commonly used skills and areas of skills specialization 
+* See how groups of skills are distributed in your organization 
+* Explore skills hierarchy 
 
 Before we get started, there are a few things you should know:
-* People need to have eligible licenses for both **Viva Insights** and **Skills in Viva** to be included in this report.
-* The skills data imports from Skills in Viva to Viva Insights through APIs. Your Microsoft 365 admin or knowledge admin needs to provide consent in the MAC portal to confirm the connection.
-* Only people with Viva Insights analyst role can run and set up this report. Your Insights admin needs to assign the analyst role to enable their access.
-* For this private preview, the report is only available in English.
-* For this private preview, the report only includes the past month of skills insights. You can run the report monthly to track skill trends and changes.
+
+* People need to have eligible licenses for **Viva Insights** and valid **People Skills** data to be included in this report.
+* The skills data is imported from People Skills to Viva Insights through APIs. Your Microsoft 365 admin or knowledge admin needs to enable the connection in the Microsoft 365 admin center.
+* Only people with the **Viva Insights Analyst** role can run and set up this report. Your Insights admin needs to assign the analyst role to enable their access.
+* The skills names displayed in the report are only available in English.
+* The report can include up to three months of skills insights.  
 
 To populate the report in Power BI, you need to set up, and successfully run the predefined **Skills landscape** query in Viva Insights.
 
-:::image type="content" source="../../images/pbi-01.png" lightbox="../../images/pbi-01.png" alt-text="Screenshot of run analysis to populate report.":::
+:::image type="content" source="../../images/skills-pbi-setup.png" lightbox="../../images/skills-pbi-setup.png" alt-text="Screenshot of run analysis to populate report.":::
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
@@ -44,9 +44,9 @@ To populate the report in Power BI, you need to set up, and successfully run the
  
 ## Prerequisites
 Before you can run the queries and populate the report in Power BI, you need to:
+
 * Be assigned the role of **Insights Analyst** in Viva Insights.
 * Have the December 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi/getting-started-with-power-bi) to download and install the latest version.
-* People must be eligible for both **Skills in Viva** and **Viva Insights** to be included in this report. **Skills data** is required for this report. Contact your knowledge admin or Microsoft 365 admin for details.
 
 ## Report setup
 ### Run query
@@ -57,19 +57,23 @@ Before you can run the queries and populate the report in Power BI, you need to:
     1. Type a **Query name.**
 
     2. Type a **Description** (optional).
+    
+    3. Select a **time period** of up to three months.
 
     >[!Note]
-    >You're not able to edit the date range for this report. This report analyzes the skills data in the past month.
+    > This Power BI query is set to **Group by Month**, and you can't edit this field.
 
-    The **More settings** pane also contains **Group by** settings. This Power BI query is set to **Group by Month**, and you're not able to edit this field.
+4. Set **Auto-refresh** (optional). You can set the query to automatically update by selecting **Auto-refresh**. When you select **Auto-refresh**, your query automatically runs and computes a new result every month.
 
-4.	Under **Predefined template metrics**, there is one preselected metric, which appears as a gray tag. It is required to have at least one collaboration metric to run the query and you can’t remove it. You can add other metrics by selecting **Add metrics**, but these metrics don’t appear in the Power BI report—they just appear in your query results file.
+    >[!Note]
+    > If organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), the query might stop auto-refreshing. 
+
 5.	In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. For more details about filter and metric options, refer to [Filters.](../filters.md)
 
     >[!Important]
-    > Only people with valid **Skills in Viva** data and **Viva Insights** licenses are included in this report. The population count in **Employees with Skills in Viva** data shows the number of employees the query will measure. The query won't run if the population count is zero.
+    > Only people with valid **Viva Insights** licenses and People Skills data are included in this report. The population count in **Employees with People Skills** data shows the number of employees the query will measure. The query won't run if the population count is zero.
 
-6.	Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
+6.	Under **Select which employee attributes you want to include in the query**, add up to 20 organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
 
     >[!Important]
     > This Power BI query needs some specific attributes to run, including some required attributes to indicate employee skills, and we've preselected them for you. These attributes appear in gray and you can't 
