@@ -17,7 +17,7 @@ audience: Admin
 >[!Important]
 >This feature is in private preview. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
-The Skills landscape report helps you explore top skills people in your company might have and identify potential skill gaps. These insights are powered by [People Skills](/viva/skills/skills-overview).
+The Skills landscape report helps you explore top skills people in your company might have and identify potential skill gaps. These insights are powered by [People Skills](https://go.microsoft.com/fwlink/?linkid=2313228&clcid=0x409).
 
 With this report, you can:
 
@@ -30,7 +30,7 @@ Before we get started, there are a few things you should know:
 
 * People need to have eligible licenses for **Viva Insights** and valid **People Skills** data to be included in this report.
 * The skills data is imported from People Skills to Viva Insights through APIs. Your Microsoft 365 admin or knowledge admin needs to enable the connection in the Microsoft 365 admin center.
-* Only people with the **Viva Insights Analyst** role can run and set up this report. Your Insights admin needs to assign the analyst role to enable their access.
+* Only people with the **Viva Insights Analyst** role can run and set up this report. Your Microsoft 365 admin needs to assign the analyst role to enable their access.
 * The skills names displayed in the report are only available in English.
 * The report can include up to three months of skills insights.  
 
@@ -159,7 +159,7 @@ Powered by People Skills and currently in beta, this page shows how skills are c
 
 * Better allocate resources by understanding how skills complement each other 
 
-In the interactive visuals on this page, you can explore the skills hierarchy in your organization. Start by selecting a skill category to view the top skills for that category. Select one of these skills to show its subskills. If a Computer science skill is in the top layer, and an AI intelligence skill is in the drilldown, this means AI is a subskill of Computer science. There are up to five layers in the skills hierarchy, powered by People Skills.
+In the interactive visuals on this page, you can explore the skills hierarchy in your organization. Start by selecting a skill category to view the top skills for that category. Select one of these skills to show its subskills. If the Computer science skill is in the top layer, and the Artificial intelligence (AI) skill is in the drilldown, this means AI is a subskill of Computer science. There are up to five layers in the skills hierarchy, powered by People Skills.
 
 ### Glossary
 Get definitions for key concepts introduced in this report. [Learn more about People Skills](/viva/skills/skills-overview).
@@ -193,7 +193,7 @@ For details about how to share the report and other Power BI tips, troubleshooti
 
 **Q5. What is People Skills and how can I learn more about it?**
 
-People Skills is a service in Microsoft 365 to help employees and organizations identify skills, manage skills, and discover opportunities. [Learn more](/viva/skills/skills-overview).
+People Skills is a service in Microsoft 365 to help employees and organizations identify skills, manage skills, and discover opportunities. [Learn more](https://go.microsoft.com/fwlink/?linkid=2313228&clcid=0x409).
 
 ## Related topics
 [Access query results and modify existing queries](../query-results.md)
