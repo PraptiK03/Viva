@@ -21,6 +21,9 @@ search.appverid:
 
 # View and manage analytics in Viva Engage
 
+>[!NOTE]
+>Some users may notice that Engage analytics client breakdown information doesn't work as expected. This issue affects the client breakdown metrics available in network analytics and conversation analytics for Viva Suite and Communications and Communities-licensed customers. Experiences such as Viva Engage on Teams may inaccurately display low engagement. Missing engagement appears as "Web" client engagement. Our engineering team is working to fix this issue.
+
 Advanced analytics capabilities in Viva Engage enable the following scenarios:
 
 - All users can monitor their own engagement metrics through _personal_, _Answers_, and _Community analytics_.
