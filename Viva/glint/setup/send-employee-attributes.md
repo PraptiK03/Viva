@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/08/2025
+ms.date: 05/19/2025
 ---
 
 # Set up attributes in Viva Glint
@@ -22,7 +22,7 @@ ms.date: 05/08/2025
 Set up attributes in Microsoft Viva Glint to create a mapping of fields to expect in your employee data files transmitted to Viva Glint. To set up required, custom, hierarchy, and derived attributes, use the decisions made in the [Employee attribute template](create-employee-attribute-template.md) as a guide.
 
 > [!NOTE]
-> Before starting, confirm that the attribute selections in your Employee attribute template are **final**. Viva Glint Admins can't edit reporting hierarchies, file format, or date attribute formats after initial setup is complete. 
+> Before starting, confirm that the attribute selections in your Employee attribute template are **final**. Viva Glint Admins can't edit, file format, date attribute formats, or add new hierarchies/hierarchy levels after initial setup is complete. 
 
 ## Attribute setup in Viva Glint
 
@@ -84,11 +84,10 @@ Select your attribute from the dropdown for each required attribute:
 
 ### Derived attributes
 
-Viva Glint calculates attributes based on data sent in your employee attribute file. Most organizations choose to include a managerial hierarchy. Select your option and the attribute that should be used to create it. Decide whether to include tenure groups based on hire date or age groups based on birth year.
+Viva Glint calculates attributes based on data sent in your employee attribute file. Decide whether to include tenure groups based on hire date or age groups based on birth year.
 
 |Derived Field   |Based On   |Derived Values|
 |----------|-----------|------------|
-|Manager Hierarchy|Employee ID and Manager ID data relationship  |Up to 25 manager levels, starting with the CEO/top-level leader|
 |Tenure* |Hire Date   |<1 Year, 1-2 Years, 2-4 Years, 4-6 Years, 6-10 Years, 10-15 Years, 15-20 Years, 20+ Years|
 |Age Grouping     |Birth Year       |<25, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70+       |
 
@@ -102,7 +101,7 @@ Viva Glint calculates attributes based on data sent in your employee attribute f
 2. Select the desired attribute from the dropdown menu.
 3. Select **Continue**.
 
-:::image type="content" source="../../media/glint/setup/setup-step3-derived.png" alt-text="Screenshot of step 3 to map derived attributes.":::
+:::image type="content" source="../../media/glint/setup/new-derived-attribute2.png" alt-text="Screenshot of step 3 to map derived attributes.":::
 
 ### Optional System Attributes
 
@@ -130,6 +129,7 @@ Map attributes in your employee data to Viva Glint language, time zone, and pers
 
 Select your attributes from the dropdown menu for each hierarchy group.
 
+- To have Viva Glint create a Manager Hierarchy, map your manager ID field from your employee data to Manager ID.
 - To add more levels to a hierarchy, select **+ Add Level**.
 - To add a new hierarchy group, select **+ Add Hierarchy Group**.
 - To rename the hierarchy label, select the **pencil** symbol.

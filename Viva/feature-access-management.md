@@ -20,20 +20,20 @@ search.appverid:
 - MET150
 description: "Control who can access features in Microsoft Viva"
 ---
-# Control access to features in Viva
+# Control access to features in Microsoft 365
 
-To control who has access to specific Viva features you can create and update policies in the [Microsoft 365 admin center](/Viva/control-access-admin-center) or in [PowerShell](/Viva/manage-access-policies).
+To control who has access to specific Microsoft 365 and Microsoft Viva features, you can create and update policies in the [Microsoft 365 admin center](/Viva/control-access-admin-center) or in [PowerShell](/Viva/manage-access-policies).
 
 Policies are used to enable or disable specific features or types of data processing for users or groups in your tenant.
 
 > [!NOTE]
-> These features aren't available yet in GCC High or DoD. For GCC, see the documentation for your specific app for availability.
+> These access controls aren't available yet in GCC High or DoD. For GCC, see the documentation for your specific app for availability.
 
 ## Creating and managing policies  
 
-Policies can be created and managed by a Viva admin who has permissions to do so in the [Microsoft 365 admin center](/Viva/control-access-admin-center) or in [PowerShell](/Viva/manage-access-policies). For more information, see the **Who can manage access** column in the following feature table.
+Policies can be created and managed by an admin who has permissions to do so in the [Microsoft 365 admin center](/Viva/control-access-admin-center) or in [PowerShell](/Viva/manage-access-policies). For more information, see the **Who can manage access** column in the following feature table.
 
-Policies for copilots in Viva can also be [managed through the Copilot settings page in the Microsoft 365 admin center](/viva/copilot/copilot-access-management). These policies remain in sync with policies managed through Viva admin page.  
+Policies for copilots can also be [managed through the Copilot settings page in the Microsoft 365 admin center](/viva/copilot/copilot-access-management). These policies remain in sync with policies managed through the admin page.  
 
 ### Requirements
 Before you can create a policy, you need:  
@@ -41,21 +41,38 @@ Before you can create a policy, you need:
 - A [supported version of Microsoft 365 or a Viva Suite license](https://www.microsoft.com/microsoft-viva/pricing).
 - User accounts created in or synchronized to Microsoft Entra ID.
 - Microsoft 365 groups, Microsoft Entra security groups created in or synchronized to Microsoft Entra ID, or distribution groups.<br>
-- For [PowerShell](/Viva/feature-access-management) access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later. If you need to use non-mail-enabled groups, you must have access to Exchange PowerShell version 3.5.1 or later.
+- For [PowerShell](/Viva/feature-access-management) access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later. If you need to use non-mail-enabled groups, you must have access to Exchange PowerShell version 3.5.1 or later. If you need to set up policies with the user opted-out by default (soft disable), you must have access to Exchange PowerShell version 3.8.0 or later. 
+
+### Which policies are possible? 
+
+In general, an admin can create the following policies, if they're supported by the feature:  
+
+- Enable the feature for everyone in the policy scope without considering user preference
+
+- Disable the feature for everyone in the policy scope without considering user preference 
+
+- Enable the feature for everyone in the policy scope while providing users the ability to opt-out* 
+
+- Enable the feature by opting out everyone in policy scope by default, while providing users the ability to opt-in (soft disable)* 
+
+*Only some features have user controls available for admins to provide users with the option to opt out. See the next section or visit the feature's documentation page for more details. 
+
+**Only some features support the soft disable policy. See the next section or visit the feature's documentation page for more details. 
 
 ## Features available to manage
 
 You can use feature access management to manage access to the following features:
 
 > [!NOTE]
-> - Some features may not support user/group policies. In addition, policies for one app can have an impact on the entire tenant or users in your tenant. For more information, see the feature documentation by using the link in the table.
-> - Only some features have the controls available for admins to provide users with the option to opt out.
+> - The AI admin controls all Copilot features in Viva Engage, Viva Goals, and Viva Insights. Individual app admins can control the Copilot features they have access to.
+> - Some features may not support user/group policies. In addition, policies for one app can have an impact on the entire tenant or users in your tenant. For more information, see the feature documentation by using the link in the table. 
+> - Only some features have the controls available for admins to provide users with the option to opt out. Visit the feature's documentation page for more details. 
 
 |App|Feature|Control for user opt-out?|Who can manage access|ModuleID|
 |-|-|-|-|-|
 |Engage|[Copilot in Engage](/viva/engage/configure-copilot-for-engage)|No|AI admin**|VivaEngage|
 ||[AI Summarization](/viva/engage/configure-copilot-for-engage)|Yes|Engage admin|VivaEngage|
-|Glint|[Copilot in Viva Glint](/viva/glint/copilot/admin-enable)*|No|Global admin|VivaGlint|
+|Glint|[Copilot in Viva Glint](/viva/glint/copilot/admin-enable)|No|Global admin|VivaGlint|
 |Goals|[Copilot in Viva Goals](/viva/goals/copilot-intro)|No|Goals admin|VivaGoals|
 |Insights|[Advanced Insights](/viva/insights/advanced/introduction-to-advanced-insights)|No|AI admin|VivaInsights|
 ||[Analyst Report Publish (preview)](/viva/insights/advanced/analyst/publish-reports)|No|Viva Insights admin|VivaInsights|
@@ -72,15 +89,17 @@ You can use feature access management to manage access to the following features
 ||[Team conversations in Pulse reports](/viva/pulse/setup-admin-access/granular-access-controls#conversations-in-pulse-reports)|No|Viva Pulse admin|VivaPulse|
 ||[Copilot in Viva Pulse](/viva/pulse/setup-admin-access/granular-access-controls)|No|Viva Pulse admin|VivaPulse|
 ||[Viva Pulse experience with Microsoft 365 Copilot](/viva/pulse/setup-admin-access/granular-access-controls)|No|Viva Pulse admin|VivaPulse|
-|Skills|Default Skills visibility*|Yes|Knowledge admin|VivaSkills|
-||Skill suggestions*|Yes|Knowledge admin|VivaSkills|
+|People Skills|[Skills Inferencing](/viva/skills/skills-manage-inferencing-visibility)|Yes*|Knowledge admin|PeopleSkills|
+||[Skills Profile Visibility (Parent)](/viva/skills/skills-manage-inferencing-visibility)|Yes*|Knowledge admin|PeopleSkills|
+||[Show AI Skills (Child) ](/viva/skills/skills-manage-inferencing-visibility)|Yes*|Knowledge admin|PeopleSkills|
+||[Show Org Added Skills (Child)](/viva/skills/skills-manage-inferencing-visibility)|Yes*|Knowledge admin|PeopleSkills|
 
-\* The feature or feature control might not yet be available for all tenants. Support will be added soon.
+*Admin can set soft-disable policies for these features by setting the default user preference to opted-out. In this case, users have the control to opt in to the feature. For more details, please see the feature documentation page 
 
 \** The AI admin controls all Copilot features in Viva Engage, Viva Goals, and Viva Insights. Individual app admins can control the Copilot features they have access to.
 > [!NOTE]
 >
-> - For information on the impact of policies on your tenant or the users in your tenant or on the functionality of other features in your tenant, see the table above for documentation on the specific feature.  
+> - For information on the impact of policies on your tenant, the users in your tenant, or the functionality of other features in your tenant, see the table above for documentation on the specific feature.  
 > - You can control only the access to features that support access policies and that are available in your tenant. For example, if you have an EDU-based tenant, you can't use policies to gain access to features that are not otherwise available to EDU tenants. See the table above for documentation on the specific feature.
 > - You can have multiple access policies for an active feature in your organization, which means a user could be impacted by multiple policies. In that case, the most restrictive policy assigned to the user or group takes precedence. For more information, see **Which policy takes precedence** below.
 > - Changes to access policies take effect for the user within 24 hours, unless noted for a specific feature. Changes for Copilot in Viva Engage might take up to 48 hours.
@@ -88,13 +107,9 @@ You can use feature access management to manage access to the following features
 
 ## Which policy takes precedence?  
 
-A user has one effective policy for each feature. It's possible, or even likely, that a user is assigned a policy and is also a member of one or more groups that's assigned a policy for the same feature. In these kinds of scenarios, a user's effective policy is determined according to the rules of precedence, as follows:  
+A user has one effective policy for each feature. It's possible, or even likely, that a user who is assigned a policy is also a member of one or more groups that's assigned a policy for the same feature. In these kinds of scenarios, a user's effective policy is determined according to the rules of precedence, as follows:  
 
-If a user is directly assigned a policy as an individual or as a member of a group, that policy takes precedence. If a user has multiple of these policies assigned, then the most restrictive policy they're assigned applies: 
-
-- Feature is disabled
-- Feature is enabled with option for user to opt out (if available for a given feature) 
-- Feature is enabled 
+If a user is directly assigned a policy as an individual or as a member of a group, that policy takes precedence. If a user has multiple of these policies assigned, then the most restrictive policy they're assigned applies. 
 
 If a user isn't assigned a policy as an individual or member of a group, the org-wide policy applies. This is either the default setting for the feature or the tenant-wide/org-wide policy created by the admin.
 
