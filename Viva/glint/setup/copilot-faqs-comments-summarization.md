@@ -17,10 +17,10 @@ ms.topic: faq
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-aapproved
-ms.date: 04/18/2025
+ms.date: 05/19/2025
 ---
 
-# Microsoft 365 Copilot in Viva Glint-FAQs for comments summarization
+# Microsoft 365 Copilot in Viva Glint FAQs for comments summarization
 
 > [!NOTE]
 > Not all items in the Microsoft Viva Glint Question Library are posed in question format. Question Library items can be statements for the survey taker to rate on a given scale. For this reason, the term "item" is often used to refer to the all contents of the Question Library, regardless of whether it's a question or statement.
@@ -33,7 +33,7 @@ ms.date: 04/18/2025
 
 Copilot uses filters applied to the report—for example: item labels, topics, people attributes, —before summarizing. For this reason, the optimal way to ensure accurate interpretation of user intent is to **first apply all relevant filters** to a report. **After filtering, request Copilot to summarize non-Glint topics**. 
 
->For example, users can apply these filters to the comments report:
+> For example, users can apply these filters to the comments report:
 >- “Career” item label
 >- “Compensation” Glint topic
 >- “Negative” comment sentiment
@@ -67,9 +67,20 @@ Copilot uses filters applied to the report—for example: item labels, topics, p
 
 ## Summarization response 
 
-**Q:Why is there a limit of 8000 comments, and what is the plan to expand this limit?**
+**Q: Why is there a limit of 8000 comments, and what is the plan to expand this limit?**
 
 **A:** Answer: The 8000 comments limit is due to the context window size limit of our LLM model. This limit may increase as upgrades roll out. Our sampling technique does, however, summarize comment *themes* that represent the top themes from the *entire* comment set. The recommended best practice is to focus on specific items or teams. This filtering reduces the total comment set size.
+<br><br>
+
+**Q: Why does my Copilot in Viva Glint summary sometimes show fewer than the maximum limit of 8,000 comments, even when my survey comments for a topic far exceed 8,000?**
+
+**A:** The capacity to process up to 8,000 comments was estimated based on an average comment length within a relevant timeframe. However, the actual amount of data included is constrained by the text processing limit of the AI system. Since comment lengths vary, fewer comments may fit within this limit. 
+
+**How comments are selected:**
+
+- Initially, comments most relevant to each topic are identified. 
+- Subsequently, a number of comments from each topic are chosen based on the total comments for that topic. 
+- As many comments pertain to multiple topics, the largest topic group tends to approximate the total number of comments displayed. 
 
 <br>**Q: Does Copilot recognize words that may have incorrect spelling? Does Copilot recognize similar words, specifically Merck acronyms? Is there a way to edit the acronyms?**
 
@@ -115,7 +126,7 @@ Copilot uses filters applied to the report—for example: item labels, topics, p
 
 **A:** 
 1. **Sorry, I can't help with this."** Reasons for this response might be:
-   - When our responsible AI policy is triggered.
+   - When our [responsible AI policy](https://www.microsoft.com/ai/responsible-ai?ef_id=_k_2b3ce813d8b01157997a803234c87cf3_k_&OCID=AIDcmm1o1fzy5i_SEM__k_2b3ce813d8b01157997a803234c87cf3_k_&msclkid=2b3ce813d8b01157997a803234c87cf3) is triggered.
    - When Copilot doesn't understand the user prompt
    - When Copilot determines that the user prompt is not related to comments summarization
    - When Copilot can't answer a user's specific request about comments because the LLM model doesn't allow it
@@ -130,7 +141,7 @@ Copilot uses filters applied to the report—for example: item labels, topics, p
   
 <br>**Q: How does the algorithm define Diversity, Equity, and Inclusion-related or sensitive topics/attributes? Is it solely based on our attributes sent to Viva Glint? Is there a key term library?**
 
-**A:** [Read this article about Copilot's responsible AI approach](https://www.microsoft.com/en-us/microsoft-365/blog/2024/02/13/making-our-generative-ai-products-safer-for-consumers/).
+**A:** [Read this article about Copilot's responsible AI approach](https://www.microsoft.com/microsoft-365/blog/2024/02/13/making-our-generative-ai-products-safer-for-consumers/).
 
 
 ## Other resources for Copilot in Viva Glint
