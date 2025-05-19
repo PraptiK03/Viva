@@ -22,21 +22,22 @@ search.appverid:
 description: "Control who can access features in Microsoft Viva using PowerShell"
 ---
 
-# Control access to features in Viva using PowerShell
+# Control access to features in Microsoft 365 using PowerShell
 
-You can use access policies in Viva to manage which users can access specific features in Viva apps with PowerShell. Feature access management lets you enable or disable specific features in Viva for specific groups or users in your tenant and so tailor your deployments to meet your local regulatory and business requirements.
+You can use access policies to manage which users can access specific features in Microsoft 365 apps with PowerShell. Feature access management lets you enable or disable specific features for specific groups or users in your tenant and so tailor your deployments to meet your local regulatory and business requirements.
 
-An authorized admin in your tenant can create, assign, and manage access policies from PowerShell. When a user signs into Viva, the policy settings are applied, and they only see the features that haven't been disabled.
+An authorized admin in your tenant can create, assign, and manage access policies from PowerShell. When a user signs in to Microsoft 365, the policy settings are applied, and they only see the features that haven't been disabled.
 
 > [!IMPORTANT]
-> You can have multiple access policies for a feature active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy assigned directly to a user or group takes precedence. For more information, see [How access policies work in Viva](/Viva/feature-access-management).
+> You can have multiple access policies for a feature active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy assigned directly to a user or group takes precedence. For more information, see [How access policies work](/Viva/feature-access-management).
 
 ## Requirements
 
-Before you can create an access policy in Viva, you need:
+Before you can create an access policy, you need:
 
 - A [supported version of Microsoft 365 or a Viva Suite license](https://www.microsoft.com/microsoft-viva/pricing)
-- Access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later. If you need to use non-mail-enabled groups you must have access to Exchange PowerShell version 3.5.1 or later.
+- Access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later. If you need to use non-mail-enabled groups you must have access to Exchange PowerShell version 3.5.1 or later. If you need to setup policies with the user opted-out by default (soft-disable), you must have access to Exchange PowerShell version 3.8.0 or later.
+
 - User accounts created in or synchronized to Microsoft Entra ID
 - Microsoft 365 groups, Microsoft Entra security groups created in or synchronized to Microsoft Entra ID, or distribution groups.
 - The [role required for the specific app and feature](/viva/feature-access-management#features-available-to-manage).
@@ -45,9 +46,9 @@ Before you can create an access policy in Viva, you need:
 > [!IMPORTANT]
 > These features are not yet available in GCC High or DoD. For GCC, refer to the documentation for your specific app for availability.
 
-## Create and manage access policies for Viva features
+## Create and manage access policies for Microsoft 365 features
 
-Policies can be created and managed by a Viva admin who has permissions to do so in the Microsoft 365 admin center or by using PowerShell. [Get all the details about creating and managing policies](/viva/feature-access-management#creating-and-managing-policies).
+Policies can be created and managed by an admin who has permissions to do so in the Microsoft 365 admin center or by using PowerShell. [Get all the details about creating and managing policies](/viva/feature-access-management#creating-and-managing-policies). For detailed instructions on how to construct a command in PowerShell, please refer to the [PowerShell documentation](/powershell/module/exchange/?view=exchange-ps&branch=main). 
 
 ### Get the featureID for the feature
 Before you can create an access policy, use the **ModuleID** to get the **featureID** for the specific feature you want to control access to.
@@ -61,9 +62,11 @@ Before you can create an access policy, use the **ModuleID** to get the **featur
 |Goals|VivaGoals|
 |Insights|VivaInsights|
 |Pulse|VivaPulse|
-|Skills|VivaSkills|
+|Skills*|PeopleSkills*|
 
-Use the [**Get-VivaModuleFeature**](/powershell/module/exchange/get-vivamodulefeature) PowerShell cmdlet to get a list of all of the features available in a specific Viva app and their associated IDs.
+*Policies for People Skills can only be created via PowerShell at this time. You cannot use the interface in Microsoft 365 admin center to create policies for People Skills features.
+
+Use the **[Get-VivaModuleFeature](/powershell/module/exchange/get-vivamodulefeature)** PowerShell cmdlet to get a list of all of the features available in a specific Microsoft 365 app and their associated IDs.
 
 1. Install Exchange Online PowerShell Version 3.2.0 or later:
 
@@ -89,6 +92,9 @@ Use the [**Get-VivaModuleFeature**](/powershell/module/exchange/get-vivamodulefe
 4. Find the feature that you'd like to create an access policy for and make note of its **featureID**.
 
 ### Create an access policy
+
+> [!TIP]
+> We recommend admins refer to [PowerShell documentation](/powershell/module/exchange/?view=exchange-ps&branch=main) for a complete list of available commands to create and manage policies. This includes advanced policies for features with user opt-in controls, soft-disabling features, and detailed instructions on PowerShell command syntax.
 
 Now that you have the **featureID**, use the [**Add-VivaModuleFeaturePolicy**](/powershell/module/exchange/add-vivamodulefeaturepolicy) PowerShell cmdlet to create an access policy for the feature.
 
