@@ -23,57 +23,28 @@ ms.date: 05/19/2025
 # Microsoft 365 Copilot in Viva Glint FAQs for comments summarization
 
 > [!NOTE]
-> Not all items in the Microsoft Viva Glint Question Library are posed in question format. Question Library items can be statements for the survey taker to rate on a given scale. For this reason, the term "item" is often used to refer to the all contents of the Question Library, regardless of whether it's a question or statement.
+> Not all items in the Microsoft Viva Glint Question Library are posed in question format. Question Library items can be statements for the survey taker to rate on a given scale. For this reason, the term "item" is used to refer to all contents of the Viva Glint Question Library.
 
 ## Filtering 
 
-**Q: How can we differentiate between item (item label) and customized topics, which may not be Viva Glint topics? What is the best practice for applying filters (for example: groups, topics, question labels)?**
+**Q: How can we distinguish between item labels and customized topics? What is a good practice for applying filters such as groups, topics, and question labels?** <br>
+**A:** Item labels and topics can sometimes be indistinguishable. For example, the “Inclusion” survey item versus the general topic of inclusion. Copilot in Viva Glint initially identifies item labels in the user prompt and filters comments based on those labels. After Copilot summarizes comments that closely align with the topics identified in the user prompt, it filters comments about inclusion as a topic.
 
-**A:** Item labels and topics can sometimes be indistinguishable, such as the “Inclusion” item versus the general topic of inclusion. Viva Glint Copilot initially identifies item labels in the user prompt and filter comments based on those labels. After, Copilot summarizes comments that closely align with the topics identified in the user prompt. For example, if the user requests Copilot to “summarize comments about inclusion” and there is also an “Inclusion” item label, Copilot first filters comments for *itmes*. Next it filters about comments with inclusion as a *topic*.
+**Q: Can Copilot in Viva Glint summarize comments for attributes that a user doesn’t have access to?** <br>
+**A:** No, Copilot in Viva Glint can’t filter or summarize comments based on attributes that a user can’t access.
 
-Copilot uses filters applied to the report—for example: item labels, topics, people attributes, —before summarizing. For this reason, the optimal way to ensure accurate interpretation of user intent is to **first apply all relevant filters** to a report. **After filtering, request Copilot to summarize non-Glint topics**. 
-
-> For example, users can apply these filters to the comments report:
->- “Career” item label
->- “Compensation” Glint topic
->- “Negative” comment sentiment
->- “Engineering” department
->
->Now ask Copilot, “What are people saying about stock options?”, as stock options is not a Viva Glint topic. This approach enables Copilot to differentiate between various filters and incorporate custom topics from the user prompt.
-
-<br>**Q: Can I ask about attributes that I don't have permissions (or access) to?**
-
-**A:** No. Copilot in Viva Glint can't filter by any attributes that a user can't access. 
-
-<br>**Q: When does Copilot use all comments in its summarization ? When does Copilot summarize by a topic-based sampling? How is the sample size determined?**
-
->[!NOTE]
-> Currently Copilot in Viva Glint can summarize and filter up to 8000 comments.
-
+**Q: When does Copilot in Viva Glint use all comments in its summarization? When does Copilot in Viva Glint summarize by a topic-based sampling? How is the sample size determined?** <br>
 **A:** Use these examples to understand summarization analytics:
 
-> **Scenario 1: The user asks about specific survey item labels or comment topics.** In this case, the prompt might be "Summarize comments from the career and empowerment items" or "Summarize comments about promotion". 
-> - Copilot behavior:
->   - Copilot first filters comments based on the detected survey item labels from the user prompt, in addition to any filters already applied to the report. Next Copilot looks for comments with words tied most closely related to the survey item or the comment topic in the user prompt. 
->   - A workaround to ask Copilot to summarize all comments using stratified sampling (up to 8K comments) from specific items, is to apply the filters to the report first then ask Copilot to "Summarize all comments."
->     
-> **Scenario 2: The user doesn't include specific survey item labels or comment topics in the prompts.** In this case, the prompt might be "Summarize all comments," "Summarize comments from the engineering team," or "Summarize employee recommendations from US employees".
-> - Copilot behavior:
->   - Copilot first filters the comments based on the detected filters in the user prompts, perhaps demographic filters, prescriptive comments, or comment sentiments. These filters are in addition to the filters already applied to the report. 
->   - From the filtered comments, Copilot performs stratified sampling up to 8K comments, by either item or topic:
->     - If there is more than one topic with sufficient respondents, Copilot performs stratified sampling by topics. The sample contains comments for different topics in the same ratio as the population.
->     - If there are one or no topics with sufficient respondents of the filtered comments, Copilot performs stratified sampling by survey items. The sample contains comments for different survey items in the same ratio as the population.
-
+- **Scenario 1:** The user asks about specific survey item labels or comment topics. In this case, the prompt might be "Summarize comments from the career and empowerment items" or "Summarize comments about promotion." Copilot in Viva Glint behavior: In addition to any filters applied to the report, Copilot first filters comments based on the detected survey item labels from the user prompt. Next, Copilot looks for comments with words most closely related to the survey item or the comment topic in the user prompt.
+- **Scenario 2:** The user doesn't include specific survey item labels or comment topics in the prompts. In this case, the prompt might be "Summarize all comments," "Summarize comments from the engineering team," or "Summarize employee recommendations from US employees." Copilot in Viva Glint behavior: Copilot first filters the comments based on the detected filters in the user prompts, such as demographic filters, prescriptive comments, or comment sentiments. These filters are in addition to the filters already applied to the report.
 
 ## Summarization response 
 
-**Q: Why is there a limit of 8000 comments, and what is the plan to expand this limit?**
+**Q: Why is there a limit of 8000 comments, and what is the plan to expand this limit?** <br>
+**A:** The 8,000-comments limit is due to the context window size limit of our large language model (LLM). This limit may increase as upgrades roll out. Our sampling technique does, however, summarize comment themes that represent the top themes from the entire comment set. We recommend focusing on specific items or teams. This filtering reduces the total comment set size.
 
-**A:** Answer: The 8000 comments limit is due to the context window size limit of our LLM model. This limit may increase as upgrades roll out. Our sampling technique does, however, summarize comment *themes* that represent the top themes from the *entire* comment set. The recommended best practice is to focus on specific items or teams. This filtering reduces the total comment set size.
-<br><br>
-
-**Q: Why does my Copilot in Viva Glint summary sometimes show fewer than the maximum limit of 8,000 comments, even when my survey comments for a topic far exceed 8,000?**
-
+**Q: Why does my Copilot in Viva Glint summary sometimes show fewer than the maximum limit of 8,000 comments, even when my survey comments for a topic far exceed 8,000?** <br>
 **A:** The capacity to process up to 8,000 comments was estimated based on an average comment length within a relevant timeframe. However, the actual amount of data included is constrained by the text processing limit of the AI system. Since comment lengths vary, fewer comments may fit within this limit. 
 
 **How comments are selected:**
@@ -82,67 +53,62 @@ Copilot uses filters applied to the report—for example: item labels, topics, p
 - Subsequently, a number of comments from each topic are chosen based on the total comments for that topic. 
 - As many comments pertain to multiple topics, the largest topic group tends to approximate the total number of comments displayed. 
 
-<br>**Q: Does Copilot recognize words that may have incorrect spelling? Does Copilot recognize similar words, specifically Merck acronyms? Is there a way to edit the acronyms?**
+**Q: What determines when Copilot in Viva Glint responds with…**
 
-**A:** Copilot relies on the Large Language Model’s (LLM) ability to recognize and understand similar words, acronyms, and even misspelled words, based on the context the words are used in prompts. Currently there isn’t a way for customers to add or adjust acronyms. 
+“Sorry, I can't help with this." Reasons for this response might be:
+- When our [responsible AI policy](https://www.microsoft.com/ai/responsible-ai?ef_id=_k_2b3ce813d8b01157997a803234c87cf3_k_&OCID=AIDcmm1o1fzy5i_SEM__k_2b3ce813d8b01157997a803234c87cf3_k_&msclkid=2b3ce813d8b01157997a803234c87cf3) is triggered
+- When Copilot doesn't understand the user prompt
+- When Copilot determines that the user prompt is not related to comments summarization
 
-<br>**Q: Do we have the ability to customize sample prompts?**
+An “all-comments” summary:
+- When the user doesn't ask about specific survey questions or comment themes in the prompt, Copilot summarizes all comments up to the 8K comment limit.
+- pply filters to the reporting first and then ask Copilot to "Summarize all comments" as a workaround.
 
-**A:** This capability is not currently available.
+A subset of comments summary:
+- A user asks about specific survey questions or comment themes.
 
-<br>**Q: Can we compare the comments between a current survey and our last survey cycle?**
+For example, "Summarize comments from the career questions" or "Summarize comments about promotion":
+- Copilot first uses the detected survey question label to filter the comments to that item. Then, Copilot looks for the most relevant 1,000 comments related to the item, or the theme mentioned in the user prompt. 
+- We recommend that you apply filters to the report first. Then ask Copilot to "summarize all comments," as a workaround to ask Copilot to summarize all comments from a specific item.
 
-**A:** Copilot in Viva Glint doesn’t currently support comparing comments between survey cycles. We're considering this capability on the roadmap.
+**Q: Does Copilot in Viva Glint recognize words that may have incorrect spelling? Does Copilot in Viva Glint recognize similar words or acronyms? Is there a way to edit acronyms?** <br>
+A: Copilot in Viva Glint relies on the Large Language Model (LLM) ability to recognize and understand similar words, acronyms, and misspelled words, based on the context the words are used in prompts. Currently there isn’t a way for customers to add or adjust acronyms.
 
-<br>**Q: Can we compare comments between different organizations, location, job levels, etc.?**
+**Q: Do we have the ability to customize sample prompts?** <br>
+A: This capability is not currently available.
 
-**A:** Copilot in Viva Glint doesn’t currently support comparing comments between employee groups. We're considering this capability on the roadmap. 
+**Q: Can we compare the comments between a current survey and a past survey cycle?** <br>
+A: Copilot in Viva Glint doesn’t currently support comparing comments between survey cycles. We're considering this capability on the roadmap.
 
-<br>**Q: Can the comment summary output pick up themes outside of Viva Glint standard topics?**
+**Q: Can we compare comments between different organizations, locations, job levels, etc.?** <br>
+A: Copilot in Viva Glint doesn’t currently support comparing comments between employee groups. We're considering this capability on the roadmap.
 
-**A:** Yes.
+**Q: Can the comment summary output pick up themes outside of Viva Glint standard topics?** <br>
+A: Yes.
 
-<br>**Q: Can we add customized topics?**
+**Q: If I ask Copilot in Viva Glint for key topics, does it use the same topic model as Viva Glint today? If not, what does it train on?** <br>
+A: Copilot in Viva Glint uses the same topic model as Viva Glint today and summarizes up to 10 top topics found in survey comments. If the user doesn’t specify the number of topics in the prompt, Copilot defaults to showing up to five topics in the response. Topics with comment respondents that fall below the confidentiality threshold are excluded. When there are only one or no Viva Glint topics with sufficient comment respondents, Copilot summarizes all the comments, and the LLM may highlight top themes from the comments that fall outside of Glint’s topic models. Glint topics show the percentage of comments, while LLM themes won’t.
 
-**A:** This option isn't currently available.
+**Q: Can we add customized topics?** <br>
+A: This option isn't currently available.
 
-<br>**Q: A prompt that reads "Tell me more about priorities" returns to no results. But "What do employees say about priorities" returns results. Why?**
+**Q: A prompt that reads "Tell me more about priorities" returns no results. But "What do employees say about priorities?" returns results. Why?** <br>
+A: Copilot in Viva Glint supports a specific set of comment summarization scenarios. To achieve this, our LLM received instructions with sample prompts matching the supported scenarios. These instructions and samples may not encompass all user prompts. If Copilot misinterprets your intent, provide feedback by using the thumb up/down feedback button. Alerting us to user interactions allows for refinement of Copilot's ability to accurately interpret user intent.
 
-**A:** Currently, Copilot in Viva Glint supports a specific set of comment summarization scenarios. To achieve this, our LLM received instructions with sample prompts matching the supported scenarios. These instructions and samples may not encompass all user prompts. If Copilot misinterprets user intent, provide feedback via the thumb up/down button. Capturing user interactions allows for refinement of Copilot's ability to accurately interpret user intent. 
+**Q: Why would an admin user role be unable to receive a response to a question that a lower-level user role can receive?** <br>
+A: We use LLM to interpret the user prompt and intent and don't cache the user prompt and Copilot response. Even for the same user prompt on the same comment set, LLM may interpret user intent differently or use different wordings in its response.
 
-<br>**Q: Why would an admin user role be unable to receive a response to a question that a lower-level user role can?**
+**Q: Does Copilot in Viva Glint learn from our prompts?** <br>
+A: No, not at this time.
 
-**A:** We use LLM to interpret the user prompt and intent, and because we don't cache the user prompt and Copilot response. Even for the same user prompt on the same comment set, LLM may interpret user intent differently or use different wordings in its response. 
+**Q: Why might answers change across the same user role, despite the data remaining the same?** <br>
+A: The LLM model may use different wordings in its response because we don’t cache user prompts and responses.
 
-<br>**Q: Does Copilot in Viva Glint learn from our prompts?**
+**Q: Can Copilot in Viva Glint generate a PowerPoint from the results?** <br>
+A: Not yet, but it’s another feature we'd like to explore.
 
-**A:** No, not at this time.
-
-<br>**Q: Why might answers change across the same user role, despite the data remaining the same?**
-
-**A:** Because we don't cache user prompts and responses, the LLM model may use different wordings in its responses. 
-
-<br>**Q: What determines when Copilot responds with...?**
-
-**A:** 
-1. **Sorry, I can't help with this."** Reasons for this response might be:
-   - When our [responsible AI policy](https://www.microsoft.com/ai/responsible-ai?ef_id=_k_2b3ce813d8b01157997a803234c87cf3_k_&OCID=AIDcmm1o1fzy5i_SEM__k_2b3ce813d8b01157997a803234c87cf3_k_&msclkid=2b3ce813d8b01157997a803234c87cf3) is triggered.
-   - When Copilot doesn't understand the user prompt
-   - When Copilot determines that the user prompt is not related to comments summarization
-   - When Copilot can't answer a user's specific request about comments because the LLM model doesn't allow it
-   
-2.	**An all-comments summary**
-    - When the user doesn't ask about specific survey questions or comment themes in the prompt, Copilot summarizes all comments up to the 8K comment limit.
-    - Apply filters to the reporting first, and then ask Copilot to "Summarize all comments" as a workaround to ask Copilot to summarize all comments from a specific item.
-     
-3.	**A subset of comments summary** 
-  	- When a user asks about specific survey questions or comment themes.
-   > For example, "Summarize comments from the career questions" or "Summarize comments about promotion". Copilot first uses the detected survey question label from the prompt to filter the comments to that item. Then Copilot looks for the most relevant 1000 comments related to the survey item or the comment theme mentioned in the user prompt. Apply filters to the reporting first, and then ask Copilot to "summarize all comments" as a workaround to ask Copilot to summarize all comments from a specific item.
-  
-<br>**Q: How does the algorithm define Diversity, Equity, and Inclusion-related or sensitive topics/attributes? Is it solely based on our attributes sent to Viva Glint? Is there a key term library?**
-
-**A:** [Read this article about Copilot's responsible AI approach](https://www.microsoft.com/microsoft-365/blog/2024/02/13/making-our-generative-ai-products-safer-for-consumers/).
-
+**Q: How does Copilot work with the sensitive comments flagging feature?** <br>
+A: Quarantined comments are excluded from Copilot’s comment summarization. Copilot can summarize redacted comments, but the redacted words are excluded from Copilot’s summary. 
 
 ## Other resources for Copilot in Viva Glint
 
