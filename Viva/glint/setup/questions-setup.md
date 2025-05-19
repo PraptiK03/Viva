@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/21/2025
+ms.date: 05/06/2025
 ---
 
 # Viva Glint Questions setup
@@ -147,7 +147,7 @@ Viva Glint survey questions have some fields that are view only and fields can v
 | Question Type             | The question type: Rating, Open-Ended, or Multiple Choice/Multi-Select      | All             | View only   |
 | Reporting label           | The shortened label for a question that appears in reports.       | All             | Editable    |
 | Question text             | The full question text that survey takers see. This text also appears in some report areas.       | All             | Editable    |
-| Benchmark                 | The Viva Glint standard question that this item is linked to for benchmarking. [Learn more](custom-question-benchmark.md).       | Rating          | Editable    |
+| Benchmark                 | The Viva Glint [standard question that this item is linked to for benchmarking](custom-question-benchmark.md).    | Rating          | Editable    |
 | Instruction text          | Help text for survey takers to answer the question.       | All             | Editable    |
 | Comment placeholder text  | Help text for survey takers to provide comments.       | All             | Editable    |
 | Rating scale              | The number of responses for rated questions.        | Rating          | View only   |

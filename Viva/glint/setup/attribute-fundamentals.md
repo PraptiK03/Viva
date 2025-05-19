@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/02/2025
+ms.date: 05/08/2025
 ---
 
 # Viva Glint employee attribute fundamentals
@@ -28,7 +28,7 @@ Attribute column headers (labels) are unique to your organization. For example, 
 - **Required attributes**: These fields are required for each user in your Employee Data File.
 - **Recommended attributes**: Custom data for your organization that can include fields that are converted into derived values (or buckets), like Tenure.
 
->[!NOTE]
+> [!NOTE]
 > Attributes that are used to derive other fields are required for all future uploads. For example, if Viva Glint uses Hire Date to create Tenure groups, Hire Date is required in all uploads.
 
 ### Attributes by item and survey type
@@ -77,8 +77,6 @@ If a date's format is correct (for example, mm/dd/yyyy), but the cell format nee
 
 Use custom attributes to see which groups of employees are more engaged than others and use this information to develop action plans to improve engagement. Your organization can include up to 100 custom attributes; required and hierarchy attributes don't contribute to the 100 custom attribute limit. Include attributes in your employee data file header row with labels that match your HRIS.
 
-**Best practices**:
-
 - The more attributes you provide, the more ways data can be sliced and diced to provide richer insights and alerts. 
 - Attributes that are too specific don't meet the minimum confidentiality threshold of five to appear in reporting, so avoid them.
 
@@ -98,15 +96,19 @@ Optional system attributes are values that indicate how and when communications 
 |Personal Email|Users' personal email addresses that can be used to survey exiting employees. Select Company and Personal Email in the Communications section of your survey program.  |
 
 > [!IMPORTANT]
-> - Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
+> Send language and time zone values exactly as they appear in related tabs in the following articles:
+> - [Viva Glint supported languages](supported-languages.md)
+> - [Viva Glint supported time zones](supported-time-zones.md)
+> 
+> Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
 
 ### Time zones
 
-Global companies often include a time zone attribute column in their Employee Attribute Template to trigger emails in employees’ time zones. To find valid time zone values, use the Time Zone tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Before a survey launches, ensure that all employees have a valid value attached to their records.
+Global companies often include a time zone attribute column in their employee data to trigger emails in employees’ time zones. To find valid time zone values, see: [Viva Glint supported time zones](supported-time-zones.md). Before a survey launches, ensure that all employees have a valid value attached to their records.
 
 ### Languages
 
-Use the Language Codes tab on the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) to find language values that trigger survey emails in an employee’s preferred language. Ensure that you include a Language column in your Employee Attribute File. Before a survey launches, ensure that all employees have a valid value attached to their records.
+To find language values that trigger survey emails in an employee’s preferred language, see: [Viva Glint supported languages](supported-languages.md). Ensure that you include a Language column in your employee data. Before a survey launches, ensure that all employees have a valid value attached to their records.
 
 If you also supply language values to indicate users’ dashboard languages (for users who view reports), include a separate column (example: Dashboard Language).
 

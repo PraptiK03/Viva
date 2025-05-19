@@ -23,18 +23,18 @@ search.appverid:
 
 Advanced analytics capabilities in Viva Engage enable the following scenarios:
 
-- All users can monitor their own engagement metrics through _personal_, _Answers_, and _Community analytics_
-- Leaders and their delegates can monitor engagement for their audiences through _audience analytics_
-- Corporate communicators and campaign co-organizers can manage campaign engagement through _campaign analytics_
-- Knowledge admins can monitor Answer engagement through global _Answers analytics_
-- Network admins and corporate communicators can track organization-wide engagement through _network analytics_
+- All users can monitor their own engagement metrics through _personal_, _Answers_, and _Community analytics_.
+- Leaders and their delegates can monitor engagement for their audiences through _audience analytics_.
+- Corporate communicators and campaign co-organizers can manage campaign engagement through _campaign analytics_.
+- Knowledge admins can monitor Answer engagement through global _Answers analytics_.
+- Network admins and corporate communicators can track organization-wide engagement through _network analytics_.
 
 Analytics features are available in [all languages that Viva Engage supports](https://support.microsoft.com/office/which-languages-is-viva-engage-available-in-14dd5886-d48d-4d6d-a583-4273a2538540).
 
 ## View analytics
 
 >[!NOTE]
->To view premium analytics features, users must have Viva Engage Premium, which is bundled with the _Viva Suite_ and _Employee Communications and Communities_ license. Conversation, live event, and some community analytics are available without a premium license. Audience analytics are only viewable by leaders that have at least one primary assigned audience and their delegates.
+>To view all analytics features, users must have Viva Engage Premium, which is bundled with the _Viva Suite_ and _Employee Communications and Communities_ (C&C) license. You can use conversations, live events, and some community analytics without the Viva Suite or C&C license. Audience analytics are only viewable by leaders that have at least one primary assigned audience and their delegates.
 
 To open analytics, select the analytics icon on the top navigation bar in Viva Engage.
 
@@ -78,7 +78,7 @@ Engage admins can manage AI Summarization for their network through Viva Feature
 
 Network analytics provide valuable insights into employee engagement and communication across your organization through sentiment, retention, and community activity data. Data insights help Network admins and corporate communicators make more informed decisions toward improving the health of their network.
 
-*Employee retention* shows the difference in the 28-day employee retention rates of employees who do and don't use Viva Engage. For details, see [Employee retention](/viva/engage/employee-retention-metric).
+_Employee retention_ shows the difference in the 28-day employee retention rates of employees who do and don't use Viva Engage. For details, see [Employee retention](/viva/engage/employee-retention-metric).
 
 :::image type="content" source="../media/engage/admin/engage-network-analytics.png" alt-text="Screenshot of the Viva Engage admin center for viewing and managing Network analytics." lightbox="../media/engage/admin/engage-network-analytics.png":::
 
@@ -95,16 +95,16 @@ Access is through the analytics icon on the top navigation bar or on the leader'
 
 [![Screenshot of the Audience analytics landing page.](/Viva/media/engage/admin/audience-analytics.png)](/Viva/media/engage/admin/audience-analytics.png#lightbox)
 
-*Audience analytics* help leaders and delegates monitor engagement of their audiences on Viva Engage. This dashboard surfaces the most actively engaged communities within their audiences that have at least 50 members and one active member. An _active community_ has reactions and replies from at least 5% of its membership. An _idle community_ has reactions and replies from less than 5% of its membership.
+_Audience analytics_ help leaders and delegates monitor engagement of their audiences on Viva Engage. This dashboard surfaces the most actively engaged communities within their audiences that have at least 50 members and one active member. An _active community_ has reactions and replies from at least 5% of its membership. An _idle community_ has reactions and replies from less than 5% of its membership.
 
-*Sentiment analysis* uses Azure Cognitive Services (ACS) to aggregate and analyze posts, while *themes analysis* draws from LLM (large language model), storyline comments, and public posts. Posts and comments from private communities are included in the aggregate only if the leader is a member and has permission to view them. Individual messages are never shown. Learn more about [Sentiment analysis in Viva Engage](https://support.microsoft.com/topic/sentiment-and-theme-analysis-in-viva-engage-065c3355-d156-4bf8-afdb-663b0724befd).
+_Sentiment analysis_ uses Azure Cognitive Services (ACS) to aggregate and analyze posts, while _themes analysis_ draws from LLM (large language model), storyline comments, and public posts. Posts and comments from private communities are included in the aggregate only if the leader is a member and has permission to view them. Individual messages are never shown. Learn more about [Sentiment analysis in Viva Engage](https://support.microsoft.com/topic/sentiment-and-theme-analysis-in-viva-engage-065c3355-d156-4bf8-afdb-663b0724befd).
 
-- **Audience-level sentiment** controls the *Sentiment* metric. Turning off this toggle prevents leaders and their delegates from viewing results for audience sentiment analysis. Doing so also deletes past data for all audiences.
+- **Audience-level sentiment** controls the _Sentiment_ metric. Turning off this toggle prevents leaders and their delegates from viewing results for audience sentiment analysis. Doing so also deletes past data for all audiences.
 
-- **Theme-level sentiment** controls the *Themes* metric. Turning off this toggle prevents leaders and their delegates from viewing results that measure sentiment toward frequently discussed subjects in their audience.
+- **Theme-level sentiment** controls the _Themes_ metric. Turning off this toggle prevents leaders and their delegates from viewing results that measure sentiment toward frequently discussed subjects in their audience.
 
 >[!NOTE] 
->If you designate a leader for the entire organization, but don't assign them any audiences, that leader and their delegates don't see any data under audience analytics.
+>If you designate a leader for the entire organization, but don't assign them any audiences, that leader and their delegates don't see any data under audience analytics. Leaders with several audiences might also be designated as the leader for the entire organization. In this case, audience analytics reflect engagement trends across the organization, because audience analytics show aggregate counts across all of a leader's audiences.
 
 ## Global Answers analytics
 
