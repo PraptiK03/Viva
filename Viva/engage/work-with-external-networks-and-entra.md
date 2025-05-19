@@ -56,7 +56,7 @@ You need specific permissions and licenses:
 
 - Viva Engage external network v2 configuration requires Global Administrator privileges.
 
-- Because the external network uses Microsoft 365 Groups, Entra B2B, and SharePoint Online storage, at least one user in the tenant requires a Microsoft SharePoint license.
+- Because the external network uses Microsoft 365 Groups, Entra B2B, and SharePoint storage, at least one user in the tenant requires a Microsoft SharePoint license.
 
 - **Recommended license requirement:** Assigning a Microsoft 365 E5 license automatically supports the full Compliance Purview experience.
 

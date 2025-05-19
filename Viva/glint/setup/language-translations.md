@@ -1,6 +1,6 @@
 ---
-title: Manage language translations in Viva Glint programs 
-description: Survey content and email communications should be sent to employees in their preferred language. Managing language translations is easy within Viva Glint program.
+title: Manage translations in Viva Glint programs 
+description: English is the default language for all Microsoft Viva Glint programs, but admins can send surveys and email communications to employees in their preferred language. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: melissabarry
@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/22/2025
+ms.date: 05/08/2025
 ---
 
-# Manage language translations in Viva Glint programs 
+# Manage translations in Viva Glint programs 
 
 English is the default language for all Microsoft Viva Glint programs, but admins can send surveys and email communications to employees in their preferred language. Viva Glint provides customers with 60+ language translations for standard program content. Language translations are set during the initial survey configuration or added later as needed. Use Viva Glint's export/import option to review, add, or edit translations for survey emails and content (items, responses, survey text). 
 
@@ -29,7 +29,7 @@ There are four steps for language translations:
 4. Import content back into the Viva Glint program
 
 > [!IMPORTANT]
-> See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
+> See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to [supported languages](supported-languages.md) and codes effective April 10, 2025.
 
 ## Export survey and email text for translation
 
