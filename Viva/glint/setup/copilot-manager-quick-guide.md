@@ -41,10 +41,9 @@ ms.date: 05/20/2025
 |:-----------|:-----------|
 | **Review your scores on the Viva Glint Team Summary dashboard before jumping directly into Copilot.** <br><br>Consider:<ul><li>Where are your high and low scores?<br></li><li>What items have high comment counts? <br></li><li>Are there teams or subgroups scoring higher or lower than others?</ul>|**Manager Team Summary dashboard** <br><br>:::image type="content" source="../../media/glint/setup/copilot-team-summary-1.png" alt-text="Screenshot of the Manager Team Summary dashboard.":::|
 
-
 | Task 2| Where to find it|
 |:-----------|:-----------|
-|**Review the Strengths & Opportunities section on the Viva Glint Team Summary dashboard to understand strengths to celebrate and opportunity areas to improve upon**.**<br><br> <ul><li>What opportunity items do you want to better understand through the comments?<br></li><li>What themes do you want to explore more?<br></li><li>Select 1-2 Focus Areas to explore for taking action.</ul>|**Strengths & Opportunities section of Team Summary** <br><br>:::image type="content" source="../../media/glint/setup/copilot-strengths-opps.png" alt-text="Screenshot of Strengths & Opportunities on the Manager Team Summary dashboard.":::|
+|**Review the Strengths & Opportunities section on the Viva Glint Team Summary dashboard to understand strengths to celebrate and opportunity areas to improve upon**.** <br><br> <ul><li>What opportunity items do you want to better understand through the comments?<br></li><li>What themes do you want to explore more?<br></li><li>Select 1-2 Focus Areas to explore for taking action.</ul>|**Strengths & Opportunities section of Team Summary** <br><br>:::image type="content" source="../../media/glint/setup/copilot-strengths-opps.png" alt-text="Screenshot of Strengths & Opportunities on the Manager Team Summary dashboard.":::|
 
 | Task 3| Where to find it|
 |:-----------|:-----------|
