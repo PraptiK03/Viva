@@ -1,5 +1,5 @@
 ---
-ms.date: 03/04/2025
+ms.date: 05/20/2025
 title: Discover organizational insights quickly with Microsoft 365 Copilot in Viva Insights
 description: Explains how to use Microsoft 365 Copilot in Viva Insights to access organizational insights about your company, and use Copilot to answer questions about your organization.
 author: zachminers
@@ -31,7 +31,7 @@ To use Copilot, no additional license is needed; however, you must meet at least
 
 ## How it works
 
-Copilot in Viva Insights enables leaders to ask targeted or broad questions about their organization and receive instant, data-driven answers. Along with direct responses, Copilot provides access to detailed reports with visualizations, making it easy for leaders to dive deeper into the insights.
+Copilot in Viva Insights enables leaders to ask targeted questions about their organization and receive instant, data-driven answers. Along with direct responses, Copilot provides access to detailed reports with visualizations, making it easy for leaders to dive deeper into the insights.
 
 ### Example questions
 
@@ -40,12 +40,6 @@ Copilot in Viva Insights enables leaders to ask targeted or broad questions abou
 *"How many new hires joined my team last month?"*
 
 Copilot generates a response based on the latest data, such as a count of new hires and detailed reports showing employee attributes like location, manager, or function.
-
-#### Broader questions to get the general pulse of the team
-
-*"How is my team doing?"*
-
-Copilot summarizes data insights using people science research and behavioral observations, enabling leaders and delegates to make data-informed decisions.
 
 #### Employee engagement topics
 
