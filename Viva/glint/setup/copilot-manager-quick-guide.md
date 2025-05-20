@@ -47,18 +47,18 @@ ms.date: 05/20/2025
 
 | Task 3| Where to find it|
 |:-----------|:-----------|
-|**Ask Copilot in Viva Glint to dive deeper to uncover insights around your areas of interest**.<br> <br>Examples of Copilot prompts: <br></li><li> What are people saying about my [top opportunity]? <br> </li><li> What are people recommending leaders do to improve [topic]? </ul> |**Copilot button** <br><br>:::image type="content" source="../../media/glint/setup/copilot-button-1.png" alt-text="Screenshot of the Copilot button on the Manager Team Summary dashboard.":::|
+|**Ask Copilot in Viva Glint to dive deeper to uncover insights around your areas of interest**.<br> <br>Examples of Copilot prompts: <br><br> <ul><li> What are people saying about my [top opportunity]? </li><li> What are people recommending leaders do to improve [topic]? </li></ul> |**Copilot button** <br><br>:::image type="content" source="../../media/glint/setup/copilot-button-1.png" alt-text="Screenshot of the Copilot button on the Manager Team Summary dashboard.":::|
 
 ### Quick tips for Copilot prompts
 
 |&nbsp;&nbsp;  |Recommendation| Benefit|
 |:----:|-----------|------|
-|:::image type="icon" source="/office/media/icons/search-blue.png":::|**Browse ready-to-use prompts.**|The prompt guide suggests questions to start your exploration.|
+|:::image type="icon" source="/office/media/icons/task-list-planning-blue.png":::|**Browse ready-to-use prompts.**|The prompt guide suggests questions to start your exploration.|
 |:::image type="icon" source="/office/media/icons/lightbulb-idea-capture-blue.png":::|**Experiment writing your own prompts.**|Try using prompts on different topics, survey items, and demographic groups. Rephrase comments or words that didn’t work right away.|
 |:::image type="icon" source="/office/media/icons/sign-up-blue.png":::|**Be specific in prompt writing.**|Copilot reacts best to detailed prompts.|
-|:::image type="icon" source="/office/media/icons/hybrid-blue.png":::|**Bundle requests into a single prompt.** Ask multi-step prompts to build to an anticipated follow-up question.| Copilot can't summarize its own summary!|
-|:::image type="icon" source="/office/media/icons/shopping-cart-blue.png":::|**Deep dive into a specific follow-up topic.**| From the summary, choose one or two insights to ask Copilot for more information.|
-|:::image type="icon" source="/office/media/icons/migration-blue.png":::|**Keep queries to Viva Glint data.**|Copilot in Viva Glint doesn't access data beyond what's on your dashboard.|
+|:::image type="icon" source="/office/media/icons/blocks-blue.png":::|**Bundle requests into a single prompt.** Ask multi-step prompts to build to an anticipated follow-up question.| Copilot can't summarize its own summary!|
+|:::image type="icon" source="/office/media/icons/search-blue.png":::|**Deep dive into a specific follow-up topic.**| From the summary, choose one or two insights to ask Copilot for more information.|
+|:::image type="icon" source="/office/media/icons/files-blue.png":::|**Keep queries to Viva Glint data.**|Copilot in Viva Glint doesn't access data beyond what's on your dashboard.|
 
 ### Important need-to-knows
 
