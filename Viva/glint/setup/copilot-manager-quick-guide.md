@@ -47,7 +47,7 @@ ms.date: 05/20/2025
 
 | Task 3| Where to find it|
 |:-----------|:-----------|
-|**Ask Copilot in Viva Glint to dive deeper to uncover insights around your areas of interest**.<br> <br>Examples of Copilot prompts: <br><br> <ul><li> What are people saying about my [top opportunity]? </li><li> What are people recommending leaders do to improve [topic]? </li></ul> |**Copilot button** <br><br>:::image type="content" source="../../media/glint/setup/copilot-button-1.png" alt-text="Screenshot of the Copilot button on the Manager Team Summary dashboard.":::|
+|**Ask Copilot in Viva Glint to dive deeper to uncover insights around your areas of interest**. <br><br>Examples of Copilot prompts:<ul><li>What are people saying about my [top opportunity]? </li><li> What are people recommending leaders do to improve [topic]? </li></ul> |**Copilot button** <br><br>:::image type="content" source="../../media/glint/setup/copilot-button-1.png" alt-text="Screenshot of the Copilot button on the Manager Team Summary dashboard.":::|
 
 ### Quick tips for Copilot prompts
 
