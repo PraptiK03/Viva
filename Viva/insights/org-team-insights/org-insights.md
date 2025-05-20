@@ -1,5 +1,5 @@
 ---
-ms.date: 02/27/2025
+ms.date: 05/20/2025
 title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 
 author: zachminers
@@ -49,7 +49,7 @@ For further detail about privacy and organization insights, refer to our [privac
 
 When you open Viva Insights, here's what you might see on the Home page: 
 
-:::image type="content" source="images/copilot-leader-home-page.png" alt-text="Screenshot that shows the Copilot reports for organization insights.":::
+:::image type="content" source="images/org-insights-landing.png" alt-text="Screenshot that shows the Copilot reports for organization insights.":::
 
 At the top, you'll see recent insights about your organization, such as the number of uninterrupted hours your employees spent working in recent weeks. Select **Open report** to learn more about those insights. 
 
