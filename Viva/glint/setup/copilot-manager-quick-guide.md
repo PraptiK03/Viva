@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 4/17/2025
+ms.date: 05/20/2025
 ---
 
 # Manager Guide - Microsoft 365 Copilot in Viva Glint
@@ -113,6 +113,7 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 |**Comment summarization / filter**|What are people in the [Marketing] department saying about the [item]?|
 |**Comment summarization / with Viva Insights integration enabled**|Find comments from employees who work [20+ after hours a week.]<br><br> Show feedback on [manager support] from [employees with less than 10 minutes of 1:1 time per week].|
 |**Diversity and Inclusion** |What are the common concerns raised by [group] in [engineering] regarding workplace [inclusion]?<br><br> State the top three themes of the comments for question/item [number 2].|
+|**Key Outcomes**|What is the difference between comments on the recommend question and comments on the engagement question? Show sample comments.<br><br> What are the reasons engagement scores have improved? Show sample comments.|
 |**Performance and Productivity**|What feedback do employees give about the current [performance evaluation] process?<br><br> Are there any recurring themes in comments from [high-performing teams]?|
 |**Retention and Turnover**|What reasons do employees give for considering [leaving the company]?<br><br>Provide me [three comments] from [long-tenured employees].|
 |**Leadership and Management**|What are the common themes in feedback about [senior leadership?]<br><br>How do employees perceive the effectiveness of their managers?|
