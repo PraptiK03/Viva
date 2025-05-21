@@ -89,6 +89,8 @@ Try using these ideas to generate prompts that work for you. Fill in your own at
 - Tell me what people are saying about [wellbeing] at work.
 - Show comments related to [career development].
 - Tell me what employees in [APAC] are saying about [work-life balance].
+- What is the difference between comments on the [Recommend] question and comments on the [Engagement] question? Show sample comments.
+- What are the reasons [Engagement] scores have improved? Show sample comments.
 
 <br>
 <br>
@@ -112,7 +114,6 @@ Fill in your own attributes, filters, survey names, or employee names where the 
 |**Comment summarization / filter**|What are people in the [Marketing] department saying about the [item]?|
 |**Comment summarization / with Viva Insights integration enabled**|Find comments from employees who work [20+ after hours a week.]<br><br> Show feedback on [manager support] from [employees with less than 10 minutes of 1:1 time per week].|
 |**Diversity and Inclusion** |What are the common concerns raised by [group] in [engineering] regarding workplace [inclusion]?<br><br> State the top three themes of the comments for question/item [number 2].|
-|**Key Outcomes**|What is the difference between comments on the Recommend question and comments on the Engagement question? Show sample comments.<br><br> What are the reasons Engagement scores have improved? Show sample comments.|
 |**Performance and Productivity**|What feedback do employees give about the current [performance evaluation] process?<br><br> Are there any recurring themes in comments from [high-performing teams]?|
 |**Retention and Turnover**|What reasons do employees give for considering [leaving the company]?<br><br>Provide me [three comments] from [long-tenured employees].|
 |**Leadership and Management**|What are the common themes in feedback about [senior leadership?]<br><br>How do employees perceive the effectiveness of their managers?|
