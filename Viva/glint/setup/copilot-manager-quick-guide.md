@@ -92,11 +92,6 @@ Try using these ideas to generate prompts that work for you. Fill in your own at
 - What is the difference between comments on the [Recommend] question and comments on the [Engagement] question? Show sample comments.
 - What are the reasons [Engagement] scores have improved? Show sample comments.
 
-<br>
-<br>
-<br>
-<br>
-
 #### Deep-dive example
 
 **Prompt: Summarize the "Microsoft Viva People Success Elements." Then suggest a few concrete actions for me, as a Department Manager, to improve my employee engagement score. Please use the comments in the [date/name] survey.**
