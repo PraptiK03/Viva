@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/20/2025
+ms.date: 05/21/2025
 ---
 
 # Manager Guide - Microsoft 365 Copilot in Viva Glint
@@ -75,7 +75,7 @@ ms.date: 05/20/2025
 
 ### Prompt starters
 
-Try using these ideas to generate prompts that work for you. Fill in your own attributes, filters, survey names, or employee names where the examples have **square brackets**.
+Try using these ideas to generate prompts that work for you. Fill in your own attributes, filters, survey names, survey items, or employee names where the examples have **square brackets**.
 
 - Summarize all comments for me.
 - What are employees saying at my organization?
