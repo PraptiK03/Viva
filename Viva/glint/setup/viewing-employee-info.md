@@ -45,8 +45,6 @@ For employees with extended roles, other sections are visible. They may include:
 
 View and manage what data and people a user has access to. This section is editable by selecting the **pencil symbol**. The **Customize User Role** dialog box opens. To add a User Role to a profile, select from the list that appears in the dialog box. Changes made override any previous role exclusions. Select **Save.**
 
-**KRISTI - I DON'T KNOW THE ANSWER TO WHY OME ROLES ARE NOT SELECTABLE. WHAT ARE YOU TRYING TO GET AT?**
-
 :::image type="content" source="../../media/glint/setup/people-customize-role.png" alt-text="Screenshot of the Customize User Role dialog box in the People feature.":::
 
 ### Company Admin: Advanced Configuration Access
