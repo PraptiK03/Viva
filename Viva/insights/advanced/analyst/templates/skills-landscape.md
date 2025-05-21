@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 05/20/2025
+ms.date: 05/21/2025
 title: Skills landscape report
 description: Navigate the skills landscape report in Viva Insights
 author: zachminers
@@ -120,6 +120,16 @@ This is the total number or percentage of people in your organization who have e
 
 
 ### People Skills introduction
+
+This page introduces the basics of People Skills and provides a summary of your organization's skills data. This page can help you:
+
+* Understand how People Skills infers and provides data 
+
+* Identify how many people are included in this report. If the number doesn't look correct, contact your admin for more information 
+
+* Discover how many people have confirmed their skills. As more people confirm their skills, the data's relevance improves
+
+### Top skills at a glance
 
 This page provides a top-level overview of the skills being used across the measured population in the organization.
 
