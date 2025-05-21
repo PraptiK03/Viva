@@ -145,6 +145,8 @@ items:
         items:  
             - name: Manage Support users 
               href: setup/add-external-user.md
+            - name: View and manage user profiles
+              href: setup/viewing-employee-info.md
             - name: Export and import User Role members 
               href: setup/export-user-roles.md
             - name: Delete user data 
