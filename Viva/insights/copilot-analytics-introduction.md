@@ -1,5 +1,5 @@
 ---
-ms.date: 04/21/2025
+ms.date: 05/22/2025
 title: Copilot Analytics introduction
 description: Explains how to set up and use Copilot Analytics in Viva Insights, including the Microsoft Copilot Dashboard and Advanced Reporting.
 author: zachminers
@@ -34,7 +34,7 @@ Copilot Analytics encompasses three areas:
 
 | Tool | Scenario |
 |---|---|
-| Readiness and adoption report | This report, available in the Microsoft 365 admin center, provides a starting point to help inform your Copilot license deployment and rollout strategy and to monitor adoption. It includes reports on: <br><br /><li>[Readiness](/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness)<li>[Usage](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage)<li>[Copilot chat](/microsoft-365/admin/activity-reports/microsoft-copilot-usage)<li>[AI Adoption score](/microsoft-365/admin/adoption/ai-adoption-score)<li>Agents<li>Message consumption |
+| Readiness and adoption report | This report, available in the Microsoft 365 admin center, provides a starting point to help inform your Copilot license deployment and rollout strategy and to monitor adoption. It helps you identify which users to assign licenses to, both for initial assignments and assignment changes over time. It includes reports on: <br><br /><li>[Readiness](/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness)<li>[Usage](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage)<li>[Copilot chat](/microsoft-365/admin/activity-reports/microsoft-copilot-usage)<li>[AI Adoption score](/microsoft-365/admin/adoption/ai-adoption-score)<li>Agents<li>[Message consumption](/microsoft-365/admin/activity-reports/message-consumption) |
 | Copilot Dashboard | Once you've deployed Copilot, the Copilot Dashboard provides insights and metrics that help you understand usage and evaluate the impact across your organization. The report includes details of Copilot actions taken across each Microsoft 365 app, estimated financial savings, and learning resources. [Learn more](./org-team-insights/copilot-dashboard.md). |
 | Advanced Reporting | Advanced Reporting enables organizations to dive deeper into Copilot usage and impact through both pre-configured Power BI report templates and fully customizable queries. You can select from more than 100 Copilot metrics and customize filters to answer granular and specific questions. You can also upload business impact data to measure Copilot's impact using the metrics that matter most to your organization. [See the list of pre-configured templates](#copilot-analytics-pbi-reports). |
 
