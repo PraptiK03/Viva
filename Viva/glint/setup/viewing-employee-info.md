@@ -101,13 +101,13 @@ Admin access defines which people the user can manage. This section is editable 
 
 ## Focus Area Access
 
-Focus Area access defines which people's data this use can see in Focus Area reports. This section is editable by selecting the **pencil symbol**. The **Customize Focus Area Access** dialog opens. Select **+ New Population** to add new groups and filters for this user.  Changes made override defaults. Select **Save.**
+Focus Area access defines which people's data this use can see in Focus Area reports. This section is editable by selecting the **pencil symbol**. The **Customize Focus Area Access** dialog opens. Select **+ New Population** to add new groups and filters for this user. Changes made override defaults. Select **Save.**
 
 :::image type="content" source="../../media/glint/setup/people-custom-focus-area.png" alt-text="Screenshot of the Customize Focus Area Access dialog box in the People feature.":::
 
 ## Survey Access
 
-This person's survey access appears by individual survey name. This section is editable by selecting the **pencil symbol**. The **Customize Survey Data Access** dialog opens. Select **+ New Population** to add new groups and filters for this user.  Changes made override defaults. Select **Save.**
+This person's survey access appears by individual survey name. This section is editable by selecting the **pencil symbol**. The **Customize Survey Data Access** dialog opens. Select **+ New Population** to add new groups and filters for this user. Changes made override defaults. Select **Save.**
 
 :::image type="content" source="../../media/glint/setup/people-survey-access.png" alt-text="Screenshot of the Customize Survey Data Access dialog box in the People feature.":::
 
