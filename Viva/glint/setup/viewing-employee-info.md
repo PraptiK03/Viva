@@ -97,7 +97,7 @@ View and manage what data and people a user has access to. This section is edita
 
 Admin access defines which people the user can manage. This section is editable by selecting the **pencil symbol**. The **Customize Admin Access** dialog opens. Select **+ New Population** to add new groups and filters for this user. Changes made override defaults. Select **Save.**
 
-:::image type="content" source="../../media/glint/setup/people-customize-admin.png" alt-text="Screenshot of the Customize Admin Access dialog box in the People feature.":::
+:::image type="content" source="../../media/glint/setup/people-customize-admin2.png" alt-text="Screenshot of the Customize Admin Access dialog box in the People feature.":::
 
 ## Focus Area Access
 
@@ -131,7 +131,7 @@ In the Attributes section, attributes show for this user as defined in your late
 
 ## Survey programs
 
-If a user was or is invited to Viva Glint surveys, each survey program is listed in the Survey programs section. To view a list of specific survey cycles, expand each survey program with the right-facing arrow.
+This section lists all of a user's current and past survey programs that they're invited to. To view a list of specific survey cycles, expand each survey program with the right-facing arrow.
 
 
 
