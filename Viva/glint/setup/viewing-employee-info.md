@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/21/2025
+ms.date: 05/23/2025
 ---
 
 # Use Viva Glint's People page to view employee information
@@ -33,52 +33,6 @@ For each employee, the following information is visible:
 This example is a snapshot of an employee's detail page:
 
 :::image type="content" source="../../media/glint/setup/people-header-row2.png" alt-text="Screenshot of fictitious employee People page.":::
-
-## Manage employee information
-
-For employees with extended roles, other sections are visible. They may include:
-
-### User Roles
-
-View and manage what data and people a user has access to. This section is editable by selecting the **pencil symbol**. The **Customize User Role** dialog opens. To add a User Role to a profile, select from the list that appears in the dialog. Changes made override any previous role exclusions. Select **Save.**
-
-:::image type="content" source="../../media/glint/setup/people-customize-role2.png" alt-text="Screenshot of the Customize User Role dialog box in the People feature.":::
-
-### Company Admin: Advanced Configuration Access
-
-[Advanced Configuration settings](/../../viva/glint/setup/understand-advanced-configuration) are used to help manage your account and are available for users in the Company Admin role. This setting must be on for Advanced Support users. This section is editable by selecting the **pencil symbol**. The **Advanced Configuration access** dialog opens. Toggle to enable. Select **Save.**
-
-:::image type="content" source="../../media/glint/setup/people-advanced-config-access.png" alt-text="Screenshot of the Advanced Configuration Access dialog box in the People feature.":::
-
-### Admin Access
-
-Admin access defines which people the user can manage. This section is editable by selecting the **pencil symbol**. The **Customize Admin Access** dialog opens. Select **+ New Population** to add new groups and filters for this user. Changes made override defaults. Select **Save.**
-
-:::image type="content" source="../../media/glint/setup/people-customize-admin.png" alt-text="Screenshot of the Customize Admin Access dialog box in the People feature.":::
-
-### Focus Area Access
-
-Focus Area access defines which people's data this use can see in Focus Area reports. This section is editable by selecting the **pencil symbol**. The **Customize Focus Area Access** dialog opens. Select **+ New Population** to add new groups and filters for this user.  Changes made override defaults. Select **Save.**
-
-:::image type="content" source="../../media/glint/setup/people-custom-focus-area.png" alt-text="Screenshot of the Customize Focus Area Access dialog box in the People feature.":::
-
-### Survey Access
-
-This person's survey access appears by individual survey name. This section is editable by selecting the **pencil symbol**. The **Customize Survey Data Access** dialog opens. Select **+ New Population** to add new groups and filters for this user.  Changes made override defaults. Select **Save.**
-
-:::image type="content" source="../../media/glint/setup/people-survey-access.png" alt-text="Screenshot of the Customize Survey Data Access dialog box in the People feature.":::
-
-> [!CAUTION]
-> Microsoft rules govern viewing and exporting raw data to protect employee confidentiality. Review [raw data exports](employee-raw-data-export.md) within our Security and Privacy documents.
-
-> [!NOTE]
-> For more information on granting custom access or granting custom access in bulk, see:
-> - [User Roles with custom data access in Viva Glint](custom-user-role.md)
-> - [Custom data access in Viva Glint](custom-access.md)
-
-## View attributes
-
-In the Attributes section, attributes show for this user as defined in your latest employee data upload.
 
 ## Use the View As function 
 
@@ -126,6 +80,58 @@ By deleting this user, you also remove:
 - Their ability to sign in to your company’s Viva Glint client
   
 :::image type="content" source="../../media/glint/setup/people-delete-user.png" alt-text="Screenshot of the Delete Support User dialog box in the People feature.":::
+
+## User Roles
+
+View and manage what data and people a user has access to. This section is editable by selecting the **pencil symbol**. The **Customize User Role** dialog opens. To add a User Role to a profile, select from the list that appears in the dialog. Changes made override any previous role exclusions. Select **Save.**
+
+:::image type="content" source="../../media/glint/setup/people-customize-role2.png" alt-text="Screenshot of the Customize User Role dialog box in the People feature.":::
+
+## Company Admin: Advanced Configuration Access
+
+[Advanced Configuration settings](/../../viva/glint/setup/understand-advanced-configuration) are used to help manage your account and are available for users in the Company Admin role. This setting must be on for Advanced Support users. This section is editable by selecting the **pencil symbol**. The **Advanced Configuration access** dialog opens. Toggle to enable. Select **Save.**
+
+:::image type="content" source="../../media/glint/setup/people-advanced-config-access.png" alt-text="Screenshot of the Advanced Configuration Access dialog box in the People feature.":::
+
+## Admin Access
+
+Admin access defines which people the user can manage. This section is editable by selecting the **pencil symbol**. The **Customize Admin Access** dialog opens. Select **+ New Population** to add new groups and filters for this user. Changes made override defaults. Select **Save.**
+
+:::image type="content" source="../../media/glint/setup/people-customize-admin2.png" alt-text="Screenshot of the Customize Admin Access dialog box in the People feature.":::
+
+## Focus Area Access
+
+Focus Area access defines which people's data this user can see in Focus Area reports. This section is editable by selecting the **pencil symbol**. The **Customize Focus Area Access** dialog opens. Select **+ New Population** to add new groups and filters for this user. Changes made override defaults. Select **Save.**
+
+:::image type="content" source="../../media/glint/setup/people-custom-focus-area.png" alt-text="Screenshot of the Customize Focus Area Access dialog box in the People feature.":::
+
+## Survey Access
+
+This person's survey access appears by individual survey name. This section is editable by selecting the **pencil symbol**. The **Customize Survey Data Access** dialog opens. Select **+ New Population** to add new groups and filters for this user. Changes made override defaults. Select **Save.**
+
+:::image type="content" source="../../media/glint/setup/people-survey-access.png" alt-text="Screenshot of the Customize Survey Data Access dialog box in the People feature.":::
+
+> [!CAUTION]
+> Microsoft rules govern viewing and exporting raw data to protect employee confidentiality. Review [raw data exports](employee-raw-data-export.md) within our Security and Privacy documents.
+
+> [!NOTE]
+> For more information on granting custom access or granting custom access in bulk, see:
+> - [User Roles with custom data access in Viva Glint](custom-user-role.md)
+> - [Custom data access in Viva Glint](custom-access.md)
+
+## Attributes
+
+In the Attributes section, attributes show for this user as defined in your latest employee data upload. This section includes:
+
+- **Hierarchies**: A list of each hierarchy group and the values for each hierarchy level for this user.
+- **Standard attributes**: A list of visible custom attributes for this user, like Hire Date or Department.
+
+> [!NOTE]
+> When custom attributes have [their Visibility set to Off](update-attributes.md#update-custom-attribute-visibility), data doesn't appear on a user's profile.
+
+## Survey programs
+
+This section lists all of a user's current and past survey programs that they're invited to. To view a list of specific survey cycles, expand each survey program with the right-facing arrow.
 
 
 
