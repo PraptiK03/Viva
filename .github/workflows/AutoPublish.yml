@@ -15,7 +15,7 @@ jobs:
 
   auto-publish:
     if: github.repository_owner == 'MicrosoftDocs' && contains(github.event.repository.topics, 'build')
-    uses: MicrosoftDocs/max-cpub-test/.github/workflows/Shared-AutoPublish.yml@AutoPublish-Test
+    uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-AutoPublishV2.yml@workflows-prod
     with:
         PayloadJson: ${{ toJSON(github) }}
         EnableAutoPublish: true
