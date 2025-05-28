@@ -41,11 +41,7 @@ In case `SuccessfulSyncedObjectsCount` isn't zero and you still can’t see the 
 
 1. Check if you're added as a member of the [applied group](https://admin.microsoft.com/Adminportal/Home#/groups/:/TeamDetails/e813e5d8-d251-4024-a6b0-276bc39eecff/Members).
 
-2. Check if Mail enabled security group is applied to the folder or file. You can check the group type at the [Microsoft Entra admin center](https://entra.microsoft.com).
-
-3. If you added a security group, check if the security group is mail enabled. 
-    1. Security groups without main enabled are 'Global Groups.' To mail enable them, convert them to a [universal group](/previous-versions/windows/it-pro/windows-server-2003/cc755692(v=ws.10)) and then add an email for the group.  
-
+2. Check if Microsoft 365 or security group is applied to the folder or file. You can check the group type at the [Microsoft Entra admin center](https://entra.microsoft.com).
  
 In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab, refer to the following error messages:
 
@@ -53,7 +49,7 @@ In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab,
 |Error code | Error description | Next Steps | 
 | - | - | - | 
 | `SP_INVALID_FOLDER_URL` | Folder-URL isn't valid, only folder-URL are supported. Adding document libraries directly isn't supported.| Add the files in a folder and add the folder URL in the learning app repository. For more information, see our documentation on configuring your [SharePoint content source](/viva/learning/configure-sharepoint-content-source#folder-url-document-library-curation)
-|`SP_NO_M365_PERMISSIONS_FOUND` | Every item needs to have Microsoft 365 group or Mail-enabled security group (MESG) to light-up inside Viva Learning. | <br> Apply [Microsoft 365 group](sharepoint-permissions.md) or Mail-enabled security group directly to the folder. <br> Open the folder and for a file check if the Microsoft 365 group or Mail-enabled security group (MESG) group is directly applied on the file items. </br> <br> To check if group is directly applied to the folder/file item: <li> In SharePoint go to the folder or file and select **More options** > **Manage access** > **More options** > **Advanced settings**. <li> Check whether the group you added is listed and has "Domain Group" as its Type. <br> <li> Check the group type at the Microsoft Entra admin center.|
+|`SP_NO_M365_PERMISSIONS_FOUND` | Every item needs to have Microsoft 365 group or security group to light-up inside Viva Learning. | <br> Apply [Microsoft 365 group](sharepoint-permissions.md) or security group directly to the folder. <br> Open the folder and for a file check if the Microsoft 365 group or security group is directly applied on the file items. </br> <br> To check if group is directly applied to the folder/file item: <li> In SharePoint go to the folder or file and select **More options** > **Manage access** > **More options** > **Advanced settings**. <li> Check whether the group you added is listed and has "Domain Group" as its Type. <br> <li> Check the group type at the Microsoft Entra admin center.|
 |`SP_ITEM_LIMIT_REACHED`| Only 1,000 files or items can be ingested as learning objects | Purchase a Microsoft Viva Suite or Viva Learning license. | 
 | `SP_ITEM_INGESTION_FAILED` | | Raise a [support ticket](/services-hub/unified/support/open-support-requests).| 
 
@@ -75,21 +71,17 @@ In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab,
 - **What can I do if my content is not visible?**  
     1. Go to the SharePoint site added in the **Admin tab** > **Manage provider** > **SharePoint**.
     2. Go to site contents and in the Learning app repository check if the folder URLs are present.
-    3. Check if the Microsoft 365 or mail-enabled security group is applied directly to the folder.
+    3. Check if the Microsoft 365 or security group is applied directly to the folder.
         1. In SharePoint, go to the folder and select **More options** > **Manage access** > **More options** > **Advanced settings**. Check whether the group you added is listed and has "Domain Group" as its Type. You can check the group type in the [Microsoft Entra admin center](https://entra.microsoft.com).
         1. Check if you're added as a member of the [applied group](https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000006-0000-0ff1-ce00-000000000000&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect.AuthenticationProperties%3dbHvyF-kZif3K7SyNj2ScGHQFpHpoRU_qMKYXtjhNzC6aH1DUWi_7XSuzYQS7JxBVXBvZogIzp3x0DvZWJHC_0Uq6JFHTseAKZT7Na3Gd9eiqaBUgogXajEhSg8zKPAiSKq8sL6CoDhRVLx5JNhS7YnNXt68KdPRtCJIAXGNxJgYsnVCQqXfmtgLyzWEWTG5IMX7_n1YPICQbn9f5qeBo1zyDnQzgfwnB5Ke7A3Z8n96XaRSQ9Zp4LUwApDPVb-qT&response_mode=form_post&nonce=638411368973289679.ZDczYjQyODItYzZhOS00NTg4LTk2NmQtNTYzZmFhYWJjOTNiZjFmOGZlMDAtMDM3Mi00MGMwLWE0NjctNDMxZDE1ZGEwOTgz&redirect_uri=https%3a%2f%2fadmin.microsoft.com%2flanding&ui_locales=en-US&mkt=en-US&client-request-id=dc00ca38-de9f-4ba2-b0d2-e5feda954810&x-client-SKU=ID_NET472&x-client-ver=6.34.0.0&sso_nonce=AwABAAEAAAACAOz_BQD0_54Xy0NptLyMJ2RNuNKBrhlrtk3CdnROqgoPjkuGLWsbcgcUprEEZNjX9hzfnwJF1Ja9c1Ad3FdTxR2V0YzcyoQgAA&mscrid=dc00ca38-de9f-4ba2-b0d2-e5feda954810).
-    4. Open the folder and check if Microsoft 365 or mail-enabled security group (MESG) group is directly applied on the file items.  
+    4. Open the folder and check if Microsoft 365 or security group is directly applied on the file items.  
     
 > [!NOTE]
 > Check if the permission is propagating to file items present in the folder. A site owner or contributor role is required on the site for the permissions to propagate to the dependent item.
 
-- **Why can't I add a M365 group or mail-enabled security group (MESG) directly to a file or folder?**
-    - A Microsoft 365 group or mail-enabled security group (MESG) group can't be added directly to the file or folder in case the group is found on the folder or file nested in SharePoint groups. If it's already present, remove it and add directly or add a different group.
+- **Why can't I add a M365 group or security group directly to a file or folder?**
+    - A Microsoft 365 group or security group can't be added directly to the file or folder in case the group is found on the folder or file nested in SharePoint groups. If it's already present, remove it and add directly or add a different group.
     - To see if a group is already present, select the folder, then **Manage access** > **Advanced settings** > **Check permission**.
-
-- **How can I make a security group mail-enabled**? 
-
-    - Security groups without mail enabled are global groups. To mail-enable them, convert them to a [universal group](/previous-versions/windows/it-pro/windows-server-2003/cc755692(v=ws.10)) and then add an email for the group. 
 
 - **What can I do if the metadata isn't reflecting properly?**
 
